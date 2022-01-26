@@ -1,0 +1,1 @@
+Program([VarDef2Definition(VarDef(TypedVar("x",Type("str")),String("\"xXx\"")))],[For("x",Var2Exp(Var("x")),Block([Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Var2Exp(Var("x"))])))]))])

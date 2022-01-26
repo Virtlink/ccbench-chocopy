@@ -1,0 +1,2 @@
+[[VarDef]]
+print(-x)

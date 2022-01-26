@@ -1,0 +1,2 @@
+[[Definition]]
+print(-x)

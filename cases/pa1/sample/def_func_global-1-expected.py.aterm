@@ -1,0 +1,1 @@
+[VarDef2Definition(VarDef(TypedVar("z",Type("int")),Int("0"))),FuncDef2Definition(FuncDef("foo",[TypedVar("x",Type("int"))],Returns(Type("bool")),FuncBody([Global("z")],[Return(Gt(Var2Exp(Var("x")),Var2Exp(Var("z"))))])))]

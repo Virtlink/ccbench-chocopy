@@ -1,0 +1,1 @@
+FuncDef("bar",[TypedVar("y",Type("int"))],Returns(Type("int")),FuncBody([Nonlocal("a")],[Assign([Target(Var2Target(Var("a")))],Literal2Exp(Int("2"))),Return(Var2Exp(Var("y")))]))

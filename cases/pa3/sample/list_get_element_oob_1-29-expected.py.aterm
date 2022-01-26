@@ -1,0 +1,1 @@
+Call(Var2Exp(Var("print")),Exps2Parameters([Index2Exp(Index(Var2Exp(Var("x")),Negative(Literal2Exp(Int("1")))))]))

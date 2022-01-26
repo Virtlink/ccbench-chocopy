@@ -1,0 +1,3 @@
+[[Definition]]
+
+print(outer())

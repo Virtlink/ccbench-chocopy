@@ -1,0 +1,1 @@
+FuncDef2ClassBodyMember(FuncDef("set_A",[TypedVar("self",TypeS(IdString("C"))),TypedVar("val",Type("int"))],Returns(Type("object")),FuncBody([],[Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"x")))],Var2Exp(Var("val")))])))

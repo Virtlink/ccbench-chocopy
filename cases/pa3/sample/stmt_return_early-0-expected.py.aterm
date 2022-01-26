@@ -1,0 +1,1 @@
+Program([FuncDef2Definition(FuncDef("f",[],Returns(Type("int")),FuncBody([],[While(Literal2Exp(True()),Block([Return(Literal2Exp(Int("1")))])),Return(Literal2Exp(Int("0")))])))],[Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Call(Var2Exp(Var("f")),Exps2Parameters([]))])))])

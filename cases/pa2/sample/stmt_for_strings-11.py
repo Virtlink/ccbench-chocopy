@@ -1,0 +1,3 @@
+s:str = "Hello"
+
+[[Statement]]

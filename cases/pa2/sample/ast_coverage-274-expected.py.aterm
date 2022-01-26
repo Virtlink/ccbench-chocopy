@@ -1,0 +1,1 @@
+[Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Call(Member2Exp(Member(Call(Var2Exp(Var("bar")),Exps2Parameters([])),"baz")),Exps2Parameters([List([Literal2Exp(Int("1")),Literal2Exp(Int("2"))])]))])))]

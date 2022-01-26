@@ -1,0 +1,1 @@
+Add(Literal2Exp(Int("1")),Mul(Literal2Exp(Int("2")),Literal2Exp(Int("3"))))

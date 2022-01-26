@@ -1,0 +1,3 @@
+[[VarDef]]
+
+print(len(x))

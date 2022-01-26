@@ -1,0 +1,1 @@
+Program([],[Exp(Ternary(Literal2Exp(Int("3")),Gt(Literal2Exp(Int("1")),Literal2Exp(Int("2"))),Ternary(Literal2Exp(Int("4")),Lt(Literal2Exp(Int("1")),Literal2Exp(Int("0"))),Literal2Exp(Int("5")))))])

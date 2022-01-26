@@ -1,0 +1,1 @@
+Assign([Target(Var2Target(Var("t")))],Call(Var2Exp(Var("Tree")),Exps2Parameters([])))

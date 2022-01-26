@@ -1,0 +1,1 @@
+FuncDef("set_x",[],Returns(Type("int")),FuncBody([Global("x")],[Assign([Target(Var2Target(Var("x")))],Literal2Exp(Int("1"))),Return(Var2Exp(Var("x")))]))

@@ -1,0 +1,1 @@
+FuncDef2Definition(FuncDef("str_get",[TypedVar("s",Type("str")),TypedVar("i",Type("int"))],Returns(Type("str")),FuncBody([],[Return(Index2Exp(Index(Var2Exp(Var("s")),Var2Exp(Var("i")))))])))

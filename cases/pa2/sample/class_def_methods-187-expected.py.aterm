@@ -1,0 +1,1 @@
+Call(Member2Exp(Member(Var2Exp(Var("b")),"get_A")),Exps2Parameters([]))

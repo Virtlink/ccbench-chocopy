@@ -1,0 +1,1 @@
+[Nonlocal("a"),FuncDef2FuncBodyMember(FuncDef("geta",[],Returns(Type("int")),FuncBody([],[Return(Var2Exp(Var("a")))])))]

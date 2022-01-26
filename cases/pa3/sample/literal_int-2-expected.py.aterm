@@ -1,0 +1,1 @@
+[Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(Int("42"))]))),Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(Int("65999"))])))]

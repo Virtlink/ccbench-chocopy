@@ -1,0 +1,2 @@
+[[Var]](True)
+print(False)

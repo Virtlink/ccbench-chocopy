@@ -1,0 +1,1 @@
+[IfElse(Eq(Mod(Call(Member2Exp(Member(Var2Exp(Var("v")),"get")),Exps2Parameters([Var2Exp(Var("j"))])),Var2Exp(Var("k"))),Literal2Exp(Int("0"))),Block([Exp(Call(Member2Exp(Member(Var2Exp(Var("v")),"remove_at")),Exps2Parameters([Var2Exp(Var("j"))])))]),Else(Block([Assign([Target(Var2Target(Var("j")))],Add(Var2Exp(Var("j")),Literal2Exp(Int("1"))))])))]

@@ -1,0 +1,1 @@
+Program([FuncDef2Definition(FuncDef("foo",[],Returns(Type("int")),FuncBody([],[Return(Literal2Exp(Int("1")))])))],[Exp(Call(Var2Exp(Var("foo")),Exps2Parameters([])))])

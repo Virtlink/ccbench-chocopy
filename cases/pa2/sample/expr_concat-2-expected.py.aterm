@@ -1,0 +1,1 @@
+[Exp(Add(List([Literal2Exp(Int("1")),Literal2Exp(Int("2"))]),List([Literal2Exp(Int("3")),Literal2Exp(Int("4"))]))),Exp(Add(Literal2Exp(String("\"Hello \"")),Literal2Exp(String("\"World\"")))),Exp(Add(List([Literal2Exp(Int("1")),Literal2Exp(Int("2"))]),List([Literal2Exp(True())])))]

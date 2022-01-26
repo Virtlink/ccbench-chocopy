@@ -1,0 +1,1 @@
+VarDef2FuncBodyMember(VarDef(TypedVar("div",Type("int")),Int("2")))

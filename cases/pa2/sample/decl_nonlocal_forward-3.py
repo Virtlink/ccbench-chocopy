@@ -1,0 +1,3 @@
+[[FuncDef]]
+
+print(outer())

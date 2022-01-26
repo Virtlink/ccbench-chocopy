@@ -1,0 +1,1 @@
+Program([VarDef2Definition(VarDef(TypedVar("x",Type("int")),Int("1"))),VarDef2Definition(VarDef(TypedVar("o",Type("object")),NONE()))],[Assign([Target(Var2Target(Var("x"))),Target(Var2Target(Var("o")))],Literal2Exp(Int("42")))])

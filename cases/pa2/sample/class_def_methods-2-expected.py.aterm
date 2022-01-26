@@ -1,0 +1,1 @@
+ClassDef2Definition(ClassDef("A","object",ClassBodyMembers2ClassBody([VarDef2ClassBodyMember(VarDef(TypedVar("x",Type("int")),Int("1"))),FuncDef2ClassBodyMember(FuncDef("get_A",[TypedVar("self",TypeS(IdString("A")))],Returns(Type("int")),FuncBody([],[Return(Member2Exp(Member(Var2Exp(Var("self")),"x")))])))])))

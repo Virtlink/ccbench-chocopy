@@ -1,0 +1,1 @@
+Assign([Target(Var2Target(Var("x"))),Target(Var2Target(Var("o")))],Literal2Exp(Int("42")))
