@@ -12,6 +12,6 @@ def g() -> object:
 
 def h() -> object:
     print("start h")
-    [[Var]]("end h")
+    $Var("end h")
 
 print(f())

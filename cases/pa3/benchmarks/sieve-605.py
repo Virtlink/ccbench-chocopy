@@ -71,7 +71,7 @@ def vrange(i:int, j:int) -> Vector:
         v.append(i)
         i = i + 1
 
-    return [[ID]]
+    return $ID
 
 # Sieve of Eratosthenes (not really)
 def sieve(v:Vector) -> object:

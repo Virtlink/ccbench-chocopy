@@ -2,7 +2,7 @@ x:int = 0
 def crunch(zz:[[int]]) -> object:
     z:[int] = None
     global x
-    [[FuncDef]] # Set z to last element in zz
+    $FuncDef # Set z to last element in zz
 
     make_z()
     for x in z:

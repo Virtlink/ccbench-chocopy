@@ -1,6 +1,6 @@
 x:[int] = None
 
-x = [[Exp]]
+x = $Exp
 x[-1] = 4
 print(x[0])
 print(x[1])

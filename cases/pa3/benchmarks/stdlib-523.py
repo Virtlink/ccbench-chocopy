@@ -66,7 +66,7 @@ n:int = 10
 
 # Run [-nc, nc] with step size c
 s:str = ""
-[[VarDef]]
+$VarDef
 i = -n * c
 
 # Crunch

@@ -14,4 +14,4 @@ class B(A):
         a:A = None
         return a.foo(self.b)
 
-print([[Exp]]().bar())
+print($Exp().bar())

@@ -6,6 +6,6 @@ def foo(x: int) -> int:
         def baz() -> int:
             return y
         return baz()
-    return bar([[Parameters]])
+    return bar($Parameters)
     
 print(foo(g))

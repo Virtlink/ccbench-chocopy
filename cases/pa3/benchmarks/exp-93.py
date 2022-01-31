@@ -9,7 +9,7 @@ def exp(x: int, y: int) -> int:
 			return geta()
 		else:
 			a = a * x
-			return [[Var]](i-1)
+			return $Var(i-1)
 	a = 1
 	return f(y)
 

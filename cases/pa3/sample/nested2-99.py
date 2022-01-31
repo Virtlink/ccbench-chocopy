@@ -9,6 +9,6 @@ def foo(x: int) -> int:
     def qux(p: int) -> int:
         return p
 
-    return [[ID]]()
+    return $ID()
     
 print(foo(g))

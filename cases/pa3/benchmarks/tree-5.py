@@ -1,5 +1,5 @@
 # Binary-search trees
-class TreeNode([[ID]]):
+class TreeNode($ID):
 	value:int = 0
 	left:"TreeNode" = None
 	right:"TreeNode" = None

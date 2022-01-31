@@ -1,5 +1,5 @@
 x:str = "Hello"
-[[Definition]]
+$Definition
 z:str = ""
 
 z = x + y

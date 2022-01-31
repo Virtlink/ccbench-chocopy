@@ -8,7 +8,7 @@ class B(A):
         print("B")
 
 a:A = None
-[[VarDef]]
+$VarDef
 
 def get_b() -> B:
     print("Getting B")

@@ -1,6 +1,6 @@
 def f() -> int:
     print("start f")
-    [[Exp]]
+    $Exp
     print("end f")
     return 42
 

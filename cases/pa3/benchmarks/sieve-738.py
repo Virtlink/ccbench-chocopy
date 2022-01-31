@@ -84,7 +84,7 @@ def sieve(v:Vector) -> object:
         j = i + 1
         while j < v.length():
             if v.get(j) % k == 0:
-                v.remove_at([[Parameters]])
+                v.remove_at($Parameters)
             else:
                 j = j + 1
         i = i + 1

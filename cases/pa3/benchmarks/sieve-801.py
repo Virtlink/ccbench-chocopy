@@ -97,7 +97,7 @@ v:Vector = None
 i:int = 0
 
 # Crunch
-[[ID]] = vrange(2, n)
+$ID = vrange(2, n)
 sieve(v)
 
 # Print

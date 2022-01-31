@@ -9,7 +9,7 @@ class TreeNode(object):
 			if self.left is None:
 				self.left = makeNode(x)
 				return True
-			[[ElifElse]]
+			$ElifElse
 		elif x > self.value:
 			if self.right is None:
 				self.right = makeNode(x)

@@ -46,7 +46,7 @@ class Tree(object):
 				self.size = self.size + 1
 
 	def contains(self:"Tree", x:int) -> bool:
-		[[FuncBody]]
+		$FuncBody
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None

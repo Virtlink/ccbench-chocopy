@@ -13,6 +13,6 @@ b:B = None
 a = b = B()
 b.a = 1
 b.b = False
-[[Var]](a.a)
+$Var(a.a)
 print(b.a)
 print(b.b)

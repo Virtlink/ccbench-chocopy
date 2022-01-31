@@ -1,5 +1,5 @@
 if True:
-    [[Exp]]
+    $Exp
 else:
     True
 

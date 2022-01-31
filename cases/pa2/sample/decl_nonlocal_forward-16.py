@@ -1,5 +1,5 @@
 def outer() -> int:
-    def inner() -> [[Type]]:
+    def inner() -> $Type:
         nonlocal x
         x = 1
         return x

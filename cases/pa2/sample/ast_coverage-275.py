@@ -33,6 +33,6 @@ class bar(object):
 
         return "Nope"
 
-[[Statement]]
+$Statement
 
 

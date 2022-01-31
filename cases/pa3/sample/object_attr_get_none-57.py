@@ -7,7 +7,7 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-a:[[ID]] = None
+a:$ID = None
 b:B = None
 
 a = B()

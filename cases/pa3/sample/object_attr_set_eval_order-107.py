@@ -15,7 +15,7 @@ def get_b() -> B:
     return b
 
 def get_one() -> int:
-    print([[Exp]])
+    print($Exp)
     return 1
 
 def get_false() -> bool:

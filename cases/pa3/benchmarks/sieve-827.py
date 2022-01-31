@@ -101,7 +101,7 @@ v = vrange(2, n)
 sieve(v)
 
 # Print
-while [[Var]] < v.length():
+while $Var < v.length():
     print(v.get(i))
     i = i + 1
 

@@ -1,5 +1,5 @@
 g: int = 1
 def foo(x: int) -> int:
-    [[FuncBody]]
+    $FuncBody
     
 print(foo(g))

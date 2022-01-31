@@ -14,5 +14,5 @@ c:C = None
 
 a = A()
 a = B()
-b = a = [[ID]] = C()
+b = a = $ID = C()
 c = None

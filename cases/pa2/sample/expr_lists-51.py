@@ -4,7 +4,7 @@ z:[bool] = None
 o:object = None
 
 x = [1, 2, 3]
-[[Statement]]
+$Statement
 y = [1, True]
 z = [False, True]
 x = None

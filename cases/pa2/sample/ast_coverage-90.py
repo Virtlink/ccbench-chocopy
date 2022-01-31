@@ -11,7 +11,7 @@ class bar(object):
         x:int = 0
         y:int = 1
 
-        def qux(y: [[Type]]) -> object:
+        def qux(y: $Type) -> object:
             nonlocal x
             if x > y:
                 x = -1

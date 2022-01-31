@@ -1,5 +1,5 @@
 a:str = "no"
-[[VarDef]]
+$VarDef
 c:str = ""
 d:str = ""
 e:str = ""

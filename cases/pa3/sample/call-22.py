@@ -1,6 +1,6 @@
 def f() -> int:
     print("start f")
-    [[Statement]]
+    $Statement
     print("end f")
     return 42
 

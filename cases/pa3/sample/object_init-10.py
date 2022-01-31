@@ -1,5 +1,5 @@
 class A(object):
-    [[TypedVar]] = 42
+    $TypedVar = 42
 
 class B(A):
     b:bool = True

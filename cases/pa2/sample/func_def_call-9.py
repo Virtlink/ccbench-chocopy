@@ -1,4 +1,4 @@
-def foo(x:[[ID]], y:bool) -> int:
+def foo(x:$ID, y:bool) -> int:
     return bar()
 
 def bar() -> int:

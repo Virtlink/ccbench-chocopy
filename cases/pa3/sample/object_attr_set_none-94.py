@@ -13,7 +13,7 @@ b:B = None
 a = B()
 print(a.a)
 
-[[AssignTarget]] 1
+$AssignTarget 1
 b.b = False
 print(b.a)
 print(b.b)

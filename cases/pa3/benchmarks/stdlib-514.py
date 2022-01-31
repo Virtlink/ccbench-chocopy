@@ -65,7 +65,7 @@ c:int = 42
 n:int = 10
 
 # Run [-nc, nc] with step size c
-[[Definition]]
+$Definition
 i:int = 0
 i = -n * c
 

@@ -1,5 +1,5 @@
 def f() -> int:
-    while [[Exp]]:
+    while $Exp:
         return 1
     return 0
 

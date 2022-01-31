@@ -6,4 +6,4 @@ e:[int] = None
 z = [1,2,3]
 e = []
 
-[[Statement]]
+$Statement

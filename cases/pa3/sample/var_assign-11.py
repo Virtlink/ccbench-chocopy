@@ -1,4 +1,4 @@
 x:int = 0
-[[VarDef]]
+$VarDef
 x = y = 42
 print(x)

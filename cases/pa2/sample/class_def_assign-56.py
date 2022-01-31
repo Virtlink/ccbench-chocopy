@@ -9,7 +9,7 @@ class C(B):
     z:bool = True
 
 a:A = None
-[[Definition]]
+$Definition
 c:C = None
 
 a = A()

@@ -1,6 +1,6 @@
 # Test of 'input' function.
 
-s: [[Type]] = ""
+s: $Type = ""
 
 s = input()
 while len(s) > 0:

@@ -13,7 +13,7 @@ class B(A):
     def bar(self:"B") -> int:
         return self.foo(self.foo(print("...")))
 
-    def foo(self:"B", ignore:object) [[RetType]]:
+    def foo(self:"B", ignore:object) $RetType:
         return 1
 
 print(B().bar())

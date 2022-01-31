@@ -17,6 +17,6 @@ b = B()
 c = C()
 
 a.x = 1
-[[AssignTarget]] a.x
+$AssignTarget a.x
 c.z = a.x == b.x
 

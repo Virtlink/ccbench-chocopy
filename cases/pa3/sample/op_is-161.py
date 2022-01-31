@@ -16,4 +16,4 @@ print(a1 is a3)
 print(a1 is a4)
 print(a1 is None)
 print(a4 is None)
-[[Exp]]
+$Exp

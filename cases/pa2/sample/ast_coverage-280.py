@@ -33,6 +33,6 @@ class bar(object):
 
         return "Nope"
 
-print([[Parameters]])
+print($Parameters)
 
 

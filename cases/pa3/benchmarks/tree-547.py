@@ -63,7 +63,7 @@ n:int = 100
 c:int = 4
 
 # Data
-t:[[Type]] = None
+t:$Type = None
 i:int = 0
 k:int = 37813
 

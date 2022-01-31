@@ -2,6 +2,6 @@ if False:
     print("No")
 elif True:
     if True:
-        [[Var]]("Yes")
+        $Var("Yes")
 else:
     pass

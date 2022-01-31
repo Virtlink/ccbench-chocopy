@@ -12,6 +12,6 @@ print(eq(a,a))
 print(eq(a,b))
 print(neq(a,b))
 print(neq(b,b))
-[[Statement]]
+$Statement
 print(neq(c,b))
 

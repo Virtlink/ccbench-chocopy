@@ -1,6 +1,6 @@
 if False:
     pass
-elif [[Exp]]:
+elif $Exp:
     if 1 == 1:
         pass
 else:

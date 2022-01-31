@@ -1,6 +1,6 @@
 a:str = "no"
 b:str = "o"
-[[Definition]]
+$Definition
 d:str = ""
 e:str = ""
 

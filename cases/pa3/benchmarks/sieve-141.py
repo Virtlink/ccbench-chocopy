@@ -17,7 +17,7 @@ class Vector(object):
 
     # Appends one item to end of vector
     def append(self:"Vector", item: int) -> object:
-        [[FuncBody]]
+        $FuncBody
 
     # Appends many items to end of vector
     def append_all(self:"Vector", new_items: [int]) -> object:

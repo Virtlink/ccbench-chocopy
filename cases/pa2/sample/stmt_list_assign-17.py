@@ -1,5 +1,5 @@
 x:[int] = None
-y:[object] = [[Literal]]
+y:[object] = $Literal
 
 x = [1, 2]
 y = [None]

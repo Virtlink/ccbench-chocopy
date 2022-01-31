@@ -12,7 +12,7 @@ class bar(object):
         y:int = 1
 
         def qux(y: int) -> object:
-            [[FuncBody]]
+            $FuncBody
 
         for x in xx:
             self.p = x == 2

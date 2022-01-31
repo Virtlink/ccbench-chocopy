@@ -7,7 +7,7 @@ class A(object):
 class B(A):
     b:bool = True
 
-    def [[ID]](self:"B"):
+    def $ID(self:"B"):
         print("B")
 
     def bar(self:"B") -> int:

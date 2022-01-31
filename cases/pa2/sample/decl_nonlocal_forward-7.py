@@ -1,4 +1,4 @@
-def outer() -> [[Type]]:
+def outer() -> $Type:
     def inner() -> int:
         nonlocal x
         x = 1

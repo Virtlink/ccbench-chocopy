@@ -8,7 +8,7 @@ class B(A):
 class C(B):
     z:bool = True
 
-[[Definition]]
+$Definition
 b:B = None
 c:C = None
 

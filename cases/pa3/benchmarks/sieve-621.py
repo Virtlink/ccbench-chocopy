@@ -75,7 +75,7 @@ def vrange(i:int, j:int) -> Vector:
 
 # Sieve of Eratosthenes (not really)
 def sieve(v:Vector) -> object:
-    [[TypedVar]] = 0
+    $TypedVar = 0
     j:int = 0
     k:int = 0
 

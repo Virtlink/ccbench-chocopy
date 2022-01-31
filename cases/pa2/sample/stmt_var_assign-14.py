@@ -1,5 +1,5 @@
 x:int = 1
-y:[[Type]] = True
+y:$Type = True
 z:str = ""
 o:object = None
 

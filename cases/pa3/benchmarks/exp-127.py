@@ -14,7 +14,7 @@ def exp(x: int, y: int) -> int:
 	return f(y)
 
 # Input parameter
-[[ID]]:int = 42
+$ID:int = 42
 
 # Run [0, n]
 i:int = 0

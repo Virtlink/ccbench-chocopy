@@ -15,5 +15,5 @@ print(a1 is a2)
 print(a1 is a3)
 print(a1 is a4)
 print(a1 is None)
-[[Exp]]
+$Exp
 print(None is None)

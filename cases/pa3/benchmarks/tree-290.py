@@ -29,7 +29,7 @@ class TreeNode(object):
 			if self.right is None:
 				return False
 			else:
-				return self.[[ID]].contains(x)
+				return self.$ID.contains(x)
 		else:
 			return True
 

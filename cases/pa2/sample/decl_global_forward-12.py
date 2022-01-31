@@ -1,5 +1,5 @@
 def set_x() -> int:
-    global [[ID]]
+    global $ID
     x = 1
     return x
 

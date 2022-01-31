@@ -1,4 +1,4 @@
-x:str = [[STRING]]
+x:str = $STRING
 
 for x in x:
     print(x)

@@ -1,4 +1,4 @@
-class A([[ID]]):
+class A($ID):
     a:int = 42
 
 a1:A = None

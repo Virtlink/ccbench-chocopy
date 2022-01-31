@@ -3,7 +3,7 @@ y:int = 0
 z:[int] = None
 e:[int] = None
 
-[[Statement]]
+$Statement
 e = []
 
 for x in z:

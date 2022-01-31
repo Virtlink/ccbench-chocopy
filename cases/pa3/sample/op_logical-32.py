@@ -3,7 +3,7 @@ def f() -> bool:
   return True
 
 def g() -> bool:
-  [[FuncBody]]
+  $FuncBody
 
 if f() or g():      # Short-circuit
   if g() and f():   # Short-circuit

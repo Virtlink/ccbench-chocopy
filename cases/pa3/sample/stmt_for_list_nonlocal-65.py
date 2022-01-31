@@ -8,7 +8,7 @@ def crunch(zz:[[int]]) -> object:
             pass # Set z to last element in zz
 
     make_z()
-    for x in [[Exp]]:
+    for x in $Exp:
         pass # Set x to last element in z
 
 crunch([[1,2],[2,3],[4,5],[6,7]])

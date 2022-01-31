@@ -1,4 +1,4 @@
-x:[[ID]] = 1
+x:$ID = 1
 y:bool = True
 z:str = ""
 o:object = None

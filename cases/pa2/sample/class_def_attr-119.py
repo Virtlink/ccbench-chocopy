@@ -17,6 +17,6 @@ b = B()
 c = C()
 
 a.x = 1
-[[Statement]]
+$Statement
 c.z = a.x == b.x
 

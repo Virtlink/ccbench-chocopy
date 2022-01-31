@@ -9,7 +9,7 @@ def exp(x: int, y: int) -> int:
 			return geta()
 		else:
 			a = a * x
-			return f([[Parameters]])
+			return f($Parameters)
 	a = 1
 	return f(y)
 

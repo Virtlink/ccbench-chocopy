@@ -4,5 +4,5 @@ z:str = ""
 
 z = x + y
 z = x[0]
-[[Var]] = y = z
+$Var = y = z
 

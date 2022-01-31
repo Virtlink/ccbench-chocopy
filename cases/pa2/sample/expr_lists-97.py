@@ -8,5 +8,5 @@ x = []
 y = [1, True]
 z = [False, True]
 x = None
-[[ID]] = x
+$ID = x
 o = x = [1]

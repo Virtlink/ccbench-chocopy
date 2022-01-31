@@ -1,5 +1,5 @@
 x:int = 1
 
-x = [[INT]]
+x = $INT
 
 print(x)

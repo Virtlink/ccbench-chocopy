@@ -45,7 +45,7 @@ class Vector(object):
         return self.items[idx]
 
     # Retrieves the current size of the vector
-    [[ClassBodyMember]]
+    $ClassBodyMember
 
 # A faster (but more memory-consuming) implementation of vector
 class DoublingVector(Vector):

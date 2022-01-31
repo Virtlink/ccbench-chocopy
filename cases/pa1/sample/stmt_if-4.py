@@ -1,3 +1,3 @@
-if [[Exp]]:
+if $Exp:
     False
 

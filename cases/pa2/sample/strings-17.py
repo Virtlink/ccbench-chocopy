@@ -1,5 +1,5 @@
 x:str = "Hello"
-y:str = [[STRING]]
+y:str = $STRING
 z:str = ""
 
 z = x + y

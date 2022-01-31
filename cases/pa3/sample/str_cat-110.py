@@ -9,7 +9,7 @@ def cat3(a:str, b:str, c:str) -> str:
     return a + b + c
 
 print(cat2(a, b))
-[[ID]](cat2("", c))
+$ID(cat2("", c))
 print(cat3(a, " ", c))
 print(len(a))
 print(len(cat2(a,a)))

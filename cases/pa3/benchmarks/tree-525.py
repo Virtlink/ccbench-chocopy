@@ -55,7 +55,7 @@ def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None
 	b = TreeNode()
 	b.value = x
-	return [[Var]]
+	return $Var
 
 
 # Input parameters

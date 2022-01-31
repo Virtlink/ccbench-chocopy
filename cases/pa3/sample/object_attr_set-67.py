@@ -10,7 +10,7 @@ class B(A):
 a:A = None
 b:B = None
 
-[[Statement]]
+$Statement
 b.a = 1
 b.b = False
 print(a.a)

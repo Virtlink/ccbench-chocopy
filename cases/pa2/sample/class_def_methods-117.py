@@ -16,7 +16,7 @@ class C(B):
 
 a:A = None
 b:B = None
-[[VarDef]]
+$VarDef
 
 a = A()
 b = B()

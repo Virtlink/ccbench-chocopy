@@ -12,6 +12,6 @@ class B(A):
 
     def bar(self:"B") -> int:
         a:A = None
-        return [[Var]].foo(self.b)
+        return $Var.foo(self.b)
 
 print(B().bar())

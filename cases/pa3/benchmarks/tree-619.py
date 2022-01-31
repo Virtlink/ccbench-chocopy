@@ -72,7 +72,7 @@ t = Tree()
 while i < n:
 	t.insert(k)
 	k = (k * 37813) % 37831
-	[[Statement]]
+	$Statement
 	i = i + 1
 
 print(t.size)

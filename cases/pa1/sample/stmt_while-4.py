@@ -1,3 +1,3 @@
-while [[Exp]]:
+while $Exp:
     pass
 

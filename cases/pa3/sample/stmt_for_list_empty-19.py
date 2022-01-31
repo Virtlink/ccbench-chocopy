@@ -1,6 +1,6 @@
 x:int = 0
 y:int = 0
-[[VarDef]]
+$VarDef
 e:[int] = None
 
 z = [1,2,3]

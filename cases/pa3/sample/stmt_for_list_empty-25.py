@@ -1,6 +1,6 @@
 x:int = 0
 y:int = 0
-z:[int] = [[Literal]]
+z:[int] = $Literal
 e:[int] = None
 
 z = [1,2,3]

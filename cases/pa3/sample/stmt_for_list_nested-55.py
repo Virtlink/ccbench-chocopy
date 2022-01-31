@@ -5,5 +5,5 @@ z:[int] = None
 z = [1, 2, 3]
 
 for x in z:
-    for y in [[ID]]:
+    for y in $ID:
         print(x * y)

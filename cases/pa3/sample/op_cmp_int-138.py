@@ -10,7 +10,7 @@ print(x >= y)
 
 print(x == x)
 print(x != x)
-print([[Exp]])
+print($Exp)
 print(x <= x)
 print(x > x)
 print(x >= x)

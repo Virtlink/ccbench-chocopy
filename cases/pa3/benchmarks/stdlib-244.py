@@ -29,7 +29,7 @@ def str_to_int(x: str) -> int:
         if char == "-":
             if not first_char:
                 return 0 # Error
-            [[ID]] = -1
+            $ID = -1
         elif char == "0":
             digit = 0
         elif char == "1":

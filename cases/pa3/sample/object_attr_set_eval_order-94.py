@@ -14,7 +14,7 @@ def get_b() -> B:
     print("Getting B")
     return b
 
-def get_one() [[RetType]]:
+def get_one() $RetType:
     print("Getting 1")
     return 1
 

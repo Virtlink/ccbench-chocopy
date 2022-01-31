@@ -2,7 +2,7 @@ class A(object):
     x:int = 1
 
 class B(A):
-    [[ClassBodyMember]]
+    $ClassBodyMember
 
 class C(B):
     z:bool = True

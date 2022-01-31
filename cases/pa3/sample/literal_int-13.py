@@ -1,2 +1,2 @@
 print(42)
-[[Statement]]
+$Statement

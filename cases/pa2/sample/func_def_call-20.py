@@ -1,5 +1,5 @@
 def foo(x:str, y:bool) -> int:
-    [[Statement]]
+    $Statement
 
 def bar() -> int:
     return 1

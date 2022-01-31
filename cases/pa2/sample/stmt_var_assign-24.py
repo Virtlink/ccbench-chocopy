@@ -1,6 +1,6 @@
 x:int = 1
 y:bool = True
-z:str = [[STRING]]
+z:str = $STRING
 o:object = None
 
 x = 2

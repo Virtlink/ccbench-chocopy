@@ -25,7 +25,7 @@ def get_false() -> bool:
 a = b = B()
 get_b().a = get_one()
 print("Assigned B.a")
-[[Exp]]().b = get_false()
+$Exp().b = get_false()
 print("Assigned B.b")
 
 print(a.a)

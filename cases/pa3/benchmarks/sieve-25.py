@@ -3,7 +3,7 @@ class Vector(object):
     items: [int] = None
     size: int = 0
 
-    [[FuncDef]]
+    $FuncDef
 
     # Returns current capacity
     def capacity(self:"Vector") -> int:

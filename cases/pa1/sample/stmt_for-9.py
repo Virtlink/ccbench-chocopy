@@ -1,4 +1,4 @@
-x:int = [[INT]]
+x:int = $INT
 for x in [1, 2, 3]:
     print(x)
 

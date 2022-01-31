@@ -45,7 +45,7 @@ class Vector(object):
         return self.items[idx]
 
     # Retrieves the current size of the vector
-    def length(self:"Vector") -> [[Type]]:
+    def length(self:"Vector") -> $Type:
         return self.size
 
 # A faster (but more memory-consuming) implementation of vector

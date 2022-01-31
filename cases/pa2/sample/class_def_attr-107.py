@@ -16,7 +16,7 @@ a = A()
 b = B()
 c = C()
 
-[[Statement]]
+$Statement
 b.x = a.x
 c.z = a.x == b.x
 

@@ -1,6 +1,6 @@
 if False:
     print("No")
-elif [[Literal]]:
+elif $Literal:
     if True:
         print("Yes")
 else:

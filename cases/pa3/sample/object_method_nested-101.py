@@ -11,7 +11,7 @@ class B(A):
         print("B")
 
     def bar(self:"B") -> int:
-        def qux(p: bool) -> [[Type]]:
+        def qux(p: bool) -> $Type:
             return self.foo(p)
         return qux(True)
 

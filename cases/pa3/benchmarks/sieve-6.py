@@ -1,6 +1,6 @@
 # A resizable list of integers
 class Vector(object):
-    [[ClassBody]]
+    $ClassBody
 
 # A faster (but more memory-consuming) implementation of vector
 class DoublingVector(Vector):

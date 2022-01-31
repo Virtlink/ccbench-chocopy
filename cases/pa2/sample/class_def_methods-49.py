@@ -5,7 +5,7 @@ class A(object):
         return self.x
 
 class B(A):
-    def __init__([[ID]]: "B"):
+    def __init__($ID: "B"):
         pass
 
 class C(B):

@@ -1,5 +1,5 @@
 x:str = "abc"
-[[Definition]]
+$Definition
 b:str = ""
 c:str = ""
 

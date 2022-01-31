@@ -38,7 +38,7 @@ class Vector(object):
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
-        [[Statement]]
+        $Statement
 
     # Retrieves an item at a given index
     def get(self:"Vector", idx: int) -> int:

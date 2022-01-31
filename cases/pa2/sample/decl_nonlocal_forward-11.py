@@ -1,5 +1,5 @@
 def outer() -> int:
-    [[FuncBodyMember]]
+    $FuncBodyMember
     x:int = 0
     inner()
     return x

@@ -74,7 +74,7 @@ while i < n:
 	k = (k * 37813) % 37831
 	if i % c != 0:
 		t.insert(i)
-	[[Var]] = i + 1
+	$Var = i + 1
 
 print(t.size)
 

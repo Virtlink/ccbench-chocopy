@@ -5,7 +5,7 @@ class A(object):
         return self.x
 
 class B(A):
-    [[ClassBodyMember]]
+    $ClassBodyMember
 
 class C(B):
     z:bool = True

@@ -17,7 +17,7 @@ class bar(object):
                 x = -1
 
         for x in xx:
-            [[Var]].p = x == 2
+            $Var.p = x == 2
 
         qux(0) # Yay! ChocoPy
 

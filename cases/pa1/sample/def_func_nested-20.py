@@ -1,6 +1,6 @@
 
 def foo(x:int) -> bool:
-    a:[[ID]] = 0
+    a:$ID = 0
     b:int = 1
     def bar(y: int) -> int:
         a:int = 2 

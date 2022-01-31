@@ -9,7 +9,7 @@ print(x > y)
 print(x >= y)
 
 print(x == x)
-[[Statement]]
+$Statement
 print(x < x)
 print(x <= x)
 print(x > x)

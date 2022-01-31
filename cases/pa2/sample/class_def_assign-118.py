@@ -15,4 +15,4 @@ c:C = None
 a = A()
 a = B()
 b = a = c = C()
-[[Target]] = None
+$Target = None

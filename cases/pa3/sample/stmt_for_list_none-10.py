@@ -1,5 +1,5 @@
 x:int = 0
-[[Definition]]
+$Definition
 
 for x in z:
     print(x)

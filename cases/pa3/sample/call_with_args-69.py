@@ -6,7 +6,7 @@ def f(x:int) -> int:
     return x
 
     
-def g(y:[[Type]], z:int) -> object:
+def g(y:$Type, z:int) -> object:
     print("start g")
     print(y)
     print(z)

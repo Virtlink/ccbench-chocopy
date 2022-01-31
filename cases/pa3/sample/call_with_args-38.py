@@ -1,7 +1,7 @@
 def f(x:int) -> int:
     print("start f")
     print(x)
-    [[Exp]](1, x)
+    $Exp(1, x)
     print("end f")
     return x
 

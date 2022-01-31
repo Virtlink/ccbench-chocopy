@@ -32,7 +32,7 @@ def str_to_int(x: str) -> int:
             sign = -1
         elif char == "0":
             digit = 0
-        elif char == [[STRING]]:
+        elif char == $STRING:
             digit = 1
         elif char == "2":
             digit = 2

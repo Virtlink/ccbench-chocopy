@@ -18,7 +18,7 @@ def int_to_str(x: int) -> str:
     return result
 
 def str_to_int(x: str) -> int:
-    result:[[Type]] = 0
+    result:$Type = 0
     digit:int = 0
     char:str = ""
     sign:int = 1

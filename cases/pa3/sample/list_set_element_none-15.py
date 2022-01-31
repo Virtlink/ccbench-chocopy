@@ -1,4 +1,4 @@
 x:[int] = None
 
-[[Index]] = 1
+$Index = 1
 

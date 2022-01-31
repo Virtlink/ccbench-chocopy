@@ -19,7 +19,7 @@ b:B = None
 c:C = None
 
 a = A()
-[[ID]] = B()
+$ID = B()
 c = C()
 
 b.x = a.get_A()

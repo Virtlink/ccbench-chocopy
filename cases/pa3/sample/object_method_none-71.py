@@ -8,7 +8,7 @@ class B(A):
     b:bool = True
 
     def __init__(self:"B"):
-        [[Var]]("B")
+        $Var("B")
 
     def bar(self:"B") -> int:
         a:A = None

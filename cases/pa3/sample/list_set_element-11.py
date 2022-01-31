@@ -1,6 +1,6 @@
 x:[int] = None
 
-[[Statement]]
+$Statement
 x[0] = 4
 x[1] = 5
 x[2] = 6

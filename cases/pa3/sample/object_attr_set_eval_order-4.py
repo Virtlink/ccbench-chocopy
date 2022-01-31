@@ -1,4 +1,4 @@
-class [[ID]](object):
+class $ID(object):
     a:int = 42
 
 class B(A):

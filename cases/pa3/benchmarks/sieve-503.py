@@ -59,7 +59,7 @@ class DoublingVector(Vector):
         else:
             # If doubling limit has been reached, fall back to
             # standard capacity increases
-            [[Exp]].items = self.items + [0]
+            $Exp.items = self.items + [0]
         return self.capacity()
 
 # Makes a vector in the range [i, j)

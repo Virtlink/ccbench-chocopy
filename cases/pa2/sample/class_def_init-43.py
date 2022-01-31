@@ -6,7 +6,7 @@ class B(A):
         pass
 
 class C(B):
-    [[VarDef]]
+    $VarDef
 
 a:A = None
 b:B = None

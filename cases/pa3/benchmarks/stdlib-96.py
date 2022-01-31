@@ -9,7 +9,7 @@ def int_to_str(x: int) -> str:
     # Write sign if necessary
     if x < 0:
         result = "-"
-        x = -[[Exp]]
+        x = -$Exp
 
     # Write digits using a recursive call
     if x >= 10:

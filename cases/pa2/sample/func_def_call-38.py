@@ -2,6 +2,6 @@ def foo(x:str, y:bool) -> int:
     return bar()
 
 def bar() -> int:
-    return [[Exp]]
+    return $Exp
 
 foo("Hello", False)

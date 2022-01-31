@@ -4,7 +4,7 @@ class A(object):
     def get_A(self: "A") -> int:
         return self.x
 
-class [[ID]](A):
+class $ID(A):
     def __init__(self: "B"):
         pass
 

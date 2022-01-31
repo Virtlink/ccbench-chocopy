@@ -23,7 +23,7 @@ class bar(object):
 
         count = count + 1
 
-        while [[ID]] <= 0:
+        while $ID <= 0:
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p

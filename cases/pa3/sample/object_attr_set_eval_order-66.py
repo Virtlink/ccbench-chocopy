@@ -10,7 +10,7 @@ class B(A):
 a:A = None
 b:B = None
 
-[[Definition]]
+$Definition
 
 def get_one() -> int:
     print("Getting 1")

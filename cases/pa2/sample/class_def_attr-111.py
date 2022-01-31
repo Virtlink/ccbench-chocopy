@@ -16,7 +16,7 @@ a = A()
 b = B()
 c = C()
 
-[[Member]] = 1
+$Member = 1
 b.x = a.x
 c.z = a.x == b.x
 

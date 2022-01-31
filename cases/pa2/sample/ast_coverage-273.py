@@ -31,7 +31,7 @@ class bar(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        return [[STRING]]
+        return $STRING
 
 print(bar().baz([1,2]))
 

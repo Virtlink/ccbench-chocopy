@@ -24,7 +24,7 @@ class Vector(object):
         self.size = self.size + 1
 
     # Appends many items to end of vector
-    [[ClassBodyMember]]
+    $ClassBodyMember
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector", idx: int) -> object:

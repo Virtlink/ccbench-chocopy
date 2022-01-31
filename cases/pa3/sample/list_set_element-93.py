@@ -5,5 +5,5 @@ x[0] = 4
 x[1] = 5
 x[2] = 6
 print(x[0])
-print([[Index]])
+print($Index)
 print(x[2])

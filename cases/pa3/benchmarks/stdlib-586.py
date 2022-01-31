@@ -73,5 +73,5 @@ i = -n * c
 while i <= n * c:
     s = int_to_str(i)
     print(s)
-    [[AssignTarget]] str_to_int(s) + c
+    $AssignTarget str_to_int(s) + c
 

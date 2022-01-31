@@ -1,5 +1,5 @@
 a:str = "no"
-[[Definition]]
+$Definition
 c:str = ""
 d:str = ""
 e:str = ""

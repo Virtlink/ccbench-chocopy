@@ -1,5 +1,5 @@
 class A(object):
-    [[ClassBodyMember]]
+    $ClassBodyMember
 
     def get_A(self: "A") -> int:
         return self.x

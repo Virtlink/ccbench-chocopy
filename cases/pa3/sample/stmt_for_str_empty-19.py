@@ -1,6 +1,6 @@
 x:str = ""
 y:str = "123"
-[[VarDef]]
+$VarDef
 
 for x in z:
     print(x)

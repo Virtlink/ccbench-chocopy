@@ -2,7 +2,7 @@ next:int = 0
 
 def next_int() -> int:
     global next
-    next = [[Var]] + 1
+    next = $Var + 1
     return next
 
 def make_list() -> [int]:

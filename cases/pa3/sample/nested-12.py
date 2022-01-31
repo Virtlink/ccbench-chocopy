@@ -1,5 +1,5 @@
 g: int = 1
-def [[ID]](x: int) -> int:
+def $ID(x: int) -> int:
     y: int = 2
     def bar() -> int:
         z: int = 3

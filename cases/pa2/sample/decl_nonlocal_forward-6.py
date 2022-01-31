@@ -1,4 +1,4 @@
-def outer() [[RetType]]:
+def outer() $RetType:
     def inner() -> int:
         nonlocal x
         x = 1

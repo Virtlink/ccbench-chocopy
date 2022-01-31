@@ -10,7 +10,7 @@ class B(A):
 a:A = None
 b:B = None
 
-[[Target]] = B()
+$Target = B()
 print(a.a)
 
 b.a = 1

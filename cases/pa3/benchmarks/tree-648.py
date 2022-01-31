@@ -74,7 +74,7 @@ while i < n:
 	k = (k * 37813) % 37831
 	if i % c != 0:
 		t.insert(i)
-	[[AssignTarget]] i + 1
+	$AssignTarget i + 1
 
 print(t.size)
 

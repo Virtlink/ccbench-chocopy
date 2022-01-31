@@ -64,7 +64,7 @@ class DoublingVector(Vector):
 
 # Makes a vector in the range [i, j)
 def vrange(i:int, j:int) -> Vector:
-    [[TypedVar]] = None
+    $TypedVar = None
     v = DoublingVector()
     
     while i < j:

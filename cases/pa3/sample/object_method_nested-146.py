@@ -15,4 +15,4 @@ class B(A):
             return self.foo(p)
         return qux(True)
 
-print(B().[[ID]]())
+print(B().$ID())

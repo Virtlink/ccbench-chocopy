@@ -1,1 +1,1 @@
-1 + [[Literal]] + 3
+1 + $Literal + 3

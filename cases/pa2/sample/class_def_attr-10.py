@@ -1,5 +1,5 @@
 class A(object):
-    [[TypedVar]] = 1
+    $TypedVar = 1
 
 class B(A):
     def __init__(self: "B"):

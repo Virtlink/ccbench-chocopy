@@ -14,6 +14,6 @@ def g(y:int, z:int) -> object:
     print("end g")
 
 def h(msg: str) -> object:
-    print([[Exp]])
+    print($Exp)
 
 print(f(4))

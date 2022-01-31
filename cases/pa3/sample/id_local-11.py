@@ -1,5 +1,5 @@
 def f() -> int:
-  [[FuncBodyMember]]
+  $FuncBodyMember
   return x
 
 print(f())

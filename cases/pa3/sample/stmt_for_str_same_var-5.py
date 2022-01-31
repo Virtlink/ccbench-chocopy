@@ -1,4 +1,4 @@
-[[ID]]:str = "xXx"
+$ID:str = "xXx"
 
 for x in x:
     print(x)

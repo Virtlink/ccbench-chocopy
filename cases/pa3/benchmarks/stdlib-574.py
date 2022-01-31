@@ -72,6 +72,6 @@ i = -n * c
 # Crunch
 while i <= n * c:
     s = int_to_str(i)
-    [[Statement]]
+    $Statement
     i = str_to_int(s) + c
 

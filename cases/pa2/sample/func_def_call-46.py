@@ -4,4 +4,4 @@ def foo(x:str, y:bool) -> int:
 def bar() -> int:
     return 1
 
-[[ID]]("Hello", False)
+$ID("Hello", False)

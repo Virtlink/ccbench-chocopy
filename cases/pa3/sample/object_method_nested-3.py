@@ -1,4 +1,4 @@
-[[ClassDef]]
+$ClassDef
 
 class B(A):
     b:bool = True

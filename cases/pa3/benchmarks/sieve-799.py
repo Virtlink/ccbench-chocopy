@@ -97,7 +97,7 @@ v:Vector = None
 i:int = 0
 
 # Crunch
-[[Target]] = vrange(2, n)
+$Target = vrange(2, n)
 sieve(v)
 
 # Print

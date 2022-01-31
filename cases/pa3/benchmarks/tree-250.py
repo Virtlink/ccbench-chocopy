@@ -25,7 +25,7 @@ class TreeNode(object):
 				return False
 			else:
 				return self.left.contains(x)
-		[[ElifElse]]
+		$ElifElse
 
 class Tree(object):
 	root:TreeNode = None

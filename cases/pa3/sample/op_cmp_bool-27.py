@@ -1,6 +1,6 @@
 print(True == True)
 print(True == False)
-[[Statement]]
+$Statement
 print(False == False)
 print(True != True)
 print(True != False)

@@ -10,7 +10,7 @@ def get_prime(n:int) -> int:
         candidate = candidate + 1
     return 0 # Never happens
 
-def is_prime([[ID]]:int) -> bool:
+def is_prime($ID:int) -> bool:
     div:int = 2
     while div < x:
         if x % div == 0:

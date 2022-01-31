@@ -7,7 +7,7 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-a:A = [[Literal]]
+a:A = $Literal
 b:B = None
 
 a = b = B()

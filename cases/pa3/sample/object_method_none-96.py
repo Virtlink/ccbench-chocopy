@@ -11,7 +11,7 @@ class B(A):
         print("B")
 
     def bar(self:"B") -> int:
-        a:[[Type]] = None
+        a:$Type = None
         return a.foo(self.b)
 
 print(B().bar())

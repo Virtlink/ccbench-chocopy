@@ -3,4 +3,4 @@ z:str = "abc"
 
 for x in z:
     z = "doesn't matter"
-    print([[Parameters]])
+    print($Parameters)

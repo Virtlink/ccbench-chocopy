@@ -15,7 +15,7 @@ def is_prime(x:int) -> bool:
     while div < x:
         if x % div == 0:
             return False
-        [[AssignTarget]] div + 1
+        $AssignTarget div + 1
     return True
 
 # Input parameter

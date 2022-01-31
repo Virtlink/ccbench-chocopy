@@ -1,7 +1,7 @@
 class A(object):
     x:int = 1
 
-    [[ClassBodyMember]]
+    $ClassBodyMember
 
 class B(A):
     def __init__(self: "B"):

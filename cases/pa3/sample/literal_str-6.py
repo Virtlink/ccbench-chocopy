@@ -1,1 +1,1 @@
-[[Var]]("Hello World")
+$Var("Hello World")

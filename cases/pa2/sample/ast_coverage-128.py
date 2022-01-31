@@ -17,7 +17,7 @@ class bar(object):
                 x = -1
 
         for x in xx:
-            [[Statement]]
+            $Statement
 
         qux(0) # Yay! ChocoPy
 

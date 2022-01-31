@@ -94,7 +94,7 @@ n:int = 50
 
 # Data
 v:Vector = None
-i:[[Type]] = 0
+i:$Type = 0
 
 # Crunch
 v = vrange(2, n)

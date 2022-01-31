@@ -1,1 +1,1 @@
-print(1 - [[Exp]])
+print(1 - $Exp)

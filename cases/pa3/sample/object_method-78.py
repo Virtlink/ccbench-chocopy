@@ -10,6 +10,6 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-    [[ClassBodyMember]]
+    $ClassBodyMember
 
 print(B().bar())

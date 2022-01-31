@@ -1,4 +1,4 @@
-[[VarDef]]
+$VarDef
 b:str = "World"
 c:str = "ChocoPy"
 

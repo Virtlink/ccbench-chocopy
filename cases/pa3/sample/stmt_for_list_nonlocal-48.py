@@ -4,7 +4,7 @@ def crunch(zz:[[int]]) -> object:
     global x
     def make_z() -> object:
         nonlocal z
-        for [[ID]] in zz:
+        for $ID in zz:
             pass # Set z to last element in zz
 
     make_z()

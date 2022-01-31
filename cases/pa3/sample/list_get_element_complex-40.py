@@ -5,6 +5,6 @@ def next_int() -> int:
     next = next + 1
     return next
 
-[[FuncDef]]
+$FuncDef
 
 print(make_list()[next_int() - 3])

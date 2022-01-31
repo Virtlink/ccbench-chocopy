@@ -45,7 +45,7 @@ class Tree(object):
 			if self.root.insert(x):
 				self.size = self.size + 1
 
-	def contains([[TypedVar]], x:int) -> bool:
+	def contains($TypedVar, x:int) -> bool:
 		if self.root is None:
 			return False
 		else:

@@ -1,4 +1,4 @@
-[[Definition]]
+$Definition
 y:int = 7
 
 print(x == y)

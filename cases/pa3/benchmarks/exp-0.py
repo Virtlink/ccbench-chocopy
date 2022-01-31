@@ -1,2 +1,2 @@
 # Compute x**y
-[[Program]]
+$Program

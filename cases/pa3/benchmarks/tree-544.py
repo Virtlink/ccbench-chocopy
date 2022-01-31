@@ -63,7 +63,7 @@ n:int = 100
 c:int = 4
 
 # Data
-[[VarDef]]
+$VarDef
 i:int = 0
 k:int = 37813
 

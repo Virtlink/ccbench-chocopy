@@ -16,7 +16,7 @@ class Vector(object):
         return self.capacity()
 
     # Appends one item to end of vector
-    def [[ID]](self:"Vector", item: int) -> object:
+    def $ID(self:"Vector", item: int) -> object:
         if self.size == self.capacity():
             self.increase_capacity()
 

@@ -1,4 +1,4 @@
 print(object() is None)
-[[ID]](int())
+$ID(int())
 print(str())
 print(bool())

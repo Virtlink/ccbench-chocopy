@@ -1,4 +1,4 @@
 x:str = "xXx"
 
-for x in [[Var]]:
+for x in $Var:
     print(x)

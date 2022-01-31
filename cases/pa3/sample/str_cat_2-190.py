@@ -16,4 +16,4 @@ e = cat3(a, b, cat2(b, b))
 
 print(c)
 print(d)
-[[Exp]]
+$Exp

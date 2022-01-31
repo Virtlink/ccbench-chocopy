@@ -21,7 +21,7 @@ class TreeNode(object):
 
 	def contains(self:"TreeNode", x:int) -> bool:
 		if x < self.value:
-			if [[Var]].left is None:
+			if $Var.left is None:
 				return False
 			else:
 				return self.left.contains(x)

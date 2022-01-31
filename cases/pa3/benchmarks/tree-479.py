@@ -51,7 +51,7 @@ class Tree(object):
 		else:
 			return self.root.contains(x)
 
-[[FuncDef]]
+$FuncDef
 
 
 # Input parameters

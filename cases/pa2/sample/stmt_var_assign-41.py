@@ -3,7 +3,7 @@ y:bool = True
 z:str = ""
 o:object = None
 
-x = [[INT]]
+x = $INT
 y = False
 z = "Hello"
 o = z

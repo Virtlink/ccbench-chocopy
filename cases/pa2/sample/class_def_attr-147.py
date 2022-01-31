@@ -18,5 +18,5 @@ c = C()
 
 a.x = 1
 b.x = a.x
-c.z = [[Var]].x == b.x
+c.z = $Var.x == b.x
 

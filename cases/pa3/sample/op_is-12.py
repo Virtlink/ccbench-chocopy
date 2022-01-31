@@ -1,5 +1,5 @@
 class A(object):
-    a:[[Type]] = 42
+    a:$Type = 42
 
 a1:A = None
 a2:A = None

@@ -94,7 +94,7 @@ n:int = 50
 
 # Data
 v:Vector = None
-[[VarDef]]
+$VarDef
 
 # Crunch
 v = vrange(2, n)

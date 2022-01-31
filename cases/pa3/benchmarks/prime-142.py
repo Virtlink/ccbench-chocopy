@@ -15,7 +15,7 @@ def is_prime(x:int) -> bool:
     while div < x:
         if x % div == 0:
             return False
-        [[Statement]]
+        $Statement
     return True
 
 # Input parameter

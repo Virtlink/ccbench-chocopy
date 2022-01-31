@@ -83,7 +83,7 @@ def sieve(v:Vector) -> object:
         k = v.get(i)
         j = i + 1
         while j < v.length():
-            if [[Exp]](j) % k == 0:
+            if $Exp(j) % k == 0:
                 v.remove_at(j)
             else:
                 j = j + 1

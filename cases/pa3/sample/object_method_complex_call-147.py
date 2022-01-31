@@ -16,4 +16,4 @@ class B(A):
     def foo(self:"B", ignore:object) -> int:
         return 1
 
-[[Exp]](B().bar())
+$Exp(B().bar())

@@ -1,4 +1,4 @@
-x:[[ID]] = ""
+x:$ID = ""
 y:str = "123"
 z:str = "abc"
 

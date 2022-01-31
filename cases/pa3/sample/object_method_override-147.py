@@ -16,4 +16,4 @@ class B(A):
     def foo(self:"B", ignore:object) -> int:
         return 1
 
-print(B([[Parameters]]).bar())
+print(B($Parameters).bar())

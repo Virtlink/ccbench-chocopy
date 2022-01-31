@@ -4,5 +4,5 @@ z:str = "abc"
 
 for x in z:
     print(x)
-    for x in [[Literal]]:
+    for x in $Literal:
         print(x)

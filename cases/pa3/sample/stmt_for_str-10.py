@@ -1,5 +1,5 @@
 x:str = ""
-[[Definition]]
+$Definition
 
 for x in z:
     print(x)

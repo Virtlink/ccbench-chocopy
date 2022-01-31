@@ -1,4 +1,4 @@
 x:int = 0
-[[Definition]]
+$Definition
 x = y = 42
 print(x)

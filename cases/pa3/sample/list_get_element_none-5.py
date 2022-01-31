@@ -1,3 +1,3 @@
-[[ID]]:[int] = None
+$ID:[int] = None
 
 print(x[0])

@@ -21,7 +21,7 @@ class bar(object):
 
         qux(0) # Yay! ChocoPy
 
-        [[Statement]]
+        $Statement
 
         while x <= 0:
             if self.p:

@@ -26,7 +26,7 @@ def str_to_int(x: str) -> int:
 
     # Parse digits
     for char in x:
-        [[Statement]] # On error
+        $Statement # On error
         first_char = False
         result = result * 10 + digit
 

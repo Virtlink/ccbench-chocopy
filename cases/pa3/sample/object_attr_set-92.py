@@ -11,7 +11,7 @@ a:A = None
 b:B = None
 
 a = b = B()
-b.a = [[Exp]]
+b.a = $Exp
 b.b = False
 print(a.a)
 print(b.a)

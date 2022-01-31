@@ -29,7 +29,7 @@ class TreeNode(object):
 			if self.right is None:
 				return False
 			else:
-				[[Block]]
+				$Block
 		else:
 			return True
 

@@ -21,7 +21,7 @@ class Vector(object):
             self.increase_capacity()
 
         self.items[self.size] = item
-        self.size = [[Member]] + 1
+        self.size = $Member + 1
 
     # Appends many items to end of vector
     def append_all(self:"Vector", new_items: [int]) -> object:

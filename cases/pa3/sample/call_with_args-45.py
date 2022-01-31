@@ -1,7 +1,7 @@
 def f(x:int) -> int:
     print("start f")
     print(x)
-    g([[INT]], x)
+    g($INT, x)
     print("end f")
     return x
 

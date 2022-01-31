@@ -6,7 +6,7 @@ class B(A):
         pass
 
 class C(B):
-    [[ID]]:bool = True
+    $ID:bool = True
 
 a:A = None
 b:B = None

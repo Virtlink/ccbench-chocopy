@@ -3,7 +3,7 @@ def outer() -> int:
         nonlocal x
         x = 1
         return x
-    x:int = [[INT]]
+    x:int = $INT
     inner()
     return x
 

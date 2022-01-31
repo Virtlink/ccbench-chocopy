@@ -12,7 +12,7 @@ def int_to_str(x: int) -> str:
         x = -x
 
     # Write digits using a recursive call
-    if [[Exp]] >= 10:
+    if $Exp >= 10:
         result = result + int_to_str(x // 10)
     result = result + digits[x % 10]
     return result

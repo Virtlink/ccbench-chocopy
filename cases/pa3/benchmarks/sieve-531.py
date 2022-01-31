@@ -63,7 +63,7 @@ class DoublingVector(Vector):
         return self.capacity()
 
 # Makes a vector in the range [i, j)
-def [[ID]](i:int, j:int) -> Vector:
+def $ID(i:int, j:int) -> Vector:
     v:Vector = None
     v = DoublingVector()
     

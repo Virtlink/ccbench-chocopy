@@ -17,7 +17,7 @@ def int_to_str(x: int) -> str:
     result = result + digits[x % 10]
     return result
 
-def [[ID]](x: str) -> int:
+def $ID(x: str) -> int:
     result:int = 0
     digit:int = 0
     char:str = ""

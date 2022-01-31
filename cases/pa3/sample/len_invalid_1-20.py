@@ -1,3 +1,3 @@
 x:[int] = None
 
-print([[Var]](x))
+print($Var(x))

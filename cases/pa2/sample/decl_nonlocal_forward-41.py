@@ -3,7 +3,7 @@ def outer() -> int:
         nonlocal x
         x = 1
         return x
-    x:[[ID]] = 0
+    x:$ID = 0
     inner()
     return x
 

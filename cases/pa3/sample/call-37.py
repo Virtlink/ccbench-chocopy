@@ -1,7 +1,7 @@
 def f() -> int:
     print("start f")
     g()
-    print([[Literal]])
+    print($Literal)
     return 42
 
     

@@ -68,7 +68,7 @@ i:int = 0
 k:int = 37813
 
 # Crunch
-[[ID]] = Tree()
+$ID = Tree()
 while i < n:
 	t.insert(k)
 	k = (k * 37813) % 37831

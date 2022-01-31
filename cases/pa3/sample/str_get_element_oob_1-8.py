@@ -1,4 +1,4 @@
-x:str = [[Literal]]
+x:str = $Literal
 a:str = ""
 
 def str_get(s:str, i:int) -> str:

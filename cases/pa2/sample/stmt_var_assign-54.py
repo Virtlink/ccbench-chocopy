@@ -5,5 +5,5 @@ o:object = None
 
 x = 2
 y = False
-[[Var]] = "Hello"
+$Var = "Hello"
 o = z

@@ -10,7 +10,7 @@ def get_prime(n:int) -> int:
         candidate = candidate + 1
     return 0 # Never happens
 
-[[Definition]]
+$Definition
 
 # Input parameter
 n:int = 15

@@ -3,7 +3,7 @@ def set_x() -> int:
     x = 1
     return x
 
-[[VarDef]]
+$VarDef
 
 set_x()
 print(x)

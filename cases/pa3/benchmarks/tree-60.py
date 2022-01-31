@@ -5,7 +5,7 @@ class TreeNode(object):
 	right:"TreeNode" = None
 
 	def insert(self:"TreeNode", x:int) -> bool:
-		if x < [[ID]].value:
+		if x < $ID.value:
 			if self.left is None:
 				self.left = makeNode(x)
 				return True

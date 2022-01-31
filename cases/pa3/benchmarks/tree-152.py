@@ -13,7 +13,7 @@ class TreeNode(object):
 				return self.left.insert(x)
 		elif x > self.value:
 			if self.right is None:
-				self.right = [[Var]](x)
+				self.right = $Var(x)
 				return True
 			else:
 				return self.right.insert(x)

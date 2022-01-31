@@ -68,7 +68,7 @@ def vrange(i:int, j:int) -> Vector:
     v = DoublingVector()
     
     while i < j:
-        v.[[ID]](i)
+        v.$ID(i)
         i = i + 1
 
     return v

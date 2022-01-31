@@ -1,5 +1,5 @@
 if False:
-    [[Exp]]("No")
+    $Exp("No")
 elif True:
     if True:
         print("Yes")

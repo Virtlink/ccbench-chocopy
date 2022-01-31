@@ -4,7 +4,7 @@ def get_prime(n:int) -> int:
     found:int = 0
     while True:
         if is_prime(candidate):
-            found = [[Var]] + 1
+            found = $Var + 1
             if found == n:
                 return candidate
         candidate = candidate + 1

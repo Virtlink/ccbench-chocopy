@@ -23,6 +23,6 @@ b = B()
 c = C()
 
 b.x = a.get_A()
-[[Statement]]
+$Statement
 c.set_A(0)
 

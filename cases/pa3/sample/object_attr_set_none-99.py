@@ -13,7 +13,7 @@ b:B = None
 a = B()
 print(a.a)
 
-[[ID]].a = 1
+$ID.a = 1
 b.b = False
 print(b.a)
 print(b.b)

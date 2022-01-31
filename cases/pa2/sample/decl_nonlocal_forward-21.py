@@ -1,6 +1,6 @@
 def outer() -> int:
     def inner() -> int:
-        nonlocal [[ID]]
+        nonlocal $ID
         x = 1
         return x
     x:int = 0

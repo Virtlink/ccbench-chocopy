@@ -19,7 +19,7 @@ class TreeNode(object):
 				return self.right.insert(x)
 		return False
 
-	[[ClassBodyMember]]
+	$ClassBodyMember
 
 class Tree(object):
 	root:TreeNode = None

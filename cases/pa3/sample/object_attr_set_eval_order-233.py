@@ -29,5 +29,5 @@ get_b().b = get_false()
 print("Assigned B.b")
 
 print(a.a)
-print([[Var]].a)
+print($Var.a)
 print(b.b)

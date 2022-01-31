@@ -5,7 +5,7 @@ def exp(x: int, y: int) -> int:
 		nonlocal a
 		def geta() -> int:
 			return a
-		if i <= [[Exp]]:
+		if i <= $Exp:
 			return geta()
 		else:
 			a = a * x

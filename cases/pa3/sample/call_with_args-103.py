@@ -9,7 +9,7 @@ def f(x:int) -> int:
 def g(y:int, z:int) -> object:
     print("start g")
     print(y)
-    [[Exp]](z)
+    $Exp(z)
     h("h")
     print("end g")
 

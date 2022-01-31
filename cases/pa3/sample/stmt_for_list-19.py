@@ -1,7 +1,7 @@
 x:int = 0
 z:[int] = None
 
-[[Statement]]
+$Statement
 
 for x in z:
     print(x)

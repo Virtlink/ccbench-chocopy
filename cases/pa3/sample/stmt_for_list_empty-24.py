@@ -1,6 +1,6 @@
 x:int = 0
 y:int = 0
-z:[[[ID]]] = None
+z:[$ID] = None
 e:[int] = None
 
 z = [1,2,3]

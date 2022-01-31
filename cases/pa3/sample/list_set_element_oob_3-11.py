@@ -1,4 +1,4 @@
 x:[int] = None
 
-[[Statement]]
+$Statement
 x[0] = 4

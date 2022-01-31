@@ -1,4 +1,4 @@
 x:int = 1
-while [[Exp]]:
+while $Exp:
     print(x)
     x = x + 1

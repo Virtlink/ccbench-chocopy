@@ -19,7 +19,7 @@ b:B = None
 c:C = None
 
 a = A()
-[[Statement]]
+$Statement
 c = C()
 
 b.x = a.get_A()

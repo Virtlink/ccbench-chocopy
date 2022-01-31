@@ -11,6 +11,6 @@ a:A = None
 b:B = None
 
 a = b = B()
-[[Exp]](a.a)
+$Exp(a.a)
 print(b.a)
 print(b.b)

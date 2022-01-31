@@ -14,4 +14,4 @@ c:C = None
 
 a = A()
 b = B()
-[[Var]] = C()
+$Var = C()

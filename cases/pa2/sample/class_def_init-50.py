@@ -8,7 +8,7 @@ class B(A):
 class C(B):
     z:bool = True
 
-[[VarDef]]
+$VarDef
 b:B = None
 c:C = None
 

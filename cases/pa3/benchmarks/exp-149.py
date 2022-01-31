@@ -21,4 +21,4 @@ i:int = 0
 
 # Crunch
 while i <= n:
-	[[Block]]
+	$Block

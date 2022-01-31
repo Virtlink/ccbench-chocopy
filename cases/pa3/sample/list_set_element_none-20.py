@@ -1,4 +1,4 @@
 x:[int] = None
 
-x[[[Literal]]] = 1
+x[$Literal] = 1
 

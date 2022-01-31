@@ -18,5 +18,5 @@ c = C()
 
 a.x = 1
 b.x = a.x
-[[ID]].z = a.x == b.x
+$ID.z = a.x == b.x
 

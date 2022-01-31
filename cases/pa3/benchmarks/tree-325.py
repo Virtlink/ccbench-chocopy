@@ -37,7 +37,7 @@ class Tree(object):
 	root:TreeNode = None
 	size:int = 0
 
-	[[FuncDef]]
+	$FuncDef
 
 	def contains(self:"Tree", x:int) -> bool:
 		if self.root is None:

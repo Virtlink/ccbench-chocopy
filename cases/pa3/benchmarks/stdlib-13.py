@@ -1,6 +1,6 @@
 # ChocoPy library functions
 def int_to_str(x: int) -> str:
-    [[FuncBody]]
+    $FuncBody
 
 def str_to_int(x: str) -> int:
     result:int = 0

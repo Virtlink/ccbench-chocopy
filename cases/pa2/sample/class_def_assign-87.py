@@ -13,6 +13,6 @@ b:B = None
 c:C = None
 
 a = A()
-[[Var]] = B()
+$Var = B()
 b = a = c = C()
 c = None

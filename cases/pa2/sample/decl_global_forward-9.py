@@ -1,5 +1,5 @@
 def set_x() -> int:
-    [[FuncBody]]
+    $FuncBody
 
 x:int = 0
 

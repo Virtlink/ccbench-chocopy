@@ -8,5 +8,5 @@ z = concat([1,2,3], [4,5,6])
 
 while i < len(z):
     print(z[i])
-    [[Target]] = i + 1
+    $Target = i + 1
 

@@ -1,4 +1,4 @@
-x:[[[ID]]] = None
+x:[$ID] = None
 y:[object] = None
 
 x = [1, 2]

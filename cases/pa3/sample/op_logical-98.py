@@ -10,4 +10,4 @@ if f() or g():      # Short-circuit
   if g() and f():   # Short-circuit
     print("Never")
   else:
-    [[ID]](not (f() and (g() or f())))
+    $ID(not (f() and (g() or f())))

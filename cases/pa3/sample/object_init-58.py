@@ -8,4 +8,4 @@ class B(A):
         print("B")
 
 
-B([[Parameters]])
+B($Parameters)

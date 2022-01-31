@@ -2,7 +2,7 @@ g: int = 1
 def foo(x: int) -> int:
     y: int = 2
     def bar() -> int:
-        [[FuncBodyMember]]
+        $FuncBodyMember
         def baz() -> int:
             return qux(y)
         return baz()

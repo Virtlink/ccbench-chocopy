@@ -8,7 +8,7 @@ class B(A):
 class C(B):
     z:bool = True
 
-[[TypedVar]] = None
+$TypedVar = None
 b:B = None
 c:C = None
 

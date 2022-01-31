@@ -17,6 +17,6 @@ b = B()
 c = C()
 
 a.x = 1
-[[Var]].x = a.x
+$Var.x = a.x
 c.z = a.x == b.x
 

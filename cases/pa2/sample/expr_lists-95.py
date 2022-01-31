@@ -8,5 +8,5 @@ x = []
 y = [1, True]
 z = [False, True]
 x = None
-[[Target]] = x
+$Target = x
 o = x = [1]

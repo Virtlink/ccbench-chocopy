@@ -1,1 +1,1 @@
-[[Var]](None)
+$Var(None)

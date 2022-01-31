@@ -26,5 +26,5 @@ i:int = 1
 
 # Crunch
 while i <= n:
-    print(get_prime([[ID]]))
+    print(get_prime($ID))
     i = i + 1

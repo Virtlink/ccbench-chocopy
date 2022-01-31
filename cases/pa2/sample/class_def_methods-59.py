@@ -8,7 +8,7 @@ class B(A):
     def __init__(self: "B"):
         pass
 
-[[ClassDef]]
+$ClassDef
 
 a:A = None
 b:B = None

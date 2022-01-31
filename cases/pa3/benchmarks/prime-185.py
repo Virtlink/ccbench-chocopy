@@ -26,5 +26,5 @@ i:int = 1
 
 # Crunch
 while i <= n:
-    [[Statement]]
+    $Statement
     i = i + 1

@@ -1,5 +1,5 @@
 def f() -> bool:
-  print([[STRING]])
+  print($STRING)
   return True
 
 def g() -> bool:

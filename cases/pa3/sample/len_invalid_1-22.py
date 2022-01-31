@@ -1,3 +1,3 @@
 x:[int] = None
 
-print(len([[Parameters]]))
+print(len($Parameters))

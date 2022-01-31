@@ -1,5 +1,5 @@
 def f() -> int:
-    print([[STRING]])
+    print($STRING)
     g()
     print("end f")
     return 42

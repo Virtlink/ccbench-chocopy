@@ -1,1 +1,1 @@
-3 if [[Literal]] > 2 else 4
+3 if $Literal > 2 else 4

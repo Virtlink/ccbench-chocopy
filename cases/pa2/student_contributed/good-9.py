@@ -1,2 +1,2 @@
-x:int = [[INT]]
+x:int = $INT
 x * 1

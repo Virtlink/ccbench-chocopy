@@ -4,5 +4,5 @@ z:str = "abc"
 
 for x in z:
     print(x)
-    for [[ID]] in "":
+    for $ID in "":
         print(x)

@@ -1,4 +1,4 @@
-def f(x:int) -> [[ID]]:
+def f(x:int) -> $ID:
     print("start f")
     print(x)
     g(1, x)

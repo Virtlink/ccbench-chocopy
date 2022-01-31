@@ -1,4 +1,4 @@
 x:[int] = None
-[[Definition]]
+$Definition
 
 print(len(x+y))

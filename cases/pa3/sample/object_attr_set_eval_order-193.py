@@ -25,7 +25,7 @@ def get_false() -> bool:
 a = b = B()
 get_b().a = get_one()
 print("Assigned B.a")
-get_b().[[ID]] = get_false()
+get_b().$ID = get_false()
 print("Assigned B.b")
 
 print(a.a)

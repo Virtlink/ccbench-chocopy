@@ -29,5 +29,5 @@ get_b().b = get_false()
 print("Assigned B.b")
 
 print(a.a)
-[[Exp]](b.a)
+$Exp(b.a)
 print(b.b)

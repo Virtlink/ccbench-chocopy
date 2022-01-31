@@ -30,7 +30,7 @@ def str_to_int(x: str) -> int:
             if not first_char:
                 return 0 # Error
             sign = -1
-        elif [[Var]] == "0":
+        elif $Var == "0":
             digit = 0
         elif char == "1":
             digit = 1

@@ -1,4 +1,4 @@
-z:[[Type]] = 0
+z:$Type = 0
 
 def foo(x:int) -> bool:
     global z

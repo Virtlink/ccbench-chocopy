@@ -4,5 +4,5 @@ z:str = ""
 
 z = x + y
 z = x[0]
-x = [[ID]] = z
+x = $ID = z
 

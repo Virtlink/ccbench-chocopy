@@ -1,5 +1,5 @@
 x:[int] = None
-[[Definition]]
+$Definition
 
 x = [1, 2]
 y = [None]

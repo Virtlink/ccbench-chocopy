@@ -10,7 +10,7 @@ def exp(x: int, y: int) -> int:
 		else:
 			a = a * x
 			return f(i-1)
-	a = [[INT]]
+	a = $INT
 	return f(y)
 
 # Input parameter

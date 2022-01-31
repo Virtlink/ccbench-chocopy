@@ -1,2 +1,2 @@
 print(True)
-print([[Parameters]])
+print($Parameters)

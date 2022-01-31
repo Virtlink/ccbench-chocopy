@@ -1,6 +1,6 @@
 def f(x:int) -> int:
     print("start f")
-    [[Exp]](x)
+    $Exp(x)
     g(1, x)
     print("end f")
     return x

@@ -14,7 +14,7 @@ def get_b() -> B:
     print("Getting B")
     return b
 
-[[Definition]]
+$Definition
 
 def get_false() -> bool:
     print("Getting False")

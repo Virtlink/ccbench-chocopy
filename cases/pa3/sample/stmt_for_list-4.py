@@ -1,4 +1,4 @@
-[[TypedVar]] = 0
+$TypedVar = 0
 z:[int] = None
 
 z = [1, 2, 3]

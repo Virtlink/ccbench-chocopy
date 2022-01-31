@@ -5,7 +5,7 @@ class TreeNode(object):
 	right:"TreeNode" = None
 
 	def insert(self:"TreeNode", x:int) -> bool:
-		[[FuncBody]]
+		$FuncBody
 
 	def contains(self:"TreeNode", x:int) -> bool:
 		if x < self.value:

@@ -1,4 +1,4 @@
-if [[Exp]]:
+if $Exp:
     print("No")
 elif True:
     if True:

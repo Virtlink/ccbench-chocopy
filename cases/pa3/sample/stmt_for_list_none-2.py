@@ -1,4 +1,4 @@
-[[Definition]]
+$Definition
 z:[int] = None
 
 for x in z:

@@ -1,4 +1,4 @@
 print(object() is None)
-[[Exp]](int())
+$Exp(int())
 print(str())
 print(bool())

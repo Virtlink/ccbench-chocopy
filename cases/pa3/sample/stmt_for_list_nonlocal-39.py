@@ -2,7 +2,7 @@ x:int = 0
 def crunch(zz:[[int]]) -> object:
     z:[int] = None
     global x
-    def make_z() [[RetType]]:
+    def make_z() $RetType:
         nonlocal z
         for z in zz:
             pass # Set z to last element in zz

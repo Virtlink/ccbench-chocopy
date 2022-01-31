@@ -31,7 +31,7 @@ class TreeNode(object):
 			else:
 				return self.right.contains(x)
 		else:
-			[[Block]]
+			$Block
 
 class Tree(object):
 	root:TreeNode = None

@@ -24,7 +24,7 @@ class bar(object):
         count = count + 1
 
         while x <= 0:
-            [[Statement]]
+            $Statement
 
         return "Nope"
 

@@ -1,7 +1,7 @@
 # Compute x**y
 def exp(x: int, y: int) -> int:
 	a: int = 0
-	def f(i: [[ID]]) -> int:
+	def f(i: $ID) -> int:
 		nonlocal a
 		def geta() -> int:
 			return a

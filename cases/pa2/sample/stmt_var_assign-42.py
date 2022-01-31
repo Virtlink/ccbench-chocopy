@@ -4,6 +4,6 @@ z:str = ""
 o:object = None
 
 x = 2
-[[Statement]]
+$Statement
 z = "Hello"
 o = z

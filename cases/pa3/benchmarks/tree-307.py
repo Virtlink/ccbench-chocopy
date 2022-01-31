@@ -34,7 +34,7 @@ class TreeNode(object):
 			return True
 
 class Tree(object):
-	[[ClassBody]]
+	$ClassBody
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None

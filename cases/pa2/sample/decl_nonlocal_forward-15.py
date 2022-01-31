@@ -1,5 +1,5 @@
 def outer() -> int:
-    def inner() [[RetType]]:
+    def inner() $RetType:
         nonlocal x
         x = 1
         return x

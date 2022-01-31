@@ -1,6 +1,6 @@
 # Binary-search trees
 class TreeNode(object):
-	value:[[ID]] = 0
+	value:$ID = 0
 	left:"TreeNode" = None
 	right:"TreeNode" = None
 

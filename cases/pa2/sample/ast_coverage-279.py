@@ -33,6 +33,6 @@ class bar(object):
 
         return "Nope"
 
-[[ID]](bar().baz([1,2]))
+$ID(bar().baz([1,2]))
 
 

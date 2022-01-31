@@ -10,7 +10,7 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-    def bar([[ID]]:"B") -> int:
+    def bar($ID:"B") -> int:
         a:A = None
         return a.foo(self.b)
 

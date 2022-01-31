@@ -14,6 +14,6 @@ a = B()
 print(a.a)
 
 b.a = 1
-[[Exp]].b = False
+$Exp.b = False
 print(b.a)
 print(b.b)

@@ -1,4 +1,4 @@
-def f() -> [[Type]]:
+def f() -> $Type:
   x:int = 1
   return x
 

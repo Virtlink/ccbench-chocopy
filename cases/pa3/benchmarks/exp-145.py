@@ -20,6 +20,6 @@ n:int = 42
 i:int = 0
 
 # Crunch
-while [[ID]] <= n:
+while $ID <= n:
 	print(exp(2, i % 31))
 	i = i + 1

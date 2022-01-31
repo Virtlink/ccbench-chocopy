@@ -29,7 +29,7 @@ class bar(object):
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
-                [[Member]] = self is None
+                $Member = self is None
 
         return "Nope"
 

@@ -41,7 +41,7 @@ class Vector(object):
         self.size = self.size - 1
 
     # Retrieves an item at a given index
-    def get(self:"Vector", [[ID]]: int) -> int:
+    def get(self:"Vector", $ID: int) -> int:
         return self.items[idx]
 
     # Retrieves the current size of the vector

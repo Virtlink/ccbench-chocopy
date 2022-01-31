@@ -1,4 +1,4 @@
-x:[[Type]] = ""
+x:$Type = ""
 z:str = "abc"
 
 for x in z:

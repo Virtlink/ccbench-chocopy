@@ -52,7 +52,7 @@ class Tree(object):
 			return self.root.contains(x)
 
 def makeNode(x: int) -> TreeNode:
-	[[FuncBodyMember]]
+	$FuncBodyMember
 	b = TreeNode()
 	b.value = x
 	return b

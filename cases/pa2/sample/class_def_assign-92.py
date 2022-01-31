@@ -13,6 +13,6 @@ b:B = None
 c:C = None
 
 a = A()
-a = [[ID]]()
+a = $ID()
 b = a = c = C()
 c = None

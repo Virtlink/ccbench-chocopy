@@ -1,4 +1,4 @@
 x:int = 1
-[[Definition]]
+$Definition
 
 x = o = 42

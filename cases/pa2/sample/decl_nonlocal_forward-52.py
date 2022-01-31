@@ -5,6 +5,6 @@ def outer() -> int:
         return x
     x:int = 0
     inner()
-    [[Statement]]
+    $Statement
 
 print(outer())

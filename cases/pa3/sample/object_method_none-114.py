@@ -12,6 +12,6 @@ class B(A):
 
     def bar(self:"B") -> int:
         a:A = None
-        return a.foo([[ID]].b)
+        return a.foo($ID.b)
 
 print(B().bar())

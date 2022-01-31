@@ -1,4 +1,4 @@
-[[Definition]]
+$Definition
 y:bool = True
 z:str = ""
 o:object = None

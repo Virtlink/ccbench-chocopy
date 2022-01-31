@@ -1,5 +1,5 @@
 
-def foo(x:int) -> [[Type]]:
+def foo(x:int) -> $Type:
     a:int = 0
     b:int = 1
     def bar(y: int) -> int:

@@ -1,7 +1,7 @@
 def outer() -> int:
     def inner() -> int:
         nonlocal x
-        [[Statement]]
+        $Statement
         return x
     x:int = 0
     inner()

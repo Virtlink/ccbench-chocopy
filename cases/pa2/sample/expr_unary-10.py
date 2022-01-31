@@ -1,2 +1,2 @@
 -1
-not [[Exp]]
+not $Exp

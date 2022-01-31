@@ -15,5 +15,5 @@ print(a.a)
 
 b.a = 1
 b.b = False
-[[ID]](b.a)
+$ID(b.a)
 print(b.b)

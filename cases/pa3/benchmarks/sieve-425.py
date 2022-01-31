@@ -50,7 +50,7 @@ class Vector(object):
 
 # A faster (but more memory-consuming) implementation of vector
 class DoublingVector(Vector):
-    [[ClassBody]]
+    $ClassBody
 
 # Makes a vector in the range [i, j)
 def vrange(i:int, j:int) -> Vector:

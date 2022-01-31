@@ -1,6 +1,6 @@
 def f() -> bool:
   print("f called")
-  return [[Exp]]
+  return $Exp
 
 def g() -> bool:
   print("g called")

@@ -1,4 +1,4 @@
-[[FuncDef]]
+$FuncDef
 
     
 def g() -> object:

@@ -1,6 +1,6 @@
 if False:
     print("No")
 elif True:
-    [[Block]]
+    $Block
 else:
     pass

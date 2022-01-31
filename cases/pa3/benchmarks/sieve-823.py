@@ -98,7 +98,7 @@ i:int = 0
 
 # Crunch
 v = vrange(2, n)
-sieve([[ID]])
+sieve($ID)
 
 # Print
 while i < v.length():

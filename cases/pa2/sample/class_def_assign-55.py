@@ -8,7 +8,7 @@ class B(A):
 class C(B):
     z:bool = True
 
-a:A = [[Literal]]
+a:A = $Literal
 b:B = None
 c:C = None
 

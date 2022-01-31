@@ -97,7 +97,7 @@ v:Vector = None
 i:int = 0
 
 # Crunch
-v = [[ID]](2, n)
+v = $ID(2, n)
 sieve(v)
 
 # Print

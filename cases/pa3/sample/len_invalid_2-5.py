@@ -1,3 +1,3 @@
-[[ID]]:int = 1
+$ID:int = 1
 
 print(len(x))

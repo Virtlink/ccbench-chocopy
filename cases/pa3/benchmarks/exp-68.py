@@ -6,7 +6,7 @@ def exp(x: int, y: int) -> int:
 		def geta() -> int:
 			return a
 		if i <= 0:
-			return [[Exp]]
+			return $Exp
 		else:
 			a = a * x
 			return f(i-1)

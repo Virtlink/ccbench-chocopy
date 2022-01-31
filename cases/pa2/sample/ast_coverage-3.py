@@ -1,4 +1,4 @@
-[[VarDef]]
+$VarDef
 
 def foo(s: str) -> int:
     return len(s)

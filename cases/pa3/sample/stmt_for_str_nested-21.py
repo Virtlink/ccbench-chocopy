@@ -1,6 +1,6 @@
 x:str = ""
 y:str = "123"
-[[ID]]:str = "abc"
+$ID:str = "abc"
 
 for x in z:
     print(x)

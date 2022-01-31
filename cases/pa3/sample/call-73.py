@@ -8,7 +8,7 @@ def f() -> int:
 def g() -> object:
     print("start g")
     h()
-    [[Var]]("end g")
+    $Var("end g")
 
 def h() -> object:
     print("start h")

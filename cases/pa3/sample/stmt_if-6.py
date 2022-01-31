@@ -1,5 +1,5 @@
 if False:
-    [[Block]]
+    $Block
 elif True:
     if True:
         print("Yes")

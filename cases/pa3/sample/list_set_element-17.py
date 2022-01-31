@@ -1,6 +1,6 @@
 x:[int] = None
 
-x = [[Exp]]
+x = $Exp
 x[0] = 4
 x[1] = 5
 x[2] = 6

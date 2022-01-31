@@ -1,5 +1,5 @@
 def f() -> int:
-    [[ID]]("start f")
+    $ID("start f")
     g()
     print("end f")
     return 42

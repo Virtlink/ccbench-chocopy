@@ -1,5 +1,5 @@
 class A(object):
-    a:int = [[INT]]
+    a:int = $INT
 
 class B(A):
     b:bool = True

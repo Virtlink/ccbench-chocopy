@@ -26,5 +26,5 @@ i:int = 1
 
 # Crunch
 while i <= n:
-    [[ID]](get_prime(i))
+    $ID(get_prime(i))
     i = i + 1

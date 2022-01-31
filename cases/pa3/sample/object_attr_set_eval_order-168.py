@@ -23,7 +23,7 @@ def get_false() -> bool:
     return False
 
 a = b = B()
-get_b().a = [[Var]]()
+get_b().a = $Var()
 print("Assigned B.a")
 get_b().b = get_false()
 print("Assigned B.b")

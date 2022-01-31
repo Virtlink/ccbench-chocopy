@@ -20,4 +20,4 @@ n:int = 42
 i:int = 0
 
 # Crunch
-[[Statement]]
+$Statement

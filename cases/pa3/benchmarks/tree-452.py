@@ -46,7 +46,7 @@ class Tree(object):
 				self.size = self.size + 1
 
 	def contains(self:"Tree", x:int) -> bool:
-		if self.root is [[Exp]]:
+		if self.root is $Exp:
 			return False
 		else:
 			return self.root.contains(x)

@@ -1,6 +1,6 @@
 x:int = 1
 y:bool = True
-[[ID]]:str = ""
+$ID:str = ""
 o:object = None
 
 x = 2

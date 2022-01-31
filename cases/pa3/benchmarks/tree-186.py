@@ -19,7 +19,7 @@ class TreeNode(object):
 				return self.right.insert(x)
 		return False
 
-	def [[ID]](self:"TreeNode", x:int) -> bool:
+	def $ID(self:"TreeNode", x:int) -> bool:
 		if x < self.value:
 			if self.left is None:
 				return False

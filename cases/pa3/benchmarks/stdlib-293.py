@@ -34,7 +34,7 @@ def str_to_int(x: str) -> int:
             digit = 0
         elif char == "1":
             digit = 1
-        elif char == [[Literal]]:
+        elif char == $Literal:
             digit = 2
         elif char == "3":
             digit = 3

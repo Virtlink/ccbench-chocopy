@@ -20,7 +20,7 @@ class TreeNode(object):
 		return False
 
 	def contains(self:"TreeNode", x:int) -> bool:
-		[[Statement]]
+		$Statement
 
 class Tree(object):
 	root:TreeNode = None

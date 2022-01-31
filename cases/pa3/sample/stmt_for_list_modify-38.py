@@ -3,6 +3,6 @@ z:[int] = None
 
 z = [1, 2, 1]
 
-for x in [[Exp]]:
+for x in $Exp:
     z[x] = x
     print(x)

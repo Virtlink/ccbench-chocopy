@@ -3,7 +3,7 @@ class A(object):
 
 class B(A):
     def __init__(self: "B"):
-        [[FuncBody]]
+        $FuncBody
 
 class C(B):
     z:bool = True

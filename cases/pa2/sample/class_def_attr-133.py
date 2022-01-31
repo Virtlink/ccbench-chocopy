@@ -17,6 +17,6 @@ b = B()
 c = C()
 
 a.x = 1
-b.x = a.[[ID]]
+b.x = a.$ID
 c.z = a.x == b.x
 

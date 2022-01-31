@@ -8,7 +8,7 @@ def f() -> int:
 def g() -> object:
     print("start g")
     h()
-    print([[STRING]])
+    print($STRING)
 
 def h() -> object:
     print("start h")

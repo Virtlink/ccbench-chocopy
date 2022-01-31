@@ -1,6 +1,6 @@
 # A resizable list of integers
 class Vector(object):
-    [[TypedVar]] = None
+    $TypedVar = None
     size: int = 0
 
     def __init__(self:"Vector"):

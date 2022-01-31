@@ -13,6 +13,6 @@ def g(y:int, z:int) -> object:
     h("h")
     print("end g")
 
-[[FuncDef]]
+$FuncDef
 
 print(f(4))

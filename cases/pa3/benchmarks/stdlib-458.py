@@ -52,7 +52,7 @@ def str_to_int(x: str) -> int:
             digit = 8
         elif char == "9":
             digit = 9
-        [[ElifElse]] # On error
+        $ElifElse # On error
         first_char = False
         result = result * 10 + digit
 

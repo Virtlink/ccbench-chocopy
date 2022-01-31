@@ -19,7 +19,7 @@ b:B = None
 c:C = None
 
 a = A()
-[[AssignTarget]] B()
+$AssignTarget B()
 c = C()
 
 b.x = a.get_A()

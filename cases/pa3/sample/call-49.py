@@ -5,7 +5,7 @@ def f() -> int:
     return 42
 
     
-def g() -> [[ID]]:
+def g() -> $ID:
     print("start g")
     h()
     print("end g")

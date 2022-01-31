@@ -1,7 +1,7 @@
 class A(object):
     a:int = 42
 
-    def foo(self:"A", [[ID]]:object) -> int:
+    def foo(self:"A", $ID:object) -> int:
         return self.a
 
 class B(A):

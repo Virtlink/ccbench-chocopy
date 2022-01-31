@@ -17,6 +17,6 @@ b = B()
 c = C()
 
 a.x = 1
-b.x = [[Exp]]
+b.x = $Exp
 c.z = a.x == b.x
 

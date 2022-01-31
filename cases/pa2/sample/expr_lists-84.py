@@ -7,6 +7,6 @@ x = [1, 2, 3]
 x = []
 y = [1, True]
 z = [False, True]
-[[Statement]]
+$Statement
 o = x
 o = x = [1]

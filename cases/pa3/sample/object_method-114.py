@@ -13,4 +13,4 @@ class B(A):
     def bar(self:"B") -> int:
         return self.foo(self.b)
 
-[[ID]](B().bar())
+$ID(B().bar())

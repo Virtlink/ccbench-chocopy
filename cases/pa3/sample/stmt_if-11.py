@@ -1,5 +1,5 @@
 if False:
-    [[Var]]("No")
+    $Var("No")
 elif True:
     if True:
         print("Yes")

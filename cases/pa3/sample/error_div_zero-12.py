@@ -1,1 +1,1 @@
-print([[Literal]] // 0)
+print($Literal // 0)

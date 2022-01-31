@@ -4,7 +4,7 @@ class A(object):
     def get_A(self: "A") -> int:
         return self.x
 
-[[Definition]]
+$Definition
 
 class C(B):
     z:bool = True

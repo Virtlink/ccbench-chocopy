@@ -1,4 +1,4 @@
-def [[ID]]() -> int:
+def $ID() -> int:
     def inner() -> int:
         nonlocal x
         x = 1

@@ -18,5 +18,5 @@ c = C()
 
 a.x = 1
 b.x = a.x
-[[Target]] = a.x == b.x
+$Target = a.x == b.x
 

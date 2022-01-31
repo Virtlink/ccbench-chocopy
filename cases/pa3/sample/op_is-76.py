@@ -8,7 +8,7 @@ a4:A = None
 
 a1 = A()
 a2 = a1
-a3 = A([[Parameters]])
+a3 = A($Parameters)
 
 print(a1 is a1)
 print(a1 is a2)

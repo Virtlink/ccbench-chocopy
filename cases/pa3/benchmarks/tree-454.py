@@ -47,7 +47,7 @@ class Tree(object):
 
 	def contains(self:"Tree", x:int) -> bool:
 		if self.root is None:
-			[[Block]]
+			$Block
 		else:
 			return self.root.contains(x)
 

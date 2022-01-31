@@ -1,5 +1,5 @@
 x:str = "abc"
-[[TypedVar]] = ""
+$TypedVar = ""
 b:str = ""
 c:str = ""
 

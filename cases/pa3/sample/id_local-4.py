@@ -1,4 +1,4 @@
-def [[ID]]() -> int:
+def $ID() -> int:
   x:int = 1
   return x
 

@@ -53,7 +53,7 @@ class DoublingVector(Vector):
     doubling_limit:int = 1000
 
     # Overriding to do fewer resizes
-    def increase_capacity(self:"DoublingVector") -> [[ID]]:
+    def increase_capacity(self:"DoublingVector") -> $ID:
         if (self.capacity() <= self.doubling_limit // 2):
             self.items = self.items + self.items
         else:

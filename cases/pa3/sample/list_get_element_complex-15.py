@@ -1,6 +1,6 @@
 next:int = 0
 
-def next_int() -> [[Type]]:
+def next_int() -> $Type:
     global next
     next = next + 1
     return next

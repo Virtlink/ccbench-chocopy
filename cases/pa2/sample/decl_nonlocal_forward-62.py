@@ -7,4 +7,4 @@ def outer() -> int:
     inner()
     return x
 
-print([[Parameters]])
+print($Parameters)

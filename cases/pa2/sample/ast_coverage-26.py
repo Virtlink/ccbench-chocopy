@@ -1,7 +1,7 @@
 count:int = 0
 
 def foo(s: str) -> int:
-    return [[Exp]](s)
+    return $Exp(s)
 
 class bar(object):
     p: bool = True

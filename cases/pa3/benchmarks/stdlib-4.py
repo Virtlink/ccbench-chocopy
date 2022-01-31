@@ -1,5 +1,5 @@
 # ChocoPy library functions
-def [[ID]](x: int) -> str:
+def $ID(x: int) -> str:
     digits:[str] = None 
     result:str = ""
 

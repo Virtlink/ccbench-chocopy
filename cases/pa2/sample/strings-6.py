@@ -1,4 +1,4 @@
-x:[[Type]] = "Hello"
+x:$Type = "Hello"
 y:str = "World"
 z:str = ""
 

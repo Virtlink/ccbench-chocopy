@@ -1,3 +1,3 @@
-[[TypedVar]] = None
+$TypedVar = None
 
 print(x[0])

@@ -73,5 +73,5 @@ i = -n * c
 while i <= n * c:
     s = int_to_str(i)
     print(s)
-    i = [[ID]](s) + c
+    i = $ID(s) + c
 

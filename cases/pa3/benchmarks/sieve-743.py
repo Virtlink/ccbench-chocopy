@@ -85,7 +85,7 @@ def sieve(v:Vector) -> object:
         while j < v.length():
             if v.get(j) % k == 0:
                 v.remove_at(j)
-            [[ElifElse]]
+            $ElifElse
         i = i + 1
 
 # Input parameter

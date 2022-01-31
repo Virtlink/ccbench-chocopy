@@ -22,7 +22,7 @@ a = A()
 b = B()
 c = C()
 
-[[Member]] = a.get_A()
+$Member = a.get_A()
 a.x = b.get_A()
 c.set_A(0)
 

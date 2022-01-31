@@ -1,5 +1,5 @@
 # Get the n-th prime starting from 2
-def get_prime([[ID]]:int) -> int:
+def get_prime($ID:int) -> int:
     candidate:int = 2
     found:int = 0
     while True:

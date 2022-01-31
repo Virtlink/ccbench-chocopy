@@ -17,7 +17,7 @@ def exp(x: int, y: int) -> int:
 n:int = 42
 
 # Run [0, n]
-i:int = [[INT]]
+i:int = $INT
 
 # Crunch
 while i <= n:

@@ -26,5 +26,5 @@ i:int = 1
 
 # Crunch
 while i <= n:
-    [[Var]](get_prime(i))
+    $Var(get_prime(i))
     i = i + 1

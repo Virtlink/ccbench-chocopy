@@ -26,7 +26,7 @@ class Vector(object):
     # Appends many items to end of vector
     def append_all(self:"Vector", new_items: [int]) -> object:
         item:int = 0
-        for item in [[Exp]]:
+        for item in $Exp:
             self.append(item)
 
     # Removes an item from the middle of vector

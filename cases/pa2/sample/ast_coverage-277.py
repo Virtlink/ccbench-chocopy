@@ -33,6 +33,6 @@ class bar(object):
 
         return "Nope"
 
-[[Exp]](bar().baz([1,2]))
+$Exp(bar().baz([1,2]))
 
 

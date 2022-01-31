@@ -97,7 +97,7 @@ v:Vector = None
 i:int = 0
 
 # Crunch
-v = vrange([[INT]], n)
+v = vrange($INT, n)
 sieve(v)
 
 # Print

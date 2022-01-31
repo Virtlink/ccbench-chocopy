@@ -13,5 +13,5 @@ print(eq(a,b))
 print(neq(a,b))
 print(neq(b,b))
 print(eq(c,a))
-print([[ID]](c,b))
+print($ID(c,b))
 

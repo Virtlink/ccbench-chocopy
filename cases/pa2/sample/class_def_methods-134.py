@@ -18,7 +18,7 @@ a:A = None
 b:B = None
 c:C = None
 
-a = A([[Parameters]])
+a = A($Parameters)
 b = B()
 c = C()
 

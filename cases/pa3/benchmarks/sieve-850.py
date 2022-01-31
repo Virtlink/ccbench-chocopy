@@ -102,6 +102,6 @@ sieve(v)
 
 # Print
 while i < v.length():
-    print([[Exp]].get(i))
+    print($Exp.get(i))
     i = i + 1
 

@@ -1,5 +1,5 @@
 a:str = "Hello"
-[[VarDef]]
+$VarDef
 c:str = "ChocoPy"
 
 def eq(a:str, b:str) -> bool:

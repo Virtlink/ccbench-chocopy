@@ -50,7 +50,7 @@ def str_to_int(x: str) -> int:
             digit = 7
         elif char == "8":
             digit = 8
-        elif char == [[STRING]]:
+        elif char == $STRING:
             digit = 9
         else:
             return 0 # On error

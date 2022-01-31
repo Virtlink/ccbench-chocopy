@@ -102,5 +102,5 @@ sieve(v)
 
 # Print
 while i < v.length():
-    [[Block]]
+    $Block
 

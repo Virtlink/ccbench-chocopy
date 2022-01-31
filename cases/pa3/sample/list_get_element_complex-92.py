@@ -8,4 +8,4 @@ def next_int() -> int:
 def make_list() -> [int]:
     return [next_int(), next_int(), next_int()]
 
-print(make_list()[next_int([[Parameters]]) - 3])
+print(make_list()[next_int($Parameters) - 3])

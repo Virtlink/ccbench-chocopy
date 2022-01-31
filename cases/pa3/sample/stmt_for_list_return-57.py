@@ -5,4 +5,4 @@ def print_list(z:[int]) -> object:
         if x >= 30:
             return
 
-[[Var]]([10,20,30,40])
+$Var([10,20,30,40])

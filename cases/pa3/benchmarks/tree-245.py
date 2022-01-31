@@ -24,7 +24,7 @@ class TreeNode(object):
 			if self.left is None:
 				return False
 			else:
-				return self.left.contains([[Parameters]])
+				return self.left.contains($Parameters)
 		elif x > self.value:
 			if self.right is None:
 				return False

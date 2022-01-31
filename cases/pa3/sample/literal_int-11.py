@@ -1,2 +1,2 @@
-print([[Literal]])
+print($Literal)
 print(65999)

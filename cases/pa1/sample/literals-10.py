@@ -1,6 +1,6 @@
 True
 False
-[[Exp]]
+$Exp
 None
 "This is a string"
 [1, 2, 3]

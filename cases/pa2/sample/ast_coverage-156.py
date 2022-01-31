@@ -21,7 +21,7 @@ class bar(object):
 
         qux(0) # Yay! ChocoPy
 
-        [[AssignTarget]] count + 1
+        $AssignTarget count + 1
 
         while x <= 0:
             if self.p:

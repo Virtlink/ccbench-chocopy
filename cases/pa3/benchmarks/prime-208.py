@@ -27,4 +27,4 @@ i:int = 1
 # Crunch
 while i <= n:
     print(get_prime(i))
-    i = [[Exp]] + 1
+    i = $Exp + 1

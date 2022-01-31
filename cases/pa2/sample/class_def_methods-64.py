@@ -9,7 +9,7 @@ class B(A):
         pass
 
 class C(B):
-    [[ClassBodyMember]]
+    $ClassBodyMember
 
     def set_A(self: "C", val: int) -> object:
         self.x = val

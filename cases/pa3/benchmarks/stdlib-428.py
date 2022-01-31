@@ -49,7 +49,7 @@ def str_to_int(x: str) -> int:
         elif char == "7":
             digit = 7
         elif char == "8":
-            [[Block]]
+            $Block
         elif char == "9":
             digit = 9
         else:

@@ -1,7 +1,7 @@
 x:[int] = None
 
 x = [1, 2, 3]
-[[Index]] = 4
+$Index = 4
 x[1] = 5
 x[2] = 6
 print(x[0])

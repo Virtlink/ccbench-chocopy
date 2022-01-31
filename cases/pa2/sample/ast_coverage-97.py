@@ -12,7 +12,7 @@ class bar(object):
         y:int = 1
 
         def qux(y: int) -> object:
-            [[FuncBodyMember]]
+            $FuncBodyMember
             if x > y:
                 x = -1
 

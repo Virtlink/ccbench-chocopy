@@ -7,7 +7,7 @@ class TreeNode(object):
 	def insert(self:"TreeNode", x:int) -> bool:
 		if x < self.value:
 			if self.left is None:
-				self.left = [[Exp]](x)
+				self.left = $Exp(x)
 				return True
 			else:
 				return self.left.insert(x)

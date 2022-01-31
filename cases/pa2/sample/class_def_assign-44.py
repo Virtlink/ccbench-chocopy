@@ -6,7 +6,7 @@ class B(A):
         pass
 
 class C(B):
-    [[TypedVar]] = True
+    $TypedVar = True
 
 a:A = None
 b:B = None

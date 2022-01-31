@@ -1,3 +1,3 @@
 x:str = "xXx"
 
-[[Statement]]
+$Statement

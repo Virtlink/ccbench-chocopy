@@ -1,5 +1,5 @@
 x:int = 1
-[[TypedVar]] = True
+$TypedVar = True
 z:str = ""
 o:object = None
 

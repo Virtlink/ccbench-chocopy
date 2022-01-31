@@ -31,7 +31,7 @@ class Vector(object):
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector", idx: int) -> object:
-        [[FuncBody]]
+        $FuncBody
 
     # Retrieves an item at a given index
     def get(self:"Vector", idx: int) -> int:

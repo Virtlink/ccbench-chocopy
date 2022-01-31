@@ -1,5 +1,5 @@
 def f() -> int:
-    print([[Literal]])
+    print($Literal)
     g()
     print("end f")
     return 42

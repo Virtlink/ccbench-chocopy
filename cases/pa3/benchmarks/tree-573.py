@@ -68,7 +68,7 @@ i:int = 0
 k:int = 37813
 
 # Crunch
-t = [[Exp]]
+t = $Exp
 while i < n:
 	t.insert(k)
 	k = (k * 37813) % 37831

@@ -13,7 +13,7 @@ def g(y:int, z:int) -> object:
     h("h")
     print("end g")
 
-def h([[TypedVar]]) -> object:
+def h($TypedVar) -> object:
     print(msg)
 
 print(f(4))

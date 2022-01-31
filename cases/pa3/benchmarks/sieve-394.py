@@ -42,7 +42,7 @@ class Vector(object):
 
     # Retrieves an item at a given index
     def get(self:"Vector", idx: int) -> int:
-        return [[ID]].items[idx]
+        return $ID.items[idx]
 
     # Retrieves the current size of the vector
     def length(self:"Vector") -> int:

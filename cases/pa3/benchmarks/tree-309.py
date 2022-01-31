@@ -34,7 +34,7 @@ class TreeNode(object):
 			return True
 
 class Tree(object):
-	[[ClassBodyMember]]
+	$ClassBodyMember
 	size:int = 0
 
 	def insert(self:"Tree", x:int) -> object:

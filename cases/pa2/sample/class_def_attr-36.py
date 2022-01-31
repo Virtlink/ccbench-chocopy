@@ -5,7 +5,7 @@ class B(A):
     def __init__(self: "B"):
         pass
 
-[[Definition]]
+$Definition
 
 a:A = None
 b:B = None

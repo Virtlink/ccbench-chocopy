@@ -1,5 +1,5 @@
 def f() -> bool:
-  [[Exp]]("f called")
+  $Exp("f called")
   return True
 
 def g() -> bool:

@@ -3,7 +3,7 @@ y:[object] = None
 z:[bool] = None
 o:object = None
 
-x = [[Exp]]
+x = $Exp
 x = []
 y = [1, True]
 z = [False, True]

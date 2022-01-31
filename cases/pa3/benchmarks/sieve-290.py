@@ -34,7 +34,7 @@ class Vector(object):
         if idx < 0:
             return
 
-        [[Statement]]
+        $Statement
 
         self.size = self.size - 1
 

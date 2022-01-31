@@ -1,3 +1,3 @@
-x:[[[Type]]] = None
+x:[$Type] = None
 
 print(x[0])

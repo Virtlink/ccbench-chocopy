@@ -1,4 +1,4 @@
-if [[Literal]]:
+if $Literal:
     pass
 elif True:
     if 1 == 1:

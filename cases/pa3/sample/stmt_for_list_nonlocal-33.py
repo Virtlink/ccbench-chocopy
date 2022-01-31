@@ -1,7 +1,7 @@
 x:int = 0
 def crunch(zz:[[int]]) -> object:
     z:[int] = None
-    [[FuncBodyMember]]
+    $FuncBodyMember
     def make_z() -> object:
         nonlocal z
         for z in zz:

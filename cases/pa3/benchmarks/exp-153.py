@@ -21,5 +21,5 @@ i:int = 0
 
 # Crunch
 while i <= n:
-	[[Exp]](exp(2, i % 31))
+	$Exp(exp(2, i % 31))
 	i = i + 1

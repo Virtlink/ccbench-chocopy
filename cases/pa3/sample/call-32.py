@@ -1,7 +1,7 @@
 def f() -> int:
     print("start f")
     g()
-    [[Var]]("end f")
+    $Var("end f")
     return 42
 
     

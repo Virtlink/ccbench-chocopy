@@ -1,3 +1,3 @@
-x:[int] = [[Literal]]
+x:[int] = $Literal
 
 print(x[0])

@@ -21,7 +21,7 @@ class bar(object):
 
         qux(0) # Yay! ChocoPy
 
-        count = count + [[Literal]]
+        count = count + $Literal
 
         while x <= 0:
             if self.p:

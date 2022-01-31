@@ -1,6 +1,6 @@
 if False:
     print("No")
-elif [[Exp]]:
+elif $Exp:
     if True:
         print("Yes")
 else:

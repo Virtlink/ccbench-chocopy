@@ -1,6 +1,6 @@
 def foo(x:str, y:bool) -> int:
     return bar()
 
-[[FuncDef]]
+$FuncDef
 
 foo("Hello", False)

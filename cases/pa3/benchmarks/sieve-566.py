@@ -67,7 +67,7 @@ def vrange(i:int, j:int) -> Vector:
     v:Vector = None
     v = DoublingVector()
     
-    [[Statement]]
+    $Statement
 
     return v
 

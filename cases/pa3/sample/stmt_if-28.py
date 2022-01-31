@@ -2,6 +2,6 @@ if False:
     print("No")
 elif True:
     if True:
-        [[Statement]]
+        $Statement
 else:
     pass

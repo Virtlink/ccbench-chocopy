@@ -12,7 +12,7 @@ a3 = A()
 
 print(a1 is a1)
 print(a1 is a2)
-print([[Exp]])
+print($Exp)
 print(a1 is a4)
 print(a1 is None)
 print(a4 is None)

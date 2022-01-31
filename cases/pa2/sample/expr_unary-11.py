@@ -1,2 +1,2 @@
 -1
-not [[Literal]]
+not $Literal

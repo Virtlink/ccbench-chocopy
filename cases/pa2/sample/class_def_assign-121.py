@@ -15,4 +15,4 @@ c:C = None
 a = A()
 a = B()
 b = a = c = C()
-c = [[Exp]]
+c = $Exp

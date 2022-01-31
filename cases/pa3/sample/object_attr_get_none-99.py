@@ -12,5 +12,5 @@ b:B = None
 
 a = B()
 print(a.a)
-print([[Exp]])
+print($Exp)
 print(b.b)

@@ -5,7 +5,7 @@ def f() -> int:
     return 42
 
     
-def g() -> [[Type]]:
+def g() -> $Type:
     print("start g")
     h()
     print("end g")

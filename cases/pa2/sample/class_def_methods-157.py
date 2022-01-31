@@ -20,7 +20,7 @@ c:C = None
 
 a = A()
 b = B()
-c = [[ID]]()
+c = $ID()
 
 b.x = a.get_A()
 a.x = b.get_A()

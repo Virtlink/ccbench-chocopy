@@ -1,7 +1,7 @@
 x:[int] = None
 y:[object] = None
 z:[bool] = None
-[[Definition]]
+$Definition
 
 x = [1, 2, 3]
 x = []

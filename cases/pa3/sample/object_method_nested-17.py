@@ -1,7 +1,7 @@
 class A(object):
     a:int = 42
 
-    [[FuncDef]]
+    $FuncDef
 
 class B(A):
     b:bool = True

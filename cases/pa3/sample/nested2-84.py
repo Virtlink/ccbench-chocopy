@@ -6,7 +6,7 @@ def foo(x: int) -> int:
         def baz() -> int:
             return qux(y)
         return baz()
-    def qux(p: int) [[RetType]]:
+    def qux(p: int) $RetType:
         return p
 
     return bar()

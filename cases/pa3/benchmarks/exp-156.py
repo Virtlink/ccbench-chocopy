@@ -21,5 +21,5 @@ i:int = 0
 
 # Crunch
 while i <= n:
-	print([[Parameters]])
+	print($Parameters)
 	i = i + 1

@@ -17,7 +17,7 @@ def int_to_str(x: int) -> str:
     result = result + digits[x % 10]
     return result
 
-[[Definition]]
+$Definition
         
 # Input parameters
 c:int = 42

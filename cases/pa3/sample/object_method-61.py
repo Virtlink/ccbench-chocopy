@@ -7,7 +7,7 @@ class A(object):
 class B(A):
     b:bool = True
 
-    def __init__(self:[[Type]]):
+    def __init__(self:$Type):
         print("B")
 
     def bar(self:"B") -> int:

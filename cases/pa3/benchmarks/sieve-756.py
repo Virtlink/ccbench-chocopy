@@ -86,7 +86,7 @@ def sieve(v:Vector) -> object:
             if v.get(j) % k == 0:
                 v.remove_at(j)
             else:
-                j = j + [[Exp]]
+                j = j + $Exp
         i = i + 1
 
 # Input parameter

@@ -1,7 +1,7 @@
 next:int = 0
 
 def next_int() -> int:
-    [[FuncBodyMember]]
+    $FuncBodyMember
     next = next + 1
     return next
 

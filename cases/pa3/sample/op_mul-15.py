@@ -1,1 +1,1 @@
-print(6*[[Exp]]*2)
+print(6*$Exp*2)

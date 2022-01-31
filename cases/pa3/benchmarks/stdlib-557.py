@@ -71,5 +71,5 @@ i = -n * c
 
 # Crunch
 while i <= n * c:
-    [[Block]]
+    $Block
 

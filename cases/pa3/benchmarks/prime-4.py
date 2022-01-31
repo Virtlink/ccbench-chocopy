@@ -1,5 +1,5 @@
 # Get the n-th prime starting from 2
-def [[ID]](n:int) -> int:
+def $ID(n:int) -> int:
     candidate:int = 2
     found:int = 0
     while True:

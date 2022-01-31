@@ -1,4 +1,4 @@
-if [[Literal]]:
+if $Literal:
     False
 else:
     True

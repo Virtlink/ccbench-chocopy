@@ -10,7 +10,7 @@ class B(A):
 a:A = None
 b:B = None
 
-a = b = [[Var]]()
+a = b = $Var()
 print(a.a)
 print(b.a)
 print(b.b)

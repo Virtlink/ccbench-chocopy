@@ -1,5 +1,5 @@
 x:str = "abc"
-[[ID]]:str = ""
+$ID:str = ""
 b:str = ""
 c:str = ""
 

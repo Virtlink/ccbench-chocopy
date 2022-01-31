@@ -69,7 +69,7 @@ def vrange(i:int, j:int) -> Vector:
     
     while i < j:
         v.append(i)
-        [[ID]] = i + 1
+        $ID = i + 1
 
     return v
 

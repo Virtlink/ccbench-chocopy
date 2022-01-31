@@ -1,7 +1,7 @@
 x:str = "abc"
 a:str = ""
 b:str = ""
-[[ID]]:str = ""
+$ID:str = ""
 
 def str_get(s:str, i:int) -> str:
     return s[i]

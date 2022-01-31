@@ -45,7 +45,7 @@ class Vector(object):
         return self.items[idx]
 
     # Retrieves the current size of the vector
-    def length(self:"[[ID]]") -> int:
+    def length(self:"$ID") -> int:
         return self.size
 
 # A faster (but more memory-consuming) implementation of vector

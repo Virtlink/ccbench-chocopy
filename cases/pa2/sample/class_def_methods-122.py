@@ -16,7 +16,7 @@ class C(B):
 
 a:A = None
 b:B = None
-c:C = [[Literal]]
+c:C = $Literal
 
 a = A()
 b = B()

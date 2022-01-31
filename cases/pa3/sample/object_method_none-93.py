@@ -11,7 +11,7 @@ class B(A):
         print("B")
 
     def bar(self:"B") -> int:
-        [[VarDef]]
+        $VarDef
         return a.foo(self.b)
 
 print(B().bar())

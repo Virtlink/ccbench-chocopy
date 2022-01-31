@@ -35,7 +35,7 @@ class TreeNode(object):
 
 class Tree(object):
 	root:TreeNode = None
-	[[ID]]:int = 0
+	$ID:int = 0
 
 	def insert(self:"Tree", x:int) -> object:
 		if self.root is None:

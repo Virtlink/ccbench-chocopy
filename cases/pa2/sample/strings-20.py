@@ -1,6 +1,6 @@
 x:str = "Hello"
 y:str = "World"
-[[TypedVar]] = ""
+$TypedVar = ""
 
 z = x + y
 z = x[0]

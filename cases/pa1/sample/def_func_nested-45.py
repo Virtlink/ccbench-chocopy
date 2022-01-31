@@ -3,7 +3,7 @@ def foo(x:int) -> bool:
     a:int = 0
     b:int = 1
     def bar(y: int) -> int:
-        [[VarDef]] 
+        $VarDef 
         return y
     return bar(x) > a
 

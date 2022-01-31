@@ -2,7 +2,7 @@ def f() -> bool:
   print("f called")
   return True
 
-def [[ID]]() -> bool:
+def $ID() -> bool:
   print("g called")
   return False
 

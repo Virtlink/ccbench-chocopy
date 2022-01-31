@@ -7,6 +7,6 @@ z = [1,2,3]
 e = []
 
 for x in z:
-    for [[ID]] in e:
+    for $ID in e:
         print("Never")
     print(x)

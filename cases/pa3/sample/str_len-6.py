@@ -1,1 +1,1 @@
-[[Var]](len("ChocoPy"))
+$Var(len("ChocoPy"))

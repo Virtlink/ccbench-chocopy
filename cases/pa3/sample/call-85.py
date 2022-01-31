@@ -10,7 +10,7 @@ def g() -> object:
     h()
     print("end g")
 
-def h() -> [[Type]]:
+def h() -> $Type:
     print("start h")
     print("end h")
 

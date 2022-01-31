@@ -1,4 +1,4 @@
-[[Definition]]
+$Definition
 z:str = "abc"
 
 for x in z:

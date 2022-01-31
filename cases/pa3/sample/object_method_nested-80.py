@@ -10,7 +10,7 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-    def [[ID]](self:"B") -> int:
+    def $ID(self:"B") -> int:
         def qux(p: bool) -> int:
             return self.foo(p)
         return qux(True)

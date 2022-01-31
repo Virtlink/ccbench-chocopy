@@ -5,7 +5,7 @@ c:str = "ChocoPy"
 def cat2(a:str, b:str) -> str:
     return a + b
 
-[[Definition]]
+$Definition
 
 print(cat2(a, b))
 print(cat2("", c))

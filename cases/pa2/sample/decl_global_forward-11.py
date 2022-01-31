@@ -1,5 +1,5 @@
 def set_x() -> int:
-    [[FuncBodyMember]]
+    $FuncBodyMember
     x = 1
     return x
 

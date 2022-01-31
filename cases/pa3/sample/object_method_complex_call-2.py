@@ -1,4 +1,4 @@
-[[Definition]]
+$Definition
 
 class B(A):
     b:bool = True

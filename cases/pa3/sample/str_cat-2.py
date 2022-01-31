@@ -1,4 +1,4 @@
-[[Definition]]
+$Definition
 b:str = "World"
 c:str = "ChocoPy"
 

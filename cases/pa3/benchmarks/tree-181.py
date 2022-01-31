@@ -17,7 +17,7 @@ class TreeNode(object):
 				return True
 			else:
 				return self.right.insert(x)
-		[[Statement]]
+		$Statement
 
 	def contains(self:"TreeNode", x:int) -> bool:
 		if x < self.value:

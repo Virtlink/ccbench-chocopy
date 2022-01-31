@@ -1,7 +1,7 @@
 z:[int] = None
 i:int = 0
 
-[[Statement]]
+$Statement
 
 while i < len(z):
     print(z[i])

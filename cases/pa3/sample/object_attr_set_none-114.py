@@ -14,6 +14,6 @@ a = B()
 print(a.a)
 
 b.a = 1
-b.b = [[Literal]]
+b.b = $Literal
 print(b.a)
 print(b.b)

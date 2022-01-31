@@ -19,7 +19,7 @@ def is_prime(x:int) -> bool:
     return True
 
 # Input parameter
-[[TypedVar]] = 15
+$TypedVar = 15
 
 # Run [1, n]
 i:int = 1

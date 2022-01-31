@@ -1,5 +1,5 @@
 def f() -> int:
-    [[Exp]]("start f")
+    $Exp("start f")
     g()
     print("end f")
     return 42

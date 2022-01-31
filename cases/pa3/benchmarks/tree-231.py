@@ -23,7 +23,7 @@ class TreeNode(object):
 		if x < self.value:
 			if self.left is None:
 				return False
-			[[ElifElse]]
+			$ElifElse
 		elif x > self.value:
 			if self.right is None:
 				return False

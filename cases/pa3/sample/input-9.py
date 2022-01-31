@@ -1,6 +1,6 @@
 # Test of 'input' function.
 
-s: str = [[STRING]]
+s: str = $STRING
 
 s = input()
 while len(s) > 0:

@@ -11,7 +11,7 @@ class B(A):
         print("B")
 
     def bar(self:"B") -> int:
-        [[FuncBody]]
+        $FuncBody
 
     def foo(self:"B", ignore:object) -> int:
         return 1

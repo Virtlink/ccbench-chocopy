@@ -10,7 +10,7 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-    def bar([[ID]]:"B") -> int:
+    def bar($ID:"B") -> int:
         return self.foo(self.b)
 
     def foo(self:"B", ignore:object) -> int:

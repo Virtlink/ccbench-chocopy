@@ -5,4 +5,4 @@ elif 3 == 4:
 elif True:
     print(3)
 else:
-    print([[Literal]])
+    print($Literal)

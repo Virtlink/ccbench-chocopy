@@ -1,5 +1,5 @@
 # A resizable list of integers
-[[Definition]]
+$Definition
 
 # A faster (but more memory-consuming) implementation of vector
 class DoublingVector(Vector):

@@ -2,4 +2,4 @@ x:int = 0
 z:[int] = None
 
 for x in z:
-    [[Var]](x)
+    $Var(x)

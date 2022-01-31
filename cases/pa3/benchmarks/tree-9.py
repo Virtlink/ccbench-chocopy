@@ -1,6 +1,6 @@
 # Binary-search trees
 class TreeNode(object):
-	[[VarDef]]
+	$VarDef
 	left:"TreeNode" = None
 	right:"TreeNode" = None
 

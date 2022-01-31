@@ -10,4 +10,4 @@ if f() or g():      # Short-circuit
   if g() and f():   # Short-circuit
     print("Never")
   else:
-    print(not ([[ID]]() and (g() or f())))
+    print(not ($ID() and (g() or f())))

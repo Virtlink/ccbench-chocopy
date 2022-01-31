@@ -7,4 +7,4 @@ def g() -> bool:
   return False
 
 if f() or g():      # Short-circuit
-  [[Block]]
+  $Block

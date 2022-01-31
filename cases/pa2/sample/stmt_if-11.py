@@ -1,6 +1,6 @@
 if False:
     pass
-elif [[Literal]]:
+elif $Literal:
     if 1 == 1:
         pass
 else:

@@ -1,6 +1,6 @@
 x:int = 0
 y:int = 0
-[[TypedVar]] = None
+$TypedVar = None
 
 z = [1, 2, 3]
 

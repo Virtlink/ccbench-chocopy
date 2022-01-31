@@ -7,7 +7,7 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-[[Definition]]
+$Definition
 b:B = None
 
 a = B()

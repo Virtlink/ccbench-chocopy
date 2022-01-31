@@ -5,7 +5,7 @@ class A(object):
         return self.x
 
 class B(A):
-    def __init__(self: "B")[[RetType]]:
+    def __init__(self: "B")$RetType:
         pass
 
 class C(B):

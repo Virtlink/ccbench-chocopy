@@ -1,6 +1,6 @@
 def set_x() -> int:
     global x
-    x = [[Literal]]
+    x = $Literal
     return x
 
 x:int = 0

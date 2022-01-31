@@ -1,4 +1,4 @@
-[[Definition]]
+$Definition
 
     
 def g(y:int, z:int) -> object:

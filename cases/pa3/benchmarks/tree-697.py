@@ -79,5 +79,5 @@ while i < n:
 print(t.size)
 
 for i in [4, 8, 15, 16, 23, 42]:
-	if [[Exp]]:
+	if $Exp:
 		print(i)

@@ -1,7 +1,7 @@
 class A(object):
     x:int = 1
 
-    def get_A(self: "A") -> [[Type]]:
+    def get_A(self: "A") -> $Type:
         return self.x
 
 class B(A):

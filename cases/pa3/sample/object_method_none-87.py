@@ -10,7 +10,7 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-    def bar(self:"B") [[RetType]]:
+    def bar(self:"B") $RetType:
         a:A = None
         return a.foo(self.b)
 

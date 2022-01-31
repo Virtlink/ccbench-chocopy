@@ -1,6 +1,6 @@
 def f() -> bool:
   print("f called")
-  [[Statement]]
+  $Statement
 
 def g() -> bool:
   print("g called")

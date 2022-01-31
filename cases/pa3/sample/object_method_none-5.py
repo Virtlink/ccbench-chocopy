@@ -1,4 +1,4 @@
-class A([[ID]]):
+class A($ID):
     a:int = 42
 
     def foo(self:"A", ignore:object) -> int:

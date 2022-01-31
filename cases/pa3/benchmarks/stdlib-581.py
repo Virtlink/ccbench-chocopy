@@ -72,6 +72,6 @@ i = -n * c
 # Crunch
 while i <= n * c:
     s = int_to_str(i)
-    print([[Exp]])
+    print($Exp)
     i = str_to_int(s) + c
 

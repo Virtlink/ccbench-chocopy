@@ -13,7 +13,7 @@ class Vector(object):
     # Increases capacity of vector by one element
     def increase_capacity(self:"Vector") -> int:
         self.items = self.items + [0]
-        return [[Var]].capacity()
+        return $Var.capacity()
 
     # Appends one item to end of vector
     def append(self:"Vector", item: int) -> object:

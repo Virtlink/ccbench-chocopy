@@ -1,5 +1,5 @@
 class A(object):
-    a:[[Type]] = 42
+    a:$Type = 42
 
 class B(A):
     b:bool = True

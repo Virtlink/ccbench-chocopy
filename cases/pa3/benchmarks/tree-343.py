@@ -38,7 +38,7 @@ class Tree(object):
 	size:int = 0
 
 	def insert(self:"Tree", x:int) -> object:
-		[[Statement]]
+		$Statement
 
 	def contains(self:"Tree", x:int) -> bool:
 		if self.root is None:

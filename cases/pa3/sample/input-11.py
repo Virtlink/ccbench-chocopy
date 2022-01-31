@@ -2,7 +2,7 @@
 
 s: str = ""
 
-[[Statement]]
+$Statement
 while len(s) > 0:
     print(s)
     s = input()

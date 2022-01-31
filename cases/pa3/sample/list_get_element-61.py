@@ -3,4 +3,4 @@ x:[int] = None
 x = [1, 2, 3]
 print(x[0])
 print(x[1])
-[[Var]](x[2])
+$Var(x[2])

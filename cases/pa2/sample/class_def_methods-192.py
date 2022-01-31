@@ -23,6 +23,6 @@ b = B()
 c = C()
 
 b.x = a.get_A()
-a.x = [[ID]].get_A()
+a.x = $ID.get_A()
 c.set_A(0)
 

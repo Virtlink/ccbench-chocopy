@@ -1,2 +1,2 @@
-[[Exp]](True)
+$Exp(True)
 print(False)

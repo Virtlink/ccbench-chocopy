@@ -1,5 +1,5 @@
 def f() -> bool:
-  print([[Literal]])
+  print($Literal)
   return True
 
 def g() -> bool:

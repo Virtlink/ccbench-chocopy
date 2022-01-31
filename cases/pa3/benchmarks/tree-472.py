@@ -49,7 +49,7 @@ class Tree(object):
 		if self.root is None:
 			return False
 		else:
-			return self.root.[[ID]](x)
+			return self.root.$ID(x)
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None

@@ -1,5 +1,5 @@
 def f() -> bool:
-  [[FuncBody]]
+  $FuncBody
 
 def g() -> bool:
   print("g called")

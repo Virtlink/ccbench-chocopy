@@ -1,4 +1,4 @@
-def f() -> [[Type]]:
+def f() -> $Type:
   print("f called")
   return True
 

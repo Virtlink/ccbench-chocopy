@@ -8,7 +8,7 @@ class B(A):
 class C(B):
     z:bool = True
 
-a:[[ID]] = None
+a:$ID = None
 b:B = None
 c:C = None
 

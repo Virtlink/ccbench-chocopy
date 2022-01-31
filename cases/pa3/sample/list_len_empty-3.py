@@ -1,4 +1,4 @@
-[[VarDef]]
+$VarDef
 
 x = []
 print(len(x))

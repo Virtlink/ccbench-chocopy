@@ -14,7 +14,7 @@ c:C = None
 
 a = A()
 b = B()
-[[Target]] = C()
+$Target = C()
 
 a.x = 1
 b.x = a.x

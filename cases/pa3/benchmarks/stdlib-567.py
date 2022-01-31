@@ -71,7 +71,7 @@ i = -n * c
 
 # Crunch
 while i <= n * c:
-    s = [[Var]](i)
+    s = $Var(i)
     print(s)
     i = str_to_int(s) + c
 

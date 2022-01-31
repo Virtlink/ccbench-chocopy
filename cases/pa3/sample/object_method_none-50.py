@@ -5,7 +5,7 @@ class A(object):
         return self.a
 
 class B(A):
-    [[TypedVar]] = True
+    $TypedVar = True
 
     def __init__(self:"B"):
         print("B")

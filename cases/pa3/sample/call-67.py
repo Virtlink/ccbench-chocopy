@@ -7,7 +7,7 @@ def f() -> int:
     
 def g() -> object:
     print("start g")
-    [[ID]]()
+    $ID()
     print("end g")
 
 def h() -> object:

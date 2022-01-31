@@ -50,7 +50,7 @@ class Vector(object):
 
 # A faster (but more memory-consuming) implementation of vector
 class DoublingVector(Vector):
-    doubling_limit:[[ID]] = 1000
+    doubling_limit:$ID = 1000
 
     # Overriding to do fewer resizes
     def increase_capacity(self:"DoublingVector") -> int:

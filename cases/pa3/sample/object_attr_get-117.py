@@ -13,4 +13,4 @@ b:B = None
 a = b = B()
 print(a.a)
 print(b.a)
-print([[Member]])
+print($Member)

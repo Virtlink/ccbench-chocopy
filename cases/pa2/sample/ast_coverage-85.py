@@ -11,7 +11,7 @@ class bar(object):
         x:int = 0
         y:int = 1
 
-        [[FuncDef]]
+        $FuncDef
 
         for x in xx:
             self.p = x == 2

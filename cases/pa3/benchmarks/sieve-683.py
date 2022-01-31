@@ -81,7 +81,7 @@ def sieve(v:Vector) -> object:
 
     while i < v.length():
         k = v.get(i)
-        [[ID]] = i + 1
+        $ID = i + 1
         while j < v.length():
             if v.get(j) % k == 0:
                 v.remove_at(j)

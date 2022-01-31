@@ -25,7 +25,7 @@ def str_to_int(x: str) -> int:
     first_char:bool = True
 
     # Parse digits
-    [[Statement]]
+    $Statement
 
     # Compute result
     return result * sign

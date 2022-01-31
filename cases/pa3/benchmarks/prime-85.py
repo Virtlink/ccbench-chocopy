@@ -7,7 +7,7 @@ def get_prime(n:int) -> int:
             found = found + 1
             if found == n:
                 return candidate
-        candidate = [[ID]] + 1
+        candidate = $ID + 1
     return 0 # Never happens
 
 def is_prime(x:int) -> bool:

@@ -12,7 +12,7 @@ b:B = None
 
 def get_b() -> B:
     print("Getting B")
-    [[Statement]]
+    $Statement
 
 def get_one() -> int:
     print("Getting 1")

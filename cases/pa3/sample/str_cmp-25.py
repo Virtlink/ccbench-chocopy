@@ -1,6 +1,6 @@
 a:str = "Hello"
 b:str = "World"
-c:str = [[STRING]]
+c:str = $STRING
 
 def eq(a:str, b:str) -> bool:
     return a == b

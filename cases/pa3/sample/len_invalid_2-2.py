@@ -1,3 +1,3 @@
-[[Definition]]
+$Definition
 
 print(len(x))

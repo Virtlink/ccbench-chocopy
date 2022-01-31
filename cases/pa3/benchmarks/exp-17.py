@@ -1,6 +1,6 @@
 # Compute x**y
 def exp(x: int, y: int) -> int:
-	[[FuncBody]]
+	$FuncBody
 
 # Input parameter
 n:int = 42

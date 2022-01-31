@@ -33,6 +33,6 @@ class bar(object):
 
         return "Nope"
 
-print(bar().baz([[Exp]]))
+print(bar().baz($Exp))
 
 

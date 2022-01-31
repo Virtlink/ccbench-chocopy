@@ -53,7 +53,7 @@ class DoublingVector(Vector):
     doubling_limit:int = 1000
 
     # Overriding to do fewer resizes
-    [[ClassBodyMember]]
+    $ClassBodyMember
 
 # Makes a vector in the range [i, j)
 def vrange(i:int, j:int) -> Vector:

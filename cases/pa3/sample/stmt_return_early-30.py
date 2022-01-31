@@ -3,4 +3,4 @@ def f() -> int:
         return 1
     return 0
 
-[[ID]](f())
+$ID(f())

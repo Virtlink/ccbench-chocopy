@@ -28,7 +28,7 @@ class bar(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo("Long"[[[Literal]]]) == 1:
+            elif foo("Long"[$Literal]) == 1:
                 self.p = self is None
 
         return "Nope"

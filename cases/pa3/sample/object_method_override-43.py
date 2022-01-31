@@ -4,6 +4,6 @@ class A(object):
     def foo(self:"A", ignore:object) -> int:
         return self.a
 
-[[ClassDef]]
+$ClassDef
 
 print(B().bar())

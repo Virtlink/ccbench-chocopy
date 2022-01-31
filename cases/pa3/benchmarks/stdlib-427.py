@@ -48,7 +48,7 @@ def str_to_int(x: str) -> int:
             digit = 6
         elif char == "7":
             digit = 7
-        elif char == [[STRING]]:
+        elif char == $STRING:
             digit = 8
         elif char == "9":
             digit = 9

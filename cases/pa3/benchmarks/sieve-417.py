@@ -46,7 +46,7 @@ class Vector(object):
 
     # Retrieves the current size of the vector
     def length(self:"Vector") -> int:
-        return [[Exp]].size
+        return $Exp.size
 
 # A faster (but more memory-consuming) implementation of vector
 class DoublingVector(Vector):

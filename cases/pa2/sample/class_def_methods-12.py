@@ -1,5 +1,5 @@
 class A(object):
-    x:[[Type]] = 1
+    x:$Type = 1
 
     def get_A(self: "A") -> int:
         return self.x

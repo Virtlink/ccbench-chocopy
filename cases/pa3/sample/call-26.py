@@ -1,6 +1,6 @@
 def f() -> int:
     print("start f")
-    [[ID]]()
+    $ID()
     print("end f")
     return 42
 

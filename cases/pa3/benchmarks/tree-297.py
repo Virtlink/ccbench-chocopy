@@ -30,7 +30,7 @@ class TreeNode(object):
 				return False
 			else:
 				return self.right.contains(x)
-		[[ElifElse]]
+		$ElifElse
 
 class Tree(object):
 	root:TreeNode = None

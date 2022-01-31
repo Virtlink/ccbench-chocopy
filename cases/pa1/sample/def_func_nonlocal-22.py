@@ -1,6 +1,6 @@
 
 def foo(x:int) -> bool:
-    a:int = [[INT]]
+    a:int = $INT
     b:int = 1
     def bar(y: int) -> int:
         nonlocal a

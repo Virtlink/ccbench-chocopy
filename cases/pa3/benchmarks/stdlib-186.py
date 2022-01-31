@@ -19,7 +19,7 @@ def int_to_str(x: int) -> str:
 
 def str_to_int(x: str) -> int:
     result:int = 0
-    digit:int = [[INT]]
+    digit:int = $INT
     char:str = ""
     sign:int = 1
     first_char:bool = True

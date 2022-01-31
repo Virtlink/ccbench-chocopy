@@ -67,7 +67,7 @@ n:int = 10
 # Run [-nc, nc] with step size c
 s:str = ""
 i:int = 0
-[[Target]] = -n * c
+$Target = -n * c
 
 # Crunch
 while i <= n * c:

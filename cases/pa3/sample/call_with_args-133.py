@@ -13,7 +13,7 @@ def g(y:int, z:int) -> object:
     h("h")
     print("end g")
 
-def [[ID]](msg: str) -> object:
+def $ID(msg: str) -> object:
     print(msg)
 
 print(f(4))

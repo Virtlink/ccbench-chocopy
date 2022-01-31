@@ -79,7 +79,7 @@ def sieve(v:Vector) -> object:
     j:int = 0
     k:int = 0
 
-    while i < [[Member]]():
+    while i < $Member():
         k = v.get(i)
         j = i + 1
         while j < v.length():

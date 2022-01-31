@@ -102,6 +102,6 @@ sieve(v)
 
 # Print
 while i < v.length():
-    [[Exp]]
+    $Exp
     i = i + 1
 

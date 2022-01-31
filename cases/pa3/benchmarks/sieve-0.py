@@ -1,3 +1,3 @@
 # A resizable list of integers
-[[Program]]
+$Program
 

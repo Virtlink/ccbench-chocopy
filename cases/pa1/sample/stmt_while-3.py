@@ -1,2 +1,2 @@
-[[Statement]]
+$Statement
 

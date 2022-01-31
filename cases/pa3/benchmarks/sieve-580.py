@@ -68,7 +68,7 @@ def vrange(i:int, j:int) -> Vector:
     v = DoublingVector()
     
     while i < j:
-        [[Exp]].append(i)
+        $Exp.append(i)
         i = i + 1
 
     return v

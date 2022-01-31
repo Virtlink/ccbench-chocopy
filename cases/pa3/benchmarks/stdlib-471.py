@@ -54,7 +54,7 @@ def str_to_int(x: str) -> int:
             digit = 9
         else:
             return 0 # On error
-        first_char = [[Exp]]
+        first_char = $Exp
         result = result * 10 + digit
 
     # Compute result

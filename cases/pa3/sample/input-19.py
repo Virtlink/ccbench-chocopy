@@ -2,7 +2,7 @@
 
 s: str = ""
 
-s = [[Var]]()
+s = $Var()
 while len(s) > 0:
     print(s)
     s = input()

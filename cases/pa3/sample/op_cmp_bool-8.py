@@ -1,4 +1,4 @@
-print([[Parameters]])
+print($Parameters)
 print(True == False)
 print(False == True)
 print(False == False)

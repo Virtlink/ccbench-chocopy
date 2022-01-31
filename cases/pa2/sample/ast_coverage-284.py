@@ -33,6 +33,6 @@ class bar(object):
 
         return "Nope"
 
-print([[Member]]([1,2]))
+print($Member([1,2]))
 
 

@@ -1,7 +1,7 @@
 class A(object):
     x:int = 1
 
-    def get_A([[TypedVar]]) -> int:
+    def get_A($TypedVar) -> int:
         return self.x
 
 class B(A):

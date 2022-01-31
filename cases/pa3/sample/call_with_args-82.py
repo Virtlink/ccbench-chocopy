@@ -7,7 +7,7 @@ def f(x:int) -> int:
 
     
 def g(y:int, z:int) -> object:
-    [[Exp]]
+    $Exp
     print(y)
     print(z)
     h("h")

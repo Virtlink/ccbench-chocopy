@@ -101,7 +101,7 @@ v = vrange(2, n)
 sieve(v)
 
 # Print
-while i < [[Exp]].length():
+while i < $Exp.length():
     print(v.get(i))
     i = i + 1
 

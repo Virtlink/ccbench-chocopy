@@ -3,7 +3,7 @@ def outer() -> int:
         nonlocal x
         x = 1
         return x
-    [[FuncBodyMember]]
+    $FuncBodyMember
     inner()
     return x
 

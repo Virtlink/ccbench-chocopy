@@ -1,4 +1,4 @@
-class [[ID]](object):
+class $ID(object):
     x:int = 1
 
     def get_A(self: "A") -> int:

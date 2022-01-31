@@ -3,7 +3,7 @@ class A(object):
 
 a1:A = None
 a2:A = None
-[[VarDef]]
+$VarDef
 a4:A = None
 
 a1 = A()

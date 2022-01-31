@@ -1,4 +1,4 @@
 x:[int] = None
 
-[[Statement]]
+$Statement
 print(x[-1])

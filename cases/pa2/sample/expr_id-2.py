@@ -1,3 +1,3 @@
-[[Definition]]
+$Definition
 
 x - 1

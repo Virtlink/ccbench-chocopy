@@ -33,7 +33,7 @@ class TreeNode(object):
 		else:
 			return True
 
-[[Definition]]
+$Definition
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None

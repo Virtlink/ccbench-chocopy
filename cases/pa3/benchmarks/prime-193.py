@@ -26,5 +26,5 @@ i:int = 1
 
 # Crunch
 while i <= n:
-    print([[Exp]](i))
+    print($Exp(i))
     i = i + 1

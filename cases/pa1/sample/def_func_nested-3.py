@@ -1,4 +1,4 @@
 
-[[FuncDef]]
+$FuncDef
 
 foo(1)

@@ -9,7 +9,7 @@ class B(A):
         pass
 
 class C(B):
-    [[ClassBody]]
+    $ClassBody
 
 a:A = None
 b:B = None

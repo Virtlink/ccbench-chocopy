@@ -29,7 +29,7 @@ class bar(object):
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
-                self.p = [[Exp]] is None
+                self.p = $Exp is None
 
         return "Nope"
 

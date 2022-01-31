@@ -1,4 +1,4 @@
 x:[int] = None
 
-[[Target]] = []
+$Target = []
 print(x[0])

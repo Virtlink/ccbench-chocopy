@@ -2,7 +2,7 @@ def f() -> bool:
   print("f called")
   return True
 
-def g() -> [[Type]]:
+def g() -> $Type:
   print("g called")
   return False
 

@@ -78,4 +78,4 @@ while i < n:
 
 print(t.size)
 
-[[Statement]]
+$Statement

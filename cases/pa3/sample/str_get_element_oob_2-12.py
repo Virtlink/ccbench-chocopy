@@ -1,5 +1,5 @@
 x:str = "abc"
-[[TypedVar]] = ""
+$TypedVar = ""
 
 def str_get(s:str, i:int) -> str:
     return s[i]

@@ -1,7 +1,7 @@
 x:str = ""
 a:str = ""
 
-[[FuncDef]]
+$FuncDef
 
 a = str_get(x, 0)
 print(a)

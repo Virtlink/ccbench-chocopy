@@ -75,7 +75,7 @@ def vrange(i:int, j:int) -> Vector:
 
 # Sieve of Eratosthenes (not really)
 def sieve(v:Vector) -> object:
-    [[FuncBody]]
+    $FuncBody
 
 # Input parameter
 n:int = 50

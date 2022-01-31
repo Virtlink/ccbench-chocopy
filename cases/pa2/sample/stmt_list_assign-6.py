@@ -1,4 +1,4 @@
-x:[[Type]] = None
+x:$Type = None
 y:[object] = None
 
 x = [1, 2]

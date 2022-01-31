@@ -1,4 +1,4 @@
-def f() -> [[ID]]:
+def f() -> $ID:
   print("f called")
   return True
 

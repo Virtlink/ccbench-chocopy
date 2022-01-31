@@ -1,5 +1,5 @@
 x:str = "abc"
-a:str = [[Literal]]
+a:str = $Literal
 b:str = ""
 c:str = ""
 

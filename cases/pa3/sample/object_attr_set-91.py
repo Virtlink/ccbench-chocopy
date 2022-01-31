@@ -11,7 +11,7 @@ a:A = None
 b:B = None
 
 a = b = B()
-b.[[ID]] = 1
+b.$ID = 1
 b.b = False
 print(a.a)
 print(b.a)

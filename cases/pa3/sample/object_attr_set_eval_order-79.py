@@ -11,7 +11,7 @@ a:A = None
 b:B = None
 
 def get_b() -> B:
-    [[Var]]("Getting B")
+    $Var("Getting B")
     return b
 
 def get_one() -> int:

@@ -40,7 +40,7 @@ def str_to_int(x: str) -> int:
             digit = 3
         elif char == "3":
             digit = 3
-        elif char == [[STRING]]:
+        elif char == $STRING:
             digit = 4
         elif char == "5":
             digit = 5

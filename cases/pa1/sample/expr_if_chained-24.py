@@ -1,1 +1,1 @@
-3 if 1 > 2 else 4 if 1 < [[Literal]] else 5
+3 if 1 > 2 else 4 if 1 < $Literal else 5

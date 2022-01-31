@@ -1,1 +1,1 @@
-print([[Exp]]*2)
+print($Exp*2)

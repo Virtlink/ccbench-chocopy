@@ -1,4 +1,4 @@
-x:int = [[Literal]]
+x:int = $Literal
 
 x = 2
 

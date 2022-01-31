@@ -1,3 +1,3 @@
 x:[int] = None
 
-print(x[[[Literal]]])
+print(x[$Literal])

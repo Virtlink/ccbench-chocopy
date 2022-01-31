@@ -3,6 +3,6 @@ y:str = "World"
 z:str = ""
 
 z = x + y
-z = x[[[Literal]]]
+z = x[$Literal]
 x = y = z
 

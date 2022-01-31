@@ -1,4 +1,4 @@
-[[Definition]]
+$Definition
 
 def g() -> bool:
   print("g called")

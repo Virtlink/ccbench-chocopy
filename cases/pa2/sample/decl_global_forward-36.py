@@ -5,5 +5,5 @@ def set_x() -> int:
 
 x:int = 0
 
-[[Statement]]
+$Statement
 print(x)

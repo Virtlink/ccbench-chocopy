@@ -1,5 +1,5 @@
 if False:
-    print([[Literal]])
+    print($Literal)
 elif True:
     if True:
         print("Yes")

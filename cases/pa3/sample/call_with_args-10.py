@@ -1,4 +1,4 @@
-def f(x:int) [[RetType]]:
+def f(x:int) $RetType:
     print("start f")
     print(x)
     g(1, x)

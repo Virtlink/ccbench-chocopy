@@ -49,7 +49,7 @@ class Vector(object):
         return self.size
 
 # A faster (but more memory-consuming) implementation of vector
-[[Definition]]
+$Definition
 
 # Makes a vector in the range [i, j)
 def vrange(i:int, j:int) -> Vector:

@@ -6,7 +6,7 @@ print(x != y)
 print(x < y)
 print(x <= y)
 print(x > y)
-print([[Exp]] >= y)
+print($Exp >= y)
 
 print(x == x)
 print(x != x)

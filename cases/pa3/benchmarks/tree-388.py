@@ -42,7 +42,7 @@ class Tree(object):
 			self.root = makeNode(x)
 			self.size = 1
 		else:
-			[[Statement]]
+			$Statement
 
 	def contains(self:"Tree", x:int) -> bool:
 		if self.root is None:

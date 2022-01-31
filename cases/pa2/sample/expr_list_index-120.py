@@ -9,4 +9,4 @@ z = [False, True]
 y = x[0]
 x[0] = 1
 z[1] = z[0]
-o = [[ID]][1]
+o = $ID[1]

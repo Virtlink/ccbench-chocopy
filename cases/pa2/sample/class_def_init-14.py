@@ -1,5 +1,5 @@
 class A(object):
-    x:int = [[Literal]]
+    x:int = $Literal
 
 class B(A):
     def __init__(self: "B"):

@@ -1,6 +1,6 @@
 z:int = 0
 
 def foo(x:int) -> bool:
-    [[FuncBody]]
+    $FuncBody
 
 foo(1)

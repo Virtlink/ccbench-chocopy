@@ -9,7 +9,7 @@ class B(A):
         pass
 
 class C(B):
-    z:bool = [[Literal]]
+    z:bool = $Literal
 
     def set_A(self: "C", val: int) -> object:
         self.x = val

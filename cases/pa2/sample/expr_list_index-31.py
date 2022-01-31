@@ -1,7 +1,7 @@
 x:[int] = None
 y:int = 0
 z:[bool] = None
-o:[[ID]] = None
+o:$ID = None
 
 x = [1, 2, 3]
 z = [False, True]

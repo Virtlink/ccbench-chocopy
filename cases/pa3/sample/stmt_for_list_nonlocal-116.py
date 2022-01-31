@@ -12,4 +12,4 @@ def crunch(zz:[[int]]) -> object:
         pass # Set x to last element in z
 
 crunch([[1,2],[2,3],[4,5],[6,7]])
-[[Var]](x) 
+$Var(x) 

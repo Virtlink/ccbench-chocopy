@@ -82,7 +82,7 @@ def sieve(v:Vector) -> object:
     while i < v.length():
         k = v.get(i)
         j = i + 1
-        [[Statement]]
+        $Statement
         i = i + 1
 
 # Input parameter

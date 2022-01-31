@@ -1,5 +1,5 @@
 class A(object):
-    a:int = [[INT]]
+    a:int = $INT
 
 a1:A = None
 a2:A = None

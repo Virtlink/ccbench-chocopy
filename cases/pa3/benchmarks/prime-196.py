@@ -26,5 +26,5 @@ i:int = 1
 
 # Crunch
 while i <= n:
-    print(get_prime([[Parameters]]))
+    print(get_prime($Parameters))
     i = i + 1

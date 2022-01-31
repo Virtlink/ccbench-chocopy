@@ -6,7 +6,7 @@ def f() -> int:
 
     
 def g() -> object:
-    [[Statement]]
+    $Statement
     h()
     print("end g")
 

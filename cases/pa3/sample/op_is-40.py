@@ -4,7 +4,7 @@ class A(object):
 a1:A = None
 a2:A = None
 a3:A = None
-[[ID]]:A = None
+$ID:A = None
 
 a1 = A()
 a2 = a1

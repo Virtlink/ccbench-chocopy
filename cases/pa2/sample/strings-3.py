@@ -1,4 +1,4 @@
-[[VarDef]]
+$VarDef
 y:str = "World"
 z:str = ""
 

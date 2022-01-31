@@ -16,7 +16,7 @@ a = A()
 b = B()
 c = C()
 
-a.x = [[INT]]
+a.x = $INT
 b.x = a.x
 c.z = a.x == b.x
 

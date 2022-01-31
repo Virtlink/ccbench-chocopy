@@ -53,7 +53,7 @@ def str_to_int(x: str) -> int:
         elif char == "9":
             digit = 9
         else:
-            [[Block]] # On error
+            $Block # On error
         first_char = False
         result = result * 10 + digit
 

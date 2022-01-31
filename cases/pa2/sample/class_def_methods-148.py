@@ -20,7 +20,7 @@ c:C = None
 
 a = A()
 b = B()
-[[Statement]]
+$Statement
 
 b.x = a.get_A()
 a.x = b.get_A()

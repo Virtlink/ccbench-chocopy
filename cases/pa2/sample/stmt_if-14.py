@@ -1,6 +1,6 @@
 if False:
     pass
 elif True:
-    [[Statement]]
+    $Statement
 else:
     pass

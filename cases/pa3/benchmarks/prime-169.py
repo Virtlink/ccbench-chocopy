@@ -22,7 +22,7 @@ def is_prime(x:int) -> bool:
 n:int = 15
 
 # Run [1, n]
-[[ID]]:int = 1
+$ID:int = 1
 
 # Crunch
 while i <= n:

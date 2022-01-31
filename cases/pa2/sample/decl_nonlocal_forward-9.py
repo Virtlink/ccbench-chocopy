@@ -1,4 +1,4 @@
 def outer() -> int:
-    [[FuncBody]]
+    $FuncBody
 
 print(outer())

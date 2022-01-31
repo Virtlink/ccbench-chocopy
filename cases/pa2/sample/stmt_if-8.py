@@ -1,5 +1,5 @@
 if False:
-    [[Statement]]
+    $Statement
 elif True:
     if 1 == 1:
         pass

@@ -11,7 +11,7 @@ def g() -> object:
     print("end g")
 
 def h() -> object:
-    print([[Literal]])
+    print($Literal)
     print("end h")
 
 print(f())

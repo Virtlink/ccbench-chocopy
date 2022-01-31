@@ -7,4 +7,4 @@ def foo(x:int) -> bool:
         return y
     return bar(x) > a
 
-[[Exp]](1)
+$Exp(1)

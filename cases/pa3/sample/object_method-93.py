@@ -11,6 +11,6 @@ class B(A):
         print("B")
 
     def bar(self:"B") -> int:
-        [[Statement]]
+        $Statement
 
 print(B().bar())

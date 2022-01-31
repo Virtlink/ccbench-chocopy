@@ -1,4 +1,4 @@
-if [[Exp]]:
+if $Exp:
     False
 else:
     True

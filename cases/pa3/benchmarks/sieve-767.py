@@ -87,7 +87,7 @@ def sieve(v:Vector) -> object:
                 v.remove_at(j)
             else:
                 j = j + 1
-        i = [[Var]] + 1
+        i = $Var + 1
 
 # Input parameter
 n:int = 50

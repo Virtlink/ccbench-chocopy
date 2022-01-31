@@ -66,7 +66,7 @@ n:int = 10
 
 # Run [-nc, nc] with step size c
 s:str = ""
-i:int = [[Literal]]
+i:int = $Literal
 i = -n * c
 
 # Crunch

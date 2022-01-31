@@ -1,5 +1,5 @@
 def f() -> int:
-    [[Statement]]
+    $Statement
     g()
     print("end f")
     return 42

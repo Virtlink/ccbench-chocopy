@@ -3,7 +3,7 @@ count:int = 0
 def foo(s: str) -> int:
     return len(s)
 
-class [[ID]](object):
+class $ID(object):
     p: bool = True
 
     def baz(self:"bar", xx: [int]) -> str:

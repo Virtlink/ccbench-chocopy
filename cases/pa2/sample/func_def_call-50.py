@@ -4,4 +4,4 @@ def foo(x:str, y:bool) -> int:
 def bar() -> int:
     return 1
 
-foo([[Literal]], False)
+foo($Literal, False)

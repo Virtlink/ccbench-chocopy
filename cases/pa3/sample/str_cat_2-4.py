@@ -1,4 +1,4 @@
-[[TypedVar]] = "no"
+$TypedVar = "no"
 b:str = "o"
 c:str = ""
 d:str = ""

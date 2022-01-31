@@ -12,6 +12,6 @@ def g() -> object:
 
 def h() -> object:
     print("start h")
-    [[ID]]("end h")
+    $ID("end h")
 
 print(f())

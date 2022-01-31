@@ -1,5 +1,5 @@
 if True:
     False
 else:
-    [[Statement]]
+    $Statement
 

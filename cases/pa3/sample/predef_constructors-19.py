@@ -1,4 +1,4 @@
 print(object() is None)
-[[Statement]]
+$Statement
 print(str())
 print(bool())

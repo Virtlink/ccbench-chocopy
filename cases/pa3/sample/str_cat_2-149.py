@@ -12,7 +12,7 @@ def cat3(a:str, b:str, c:str) -> str:
 
 c = cat2(b, a)
 d = cat2(a, a)
-e = cat3([[Parameters]])
+e = cat3($Parameters)
 
 print(c)
 print(d)

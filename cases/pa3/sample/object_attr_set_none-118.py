@@ -15,5 +15,5 @@ print(a.a)
 
 b.a = 1
 b.b = False
-[[Var]](b.a)
+$Var(b.a)
 print(b.b)

@@ -1,6 +1,6 @@
 x:str = "Hello"
 y:str = "World"
-z:str = [[STRING]]
+z:str = $STRING
 
 z = x + y
 z = x[0]

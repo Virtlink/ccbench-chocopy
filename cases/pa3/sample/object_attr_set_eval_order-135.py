@@ -20,7 +20,7 @@ def get_one() -> int:
 
 def get_false() -> bool:
     print("Getting False")
-    return [[Exp]]
+    return $Exp
 
 a = b = B()
 get_b().a = get_one()

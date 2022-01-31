@@ -13,7 +13,7 @@ b:B = None
 a = B()
 print(a.a)
 
-[[Statement]]
+$Statement
 b.b = False
 print(b.a)
 print(b.b)

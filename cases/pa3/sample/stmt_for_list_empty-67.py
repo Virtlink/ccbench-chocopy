@@ -7,5 +7,5 @@ z = [1,2,3]
 e = []
 
 for x in z:
-    [[Statement]]
+    $Statement
     print(x)

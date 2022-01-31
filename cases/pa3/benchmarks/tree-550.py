@@ -64,7 +64,7 @@ c:int = 4
 
 # Data
 t:Tree = None
-[[Definition]]
+$Definition
 k:int = 37813
 
 # Crunch

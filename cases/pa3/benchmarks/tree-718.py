@@ -80,4 +80,4 @@ print(t.size)
 
 for i in [4, 8, 15, 16, 23, 42]:
 	if t.contains(i):
-		print([[Exp]])
+		print($Exp)

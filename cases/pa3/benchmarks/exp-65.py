@@ -6,7 +6,7 @@ def exp(x: int, y: int) -> int:
 		def geta() -> int:
 			return a
 		if i <= 0:
-			[[Block]]
+			$Block
 		else:
 			a = a * x
 			return f(i-1)

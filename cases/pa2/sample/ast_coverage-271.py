@@ -31,7 +31,7 @@ class bar(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        return [[Exp]]
+        return $Exp
 
 print(bar().baz([1,2]))
 

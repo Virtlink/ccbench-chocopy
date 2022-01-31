@@ -11,7 +11,7 @@ class TreeNode(object):
 				return True
 			else:
 				return self.left.insert(x)
-		[[ElifElse]]
+		$ElifElse
 		return False
 
 	def contains(self:"TreeNode", x:int) -> bool:

@@ -3,4 +3,4 @@
 s: str = ""
 
 s = input()
-[[Statement]]
+$Statement

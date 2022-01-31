@@ -1,4 +1,4 @@
-[[TypedVar]] = 0
+$TypedVar = 0
 
 def foo(s: str) -> int:
     return len(s)

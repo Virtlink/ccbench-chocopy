@@ -66,7 +66,7 @@ n:int = 10
 
 # Run [-nc, nc] with step size c
 s:str = ""
-i:int = [[INT]]
+i:int = $INT
 i = -n * c
 
 # Crunch

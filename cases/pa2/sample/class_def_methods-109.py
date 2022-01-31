@@ -15,7 +15,7 @@ class C(B):
         self.x = val
 
 a:A = None
-[[Definition]]
+$Definition
 c:C = None
 
 a = A()

@@ -1,3 +1,3 @@
-[[VarDef]]
+$VarDef
 
 print(x[0])

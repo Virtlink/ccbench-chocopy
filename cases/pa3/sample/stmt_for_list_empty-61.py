@@ -6,7 +6,7 @@ e:[int] = None
 z = [1,2,3]
 e = []
 
-for [[ID]] in z:
+for $ID in z:
     for y in e:
         print("Never")
     print(x)

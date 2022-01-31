@@ -8,4 +8,4 @@ def next_int() -> int:
 def make_list() -> [int]:
     return [next_int(), next_int(), next_int()]
 
-[[Exp]](make_list()[next_int() - 3])
+$Exp(make_list()[next_int() - 3])

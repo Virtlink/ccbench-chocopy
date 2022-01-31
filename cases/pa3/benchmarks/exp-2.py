@@ -1,5 +1,5 @@
 # Compute x**y
-[[Definition]]
+$Definition
 
 # Input parameter
 n:int = 42

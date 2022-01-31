@@ -13,7 +13,7 @@ b:B = None
 a = B()
 print(a.a)
 
-b.a = [[INT]]
+b.a = $INT
 b.b = False
 print(b.a)
 print(b.b)

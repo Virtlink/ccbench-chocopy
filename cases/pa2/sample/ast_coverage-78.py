@@ -9,7 +9,7 @@ class bar(object):
     def baz(self:"bar", xx: [int]) -> str:
         global count
         x:int = 0
-        [[TypedVar]] = 1
+        $TypedVar = 1
 
         def qux(y: int) -> object:
             nonlocal x

@@ -1,4 +1,4 @@
-[[FuncDef]]
+$FuncDef
 
 def bar() -> int:
     return 1

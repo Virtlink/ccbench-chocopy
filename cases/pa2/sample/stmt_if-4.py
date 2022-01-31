@@ -1,4 +1,4 @@
-if [[Exp]]:
+if $Exp:
     pass
 elif True:
     if 1 == 1:

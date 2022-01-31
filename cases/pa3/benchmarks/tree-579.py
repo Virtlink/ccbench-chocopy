@@ -69,7 +69,7 @@ k:int = 37813
 
 # Crunch
 t = Tree()
-[[Statement]]
+$Statement
 
 print(t.size)
 

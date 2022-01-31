@@ -1,6 +1,6 @@
 # Test of 'input' function.
 
-[[VarDef]]
+$VarDef
 
 s = input()
 while len(s) > 0:

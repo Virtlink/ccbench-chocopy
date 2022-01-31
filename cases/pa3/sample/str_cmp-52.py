@@ -5,7 +5,7 @@ c:str = "ChocoPy"
 def eq(a:str, b:str) -> bool:
     return a == b
 
-[[Definition]]
+$Definition
 
 print(eq(a,a))
 print(eq(a,b))

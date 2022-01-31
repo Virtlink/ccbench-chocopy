@@ -1,7 +1,7 @@
 
 def foo(x:int) -> bool:
     a:int = 0
-    [[VarDef]]
+    $VarDef
     def bar(y: int) -> int:
         a:int = 2 
         return y

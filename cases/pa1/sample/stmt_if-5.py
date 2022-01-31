@@ -1,3 +1,3 @@
-if [[Literal]]:
+if $Literal:
     False
 

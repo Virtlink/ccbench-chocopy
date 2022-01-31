@@ -1,5 +1,5 @@
 x:int = 0
-def [[ID]](zz:[[int]]) -> object:
+def $ID(zz:[[int]]) -> object:
     z:[int] = None
     global x
     def make_z() -> object:

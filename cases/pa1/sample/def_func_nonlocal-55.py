@@ -4,7 +4,7 @@ def foo(x:int) -> bool:
     b:int = 1
     def bar(y: int) -> int:
         nonlocal a
-        a = [[INT]] 
+        a = $INT 
         return y
     return bar(x) > a
 

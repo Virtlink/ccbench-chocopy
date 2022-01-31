@@ -49,7 +49,7 @@ class Vector(object):
         return self.size
 
 # A faster (but more memory-consuming) implementation of vector
-class [[ID]](Vector):
+class $ID(Vector):
     doubling_limit:int = 1000
 
     # Overriding to do fewer resizes

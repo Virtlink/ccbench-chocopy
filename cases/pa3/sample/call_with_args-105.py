@@ -9,7 +9,7 @@ def f(x:int) -> int:
 def g(y:int, z:int) -> object:
     print("start g")
     print(y)
-    [[ID]](z)
+    $ID(z)
     h("h")
     print("end g")
 

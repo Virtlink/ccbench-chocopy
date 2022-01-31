@@ -4,7 +4,7 @@ class A(object):
 class B(A):
     b:bool = True
 
-    def [[ID]](self:"B"):
+    def $ID(self:"B"):
         print("B")
 
 a:A = None

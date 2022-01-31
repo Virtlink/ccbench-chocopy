@@ -1,2 +1,2 @@
-print([[INT]])
+print($INT)
 print(65999)

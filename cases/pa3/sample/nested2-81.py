@@ -6,7 +6,7 @@ def foo(x: int) -> int:
         def baz() -> int:
             return qux(y)
         return baz()
-    def qux([[ID]]: int) -> int:
+    def qux($ID: int) -> int:
         return p
 
     return bar()

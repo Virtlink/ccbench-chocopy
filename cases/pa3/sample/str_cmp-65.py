@@ -5,7 +5,7 @@ c:str = "ChocoPy"
 def eq(a:str, b:str) -> bool:
     return a == b
 
-def neq(a:str, b:str) -> [[Type]]:
+def neq(a:str, b:str) -> $Type:
     return a != b
 
 print(eq(a,a))

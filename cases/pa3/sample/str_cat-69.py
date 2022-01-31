@@ -5,7 +5,7 @@ c:str = "ChocoPy"
 def cat2(a:str, b:str) -> str:
     return a + b
 
-def cat3(a:str, b:str, c:str) -> [[Type]]:
+def cat3(a:str, b:str, c:str) -> $Type:
     return a + b + c
 
 print(cat2(a, b))

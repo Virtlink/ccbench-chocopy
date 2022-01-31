@@ -1,5 +1,5 @@
 class A(object):
-    [[ClassBodyMember]]
+    $ClassBodyMember
 
 class B(A):
     def __init__(self: "B"):

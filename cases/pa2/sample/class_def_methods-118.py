@@ -16,7 +16,7 @@ class C(B):
 
 a:A = None
 b:B = None
-[[TypedVar]] = None
+$TypedVar = None
 
 a = A()
 b = B()

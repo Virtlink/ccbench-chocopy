@@ -30,4 +30,4 @@ print("Assigned B.b")
 
 print(a.a)
 print(b.a)
-[[Statement]]
+$Statement

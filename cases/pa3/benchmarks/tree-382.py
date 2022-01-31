@@ -40,7 +40,7 @@ class Tree(object):
 	def insert(self:"Tree", x:int) -> object:
 		if self.root is None:
 			self.root = makeNode(x)
-			self.size = [[Exp]]
+			self.size = $Exp
 		else:
 			if self.root.insert(x):
 				self.size = self.size + 1

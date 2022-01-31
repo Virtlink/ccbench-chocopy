@@ -3,7 +3,7 @@ def f() -> bool:
   return True
 
 def g() -> bool:
-  print([[Literal]])
+  print($Literal)
   return False
 
 if f() or g():      # Short-circuit

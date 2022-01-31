@@ -80,7 +80,7 @@ def sieve(v:Vector) -> object:
     k:int = 0
 
     while i < v.length():
-        k = [[Exp]](i)
+        k = $Exp(i)
         j = i + 1
         while j < v.length():
             if v.get(j) % k == 0:

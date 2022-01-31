@@ -1,4 +1,4 @@
 def foo() -> int:
-    return [[INT]]
+    return $INT
 
 foo()

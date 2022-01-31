@@ -1,5 +1,5 @@
 def f(x:int) -> int:
-    print([[Parameters]])
+    print($Parameters)
     print(x)
     g(1, x)
     print("end f")

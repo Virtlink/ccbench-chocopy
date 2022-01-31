@@ -12,5 +12,5 @@ b:B = None
 
 a = B()
 print(a.a)
-[[Statement]]
+$Statement
 print(b.b)

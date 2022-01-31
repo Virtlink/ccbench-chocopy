@@ -64,7 +64,7 @@ c:int = 4
 
 # Data
 t:Tree = None
-i:[[ID]] = 0
+i:$ID = 0
 k:int = 37813
 
 # Crunch

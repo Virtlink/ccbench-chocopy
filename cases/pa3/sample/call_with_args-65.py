@@ -6,7 +6,7 @@ def f(x:int) -> int:
     return x
 
     
-def [[ID]](y:int, z:int) -> object:
+def $ID(y:int, z:int) -> object:
     print("start g")
     print(y)
     print(z)

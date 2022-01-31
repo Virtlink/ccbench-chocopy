@@ -20,7 +20,7 @@ class Vector(object):
         if self.size == self.capacity():
             self.increase_capacity()
 
-        [[Var]].items[self.size] = item
+        $Var.items[self.size] = item
         self.size = self.size + 1
 
     # Appends many items to end of vector

@@ -79,7 +79,7 @@ def sieve(v:Vector) -> object:
     j:int = 0
     k:int = 0
 
-    [[Statement]]
+    $Statement
 
 # Input parameter
 n:int = 50

@@ -1,4 +1,4 @@
-def f() [[RetType]]:
+def f() $RetType:
   x:int = 1
   return x
 

@@ -6,7 +6,7 @@ def f(x:int) -> int:
     return x
 
     
-[[Definition]]
+$Definition
 
 def h(msg: str) -> object:
     print(msg)

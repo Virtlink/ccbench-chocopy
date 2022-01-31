@@ -101,5 +101,5 @@ v = vrange(2, n)
 sieve(v)
 
 # Print
-[[Statement]]
+$Statement
 

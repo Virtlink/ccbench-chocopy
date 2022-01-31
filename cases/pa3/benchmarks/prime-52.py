@@ -4,7 +4,7 @@ def get_prime(n:int) -> int:
     found:int = 0
     while True:
         if is_prime(candidate):
-            [[Target]] = found + 1
+            $Target = found + 1
             if found == n:
                 return candidate
         candidate = candidate + 1

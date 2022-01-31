@@ -8,7 +8,7 @@ def f() -> int:
 def g() -> object:
     print("start g")
     h()
-    [[Statement]]
+    $Statement
 
 def h() -> object:
     print("start h")

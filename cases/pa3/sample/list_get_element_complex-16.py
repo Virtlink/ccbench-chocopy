@@ -1,6 +1,6 @@
 next:int = 0
 
-def next_int() -> [[ID]]:
+def next_int() -> $ID:
     global next
     next = next + 1
     return next

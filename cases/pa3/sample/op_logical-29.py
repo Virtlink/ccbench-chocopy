@@ -2,7 +2,7 @@ def f() -> bool:
   print("f called")
   return True
 
-def g() [[RetType]]:
+def g() $RetType:
   print("g called")
   return False
 

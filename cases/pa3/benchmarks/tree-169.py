@@ -16,7 +16,7 @@ class TreeNode(object):
 				self.right = makeNode(x)
 				return True
 			else:
-				return [[Exp]].insert(x)
+				return $Exp.insert(x)
 		return False
 
 	def contains(self:"TreeNode", x:int) -> bool:

@@ -11,7 +11,7 @@ class bar(object):
         x:int = 0
         y:int = 1
 
-        def [[ID]](y: int) -> object:
+        def $ID(y: int) -> object:
             nonlocal x
             if x > y:
                 x = -1

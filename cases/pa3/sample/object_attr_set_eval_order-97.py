@@ -15,7 +15,7 @@ def get_b() -> B:
     return b
 
 def get_one() -> int:
-    [[FuncBody]]
+    $FuncBody
 
 def get_false() -> bool:
     print("Getting False")

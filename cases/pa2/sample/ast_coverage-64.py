@@ -7,7 +7,7 @@ class bar(object):
     p: bool = True
 
     def baz(self:"bar", xx: [int]) -> str:
-        [[FuncBody]]
+        $FuncBody
 
 print(bar().baz([1,2]))
 

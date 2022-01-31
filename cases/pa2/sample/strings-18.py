@@ -1,6 +1,6 @@
 x:str = "Hello"
 y:str = "World"
-[[Definition]]
+$Definition
 
 z = x + y
 z = x[0]

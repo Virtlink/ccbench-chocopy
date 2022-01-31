@@ -16,7 +16,7 @@ class bar(object):
             if x > y:
                 x = -1
 
-        for x in [[Var]]:
+        for x in $Var:
             self.p = x == 2
 
         qux(0) # Yay! ChocoPy

@@ -1,4 +1,4 @@
-x:int = [[INT]]
+x:int = $INT
 y:int = 7
 
 print(x == y)

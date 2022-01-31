@@ -3,7 +3,7 @@ y:int = 0
 z:[int] = None
 e:[int] = None
 
-[[Var]] = [1,2,3]
+$Var = [1,2,3]
 e = []
 
 for x in z:

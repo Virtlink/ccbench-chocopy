@@ -1,6 +1,6 @@
 x:str = "Hello"
 y:str = "World"
-[[VarDef]]
+$VarDef
 
 z = x + y
 z = x[0]

@@ -28,7 +28,7 @@ def str_to_int(x: str) -> int:
     for char in x:
         if char == "-":
             if not first_char:
-                return [[Literal]] # Error
+                return $Literal # Error
             sign = -1
         elif char == "0":
             digit = 0

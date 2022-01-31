@@ -12,7 +12,7 @@ b:B = None
 
 def get_b() -> B:
     print("Getting B")
-    return [[ID]]
+    return $ID
 
 def get_one() -> int:
     print("Getting 1")

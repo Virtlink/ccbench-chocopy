@@ -9,7 +9,7 @@ class C(B):
     z:bool = True
 
 a:A = None
-b:B = [[Literal]]
+b:B = $Literal
 c:C = None
 
 a = A()

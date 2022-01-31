@@ -1,5 +1,5 @@
 x:str = "Hello"
-y:[[ID]] = "World"
+y:$ID = "World"
 z:str = ""
 
 z = x + y

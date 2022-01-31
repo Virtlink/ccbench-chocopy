@@ -8,7 +8,7 @@ def int_to_str(x: int) -> str:
 
     # Write sign if necessary
     if x < 0:
-        [[Var]] = "-"
+        $Var = "-"
         x = -x
 
     # Write digits using a recursive call

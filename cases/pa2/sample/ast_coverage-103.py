@@ -13,7 +13,7 @@ class bar(object):
 
         def qux(y: int) -> object:
             nonlocal x
-            if [[Var]] > y:
+            if $Var > y:
                 x = -1
 
         for x in xx:

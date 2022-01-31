@@ -14,4 +14,4 @@ c:C = None
 
 a = A()
 b = B()
-c = C([[Parameters]])
+c = C($Parameters)

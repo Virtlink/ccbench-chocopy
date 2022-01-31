@@ -19,7 +19,7 @@ def get_one() -> int:
     return 1
 
 def get_false() -> bool:
-    print([[STRING]])
+    print($STRING)
     return False
 
 a = b = B()

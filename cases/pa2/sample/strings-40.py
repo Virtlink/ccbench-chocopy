@@ -3,6 +3,6 @@ y:str = "World"
 z:str = ""
 
 z = x + y
-[[Statement]]
+$Statement
 x = y = z
 

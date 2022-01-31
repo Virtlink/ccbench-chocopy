@@ -11,5 +11,5 @@ def crunch(zz:[[int]]) -> object:
     for x in z:
         pass # Set x to last element in z
 
-[[Exp]]
+$Exp
 print(x) 

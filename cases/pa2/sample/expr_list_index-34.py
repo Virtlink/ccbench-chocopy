@@ -3,7 +3,7 @@ y:int = 0
 z:[bool] = None
 o:object = None
 
-[[Statement]]
+$Statement
 z = [False, True]
 
 y = x[0]

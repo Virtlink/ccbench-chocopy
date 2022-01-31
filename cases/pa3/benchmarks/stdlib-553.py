@@ -70,7 +70,7 @@ i:int = 0
 i = -n * c
 
 # Crunch
-while i <= [[ID]] * c:
+while i <= $ID * c:
     s = int_to_str(i)
     print(s)
     i = str_to_int(s) + c

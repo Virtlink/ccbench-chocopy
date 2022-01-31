@@ -6,6 +6,6 @@ def next_int() -> int:
     return next
 
 def make_list() -> [int]:
-    [[Statement]]
+    $Statement
 
 print(make_list()[next_int() - 3])

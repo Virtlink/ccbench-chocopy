@@ -14,7 +14,7 @@ def get_b() -> B:
     print("Getting B")
     return b
 
-def get_one() -> [[ID]]:
+def get_one() -> $ID:
     print("Getting 1")
     return 1
 

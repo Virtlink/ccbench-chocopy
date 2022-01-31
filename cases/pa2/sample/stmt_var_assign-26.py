@@ -1,7 +1,7 @@
 x:int = 1
 y:bool = True
 z:str = ""
-[[VarDef]]
+$VarDef
 
 x = 2
 y = False

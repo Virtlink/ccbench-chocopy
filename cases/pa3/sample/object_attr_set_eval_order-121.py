@@ -19,7 +19,7 @@ def get_one() -> int:
     return 1
 
 def get_false() -> bool:
-    [[FuncBody]]
+    $FuncBody
 
 a = b = B()
 get_b().a = get_one()

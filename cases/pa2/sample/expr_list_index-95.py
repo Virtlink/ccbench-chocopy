@@ -8,5 +8,5 @@ z = [False, True]
 
 y = x[0]
 x[0] = 1
-[[Index]] = z[0]
+$Index = z[0]
 o = x[1]

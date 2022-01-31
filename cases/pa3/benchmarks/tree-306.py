@@ -33,7 +33,7 @@ class TreeNode(object):
 		else:
 			return True
 
-class Tree([[ID]]):
+class Tree($ID):
 	root:TreeNode = None
 	size:int = 0
 

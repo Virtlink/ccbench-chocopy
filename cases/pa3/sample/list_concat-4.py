@@ -1,4 +1,4 @@
-def [[ID]](x:[int], y:[int]) -> [int]:
+def $ID(x:[int], y:[int]) -> [int]:
     return x + y
 
 z:[int] = None

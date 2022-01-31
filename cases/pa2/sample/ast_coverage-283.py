@@ -33,6 +33,6 @@ class bar(object):
 
         return "Nope"
 
-print([[Exp]]([1,2]))
+print($Exp([1,2]))
 
 

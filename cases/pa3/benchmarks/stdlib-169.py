@@ -18,7 +18,7 @@ def int_to_str(x: int) -> str:
     return result
 
 def str_to_int(x: str) -> int:
-    [[FuncBody]]
+    $FuncBody
         
 # Input parameters
 c:int = 42

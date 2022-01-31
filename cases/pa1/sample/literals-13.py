@@ -1,7 +1,7 @@
 True
 False
 1
-[[Statement]]
+$Statement
 "This is a string"
 [1, 2, 3]
 

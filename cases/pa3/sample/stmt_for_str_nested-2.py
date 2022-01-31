@@ -1,4 +1,4 @@
-[[Definition]]
+$Definition
 y:str = "123"
 z:str = "abc"
 

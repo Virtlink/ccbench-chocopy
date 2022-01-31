@@ -1,5 +1,5 @@
 def f() -> bool:
-  [[ID]]("f called")
+  $ID("f called")
   return True
 
 def g() -> bool:

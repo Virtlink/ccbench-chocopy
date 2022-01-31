@@ -1,3 +1,3 @@
 x:[int] = None
 
-[[ID]](len(x))
+$ID(len(x))

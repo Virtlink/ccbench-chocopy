@@ -4,7 +4,7 @@ z:[int] = None
 e:[int] = None
 
 z = [1,2,3]
-[[Target]] = []
+$Target = []
 
 for x in z:
     for y in e:

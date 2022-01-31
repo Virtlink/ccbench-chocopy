@@ -15,7 +15,7 @@ def is_prime(x:int) -> bool:
     while div < x:
         if x % div == 0:
             return False
-        div = div + [[Exp]]
+        div = div + $Exp
     return True
 
 # Input parameter

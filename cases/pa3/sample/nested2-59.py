@@ -4,7 +4,7 @@ def foo(x: int) -> int:
     def bar() -> int:
         z: int = 3
         def baz() -> int:
-            return [[Exp]]
+            return $Exp
         return baz()
     def qux(p: int) -> int:
         return p

@@ -11,6 +11,6 @@ class B(A):
         print("B")
 
     def bar(self:"B") -> int:
-        return [[Member]](self.b)
+        return $Member(self.b)
 
 print(B().bar())

@@ -1,6 +1,6 @@
 # Test of 'input' function.
 
-[[ID]]: str = ""
+$ID: str = ""
 
 s = input()
 while len(s) > 0:

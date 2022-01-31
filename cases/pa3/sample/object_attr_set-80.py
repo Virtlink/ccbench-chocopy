@@ -10,7 +10,7 @@ class B(A):
 a:A = None
 b:B = None
 
-a = b = [[ID]]()
+a = b = $ID()
 b.a = 1
 b.b = False
 print(a.a)

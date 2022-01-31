@@ -97,7 +97,7 @@ v:Vector = None
 i:int = 0
 
 # Crunch
-[[Statement]]
+$Statement
 sieve(v)
 
 # Print

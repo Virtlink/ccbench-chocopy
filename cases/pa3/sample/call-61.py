@@ -6,7 +6,7 @@ def f() -> int:
 
     
 def g() -> object:
-    print([[Literal]])
+    print($Literal)
     h()
     print("end g")
 

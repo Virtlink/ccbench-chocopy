@@ -4,7 +4,7 @@ class A(object):
     def foo(self:"A", ignore:object) -> int:
         return self.a
 
-class [[ID]](A):
+class $ID(A):
     b:bool = True
 
     def __init__(self:"B"):

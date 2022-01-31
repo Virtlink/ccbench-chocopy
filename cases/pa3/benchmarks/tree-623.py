@@ -72,7 +72,7 @@ t = Tree()
 while i < n:
 	t.insert(k)
 	k = (k * 37813) % 37831
-	if [[Var]] % c != 0:
+	if $Var % c != 0:
 		t.insert(i)
 	i = i + 1
 

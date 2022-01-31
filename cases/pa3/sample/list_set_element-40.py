@@ -1,7 +1,7 @@
 x:[int] = None
 
 x = [1, 2, 3]
-x[0] = [[Literal]]
+x[0] = $Literal
 x[1] = 5
 x[2] = 6
 print(x[0])

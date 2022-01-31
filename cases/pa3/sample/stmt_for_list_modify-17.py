@@ -1,5 +1,5 @@
 x:int = 0
-z:[int] = [[Literal]]
+z:[int] = $Literal
 
 z = [1, 2, 1]
 

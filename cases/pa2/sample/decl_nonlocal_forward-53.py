@@ -5,6 +5,6 @@ def outer() -> int:
         return x
     x:int = 0
     inner()
-    return [[Exp]]
+    return $Exp
 
 print(outer())

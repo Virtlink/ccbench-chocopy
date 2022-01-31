@@ -101,7 +101,7 @@ v = vrange(2, n)
 sieve(v)
 
 # Print
-while i < [[Member]]():
+while i < $Member():
     print(v.get(i))
     i = i + 1
 

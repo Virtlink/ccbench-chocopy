@@ -1,5 +1,5 @@
 print(True == True)
-[[ID]](True == False)
+$ID(True == False)
 print(False == True)
 print(False == False)
 print(True != True)

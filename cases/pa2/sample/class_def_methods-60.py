@@ -8,7 +8,7 @@ class B(A):
     def __init__(self: "B"):
         pass
 
-class [[ID]](B):
+class $ID(B):
     z:bool = True
 
     def set_A(self: "C", val: int) -> object:

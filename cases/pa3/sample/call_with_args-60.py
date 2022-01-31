@@ -3,7 +3,7 @@ def f(x:int) -> int:
     print(x)
     g(1, x)
     print("end f")
-    return [[Exp]]
+    return $Exp
 
     
 def g(y:int, z:int) -> object:

@@ -1,4 +1,4 @@
 def foo() -> int:
-    return [[Literal]]
+    return $Literal
 
 foo()

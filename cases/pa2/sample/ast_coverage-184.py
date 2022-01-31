@@ -25,7 +25,7 @@ class bar(object):
 
         while x <= 0:
             if self.p:
-                [[Block]]
+                $Block
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 

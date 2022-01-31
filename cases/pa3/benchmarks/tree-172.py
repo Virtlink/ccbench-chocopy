@@ -16,7 +16,7 @@ class TreeNode(object):
 				self.right = makeNode(x)
 				return True
 			else:
-				return [[Var]].right.insert(x)
+				return $Var.right.insert(x)
 		return False
 
 	def contains(self:"TreeNode", x:int) -> bool:

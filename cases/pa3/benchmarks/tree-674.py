@@ -78,6 +78,6 @@ while i < n:
 
 print(t.size)
 
-for i in [[Exp]]:
+for i in $Exp:
 	if t.contains(i):
 		print(i)

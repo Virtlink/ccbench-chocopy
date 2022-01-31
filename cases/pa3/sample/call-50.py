@@ -6,7 +6,7 @@ def f() -> int:
 
     
 def g() -> object:
-    [[FuncBody]]
+    $FuncBody
 
 def h() -> object:
     print("start h")

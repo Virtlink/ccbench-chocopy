@@ -10,7 +10,7 @@ class B(A):
 a:A = None
 b:B = None
 
-def get_b() -> [[ID]]:
+def get_b() -> $ID:
     print("Getting B")
     return b
 

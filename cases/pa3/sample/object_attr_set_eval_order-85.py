@@ -11,7 +11,7 @@ a:A = None
 b:B = None
 
 def get_b() -> B:
-    print([[STRING]])
+    print($STRING)
     return b
 
 def get_one() -> int:

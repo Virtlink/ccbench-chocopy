@@ -1,4 +1,4 @@
-[[Definition]]
+$Definition
 
 def bar() -> int:
     return 1

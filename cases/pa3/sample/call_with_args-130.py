@@ -11,7 +11,7 @@ def g(y:int, z:int) -> object:
     print(y)
     print(z)
     h("h")
-    print([[STRING]])
+    print($STRING)
 
 def h(msg: str) -> object:
     print(msg)

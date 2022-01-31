@@ -8,7 +8,7 @@ def get_prime(n:int) -> int:
             if found == n:
                 return candidate
         candidate = candidate + 1
-    return [[Exp]] # Never happens
+    return $Exp # Never happens
 
 def is_prime(x:int) -> bool:
     div:int = 2

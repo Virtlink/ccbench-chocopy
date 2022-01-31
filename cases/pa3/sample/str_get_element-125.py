@@ -9,6 +9,6 @@ def str_get(s:str, i:int) -> str:
 a = str_get(x, 0)
 b = str_get(x, 1)
 c = str_get(x, 2)
-print([[ID]])
+print($ID)
 print(b)
 print(c)

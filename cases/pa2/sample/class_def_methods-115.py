@@ -15,7 +15,7 @@ class C(B):
         self.x = val
 
 a:A = None
-b:B = [[Literal]]
+b:B = $Literal
 c:C = None
 
 a = A()

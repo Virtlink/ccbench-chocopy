@@ -1,4 +1,4 @@
-print([[Literal]] == True)
+print($Literal == True)
 print(True == False)
 print(False == True)
 print(False == False)

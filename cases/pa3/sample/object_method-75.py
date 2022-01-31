@@ -8,7 +8,7 @@ class B(A):
     b:bool = True
 
     def __init__(self:"B"):
-        print([[Exp]])
+        print($Exp)
 
     def bar(self:"B") -> int:
         return self.foo(self.b)

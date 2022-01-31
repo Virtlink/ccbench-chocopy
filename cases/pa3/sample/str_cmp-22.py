@@ -1,6 +1,6 @@
 a:str = "Hello"
 b:str = "World"
-c:[[Type]] = "ChocoPy"
+c:$Type = "ChocoPy"
 
 def eq(a:str, b:str) -> bool:
     return a == b

@@ -1,5 +1,5 @@
 z:int = 0
 
-[[Definition]]
+$Definition
 
 foo(1)

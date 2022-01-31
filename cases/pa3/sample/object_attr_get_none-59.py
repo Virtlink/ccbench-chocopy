@@ -8,7 +8,7 @@ class B(A):
         print("B")
 
 a:A = None
-[[Definition]]
+$Definition
 
 a = B()
 print(a.a)

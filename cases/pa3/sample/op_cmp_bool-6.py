@@ -1,4 +1,4 @@
-[[Var]](True == True)
+$Var(True == True)
 print(True == False)
 print(False == True)
 print(False == False)

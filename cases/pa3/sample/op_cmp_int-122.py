@@ -9,7 +9,7 @@ print(x > y)
 print(x >= y)
 
 print(x == x)
-print([[Parameters]])
+print($Parameters)
 print(x < x)
 print(x <= x)
 print(x > x)

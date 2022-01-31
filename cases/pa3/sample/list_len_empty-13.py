@@ -1,4 +1,4 @@
 x:[int] = None
 
-[[AssignTarget]] []
+$AssignTarget []
 print(len(x))

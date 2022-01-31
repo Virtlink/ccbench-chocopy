@@ -60,7 +60,7 @@ def makeNode(x: int) -> TreeNode:
 
 # Input parameters
 n:int = 100
-[[TypedVar]] = 4
+$TypedVar = 4
 
 # Data
 t:Tree = None

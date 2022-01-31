@@ -11,7 +11,7 @@ def get_prime(n:int) -> int:
     return 0 # Never happens
 
 def is_prime(x:int) -> bool:
-    div:int = [[INT]]
+    div:int = $INT
     while div < x:
         if x % div == 0:
             return False

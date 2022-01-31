@@ -1,2 +1,2 @@
--[[INT]]
+-$INT
 not False

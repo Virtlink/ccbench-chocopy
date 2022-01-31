@@ -1,5 +1,5 @@
 def f() -> int:
-  x:int = [[Literal]]
+  x:int = $Literal
   return x
 
 print(f())

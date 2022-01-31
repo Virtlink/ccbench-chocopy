@@ -11,7 +11,7 @@ class B(A):
 class C(B):
     z:bool = True
 
-    def set_A(self: "C", [[TypedVar]]) -> object:
+    def set_A(self: "C", $TypedVar) -> object:
         self.x = val
 
 a:A = None

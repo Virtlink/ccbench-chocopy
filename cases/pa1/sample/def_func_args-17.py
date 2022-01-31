@@ -1,4 +1,4 @@
 def foo(x:int, y:int) -> bool:
-    [[FuncBody]]
+    $FuncBody
 
 foo(1,2)

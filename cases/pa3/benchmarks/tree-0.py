@@ -1,2 +1,2 @@
 # Binary-search trees
-[[Program]]
+$Program

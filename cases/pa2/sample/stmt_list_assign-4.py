@@ -1,4 +1,4 @@
-[[TypedVar]] = None
+$TypedVar = None
 y:[object] = None
 
 x = [1, 2]

@@ -1,4 +1,4 @@
-[[VarDef]]
+$VarDef
 y:int = 9
 
 print(x // y)

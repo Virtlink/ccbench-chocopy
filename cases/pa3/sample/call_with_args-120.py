@@ -10,7 +10,7 @@ def g(y:int, z:int) -> object:
     print("start g")
     print(y)
     print(z)
-    h([[STRING]])
+    h($STRING)
     print("end g")
 
 def h(msg: str) -> object:

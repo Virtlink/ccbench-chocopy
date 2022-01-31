@@ -6,6 +6,6 @@ def foo(x: int) -> int:
         def baz() -> int:
             return y
         return baz()
-    [[Statement]]
+    $Statement
     
 print(foo(g))

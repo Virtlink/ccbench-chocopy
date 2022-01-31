@@ -22,7 +22,7 @@ a = A()
 b = B()
 c = C()
 
-b.x = a.get_A([[Parameters]])
+b.x = a.get_A($Parameters)
 a.x = b.get_A()
 c.set_A(0)
 

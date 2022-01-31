@@ -1,5 +1,5 @@
 x:int = 0
-[[Definition]]
+$Definition
 z:[int] = None
 e:[int] = None
 

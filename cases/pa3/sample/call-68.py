@@ -7,7 +7,7 @@ def f() -> int:
     
 def g() -> object:
     print("start g")
-    h([[Parameters]])
+    h($Parameters)
     print("end g")
 
 def h() -> object:

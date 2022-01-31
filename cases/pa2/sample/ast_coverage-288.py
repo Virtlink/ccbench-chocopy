@@ -33,6 +33,6 @@ class bar(object):
 
         return "Nope"
 
-print([[ID]]().baz([1,2]))
+print($ID().baz([1,2]))
 
 

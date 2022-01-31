@@ -2,7 +2,7 @@
 
 s: str = ""
 
-[[Target]] = input()
+$Target = input()
 while len(s) > 0:
     print(s)
     s = input()

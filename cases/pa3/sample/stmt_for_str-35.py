@@ -2,4 +2,4 @@ x:str = ""
 z:str = "abc"
 
 for x in z:
-    print([[ID]])
+    print($ID)

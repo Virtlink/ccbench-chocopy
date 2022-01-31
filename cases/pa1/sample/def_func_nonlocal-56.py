@@ -5,7 +5,7 @@ def foo(x:int) -> bool:
     def bar(y: int) -> int:
         nonlocal a
         a = 2 
-        [[Statement]]
+        $Statement
     return bar(x) > a
 
 foo(1)

@@ -1,6 +1,6 @@
 def outer() -> int:
     def inner() -> int:
-        [[FuncBody]]
+        $FuncBody
     x:int = 0
     inner()
     return x

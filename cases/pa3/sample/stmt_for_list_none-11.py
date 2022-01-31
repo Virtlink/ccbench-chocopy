@@ -1,5 +1,5 @@
 x:int = 0
-[[VarDef]]
+$VarDef
 
 for x in z:
     print(x)

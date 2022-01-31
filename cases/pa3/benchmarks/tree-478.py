@@ -51,7 +51,7 @@ class Tree(object):
 		else:
 			return self.root.contains(x)
 
-[[Definition]]
+$Definition
 
 
 # Input parameters

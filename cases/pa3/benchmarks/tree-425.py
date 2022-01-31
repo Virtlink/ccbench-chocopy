@@ -45,7 +45,7 @@ class Tree(object):
 			if self.root.insert(x):
 				self.size = self.size + 1
 
-	[[ClassBodyMember]]
+	$ClassBodyMember
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None

@@ -15,5 +15,5 @@ print(a.a)
 
 b.a = 1
 b.b = False
-[[Statement]]
+$Statement
 print(b.b)

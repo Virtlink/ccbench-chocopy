@@ -1,5 +1,5 @@
 x:str = ""
-[[VarDef]]
+$VarDef
 
 for x in z:
     z = "doesn't matter"

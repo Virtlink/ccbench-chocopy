@@ -17,7 +17,7 @@ class bar(object):
                 x = -1
 
         for x in xx:
-            [[AssignTarget]] x == 2
+            $AssignTarget x == 2
 
         qux(0) # Yay! ChocoPy
 

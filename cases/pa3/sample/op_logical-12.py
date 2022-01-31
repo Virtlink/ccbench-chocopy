@@ -1,5 +1,5 @@
 def f() -> bool:
-  [[Statement]]
+  $Statement
   return True
 
 def g() -> bool:

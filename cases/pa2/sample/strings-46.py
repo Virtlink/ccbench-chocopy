@@ -3,6 +3,6 @@ y:str = "World"
 z:str = ""
 
 z = x + y
-z = [[Exp]]
+z = $Exp
 x = y = z
 

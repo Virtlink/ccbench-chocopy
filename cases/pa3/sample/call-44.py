@@ -5,7 +5,7 @@ def f() -> int:
     return 42
 
     
-[[FuncDef]]
+$FuncDef
 
 def h() -> object:
     print("start h")

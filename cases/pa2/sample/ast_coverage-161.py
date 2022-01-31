@@ -21,7 +21,7 @@ class bar(object):
 
         qux(0) # Yay! ChocoPy
 
-        count = [[Exp]] + 1
+        count = $Exp + 1
 
         while x <= 0:
             if self.p:

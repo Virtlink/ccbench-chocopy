@@ -1,4 +1,4 @@
-def f([[TypedVar]]) -> int:
+def f($TypedVar) -> int:
     print("start f")
     print(x)
     g(1, x)

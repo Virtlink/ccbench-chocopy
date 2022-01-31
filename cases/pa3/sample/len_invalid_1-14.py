@@ -1,3 +1,3 @@
 x:[int] = None
 
-[[Var]](len(x))
+$Var(len(x))

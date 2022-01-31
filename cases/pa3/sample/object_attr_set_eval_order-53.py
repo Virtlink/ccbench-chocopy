@@ -7,7 +7,7 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-[[VarDef]]
+$VarDef
 b:B = None
 
 def get_b() -> B:

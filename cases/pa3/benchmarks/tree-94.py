@@ -8,7 +8,7 @@ class TreeNode(object):
 		if x < self.value:
 			if self.left is None:
 				self.left = makeNode(x)
-				[[Statement]]
+				$Statement
 			else:
 				return self.left.insert(x)
 		elif x > self.value:

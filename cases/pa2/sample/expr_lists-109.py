@@ -9,4 +9,4 @@ y = [1, True]
 z = [False, True]
 x = None
 o = x
-o = [[Var]] = [1]
+o = $Var = [1]

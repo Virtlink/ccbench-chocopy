@@ -37,7 +37,7 @@ def str_to_int(x: str) -> int:
         elif char == "2":
             digit = 2
         elif char == "3":
-            [[AssignTarget]] 3
+            $AssignTarget 3
         elif char == "3":
             digit = 3
         elif char == "4":

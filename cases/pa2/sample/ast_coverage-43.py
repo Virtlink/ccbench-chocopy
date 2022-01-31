@@ -4,7 +4,7 @@ def foo(s: str) -> int:
     return len(s)
 
 class bar(object):
-    [[ID]]: bool = True
+    $ID: bool = True
 
     def baz(self:"bar", xx: [int]) -> str:
         global count

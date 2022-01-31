@@ -102,6 +102,6 @@ sieve(v)
 
 # Print
 while i < v.length():
-    print([[Member]](i))
+    print($Member(i))
     i = i + 1
 

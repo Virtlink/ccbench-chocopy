@@ -65,7 +65,7 @@ c:int = 4
 # Data
 t:Tree = None
 i:int = 0
-[[TypedVar]] = 37813
+$TypedVar = 37813
 
 # Crunch
 t = Tree()

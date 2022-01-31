@@ -1,2 +1,2 @@
-[[ID]](True)
+$ID(True)
 print(False)

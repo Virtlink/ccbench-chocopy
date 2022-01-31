@@ -18,7 +18,7 @@ def get_one() -> int:
     print("Getting 1")
     return 1
 
-[[FuncDef]]
+$FuncDef
 
 a = b = B()
 get_b().a = get_one()

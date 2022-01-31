@@ -1,4 +1,4 @@
-x:[[[ID]]] = None
+x:[$ID] = None
 
 x[0] = 1
 

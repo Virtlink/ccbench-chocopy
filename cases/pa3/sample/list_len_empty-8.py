@@ -1,4 +1,4 @@
-x:[[[ID]]] = None
+x:[$ID] = None
 
 x = []
 print(len(x))

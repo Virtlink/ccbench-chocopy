@@ -8,7 +8,7 @@ class B(A):
         print("B")
 
 a:A = None
-b:[[ID]] = None
+b:$ID = None
 
 a = b = B()
 print(a.a)

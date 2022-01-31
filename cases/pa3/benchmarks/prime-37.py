@@ -3,7 +3,7 @@ def get_prime(n:int) -> int:
     candidate:int = 2
     found:int = 0
     while True:
-        [[Statement]]
+        $Statement
         candidate = candidate + 1
     return 0 # Never happens
 

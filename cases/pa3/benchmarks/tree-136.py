@@ -12,7 +12,7 @@ class TreeNode(object):
 			else:
 				return self.left.insert(x)
 		elif x > self.value:
-			if self.[[ID]] is None:
+			if self.$ID is None:
 				self.right = makeNode(x)
 				return True
 			else:

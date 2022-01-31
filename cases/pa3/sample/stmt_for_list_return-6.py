@@ -1,4 +1,4 @@
-def print_list([[TypedVar]]) -> object:
+def print_list($TypedVar) -> object:
     x:int = 0
     for x in z:
         print(x)

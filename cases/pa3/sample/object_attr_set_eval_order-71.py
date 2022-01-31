@@ -10,7 +10,7 @@ class B(A):
 a:A = None
 b:B = None
 
-def get_b() -> [[Type]]:
+def get_b() -> $Type:
     print("Getting B")
     return b
 

@@ -9,7 +9,7 @@ class C(B):
     z:bool = True
 
 a:A = None
-[[TypedVar]] = None
+$TypedVar = None
 c:C = None
 
 a = A()

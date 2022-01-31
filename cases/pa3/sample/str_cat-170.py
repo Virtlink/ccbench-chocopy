@@ -12,6 +12,6 @@ print(cat2(a, b))
 print(cat2("", c))
 print(cat3(a, " ", c))
 print(len(a))
-print([[Exp]])
+print($Exp)
 print(len(cat2("","")))
 

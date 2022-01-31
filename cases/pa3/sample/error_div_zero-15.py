@@ -1,1 +1,1 @@
-print(42 // [[Literal]])
+print(42 // $Literal)

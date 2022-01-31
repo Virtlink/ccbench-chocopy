@@ -1,5 +1,5 @@
 g: int = 1
-def foo(x: int) [[RetType]]:
+def foo(x: int) $RetType:
     y: int = 2
     def bar() -> int:
         z: int = 3

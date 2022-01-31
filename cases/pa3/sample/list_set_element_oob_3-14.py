@@ -1,4 +1,4 @@
 x:[int] = None
 
-[[Target]] = []
+$Target = []
 x[0] = 4

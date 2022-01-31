@@ -90,7 +90,7 @@ def sieve(v:Vector) -> object:
         i = i + 1
 
 # Input parameter
-n:[[Type]] = 50
+n:$Type = 50
 
 # Data
 v:Vector = None

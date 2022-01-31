@@ -73,7 +73,7 @@ while i < n:
 	t.insert(k)
 	k = (k * 37813) % 37831
 	if i % c != 0:
-		t.[[ID]](i)
+		t.$ID(i)
 	i = i + 1
 
 print(t.size)

@@ -1,6 +1,6 @@
 g: int = 1
 def foo(x: int) -> int:
-    y: [[ID]] = 2
+    y: $ID = 2
     def bar() -> int:
         z: int = 3
         def baz() -> int:

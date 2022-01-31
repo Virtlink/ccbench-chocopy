@@ -3,6 +3,6 @@ def print_list(z:[int]) -> object:
     for x in z:
         print(x)
         if x >= 30:
-            [[Block]]
+            $Block
 
 print_list([10,20,30,40])

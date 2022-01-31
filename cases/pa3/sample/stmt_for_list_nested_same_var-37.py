@@ -2,7 +2,7 @@ x:int = 0
 y:int = 0
 z:[int] = None
 
-z = [[[INT]], 2, 3]
+z = [$INT, 2, 3]
 
 for x in z:
     for x in z:

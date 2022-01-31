@@ -1,7 +1,7 @@
 count:int = 0
 
 def foo(s: str) -> int:
-    [[Statement]]
+    $Statement
 
 class bar(object):
     p: bool = True

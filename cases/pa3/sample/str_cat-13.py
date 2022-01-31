@@ -1,5 +1,5 @@
 a:str = "Hello"
-[[ID]]:str = "World"
+$ID:str = "World"
 c:str = "ChocoPy"
 
 def cat2(a:str, b:str) -> str:

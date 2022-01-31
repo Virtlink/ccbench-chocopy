@@ -1,5 +1,5 @@
 def f() -> bool:
-  [[Exp]]
+  $Exp
   return True
 
 def g() -> bool:

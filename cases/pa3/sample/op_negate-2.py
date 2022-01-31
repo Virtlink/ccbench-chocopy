@@ -1,2 +1,2 @@
-[[Definition]]
+$Definition
 print(-x)

@@ -1,5 +1,5 @@
 class A(object):
-    [[VarDef]]
+    $VarDef
 
 a1:A = None
 a2:A = None

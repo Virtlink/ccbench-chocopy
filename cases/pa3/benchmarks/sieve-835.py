@@ -101,7 +101,7 @@ v = vrange(2, n)
 sieve(v)
 
 # Print
-while i < v.[[ID]]():
+while i < v.$ID():
     print(v.get(i))
     i = i + 1
 

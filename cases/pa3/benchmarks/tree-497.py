@@ -52,7 +52,7 @@ class Tree(object):
 			return self.root.contains(x)
 
 def makeNode(x: int) -> TreeNode:
-	b:TreeNode = [[Literal]]
+	b:TreeNode = $Literal
 	b = TreeNode()
 	b.value = x
 	return b

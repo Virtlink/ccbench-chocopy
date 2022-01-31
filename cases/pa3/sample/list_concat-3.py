@@ -1,4 +1,4 @@
-[[FuncDef]]
+$FuncDef
 
 z:[int] = None
 i:int = 0

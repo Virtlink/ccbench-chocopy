@@ -42,7 +42,7 @@ class Tree(object):
 			self.root = makeNode(x)
 			self.size = 1
 		else:
-			if self.[[ID]].insert(x):
+			if self.$ID.insert(x):
 				self.size = self.size + 1
 
 	def contains(self:"Tree", x:int) -> bool:

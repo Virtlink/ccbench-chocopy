@@ -15,4 +15,4 @@ b.a = 1
 b.b = False
 print(a.a)
 print(b.a)
-print([[ID]].b)
+print($ID.b)

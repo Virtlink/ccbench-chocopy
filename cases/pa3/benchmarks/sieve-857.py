@@ -102,6 +102,6 @@ sieve(v)
 
 # Print
 while i < v.length():
-    print(v.get([[Var]]))
+    print(v.get($Var))
     i = i + 1
 

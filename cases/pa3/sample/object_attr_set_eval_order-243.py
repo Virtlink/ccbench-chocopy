@@ -30,4 +30,4 @@ print("Assigned B.b")
 
 print(a.a)
 print(b.a)
-print([[Exp]])
+print($Exp)

@@ -8,7 +8,7 @@ class B(A):
         print("B")
 
 a:A = None
-b:B = [[Literal]]
+b:B = $Literal
 
 def get_b() -> B:
     print("Getting B")

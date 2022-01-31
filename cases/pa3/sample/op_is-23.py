@@ -2,7 +2,7 @@ class A(object):
     a:int = 42
 
 a1:A = None
-[[Definition]]
+$Definition
 a3:A = None
 a4:A = None
 

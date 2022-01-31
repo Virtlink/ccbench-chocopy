@@ -8,7 +8,7 @@ a4:A = None
 
 a1 = A()
 a2 = a1
-a3 = [[ID]]()
+a3 = $ID()
 
 print(a1 is a1)
 print(a1 is a2)

@@ -55,7 +55,7 @@ def str_to_int(x: str) -> int:
         else:
             return 0 # On error
         first_char = False
-        [[Statement]]
+        $Statement
 
     # Compute result
     return result * sign

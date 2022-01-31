@@ -1,4 +1,4 @@
-[[FuncDef]]
+$FuncDef
 
 x:int = 0
 

@@ -9,7 +9,7 @@ class B(A):
         pass
 
 class C(B):
-    [[TypedVar]] = True
+    $TypedVar = True
 
     def set_A(self: "C", val: int) -> object:
         self.x = val

@@ -7,7 +7,7 @@ class TreeNode(object):
 	def insert(self:"TreeNode", x:int) -> bool:
 		if x < self.value:
 			if self.left is None:
-				[[Block]]
+				$Block
 			else:
 				return self.left.insert(x)
 		elif x > self.value:

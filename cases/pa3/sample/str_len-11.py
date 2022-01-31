@@ -1,1 +1,1 @@
-print([[Exp]]("ChocoPy"))
+print($Exp("ChocoPy"))

@@ -12,6 +12,6 @@ def g() -> object:
 
 def h() -> object:
     print("start h")
-    [[Exp]]("end h")
+    $Exp("end h")
 
 print(f())

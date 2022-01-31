@@ -5,7 +5,7 @@ class A(object):
         return self.a
 
 class B(A):
-    [[ClassBodyMember]]
+    $ClassBodyMember
 
     def __init__(self:"B"):
         print("B")

@@ -1,4 +1,4 @@
-[[Statement]]
+$Statement
 False
 1
 None

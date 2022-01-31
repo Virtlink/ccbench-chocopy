@@ -5,6 +5,6 @@ class A(object):
         return self.a
 
 class B(A):
-    [[ClassBody]]
+    $ClassBody
 
 print(B().bar())

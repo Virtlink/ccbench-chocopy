@@ -12,7 +12,7 @@ def get_prime(n:int) -> int:
 
 def is_prime(x:int) -> bool:
     div:int = 2
-    [[Statement]]
+    $Statement
     return True
 
 # Input parameter

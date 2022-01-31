@@ -19,7 +19,7 @@ b:B = None
 c:C = None
 
 a = A()
-b = [[Exp]]
+b = $Exp
 c = C()
 
 b.x = a.get_A()

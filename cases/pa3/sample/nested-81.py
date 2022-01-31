@@ -8,4 +8,4 @@ def foo(x: int) -> int:
         return baz()
     return bar()
     
-[[Exp]](foo(g))
+$Exp(foo(g))

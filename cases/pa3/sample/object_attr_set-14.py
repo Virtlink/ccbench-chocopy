@@ -1,5 +1,5 @@
 class A(object):
-    a:int = [[Literal]]
+    a:int = $Literal
 
 class B(A):
     b:bool = True

@@ -51,7 +51,7 @@ def str_to_int(x: str) -> int:
         elif char == "8":
             digit = 8
         elif char == "9":
-            [[Block]]
+            $Block
         else:
             return 0 # On error
         first_char = False

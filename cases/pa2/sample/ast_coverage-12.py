@@ -1,6 +1,6 @@
 count:int = 0
 
-def [[ID]](s: str) -> int:
+def $ID(s: str) -> int:
     return len(s)
 
 class bar(object):

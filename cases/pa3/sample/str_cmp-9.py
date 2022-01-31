@@ -1,4 +1,4 @@
-a:str = [[STRING]]
+a:str = $STRING
 b:str = "World"
 c:str = "ChocoPy"
 

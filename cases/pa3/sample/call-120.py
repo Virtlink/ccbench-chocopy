@@ -14,4 +14,4 @@ def h() -> object:
     print("start h")
     print("end h")
 
-print([[Var]]())
+print($Var())

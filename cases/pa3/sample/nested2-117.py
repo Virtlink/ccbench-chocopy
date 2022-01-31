@@ -11,4 +11,4 @@ def foo(x: int) -> int:
 
     return bar()
     
-print(foo([[Var]]))
+print(foo($Var))

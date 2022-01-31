@@ -4,6 +4,6 @@ z:str = ""
 o:object = None
 
 x = 2
-y = [[Exp]]
+y = $Exp
 z = "Hello"
 o = z

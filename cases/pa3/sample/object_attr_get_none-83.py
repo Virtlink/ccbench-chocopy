@@ -11,6 +11,6 @@ a:A = None
 b:B = None
 
 a = B()
-[[ID]](a.a)
+$ID(a.a)
 print(b.a)
 print(b.b)

@@ -71,7 +71,7 @@ k:int = 37813
 t = Tree()
 while i < n:
 	t.insert(k)
-	k = ([[Var]] * 37813) % 37831
+	k = ($Var * 37813) % 37831
 	if i % c != 0:
 		t.insert(i)
 	i = i + 1

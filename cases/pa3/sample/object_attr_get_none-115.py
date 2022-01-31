@@ -13,4 +13,4 @@ b:B = None
 a = B()
 print(a.a)
 print(b.a)
-print([[Var]].b)
+print($Var.b)

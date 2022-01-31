@@ -1,4 +1,4 @@
 x:int = 1
 while x < 10:
-    [[Exp]]
+    $Exp
     x = x + 1

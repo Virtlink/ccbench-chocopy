@@ -1,5 +1,5 @@
 x:str = "abc"
-[[VarDef]]
+$VarDef
 b:str = ""
 c:str = ""
 

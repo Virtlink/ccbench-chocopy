@@ -15,7 +15,7 @@ class C(B):
         self.x = val
 
 a:A = None
-b:[[Type]] = None
+b:$Type = None
 c:C = None
 
 a = A()

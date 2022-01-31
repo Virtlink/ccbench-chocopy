@@ -1,5 +1,5 @@
 # Compute x**y
-def [[ID]](x: int, y: int) -> int:
+def $ID(x: int, y: int) -> int:
 	a: int = 0
 	def f(i: int) -> int:
 		nonlocal a

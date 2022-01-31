@@ -1,5 +1,5 @@
 def f() -> int:
   x:int = 1
-  return [[Var]]
+  return $Var
 
 print(f())

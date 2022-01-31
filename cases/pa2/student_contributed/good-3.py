@@ -1,2 +1,2 @@
-[[VarDef]]
+$VarDef
 x * 1

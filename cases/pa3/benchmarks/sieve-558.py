@@ -65,7 +65,7 @@ class DoublingVector(Vector):
 # Makes a vector in the range [i, j)
 def vrange(i:int, j:int) -> Vector:
     v:Vector = None
-    [[Var]] = DoublingVector()
+    $Var = DoublingVector()
     
     while i < j:
         v.append(i)

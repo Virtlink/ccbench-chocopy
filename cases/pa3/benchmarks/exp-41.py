@@ -2,7 +2,7 @@
 def exp(x: int, y: int) -> int:
 	a: int = 0
 	def f(i: int) -> int:
-		nonlocal [[ID]]
+		nonlocal $ID
 		def geta() -> int:
 			return a
 		if i <= 0:

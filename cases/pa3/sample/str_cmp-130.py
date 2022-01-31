@@ -10,7 +10,7 @@ def neq(a:str, b:str) -> bool:
 
 print(eq(a,a))
 print(eq(a,b))
-print(neq([[Exp]],b))
+print(neq($Exp,b))
 print(neq(b,b))
 print(eq(c,a))
 print(neq(c,b))

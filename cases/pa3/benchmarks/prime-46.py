@@ -3,7 +3,7 @@ def get_prime(n:int) -> int:
     candidate:int = 2
     found:int = 0
     while True:
-        if is_prime([[ID]]):
+        if is_prime($ID):
             found = found + 1
             if found == n:
                 return candidate

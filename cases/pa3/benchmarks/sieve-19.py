@@ -1,7 +1,7 @@
 # A resizable list of integers
 class Vector(object):
     items: [int] = None
-    [[ID]]: int = 0
+    $ID: int = 0
 
     def __init__(self:"Vector"):
         self.items = [0]

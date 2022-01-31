@@ -14,6 +14,6 @@ a = B()
 print(a.a)
 
 b.a = 1
-b.[[ID]] = False
+b.$ID = False
 print(b.a)
 print(b.b)

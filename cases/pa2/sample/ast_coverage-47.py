@@ -6,7 +6,7 @@ def foo(s: str) -> int:
 class bar(object):
     p: bool = True
 
-    [[ClassBodyMember]]
+    $ClassBodyMember
 
 print(bar().baz([1,2]))
 

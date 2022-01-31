@@ -5,5 +5,5 @@ o:object = None
 
 x = 2
 y = False
-[[AssignTarget]] "Hello"
+$AssignTarget "Hello"
 o = z

@@ -1,6 +1,6 @@
 
 def foo(x:int) -> bool:
-    [[FuncBodyMember]]
+    $FuncBodyMember
     b:int = 1
     def bar(y: int) -> int:
         nonlocal a

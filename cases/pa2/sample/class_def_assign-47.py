@@ -6,7 +6,7 @@ class B(A):
         pass
 
 class C(B):
-    z:[[ID]] = True
+    z:$ID = True
 
 a:A = None
 b:B = None

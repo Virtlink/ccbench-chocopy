@@ -7,7 +7,7 @@ class bar(object):
     p: bool = True
 
     def baz(self:"bar", xx: [int]) -> str:
-        [[FuncBodyMember]]
+        $FuncBodyMember
         x:int = 0
         y:int = 1
 

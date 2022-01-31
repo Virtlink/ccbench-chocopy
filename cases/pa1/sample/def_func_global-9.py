@@ -1,4 +1,4 @@
-z:int = [[INT]]
+z:int = $INT
 
 def foo(x:int) -> bool:
     global z

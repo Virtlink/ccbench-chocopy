@@ -5,7 +5,7 @@ def foo(x: int) -> int:
         z: int = 3
         def baz() -> int:
             return y
-        return [[Var]]()
+        return $Var()
     return bar()
     
 print(foo(g))

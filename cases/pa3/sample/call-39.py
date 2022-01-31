@@ -2,7 +2,7 @@ def f() -> int:
     print("start f")
     g()
     print("end f")
-    [[Statement]]
+    $Statement
 
     
 def g() -> object:

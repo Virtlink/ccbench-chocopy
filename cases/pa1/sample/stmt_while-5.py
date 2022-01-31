@@ -1,3 +1,3 @@
-while [[Literal]]:
+while $Literal:
     pass
 

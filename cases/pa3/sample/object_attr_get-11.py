@@ -1,5 +1,5 @@
 class A(object):
-    [[ID]]:int = 42
+    $ID:int = 42
 
 class B(A):
     b:bool = True

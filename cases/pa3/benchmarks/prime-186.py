@@ -26,5 +26,5 @@ i:int = 1
 
 # Crunch
 while i <= n:
-    [[Exp]]
+    $Exp
     i = i + 1

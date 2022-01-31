@@ -4,7 +4,7 @@ def exp(x: int, y: int) -> int:
 	def f(i: int) -> int:
 		nonlocal a
 		def geta() -> int:
-			[[Statement]]
+			$Statement
 		if i <= 0:
 			return geta()
 		else:

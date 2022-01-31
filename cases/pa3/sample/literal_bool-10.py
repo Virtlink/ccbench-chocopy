@@ -1,2 +1,2 @@
-print([[Exp]])
+print($Exp)
 print(False)

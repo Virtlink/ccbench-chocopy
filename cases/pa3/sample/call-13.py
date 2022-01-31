@@ -1,5 +1,5 @@
 def f() -> int:
-    [[Exp]]
+    $Exp
     g()
     print("end f")
     return 42

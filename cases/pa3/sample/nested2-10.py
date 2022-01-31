@@ -1,4 +1,4 @@
 g: int = 1
-[[Definition]]
+$Definition
     
 print(foo(g))

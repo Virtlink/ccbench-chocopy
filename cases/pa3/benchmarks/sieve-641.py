@@ -77,7 +77,7 @@ def vrange(i:int, j:int) -> Vector:
 def sieve(v:Vector) -> object:
     i:int = 0
     j:int = 0
-    k:int = [[Literal]]
+    k:int = $Literal
 
     while i < v.length():
         k = v.get(i)

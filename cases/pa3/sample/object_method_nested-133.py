@@ -15,4 +15,4 @@ class B(A):
             return self.foo(p)
         return qux(True)
 
-[[Var]](B().bar())
+$Var(B().bar())

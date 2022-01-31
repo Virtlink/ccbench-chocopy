@@ -14,7 +14,7 @@ def exp(x: int, y: int) -> int:
 	return f(y)
 
 # Input parameter
-[[VarDef]]
+$VarDef
 
 # Run [0, n]
 i:int = 0

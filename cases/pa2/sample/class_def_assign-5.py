@@ -1,4 +1,4 @@
-class A([[ID]]):
+class A($ID):
     x:int = 1
 
 class B(A):

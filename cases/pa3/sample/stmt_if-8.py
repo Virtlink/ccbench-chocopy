@@ -1,5 +1,5 @@
 if False:
-    [[Statement]]
+    $Statement
 elif True:
     if True:
         print("Yes")

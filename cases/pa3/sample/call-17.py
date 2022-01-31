@@ -1,5 +1,5 @@
 def f() -> int:
-    print([[Parameters]])
+    print($Parameters)
     g()
     print("end f")
     return 42

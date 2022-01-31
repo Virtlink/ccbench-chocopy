@@ -76,7 +76,7 @@ while i < n:
 		t.insert(i)
 	i = i + 1
 
-[[Var]](t.size)
+$Var(t.size)
 
 for i in [4, 8, 15, 16, 23, 42]:
 	if t.contains(i):

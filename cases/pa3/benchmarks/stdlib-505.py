@@ -61,7 +61,7 @@ def str_to_int(x: str) -> int:
     return result * sign
         
 # Input parameters
-c:int = [[INT]]
+c:int = $INT
 n:int = 10
 
 # Run [-nc, nc] with step size c

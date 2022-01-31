@@ -1,4 +1,4 @@
-def f() [[RetType]]:
+def f() $RetType:
   print("f called")
   return True
 

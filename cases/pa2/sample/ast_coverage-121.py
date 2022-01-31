@@ -16,7 +16,7 @@ class bar(object):
             if x > y:
                 x = -1
 
-        [[Statement]]
+        $Statement
 
         qux(0) # Yay! ChocoPy
 

@@ -1,6 +1,6 @@
 def f() -> int:
     while True:
-        [[Block]]
+        $Block
     return 0
 
 print(f())

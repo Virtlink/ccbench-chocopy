@@ -5,7 +5,7 @@ def exp(x: int, y: int) -> int:
 		nonlocal a
 		def geta() -> int:
 			return a
-		[[Statement]]
+		$Statement
 	a = 1
 	return f(y)
 

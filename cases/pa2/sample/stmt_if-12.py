@@ -1,6 +1,6 @@
 if False:
     pass
 elif True:
-    [[Block]]
+    $Block
 else:
     pass

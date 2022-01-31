@@ -1,5 +1,5 @@
 def concat(x:[int], y:[int]) -> [int]:
-    [[FuncBody]]
+    $FuncBody
 
 z:[int] = None
 i:int = 0

@@ -1,5 +1,5 @@
 class A(object):
-    [[VarDef]]
+    $VarDef
 
 class B(A):
     b:bool = True

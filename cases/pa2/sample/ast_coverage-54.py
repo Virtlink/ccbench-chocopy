@@ -6,7 +6,7 @@ def foo(s: str) -> int:
 class bar(object):
     p: bool = True
 
-    def baz(self:[[IDSTRING]], xx: [int]) -> str:
+    def baz(self:$IDSTRING, xx: [int]) -> str:
         global count
         x:int = 0
         y:int = 1

@@ -8,7 +8,7 @@ print(x <= y)
 print(x > y)
 print(x >= y)
 
-[[Statement]]
+$Statement
 print(x != x)
 print(x < x)
 print(x <= x)

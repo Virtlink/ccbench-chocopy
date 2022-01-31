@@ -10,7 +10,7 @@ class C(B):
 
 a:A = None
 b:B = None
-[[Definition]]
+$Definition
 
 a = A()
 b = B()

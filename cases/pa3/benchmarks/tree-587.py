@@ -70,7 +70,7 @@ k:int = 37813
 # Crunch
 t = Tree()
 while i < n:
-	[[Block]]
+	$Block
 
 print(t.size)
 

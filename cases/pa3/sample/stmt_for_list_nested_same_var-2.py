@@ -1,4 +1,4 @@
-[[Definition]]
+$Definition
 y:int = 0
 z:[int] = None
 

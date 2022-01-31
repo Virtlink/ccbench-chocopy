@@ -3,7 +3,7 @@ b:str = "World"
 c:str = "ChocoPy"
 
 def cat2(a:str, b:str) -> str:
-    return a + [[ID]]
+    return a + $ID
 
 def cat3(a:str, b:str, c:str) -> str:
     return a + b + c

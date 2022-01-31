@@ -1,7 +1,7 @@
 class A(object):
     x:int = 1
 
-[[Definition]]
+$Definition
 
 class C(B):
     z:bool = True

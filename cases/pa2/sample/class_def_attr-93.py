@@ -13,7 +13,7 @@ b:B = None
 c:C = None
 
 a = A()
-b = B([[Parameters]])
+b = B($Parameters)
 c = C()
 
 a.x = 1

@@ -1,5 +1,5 @@
 # Get the n-th prime starting from 2
-[[FuncDef]] # Never happens
+$FuncDef # Never happens
 
 def is_prime(x:int) -> bool:
     div:int = 2

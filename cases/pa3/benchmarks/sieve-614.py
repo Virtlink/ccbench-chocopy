@@ -74,7 +74,7 @@ def vrange(i:int, j:int) -> Vector:
     return v
 
 # Sieve of Eratosthenes (not really)
-def sieve(v:Vector) [[RetType]]:
+def sieve(v:Vector) $RetType:
     i:int = 0
     j:int = 0
     k:int = 0

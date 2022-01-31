@@ -1,1 +1,1 @@
-print([[Var]]("ChocoPy"))
+print($Var("ChocoPy"))

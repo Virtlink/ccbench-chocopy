@@ -1,2 +1,2 @@
--[[Literal]]
+-$Literal
 not False

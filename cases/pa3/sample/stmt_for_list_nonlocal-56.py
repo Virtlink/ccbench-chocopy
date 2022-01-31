@@ -7,7 +7,7 @@ def crunch(zz:[[int]]) -> object:
         for z in zz:
             pass # Set z to last element in zz
 
-    [[Statement]]
+    $Statement
     for x in z:
         pass # Set x to last element in z
 

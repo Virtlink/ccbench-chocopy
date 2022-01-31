@@ -72,7 +72,7 @@ t = Tree()
 while i < n:
 	t.insert(k)
 	k = (k * 37813) % 37831
-	if i % c != [[Exp]]:
+	if i % c != $Exp:
 		t.insert(i)
 	i = i + 1
 

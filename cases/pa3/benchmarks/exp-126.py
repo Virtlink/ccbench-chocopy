@@ -14,7 +14,7 @@ def exp(x: int, y: int) -> int:
 	return f(y)
 
 # Input parameter
-[[TypedVar]] = 42
+$TypedVar = 42
 
 # Run [0, n]
 i:int = 0

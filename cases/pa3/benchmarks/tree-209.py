@@ -20,7 +20,7 @@ class TreeNode(object):
 		return False
 
 	def contains(self:"TreeNode", x:int) -> bool:
-		if x < [[Member]]:
+		if x < $Member:
 			if self.left is None:
 				return False
 			else:

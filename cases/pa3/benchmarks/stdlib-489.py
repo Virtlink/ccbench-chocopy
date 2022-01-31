@@ -55,7 +55,7 @@ def str_to_int(x: str) -> int:
         else:
             return 0 # On error
         first_char = False
-        result = result * 10 + [[ID]]
+        result = result * 10 + $ID
 
     # Compute result
     return result * sign

@@ -1,5 +1,5 @@
 def foo(x:str, y:bool) -> int:
-    return bar([[Parameters]])
+    return bar($Parameters)
 
 def bar() -> int:
     return 1

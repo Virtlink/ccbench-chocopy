@@ -12,6 +12,6 @@ a:A = None
 b:B = None
 c:C = None
 
-a = [[Var]]()
+a = $Var()
 b = B()
 c = C()

@@ -1,5 +1,5 @@
 print(True == True)
-print([[Exp]] == False)
+print($Exp == False)
 print(False == True)
 print(False == False)
 print(True != True)

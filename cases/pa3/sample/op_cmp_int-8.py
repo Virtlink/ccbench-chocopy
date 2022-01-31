@@ -1,4 +1,4 @@
-x:int = [[Literal]]
+x:int = $Literal
 y:int = 7
 
 print(x == y)

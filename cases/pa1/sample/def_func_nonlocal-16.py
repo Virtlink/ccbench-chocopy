@@ -1,6 +1,6 @@
 
 def foo(x:int) -> bool:
-    [[VarDef]]
+    $VarDef
     b:int = 1
     def bar(y: int) -> int:
         nonlocal a

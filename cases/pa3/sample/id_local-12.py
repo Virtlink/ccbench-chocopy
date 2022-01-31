@@ -1,5 +1,5 @@
 def f() -> int:
-  [[VarDef]]
+  $VarDef
   return x
 
 print(f())

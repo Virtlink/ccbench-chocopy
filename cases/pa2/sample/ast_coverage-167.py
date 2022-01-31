@@ -23,7 +23,7 @@ class bar(object):
 
         count = count + 1
 
-        [[Statement]]
+        $Statement
 
         return "Nope"
 

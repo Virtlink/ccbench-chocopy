@@ -7,7 +7,7 @@ class A(object):
 class B(A):
     b:bool = True
 
-    [[ClassBodyMember]]
+    $ClassBodyMember
 
     def bar(self:"B") -> int:
         return self.foo(self.foo(print("...")))

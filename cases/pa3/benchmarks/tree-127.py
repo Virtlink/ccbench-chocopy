@@ -12,7 +12,7 @@ class TreeNode(object):
 			else:
 				return self.left.insert(x)
 		elif x > self.value:
-			[[Block]]
+			$Block
 		return False
 
 	def contains(self:"TreeNode", x:int) -> bool:

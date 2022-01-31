@@ -1,3 +1,3 @@
 x:int = 1
 
-[[Exp]](len(x))
+$Exp(len(x))

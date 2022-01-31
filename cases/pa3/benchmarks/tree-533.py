@@ -59,7 +59,7 @@ def makeNode(x: int) -> TreeNode:
 
 
 # Input parameters
-n:int = [[Literal]]
+n:int = $Literal
 c:int = 4
 
 # Data

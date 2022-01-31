@@ -8,4 +8,4 @@ def foo(x:int) -> bool:
         return y
     return bar(x) > a
 
-foo([[Parameters]])
+foo($Parameters)

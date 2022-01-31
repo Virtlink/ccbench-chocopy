@@ -18,7 +18,7 @@ def get_one() -> int:
     print("Getting 1")
     return 1
 
-def get_false() -> [[ID]]:
+def get_false() -> $ID:
     print("Getting False")
     return False
 

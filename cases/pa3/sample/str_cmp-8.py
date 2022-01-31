@@ -1,4 +1,4 @@
-a:str = [[Literal]]
+a:str = $Literal
 b:str = "World"
 c:str = "ChocoPy"
 

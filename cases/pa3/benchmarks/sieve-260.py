@@ -30,7 +30,7 @@ class Vector(object):
             self.append(item)
 
     # Removes an item from the middle of vector
-    [[ClassBodyMember]]
+    $ClassBodyMember
 
     # Retrieves an item at a given index
     def get(self:"Vector", idx: int) -> int:

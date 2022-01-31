@@ -1,5 +1,5 @@
 class A(object):
-    [[VarDef]]
+    $VarDef
 
     def get_A(self: "A") -> int:
         return self.x

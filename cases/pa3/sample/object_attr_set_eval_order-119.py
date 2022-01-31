@@ -18,7 +18,7 @@ def get_one() -> int:
     print("Getting 1")
     return 1
 
-def get_false() -> [[Type]]:
+def get_false() -> $Type:
     print("Getting False")
     return False
 

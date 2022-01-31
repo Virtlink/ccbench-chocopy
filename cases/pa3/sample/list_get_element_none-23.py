@@ -1,3 +1,3 @@
 x:[int] = None
 
-print(x[[[Exp]]])
+print(x[$Exp])

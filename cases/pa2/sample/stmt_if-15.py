@@ -1,7 +1,7 @@
 if False:
     pass
 elif True:
-    if [[Exp]]:
+    if $Exp:
         pass
 else:
     pass

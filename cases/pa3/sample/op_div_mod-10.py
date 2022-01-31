@@ -1,5 +1,5 @@
 x:int = 42
-[[Definition]]
+$Definition
 
 print(x // y)
 print(x % y)

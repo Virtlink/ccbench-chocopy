@@ -9,4 +9,4 @@ y = [1, True]
 z = [False, True]
 x = None
 o = x
-[[Target]] = x = [1]
+$Target = x = [1]

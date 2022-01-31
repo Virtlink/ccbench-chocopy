@@ -31,7 +31,7 @@ class Vector(object):
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector", idx: int) -> object:
-        [[Statement]]
+        $Statement
 
         while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]

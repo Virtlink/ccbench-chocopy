@@ -98,7 +98,7 @@ i:int = 0
 
 # Crunch
 v = vrange(2, n)
-[[Var]](v)
+$Var(v)
 
 # Print
 while i < v.length():

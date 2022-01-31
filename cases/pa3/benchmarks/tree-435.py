@@ -45,7 +45,7 @@ class Tree(object):
 			if self.root.insert(x):
 				self.size = self.size + 1
 
-	def contains(self:"Tree", [[ID]]:int) -> bool:
+	def contains(self:"Tree", $ID:int) -> bool:
 		if self.root is None:
 			return False
 		else:

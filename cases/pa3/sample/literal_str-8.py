@@ -1,1 +1,1 @@
-print([[Parameters]])
+print($Parameters)

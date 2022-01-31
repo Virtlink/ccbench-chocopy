@@ -19,7 +19,7 @@ b:B = None
 c:C = None
 
 a = A()
-[[Var]] = B()
+$Var = B()
 c = C()
 
 b.x = a.get_A()

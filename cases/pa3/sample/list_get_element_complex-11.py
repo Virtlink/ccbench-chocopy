@@ -1,6 +1,6 @@
 next:int = 0
 
-[[FuncDef]]
+$FuncDef
 
 def make_list() -> [int]:
     return [next_int(), next_int(), next_int()]

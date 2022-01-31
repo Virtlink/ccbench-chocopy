@@ -1,5 +1,5 @@
 class A(object):
-    [[ClassBodyMember]]
+    $ClassBodyMember
 
     def foo(self:"A", ignore:object) -> int:
         return self.a

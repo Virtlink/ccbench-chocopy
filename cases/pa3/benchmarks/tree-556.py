@@ -64,7 +64,7 @@ c:int = 4
 
 # Data
 t:Tree = None
-i:int = [[Literal]]
+i:int = $Literal
 k:int = 37813
 
 # Crunch

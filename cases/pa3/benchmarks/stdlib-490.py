@@ -58,7 +58,7 @@ def str_to_int(x: str) -> int:
         result = result * 10 + digit
 
     # Compute result
-    [[Statement]]
+    $Statement
         
 # Input parameters
 c:int = 42

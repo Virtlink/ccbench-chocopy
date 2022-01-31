@@ -27,7 +27,7 @@ class Vector(object):
     def append_all(self:"Vector", new_items: [int]) -> object:
         item:int = 0
         for item in new_items:
-            self.append([[Exp]])
+            self.append($Exp)
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector", idx: int) -> object:

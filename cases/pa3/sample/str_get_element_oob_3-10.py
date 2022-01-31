@@ -1,5 +1,5 @@
 x:str = ""
-[[Definition]]
+$Definition
 
 def str_get(s:str, i:int) -> str:
     return s[i]

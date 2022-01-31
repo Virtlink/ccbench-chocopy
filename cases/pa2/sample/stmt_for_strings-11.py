@@ -1,3 +1,3 @@
 s:str = "Hello"
 
-[[Statement]]
+$Statement

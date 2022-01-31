@@ -1,7 +1,7 @@
 x:str = "abc"
 a:str = ""
 
-def str_get(s:str, i:int) -> [[Type]]:
+def str_get(s:str, i:int) -> $Type:
     return s[i]
 
 a = str_get(x, -1)

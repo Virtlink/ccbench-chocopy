@@ -90,7 +90,7 @@ def sieve(v:Vector) -> object:
         i = i + 1
 
 # Input parameter
-n:int = [[Literal]]
+n:int = $Literal
 
 # Data
 v:Vector = None

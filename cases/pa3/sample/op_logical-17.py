@@ -1,5 +1,5 @@
 def f() -> bool:
-  print([[Parameters]])
+  print($Parameters)
   return True
 
 def g() -> bool:

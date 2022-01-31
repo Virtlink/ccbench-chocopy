@@ -5,6 +5,6 @@ def foo(x:int) -> bool:
     def bar(y: int) -> int:
         a:int = 2 
         return y
-    return [[Var]](x) > a
+    return $Var(x) > a
 
 foo(1)

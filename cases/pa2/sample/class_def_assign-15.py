@@ -1,5 +1,5 @@
 class A(object):
-    x:int = [[INT]]
+    x:int = $INT
 
 class B(A):
     def __init__(self: "B"):

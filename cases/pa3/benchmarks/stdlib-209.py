@@ -22,7 +22,7 @@ def str_to_int(x: str) -> int:
     digit:int = 0
     char:str = ""
     sign:int = 1
-    first_char:bool = [[Literal]]
+    first_char:bool = $Literal
 
     # Parse digits
     for char in x:

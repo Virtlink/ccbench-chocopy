@@ -1,1 +1,1 @@
-print([[INT]] // 0)
+print($INT // 0)

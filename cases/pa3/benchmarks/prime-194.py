@@ -26,5 +26,5 @@ i:int = 1
 
 # Crunch
 while i <= n:
-    print([[Var]](i))
+    print($Var(i))
     i = i + 1

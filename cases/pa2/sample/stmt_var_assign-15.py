@@ -1,5 +1,5 @@
 x:int = 1
-y:[[ID]] = True
+y:$ID = True
 z:str = ""
 o:object = None
 

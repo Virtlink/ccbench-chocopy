@@ -51,7 +51,7 @@ def str_to_int(x: str) -> int:
         elif char == "8":
             digit = 8
         elif char == "9":
-            [[ID]] = 9
+            $ID = 9
         else:
             return 0 # On error
         first_char = False

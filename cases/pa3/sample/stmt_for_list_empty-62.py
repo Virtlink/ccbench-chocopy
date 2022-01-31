@@ -6,7 +6,7 @@ e:[int] = None
 z = [1,2,3]
 e = []
 
-for x in [[Exp]]:
+for x in $Exp:
     for y in e:
         print("Never")
     print(x)

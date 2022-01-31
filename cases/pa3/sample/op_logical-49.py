@@ -6,4 +6,4 @@ def g() -> bool:
   print("g called")
   return False
 
-[[Statement]]
+$Statement

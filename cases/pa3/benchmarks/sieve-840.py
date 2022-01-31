@@ -102,6 +102,6 @@ sieve(v)
 
 # Print
 while i < v.length():
-    [[Statement]]
+    $Statement
     i = i + 1
 

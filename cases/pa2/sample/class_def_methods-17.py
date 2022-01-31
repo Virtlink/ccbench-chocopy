@@ -1,7 +1,7 @@
 class A(object):
     x:int = 1
 
-    [[FuncDef]]
+    $FuncDef
 
 class B(A):
     def __init__(self: "B"):

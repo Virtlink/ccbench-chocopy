@@ -1,4 +1,4 @@
-def [[ID]]() -> int:
+def $ID() -> int:
     global x
     x = 1
     return x

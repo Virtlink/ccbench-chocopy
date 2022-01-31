@@ -1,6 +1,6 @@
 def f() -> int:
     print("start f")
-    g([[Parameters]])
+    g($Parameters)
     print("end f")
     return 42
 

@@ -11,7 +11,7 @@ def g(y:int, z:int) -> object:
     print(y)
     print(z)
     h("h")
-    [[Var]]("end g")
+    $Var("end g")
 
 def h(msg: str) -> object:
     print(msg)

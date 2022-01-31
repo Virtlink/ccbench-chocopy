@@ -6,7 +6,7 @@ class A(object):
 
 class B(A):
     def __init__(self: "B"):
-        [[Statement]]
+        $Statement
 
 class C(B):
     z:bool = True

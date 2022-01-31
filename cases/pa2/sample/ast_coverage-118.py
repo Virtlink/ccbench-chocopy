@@ -14,7 +14,7 @@ class bar(object):
         def qux(y: int) -> object:
             nonlocal x
             if x > y:
-                x = -[[Literal]]
+                x = -$Literal
 
         for x in xx:
             self.p = x == 2

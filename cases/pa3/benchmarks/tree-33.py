@@ -4,7 +4,7 @@ class TreeNode(object):
 	left:"TreeNode" = None
 	right:"TreeNode" = None
 
-	[[FuncDef]]
+	$FuncDef
 
 	def contains(self:"TreeNode", x:int) -> bool:
 		if x < self.value:

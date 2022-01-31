@@ -1,6 +1,6 @@
 
 def foo(x:int) -> bool:
-    a:int = [[Literal]]
+    a:int = $Literal
     b:int = 1
     def bar(y: int) -> int:
         a:int = 2 

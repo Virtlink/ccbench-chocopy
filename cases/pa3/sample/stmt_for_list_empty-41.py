@@ -3,7 +3,7 @@ y:int = 0
 z:[int] = None
 e:[int] = None
 
-z = [[Exp]]
+z = $Exp
 e = []
 
 for x in z:

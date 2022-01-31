@@ -4,7 +4,7 @@ y:int = 7
 print(x == y)
 print(x != y)
 print(x < y)
-print([[Var]] <= y)
+print($Var <= y)
 print(x > y)
 print(x >= y)
 

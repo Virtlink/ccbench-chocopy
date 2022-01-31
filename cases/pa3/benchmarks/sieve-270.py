@@ -30,7 +30,7 @@ class Vector(object):
             self.append(item)
 
     # Removes an item from the middle of vector
-    def remove_at(self:"Vector", [[ID]]: int) -> object:
+    def remove_at(self:"Vector", $ID: int) -> object:
         if idx < 0:
             return
 

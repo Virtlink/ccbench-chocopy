@@ -18,7 +18,7 @@ a:A = None
 b:B = None
 c:C = None
 
-[[Target]] = A()
+$Target = A()
 b = B()
 c = C()
 

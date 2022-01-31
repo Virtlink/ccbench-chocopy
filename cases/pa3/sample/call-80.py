@@ -10,6 +10,6 @@ def g() -> object:
     h()
     print("end g")
 
-[[Definition]]
+$Definition
 
 print(f())

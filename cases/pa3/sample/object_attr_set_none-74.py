@@ -10,7 +10,7 @@ class B(A):
 a:A = None
 b:B = None
 
-a = [[Exp]]()
+a = $Exp()
 print(a.a)
 
 b.a = 1

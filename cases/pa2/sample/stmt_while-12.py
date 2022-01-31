@@ -1,3 +1,3 @@
 x:int = 0
-while [[Exp]]:
+while $Exp:
     x = x + 1

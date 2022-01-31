@@ -24,7 +24,7 @@ class TreeNode(object):
 			if self.left is None:
 				return False
 			else:
-				[[Block]]
+				$Block
 		elif x > self.value:
 			if self.right is None:
 				return False

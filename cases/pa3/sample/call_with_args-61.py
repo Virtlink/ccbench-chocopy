@@ -3,7 +3,7 @@ def f(x:int) -> int:
     print(x)
     g(1, x)
     print("end f")
-    return [[Var]]
+    return $Var
 
     
 def g(y:int, z:int) -> object:

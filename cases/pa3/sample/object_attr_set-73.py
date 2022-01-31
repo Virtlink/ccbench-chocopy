@@ -10,7 +10,7 @@ class B(A):
 a:A = None
 b:B = None
 
-a = [[AssignTarget]] B()
+a = $AssignTarget B()
 b.a = 1
 b.b = False
 print(a.a)

@@ -1,7 +1,7 @@
 def set_x() -> int:
     global x
     x = 1
-    [[Statement]]
+    $Statement
 
 x:int = 0
 

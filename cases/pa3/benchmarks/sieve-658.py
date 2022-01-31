@@ -80,7 +80,7 @@ def sieve(v:Vector) -> object:
     k:int = 0
 
     while i < v.length():
-        [[Block]]
+        $Block
 
 # Input parameter
 n:int = 50

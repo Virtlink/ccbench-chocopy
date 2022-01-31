@@ -1,1 +1,1 @@
-6 * [[Literal]]
+6 * $Literal

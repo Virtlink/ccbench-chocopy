@@ -1,1 +1,1 @@
-print([[STRING]])
+print($STRING)

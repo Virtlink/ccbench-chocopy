@@ -26,5 +26,5 @@ i:int = 1
 
 # Crunch
 while i <= n:
-    print([[ID]](i))
+    print($ID(i))
     i = i + 1

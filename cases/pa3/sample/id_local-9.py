@@ -1,4 +1,4 @@
 def f() -> int:
-  [[FuncBody]]
+  $FuncBody
 
 print(f())

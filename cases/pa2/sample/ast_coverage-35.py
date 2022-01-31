@@ -3,7 +3,7 @@ count:int = 0
 def foo(s: str) -> int:
     return len(s)
 
-[[ClassDef]]
+$ClassDef
 
 print(bar().baz([1,2]))
 

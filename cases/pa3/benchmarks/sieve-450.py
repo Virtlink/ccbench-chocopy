@@ -54,7 +54,7 @@ class DoublingVector(Vector):
 
     # Overriding to do fewer resizes
     def increase_capacity(self:"DoublingVector") -> int:
-        [[Statement]]
+        $Statement
         return self.capacity()
 
 # Makes a vector in the range [i, j)

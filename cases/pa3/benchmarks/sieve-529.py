@@ -63,7 +63,7 @@ class DoublingVector(Vector):
         return self.capacity()
 
 # Makes a vector in the range [i, j)
-[[Definition]]
+$Definition
 
 # Sieve of Eratosthenes (not really)
 def sieve(v:Vector) -> object:

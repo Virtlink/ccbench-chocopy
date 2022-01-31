@@ -8,7 +8,7 @@ class B(A):
         print("B")
 
 a:A = None
-[[ID]]:B = None
+$ID:B = None
 
 def get_b() -> B:
     print("Getting B")

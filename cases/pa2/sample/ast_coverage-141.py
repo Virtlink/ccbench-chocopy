@@ -17,7 +17,7 @@ class bar(object):
                 x = -1
 
         for x in xx:
-            self.p = x == [[Exp]]
+            self.p = x == $Exp
 
         qux(0) # Yay! ChocoPy
 

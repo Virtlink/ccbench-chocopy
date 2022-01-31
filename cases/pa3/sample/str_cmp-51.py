@@ -3,7 +3,7 @@ b:str = "World"
 c:str = "ChocoPy"
 
 def eq(a:str, b:str) -> bool:
-    return a == [[ID]]
+    return a == $ID
 
 def neq(a:str, b:str) -> bool:
     return a != b

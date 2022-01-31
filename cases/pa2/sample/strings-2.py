@@ -1,4 +1,4 @@
-[[Definition]]
+$Definition
 y:str = "World"
 z:str = ""
 

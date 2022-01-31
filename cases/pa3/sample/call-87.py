@@ -11,6 +11,6 @@ def g() -> object:
     print("end g")
 
 def h() -> object:
-    [[FuncBody]]
+    $FuncBody
 
 print(f())

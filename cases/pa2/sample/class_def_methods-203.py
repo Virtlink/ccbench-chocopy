@@ -24,5 +24,5 @@ c = C()
 
 b.x = a.get_A()
 a.x = b.get_A()
-c.[[ID]](0)
+c.$ID(0)
 

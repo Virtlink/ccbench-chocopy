@@ -13,7 +13,7 @@ def int_to_str(x: int) -> str:
 
     # Write digits using a recursive call
     if x >= 10:
-        result = [[ID]] + int_to_str(x // 10)
+        result = $ID + int_to_str(x // 10)
     result = result + digits[x % 10]
     return result
 

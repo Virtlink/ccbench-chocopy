@@ -1,5 +1,5 @@
 True
-[[Statement]]
+$Statement
 1
 None
 "This is a string"

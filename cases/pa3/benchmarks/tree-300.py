@@ -31,7 +31,7 @@ class TreeNode(object):
 			else:
 				return self.right.contains(x)
 		else:
-			[[Statement]]
+			$Statement
 
 class Tree(object):
 	root:TreeNode = None

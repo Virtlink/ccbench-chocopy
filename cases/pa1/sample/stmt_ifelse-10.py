@@ -1,5 +1,5 @@
 if True:
-    [[Literal]]
+    $Literal
 else:
     True
 

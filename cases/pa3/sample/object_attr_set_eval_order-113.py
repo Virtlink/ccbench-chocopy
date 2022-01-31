@@ -16,7 +16,7 @@ def get_b() -> B:
 
 def get_one() -> int:
     print("Getting 1")
-    return [[INT]]
+    return $INT
 
 def get_false() -> bool:
     print("Getting False")

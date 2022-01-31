@@ -3,7 +3,7 @@ def f() -> bool:
   return True
 
 def g() -> bool:
-  [[ID]]("g called")
+  $ID("g called")
   return False
 
 if f() or g():      # Short-circuit

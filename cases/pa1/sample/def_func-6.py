@@ -1,4 +1,4 @@
-def foo() [[RetType]]:
+def foo() $RetType:
     return 1
 
 foo()

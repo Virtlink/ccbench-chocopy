@@ -4,4 +4,4 @@ elif True:
     if True:
         print("Yes")
 else:
-    [[Block]]
+    $Block

@@ -4,6 +4,6 @@ z:str = ""
 o:object = None
 
 x = 2
-[[ID]] = False
+$ID = False
 z = "Hello"
 o = z

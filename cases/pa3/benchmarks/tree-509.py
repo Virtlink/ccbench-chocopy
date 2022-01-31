@@ -53,7 +53,7 @@ class Tree(object):
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None
-	b = TreeNode([[Parameters]])
+	b = TreeNode($Parameters)
 	b.value = x
 	return b
 

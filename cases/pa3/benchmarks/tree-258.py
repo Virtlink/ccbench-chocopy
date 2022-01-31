@@ -25,7 +25,7 @@ class TreeNode(object):
 				return False
 			else:
 				return self.left.contains(x)
-		elif x > [[Var]].value:
+		elif x > $Var.value:
 			if self.right is None:
 				return False
 			else:

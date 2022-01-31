@@ -1,4 +1,4 @@
-def f() -> [[Type]]:
+def f() -> $Type:
     while True:
         return 1
     return 0

@@ -3,6 +3,6 @@
 s: str = ""
 
 s = input()
-while len(s) > [[INT]]:
+while len(s) > $INT:
     print(s)
     s = input()

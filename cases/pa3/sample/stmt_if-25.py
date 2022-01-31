@@ -1,7 +1,7 @@
 if False:
     print("No")
 elif True:
-    if [[Literal]]:
+    if $Literal:
         print("Yes")
 else:
     pass

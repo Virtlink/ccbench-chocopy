@@ -25,6 +25,6 @@ n:int = 15
 i:int = 1
 
 # Crunch
-while [[ID]] <= n:
+while $ID <= n:
     print(get_prime(i))
     i = i + 1

@@ -2,7 +2,7 @@
 
 s: str = ""
 
-[[AssignTarget]] input()
+$AssignTarget input()
 while len(s) > 0:
     print(s)
     s = input()

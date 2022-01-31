@@ -14,7 +14,7 @@ c:C = None
 
 a = A()
 b = B()
-c = [[Exp]]
+c = $Exp
 
 a.x = 1
 b.x = a.x

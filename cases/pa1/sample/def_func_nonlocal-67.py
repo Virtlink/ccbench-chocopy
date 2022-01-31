@@ -6,6 +6,6 @@ def foo(x:int) -> bool:
         nonlocal a
         a = 2 
         return y
-    return bar([[Parameters]]) > a
+    return bar($Parameters) > a
 
 foo(1)

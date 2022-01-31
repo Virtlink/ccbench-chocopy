@@ -1,6 +1,6 @@
 a:str = "no"
 b:str = "o"
-[[ID]]:str = ""
+$ID:str = ""
 d:str = ""
 e:str = ""
 

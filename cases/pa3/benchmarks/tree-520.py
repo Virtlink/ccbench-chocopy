@@ -54,7 +54,7 @@ class Tree(object):
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None
 	b = TreeNode()
-	b.value = [[Exp]]
+	b.value = $Exp
 	return b
 
 

@@ -8,7 +8,7 @@ class B(A):
         print("B")
 
 a:A = None
-[[Definition]]
+$Definition
 
 def get_b() -> B:
     print("Getting B")

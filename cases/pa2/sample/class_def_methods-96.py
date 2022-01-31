@@ -12,7 +12,7 @@ class C(B):
     z:bool = True
 
     def set_A(self: "C", val: int) -> object:
-        [[Var]].x = val
+        $Var.x = val
 
 a:A = None
 b:B = None

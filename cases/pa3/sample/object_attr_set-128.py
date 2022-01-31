@@ -14,5 +14,5 @@ a = b = B()
 b.a = 1
 b.b = False
 print(a.a)
-print([[Exp]].a)
+print($Exp.a)
 print(b.b)

@@ -10,7 +10,7 @@ class B(A):
 a:A = None
 b:B = None
 
-[[ID]] = B()
+$ID = B()
 print(a.a)
 
 b.a = 1

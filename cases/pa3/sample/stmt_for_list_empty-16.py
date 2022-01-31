@@ -1,5 +1,5 @@
 x:int = 0
-y:int = [[Literal]]
+y:int = $Literal
 z:[int] = None
 e:[int] = None
 

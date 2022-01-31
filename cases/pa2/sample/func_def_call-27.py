@@ -1,6 +1,6 @@
 def foo(x:str, y:bool) -> int:
     return bar()
 
-[[Definition]]
+$Definition
 
 foo("Hello", False)

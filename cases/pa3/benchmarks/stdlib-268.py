@@ -32,7 +32,7 @@ def str_to_int(x: str) -> int:
             sign = -1
         elif char == "0":
             digit = 0
-        [[ElifElse]] # On error
+        $ElifElse # On error
         first_char = False
         result = result * 10 + digit
 

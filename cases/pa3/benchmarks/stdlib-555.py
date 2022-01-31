@@ -70,7 +70,7 @@ i:int = 0
 i = -n * c
 
 # Crunch
-while i <= n * [[Var]]:
+while i <= n * $Var:
     s = int_to_str(i)
     print(s)
     i = str_to_int(s) + c

@@ -1,4 +1,4 @@
 x:int = 1
 while x < 10:
     print(x)
-    [[AssignTarget]] x + 1
+    $AssignTarget x + 1

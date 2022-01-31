@@ -29,7 +29,7 @@ def str_to_int(x: str) -> int:
         if char == "-":
             if not first_char:
                 return 0 # Error
-            sign = -[[Literal]]
+            sign = -$Literal
         elif char == "0":
             digit = 0
         elif char == "1":

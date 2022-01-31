@@ -76,7 +76,7 @@ def vrange(i:int, j:int) -> Vector:
 # Sieve of Eratosthenes (not really)
 def sieve(v:Vector) -> object:
     i:int = 0
-    j:int = [[Literal]]
+    j:int = $Literal
     k:int = 0
 
     while i < v.length():

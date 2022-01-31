@@ -1,5 +1,5 @@
 x:int = 0
-[[ID]]:[int] = None
+$ID:[int] = None
 
 z = [1, 2, 1]
 

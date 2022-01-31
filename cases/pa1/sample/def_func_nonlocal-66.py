@@ -6,6 +6,6 @@ def foo(x:int) -> bool:
         nonlocal a
         a = 2 
         return y
-    return [[ID]](x) > a
+    return $ID(x) > a
 
 foo(1)

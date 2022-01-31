@@ -1,1 +1,1 @@
-[[Exp]]("Hello World")
+$Exp("Hello World")

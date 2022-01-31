@@ -8,7 +8,7 @@ class B(A):
         print("B")
 
 a:A = None
-[[TypedVar]] = None
+$TypedVar = None
 
 a = b = B()
 print(a.a)

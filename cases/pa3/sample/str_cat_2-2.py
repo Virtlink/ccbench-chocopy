@@ -1,4 +1,4 @@
-[[Definition]]
+$Definition
 b:str = "o"
 c:str = ""
 d:str = ""

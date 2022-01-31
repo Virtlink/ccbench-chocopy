@@ -1,4 +1,4 @@
 x:[int] = None
 
 x = []
-print([[Exp]])
+print($Exp)

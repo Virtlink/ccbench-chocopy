@@ -2,7 +2,7 @@
 def foo(x:int) -> bool:
     a:int = 0
     b:int = 1
-    def [[ID]](y: int) -> int:
+    def $ID(y: int) -> int:
         nonlocal a
         a = 2 
         return y

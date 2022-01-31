@@ -23,7 +23,7 @@ class bar(object):
 
         count = count + 1
 
-        while x <= [[Literal]]:
+        while x <= $Literal:
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p

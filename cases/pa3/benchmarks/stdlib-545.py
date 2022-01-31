@@ -70,5 +70,5 @@ i:int = 0
 i = -n * c
 
 # Crunch
-[[Statement]]
+$Statement
 

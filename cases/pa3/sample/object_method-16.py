@@ -1,7 +1,7 @@
 class A(object):
     a:int = 42
 
-    [[ClassBodyMember]]
+    $ClassBodyMember
 
 class B(A):
     b:bool = True

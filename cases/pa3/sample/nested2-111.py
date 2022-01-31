@@ -11,4 +11,4 @@ def foo(x: int) -> int:
 
     return bar()
     
-print([[Exp]](g))
+print($Exp(g))

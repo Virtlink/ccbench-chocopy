@@ -14,7 +14,7 @@ def get_b() -> B:
     print("Getting B")
     return b
 
-def get_one() -> [[Type]]:
+def get_one() -> $Type:
     print("Getting 1")
     return 1
 

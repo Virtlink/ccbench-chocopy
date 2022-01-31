@@ -1,5 +1,5 @@
 a:str = "no"
-b:[[ID]] = "o"
+b:$ID = "o"
 c:str = ""
 d:str = ""
 e:str = ""

@@ -25,7 +25,7 @@ class Vector(object):
 
     # Appends many items to end of vector
     def append_all(self:"Vector", new_items: [int]) -> object:
-        [[VarDef]]
+        $VarDef
         for item in new_items:
             self.append(item)
 

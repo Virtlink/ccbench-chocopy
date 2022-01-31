@@ -9,7 +9,7 @@ class B(A):
         pass
 
 class C(B):
-    z:[[ID]] = True
+    z:$ID = True
 
     def set_A(self: "C", val: int) -> object:
         self.x = val

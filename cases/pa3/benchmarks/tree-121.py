@@ -11,7 +11,7 @@ class TreeNode(object):
 				return True
 			else:
 				return self.left.insert(x)
-		elif x > [[Exp]]:
+		elif x > $Exp:
 			if self.right is None:
 				self.right = makeNode(x)
 				return True

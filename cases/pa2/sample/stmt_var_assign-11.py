@@ -1,5 +1,5 @@
 x:int = 1
-[[VarDef]]
+$VarDef
 z:str = ""
 o:object = None
 

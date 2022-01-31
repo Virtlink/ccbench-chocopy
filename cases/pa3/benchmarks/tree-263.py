@@ -26,7 +26,7 @@ class TreeNode(object):
 			else:
 				return self.left.contains(x)
 		elif x > self.value:
-			[[Statement]]
+			$Statement
 		else:
 			return True
 

@@ -28,7 +28,7 @@ class TreeNode(object):
 		elif x > self.value:
 			if self.right is None:
 				return False
-			[[ElifElse]]
+			$ElifElse
 		else:
 			return True
 

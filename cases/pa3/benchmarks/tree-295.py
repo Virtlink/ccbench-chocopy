@@ -29,7 +29,7 @@ class TreeNode(object):
 			if self.right is None:
 				return False
 			else:
-				return self.right.contains([[Var]])
+				return self.right.contains($Var)
 		else:
 			return True
 

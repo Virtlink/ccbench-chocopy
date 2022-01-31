@@ -10,7 +10,7 @@ def g() -> object:
     h()
     print("end g")
 
-def [[ID]]() -> object:
+def $ID() -> object:
     print("start h")
     print("end h")
 

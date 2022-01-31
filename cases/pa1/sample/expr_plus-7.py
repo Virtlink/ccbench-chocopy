@@ -1,1 +1,1 @@
-[[Literal]] + 2 + 3
+$Literal + 2 + 3

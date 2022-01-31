@@ -18,7 +18,7 @@ def int_to_str(x: int) -> str:
     return result
 
 def str_to_int(x: str) -> int:
-    [[VarDef]]
+    $VarDef
     digit:int = 0
     char:str = ""
     sign:int = 1

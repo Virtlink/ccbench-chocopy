@@ -6,7 +6,7 @@ def foo(s: str) -> int:
 class bar(object):
     p: bool = True
 
-    def baz(self:"bar", xx: [int]) [[RetType]]:
+    def baz(self:"bar", xx: [int]) $RetType:
         global count
         x:int = 0
         y:int = 1

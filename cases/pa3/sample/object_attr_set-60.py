@@ -8,7 +8,7 @@ class B(A):
         print("B")
 
 a:A = None
-[[VarDef]]
+$VarDef
 
 a = b = B()
 b.a = 1

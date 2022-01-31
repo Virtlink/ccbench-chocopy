@@ -66,7 +66,7 @@ n:int = 10
 
 # Run [-nc, nc] with step size c
 s:str = ""
-[[ID]]:int = 0
+$ID:int = 0
 i = -n * c
 
 # Crunch

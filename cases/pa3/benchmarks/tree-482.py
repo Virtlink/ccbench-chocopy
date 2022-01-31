@@ -51,7 +51,7 @@ class Tree(object):
 		else:
 			return self.root.contains(x)
 
-def makeNode([[TypedVar]]) -> TreeNode:
+def makeNode($TypedVar) -> TreeNode:
 	b:TreeNode = None
 	b = TreeNode()
 	b.value = x

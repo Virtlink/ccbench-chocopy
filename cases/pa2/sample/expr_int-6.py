@@ -1,1 +1,1 @@
-[[Literal]] * 9
+$Literal * 9

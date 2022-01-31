@@ -21,7 +21,7 @@ def str_to_int(x: str) -> int:
     result:int = 0
     digit:int = 0
     char:str = ""
-    sign:[[ID]] = 1
+    sign:$ID = 1
     first_char:bool = True
 
     # Parse digits

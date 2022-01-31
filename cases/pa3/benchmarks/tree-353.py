@@ -39,7 +39,7 @@ class Tree(object):
 
 	def insert(self:"Tree", x:int) -> object:
 		if self.root is None:
-			[[Block]]
+			$Block
 		else:
 			if self.root.insert(x):
 				self.size = self.size + 1

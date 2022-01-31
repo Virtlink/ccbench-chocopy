@@ -6,7 +6,7 @@ a2:A = None
 a3:A = None
 a4:A = None
 
-[[Var]] = A()
+$Var = A()
 a2 = a1
 a3 = A()
 

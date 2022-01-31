@@ -3,7 +3,7 @@ def set_x() -> int:
     x = 1
     return x
 
-x:int = [[Literal]]
+x:int = $Literal
 
 set_x()
 print(x)

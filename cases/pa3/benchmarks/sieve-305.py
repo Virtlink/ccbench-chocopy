@@ -35,7 +35,7 @@ class Vector(object):
             return
 
         while idx < self.size - 1:
-            [[Block]]
+            $Block
 
         self.size = self.size - 1
 

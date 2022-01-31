@@ -3,7 +3,7 @@ def foo(x: int) -> int:
     y: int = 2
     def bar() -> int:
         z: int = 3
-        def [[ID]]() -> int:
+        def $ID() -> int:
             return qux(y)
         return baz()
     def qux(p: int) -> int:

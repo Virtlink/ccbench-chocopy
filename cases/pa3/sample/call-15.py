@@ -1,5 +1,5 @@
 def f() -> int:
-    [[Var]]("start f")
+    $Var("start f")
     g()
     print("end f")
     return 42

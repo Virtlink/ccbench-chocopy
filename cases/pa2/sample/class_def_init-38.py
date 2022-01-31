@@ -5,7 +5,7 @@ class B(A):
     def __init__(self: "B"):
         pass
 
-class [[ID]](B):
+class $ID(B):
     z:bool = True
 
 a:A = None

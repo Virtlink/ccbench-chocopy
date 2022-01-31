@@ -19,7 +19,7 @@ def get_one() -> int:
     return 1
 
 def get_false() -> bool:
-    [[Statement]]
+    $Statement
     return False
 
 a = b = B()

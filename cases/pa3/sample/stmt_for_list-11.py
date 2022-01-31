@@ -1,5 +1,5 @@
 x:int = 0
-[[VarDef]]
+$VarDef
 
 z = [1, 2, 3]
 

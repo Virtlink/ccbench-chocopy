@@ -29,7 +29,7 @@ class TreeNode(object):
 			if self.right is None:
 				return False
 			else:
-				return [[Exp]](x)
+				return $Exp(x)
 		else:
 			return True
 

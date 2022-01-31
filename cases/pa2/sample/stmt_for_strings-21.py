@@ -1,4 +1,4 @@
 s:str = "Hello"
 
 for s in s:
-    [[Exp]][0]
+    $Exp[0]

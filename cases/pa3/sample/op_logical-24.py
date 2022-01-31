@@ -1,6 +1,6 @@
 def f() -> bool:
   print("f called")
-  return [[Literal]]
+  return $Literal
 
 def g() -> bool:
   print("g called")

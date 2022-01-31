@@ -73,5 +73,5 @@ i = -n * c
 while i <= n * c:
     s = int_to_str(i)
     print(s)
-    [[Var]] = str_to_int(s) + c
+    $Var = str_to_int(s) + c
 

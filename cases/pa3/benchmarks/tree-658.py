@@ -74,7 +74,7 @@ while i < n:
 	k = (k * 37813) % 37831
 	if i % c != 0:
 		t.insert(i)
-	i = i + [[INT]]
+	i = i + $INT
 
 print(t.size)
 

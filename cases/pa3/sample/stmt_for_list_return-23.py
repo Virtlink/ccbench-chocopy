@@ -1,5 +1,5 @@
 def print_list(z:[int]) -> object:
-    x:int = [[INT]]
+    x:int = $INT
     for x in z:
         print(x)
         if x >= 30:

@@ -1,4 +1,4 @@
 g: int = 1
-[[FuncDef]]
+$FuncDef
     
 print(foo(g))

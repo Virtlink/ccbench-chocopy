@@ -1,4 +1,4 @@
 def foo() -> int:
-    [[Statement]]
+    $Statement
 
 foo()

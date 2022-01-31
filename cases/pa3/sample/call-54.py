@@ -6,7 +6,7 @@ def f() -> int:
 
     
 def g() -> object:
-    [[Exp]]
+    $Exp
     h()
     print("end g")
 

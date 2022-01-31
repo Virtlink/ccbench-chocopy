@@ -7,7 +7,7 @@ e:str = ""
 def cat2(a:str, b:str) -> str:
     return a + b
 
-def cat3(a:str, [[ID]]:str, c:str) -> str:
+def cat3(a:str, $ID:str, c:str) -> str:
     return a + b + c
 
 c = cat2(b, a)

@@ -5,7 +5,7 @@ print(x == y)
 print(x != y)
 print(x < y)
 print(x <= y)
-print([[ID]] > y)
+print($ID > y)
 print(x >= y)
 
 print(x == x)

@@ -5,4 +5,4 @@ z = [1,2,3] + [4,5,6] + [7,8,9]
 
 while i < len(z):
     print(z[i])
-    i = [[Var]] + 1
+    i = $Var + 1

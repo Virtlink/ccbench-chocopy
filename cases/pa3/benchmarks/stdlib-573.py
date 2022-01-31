@@ -71,7 +71,7 @@ i = -n * c
 
 # Crunch
 while i <= n * c:
-    s = int_to_str([[ID]])
+    s = int_to_str($ID)
     print(s)
     i = str_to_int(s) + c
 

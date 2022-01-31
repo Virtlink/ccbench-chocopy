@@ -1,2 +1,2 @@
-[[TypedVar]] = 42
+$TypedVar = 42
 print(x)

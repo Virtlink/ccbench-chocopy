@@ -3,6 +3,6 @@
 s: str = ""
 
 s = input()
-while [[Exp]](s) > 0:
+while $Exp(s) > 0:
     print(s)
     s = input()

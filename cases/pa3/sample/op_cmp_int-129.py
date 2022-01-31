@@ -9,7 +9,7 @@ print(x > y)
 print(x >= y)
 
 print(x == x)
-print(x != [[Var]])
+print(x != $Var)
 print(x < x)
 print(x <= x)
 print(x > x)

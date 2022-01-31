@@ -1,4 +1,4 @@
-x:[[ID]] = "abc"
+x:$ID = "abc"
 a:str = ""
 
 def str_get(s:str, i:int) -> str:

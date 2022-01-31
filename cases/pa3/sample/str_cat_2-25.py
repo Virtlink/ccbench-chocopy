@@ -1,6 +1,6 @@
 a:str = "no"
 b:str = "o"
-c:str = [[STRING]]
+c:str = $STRING
 d:str = ""
 e:str = ""
 

@@ -12,5 +12,5 @@ print(x == x)
 print(x != x)
 print(x < x)
 print(x <= x)
-[[Statement]]
+$Statement
 print(x >= x)

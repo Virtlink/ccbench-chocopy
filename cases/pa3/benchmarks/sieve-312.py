@@ -35,7 +35,7 @@ class Vector(object):
             return
 
         while idx < self.size - 1:
-            [[Exp]][idx] = self.items[idx + 1]
+            $Exp[idx] = self.items[idx + 1]
             idx = idx + 1
 
         self.size = self.size - 1

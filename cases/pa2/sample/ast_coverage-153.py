@@ -19,7 +19,7 @@ class bar(object):
         for x in xx:
             self.p = x == 2
 
-        qux([[INT]]) # Yay! ChocoPy
+        qux($INT) # Yay! ChocoPy
 
         count = count + 1
 

@@ -1,4 +1,4 @@
-[[ClassDef]]
+$ClassDef
 
 class B(A):
     def __init__(self: "B"):

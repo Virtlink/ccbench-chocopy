@@ -93,7 +93,7 @@ def sieve(v:Vector) -> object:
 n:int = 50
 
 # Data
-v:Vector = [[Literal]]
+v:Vector = $Literal
 i:int = 0
 
 # Crunch

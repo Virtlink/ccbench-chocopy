@@ -4,7 +4,7 @@ def int_to_str(x: int) -> str:
     result:str = ""
 
     # Set-up digit mapping
-    [[Statement]]
+    $Statement
 
     # Write sign if necessary
     if x < 0:

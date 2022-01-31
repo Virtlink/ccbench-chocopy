@@ -9,7 +9,7 @@ class C(B):
     z:bool = True
 
 a:A = None
-[[VarDef]]
+$VarDef
 c:C = None
 
 a = A()

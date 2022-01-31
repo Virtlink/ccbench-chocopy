@@ -1,3 +1,3 @@
-[[TypedVar]] = 1
+$TypedVar = 1
 
 print(len(x))

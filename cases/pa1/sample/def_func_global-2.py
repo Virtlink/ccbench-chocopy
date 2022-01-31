@@ -1,4 +1,4 @@
-[[Definition]]
+$Definition
 
 def foo(x:int) -> bool:
     global z

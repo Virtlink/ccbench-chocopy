@@ -5,4 +5,4 @@ def print_list(z:[int]) -> object:
         if x >= 30:
             return
 
-[[Exp]]
+$Exp

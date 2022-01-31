@@ -1,4 +1,4 @@
 
-[[Definition]]
+$Definition
 
 foo(1)

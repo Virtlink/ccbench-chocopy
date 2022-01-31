@@ -15,7 +15,7 @@ def int_to_str(x: int) -> str:
     if x >= 10:
         result = result + int_to_str(x // 10)
     result = result + digits[x % 10]
-    return [[ID]]
+    return $ID
 
 def str_to_int(x: str) -> int:
     result:int = 0

@@ -14,4 +14,4 @@ def h() -> object:
     print("start h")
     print("end h")
 
-[[ID]](f())
+$ID(f())

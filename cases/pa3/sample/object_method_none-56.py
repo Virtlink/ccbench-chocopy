@@ -7,7 +7,7 @@ class A(object):
 class B(A):
     b:bool = True
 
-    [[FuncDef]]
+    $FuncDef
 
     def bar(self:"B") -> int:
         a:A = None

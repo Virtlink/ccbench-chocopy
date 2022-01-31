@@ -103,5 +103,5 @@ sieve(v)
 # Print
 while i < v.length():
     print(v.get(i))
-    [[AssignTarget]] i + 1
+    $AssignTarget i + 1
 

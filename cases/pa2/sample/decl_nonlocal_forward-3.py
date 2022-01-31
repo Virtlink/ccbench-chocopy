@@ -1,3 +1,3 @@
-[[FuncDef]]
+$FuncDef
 
 print(outer())

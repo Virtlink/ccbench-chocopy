@@ -3,5 +3,5 @@ False
 1
 None
 "This is a string"
-[1, 2, [[Literal]]]
+[1, 2, $Literal]
 

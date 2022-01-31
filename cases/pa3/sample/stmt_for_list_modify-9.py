@@ -1,4 +1,4 @@
-x:int = [[INT]]
+x:int = $INT
 z:[int] = None
 
 z = [1, 2, 1]

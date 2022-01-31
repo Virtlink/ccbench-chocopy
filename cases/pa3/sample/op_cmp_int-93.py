@@ -6,7 +6,7 @@ print(x != y)
 print(x < y)
 print(x <= y)
 print(x > y)
-[[ID]](x >= y)
+$ID(x >= y)
 
 print(x == x)
 print(x != x)

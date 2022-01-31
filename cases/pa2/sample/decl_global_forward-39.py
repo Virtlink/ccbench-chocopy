@@ -5,5 +5,5 @@ def set_x() -> int:
 
 x:int = 0
 
-[[Var]]()
+$Var()
 print(x)

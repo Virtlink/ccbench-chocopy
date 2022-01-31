@@ -1,2 +1,2 @@
-[[Var]](True)
+$Var(True)
 print(False)

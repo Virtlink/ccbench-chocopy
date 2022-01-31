@@ -74,7 +74,7 @@ def vrange(i:int, j:int) -> Vector:
     return v
 
 # Sieve of Eratosthenes (not really)
-[[FuncDef]]
+$FuncDef
 
 # Input parameter
 n:int = 50

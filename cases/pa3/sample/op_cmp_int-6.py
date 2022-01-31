@@ -1,4 +1,4 @@
-x:[[Type]] = 42
+x:$Type = 42
 y:int = 7
 
 print(x == y)

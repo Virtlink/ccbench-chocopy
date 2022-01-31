@@ -5,7 +5,7 @@ class A(object):
         return self.x
 
 class B(A):
-    def __init__([[TypedVar]]):
+    def __init__($TypedVar):
         pass
 
 class C(B):

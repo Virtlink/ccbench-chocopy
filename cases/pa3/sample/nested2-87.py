@@ -7,7 +7,7 @@ def foo(x: int) -> int:
             return qux(y)
         return baz()
     def qux(p: int) -> int:
-        [[FuncBody]]
+        $FuncBody
 
     return bar()
     

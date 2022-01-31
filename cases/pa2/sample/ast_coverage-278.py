@@ -33,6 +33,6 @@ class bar(object):
 
         return "Nope"
 
-[[Var]](bar().baz([1,2]))
+$Var(bar().baz([1,2]))
 
 

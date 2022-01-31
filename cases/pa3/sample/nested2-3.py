@@ -1,4 +1,4 @@
-[[VarDef]]
+$VarDef
 def foo(x: int) -> int:
     y: int = 2
     def bar() -> int:

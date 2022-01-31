@@ -11,7 +11,7 @@ def exp(x: int, y: int) -> int:
 			a = a * x
 			return f(i-1)
 	a = 1
-	return f([[Exp]])
+	return f($Exp)
 
 # Input parameter
 n:int = 42

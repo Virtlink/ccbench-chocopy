@@ -1,5 +1,5 @@
 # Compute x**y
-[[FuncDef]]
+$FuncDef
 
 # Input parameter
 n:int = 42

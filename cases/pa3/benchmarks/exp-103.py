@@ -9,7 +9,7 @@ def exp(x: int, y: int) -> int:
 			return geta()
 		else:
 			a = a * x
-			return f(i-[[INT]])
+			return f(i-$INT)
 	a = 1
 	return f(y)
 

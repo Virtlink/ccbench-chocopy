@@ -30,7 +30,7 @@ class Vector(object):
             self.append(item)
 
     # Removes an item from the middle of vector
-    def [[ID]](self:"Vector", idx: int) -> object:
+    def $ID(self:"Vector", idx: int) -> object:
         if idx < 0:
             return
 

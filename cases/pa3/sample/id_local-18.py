@@ -1,5 +1,5 @@
 def f() -> int:
-  x:int = [[INT]]
+  x:int = $INT
   return x
 
 print(f())

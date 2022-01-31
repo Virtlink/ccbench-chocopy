@@ -13,7 +13,7 @@ b:B = None
 c:C = None
 
 a = A()
-[[Target]] = B()
+$Target = B()
 c = C()
 
 a.x = 1

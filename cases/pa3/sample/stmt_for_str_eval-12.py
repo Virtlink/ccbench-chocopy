@@ -1,5 +1,5 @@
 x:str = ""
-[[TypedVar]] = "abc"
+$TypedVar = "abc"
 
 for x in z:
     z = "doesn't matter"

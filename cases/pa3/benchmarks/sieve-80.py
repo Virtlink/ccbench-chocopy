@@ -11,7 +11,7 @@ class Vector(object):
         return len(self.items)
 
     # Increases capacity of vector by one element
-    [[FuncDef]]
+    $FuncDef
 
     # Appends one item to end of vector
     def append(self:"Vector", item: int) -> object:

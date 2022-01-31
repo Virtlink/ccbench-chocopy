@@ -66,7 +66,7 @@ n:int = 10
 
 # Run [-nc, nc] with step size c
 s:str = ""
-[[Definition]]
+$Definition
 i = -n * c
 
 # Crunch

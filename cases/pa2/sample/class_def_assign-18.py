@@ -1,7 +1,7 @@
 class A(object):
     x:int = 1
 
-class [[ID]](A):
+class $ID(A):
     def __init__(self: "B"):
         pass
 

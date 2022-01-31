@@ -21,7 +21,7 @@ def str_to_int(x: str) -> int:
     result:int = 0
     digit:int = 0
     char:str = ""
-    [[FuncBodyMember]]
+    $FuncBodyMember
     first_char:bool = True
 
     # Parse digits

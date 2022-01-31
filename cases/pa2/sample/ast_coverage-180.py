@@ -24,7 +24,7 @@ class bar(object):
         count = count + 1
 
         while x <= 0:
-            if [[Exp]].p:
+            if $Exp.p:
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1

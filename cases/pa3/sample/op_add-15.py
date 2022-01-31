@@ -1,1 +1,1 @@
-print(1 + [[Literal]])
+print(1 + $Literal)

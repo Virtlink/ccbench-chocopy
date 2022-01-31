@@ -19,7 +19,7 @@ def get_one() -> int:
     return 1
 
 def get_false() -> bool:
-    [[Var]]("Getting False")
+    $Var("Getting False")
     return False
 
 a = b = B()

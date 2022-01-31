@@ -19,7 +19,7 @@ def is_prime(x:int) -> bool:
     return True
 
 # Input parameter
-[[VarDef]]
+$VarDef
 
 # Run [1, n]
 i:int = 1

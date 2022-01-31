@@ -5,7 +5,7 @@ class A(object):
         return self.x
 
 class B(A):
-    [[FuncDef]]
+    $FuncDef
 
 class C(B):
     z:bool = True

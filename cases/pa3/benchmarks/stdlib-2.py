@@ -1,5 +1,5 @@
 # ChocoPy library functions
-[[Definition]]
+$Definition
 
 def str_to_int(x: str) -> int:
     result:int = 0

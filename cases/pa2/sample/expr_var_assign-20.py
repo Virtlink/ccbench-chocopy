@@ -1,4 +1,4 @@
 x:int = 1
 o:object = None
 
-[[AssignTarget]] o = 42
+$AssignTarget o = 42

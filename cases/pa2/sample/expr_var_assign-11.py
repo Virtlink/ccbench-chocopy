@@ -1,4 +1,4 @@
 x:int = 1
-[[VarDef]]
+$VarDef
 
 x = o = 42

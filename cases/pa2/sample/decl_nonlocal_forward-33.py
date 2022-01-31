@@ -2,7 +2,7 @@ def outer() -> int:
     def inner() -> int:
         nonlocal x
         x = 1
-        return [[Exp]]
+        return $Exp
     x:int = 0
     inner()
     return x

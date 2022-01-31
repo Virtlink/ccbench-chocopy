@@ -1,1 +1,1 @@
-print([[Literal]] - 100)
+print($Literal - 100)

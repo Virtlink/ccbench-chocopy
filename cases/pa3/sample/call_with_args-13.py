@@ -1,5 +1,5 @@
 def f(x:int) -> int:
-    [[FuncBody]]
+    $FuncBody
 
     
 def g(y:int, z:int) -> object:

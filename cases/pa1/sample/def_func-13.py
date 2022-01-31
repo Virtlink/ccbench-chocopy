@@ -1,4 +1,4 @@
 def foo() -> int:
-    return [[Exp]]
+    return $Exp
 
 foo()

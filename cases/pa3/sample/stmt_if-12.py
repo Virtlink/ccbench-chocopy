@@ -1,5 +1,5 @@
 if False:
-    [[ID]]("No")
+    $ID("No")
 elif True:
     if True:
         print("Yes")

@@ -10,7 +10,7 @@ def exp(x: int, y: int) -> int:
 		else:
 			a = a * x
 			return f(i-1)
-	a = [[Literal]]
+	a = $Literal
 	return f(y)
 
 # Input parameter

@@ -64,7 +64,7 @@ class DoublingVector(Vector):
 
 # Makes a vector in the range [i, j)
 def vrange(i:int, j:int) -> Vector:
-    [[FuncBody]]
+    $FuncBody
 
 # Sieve of Eratosthenes (not really)
 def sieve(v:Vector) -> object:

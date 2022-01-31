@@ -10,7 +10,7 @@ def g() -> object:
     h()
     print("end g")
 
-def h() [[RetType]]:
+def h() $RetType:
     print("start h")
     print("end h")
 

@@ -8,7 +8,7 @@ def exp(x: int, y: int) -> int:
 		if i <= 0:
 			return geta()
 		else:
-			[[Target]] = a * x
+			$Target = a * x
 			return f(i-1)
 	a = 1
 	return f(y)

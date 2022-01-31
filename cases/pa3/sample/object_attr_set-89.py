@@ -11,7 +11,7 @@ a:A = None
 b:B = None
 
 a = b = B()
-[[Var]].a = 1
+$Var.a = 1
 b.b = False
 print(a.a)
 print(b.a)

@@ -1,1 +1,1 @@
-print(len([[Exp]]))
+print(len($Exp))

@@ -78,6 +78,6 @@ while i < n:
 
 print(t.size)
 
-for i in [4, 8, 15, 16, 23, [[Literal]]]:
+for i in [4, 8, 15, 16, 23, $Literal]:
 	if t.contains(i):
 		print(i)

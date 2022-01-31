@@ -4,7 +4,7 @@ class A(object):
 class B(A):
     b:bool = True
 
-    [[ClassBodyMember]]
+    $ClassBodyMember
 
 a:A = None
 b:B = None

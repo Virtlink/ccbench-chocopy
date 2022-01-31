@@ -1,6 +1,6 @@
 # Binary-search trees
 class TreeNode(object):
-	[[ClassBodyMember]]
+	$ClassBodyMember
 	left:"TreeNode" = None
 	right:"TreeNode" = None
 

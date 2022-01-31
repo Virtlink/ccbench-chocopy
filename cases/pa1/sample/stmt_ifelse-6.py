@@ -1,5 +1,5 @@
 if True:
-    [[Block]]
+    $Block
 else:
     True
 

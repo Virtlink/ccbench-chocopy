@@ -1,5 +1,5 @@
 class A(object):
-    x:int = [[Literal]]
+    x:int = $Literal
 
     def get_A(self: "A") -> int:
         return self.x

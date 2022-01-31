@@ -1,3 +1,3 @@
 # ChocoPy library functions
-[[Program]]
+$Program
 

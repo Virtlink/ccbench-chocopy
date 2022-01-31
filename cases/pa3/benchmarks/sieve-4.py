@@ -1,5 +1,5 @@
 # A resizable list of integers
-class [[ID]](object):
+class $ID(object):
     items: [int] = None
     size: int = 0
 

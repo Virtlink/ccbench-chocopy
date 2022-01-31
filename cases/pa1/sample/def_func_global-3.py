@@ -1,4 +1,4 @@
-[[VarDef]]
+$VarDef
 
 def foo(x:int) -> bool:
     global z

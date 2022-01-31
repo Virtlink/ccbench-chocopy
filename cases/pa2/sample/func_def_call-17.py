@@ -1,5 +1,5 @@
 def foo(x:str, y:bool) -> int:
-    [[FuncBody]]
+    $FuncBody
 
 def bar() -> int:
     return 1

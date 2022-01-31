@@ -1,4 +1,4 @@
-def [[ID]]() -> int:
+def $ID() -> int:
     print("start f")
     g()
     print("end f")

@@ -2,7 +2,7 @@
 
 s: str = ""
 
-s = input([[Parameters]])
+s = input($Parameters)
 while len(s) > 0:
     print(s)
     s = input()

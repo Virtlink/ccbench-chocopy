@@ -12,6 +12,6 @@ print(eq(a,a))
 print(eq(a,b))
 print(neq(a,b))
 print(neq(b,b))
-print(eq([[Exp]],a))
+print(eq($Exp,a))
 print(neq(c,b))
 

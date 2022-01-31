@@ -58,7 +58,7 @@ def str_to_int(x: str) -> int:
         result = result * 10 + digit
 
     # Compute result
-    return result * [[Var]]
+    return result * $Var
         
 # Input parameters
 c:int = 42

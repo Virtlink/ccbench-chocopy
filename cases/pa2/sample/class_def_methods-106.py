@@ -14,7 +14,7 @@ class C(B):
     def set_A(self: "C", val: int) -> object:
         self.x = val
 
-a:[[Type]] = None
+a:$Type = None
 b:B = None
 c:C = None
 

@@ -6,7 +6,7 @@ def g() -> bool:
   print("g called")
   return False
 
-if [[Exp]]:      # Short-circuit
+if $Exp:      # Short-circuit
   if g() and f():   # Short-circuit
     print("Never")
   else:

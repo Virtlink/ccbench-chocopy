@@ -1,4 +1,4 @@
-[[ID]]:int = 0
+$ID:int = 0
 z:[int] = None
 
 for x in z:

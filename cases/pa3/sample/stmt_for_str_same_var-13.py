@@ -1,4 +1,4 @@
 x:str = "xXx"
 
-for x in [[Exp]]:
+for x in $Exp:
     print(x)

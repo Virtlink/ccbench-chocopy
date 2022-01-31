@@ -87,7 +87,7 @@ def sieve(v:Vector) -> object:
                 v.remove_at(j)
             else:
                 j = j + 1
-        [[Statement]]
+        $Statement
 
 # Input parameter
 n:int = 50

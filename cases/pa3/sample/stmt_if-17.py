@@ -1,5 +1,5 @@
 if False:
-    print([[STRING]])
+    print($STRING)
 elif True:
     if True:
         print("Yes")

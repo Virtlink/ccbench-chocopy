@@ -1,4 +1,4 @@
-[[VarDef]]
+$VarDef
 y:bool = True
 z:str = ""
 o:object = None

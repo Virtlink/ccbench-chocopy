@@ -8,7 +8,7 @@ def str_get(s:str, i:int) -> str:
 
 a = str_get(x, 0)
 b = str_get(x, 1)
-c = [[Exp]]
+c = $Exp
 print(a)
 print(b)
 print(c)

@@ -28,7 +28,7 @@ class bar(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo([[Index]]) == 1:
+            elif foo($Index) == 1:
                 self.p = self is None
 
         return "Nope"

@@ -3,6 +3,6 @@ y:str = "World"
 z:str = ""
 
 z = x + y
-[[ID]] = x[0]
+$ID = x[0]
 x = y = z
 

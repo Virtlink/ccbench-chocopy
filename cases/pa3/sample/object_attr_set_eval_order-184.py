@@ -25,7 +25,7 @@ def get_false() -> bool:
 a = b = B()
 get_b().a = get_one()
 print("Assigned B.a")
-[[AssignTarget]] get_false()
+$AssignTarget get_false()
 print("Assigned B.b")
 
 print(a.a)

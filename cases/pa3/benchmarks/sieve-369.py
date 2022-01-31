@@ -41,7 +41,7 @@ class Vector(object):
         self.size = self.size - 1
 
     # Retrieves an item at a given index
-    [[FuncDef]]
+    $FuncDef
 
     # Retrieves the current size of the vector
     def length(self:"Vector") -> int:

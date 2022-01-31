@@ -22,7 +22,7 @@ a = A()
 b = B()
 c = C()
 
-b.x = [[Exp]]
+b.x = $Exp
 a.x = b.get_A()
 c.set_A(0)
 

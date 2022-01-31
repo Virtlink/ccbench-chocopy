@@ -2,7 +2,7 @@
 class TreeNode(object):
 	value:int = 0
 	left:"TreeNode" = None
-	right:"TreeNode" = [[Literal]]
+	right:"TreeNode" = $Literal
 
 	def insert(self:"TreeNode", x:int) -> bool:
 		if x < self.value:

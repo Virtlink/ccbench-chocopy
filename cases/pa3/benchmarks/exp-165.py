@@ -21,5 +21,5 @@ i:int = 0
 
 # Crunch
 while i <= n:
-	print(exp([[Literal]], i % 31))
+	print(exp($Literal, i % 31))
 	i = i + 1

@@ -6,7 +6,7 @@ def f(x:int) -> int:
     return x
 
     
-[[FuncDef]]
+$FuncDef
 
 def h(msg: str) -> object:
     print(msg)

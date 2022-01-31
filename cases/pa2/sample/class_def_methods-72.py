@@ -11,7 +11,7 @@ class B(A):
 class C(B):
     z:bool = True
 
-    [[FuncDef]]
+    $FuncDef
 
 a:A = None
 b:B = None

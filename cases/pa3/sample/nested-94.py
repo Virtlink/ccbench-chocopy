@@ -8,4 +8,4 @@ def foo(x: int) -> int:
         return baz()
     return bar()
     
-print(foo([[ID]]))
+print(foo($ID))

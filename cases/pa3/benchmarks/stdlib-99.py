@@ -12,7 +12,7 @@ def int_to_str(x: int) -> str:
         x = -x
 
     # Write digits using a recursive call
-    [[Statement]]
+    $Statement
     result = result + digits[x % 10]
     return result
 

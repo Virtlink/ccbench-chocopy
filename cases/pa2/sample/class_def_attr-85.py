@@ -13,7 +13,7 @@ b:B = None
 c:C = None
 
 a = A()
-[[AssignTarget]] B()
+$AssignTarget B()
 c = C()
 
 a.x = 1

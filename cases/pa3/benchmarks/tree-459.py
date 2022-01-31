@@ -48,7 +48,7 @@ class Tree(object):
 	def contains(self:"Tree", x:int) -> bool:
 		if self.root is None:
 			return False
-		[[ElifElse]]
+		$ElifElse
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None

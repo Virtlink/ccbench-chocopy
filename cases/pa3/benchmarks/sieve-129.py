@@ -16,7 +16,7 @@ class Vector(object):
         return self.capacity()
 
     # Appends one item to end of vector
-    def append([[TypedVar]], item: int) -> object:
+    def append($TypedVar, item: int) -> object:
         if self.size == self.capacity():
             self.increase_capacity()
 

@@ -3,6 +3,6 @@
 s: str = ""
 
 s = input()
-while len([[Var]]) > 0:
+while len($Var) > 0:
     print(s)
     s = input()

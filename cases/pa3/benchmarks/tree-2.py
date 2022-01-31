@@ -1,5 +1,5 @@
 # Binary-search trees
-[[Definition]]
+$Definition
 
 class Tree(object):
 	root:TreeNode = None

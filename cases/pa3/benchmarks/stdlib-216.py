@@ -26,7 +26,7 @@ def str_to_int(x: str) -> int:
 
     # Parse digits
     for char in x:
-        [[Block]]
+        $Block
 
     # Compute result
     return result * sign

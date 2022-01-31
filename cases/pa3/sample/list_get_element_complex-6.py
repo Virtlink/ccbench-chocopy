@@ -1,4 +1,4 @@
-next:[[Type]] = 0
+next:$Type = 0
 
 def next_int() -> int:
     global next

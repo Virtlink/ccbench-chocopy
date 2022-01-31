@@ -1,6 +1,6 @@
 count:int = 0
 
-[[Definition]]
+$Definition
 
 class bar(object):
     p: bool = True

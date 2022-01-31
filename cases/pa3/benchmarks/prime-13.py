@@ -1,6 +1,6 @@
 # Get the n-th prime starting from 2
 def get_prime(n:int) -> int:
-    [[FuncBody]] # Never happens
+    $FuncBody # Never happens
 
 def is_prime(x:int) -> bool:
     div:int = 2

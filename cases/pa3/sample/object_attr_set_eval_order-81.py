@@ -11,7 +11,7 @@ a:A = None
 b:B = None
 
 def get_b() -> B:
-    print([[Parameters]])
+    print($Parameters)
     return b
 
 def get_one() -> int:

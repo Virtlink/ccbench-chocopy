@@ -90,7 +90,7 @@ def sieve(v:Vector) -> object:
         i = i + 1
 
 # Input parameter
-[[VarDef]]
+$VarDef
 
 # Data
 v:Vector = None

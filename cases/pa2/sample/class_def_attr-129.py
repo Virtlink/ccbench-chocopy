@@ -17,6 +17,6 @@ b = B()
 c = C()
 
 a.x = 1
-b.x = [[Member]]
+b.x = $Member
 c.z = a.x == b.x
 

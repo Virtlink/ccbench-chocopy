@@ -10,7 +10,7 @@ class C(B):
 
 a:A = None
 b:B = None
-c:[[ID]] = None
+c:$ID = None
 
 a = A()
 a = B()

@@ -24,5 +24,5 @@ c = C()
 
 b.x = a.get_A()
 a.x = b.get_A()
-[[Var]].set_A(0)
+$Var.set_A(0)
 

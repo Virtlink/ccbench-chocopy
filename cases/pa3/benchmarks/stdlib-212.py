@@ -25,7 +25,7 @@ def str_to_int(x: str) -> int:
     first_char:bool = True
 
     # Parse digits
-    for [[ID]] in x:
+    for $ID in x:
         if char == "-":
             if not first_char:
                 return 0 # Error

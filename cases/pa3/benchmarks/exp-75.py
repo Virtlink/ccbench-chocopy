@@ -8,7 +8,7 @@ def exp(x: int, y: int) -> int:
 		if i <= 0:
 			return geta()
 		else:
-			[[Block]]
+			$Block
 	a = 1
 	return f(y)
 

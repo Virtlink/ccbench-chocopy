@@ -93,7 +93,7 @@ def sieve(v:Vector) -> object:
 n:int = 50
 
 # Data
-v:[[Type]] = None
+v:$Type = None
 i:int = 0
 
 # Crunch

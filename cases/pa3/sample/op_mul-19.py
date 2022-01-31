@@ -1,1 +1,1 @@
-print(6*9*[[Literal]])
+print(6*9*$Literal)

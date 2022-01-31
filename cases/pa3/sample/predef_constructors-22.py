@@ -1,4 +1,4 @@
 print(object() is None)
-[[Var]](int())
+$Var(int())
 print(str())
 print(bool())

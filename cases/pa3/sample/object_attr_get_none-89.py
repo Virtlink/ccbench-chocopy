@@ -11,6 +11,6 @@ a:A = None
 b:B = None
 
 a = B()
-print([[Var]].a)
+print($Var.a)
 print(b.a)
 print(b.b)

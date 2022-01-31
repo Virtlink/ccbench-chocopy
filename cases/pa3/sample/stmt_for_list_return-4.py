@@ -1,4 +1,4 @@
-def [[ID]](z:[int]) -> object:
+def $ID(z:[int]) -> object:
     x:int = 0
     for x in z:
         print(x)

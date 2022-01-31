@@ -103,5 +103,5 @@ sieve(v)
 # Print
 while i < v.length():
     print(v.get(i))
-    [[ID]] = i + 1
+    $ID = i + 1
 

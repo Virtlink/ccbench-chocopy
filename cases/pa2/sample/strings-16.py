@@ -1,5 +1,5 @@
 x:str = "Hello"
-y:str = [[Literal]]
+y:str = $Literal
 z:str = ""
 
 z = x + y

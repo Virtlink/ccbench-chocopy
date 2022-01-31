@@ -1,4 +1,4 @@
-[[Literal]]
+$Literal
 False
 1
 None

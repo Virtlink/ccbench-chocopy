@@ -8,7 +8,7 @@ class B(A):
         print("B")
 
 a:A = None
-b:B = [[Literal]]
+b:B = $Literal
 
 a = b = B()
 print(a.a)

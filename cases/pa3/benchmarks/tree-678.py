@@ -78,6 +78,6 @@ while i < n:
 
 print(t.size)
 
-for i in [[[INT]], 8, 15, 16, 23, 42]:
+for i in [$INT, 8, 15, 16, 23, 42]:
 	if t.contains(i):
 		print(i)

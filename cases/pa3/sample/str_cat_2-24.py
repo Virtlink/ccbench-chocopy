@@ -1,6 +1,6 @@
 a:str = "no"
 b:str = "o"
-c:str = [[Literal]]
+c:str = $Literal
 d:str = ""
 e:str = ""
 

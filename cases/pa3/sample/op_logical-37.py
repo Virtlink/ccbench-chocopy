@@ -3,7 +3,7 @@ def f() -> bool:
   return True
 
 def g() -> bool:
-  [[Exp]]("g called")
+  $Exp("g called")
   return False
 
 if f() or g():      # Short-circuit

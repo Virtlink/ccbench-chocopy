@@ -14,6 +14,6 @@ a = B()
 print(a.a)
 
 b.a = 1
-[[AssignTarget]] False
+$AssignTarget False
 print(b.a)
 print(b.b)

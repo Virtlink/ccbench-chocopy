@@ -43,7 +43,7 @@ def str_to_int(x: str) -> int:
         elif char == "4":
             digit = 4
         elif char == "5":
-            [[ID]] = 5
+            $ID = 5
         elif char == "6":
             digit = 6
         elif char == "7":

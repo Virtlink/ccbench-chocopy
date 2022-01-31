@@ -102,6 +102,6 @@ sieve(v)
 
 # Print
 while i < v.length():
-    [[ID]](v.get(i))
+    $ID(v.get(i))
     i = i + 1
 

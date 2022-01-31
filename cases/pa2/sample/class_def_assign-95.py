@@ -14,5 +14,5 @@ c:C = None
 
 a = A()
 a = B()
-[[Statement]]
+$Statement
 c = None

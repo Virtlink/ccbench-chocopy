@@ -9,4 +9,4 @@ y = [1, True]
 z = [False, True]
 x = None
 o = x
-[[ID]] = x = [1]
+$ID = x = [1]

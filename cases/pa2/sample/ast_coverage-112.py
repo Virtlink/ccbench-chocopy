@@ -14,7 +14,7 @@ class bar(object):
         def qux(y: int) -> object:
             nonlocal x
             if x > y:
-                [[AssignTarget]] -1
+                $AssignTarget -1
 
         for x in xx:
             self.p = x == 2

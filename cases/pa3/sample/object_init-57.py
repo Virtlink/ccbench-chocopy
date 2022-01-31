@@ -8,4 +8,4 @@ class B(A):
         print("B")
 
 
-[[ID]]()
+$ID()

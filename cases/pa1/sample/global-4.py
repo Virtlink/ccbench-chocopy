@@ -1,4 +1,4 @@
-[[TypedVar]] = 1
+$TypedVar = 1
 
 x = 2
 

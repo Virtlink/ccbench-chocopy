@@ -1,7 +1,7 @@
 # Compute x**y
 def exp(x: int, y: int) -> int:
 	a: int = 0
-	[[FuncBodyMember]]
+	$FuncBodyMember
 	a = 1
 	return f(y)
 

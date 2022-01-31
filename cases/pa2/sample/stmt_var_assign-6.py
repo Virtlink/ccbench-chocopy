@@ -1,4 +1,4 @@
-x:[[Type]] = 1
+x:$Type = 1
 y:bool = True
 z:str = ""
 o:object = None
