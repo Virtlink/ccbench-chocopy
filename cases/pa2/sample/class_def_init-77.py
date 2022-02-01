@@ -12,6 +12,6 @@ a:A = None
 b:B = None
 c:C = None
 
-a = $Exp
-b = B()
+a = A()
+$ID = B()
 c = C()

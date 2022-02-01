@@ -1,6 +1,6 @@
 # Compute x**y
 def exp(x: int, y: int) -> int:
-	$TypedVar = 0
+	a: $ID = 0
 	def f(i: int) -> int:
 		nonlocal a
 		def geta() -> int:

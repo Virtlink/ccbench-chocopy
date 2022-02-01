@@ -2,7 +2,7 @@ class A(object):
     x:int = 1
 
 class B(A):
-    def $ID(self: "B"):
+    def __init__(self: $Type):
         pass
 
 class C(B):

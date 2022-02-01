@@ -18,8 +18,8 @@ a:A = None
 b:B = None
 c:C = None
 
-$Target = A()
-b = B()
+a = A()
+b = $ID()
 c = C()
 
 b.x = a.get_A()

@@ -1,6 +1,7 @@
 def foo(x:str, y:bool) -> int:
     return bar()
 
-$Definition
+def bar() -> $ID:
+    return 1
 
 foo("Hello", False)

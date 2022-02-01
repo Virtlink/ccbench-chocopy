@@ -16,7 +16,12 @@ class Vector(object):
         return self.capacity()
 
     # Appends one item to end of vector
-    $ClassBodyMember
+    def append(self:"Vector", item: int) -> object:
+        if $Exp:
+            self.increase_capacity()
+
+        self.items[self.size] = item
+        self.size = self.size + 1
 
     # Appends many items to end of vector
     def append_all(self:"Vector", new_items: [int]) -> object:

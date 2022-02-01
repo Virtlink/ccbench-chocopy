@@ -1,7 +1,7 @@
 x:str = "abc"
 a:str = ""
 
-$Definition
+$FuncDef
 
 a = str_get(x, -1)
 print(a)

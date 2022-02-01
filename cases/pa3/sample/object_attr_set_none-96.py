@@ -13,7 +13,7 @@ b:B = None
 a = B()
 print(a.a)
 
-$Member = 1
-b.b = False
+b.a = 1
+$Exp.b = False
 print(b.a)
 print(b.b)

@@ -1,6 +1,5 @@
-def f() -> $ID:
-    while True:
-        return 1
+def f() -> int:
+    $Statement
     return 0
 
 print(f())

@@ -1,8 +1,8 @@
 next:int = 0
 
 def next_int() -> int:
-    
-    next = next + 1
+    global next
+    $Statement
     return next
 
 def make_list() -> [int]:

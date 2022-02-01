@@ -1,4 +1,4 @@
 x:[int] = None
 
 x = []
-$ID[0] = 4
+x[0] = $Literal

@@ -10,8 +10,8 @@ class B(A):
 a:A = None
 b:B = None
 
-$ID = B()
-print(a.a)
+a = B()
+$Var(a.a)
 
 b.a = 1
 b.b = False

@@ -8,8 +8,8 @@ def exp(x: int, y: int) -> int:
 		if i <= 0:
 			return geta()
 		else:
-			a = a * $Exp
-			return f(i-1)
+			a = a * x
+			return f(i-$Exp)
 	a = 1
 	return f(y)
 

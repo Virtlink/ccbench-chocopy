@@ -2,7 +2,8 @@ class A(object):
     x:int = 1
 
 class B(A):
-    $ClassBodyMember
+    def __init__($TypedVar):
+        pass
 
 class C(B):
     z:bool = True

@@ -1,5 +1,8 @@
 def outer() -> int:
-    $FuncDef
+    def inner() -> $Type:
+        nonlocal x
+        x = 1
+        return x
     x:int = 0
     inner()
     return x

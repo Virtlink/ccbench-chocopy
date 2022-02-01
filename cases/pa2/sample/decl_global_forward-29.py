@@ -3,7 +3,7 @@ def set_x() -> int:
     x = 1
     return x
 
-$TypedVar = 0
+x:int = $INT
 
 set_x()
 print(x)

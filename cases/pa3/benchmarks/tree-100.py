@@ -10,7 +10,7 @@ class TreeNode(object):
 				self.left = makeNode(x)
 				return True
 			else:
-				$Statement
+				return self.left.$ID(x)
 		elif x > self.value:
 			if self.right is None:
 				self.right = makeNode(x)

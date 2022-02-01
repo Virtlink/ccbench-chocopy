@@ -1,1 +1,1 @@
-"int"
+Var2Exp(Var("n"))

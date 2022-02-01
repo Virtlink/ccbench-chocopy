@@ -6,7 +6,7 @@ o:object = None
 x = [1, 2, 3]
 z = [False, True]
 
-$Target = x[0]
+y = $ID[0]
 x[0] = 1
 z[1] = z[0]
 o = x[1]

@@ -2,8 +2,8 @@
 def exp(x: int, y: int) -> int:
 	a: int = 0
 	def f(i: int) -> int:
-		nonlocal $ID
-		def geta() -> int:
+		nonlocal a
+		def geta() -> $Type:
 			return a
 		if i <= 0:
 			return geta()

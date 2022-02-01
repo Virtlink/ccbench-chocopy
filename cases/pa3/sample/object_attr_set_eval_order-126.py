@@ -19,10 +19,10 @@ def get_one() -> int:
     return 1
 
 def get_false() -> bool:
-    $Exp("Getting False")
+    print("Getting False")
     return False
 
-a = b = B()
+a = $ID = B()
 get_b().a = get_one()
 print("Assigned B.a")
 get_b().b = get_false()

@@ -53,7 +53,9 @@ class Tree(object):
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None
-	
+	b = TreeNode()
+	b.value = x
+	return b
 
 
 # Input parameters
@@ -62,7 +64,7 @@ c:int = 4
 
 # Data
 t:Tree = None
-i:int = 0
+$VarDef
 k:int = 37813
 
 # Crunch

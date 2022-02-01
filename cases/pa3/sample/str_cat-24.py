@@ -1,6 +1,6 @@
 a:str = "Hello"
 b:str = "World"
-c:str = $Literal
+c:str = $STRING
 
 def cat2(a:str, b:str) -> str:
     return a + b

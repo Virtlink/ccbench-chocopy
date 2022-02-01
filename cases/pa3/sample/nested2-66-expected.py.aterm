@@ -1,1 +1,1 @@
-Var("y")
+FuncDef("qux",[TypedVar("p",Type("int"))],Returns(Type("int")),FuncBody([],[Return(Var2Exp(Var("p")))]))

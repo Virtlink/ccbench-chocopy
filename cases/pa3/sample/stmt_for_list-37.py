@@ -3,5 +3,5 @@ z:[int] = None
 
 z = [1, 2, 3]
 
-for $ID in z:
-    print(x)
+for x in z:
+    $Block

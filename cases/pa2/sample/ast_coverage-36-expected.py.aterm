@@ -1,1 +1,1 @@
-"bar"
+TypedVar("p",Type("bool"))

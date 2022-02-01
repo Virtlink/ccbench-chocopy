@@ -1,4 +1,4 @@
-def $ID() -> int:
+def f() $RetType:
     while True:
         return 1
     return 0

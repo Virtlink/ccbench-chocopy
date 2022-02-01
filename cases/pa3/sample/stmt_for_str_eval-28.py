@@ -2,5 +2,5 @@ x:str = ""
 z:str = "abc"
 
 for x in z:
-    $AssignTarget "doesn't matter"
+    z = $Exp
     print(x)

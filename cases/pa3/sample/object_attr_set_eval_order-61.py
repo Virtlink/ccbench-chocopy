@@ -8,9 +8,9 @@ class B(A):
         print("B")
 
 a:A = None
-$TypedVar = None
+b:B = None
 
-def get_b() -> B:
+def $ID() -> B:
     print("Getting B")
     return b
 

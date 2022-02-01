@@ -14,9 +14,9 @@ c:C = None
 
 a = A()
 b = B()
-$Var = C()
+c = C()
 
-a.x = 1
+$ID.x = 1
 b.x = a.x
 c.z = a.x == b.x
 

@@ -1,4 +1,4 @@
-x:[int] = $Literal
+x:[int] = None
 
-x[0] = 1
+$Statement
 

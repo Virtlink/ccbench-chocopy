@@ -5,7 +5,7 @@ o:object = None
 
 x = [1, 2, 3]
 x = []
-$Statement
+y = [$Exp, True]
 z = [False, True]
 x = None
 o = x

@@ -1,6 +1,6 @@
 x:str = ""
 y:str = "123"
-z:str = $Literal
+z:str = $STRING
 
 for x in z:
     print(x)

@@ -6,8 +6,8 @@ a2:A = None
 a3:A = None
 a4:A = None
 
-a1 = $ID()
-a2 = a1
+a1 = A()
+$Target = a1
 a3 = A()
 
 print(a1 is a1)

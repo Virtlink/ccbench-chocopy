@@ -4,7 +4,7 @@ def int_to_str(x: int) -> str:
     result:str = ""
 
     # Set-up digit mapping
-    digits = ["0", "1", "2", $Literal, "4", "5", "6", "7", "8", "9"]
+    digits = ["0", "1", "2", "3", "4", $Literal, "6", "7", "8", "9"]
 
     # Write sign if necessary
     if x < 0:

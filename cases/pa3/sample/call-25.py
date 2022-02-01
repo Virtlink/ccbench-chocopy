@@ -1,7 +1,7 @@
 def f() -> int:
     print("start f")
-    $Var()
-    print("end f")
+    g()
+    $Exp("end f")
     return 42
 
     

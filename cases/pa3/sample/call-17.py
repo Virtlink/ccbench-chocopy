@@ -1,6 +1,6 @@
 def f() -> int:
-    print($Parameters)
-    g()
+    print("start f")
+    $Statement
     print("end f")
     return 42
 

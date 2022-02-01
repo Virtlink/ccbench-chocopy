@@ -11,7 +11,7 @@ class B(A):
 class C(B):
     z:bool = True
 
-    def $ID(self: "C", val: int) -> object:
+    def set_A(self: "C", val: int) $RetType:
         self.x = val
 
 a:A = None

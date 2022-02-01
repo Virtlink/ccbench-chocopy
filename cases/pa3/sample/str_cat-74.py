@@ -6,7 +6,7 @@ def cat2(a:str, b:str) -> str:
     return a + b
 
 def cat3(a:str, b:str, c:str) -> str:
-    $Statement
+    return a + $Var + c
 
 print(cat2(a, b))
 print(cat2("", c))

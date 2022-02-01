@@ -11,8 +11,8 @@ class B(A):
         print("B")
 
     def bar(self:"B") -> int:
-        def $ID(p: bool) -> int:
-            return self.foo(p)
+        def qux(p: bool) -> int:
+            return $Member(p)
         return qux(True)
 
 print(B().bar())

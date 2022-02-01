@@ -6,8 +6,8 @@ def f() -> int:
 
     
 def g() -> object:
-    $Exp("start g")
-    h()
+    print("start g")
+    $Var()
     print("end g")
 
 def h() -> object:

@@ -4,5 +4,5 @@ z:str = "abc"
 
 for x in z:
     print(x)
-    for x in $ID:
-        print(x)
+    for x in y:
+        $Exp(x)

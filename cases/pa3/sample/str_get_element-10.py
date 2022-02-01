@@ -1,5 +1,5 @@
 x:str = "abc"
-$Definition
+$VarDef
 b:str = ""
 c:str = ""
 

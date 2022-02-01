@@ -16,7 +16,8 @@ class bar(object):
             if x > y:
                 x = -1
 
-        $Statement
+        for x in xx:
+            self.p = $Exp
 
         qux(0) # Yay! ChocoPy
 

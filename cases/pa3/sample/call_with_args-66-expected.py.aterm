@@ -1,1 +1,1 @@
-[TypedVar("y",Type("int")),TypedVar("z",Type("int"))]
+Returns(Type("object"))

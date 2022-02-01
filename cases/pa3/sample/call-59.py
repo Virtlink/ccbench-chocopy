@@ -6,9 +6,9 @@ def f() -> int:
 
     
 def g() -> object:
-    print()
+    print("start g")
     h()
-    print("end g")
+    $Exp
 
 def h() -> object:
     print("start h")

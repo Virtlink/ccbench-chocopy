@@ -1,1 +1,1 @@
-String("\"Getting 1\"")
+Var2Exp(Var("print"))

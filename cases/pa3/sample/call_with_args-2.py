@@ -1,4 +1,4 @@
-$Definition
+$FuncDef
 
     
 def g(y:int, z:int) -> object:

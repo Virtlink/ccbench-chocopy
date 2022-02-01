@@ -1,1 +1,1 @@
-Return(Literal2Exp(Int("42")))
+Returns(Type("object"))

@@ -49,7 +49,7 @@ class Tree(object):
 		if self.root is None:
 			return False
 		else:
-			return self.root.contains($Exp)
+			return self.root.contains(x)
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None
@@ -59,7 +59,7 @@ def makeNode(x: int) -> TreeNode:
 
 
 # Input parameters
-n:int = 100
+$VarDef
 c:int = 4
 
 # Data

@@ -2,6 +2,6 @@ True
 False
 1
 None
-$Exp
+$STRING
 [1, 2, 3]
 

@@ -13,5 +13,5 @@ b:B = None
 c:C = None
 
 a = A()
-$AssignTarget B()
-c = C()
+b = B()
+$Target = C()

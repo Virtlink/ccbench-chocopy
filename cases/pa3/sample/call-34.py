@@ -1,8 +1,8 @@
 def f() -> int:
     print("start f")
     g()
-    print($Parameters)
-    return 42
+    print("end f")
+    return $Literal
 
     
 def g() -> object:

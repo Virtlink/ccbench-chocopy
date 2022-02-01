@@ -1,1 +1,1 @@
-NONE()
+Var2Exp(Var("B"))

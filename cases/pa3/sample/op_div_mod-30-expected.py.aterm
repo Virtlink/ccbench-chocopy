@@ -1,1 +1,1 @@
-Var2Exp(Var("y"))
+Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Mod(Var2Exp(Var("x")),Var2Exp(Var("y")))])))

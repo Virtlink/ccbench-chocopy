@@ -13,6 +13,6 @@ b:B = None
 c:C = None
 
 a = A()
-$ID = B()
-b = a = c = C()
+a = B()
+b = $AssignTarget c = C()
 c = None

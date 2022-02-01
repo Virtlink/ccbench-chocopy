@@ -16,8 +16,8 @@ class TreeNode(object):
 				self.right = makeNode(x)
 				return True
 			else:
-				return $Exp
-		return False
+				return self.right.insert(x)
+		return $Literal
 
 	def contains(self:"TreeNode", x:int) -> bool:
 		if x < self.value:

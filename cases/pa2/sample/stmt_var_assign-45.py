@@ -4,6 +4,6 @@ z:str = ""
 o:object = None
 
 x = 2
-$Target = False
+y = $Literal
 z = "Hello"
 o = z

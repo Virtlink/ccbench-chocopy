@@ -1,5 +1,2 @@
-if True:
-    False
-else:
-    True
+$Statement
 

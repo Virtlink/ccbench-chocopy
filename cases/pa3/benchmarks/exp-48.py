@@ -3,13 +3,9 @@ def exp(x: int, y: int) -> int:
 	a: int = 0
 	def f(i: int) -> int:
 		nonlocal a
-		def geta() -> $ID:
+		def geta() -> int:
 			return a
-		if i <= 0:
-			return geta()
-		else:
-			a = a * x
-			return f(i-1)
+		$Statement
 	a = 1
 	return f(y)
 

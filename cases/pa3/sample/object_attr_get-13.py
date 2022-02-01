@@ -1,5 +1,5 @@
 class A(object):
-    a:$ID = 42
+    a:int = $INT
 
 class B(A):
     b:bool = True

@@ -4,4 +4,4 @@ def foo(x:int) -> bool:
     global z
     return x > z
 
-$Exp(1)
+foo($Literal)

@@ -1,3 +1,3 @@
-while $Exp:
-    pass
+while True:
+    $Block
 

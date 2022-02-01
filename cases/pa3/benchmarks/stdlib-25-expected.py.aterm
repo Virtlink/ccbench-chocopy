@@ -1,1 +1,1 @@
-TypedVar("result",Type("str"))
+"str"

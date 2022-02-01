@@ -1,1 +1,1 @@
-TypedVar("x",ListType(Type("int")))
+"x"

@@ -1,9 +1,8 @@
 a:str = "Hello"
 b:str = "World"
-c:str = $STRING
+c:str = "ChocoPy"
 
-def cat2(a:str, b:str) -> str:
-    return a + b
+$Definition
 
 def cat3(a:str, b:str, c:str) -> str:
     return a + b + c

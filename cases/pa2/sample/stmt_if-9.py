@@ -1,3 +1,6 @@
 if False:
     pass
-$ElifElse
+elif True:
+    $Block
+else:
+    pass

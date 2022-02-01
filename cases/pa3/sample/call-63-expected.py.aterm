@@ -1,1 +1,1 @@
-Exp(Call(Var2Exp(Var("h")),Exps2Parameters([])))
+Exps2Parameters([Literal2Exp(String("\"end g\""))])

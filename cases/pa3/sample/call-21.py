@@ -1,6 +1,6 @@
 def f() -> int:
-    print($STRING)
-    g()
+    print("start f")
+    $ID()
     print("end f")
     return 42
 

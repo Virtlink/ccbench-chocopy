@@ -1,5 +1,5 @@
 def f() -> int:
-    $ID("start f")
+    print($STRING)
     g()
     print("end f")
     return 42

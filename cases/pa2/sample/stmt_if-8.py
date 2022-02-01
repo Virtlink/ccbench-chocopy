@@ -1,6 +1,6 @@
 if False:
-    $Statement
-elif True:
+    pass
+elif $Literal:
     if 1 == 1:
         pass
 else:

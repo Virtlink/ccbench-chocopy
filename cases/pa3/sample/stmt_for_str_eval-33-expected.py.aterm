@@ -1,1 +1,1 @@
-String("\"doesn't matter\"")
+Var2Exp(Var("print"))

@@ -1,4 +1,4 @@
-x:int = $Literal
+x:int = $INT
 y:int = 9
 
 print(x // y)

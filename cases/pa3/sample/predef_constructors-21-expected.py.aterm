@@ -1,1 +1,1 @@
-Var2Exp(Var("print"))
+Call(Var2Exp(Var("int")),Exps2Parameters([]))

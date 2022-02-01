@@ -7,7 +7,8 @@ class A(object):
 class B(A):
     b:bool = True
 
-    $FuncDef
+    def __init__(self:"$ID"):
+        print("B")
 
     def bar(self:"B") -> int:
         return self.foo(self.b)

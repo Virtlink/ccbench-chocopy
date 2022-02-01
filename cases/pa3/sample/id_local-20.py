@@ -1,5 +1,5 @@
 def f() -> int:
   x:int = 1
-  $Statement
+  return x
 
-print(f())
+$Statement

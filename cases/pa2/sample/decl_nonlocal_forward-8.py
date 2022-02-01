@@ -1,8 +1,5 @@
-def outer() -> $ID:
-    def inner() -> int:
-        nonlocal x
-        x = 1
-        return x
+def outer() -> int:
+    $FuncBodyMember
     x:int = 0
     inner()
     return x

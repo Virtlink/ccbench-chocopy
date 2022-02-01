@@ -2,5 +2,5 @@ x:str = ""
 z:str = "abc"
 
 for x in z:
-    z = $Exp
-    print(x)
+    z = "doesn't matter"
+    $Exp

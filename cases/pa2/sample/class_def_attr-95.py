@@ -14,9 +14,9 @@ c:C = None
 
 a = A()
 b = B()
-$Statement
+c = C()
 
-a.x = 1
+$Target = 1
 b.x = a.x
 c.z = a.x == b.x
 

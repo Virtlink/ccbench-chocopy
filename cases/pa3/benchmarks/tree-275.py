@@ -27,29 +27,13 @@ class TreeNode(object):
 				return self.left.contains(x)
 		elif x > self.value:
 			if self.right is None:
-				$Statement
+				return False
 			else:
 				return self.right.contains(x)
 		else:
 			return True
 
-class Tree(object):
-	root:TreeNode = None
-	size:int = 0
-
-	def insert(self:"Tree", x:int) -> object:
-		if self.root is None:
-			self.root = makeNode(x)
-			self.size = 1
-		else:
-			if self.root.insert(x):
-				self.size = self.size + 1
-
-	def contains(self:"Tree", x:int) -> bool:
-		if self.root is None:
-			return False
-		else:
-			return self.root.contains(x)
+$ClassDef
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None

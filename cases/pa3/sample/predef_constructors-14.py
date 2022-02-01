@@ -1,4 +1,4 @@
-print($ID() is None)
+print(object() is $Literal)
 print(int())
 print(str())
 print(bool())

@@ -1,1 +1,1 @@
-"k"
+Neq(Mod(Var2Exp(Var("i")),Var2Exp(Var("c"))),Literal2Exp(Int("0")))

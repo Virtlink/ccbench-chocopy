@@ -12,8 +12,8 @@ class Vector(object):
 
     # Increases capacity of vector by one element
     def increase_capacity(self:"Vector") -> int:
-        $ID.items = self.items + [0]
-        return self.capacity()
+        self.items = self.items + [0]
+        return $Exp()
 
     # Appends one item to end of vector
     def append(self:"Vector", item: int) -> object:

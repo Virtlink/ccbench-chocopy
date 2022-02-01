@@ -1,4 +1,4 @@
 print(object() is None)
-$Statement
+$ID(int())
 print(str())
 print(bool())

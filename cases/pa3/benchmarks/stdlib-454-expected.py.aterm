@@ -1,1 +1,1 @@
-"digit"
+VarDef(TypedVar("c",Type("int")),Int("42"))

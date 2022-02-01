@@ -8,9 +8,9 @@ class B(A):
         print("B")
 
 a:A = None
-b:B = $Literal
+b:B = None
 
-a = B()
+a = $Exp()
 print(a.a)
 
 b.a = 1

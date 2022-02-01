@@ -1,1 +1,1 @@
-Literal2Exp(Int("4"))
+Add(Literal2Exp(String("\"Hello \"")),Literal2Exp(String("\"World\"")))

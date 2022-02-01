@@ -8,4 +8,4 @@ def next_int() -> int:
 def make_list() -> [int]:
     return [next_int(), next_int(), next_int()]
 
-$Var(make_list()[next_int() - 3])
+print(make_list()[$Var() - 3])

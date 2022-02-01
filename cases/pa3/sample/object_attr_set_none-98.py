@@ -13,7 +13,7 @@ b:B = None
 a = B()
 print(a.a)
 
-$Var.a = 1
-b.b = False
+b.a = 1
+$ID.b = False
 print(b.a)
 print(b.b)

@@ -1,4 +1,4 @@
-x:$Type = "xXx"
+x:$ID = "xXx"
 
 for x in x:
     print(x)

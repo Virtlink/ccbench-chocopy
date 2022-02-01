@@ -12,6 +12,6 @@ def g() -> object:
 
 def h() -> object:
     print("start h")
-    print("end h")
+    print($Parameters)
 
 print(f())

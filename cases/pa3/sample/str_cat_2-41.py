@@ -2,10 +2,9 @@ a:str = "no"
 b:str = "o"
 c:str = ""
 d:str = ""
-e:str = $STRING
+e:str = ""
 
-def cat2(a:str, b:str) -> str:
-    return a + b
+$Definition
 
 def cat3(a:str, b:str, c:str) -> str:
     return a + b + c

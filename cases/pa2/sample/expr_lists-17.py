@@ -1,6 +1,6 @@
 x:[int] = None
-y:[object] = $Literal
-z:[bool] = None
+y:[object] = None
+$Definition
 o:object = None
 
 x = [1, 2, 3]

@@ -8,8 +8,8 @@ print(x <= y)
 print(x > y)
 print(x >= y)
 
-print()
-print(x != x)
+print(x == x)
+$Exp
 print(x < x)
 print(x <= x)
 print(x > x)

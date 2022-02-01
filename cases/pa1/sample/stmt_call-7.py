@@ -1,1 +1,1 @@
-$ID(1)
+print($Exp)

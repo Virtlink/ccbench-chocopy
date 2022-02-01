@@ -1,1 +1,1 @@
-[Target(Var2Target(Var("result")))]
+Assign([Target(Var2Target(Var("x")))],Negative(Var2Exp(Var("x"))))

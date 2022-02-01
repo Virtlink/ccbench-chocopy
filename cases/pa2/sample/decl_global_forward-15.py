@@ -1,6 +1,6 @@
 def set_x() -> int:
     global x
-     1
+    x = $Exp
     return x
 
 x:int = 0

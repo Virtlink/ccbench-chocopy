@@ -1,1 +1,1 @@
-Var("print")
+Return(Literal2Exp(Int("42")))

@@ -1,5 +1,5 @@
 x:int = 42
-$TypedVar = 7
+$ID:int = 7
 
 print(x == y)
 print(x != y)

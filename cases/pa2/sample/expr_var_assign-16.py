@@ -1,4 +1,4 @@
 x:int = 1
-o:object = $Literal
+o:object = None
 
-x = o = 42
+$Statement

@@ -10,11 +10,11 @@ def exp(x: int, y: int) -> int:
 		else:
 			a = a * x
 			return f(i-1)
-	a = $INT
+	a = 1
 	return f(y)
 
 # Input parameter
-n:int = 42
+n:int = $Literal
 
 # Run [0, n]
 i:int = 0

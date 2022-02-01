@@ -1,4 +1,4 @@
-def foo(x:$ID, y:int) -> bool:
+def foo(x:int, $ID:int) -> bool:
     return x > y
 
 foo(1,2)

@@ -18,9 +18,9 @@ a:A = None
 b:B = None
 c:C = None
 
-a = $Var()
+a = A()
 b = B()
-c = C()
+$Var = C()
 
 b.x = a.get_A()
 a.x = b.get_A()

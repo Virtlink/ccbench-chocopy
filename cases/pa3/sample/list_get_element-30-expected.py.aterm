@@ -1,1 +1,1 @@
-Var2Exp(Var("print"))
+Index2Exp(Index(Var2Exp(Var("x")),Literal2Exp(Int("0"))))

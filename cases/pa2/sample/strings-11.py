@@ -1,5 +1,5 @@
 x:str = "Hello"
-$VarDef
+$TypedVar = "World"
 z:str = ""
 
 z = x + y

@@ -1,5 +1,5 @@
 x:str = "abc"
-a:$ID = ""
+a:str = $Literal
 b:str = ""
 c:str = ""
 

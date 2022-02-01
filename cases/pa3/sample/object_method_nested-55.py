@@ -7,7 +7,8 @@ class A(object):
 class B(A):
     b:bool = True
 
-    $ClassBodyMember
+    def __init__(self:$IDSTRING):
+        print("B")
 
     def bar(self:"B") -> int:
         def qux(p: bool) -> int:

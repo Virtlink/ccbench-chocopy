@@ -1,5 +1,5 @@
 def f() -> int:
-  x:int = $Literal
-  return x
+  x:int = 1
+  return $Exp
 
 print(f())

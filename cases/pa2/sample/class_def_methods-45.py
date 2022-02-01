@@ -5,7 +5,8 @@ class A(object):
         return self.x
 
 class B(A):
-    $FuncDef
+    def __init__(self: "$ID"):
+        pass
 
 class C(B):
     z:bool = True

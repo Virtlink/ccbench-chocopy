@@ -1,7 +1,5 @@
-def set_x() -> $Type:
-    global x
-    x = 1
-    return x
+def set_x() -> int:
+    $FuncBody
 
 x:int = 0
 

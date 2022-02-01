@@ -11,10 +11,10 @@ a:A = None
 b:B = None
 
 def get_b() -> B:
-    print($Exp)
+    print("Getting B")
     return b
 
-def get_one() -> int:
+def get_one() -> $Type:
     print("Getting 1")
     return 1
 

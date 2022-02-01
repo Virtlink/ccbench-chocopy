@@ -7,8 +7,8 @@ def get_prime(n:int) -> int:
             found = found + 1
             if found == n:
                 return candidate
-        $Target = candidate + 1
-    return 0 # Never happens
+        candidate = candidate + 1
+    $Statement # Never happens
 
 def is_prime(x:int) -> bool:
     div:int = 2

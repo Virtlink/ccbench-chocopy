@@ -1,4 +1,4 @@
-print(True == True)
+$Statement
 print(True == False)
 print(False == True)
 print(False == False)

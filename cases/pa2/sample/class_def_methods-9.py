@@ -1,5 +1,5 @@
 class A(object):
-    $VarDef
+    $ID:int = 1
 
     def get_A(self: "A") -> int:
         return self.x

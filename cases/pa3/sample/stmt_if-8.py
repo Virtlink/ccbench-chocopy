@@ -1,5 +1,5 @@
 if False:
-    $Statement
+    $Var("No")
 elif True:
     if True:
         print("Yes")

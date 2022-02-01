@@ -19,8 +19,8 @@ b:B = None
 c:C = None
 
 a = A()
- B()
-c = C()
+b = B()
+c = $ID()
 
 b.x = a.get_A()
 a.x = b.get_A()

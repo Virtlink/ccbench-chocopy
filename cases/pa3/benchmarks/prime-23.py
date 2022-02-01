@@ -1,7 +1,7 @@
 # Get the n-th prime starting from 2
 def get_prime(n:int) -> int:
     candidate:int = 2
-    $FuncBodyMember
+    $ID:int = 0
     while True:
         if is_prime(candidate):
             found = found + 1

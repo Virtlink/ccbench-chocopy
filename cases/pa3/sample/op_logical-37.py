@@ -3,8 +3,8 @@ def f() -> bool:
   return True
 
 def g() -> bool:
-  $Exp("g called")
-  return False
+  print("g called")
+  return $Exp
 
 if f() or g():      # Short-circuit
   if g() and f():   # Short-circuit

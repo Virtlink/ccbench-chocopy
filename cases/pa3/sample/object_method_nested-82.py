@@ -10,8 +10,8 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-    def bar($TypedVar) -> int:
-        def qux(p: bool) -> int:
+    def bar(self:"B") -> int:
+        def $ID(p: bool) -> int:
             return self.foo(p)
         return qux(True)
 

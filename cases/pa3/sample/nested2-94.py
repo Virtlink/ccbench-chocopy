@@ -9,6 +9,6 @@ def foo(x: int) -> int:
     def qux(p: int) -> int:
         return p
 
+    return bar()
     
-    
-print(foo(g))
+print($Var(g))

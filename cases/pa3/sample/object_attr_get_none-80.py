@@ -11,6 +11,6 @@ a:A = None
 b:B = None
 
 a = B()
-$Exp
+print(a.$ID)
 print(b.a)
 print(b.b)

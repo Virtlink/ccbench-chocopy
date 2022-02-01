@@ -1,1 +1,1 @@
-[If(Call(Var2Exp(Var("is_prime")),Exps2Parameters([Var2Exp(Var("candidate"))])),Block([Assign([Target(Var2Target(Var("found")))],Add(Var2Exp(Var("found")),Literal2Exp(Int("1")))),If(Eq(Var2Exp(Var("found")),Var2Exp(Var("n"))),Block([Return(Var2Exp(Var("candidate")))]))])),Assign([Target(Var2Target(Var("candidate")))],Add(Var2Exp(Var("candidate")),Literal2Exp(Int("1"))))]
+"is_prime"

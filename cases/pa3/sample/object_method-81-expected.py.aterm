@@ -1,1 +1,1 @@
-[TypedVar("self",TypeS(IdString("B")))]
+Call(Member2Exp(Member(Var2Exp(Var("self")),"foo")),Exps2Parameters([Member2Exp(Member(Var2Exp(Var("self")),"b"))]))

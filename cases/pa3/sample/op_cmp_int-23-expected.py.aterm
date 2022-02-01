@@ -1,1 +1,1 @@
-"print"
+Eq(Var2Exp(Var("x")),Var2Exp(Var("y")))

@@ -51,7 +51,7 @@ class Tree(object):
 		else:
 			return self.root.contains(x)
 
-def makeNode() -> TreeNode:
+def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None
 	b = TreeNode()
 	b.value = x
@@ -59,7 +59,7 @@ def makeNode() -> TreeNode:
 
 
 # Input parameters
-n:int = 100
+n:int = $INT
 c:int = 4
 
 # Data

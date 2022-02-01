@@ -1,1 +1,1 @@
-print($Exp*9*2)
+print(6*$Exp*2)

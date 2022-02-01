@@ -4,8 +4,8 @@ def foo(x:int) -> bool:
     b:int = 1
     def bar(y: int) -> int:
         nonlocal a
-        a = $Literal 
+        a = 2 
         return y
-    return bar(x) > a
+    return $Exp
 
 foo(1)

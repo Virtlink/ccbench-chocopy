@@ -8,10 +8,10 @@ def f() -> int:
 def g() -> object:
     print("start g")
     h()
-    print($Literal)
+    print("end g")
 
 def h() -> object:
-    print("start h")
+    $ID("start h")
     print("end h")
 
 print(f())

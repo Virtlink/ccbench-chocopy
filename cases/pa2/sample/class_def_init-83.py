@@ -13,5 +13,5 @@ b:B = None
 c:C = None
 
 a = A()
+b = B()
 $Statement
-c = C()

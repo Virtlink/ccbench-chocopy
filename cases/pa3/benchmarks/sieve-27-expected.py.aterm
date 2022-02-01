@@ -1,1 +1,1 @@
-[TypedVar("self",TypeS(IdString("Vector")))]
+TypeS(IdString("Vector"))

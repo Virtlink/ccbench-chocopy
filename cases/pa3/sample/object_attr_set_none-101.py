@@ -13,7 +13,7 @@ b:B = None
 a = B()
 print(a.a)
 
-b.a = $Exp
-b.b = False
+b.a = 1
+b.b = $Literal
 print(b.a)
 print(b.b)

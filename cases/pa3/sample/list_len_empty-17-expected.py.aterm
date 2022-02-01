@@ -1,1 +1,1 @@
-List([])
+Var2Exp(Var("print"))

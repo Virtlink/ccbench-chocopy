@@ -1,5 +1,8 @@
 def outer() -> int:
-    $FuncBodyMember
+    def inner() $RetType:
+        nonlocal x
+        x = 1
+        return x
     x:int = 0
     inner()
     return x

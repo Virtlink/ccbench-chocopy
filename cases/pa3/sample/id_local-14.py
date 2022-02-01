@@ -1,5 +1,5 @@
 def f() -> int:
-  $ID:int = 1
+  x:int = $Literal
   return x
 
 print(f())

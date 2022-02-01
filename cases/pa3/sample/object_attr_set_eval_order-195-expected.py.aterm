@@ -1,1 +1,1 @@
-Var2Exp(Var("get_false"))
+Var("print")

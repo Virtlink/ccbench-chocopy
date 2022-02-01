@@ -6,9 +6,9 @@ print(x != y)
 print(x < y)
 print(x <= y)
 print(x > y)
-print()
+print(x >= y)
 
-print(x == x)
+$Statement
 print(x != x)
 print(x < x)
 print(x <= x)

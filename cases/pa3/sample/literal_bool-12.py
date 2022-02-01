@@ -1,2 +1,2 @@
 print(True)
-$Statement
+$Var(False)

@@ -1,1 +1,1 @@
-Var("div")
+VarDef2Definition(VarDef(TypedVar("i",Type("int")),Int("1")))

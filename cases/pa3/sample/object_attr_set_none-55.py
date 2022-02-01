@@ -7,8 +7,8 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-$ID:A = None
-b:B = None
+a:A = None
+$ID:B = None
 
 a = B()
 print(a.a)

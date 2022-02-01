@@ -9,9 +9,9 @@ def exp(x: int, y: int) -> int:
 			return geta()
 		else:
 			a = a * x
-			return f(i-$INT)
+			return f(i-1)
 	a = 1
-	return f(y)
+	return f($Parameters)
 
 # Input parameter
 n:int = 42

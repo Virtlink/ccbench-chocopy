@@ -38,12 +38,11 @@ class Tree(object):
 	size:int = 0
 
 	def insert(self:"Tree", x:int) -> object:
-		if self.$ID is None:
+		if self.root is None:
 			self.root = makeNode(x)
 			self.size = 1
 		else:
-			if self.root.insert(x):
-				self.size = self.size + 1
+			$Statement
 
 	def contains(self:"Tree", x:int) -> bool:
 		if self.root is None:

@@ -25,4 +25,6 @@ n:int = 15
 i:int = 1
 
 # Crunch
-
+while i <= n:
+    print($Exp(i))
+    i = i + 1

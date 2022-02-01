@@ -14,5 +14,5 @@ c:C = None
 
 a = A()
 a = B()
-b = a = c = C()
+b = a = $Var = C()
 c = None

@@ -1,5 +1,5 @@
 def f() -> int:
   x:int = 1
-  return $ID
+  return x
 
-print(f())
+$Var(f())

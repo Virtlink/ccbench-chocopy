@@ -5,9 +5,9 @@ class B(A):
     b:bool = True
 
     def __init__(self:"B"):
-        print($STRING)
+        print("B")
 
-a:A = None
+a:A = $Literal
 b:B = None
 
 a = B()

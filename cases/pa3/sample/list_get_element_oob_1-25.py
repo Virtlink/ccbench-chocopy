@@ -1,4 +1,4 @@
 x:[int] = None
 
-x = [1, 2, $Exp]
-print(x[-1])
+x = [1, 2, 3]
+$Exp

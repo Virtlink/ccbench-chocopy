@@ -1,1 +1,1 @@
-Type("object")
+Exps2Parameters([Literal2Exp(String("\"start g\""))])

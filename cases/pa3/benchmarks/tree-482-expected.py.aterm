@@ -1,1 +1,1 @@
-TypedVar("x",Type("int"))
+VarDef2Definition(VarDef(TypedVar("c",Type("int")),Int("4")))

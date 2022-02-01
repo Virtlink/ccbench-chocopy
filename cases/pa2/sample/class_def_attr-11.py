@@ -1,5 +1,5 @@
 class A(object):
-    $ID:int = 1
+    x:$ID = 1
 
 class B(A):
     def __init__(self: "B"):

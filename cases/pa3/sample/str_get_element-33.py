@@ -1,10 +1,9 @@
 x:str = "abc"
 a:str = ""
 b:str = ""
-c:str = $STRING
+c:str = ""
 
-def str_get(s:str, i:int) -> str:
-    return s[i]
+$Definition
 
 a = str_get(x, 0)
 b = str_get(x, 1)

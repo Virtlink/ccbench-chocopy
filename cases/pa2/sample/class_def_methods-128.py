@@ -18,8 +18,8 @@ a:A = None
 b:B = None
 c:C = None
 
-$Var = A()
-b = B()
+a = A()
+b = B($Parameters)
 c = C()
 
 b.x = a.get_A()

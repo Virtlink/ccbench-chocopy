@@ -1,1 +1,1 @@
-ListType(Type("int"))
+Call(Var2Exp(Var("next_int")),Exps2Parameters([]))

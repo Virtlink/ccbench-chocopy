@@ -3,6 +3,6 @@ y:str = "World"
 z:str = ""
 
 z = x + y
-$Target = x[0]
+z = $Index
 x = y = z
 

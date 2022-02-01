@@ -1,4 +1,4 @@
 x:[int] = None
 y:[int] = None
 
-$Exp
+$Var(len(x+y))

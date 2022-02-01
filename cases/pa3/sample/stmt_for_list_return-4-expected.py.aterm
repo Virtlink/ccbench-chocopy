@@ -1,1 +1,1 @@
-"print_list"
+TypedVar("z",ListType(Type("int")))

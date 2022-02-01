@@ -1,7 +1,7 @@
 x:int = 0
 z:[int] = None
 
-z = [$Literal, 2, 3]
+z = [1, $INT, 3]
 
 for x in z:
     print(x)

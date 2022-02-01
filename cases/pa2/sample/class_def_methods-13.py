@@ -1,5 +1,5 @@
 class A(object):
-    x:$ID = 1
+    x:int = $INT
 
     def get_A(self: "A") -> int:
         return self.x

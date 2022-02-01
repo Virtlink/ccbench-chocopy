@@ -1,5 +1,5 @@
 x:str = "abc"
-$VarDef
+$TypedVar = ""
 b:str = ""
 c:str = ""
 

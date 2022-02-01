@@ -1,7 +1,7 @@
 x:int = 1
 y:bool = True
-z:str = $STRING
-o:object = None
+z:str = ""
+$Definition
 
 x = 2
 y = False

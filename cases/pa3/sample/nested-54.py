@@ -3,9 +3,9 @@ def foo(x: int) -> int:
     y: int = 2
     def bar() -> int:
         z: int = 3
-        def baz() -> $ID:
+        def baz() -> int:
             return y
-        return baz()
+        $Statement
     return bar()
     
 print(foo(g))

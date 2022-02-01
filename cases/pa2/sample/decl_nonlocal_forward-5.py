@@ -1,4 +1,4 @@
-def outer() -> int:
+def outer() -> $Type:
     def inner() -> int:
         nonlocal x
         x = 1

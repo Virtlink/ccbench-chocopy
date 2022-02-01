@@ -49,13 +49,13 @@ class Tree(object):
 		if self.root is None:
 			return False
 		else:
-			return self.root.contains($Parameters)
+			return self.root.contains(x)
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None
 	b = TreeNode()
 	b.value = x
-	return b
+	return $ID
 
 
 # Input parameters

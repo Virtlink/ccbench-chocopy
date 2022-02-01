@@ -14,6 +14,6 @@ class B(A):
         return self.foo(self.b)
 
     def foo(self:"B", ignore:object) -> int:
-        return $Literal
+        return 1
 
-print(B().bar())
+print(B().bar($Parameters))

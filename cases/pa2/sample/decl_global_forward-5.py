@@ -1,4 +1,4 @@
-def set_x() -> int:
+def set_x() -> $Type:
     global x
     x = 1
     return x

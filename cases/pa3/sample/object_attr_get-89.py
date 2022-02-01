@@ -11,6 +11,6 @@ a:A = None
 b:B = None
 
 a = b = B()
-print()
-print(b.a)
+print(a.a)
+$ID(b.a)
 print(b.b)

@@ -1,6 +1,6 @@
 a:str = "Hello"
 b:str = "World"
-$Definition
+$VarDef
 
 def cat2(a:str, b:str) -> str:
     return a + b

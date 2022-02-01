@@ -1,1 +1,1 @@
-"bool"
+VarDef2FuncBodyMember(VarDef(TypedVar("a",Type("int")),Int("0")))

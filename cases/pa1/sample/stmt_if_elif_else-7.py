@@ -1,4 +1,4 @@
-if $INT > 2:
+if 1 > $Literal:
     print(1)
 elif 3 == 4:
     print(2)

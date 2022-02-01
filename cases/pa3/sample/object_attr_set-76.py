@@ -10,8 +10,8 @@ class B(A):
 a:A = None
 b:B = None
 
-a = $ID = B()
-b.a = 1
+a = b = B()
+$Member = 1
 b.b = False
 print(a.a)
 print(b.a)

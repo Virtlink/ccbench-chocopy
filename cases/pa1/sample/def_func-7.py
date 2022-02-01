@@ -1,4 +1,4 @@
-def foo() -> $Type:
-    return 1
+def foo() -> int:
+    $FuncBody
 
 foo()

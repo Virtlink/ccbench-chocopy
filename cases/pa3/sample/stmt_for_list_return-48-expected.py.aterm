@@ -1,1 +1,1 @@
-Int("30")
+Var2Exp(Var("print_list"))

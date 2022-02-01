@@ -6,6 +6,6 @@ def next_int() -> int:
     return next
 
 def make_list() -> [int]:
-    return []
+    return [next_int(), $ID(), next_int()]
 
 print(make_list()[next_int() - 3])

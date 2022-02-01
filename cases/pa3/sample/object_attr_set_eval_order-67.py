@@ -10,7 +10,9 @@ class B(A):
 a:A = None
 b:B = None
 
-$FuncDef
+def get_b() -> B:
+    $Exp
+    return b
 
 def get_one() -> int:
     print("Getting 1")

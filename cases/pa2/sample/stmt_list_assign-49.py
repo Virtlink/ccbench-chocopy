@@ -3,5 +3,5 @@ y:[object] = None
 
 x = [1, 2]
 y = [None]
-$Var[0] = 3
+x[0] = $INT
 x[1] = y[0] = 4

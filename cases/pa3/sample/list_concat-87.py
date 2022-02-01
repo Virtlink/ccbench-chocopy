@@ -6,7 +6,7 @@ i:int = 0
 
 z = concat([1,2,3], [4,5,6])
 
-while i < $Exp:
-    print(z[i])
+while i < len(z):
+    $Statement
     i = i + 1
 

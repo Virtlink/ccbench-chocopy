@@ -13,6 +13,6 @@ b:B = None
 a = b = B()
 b.a = 1
 b.b = False
-print()
-print(b.a)
+print(a.a)
+print($Exp)
 print(b.b)

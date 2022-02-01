@@ -1,5 +1,5 @@
 x:int = 0
-z:[$ID] = None
+z:[int] = $Literal
 
 for x in z:
     print(x)

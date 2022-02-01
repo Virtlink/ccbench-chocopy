@@ -5,6 +5,6 @@ def outer() -> int:
         return x
     x:int = 0
     inner()
-    $Statement
+    return x
 
-print(outer())
+print($Parameters)

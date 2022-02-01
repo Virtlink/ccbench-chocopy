@@ -1,9 +1,9 @@
 x:int = 1
 y:bool = True
 z:str = ""
-o:object = $Literal
+o:object = None
 
-x = 2
+$Statement
 y = False
 z = "Hello"
 o = z

@@ -5,5 +5,5 @@ def set_x() -> int:
 
 x:int = 0
 
-$Exp()
-print(x)
+set_x()
+$Exp(x)

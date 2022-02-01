@@ -1,5 +1,5 @@
 def print_list(z:[int]) -> object:
-    $ID:int = 0
+    x:int = $Literal
     for x in z:
         print(x)
         if x >= 30:

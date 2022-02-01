@@ -21,5 +21,5 @@ i:int = 0
 
 # Crunch
 while i <= n:
-	$Var(exp(2, i % 31))
-	i = i + 1
+	print(exp(2, i % 31))
+	$AssignTarget i + 1

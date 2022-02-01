@@ -16,7 +16,7 @@ a = A()
 b = B()
 c = C()
 
-a.x = $Exp
-b.x = a.x
+a.x = 1
+b.x = $ID.x
 c.z = a.x == b.x
 

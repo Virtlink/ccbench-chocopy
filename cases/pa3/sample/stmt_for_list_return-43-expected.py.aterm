@@ -1,1 +1,1 @@
-Geq(Var2Exp(Var("x")),Literal2Exp(Int("30")))
+"30"

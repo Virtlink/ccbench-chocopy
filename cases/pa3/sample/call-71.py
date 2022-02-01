@@ -8,9 +8,9 @@ def f() -> int:
 def g() -> object:
     print("start g")
     h()
-    $Exp
+    print("end g")
 
-def h() -> object:
+def h() -> $Type:
     print("start h")
     print("end h")
 

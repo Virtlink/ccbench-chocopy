@@ -1,6 +1,6 @@
 a:str = "Hello"
 b:str = "World"
-$ID:str = "ChocoPy"
+c:$Type = "ChocoPy"
 
 def eq(a:str, b:str) -> bool:
     return a == b

@@ -14,6 +14,6 @@ class B(A):
         return self.foo(self.foo(print("...")))
 
     def foo(self:"B", ignore:object) -> int:
-        $FuncBody
+        return 1
 
-print(B().bar())
+print($ID().bar())

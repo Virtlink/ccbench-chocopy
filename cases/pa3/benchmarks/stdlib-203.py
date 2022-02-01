@@ -22,11 +22,11 @@ def str_to_int(x: str) -> int:
     digit:int = 0
     char:str = ""
     sign:int = 1
-    $FuncBodyMember
+    first_char:bool = True
 
     # Parse digits
     for char in x:
-        if char == "-":
+        if $Exp == "-":
             if not first_char:
                 return 0 # Error
             sign = -1

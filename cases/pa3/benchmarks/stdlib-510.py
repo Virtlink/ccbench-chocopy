@@ -62,7 +62,7 @@ def str_to_int(x: str) -> int:
         
 # Input parameters
 c:int = 42
-n:$Type = 10
+n:int = 10
 
 # Run [-nc, nc] with step size c
 s:str = ""
@@ -71,7 +71,5 @@ i = -n * c
 
 # Crunch
 while i <= n * c:
-    s = int_to_str(i)
-    print(s)
-    i = str_to_int(s) + c
+    $Block
 

@@ -4,7 +4,8 @@ class A(object):
 class B(A):
     b:bool = True
 
-    $FuncDef
+    def __init__($ID:"B"):
+        print("B")
 
 
 B()

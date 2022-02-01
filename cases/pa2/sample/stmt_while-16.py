@@ -1,3 +1,3 @@
 x:int = 0
-while x < $Exp:
+while x < $INT:
     x = x + 1

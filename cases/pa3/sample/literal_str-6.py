@@ -1,1 +1,1 @@
-$Var("Hello World")
+print($Parameters)

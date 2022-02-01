@@ -16,7 +16,22 @@ class bar(object):
             if x > y:
                 x = -1
 
-        
+        for x in xx:
+            self.$ID = x == 2
+
+        qux(0) # Yay! ChocoPy
+
+        count = count + 1
+
+        while x <= 0:
+            if self.p:
+                xx[0] = xx[1]
+                self.p = not self.p
+                x = x + 1
+            elif foo("Long"[0]) == 1:
+                self.p = self is None
+
+        return "Nope"
 
 print(bar().baz([1,2]))
 

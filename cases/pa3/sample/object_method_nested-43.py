@@ -4,6 +4,15 @@ class A(object):
     def foo(self:"A", ignore:object) -> int:
         return self.a
 
-$ClassDef
+class B(A):
+    $VarDef
+
+    def __init__(self:"B"):
+        print("B")
+
+    def bar(self:"B") -> int:
+        def qux(p: bool) -> int:
+            return self.foo(p)
+        return qux(True)
 
 print(B().bar())

@@ -1,5 +1,5 @@
-x:str = $STRING
-a:str = ""
+x:str = "abc"
+$Definition
 b:str = ""
 c:str = ""
 

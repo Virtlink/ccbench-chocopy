@@ -1,1 +1,1 @@
-"1"
+Not(Literal2Exp(False()))

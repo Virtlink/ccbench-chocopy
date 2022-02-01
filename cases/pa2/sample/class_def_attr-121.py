@@ -17,6 +17,6 @@ b = B()
 c = C()
 
 a.x = 1
-$AssignTarget a.x
-c.z = a.x == b.x
+b.x = a.x
+$Member = a.x == b.x
 

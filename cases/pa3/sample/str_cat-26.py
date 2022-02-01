@@ -2,7 +2,7 @@ a:str = "Hello"
 b:str = "World"
 c:str = "ChocoPy"
 
-$Definition
+$FuncDef
 
 def cat3(a:str, b:str, c:str) -> str:
     return a + b + c

@@ -5,9 +5,9 @@ class B(A):
     b:bool = True
 
     def __init__(self:"B"):
-        $ID("B")
+        print("B")
 
-a:A = None
+$VarDef
 b:B = None
 
 a = B()

@@ -1,1 +1,1 @@
-Block([If(Literal2Exp(True()),Block([Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(String("\"Yes\""))])))]))])
+Block([Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(String("\"Yes\""))])))])

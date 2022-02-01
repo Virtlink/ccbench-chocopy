@@ -1,1 +1,1 @@
-"DoublingVector"
+VarDef(TypedVar("j",Type("int")),Int("0"))

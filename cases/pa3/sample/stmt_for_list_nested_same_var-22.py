@@ -1,6 +1,6 @@
 x:int = 0
 y:int = 0
-z:$Type = None
+z:[$Type] = None
 
 z = [1, 2, 3]
 

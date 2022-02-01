@@ -1,1 +1,1 @@
-Add(Var2Exp(Var("result")),Index2Exp(Index(Var2Exp(Var("digits")),Mod(Var2Exp(Var("x")),Literal2Exp(Int("10"))))))
+Literal2Exp(Int("10"))

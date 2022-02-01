@@ -1,1 +1,1 @@
-[VarDef2Definition(VarDef(TypedVar("x",Type("str")),String("\"\""))),VarDef2Definition(VarDef(TypedVar("y",Type("str")),String("\"123\""))),VarDef2Definition(VarDef(TypedVar("z",Type("str")),String("\"abc\"")))]
+VarDef2Definition(VarDef(TypedVar("x",Type("str")),String("\"\"")))

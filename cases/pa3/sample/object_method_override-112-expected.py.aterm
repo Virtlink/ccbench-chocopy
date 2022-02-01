@@ -1,1 +1,1 @@
-[TypedVar("self",TypeS(IdString("B"))),TypedVar("ignore",Type("object"))]
+Literal2Exp(Int("1"))

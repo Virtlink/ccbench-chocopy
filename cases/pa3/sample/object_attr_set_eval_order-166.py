@@ -23,9 +23,9 @@ def get_false() -> bool:
     return False
 
 a = b = B()
-get_b().a = $Exp
+get_b().a = get_one()
 print("Assigned B.a")
-get_b().b = get_false()
+get_b().b = $Exp
 print("Assigned B.b")
 
 print(a.a)

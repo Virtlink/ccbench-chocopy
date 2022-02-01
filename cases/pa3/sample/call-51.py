@@ -6,7 +6,7 @@ def f() -> int:
 
     
 def g() -> object:
-    print("start g")
+    print($STRING)
     h()
     print("end g")
 

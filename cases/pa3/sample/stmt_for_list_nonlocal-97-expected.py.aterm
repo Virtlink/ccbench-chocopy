@@ -1,1 +1,1 @@
-List([Literal2Exp(Int("4")),Literal2Exp(Int("5"))])
+Call(Var2Exp(Var("print")),Exps2Parameters([Var2Exp(Var("x"))]))

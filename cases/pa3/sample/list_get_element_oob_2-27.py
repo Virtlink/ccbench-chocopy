@@ -1,4 +1,4 @@
 x:[int] = None
 
-x = [1, 2, $INT]
-print(x[3])
+x = [1, 2, 3]
+$Var(x[3])

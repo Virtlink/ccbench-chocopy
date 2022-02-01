@@ -1,5 +1,5 @@
-x:str = $STRING
-z:str = "abc"
+x:str = ""
+$Definition
 
 for x in z:
     z = "doesn't matter"

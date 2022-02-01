@@ -63,13 +63,13 @@ class DoublingVector(Vector):
         return self.capacity()
 
 # Makes a vector in the range [i, j)
-def vrange($TypedVar, j:int) -> Vector:
+def vrange(i:int, j:int) -> Vector:
     v:Vector = None
     v = DoublingVector()
     
     while i < j:
         v.append(i)
-        i = i + 1
+        i = $Exp + 1
 
     return v
 

@@ -1,3 +1,4 @@
 x:int = 0
 
-$Statement
+for x in $Exp:
+    x + 1

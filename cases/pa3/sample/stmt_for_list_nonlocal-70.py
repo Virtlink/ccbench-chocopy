@@ -9,7 +9,7 @@ def crunch(zz:[[int]]) -> object:
 
     make_z()
     for x in z:
-        $Statement # Set x to last element in z
+        pass # Set x to last element in z
 
-crunch([[1,2],[2,3],[4,5],[6,7]])
+crunch([[$Literal,2],[2,3],[4,5],[6,7]])
 print(x) 

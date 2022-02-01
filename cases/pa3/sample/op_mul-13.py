@@ -1,1 +1,1 @@
-print($Literal*9*2)
+print(6*$Literal*2)

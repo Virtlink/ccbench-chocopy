@@ -1,4 +1,4 @@
-$TypedVar = 1
+$ID:int = 1
 
 x = 2
 

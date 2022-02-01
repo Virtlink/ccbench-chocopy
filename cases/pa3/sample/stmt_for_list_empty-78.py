@@ -8,5 +8,5 @@ e = []
 
 for x in z:
     for y in e:
-        $ID("Never")
-    print(x)
+        print("Never")
+    $Var(x)

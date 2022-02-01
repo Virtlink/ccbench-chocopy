@@ -43,10 +43,10 @@ def str_to_int(x: str) -> int:
         elif char == "4":
             digit = 4
         elif char == "5":
-            $Block
+            digit = 5
         elif char == "6":
             digit = 6
-        elif char == "7":
+        elif char == $Literal:
             digit = 7
         elif char == "8":
             digit = 8

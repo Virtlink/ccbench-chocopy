@@ -6,12 +6,8 @@ def f(x:int) -> int:
     return x
 
     
-def g(y:$Type, z:int) -> object:
-    print("start g")
-    print(y)
-    print(z)
-    h("h")
-    print("end g")
+def g(y:int, z:int) -> object:
+    $FuncBody
 
 def h(msg: str) -> object:
     print(msg)

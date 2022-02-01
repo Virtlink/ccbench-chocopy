@@ -12,9 +12,9 @@ class C(B):
     z:bool = True
 
     def set_A(self: "C", val: int) -> object:
-        $Target = val
+        self.x = val
 
-a:A = None
+a:$ID = None
 b:B = None
 c:C = None
 

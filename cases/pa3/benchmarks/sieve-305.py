@@ -35,7 +35,8 @@ class Vector(object):
             return
 
         while idx < self.size - 1:
-            $Block
+            self.items[idx] = self.items[idx + 1]
+            idx = $Exp
 
         self.size = self.size - 1
 

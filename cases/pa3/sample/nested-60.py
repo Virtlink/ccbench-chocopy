@@ -4,8 +4,8 @@ def foo(x: int) -> int:
     def bar() -> int:
         z: int = 3
         def baz() -> int:
-            return $Var
+            return y
         return baz()
-    return bar()
+    $Statement
     
 print(foo(g))

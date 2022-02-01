@@ -8,5 +8,5 @@ z = [False, True]
 
 y = x[0]
 x[0] = 1
- z[0]
+z[$INT] = z[0]
 o = x[1]

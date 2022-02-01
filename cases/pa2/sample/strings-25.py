@@ -1,8 +1,8 @@
 x:str = "Hello"
 y:str = "World"
-z:str = $STRING
+z:str = ""
 
-z = x + y
+$Statement
 z = x[0]
 x = y = z
 

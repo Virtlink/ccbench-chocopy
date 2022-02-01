@@ -1,1 +1,1 @@
-Call(Var2Exp(Var("input")),Exps2Parameters([]))
+"input"

@@ -70,11 +70,11 @@ k:int = 37813
 # Crunch
 t = Tree()
 while i < n:
-	$ID.insert(k)
+	t.insert(k)
 	k = (k * 37813) % 37831
 	if i % c != 0:
 		t.insert(i)
-	i = i + 1
+	i = i + $Literal
 
 print(t.size)
 

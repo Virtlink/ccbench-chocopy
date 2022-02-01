@@ -1,4 +1,4 @@
-$TypedVar = 42
+$ID:int = 42
 y:int = 7
 
 print(x == y)

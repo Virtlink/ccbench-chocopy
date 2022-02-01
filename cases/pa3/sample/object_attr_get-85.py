@@ -11,6 +11,6 @@ a:A = None
 b:B = None
 
 a = b = B()
-$Exp(a.a)
-print(b.a)
+print(a.a)
+$Statement
 print(b.b)

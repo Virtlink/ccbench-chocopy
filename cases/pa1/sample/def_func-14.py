@@ -1,4 +1,4 @@
 def foo() -> int:
-    return $Literal
+    return 1
 
-foo()
+$Exp()

@@ -6,7 +6,8 @@ def foo(x: int) -> int:
         def baz() -> int:
             return qux(y)
         return baz()
-    $FuncBodyMember
+    def qux(p: int) -> int:
+        $Statement
 
     return bar()
     

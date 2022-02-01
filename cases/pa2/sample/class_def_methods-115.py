@@ -15,10 +15,10 @@ class C(B):
         self.x = val
 
 a:A = None
-b:B = $Literal
+b:B = None
 c:C = None
 
-a = A()
+a = $Exp()
 b = B()
 c = C()
 

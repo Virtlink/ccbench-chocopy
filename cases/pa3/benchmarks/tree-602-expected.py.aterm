@@ -1,1 +1,1 @@
-Assign([Target(Var2Target(Var("k")))],Mod(Mul(Var2Exp(Var("k")),Literal2Exp(Int("37813"))),Literal2Exp(Int("37831"))))
+Exps2Parameters([Member2Exp(Member(Var2Exp(Var("t")),"size"))])

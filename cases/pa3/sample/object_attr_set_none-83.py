@@ -11,9 +11,9 @@ a:A = None
 b:B = None
 
 a = B()
-$ID(a.a)
+print(a.a)
 
-b.a = 1
+$Target = 1
 b.b = False
 print(b.a)
 print(b.b)

@@ -1,3 +1,6 @@
 if False:
     print("No")
-$ElifElse
+elif True:
+    $Statement
+else:
+    pass

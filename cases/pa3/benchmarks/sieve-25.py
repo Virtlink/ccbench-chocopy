@@ -3,7 +3,8 @@ class Vector(object):
     items: [int] = None
     size: int = 0
 
-    $FuncDef
+    def __init__($TypedVar):
+        self.items = [0]
 
     # Returns current capacity
     def capacity(self:"Vector") -> int:

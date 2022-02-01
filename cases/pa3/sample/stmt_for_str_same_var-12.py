@@ -1,4 +1,4 @@
 x:str = "xXx"
 
-for $ID in x:
+for x in $Var:
     print(x)

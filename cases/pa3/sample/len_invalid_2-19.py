@@ -1,3 +1,3 @@
 x:int = 1
 
-print($Exp(x))
+print(len($Parameters))

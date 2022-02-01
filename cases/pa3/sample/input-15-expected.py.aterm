@@ -1,1 +1,1 @@
-Var("s")
+Var2Exp(Var("input"))

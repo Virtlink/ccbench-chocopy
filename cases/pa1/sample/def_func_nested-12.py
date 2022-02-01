@@ -1,6 +1,6 @@
 
-def foo(x:int) -> $ID:
-    a:int = 0
+def foo(x:int) -> bool:
+    $FuncBodyMember
     b:int = 1
     def bar(y: int) -> int:
         a:int = 2 

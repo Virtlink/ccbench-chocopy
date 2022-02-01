@@ -1,1 +1,1 @@
-print()
+print($Literal // 0)

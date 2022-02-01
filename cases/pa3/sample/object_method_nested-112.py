@@ -12,7 +12,7 @@ class B(A):
 
     def bar(self:"B") -> int:
         def qux(p: bool) -> int:
-            return $ID.foo(p)
+            return self.foo(p)
         return qux(True)
 
-print(B().bar())
+$Exp

@@ -35,8 +35,8 @@ class Vector(object):
             return
 
         while idx < self.size - 1:
-            $Statement
-            idx = idx + 1
+            self.items[idx] = self.items[idx + 1]
+            idx = $Var + 1
 
         self.size = self.size - 1
 

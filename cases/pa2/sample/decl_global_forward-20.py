@@ -1,7 +1,7 @@
 def set_x() -> int:
     global x
-    x = $Exp
-    return x
+    x = 1
+    return $Var
 
 x:int = 0
 

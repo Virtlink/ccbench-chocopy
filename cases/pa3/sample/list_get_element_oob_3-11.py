@@ -1,4 +1,4 @@
 x:[int] = None
 
-$Statement
+$Target = []
 print(x[0])

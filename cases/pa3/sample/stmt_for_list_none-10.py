@@ -1,5 +1,5 @@
 x:int = 0
-$Definition
+$VarDef
 
 for x in z:
     print(x)

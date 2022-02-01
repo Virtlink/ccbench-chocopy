@@ -3,7 +3,7 @@ class A(object):
 
 a1:A = None
 a2:A = None
-a3:$Type = None
+a3:A = $Literal
 a4:A = None
 
 a1 = A()

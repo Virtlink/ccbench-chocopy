@@ -11,7 +11,7 @@ class B(A):
         print("B")
 
     def bar(self:"B") -> int:
-        
-        return a.foo(self.b)
+        a:A = None
+        return $Exp.foo(self.b)
 
 print(B().bar())

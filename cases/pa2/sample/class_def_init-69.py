@@ -10,8 +10,8 @@ class C(B):
 
 a:A = None
 b:B = None
-c:C = $Literal
+c:C = None
 
-a = A()
+a = $Exp()
 b = B()
 c = C()

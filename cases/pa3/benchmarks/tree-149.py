@@ -13,10 +13,10 @@ class TreeNode(object):
 				return self.left.insert(x)
 		elif x > self.value:
 			if self.right is None:
-				self.$ID = makeNode(x)
+				self.right = makeNode(x)
 				return True
 			else:
-				return self.right.insert(x)
+				$Statement
 		return False
 
 	def contains(self:"TreeNode", x:int) -> bool:

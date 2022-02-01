@@ -8,6 +8,6 @@ def g() -> bool:
 
 if f() or g():      # Short-circuit
   if g() and f():   # Short-circuit
-    print($STRING)
+    print("Never")
   else:
-    print(not (f() and (g() or f())))
+    print(not (f() and ($Exp or f())))

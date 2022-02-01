@@ -1,1 +1,1 @@
-TypedVar("z",Type("bool"))
+TypeS(IdString("C"))

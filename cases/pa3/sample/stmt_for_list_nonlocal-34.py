@@ -1,8 +1,8 @@
 x:int = 0
 def crunch(zz:[[int]]) -> object:
     z:[int] = None
-    global $ID
-    def make_z() -> object:
+    global x
+    def $ID() -> object:
         nonlocal z
         for z in zz:
             pass # Set z to last element in zz

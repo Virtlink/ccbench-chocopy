@@ -1,1 +1,1 @@
-Call(Var2Exp(Var("print")),Exps2Parameters([Is(Var2Exp(Var("a1")),Var2Exp(Var("a2")))]))
+Var2Exp(Var("a2"))

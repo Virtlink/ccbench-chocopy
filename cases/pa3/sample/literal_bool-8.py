@@ -1,2 +1,2 @@
-print($Parameters)
+print($Literal)
 print(False)

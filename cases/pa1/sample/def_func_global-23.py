@@ -1,7 +1,7 @@
 z:int = 0
 
 def foo(x:int) -> bool:
-    $FuncBodyMember
-    return x > z
+    global z
+    return $Exp
 
 foo(1)

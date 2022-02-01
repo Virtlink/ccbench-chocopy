@@ -1,2 +1,3 @@
-$Statement
+while $Literal:
+    pass
 

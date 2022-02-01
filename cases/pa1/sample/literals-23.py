@@ -3,5 +3,5 @@ False
 1
 None
 "This is a string"
-[$Exp, 2, 3]
+[1, $Exp, 3]
 

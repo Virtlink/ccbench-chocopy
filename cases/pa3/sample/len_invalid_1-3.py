@@ -1,3 +1,3 @@
-$VarDef
+$TypedVar = None
 
 print(len(x))

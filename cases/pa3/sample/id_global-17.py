@@ -1,2 +1,2 @@
 x:int = 42
-print()
+print($ID)

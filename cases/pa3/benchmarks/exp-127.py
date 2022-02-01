@@ -14,12 +14,12 @@ def exp(x: int, y: int) -> int:
 	return f(y)
 
 # Input parameter
-$ID:int = 42
+n:int = 42
 
 # Run [0, n]
 i:int = 0
 
 # Crunch
-while i <= n:
+while $ID <= n:
 	print(exp(2, i % 31))
 	i = i + 1

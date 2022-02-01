@@ -1,1 +1,1 @@
-VarDef(TypedVar("doubling_limit",Type("int")),Int("1000"))
+Var("self")

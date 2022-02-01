@@ -1,1 +1,1 @@
-Var("char")
+Target(Var2Target(Var("first_char")))

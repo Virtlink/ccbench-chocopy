@@ -21,11 +21,11 @@ def str_to_int(x: str) -> int:
     result:int = 0
     digit:int = 0
     char:str = ""
-    $VarDef
+    sign:int = 1
     first_char:bool = True
 
     # Parse digits
-    for char in x:
+    for $ID in x:
         if char == "-":
             if not first_char:
                 return 0 # Error

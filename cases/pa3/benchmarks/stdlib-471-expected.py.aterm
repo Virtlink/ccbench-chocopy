@@ -1,1 +1,1 @@
-Literal2Exp(False())
+TypedVar("s",Type("str"))

@@ -5,7 +5,7 @@ class A(object):
         return self.a
 
 class B(A):
-    $ClassBodyMember
+    b:bool = $Literal
 
     def __init__(self:"B"):
         print("B")

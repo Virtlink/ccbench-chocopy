@@ -1,7 +1,7 @@
 print(True == True)
 print(True == False)
 print(False == True)
-$Var(False == False)
+print($Literal == False)
 print(True != True)
 print(True != False)
 print(False != True)

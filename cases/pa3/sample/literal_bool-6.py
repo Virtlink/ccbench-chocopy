@@ -1,2 +1,2 @@
-$Var(True)
+print($Parameters)
 print(False)

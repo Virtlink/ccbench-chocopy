@@ -4,6 +4,6 @@ z:[int] = None
 
 z = [1, 2, 3]
 
-for x in $ID:
-    for y in z:
+for x in z:
+    for y in $Exp:
         print(x * y)

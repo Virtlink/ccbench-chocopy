@@ -6,7 +6,7 @@ o:object = None
 x = [1, 2, 3]
 x = []
 y = [1, True]
-z = []
-x = None
+z = [False, True]
+x = $Exp
 o = x
 o = x = [1]

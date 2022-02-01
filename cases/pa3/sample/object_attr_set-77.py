@@ -10,8 +10,8 @@ class B(A):
 a:A = None
 b:B = None
 
-a = b = $Exp
-b.a = 1
+a = b = B()
+$Exp.a = 1
 b.b = False
 print(a.a)
 print(b.a)

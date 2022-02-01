@@ -1,3 +1,3 @@
 x:[int] = None
 
-$Exp
+$Var(len(x))

@@ -1,6 +1,6 @@
 x:str = "Hello"
-y:str = $STRING
-z:str = ""
+y:str = "World"
+$Definition
 
 z = x + y
 z = x[0]

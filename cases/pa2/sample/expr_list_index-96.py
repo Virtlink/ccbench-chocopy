@@ -8,5 +8,5 @@ z = [False, True]
 
 y = x[0]
 x[0] = 1
-$Exp[1] = z[0]
+z[1] = $Var[0]
 o = x[1]

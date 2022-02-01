@@ -32,9 +32,9 @@ def str_to_int(x: str) -> int:
             sign = -1
         elif char == "0":
             digit = 0
-        elif $Exp == "1":
+        elif char == "1":
             digit = 1
-        elif char == "2":
+        elif char == $STRING:
             digit = 2
         elif char == "3":
             digit = 3

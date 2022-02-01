@@ -2,10 +2,8 @@
 def foo(x:int) -> bool:
     a:int = 0
     b:int = 1
-    def bar(y: $ID) -> int:
-        nonlocal a
-        a = 2 
-        return y
+    def bar(y: int) -> int:
+        $FuncBody
     return bar(x) > a
 
 foo(1)

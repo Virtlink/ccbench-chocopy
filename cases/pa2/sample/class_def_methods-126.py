@@ -18,8 +18,8 @@ a:A = None
 b:B = None
 c:C = None
 
-$AssignTarget A()
-b = B()
+a = A()
+b = $Var()
 c = C()
 
 b.x = a.get_A()

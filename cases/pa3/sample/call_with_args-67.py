@@ -6,7 +6,7 @@ def f(x:int) -> int:
     return x
 
     
-def g($TypedVar, z:int) -> object:
+def g(y:int, z:int) -> $Type:
     print("start g")
     print(y)
     print(z)

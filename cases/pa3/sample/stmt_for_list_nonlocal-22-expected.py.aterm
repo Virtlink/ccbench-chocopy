@@ -1,1 +1,1 @@
-"object"
+VarDef2FuncBodyMember(VarDef(TypedVar("z",ListType(Type("int"))),NONE()))

@@ -1,1 +1,1 @@
-$INT if 1 > 2 else 4
+3 if $Exp > 2 else 4

@@ -1,6 +1,6 @@
 x:int = 1
 y:bool = True
-z:$ID = ""
+z:str = $Literal
 o:object = None
 
 x = 2

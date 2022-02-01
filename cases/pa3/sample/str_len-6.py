@@ -1,1 +1,1 @@
-$Var(len("ChocoPy"))
+print($Parameters)

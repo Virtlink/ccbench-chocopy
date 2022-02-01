@@ -52,12 +52,15 @@ class Tree(object):
 			return self.root.contains(x)
 
 def makeNode(x: int) -> TreeNode:
-	$FuncBody
+	b:TreeNode = None
+	b = TreeNode()
+	b.value = x
+	return b
 
 
 # Input parameters
 n:int = 100
-c:int = 4
+c:int = $INT
 
 # Data
 t:Tree = None

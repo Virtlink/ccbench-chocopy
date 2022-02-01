@@ -8,9 +8,9 @@ class B(A):
         print("B")
 
 a:A = None
-b:B = $Literal
+b:B = None
 
-a = b = B()
+a = $Target = B()
 b.a = 1
 b.b = False
 print(a.a)

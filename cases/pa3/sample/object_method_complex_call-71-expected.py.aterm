@@ -1,1 +1,1 @@
-Var("print")
+TypedVar("self",TypeS(IdString("B")))

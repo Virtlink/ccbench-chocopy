@@ -1,5 +1,5 @@
 x:[int] = None
-$VarDef
+$TypedVar = None
 z:[bool] = None
 o:object = None
 

@@ -3,4 +3,6 @@ z:[int] = None
 
 z = [1, 2, 3]
 
-$Statement
+for x in $ID:
+    z = []
+    print(x)

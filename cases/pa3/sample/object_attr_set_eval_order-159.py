@@ -23,9 +23,9 @@ def get_false() -> bool:
     return False
 
 a = b = B()
-$Exp.a = get_one()
+get_b().a = get_one()
 print("Assigned B.a")
-get_b().b = get_false()
+$Member = get_false()
 print("Assigned B.b")
 
 print(a.a)

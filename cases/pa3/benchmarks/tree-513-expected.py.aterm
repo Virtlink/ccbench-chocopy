@@ -1,1 +1,1 @@
-Target(Member2Target(Member(Var2Exp(Var("b")),"value")))
+Assign([Target(Var2Target(Var("t")))],Call(Var2Exp(Var("Tree")),Exps2Parameters([])))

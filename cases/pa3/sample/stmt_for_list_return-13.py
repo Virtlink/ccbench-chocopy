@@ -1,5 +1,5 @@
-def print_list(z:[int]) -> $ID:
-    x:int = 0
+def print_list(z:[int]) -> object:
+    $FuncBodyMember
     for x in z:
         print(x)
         if x >= 30:

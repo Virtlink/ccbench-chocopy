@@ -1,1 +1,1 @@
-TypedVar("z",ListType(Type("bool")))
+"z"

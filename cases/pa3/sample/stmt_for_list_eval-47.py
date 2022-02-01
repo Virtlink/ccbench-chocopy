@@ -4,5 +4,5 @@ z:[int] = None
 z = [1, 2, 3]
 
 for x in z:
-    $Var = []
-    print(x)
+    z = []
+    $Var(x)

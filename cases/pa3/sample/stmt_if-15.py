@@ -1,6 +1,6 @@
 if False:
-    print($Exp)
-elif True:
+    print("No")
+elif $Exp:
     if True:
         print("Yes")
 else:

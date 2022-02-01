@@ -1,4 +1,4 @@
-z:$ID = 0
+z:int = $Literal
 
 def foo(x:int) -> bool:
     global z

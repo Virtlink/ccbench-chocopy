@@ -6,7 +6,7 @@ print(x != y)
 print(x < y)
 print(x <= y)
 print(x > y)
-print($Parameters)
+print(x >= $ID)
 
 print(x == x)
 print(x != x)

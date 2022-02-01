@@ -1,1 +1,1 @@
-"j"
+TypedVar("n",Type("int"))

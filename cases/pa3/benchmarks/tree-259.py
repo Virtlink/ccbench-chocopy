@@ -25,11 +25,11 @@ class TreeNode(object):
 				return False
 			else:
 				return self.left.contains(x)
-		elif x > $ID.value:
+		elif x > self.value:
 			if self.right is None:
 				return False
 			else:
-				return self.right.contains(x)
+				return $Member.contains(x)
 		else:
 			return True
 

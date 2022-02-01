@@ -1,6 +1,8 @@
 def outer() -> int:
     def inner() -> int:
-        $FuncBody
+        nonlocal x
+        $AssignTarget 1
+        return x
     x:int = 0
     inner()
     return x

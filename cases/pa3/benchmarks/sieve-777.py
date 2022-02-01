@@ -90,7 +90,7 @@ def sieve(v:Vector) -> object:
         i = i + 1
 
 # Input parameter
-n:$ID = 50
+n:int = 50
 
 # Data
 v:Vector = None
@@ -103,5 +103,5 @@ sieve(v)
 # Print
 while i < v.length():
     print(v.get(i))
-    i = i + 1
+    i = $Exp
 

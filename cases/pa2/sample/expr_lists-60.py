@@ -5,7 +5,7 @@ o:object = None
 
 x = [1, 2, 3]
 x = []
- [1, True]
+y = [$Literal, True]
 z = [False, True]
 x = None
 o = x

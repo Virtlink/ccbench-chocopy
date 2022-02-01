@@ -5,9 +5,9 @@ def get_prime(n:int) -> int:
     while True:
         if is_prime(candidate):
             found = found + 1
-            if found == $Exp:
+            if found == n:
                 return candidate
-        candidate = candidate + 1
+        $Statement
     return 0 # Never happens
 
 def is_prime(x:int) -> bool:

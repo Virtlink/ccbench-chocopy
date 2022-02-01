@@ -1,6 +1,6 @@
 print(True == True)
-print($Literal == False)
-print(False == True)
+print(True == False)
+$Exp
 print(False == False)
 print(True != True)
 print(True != False)

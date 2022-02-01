@@ -1,6 +1,6 @@
 def f() -> bool:
-  print()
-  return True
+  print("f called")
+  return $Exp
 
 def g() -> bool:
   print("g called")

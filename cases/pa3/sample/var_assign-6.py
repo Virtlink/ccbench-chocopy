@@ -1,4 +1,4 @@
-x:$Type = 0
+x:$ID = 0
 y:object = 1
 x = y = 42
 print(x)

@@ -6,4 +6,8 @@ def g() -> bool:
   print("g called")
   return False
 
-
+if f() or $Var():      # Short-circuit
+  if g() and f():   # Short-circuit
+    print("Never")
+  else:
+    print(not (f() and (g() or f())))

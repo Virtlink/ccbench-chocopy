@@ -31,11 +31,11 @@ class Vector(object):
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector", idx: int) -> object:
-        if idx < $Literal:
+        if idx < 0:
             return
 
         while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
+            self.items[idx] = $Exp
             idx = idx + 1
 
         self.size = self.size - 1

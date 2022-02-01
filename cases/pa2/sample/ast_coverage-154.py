@@ -21,9 +21,9 @@ class bar(object):
 
         qux(0) # Yay! ChocoPy
 
-        $Statement
+        count = count + 1
 
-        while x <= 0:
+        while x <= $Exp:
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p

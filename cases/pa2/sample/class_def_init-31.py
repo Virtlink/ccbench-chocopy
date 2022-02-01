@@ -2,11 +2,10 @@ class A(object):
     x:int = 1
 
 class B(A):
-    def __init__(self: "B")$RetType:
+    def __init__(self: "B"):
         pass
 
-class C(B):
-    z:bool = True
+$ClassDef
 
 a:A = None
 b:B = None

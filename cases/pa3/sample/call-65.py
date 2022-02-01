@@ -7,8 +7,8 @@ def f() -> int:
     
 def g() -> object:
     print("start g")
-    $Exp()
-    print("end g")
+    h()
+    print($Literal)
 
 def h() -> object:
     print("start h")

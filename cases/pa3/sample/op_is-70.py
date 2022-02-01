@@ -8,9 +8,9 @@ a4:A = None
 
 a1 = A()
 a2 = a1
-$Var = A()
+a3 = A()
 
-print(a1 is a1)
+$Statement
 print(a1 is a2)
 print(a1 is a3)
 print(a1 is a4)

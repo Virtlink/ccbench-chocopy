@@ -1,1 +1,1 @@
-Type("bool")
+TypedVar("self",TypeS(IdString("B")))

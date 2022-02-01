@@ -35,10 +35,10 @@ class TreeNode(object):
 
 class Tree(object):
 	root:TreeNode = None
-	$VarDef
+	size:int = 0
 
 	def insert(self:"Tree", x:int) -> object:
-		if self.root is None:
+		if self.$ID is None:
 			self.root = makeNode(x)
 			self.size = 1
 		else:

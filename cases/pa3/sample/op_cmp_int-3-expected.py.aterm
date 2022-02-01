@@ -1,1 +1,1 @@
-VarDef(TypedVar("x",Type("int")),Int("42"))
+TypedVar("x",Type("int"))

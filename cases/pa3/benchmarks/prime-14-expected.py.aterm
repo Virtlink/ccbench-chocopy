@@ -1,1 +1,1 @@
-[VarDef2FuncBodyMember(VarDef(TypedVar("candidate",Type("int")),Int("2"))),VarDef2FuncBodyMember(VarDef(TypedVar("found",Type("int")),Int("0")))]
+TypedVar("candidate",Type("int"))

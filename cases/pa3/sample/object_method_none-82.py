@@ -10,8 +10,8 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-    def bar($TypedVar) -> int:
-        a:A = None
+    def bar(self:"B") -> int:
+        $TypedVar = None
         return a.foo(self.b)
 
 print(B().bar())

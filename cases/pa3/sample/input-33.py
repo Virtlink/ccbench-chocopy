@@ -3,6 +3,6 @@
 s: str = ""
 
 s = input()
-while len($ID) > 0:
-    print(s)
+while len(s) > 0:
+    $Statement
     s = input()

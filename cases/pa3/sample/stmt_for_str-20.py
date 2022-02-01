@@ -1,5 +1,5 @@
 x:str = ""
 z:str = "abc"
 
-for $ID in z:
+for x in $Var:
     print(x)

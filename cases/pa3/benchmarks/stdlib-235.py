@@ -28,9 +28,9 @@ def str_to_int(x: str) -> int:
     for char in x:
         if char == "-":
             if not first_char:
-                $Statement # Error
+                return 0 # Error
             sign = -1
-        elif char == "0":
+        elif char == $Literal:
             digit = 0
         elif char == "1":
             digit = 1

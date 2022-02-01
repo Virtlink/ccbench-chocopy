@@ -1,5 +1,5 @@
 class A(object):
-    $ClassBodyMember
+    $TypedVar = 42
 
 class B(A):
     b:bool = True

@@ -10,7 +10,7 @@ class B(A):
 a:A = None
 b:B = None
 
-a = $AssignTarget B()
-print(a.a)
+a = b = B()
+$Statement
 print(b.a)
 print(b.b)

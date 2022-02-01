@@ -5,4 +5,4 @@ def print_list(z:[int]) -> object:
         if x >= 30:
             return
 
-$Statement
+print_list([$Literal,20,30,40])

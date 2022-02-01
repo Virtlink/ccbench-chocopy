@@ -10,6 +10,8 @@ def g() -> object:
     h()
     print("end g")
 
-$Definition
+def h() -> object:
+    print($Exp)
+    print("end h")
 
 print(f())

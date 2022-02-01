@@ -15,10 +15,10 @@ class C(B):
         self.x = val
 
 a:A = None
-$Definition
+b:B = None
 c:C = None
 
-a = A()
+$Statement
 b = B()
 c = C()
 

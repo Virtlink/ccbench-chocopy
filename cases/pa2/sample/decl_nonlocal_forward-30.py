@@ -1,9 +1,9 @@
 def outer() -> int:
     def inner() -> int:
         nonlocal x
-        x = $Literal
+        x = 1
         return x
-    x:int = 0
+    $VarDef
     inner()
     return x
 

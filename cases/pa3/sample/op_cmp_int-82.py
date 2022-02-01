@@ -5,8 +5,8 @@ print(x == y)
 print(x != y)
 print(x < y)
 print(x <= y)
-print($Exp)
-print(x >= y)
+print(x > y)
+$Statement
 
 print(x == x)
 print(x != x)

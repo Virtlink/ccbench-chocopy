@@ -2,10 +2,10 @@ def f() -> int:
     print("start f")
     g()
     print("end f")
-    return $Literal
+    return 42
 
     
-def g() -> object:
+def g() -> $ID:
     print("start g")
     h()
     print("end g")

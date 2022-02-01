@@ -1,1 +1,1 @@
-Var("str_get")
+Negative(Literal2Exp(Int("1")))

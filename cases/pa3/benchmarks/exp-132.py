@@ -17,9 +17,9 @@ def exp(x: int, y: int) -> int:
 n:int = 42
 
 # Run [0, n]
-$Definition
+i:int = 0
 
 # Crunch
 while i <= n:
-	print(exp(2, i % 31))
+	$Statement
 	i = i + 1

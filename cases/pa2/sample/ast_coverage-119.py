@@ -14,10 +14,10 @@ class bar(object):
         def qux(y: int) -> object:
             nonlocal x
             if x > y:
-                x = -$INT
+                x = -1
 
         for x in xx:
-            self.p = x == 2
+            $ID.p = x == 2
 
         qux(0) # Yay! ChocoPy
 

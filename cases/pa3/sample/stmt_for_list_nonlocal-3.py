@@ -1,4 +1,4 @@
-$VarDef
+$TypedVar = 0
 def crunch(zz:[[int]]) -> object:
     z:[int] = None
     global x

@@ -1,1 +1,1 @@
-[]
+FuncBody([Nonlocal("z")],[For("z",Var2Exp(Var("zz")),Block([PassStmt()]))])

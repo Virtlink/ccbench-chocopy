@@ -1,2 +1,2 @@
--$Literal
-not False
+-1
+$Statement

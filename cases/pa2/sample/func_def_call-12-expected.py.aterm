@@ -1,1 +1,1 @@
-Type("bool")
+Returns(Type("int"))

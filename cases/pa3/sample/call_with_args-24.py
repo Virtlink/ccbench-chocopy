@@ -1,6 +1,6 @@
 def f(x:int) -> int:
-    print($Literal)
-    print(x)
+    print("start f")
+    $Var(x)
     g(1, x)
     print("end f")
     return x

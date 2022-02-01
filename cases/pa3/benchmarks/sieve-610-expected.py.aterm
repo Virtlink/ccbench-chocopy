@@ -1,1 +1,1 @@
-TypedVar("v",Type("Vector"))
+Var2Target(Var("j"))

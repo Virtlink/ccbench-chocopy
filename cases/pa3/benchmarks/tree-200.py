@@ -20,7 +20,18 @@ class TreeNode(object):
 		return False
 
 	def contains(self:"TreeNode", x:int) -> bool:
-		$FuncBody
+		if x < self.value:
+			if $Var.left is None:
+				return False
+			else:
+				return self.left.contains(x)
+		elif x > self.value:
+			if self.right is None:
+				return False
+			else:
+				return self.right.contains(x)
+		else:
+			return True
 
 class Tree(object):
 	root:TreeNode = None

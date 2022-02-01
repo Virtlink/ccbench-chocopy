@@ -12,7 +12,7 @@ b:B = None
 
 a = b = B()
 b.a = 1
-$Member = False
-print(a.a)
+b.b = False
+print($Parameters)
 print(b.a)
 print(b.b)

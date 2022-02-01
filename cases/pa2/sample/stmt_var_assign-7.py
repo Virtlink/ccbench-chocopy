@@ -1,4 +1,4 @@
-x:$ID = 1
+x:int = $Literal
 y:bool = True
 z:str = ""
 o:object = None

@@ -1,1 +1,1 @@
-print($Parameters)
+print($Exp // 0)

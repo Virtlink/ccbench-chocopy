@@ -1,7 +1,7 @@
 if 1 > 2:
     print(1)
 elif 3 == 4:
-    $Var(2)
+    print($INT)
 elif True:
     print(3)
 else:

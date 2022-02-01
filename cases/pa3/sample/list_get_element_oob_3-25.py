@@ -1,4 +1,4 @@
 x:[int] = None
 
 x = []
-print()
+print($ID[0])

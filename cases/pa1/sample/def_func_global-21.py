@@ -1,6 +1,7 @@
 z:int = 0
 
 def foo(x:int) -> bool:
-    $FuncBody
+    global $ID
+    return x > z
 
 foo(1)

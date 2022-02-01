@@ -1,5 +1,5 @@
 x:int = 1
 
-x = $Literal
+x = 2
 
-print(x)
+$Exp

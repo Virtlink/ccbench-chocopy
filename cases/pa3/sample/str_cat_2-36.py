@@ -2,7 +2,7 @@ a:str = "no"
 b:str = "o"
 c:str = ""
 d:str = ""
-$TypedVar = ""
+$ID:str = ""
 
 def cat2(a:str, b:str) -> str:
     return a + b

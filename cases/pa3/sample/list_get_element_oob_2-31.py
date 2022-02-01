@@ -1,4 +1,4 @@
 x:[int] = None
 
 x = [1, 2, 3]
-$Var(x[3])
+print($Index)

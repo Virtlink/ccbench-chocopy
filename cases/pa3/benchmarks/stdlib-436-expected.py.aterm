@@ -1,1 +1,1 @@
-Literal2Exp(Int("8"))
+Var2Exp(Var("result"))

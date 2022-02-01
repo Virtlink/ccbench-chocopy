@@ -7,8 +7,8 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-a:A = $Literal
-b:B = None
+a:A = None
+b:B = $Literal
 
 def get_b() -> B:
     print("Getting B")

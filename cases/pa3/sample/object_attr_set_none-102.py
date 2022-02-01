@@ -13,7 +13,7 @@ b:B = None
 a = B()
 print(a.a)
 
-b.a = $Literal
+b.a = 1
 b.b = False
-print(b.a)
+$Statement
 print(b.b)

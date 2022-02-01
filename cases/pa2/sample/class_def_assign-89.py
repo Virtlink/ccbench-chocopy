@@ -13,6 +13,6 @@ b:B = None
 c:C = None
 
 a = A()
-a = $Exp
-b = a = c = C()
+a = B()
+b = $Target = c = C()
 c = None

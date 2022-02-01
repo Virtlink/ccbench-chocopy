@@ -1,7 +1,7 @@
 x:int = 0
 z:[int] = None
 
-$ID = [1, 2, 3]
+z = [$Literal, 2, 3]
 
 for x in z:
     z = []

@@ -11,9 +11,9 @@ class bar(object):
         x:int = 0
         y:int = 1
 
-        def qux(y: $ID) -> object:
+        def qux(y: int) -> object:
             nonlocal x
-            if x > y:
+            if $Exp > y:
                 x = -1
 
         for x in xx:

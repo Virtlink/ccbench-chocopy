@@ -1,1 +1,1 @@
-[Global("x")]
+Assign([Target(Var2Target(Var("x")))],Literal2Exp(Int("1")))

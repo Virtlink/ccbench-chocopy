@@ -1,2 +1,2 @@
-x:int = $INT
-print(x)
+x:int = 42
+$Statement

@@ -1,3 +1,3 @@
-[1, 2] + [$Literal, 4]
+[1, 2] + [3, $INT]
 "Hello " + "World"
 [1, 2] + [True]

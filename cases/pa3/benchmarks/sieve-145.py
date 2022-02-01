@@ -17,8 +17,8 @@ class Vector(object):
 
     # Appends one item to end of vector
     def append(self:"Vector", item: int) -> object:
-        if $Exp:
-            self.increase_capacity()
+        if self.size == self.capacity():
+            $Exp.increase_capacity()
 
         self.items[self.size] = item
         self.size = self.size + 1

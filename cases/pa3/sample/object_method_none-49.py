@@ -5,10 +5,9 @@ class A(object):
         return self.a
 
 class B(A):
-    $VarDef
+    b:bool = True
 
-    def __init__(self:"B"):
-        print("B")
+    $ClassBodyMember
 
     def bar(self:"B") -> int:
         a:A = None

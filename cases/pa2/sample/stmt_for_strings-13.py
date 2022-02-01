@@ -1,4 +1,4 @@
 s:str = "Hello"
 
-for s in $Exp:
+for s in $ID:
     s[0]

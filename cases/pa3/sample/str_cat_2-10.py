@@ -1,5 +1,5 @@
 a:str = "no"
-$Definition
+$VarDef
 c:str = ""
 d:str = ""
 e:str = ""

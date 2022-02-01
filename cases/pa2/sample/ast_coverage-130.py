@@ -17,9 +17,9 @@ class bar(object):
                 x = -1
 
         for x in xx:
-            $AssignTarget x == 2
+            self.p = x == 2
 
-        qux(0) # Yay! ChocoPy
+        $Exp(0) # Yay! ChocoPy
 
         count = count + 1
 

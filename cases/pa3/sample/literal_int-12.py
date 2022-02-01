@@ -1,2 +1,2 @@
-print($INT)
-print(65999)
+print(42)
+$Exp(65999)

@@ -1,1 +1,1 @@
-$ID(len("ChocoPy"))
+print($Exp)

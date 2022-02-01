@@ -2,7 +2,8 @@ class A(object):
     x:int = 1
 
 class B(A):
-    
+    def $ID(self: "B"):
+        pass
 
 class C(B):
     z:bool = True

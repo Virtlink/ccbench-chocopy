@@ -11,8 +11,8 @@ a2 = a1
 a3 = A()
 
 print(a1 is a1)
-print(a1 is $Exp)
-print(a1 is a3)
+print(a1 is a2)
+print($Exp is a3)
 print(a1 is a4)
 print(a1 is None)
 print(a4 is None)

@@ -10,4 +10,7 @@ class B(A):
 a:A = None
 b:B = None
 
-
+a = $Var = B()
+print(a.a)
+print(b.a)
+print(b.b)

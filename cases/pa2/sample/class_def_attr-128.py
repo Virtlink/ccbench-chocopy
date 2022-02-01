@@ -17,6 +17,6 @@ b = B()
 c = C()
 
 a.x = 1
-b.x = $Exp
-c.z = a.x == b.x
+b.x = a.x
+c.z = $Member == b.x
 

@@ -1,4 +1,4 @@
-x:int = $Literal
+x:int = $INT
 z:[int] = None
 
 for x in z:

@@ -1,8 +1,8 @@
 # Binary-search trees
 class TreeNode(object):
 	value:int = 0
-	left:"TreeNode" = $Literal
-	right:"TreeNode" = None
+	left:"TreeNode" = None
+	$VarDef
 
 	def insert(self:"TreeNode", x:int) -> bool:
 		if x < self.value:

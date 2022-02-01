@@ -1,7 +1,7 @@
 def foo(x:str, y:bool) -> int:
-    return bar($Parameters)
+    return bar()
 
-def bar() -> int:
+def bar() $RetType:
     return 1
 
 foo("Hello", False)

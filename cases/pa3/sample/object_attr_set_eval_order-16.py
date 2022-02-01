@@ -1,7 +1,11 @@
 class A(object):
     a:int = 42
 
-$Definition
+class $ID(A):
+    b:bool = True
+
+    def __init__(self:"B"):
+        print("B")
 
 a:A = None
 b:B = None

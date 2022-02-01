@@ -1,4 +1,4 @@
-x:[$ID] = None
+x:[int] = $Literal
 y:[object] = None
 z:[bool] = None
 o:object = None

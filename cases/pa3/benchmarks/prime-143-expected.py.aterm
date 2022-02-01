@@ -1,1 +1,1 @@
-[Target(Var2Target(Var("div")))]
+VarDef(TypedVar("n",Type("int")),Int("15"))

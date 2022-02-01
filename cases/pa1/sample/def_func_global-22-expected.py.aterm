@@ -1,1 +1,1 @@
-[Global("z")]
+Return(Gt(Var2Exp(Var("x")),Var2Exp(Var("z"))))

@@ -6,4 +6,6 @@ e:[int] = None
 z = [1,2,3]
 e = []
 
-$Statement
+for x in z:
+    $Statement
+    print(x)

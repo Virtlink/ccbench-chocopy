@@ -4,8 +4,8 @@ def foo(x:int) -> bool:
     b:int = 1
     def bar(y: int) -> int:
         nonlocal a
-        $ID = 2 
-        return y
+        a = 2 
+        return $ID
     return bar(x) > a
 
 foo(1)

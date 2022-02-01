@@ -8,5 +8,10 @@ def cat2(a:str, b:str) -> str:
 def cat3(a:str, b:str, c:str) -> str:
     return a + b + c
 
-
+print($Exp(a, b))
+print(cat2("", c))
+print(cat3(a, " ", c))
+print(len(a))
+print(len(cat2(a,a)))
+print(len(cat2("","")))
 

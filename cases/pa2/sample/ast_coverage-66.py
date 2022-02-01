@@ -7,8 +7,8 @@ class bar(object):
     p: bool = True
 
     def baz(self:"bar", xx: [int]) -> str:
-        $FuncBodyMember
-        x:int = 0
+        global count
+        x:int = $Literal
         y:int = 1
 
         def qux(y: int) -> object:

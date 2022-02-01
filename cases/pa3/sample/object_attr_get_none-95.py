@@ -12,5 +12,5 @@ b:B = None
 
 a = B()
 print(a.a)
-$Var(b.a)
-print(b.b)
+print(b.a)
+$Exp(b.b)

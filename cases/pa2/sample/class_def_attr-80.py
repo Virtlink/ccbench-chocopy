@@ -12,8 +12,8 @@ a:A = None
 b:B = None
 c:C = None
 
-a = $ID()
-b = B()
+a = A()
+b = $Var()
 c = C()
 
 a.x = 1

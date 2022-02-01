@@ -1,8 +1,7 @@
 class A(object):
-    x:int = $INT
+    x:int = 1
 
-    def get_A(self: "A") -> int:
-        return self.x
+    $FuncDef
 
 class B(A):
     def __init__(self: "B"):

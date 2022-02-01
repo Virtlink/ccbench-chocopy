@@ -1,1 +1,1 @@
-String("\"B\"")
+Returns(Type("int"))

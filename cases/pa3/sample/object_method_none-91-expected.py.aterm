@@ -1,1 +1,1 @@
-[VarDef2FuncBodyMember(VarDef(TypedVar("a",Type("A")),NONE()))]
+Var2Exp(Var("a"))

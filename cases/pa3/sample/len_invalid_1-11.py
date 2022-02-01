@@ -1,3 +1,3 @@
 x:[int] = None
 
-$Statement
+$Exp(len(x))

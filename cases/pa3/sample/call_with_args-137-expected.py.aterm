@@ -1,1 +1,1 @@
-Type("str")
+Var2Exp(Var("print"))

@@ -11,8 +11,8 @@ a:A = None
 b:B = None
 
 a = b = B()
-b.a = $Literal
-b.b = False
+b.a = 1
+b.b = $Literal
 print(a.a)
 print(b.a)
 print(b.b)

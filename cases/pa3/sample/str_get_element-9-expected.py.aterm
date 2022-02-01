@@ -1,1 +1,1 @@
-"\"abc\""
+VarDef2Definition(VarDef(TypedVar("a",Type("str")),String("\"\"")))

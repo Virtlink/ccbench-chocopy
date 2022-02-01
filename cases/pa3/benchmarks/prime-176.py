@@ -25,6 +25,6 @@ n:int = 15
 i:int = 1
 
 # Crunch
-while $Exp:
-    print(get_prime(i))
+while i <= n:
+    print($ID(i))
     i = i + 1

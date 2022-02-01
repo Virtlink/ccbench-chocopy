@@ -2,4 +2,5 @@ x:str = ""
 z:str = "abc"
 
 for x in z:
-    $Block
+    $AssignTarget "doesn't matter"
+    print(x)

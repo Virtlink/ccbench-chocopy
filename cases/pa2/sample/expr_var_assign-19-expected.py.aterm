@@ -1,1 +1,1 @@
-[Target(Var2Target(Var("x"))),Target(Var2Target(Var("o")))]
+Var("x")

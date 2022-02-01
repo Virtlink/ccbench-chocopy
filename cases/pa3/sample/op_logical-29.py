@@ -2,8 +2,8 @@ def f() -> bool:
   print("f called")
   return True
 
-def g() $RetType:
-  print("g called")
+def g() -> bool:
+  $Exp("g called")
   return False
 
 if f() or g():      # Short-circuit

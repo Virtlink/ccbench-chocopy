@@ -1,1 +1,1 @@
-[Assign([Target(Var2Target(Var("z")))],Add(Var2Exp(Var("x")),Var2Exp(Var("y")))),Assign([Target(Var2Target(Var("z")))],Index2Exp(Index(Var2Exp(Var("x")),Literal2Exp(Int("0"))))),Assign([Target(Var2Target(Var("x"))),Target(Var2Target(Var("y")))],Var2Exp(Var("z")))]
+Target(Var2Target(Var("z")))

@@ -1,2 +1,2 @@
-$Var(42)
+print($Parameters)
 print(65999)

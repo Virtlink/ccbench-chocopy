@@ -7,4 +7,6 @@ z = [1,2,3]
 e = []
 
 for x in z:
-    $Block
+    for y in e:
+        $Block
+    print(x)

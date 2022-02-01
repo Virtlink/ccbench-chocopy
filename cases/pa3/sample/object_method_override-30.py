@@ -1,8 +1,8 @@
 class A(object):
     a:int = 42
 
-    def foo(self:"A", ignore:object) -> $Type:
-        return self.a
+    def foo(self:"A", ignore:object) -> int:
+        $Statement
 
 class B(A):
     b:bool = True

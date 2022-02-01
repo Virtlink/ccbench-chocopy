@@ -19,9 +19,9 @@ class TreeNode(object):
 				return self.right.insert(x)
 		return False
 
-	def contains(self:"TreeNode", x:int) -> $Type:
+	def contains(self:"TreeNode", x:int) -> bool:
 		if x < self.value:
-			if self.left is None:
+			if $Member is None:
 				return False
 			else:
 				return self.left.contains(x)

@@ -1,1 +1,1 @@
-"count"
+Member2Exp(Member(Var2Exp(Var("self")),"p"))

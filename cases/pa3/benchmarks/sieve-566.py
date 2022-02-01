@@ -67,14 +67,16 @@ def vrange(i:int, j:int) -> Vector:
     v:Vector = None
     v = DoublingVector()
     
-    $Statement
+    while i < j:
+        v.append(i)
+        i = i + 1
 
     return v
 
 # Sieve of Eratosthenes (not really)
 def sieve(v:Vector) -> object:
     i:int = 0
-    j:int = 0
+    j:$Type = 0
     k:int = 0
 
     while i < v.length():

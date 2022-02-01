@@ -8,7 +8,7 @@ class B(A):
     b:bool = True
 
     def __init__(self:"B"):
-        $FuncBody
+        print($Exp)
 
     def bar(self:"B") -> int:
         a:A = None

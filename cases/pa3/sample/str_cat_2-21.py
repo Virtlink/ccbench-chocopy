@@ -1,6 +1,6 @@
 a:str = "no"
 b:str = "o"
-$ID:str = ""
+c:$Type = ""
 d:str = ""
 e:str = ""
 

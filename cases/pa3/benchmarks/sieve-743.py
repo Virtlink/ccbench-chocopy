@@ -85,7 +85,8 @@ def sieve(v:Vector) -> object:
         while j < v.length():
             if v.get(j) % k == 0:
                 v.remove_at(j)
-            $ElifElse
+            else:
+                j = j + 1
         i = i + 1
 
 # Input parameter
@@ -100,7 +101,7 @@ v = vrange(2, n)
 sieve(v)
 
 # Print
-while i < v.length():
+while $Exp < v.length():
     print(v.get(i))
     i = i + 1
 

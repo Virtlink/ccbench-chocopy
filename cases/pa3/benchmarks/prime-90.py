@@ -8,9 +8,9 @@ def get_prime(n:int) -> int:
             if found == n:
                 return candidate
         candidate = candidate + 1
-    return $Exp # Never happens
+    return 0 # Never happens
 
-def is_prime(x:int) -> bool:
+def is_prime(x:int) $RetType:
     div:int = 2
     while div < x:
         if x % div == 0:

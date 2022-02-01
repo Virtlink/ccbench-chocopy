@@ -10,6 +10,9 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-    $ClassBodyMember
+    def bar(self:"B") -> $ID:
+        def qux(p: bool) -> int:
+            return self.foo(p)
+        return qux(True)
 
 print(B().bar())

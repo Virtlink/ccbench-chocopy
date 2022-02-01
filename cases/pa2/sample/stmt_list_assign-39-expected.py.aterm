@@ -1,1 +1,1 @@
-List([Literal2Exp(NONE())])
+Index2Target(Index(Var2Exp(Var("x")),Literal2Exp(Int("0"))))

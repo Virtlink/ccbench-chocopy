@@ -36,13 +36,13 @@ class Vector(object):
 
         while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
-            idx = idx + $Exp
+            idx = idx + 1
 
         self.size = self.size - 1
 
     # Retrieves an item at a given index
     def get(self:"Vector", idx: int) -> int:
-        return self.items[idx]
+        $Statement
 
     # Retrieves the current size of the vector
     def length(self:"Vector") -> int:

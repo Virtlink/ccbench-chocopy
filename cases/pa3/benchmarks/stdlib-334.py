@@ -39,10 +39,10 @@ def str_to_int(x: str) -> int:
         elif char == "3":
             digit = 3
         elif char == "3":
-            
+            digit = 3
         elif char == "4":
             digit = 4
-        elif char == "5":
+        elif $Var == "5":
             digit = 5
         elif char == "6":
             digit = 6

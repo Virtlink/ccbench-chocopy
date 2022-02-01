@@ -10,12 +10,9 @@ def get_prime(n:int) -> int:
         candidate = candidate + 1
     return 0 # Never happens
 
-def is_prime(x:int) -> $Type:
+def is_prime(x:int) -> bool:
     div:int = 2
-    while div < x:
-        if x % div == 0:
-            return False
-        div = div + 1
+    $Statement
     return True
 
 # Input parameter

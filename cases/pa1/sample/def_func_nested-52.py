@@ -4,7 +4,7 @@ def foo(x:int) -> bool:
     b:int = 1
     def bar(y: int) -> int:
         a:int = 2 
-        
-    return bar(x) > a
+        return y
+    return $Exp
 
 foo(1)

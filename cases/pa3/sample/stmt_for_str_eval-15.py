@@ -1,5 +1,5 @@
 x:str = ""
-z:$ID = "abc"
+z:str = $Literal
 
 for x in z:
     z = "doesn't matter"

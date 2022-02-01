@@ -1,1 +1,1 @@
-Var2Exp(Var("self"))
+Exps2Parameters([Literal2Exp(Int("0"))])

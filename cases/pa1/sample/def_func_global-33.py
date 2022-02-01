@@ -2,6 +2,6 @@ z:int = 0
 
 def foo(x:int) -> bool:
     global z
-    return x > $ID
+    return x > z
 
-foo(1)
+$Var(1)

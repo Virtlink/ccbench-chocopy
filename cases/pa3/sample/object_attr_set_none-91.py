@@ -11,9 +11,9 @@ a:A = None
 b:B = None
 
 a = B()
-print(a.$ID)
+print(a.a)
 
-b.a = 1
+b.a = $INT
 b.b = False
 print(b.a)
 print(b.b)

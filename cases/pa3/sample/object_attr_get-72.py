@@ -10,7 +10,7 @@ class B(A):
 a:A = None
 b:B = None
 
-$ID = b = B()
+a = b = B($Parameters)
 print(a.a)
 print(b.a)
 print(b.b)

@@ -5,7 +5,7 @@ d:str = ""
 e:str = ""
 
 def cat2(a:str, b:str) -> str:
-    $Statement
+    return $ID + b
 
 def cat3(a:str, b:str, c:str) -> str:
     return a + b + c

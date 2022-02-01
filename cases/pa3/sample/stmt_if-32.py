@@ -2,6 +2,6 @@ if False:
     print("No")
 elif True:
     if True:
-        $ID("Yes")
+        print("Yes")
 else:
-    pass
+    $Block

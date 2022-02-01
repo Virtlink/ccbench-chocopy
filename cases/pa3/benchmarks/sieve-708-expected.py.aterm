@@ -1,1 +1,1 @@
-Eq(Mod(Call(Member2Exp(Member(Var2Exp(Var("v")),"get")),Exps2Parameters([Var2Exp(Var("j"))])),Var2Exp(Var("k"))),Literal2Exp(Int("0")))
+VarDef2Definition(VarDef(TypedVar("i",Type("int")),Int("0")))

@@ -22,7 +22,7 @@ a = A()
 b = B()
 c = C()
 
-$Target = a.get_A()
-a.x = b.get_A()
+b.x = a.get_A()
+a.x = $Exp
 c.set_A(0)
 

@@ -5,8 +5,8 @@ def f() -> int:
     return 42
 
     
-def $ID() -> object:
-    print("start g")
+def g() -> object:
+    $Exp("start g")
     h()
     print("end g")
 

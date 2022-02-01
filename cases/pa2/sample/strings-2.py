@@ -1,4 +1,4 @@
-$Definition
+$VarDef
 y:str = "World"
 z:str = ""
 

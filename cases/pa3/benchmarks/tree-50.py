@@ -5,7 +5,19 @@ class TreeNode(object):
 	right:"TreeNode" = None
 
 	def insert(self:"TreeNode", x:int) -> bool:
-		
+		if $ID < self.value:
+			if self.left is None:
+				self.left = makeNode(x)
+				return True
+			else:
+				return self.left.insert(x)
+		elif x > self.value:
+			if self.right is None:
+				self.right = makeNode(x)
+				return True
+			else:
+				return self.right.insert(x)
+		return False
 
 	def contains(self:"TreeNode", x:int) -> bool:
 		if x < self.value:

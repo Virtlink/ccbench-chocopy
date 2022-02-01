@@ -1,8 +1,8 @@
 def f() -> int:
     print("start f")
     g()
-    print()
-    return 42
+    print("end f")
+    return $INT
 
     
 def g() -> object:

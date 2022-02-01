@@ -1,14 +1,11 @@
 def f() -> int:
     print("start f")
     g()
-    print($Literal)
+    print("end f")
     return 42
 
     
-def g() -> object:
-    print("start g")
-    h()
-    print("end g")
+$FuncDef
 
 def h() -> object:
     print("start h")

@@ -1,2 +1,2 @@
-$TypedVar = 42
+$ID:int = 42
 print(x)

@@ -1,4 +1,4 @@
-def $ID() -> int:
+def set_x() $RetType:
     global x
     x = 1
     return x

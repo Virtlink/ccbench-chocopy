@@ -27,11 +27,11 @@ class Vector(object):
     def append_all(self:"Vector", new_items: [int]) -> object:
         item:int = 0
         for item in new_items:
-            $Statement
+            self.append(item)
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector", idx: int) -> object:
-        if idx < 0:
+        if $Exp:
             return
 
         while idx < self.size - 1:

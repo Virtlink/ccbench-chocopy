@@ -1,1 +1,1 @@
-"is_prime"
+VarDef(TypedVar("div",Type("int")),Int("2"))

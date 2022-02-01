@@ -1,4 +1,4 @@
-def f($ID:int) -> int:
+def f(x:$ID) -> int:
     print("start f")
     print(x)
     g(1, x)

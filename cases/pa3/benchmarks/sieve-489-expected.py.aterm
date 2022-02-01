@@ -1,1 +1,1 @@
-Member2Exp(Member(Var2Exp(Var("self")),"items"))
+VarDef2FuncBodyMember(VarDef(TypedVar("v",Type("Vector")),NONE()))

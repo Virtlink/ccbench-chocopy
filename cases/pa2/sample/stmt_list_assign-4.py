@@ -1,4 +1,4 @@
-$TypedVar = None
+$ID:[int] = None
 y:[object] = None
 
 x = [1, 2]

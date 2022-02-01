@@ -1,7 +1,7 @@
 def f(x:int) -> int:
     print("start f")
-    print($ID)
-    g(1, x)
+    print(x)
+    g($Parameters)
     print("end f")
     return x
 

@@ -1,1 +1,1 @@
-"right"
+Call(Var2Exp(Var("makeNode")),Exps2Parameters([Var2Exp(Var("x"))]))

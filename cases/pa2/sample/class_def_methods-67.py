@@ -9,9 +9,9 @@ class B(A):
         pass
 
 class C(B):
-    $ID:bool = True
+    z:bool = True
 
-    def set_A(self: "C", val: int) -> object:
+    def set_A(self: $IDSTRING, val: int) -> object:
         self.x = val
 
 a:A = None

@@ -10,7 +10,9 @@ class B(A):
 a:A = None
 b:B = None
 
-$Definition
+def get_b() -> B:
+    $Statement
+    return b
 
 def get_one() -> int:
     print("Getting 1")

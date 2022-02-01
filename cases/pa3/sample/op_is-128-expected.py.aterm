@@ -1,1 +1,1 @@
-Var2Exp(Var("a1"))
+Is(Var2Exp(Var("a1")),Literal2Exp(NONE()))

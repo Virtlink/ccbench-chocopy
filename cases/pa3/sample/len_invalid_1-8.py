@@ -1,3 +1,3 @@
-x:[$ID] = None
+x:[int] = $Literal
 
 print(len(x))

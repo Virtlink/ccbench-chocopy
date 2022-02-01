@@ -1,4 +1,4 @@
 x:int = 1
-$Definition
+$VarDef
 
 x = o = 42

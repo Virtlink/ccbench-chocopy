@@ -1,1 +1,1 @@
-"3"
+IntDiv(Literal2Exp(Int("13")),Literal2Exp(Int("3")))

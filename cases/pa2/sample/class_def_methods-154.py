@@ -20,9 +20,9 @@ c:C = None
 
 a = A()
 b = B()
-c = $Exp
+c = C()
 
-b.x = a.get_A()
+b.x = a.get_A($Parameters)
 a.x = b.get_A()
 c.set_A(0)
 

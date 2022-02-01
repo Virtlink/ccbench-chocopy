@@ -10,8 +10,8 @@ def g(y:int, z:int) -> object:
     print("start g")
     print(y)
     print(z)
-    $Exp
-    print("end g")
+    h("h")
+    print($Exp)
 
 def h(msg: str) -> object:
     print(msg)

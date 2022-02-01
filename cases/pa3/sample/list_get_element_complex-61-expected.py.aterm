@@ -1,1 +1,1 @@
-Var("next_int")
+Var2Exp(Var("print"))

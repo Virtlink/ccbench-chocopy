@@ -1,1 +1,1 @@
-VarDef(TypedVar("y",Type("str")),String("\"123\""))
+TypedVar("y",Type("str"))

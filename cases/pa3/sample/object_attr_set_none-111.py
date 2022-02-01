@@ -14,6 +14,6 @@ a = B()
 print(a.a)
 
 b.a = 1
-$ID.b = False
-print(b.a)
+b.b = False
+print($Var.a)
 print(b.b)

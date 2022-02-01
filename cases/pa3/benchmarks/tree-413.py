@@ -43,11 +43,11 @@ class Tree(object):
 			self.size = 1
 		else:
 			if self.root.insert(x):
-				$ID.size = self.size + 1
+				self.size = self.size + 1
 
 	def contains(self:"Tree", x:int) -> bool:
 		if self.root is None:
-			return False
+			return $Literal
 		else:
 			return self.root.contains(x)
 

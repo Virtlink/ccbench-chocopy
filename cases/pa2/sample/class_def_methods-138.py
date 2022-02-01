@@ -19,8 +19,8 @@ b:B = None
 c:C = None
 
 a = A()
-$AssignTarget B()
-c = C()
+b = B()
+c = C($Parameters)
 
 b.x = a.get_A()
 a.x = b.get_A()

@@ -1,4 +1,7 @@
-
+$Definition
+y:int = 0
+z:[bool] = None
+o:object = None
 
 x = [1, 2, 3]
 z = [False, True]

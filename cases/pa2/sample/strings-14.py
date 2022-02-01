@@ -1,5 +1,5 @@
 x:str = "Hello"
-y:$Type = "World"
+y:$ID = "World"
 z:str = ""
 
 z = x + y

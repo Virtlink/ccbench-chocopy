@@ -1,1 +1,1 @@
-Mul(Var2Exp(Var("a")),Var2Exp(Var("x")))
+Sub(Var2Exp(Var("i")),Literal2Exp(Int("1")))

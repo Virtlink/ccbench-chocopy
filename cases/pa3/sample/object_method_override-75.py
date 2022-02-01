@@ -8,9 +8,9 @@ class B(A):
     b:bool = True
 
     def __init__(self:"B"):
-        print($Exp)
+        print("B")
 
-    def bar(self:"B") -> int:
+    def bar(self:"$ID") -> int:
         return self.foo(self.b)
 
     def foo(self:"B", ignore:object) -> int:

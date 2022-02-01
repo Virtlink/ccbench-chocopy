@@ -1,1 +1,1 @@
-[ClassDef2Definition(ClassDef("A","object",ClassBodyMembers2ClassBody([VarDef2ClassBodyMember(VarDef(TypedVar("a",Type("int")),Int("42")))]))),VarDef2Definition(VarDef(TypedVar("a1",Type("A")),NONE())),VarDef2Definition(VarDef(TypedVar("a2",Type("A")),NONE())),VarDef2Definition(VarDef(TypedVar("a3",Type("A")),NONE())),VarDef2Definition(VarDef(TypedVar("a4",Type("A")),NONE()))]
+ClassDef2Definition(ClassDef("A","object",ClassBodyMembers2ClassBody([VarDef2ClassBodyMember(VarDef(TypedVar("a",Type("int")),Int("42")))])))

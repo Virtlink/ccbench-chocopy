@@ -1,1 +1,0 @@
-Assign([Target(Var2Target(Var("s")))],Call(Var2Exp(Var("int_to_str")),Exps2Parameters([Var2Exp(Var("i"))])))

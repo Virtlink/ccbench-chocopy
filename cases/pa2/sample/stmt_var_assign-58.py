@@ -5,5 +5,5 @@ o:object = None
 
 x = 2
 y = False
-z = $STRING
-o = z
+z = "Hello"
+$ID = z

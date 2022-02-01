@@ -2,8 +2,8 @@ def f(x:int) -> int:
     print("start f")
     print(x)
     g(1, x)
-    $Var("end f")
-    return x
+    print("end f")
+    return $Exp
 
     
 def g(y:int, z:int) -> object:

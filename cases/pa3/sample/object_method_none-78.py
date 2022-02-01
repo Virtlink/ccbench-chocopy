@@ -10,6 +10,8 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-    $ClassBodyMember
+    def bar(self:"B") -> $ID:
+        a:A = None
+        return a.foo(self.b)
 
 print(B().bar())

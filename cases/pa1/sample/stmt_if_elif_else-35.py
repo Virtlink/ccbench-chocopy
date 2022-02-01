@@ -1,7 +1,7 @@
 if 1 > 2:
     print(1)
 elif 3 == 4:
-    $Exp(2)
+    print($Literal)
 elif True:
     print(3)
 else:

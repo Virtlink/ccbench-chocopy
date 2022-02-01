@@ -1,4 +1,4 @@
-def f() $RetType:
+def f() -> $ID:
   print("f called")
   return True
 

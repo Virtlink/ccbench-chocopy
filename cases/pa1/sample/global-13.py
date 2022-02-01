@@ -1,5 +1,5 @@
 x:int = 1
 
-$AssignTarget 2
+$ID = 2
 
 print(x)

@@ -1,5 +1,5 @@
 a:str = "no"
-$TypedVar = "o"
+$ID:str = "o"
 c:str = ""
 d:str = ""
 e:str = ""

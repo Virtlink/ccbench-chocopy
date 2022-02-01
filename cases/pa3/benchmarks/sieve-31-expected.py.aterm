@@ -1,1 +1,1 @@
-IdString("Vector")
+FuncBody([],[Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"items")))],List([Literal2Exp(Int("0"))]))])

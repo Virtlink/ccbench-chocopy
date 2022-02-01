@@ -1,1 +1,1 @@
-Var2Exp(Var("self"))
+Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(String("\"...\""))]))

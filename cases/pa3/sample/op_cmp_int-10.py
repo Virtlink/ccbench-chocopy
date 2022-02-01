@@ -1,5 +1,5 @@
 x:int = 42
-$Definition
+$VarDef
 
 print(x == y)
 print(x != y)

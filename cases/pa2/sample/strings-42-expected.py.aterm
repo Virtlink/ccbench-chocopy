@@ -1,1 +1,1 @@
-Target(Var2Target(Var("z")))
+Index2Exp(Index(Var2Exp(Var("x")),Literal2Exp(Int("0"))))

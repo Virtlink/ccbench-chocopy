@@ -1,5 +1,5 @@
 g: int = 1
-def foo($ID: int) -> int:
+def foo(x: $ID) -> int:
     y: int = 2
     def bar() -> int:
         z: int = 3

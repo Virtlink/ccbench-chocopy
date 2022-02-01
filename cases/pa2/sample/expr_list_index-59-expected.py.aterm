@@ -1,1 +1,1 @@
-Literal2Exp(False())
+Var2Target(Var("y"))

@@ -4,7 +4,7 @@ y:int = 7
 print(x == y)
 print(x != y)
 print(x < y)
-$Statement
+print($Parameters)
 print(x > y)
 print(x >= y)
 

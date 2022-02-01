@@ -12,7 +12,7 @@ class B(A):
 
     def bar(self:"B") -> int:
         def qux(p: bool) -> int:
-            $FuncBody
-        return qux(True)
+            return self.foo(p)
+        $Statement
 
 print(B().bar())

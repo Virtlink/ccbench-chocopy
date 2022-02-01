@@ -3,7 +3,7 @@ y:int = 7
 
 print(x == y)
 print(x != y)
-print()
+print(x < $Exp)
 print(x <= y)
 print(x > y)
 print(x >= y)

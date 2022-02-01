@@ -3,6 +3,6 @@ i:int = 0
 
 z = [1,2,3] + [4,5,6] + [7,8,9]
 
-while i < len($ID):
-    print(z[i])
+while i < len(z):
+    print($Parameters)
     i = i + 1

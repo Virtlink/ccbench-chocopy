@@ -3,7 +3,7 @@ y:int = 0
 z:[int] = None
 e:[int] = None
 
-$Target = [1,2,3]
+z = $Exp
 e = []
 
 for x in z:

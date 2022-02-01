@@ -1,5 +1,5 @@
 x:int = 1
-$TypedVar = True
+$ID:bool = True
 z:str = ""
 o:object = None
 

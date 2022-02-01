@@ -1,4 +1,5 @@
-
+$Definition
+y:[object] = None
 
 x = [1, 2]
 y = [None]

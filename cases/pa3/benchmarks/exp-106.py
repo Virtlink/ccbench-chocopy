@@ -10,8 +10,8 @@ def exp(x: int, y: int) -> int:
 		else:
 			a = a * x
 			return f(i-1)
-	 1
-	return f(y)
+	a = 1
+	return f($ID)
 
 # Input parameter
 n:int = 42

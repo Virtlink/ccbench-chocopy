@@ -8,9 +8,9 @@ class B(A):
     b:bool = True
 
     def __init__(self:"B"):
-        print($STRING)
+        print("B")
 
-    def bar(self:"B") -> int:
+    def bar(self:"B") -> $Type:
         a:A = None
         return a.foo(self.b)
 

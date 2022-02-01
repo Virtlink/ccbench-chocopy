@@ -1,4 +1,4 @@
-x:$ID = 0
+x:int = $Literal
 y:int = 0
 z:[int] = None
 

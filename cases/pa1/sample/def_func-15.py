@@ -1,4 +1,4 @@
 def foo() -> int:
-    return $INT
+    return 1
 
-foo()
+$Var()

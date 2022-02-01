@@ -5,8 +5,8 @@ class TreeNode(object):
 	right:"TreeNode" = None
 
 	def insert(self:"TreeNode", x:int) -> bool:
-		if x < $Var.value:
-			if self.left is None:
+		if x < self.value:
+			if $Exp:
 				self.left = makeNode(x)
 				return True
 			else:

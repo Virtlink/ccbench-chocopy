@@ -6,9 +6,9 @@ class B(A):
         pass
 
 class C(B):
-    $ClassBodyMember
+    z:bool = True
 
-a:A = None
+$Definition
 b:B = None
 c:C = None
 

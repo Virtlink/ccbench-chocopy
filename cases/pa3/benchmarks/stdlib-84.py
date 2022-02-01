@@ -8,8 +8,8 @@ def int_to_str(x: int) -> str:
 
     # Write sign if necessary
     if x < 0:
-        $Var = "-"
-        x = -x
+        result = "-"
+        $Var = -x
 
     # Write digits using a recursive call
     if x >= 10:

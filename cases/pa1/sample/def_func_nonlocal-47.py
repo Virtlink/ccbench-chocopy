@@ -4,7 +4,7 @@ def foo(x:int) -> bool:
     b:int = 1
     def bar(y: int) -> int:
         nonlocal a
-        $Statement 
+        a = $Literal 
         return y
     return bar(x) > a
 

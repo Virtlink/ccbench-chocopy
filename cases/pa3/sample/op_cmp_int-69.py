@@ -4,8 +4,8 @@ y:int = 7
 print(x == y)
 print(x != y)
 print(x < y)
-print($Exp <= y)
-print(x > y)
+print(x <= y)
+$Statement
 print(x >= y)
 
 print(x == x)

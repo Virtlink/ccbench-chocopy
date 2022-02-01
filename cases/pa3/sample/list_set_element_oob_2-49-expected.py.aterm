@@ -1,1 +1,1 @@
-Index2Exp(Index(Var2Exp(Var("x")),Literal2Exp(Int("0"))))
+Int("0")

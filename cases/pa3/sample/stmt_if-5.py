@@ -1,5 +1,5 @@
-if $Literal:
-    print("No")
+if False:
+    $Statement
 elif True:
     if True:
         print("Yes")

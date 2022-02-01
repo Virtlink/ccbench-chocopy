@@ -1,4 +1,4 @@
-def foo(x:int, y:int) -> $Type:
-    return x > y
+def foo(x:int, y:int) -> bool:
+    $FuncBody
 
 foo(1,2)

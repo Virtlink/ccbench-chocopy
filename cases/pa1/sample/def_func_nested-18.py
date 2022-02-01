@@ -1,6 +1,6 @@
 
 def foo(x:int) -> bool:
-    $ID:int = 0
+    a:int = $Literal
     b:int = 1
     def bar(y: int) -> int:
         a:int = 2 

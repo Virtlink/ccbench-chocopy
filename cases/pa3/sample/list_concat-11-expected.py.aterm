@@ -1,1 +1,1 @@
-TypedVar("y",ListType(Type("int")))
+ListType(Type("int"))

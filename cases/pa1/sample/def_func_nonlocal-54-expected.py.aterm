@@ -1,1 +1,1 @@
-Int("2")
+Gt(Call(Var2Exp(Var("bar")),Exps2Parameters([Var2Exp(Var("x"))])),Var2Exp(Var("a")))

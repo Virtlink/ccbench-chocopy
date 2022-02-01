@@ -6,9 +6,9 @@ class B(A):
         pass
 
 class C(B):
-    z:$ID = True
+    z:bool = True
 
-a:A = None
+a:$ID = None
 b:B = None
 c:C = None
 

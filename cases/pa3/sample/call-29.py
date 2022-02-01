@@ -1,7 +1,7 @@
 def f() -> int:
     print("start f")
     g()
-    $Statement
+    print($Exp)
     return 42
 
     

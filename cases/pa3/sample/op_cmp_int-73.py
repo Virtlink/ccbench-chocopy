@@ -4,8 +4,8 @@ y:int = 7
 print(x == y)
 print(x != y)
 print(x < y)
-print(x <= $Var)
-print(x > y)
+print(x <= y)
+$ID(x > y)
 print(x >= y)
 
 print(x == x)

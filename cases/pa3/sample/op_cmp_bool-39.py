@@ -1,7 +1,7 @@
 print(True == True)
 print(True == False)
 print(False == True)
-$Statement
+print($Parameters)
 print(True != True)
 print(True != False)
 print(False != True)

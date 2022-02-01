@@ -1,3 +1,3 @@
 x:int = 1
 
-print()
+print($Var(x))

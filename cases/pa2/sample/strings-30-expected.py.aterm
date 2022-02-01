@@ -1,1 +1,1 @@
-Var2Target(Var("z"))
+Add(Var2Exp(Var("x")),Var2Exp(Var("y")))

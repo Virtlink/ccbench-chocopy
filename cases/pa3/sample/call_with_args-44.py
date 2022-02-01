@@ -1,8 +1,8 @@
 def f(x:int) -> int:
     print("start f")
     print(x)
-    g($Literal, x)
-    print("end f")
+    g(1, x)
+    $Exp("end f")
     return x
 
     

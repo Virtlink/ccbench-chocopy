@@ -1,1 +1,1 @@
-Var2Target(Var("x"))
+List([Literal2Exp(Int("1")),Literal2Exp(Int("2")),Literal2Exp(Int("3"))])

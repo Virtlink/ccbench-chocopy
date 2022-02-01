@@ -1,1 +1,1 @@
-TypedVar("z",Type("int"))
+Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(String("\"start g\""))]))

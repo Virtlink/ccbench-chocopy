@@ -11,7 +11,7 @@ def neq(a:str, b:str) -> bool:
 print(eq(a,a))
 print(eq(a,b))
 print(neq(a,b))
-print(neq($Var,b))
-print(eq(c,a))
+print(neq(b,b))
+print(eq($Exp,a))
 print(neq(c,b))
 

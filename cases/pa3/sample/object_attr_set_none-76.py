@@ -10,8 +10,8 @@ class B(A):
 a:A = None
 b:B = None
 
-a = $ID()
-print(a.a)
+a = B()
+print($Member)
 
 b.a = 1
 b.b = False

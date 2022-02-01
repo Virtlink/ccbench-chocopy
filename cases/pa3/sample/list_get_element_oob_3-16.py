@@ -1,4 +1,4 @@
 x:[int] = None
 
-$ID = []
-print(x[0])
+x = []
+$Exp

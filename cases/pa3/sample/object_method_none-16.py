@@ -1,7 +1,8 @@
 class A(object):
     a:int = 42
 
-    $ClassBodyMember
+    def $ID(self:"A", ignore:object) -> int:
+        return self.a
 
 class B(A):
     b:bool = True

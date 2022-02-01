@@ -13,6 +13,6 @@ b:B = None
 c:C = None
 
 a = A()
-a = B($Parameters)
-b = a = c = C()
+a = B()
+b = a = $Target = C()
 c = None

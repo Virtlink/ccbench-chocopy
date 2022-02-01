@@ -17,7 +17,8 @@ class Vector(object):
 
     # Appends one item to end of vector
     def append(self:"Vector", item: int) -> object:
-        $Statement
+        if self.size == self.capacity():
+            $Member()
 
         self.items[self.size] = item
         self.size = self.size + 1

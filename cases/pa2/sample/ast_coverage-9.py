@@ -1,7 +1,6 @@
-count:int = $INT
+count:int = 0
 
-def foo(s: str) -> int:
-    return len(s)
+$Definition
 
 class bar(object):
     p: bool = True

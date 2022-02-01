@@ -1,5 +1,5 @@
-x:str = $STRING
-y:str = "123"
+x:str = ""
+$Definition
 z:str = "abc"
 
 for x in z:

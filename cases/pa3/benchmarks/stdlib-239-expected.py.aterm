@@ -1,1 +1,1 @@
-Assign([Target(Var2Target(Var("sign")))],Negative(Literal2Exp(Int("1"))))
+Target(Var2Target(Var("digit")))

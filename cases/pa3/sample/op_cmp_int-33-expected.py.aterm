@@ -1,1 +1,1 @@
-Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Neq(Var2Exp(Var("x")),Var2Exp(Var("y")))])))
+Var("print")

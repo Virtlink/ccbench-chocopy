@@ -11,12 +11,10 @@ a:A = None
 b:B = None
 
 def get_b() -> B:
-    $Var("Getting B")
+    print("Getting B")
     return b
 
-def get_one() -> int:
-    print("Getting 1")
-    return 1
+$Definition
 
 def get_false() -> bool:
     print("Getting False")

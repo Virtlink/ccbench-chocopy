@@ -1,2 +1,2 @@
-print($Exp)
-print(False)
+print(True)
+$Exp

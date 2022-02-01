@@ -6,7 +6,12 @@ def f(x:int) -> int:
     return x
 
     
-$Definition
+def g(y:int, $ID:int) -> object:
+    print("start g")
+    print(y)
+    print(z)
+    h("h")
+    print("end g")
 
 def h(msg: str) -> object:
     print(msg)

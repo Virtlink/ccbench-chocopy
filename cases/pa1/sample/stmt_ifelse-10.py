@@ -1,5 +1,5 @@
 if True:
-    $Literal
+    False
 else:
-    True
+    $Statement
 

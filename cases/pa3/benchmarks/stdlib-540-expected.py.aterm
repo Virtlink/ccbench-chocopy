@@ -1,1 +1,1 @@
-Var("n")
+Var2Exp(Var("str_to_int"))

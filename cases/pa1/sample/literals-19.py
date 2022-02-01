@@ -2,6 +2,6 @@ True
 False
 1
 None
-$STRING
-[1, 2, 3]
+"This is a string"
+$Exp
 

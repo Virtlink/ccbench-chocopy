@@ -11,7 +11,7 @@ class B(A):
         print("B")
 
     def bar(self:"B") -> int:
-        $TypedVar = None
-        return a.foo(self.b)
+        a:A = None
+        return a.$ID(self.b)
 
 print(B().bar())

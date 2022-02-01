@@ -1,1 +1,1 @@
-Var("self")
+Assign([Target(Var2Target(Var("b")))],Call(Var2Exp(Var("TreeNode")),Exps2Parameters([])))

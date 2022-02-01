@@ -1,4 +1,4 @@
 x:[int] = None
 
 x = []
-$Statement
+$ID(len(x))

@@ -1,1 +1,1 @@
-Var("z")
+Var2Exp(Var("print"))

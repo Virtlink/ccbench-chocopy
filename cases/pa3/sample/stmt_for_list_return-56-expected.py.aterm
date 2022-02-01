@@ -1,1 +1,1 @@
-Var2Exp(Var("print_list"))
+Literal2Exp(Int("20"))

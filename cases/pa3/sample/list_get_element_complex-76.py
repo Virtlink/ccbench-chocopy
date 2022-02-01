@@ -8,4 +8,4 @@ def next_int() -> int:
 def make_list() -> [int]:
     return [next_int(), next_int(), next_int()]
 
-$ID(make_list()[next_int() - 3])
+print(make_list()[$ID() - 3])

@@ -24,9 +24,9 @@ class TreeNode(object):
 			if self.left is None:
 				return False
 			else:
-				return $Var.left.contains(x)
+				return self.left.contains(x)
 		elif x > self.value:
-			if self.right is None:
+			if $Member is None:
 				return False
 			else:
 				return self.right.contains(x)

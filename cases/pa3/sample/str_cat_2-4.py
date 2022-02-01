@@ -1,4 +1,4 @@
-$TypedVar = "no"
+$ID:str = "no"
 b:str = "o"
 c:str = ""
 d:str = ""

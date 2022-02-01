@@ -7,8 +7,8 @@ a3:A = None
 a4:A = None
 
 a1 = A()
-$Var = a1
-a3 = A()
+a2 = a1
+$AssignTarget A()
 
 print(a1 is a1)
 print(a1 is a2)

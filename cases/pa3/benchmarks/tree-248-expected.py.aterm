@@ -1,1 +1,1 @@
-Var("x")
+Block([Return(Literal2Exp(False()))])

@@ -1,4 +1,4 @@
 print(object() is None)
-print()
+print(int($Parameters))
 print(str())
 print(bool())

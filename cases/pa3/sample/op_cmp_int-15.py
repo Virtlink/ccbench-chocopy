@@ -1,5 +1,5 @@
 x:int = 42
-y:$ID = 7
+y:int = $Literal
 
 print(x == y)
 print(x != y)

@@ -1,4 +1,4 @@
-$Definition
+$FuncDef
 
 def g() -> bool:
   print("g called")

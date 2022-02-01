@@ -12,8 +12,8 @@ def cat3(a:str, b:str, c:str) -> str:
 
 c = cat2(b, a)
 d = cat2(a, a)
-e = cat3(a, b, cat2($Var, b))
+e = cat3(a, b, cat2(b, b))
 
 print(c)
-print(d)
+$Exp
 print(e)

@@ -1,1 +1,1 @@
-"x"
+TypedVar("z",Type("int"))

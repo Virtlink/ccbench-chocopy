@@ -1,2 +1,2 @@
 print(42)
-print($Parameters)
+print($INT)

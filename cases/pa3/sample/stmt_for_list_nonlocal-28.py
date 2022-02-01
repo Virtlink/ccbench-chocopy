@@ -1,6 +1,6 @@
 x:int = 0
 def crunch(zz:[[int]]) -> object:
-    $ID:[int] = None
+    z:[$ID] = None
     global x
     def make_z() -> object:
         nonlocal z

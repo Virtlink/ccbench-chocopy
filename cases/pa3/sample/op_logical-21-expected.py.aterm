@@ -1,1 +1,1 @@
-"\"f called\""
+FuncDef("g",[],Returns(Type("bool")),FuncBody([],[Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(String("\"g called\""))]))),Return(Literal2Exp(False()))]))

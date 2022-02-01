@@ -12,7 +12,7 @@ b:B = None
 
 a = b = B()
 b.a = 1
-$ID.b = False
-print(a.a)
+b.b = False
+print($Exp.a)
 print(b.a)
 print(b.b)

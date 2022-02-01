@@ -1,6 +1,6 @@
 def f(x:int) -> int:
-    print($STRING)
-    print(x)
+    print("start f")
+    $ID(x)
     g(1, x)
     print("end f")
     return x

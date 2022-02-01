@@ -13,7 +13,9 @@ def get_prime(n:int) -> int:
 def is_prime(x:int) -> bool:
     div:int = 2
     while div < x:
-        $Block
+        if x % div == 0:
+            $Block
+        div = div + 1
     return True
 
 # Input parameter

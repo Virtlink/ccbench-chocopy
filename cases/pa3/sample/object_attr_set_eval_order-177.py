@@ -24,9 +24,9 @@ def get_false() -> bool:
 
 a = b = B()
 get_b().a = get_one()
-print($Parameters)
+print("Assigned B.a")
 get_b().b = get_false()
-print("Assigned B.b")
+print($Exp)
 
 print(a.a)
 print(b.a)

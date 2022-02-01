@@ -1,1 +1,1 @@
-"c"
+Literal2Exp(Int("42"))

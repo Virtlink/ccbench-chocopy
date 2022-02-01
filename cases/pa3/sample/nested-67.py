@@ -5,7 +5,7 @@ def foo(x: int) -> int:
         z: int = 3
         def baz() -> int:
             return y
-        return $ID()
+        return baz()
     return bar()
     
-print(foo(g))
+$Exp

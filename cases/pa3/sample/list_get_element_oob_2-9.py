@@ -1,4 +1,4 @@
-x:[int] = $Literal
+x:[int] = None
 
-x = [1, 2, 3]
+$Statement
 print(x[3])

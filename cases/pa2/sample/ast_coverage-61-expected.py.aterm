@@ -1,1 +1,1 @@
-Returns(Type("str"))
+VarDef(TypedVar("x",Type("int")),Int("0"))

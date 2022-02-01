@@ -41,7 +41,7 @@ class Vector(object):
         self.size = self.size - 1
 
     # Retrieves an item at a given index
-    def get(self:"Vector", idx: int) $RetType:
+    def get(self:"Vector", idx: int) -> int:
         return self.items[idx]
 
     # Retrieves the current size of the vector
@@ -50,17 +50,7 @@ class Vector(object):
 
 # A faster (but more memory-consuming) implementation of vector
 class DoublingVector(Vector):
-    doubling_limit:int = 1000
-
-    # Overriding to do fewer resizes
-    def increase_capacity(self:"DoublingVector") -> int:
-        if (self.capacity() <= self.doubling_limit // 2):
-            self.items = self.items + self.items
-        else:
-            # If doubling limit has been reached, fall back to
-            # standard capacity increases
-            self.items = self.items + [0]
-        return self.capacity()
+    $ClassBody
 
 # Makes a vector in the range [i, j)
 def vrange(i:int, j:int) -> Vector:

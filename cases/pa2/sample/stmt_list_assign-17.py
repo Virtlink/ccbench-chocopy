@@ -1,7 +1,7 @@
 x:[int] = None
-y:[object] = $Literal
+y:[object] = None
 
-x = [1, 2]
+$Statement
 y = [None]
 x[0] = 3
 x[1] = y[0] = 4

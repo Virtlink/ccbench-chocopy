@@ -7,6 +7,6 @@ x = [1, 2, 3]
 z = [False, True]
 
 y = x[0]
-$Exp[0] = 1
+x[0] = $INT
 z[1] = z[0]
 o = x[1]

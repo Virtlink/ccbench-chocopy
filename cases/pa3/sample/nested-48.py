@@ -3,7 +3,8 @@ def foo(x: int) -> int:
     y: int = 2
     def bar() -> int:
         z: int = 3
-        $FuncBodyMember
+        def baz() -> $ID:
+            return y
         return baz()
     return bar()
     

@@ -1,1 +1,1 @@
-print($Exp // 0)
+print(42 // $Exp)

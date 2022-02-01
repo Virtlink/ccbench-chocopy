@@ -26,5 +26,5 @@ i:int = 1
 
 # Crunch
 while i <= n:
-    print()
-    i = i + 1
+    print(get_prime(i))
+    i = i + $Literal

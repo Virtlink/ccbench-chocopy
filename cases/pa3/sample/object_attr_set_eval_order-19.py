@@ -1,8 +1,8 @@
 class A(object):
     a:int = 42
 
-class B($ID):
-    b:bool = True
+class B(A):
+    $ClassBodyMember
 
     def __init__(self:"B"):
         print("B")

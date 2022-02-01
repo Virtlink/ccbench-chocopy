@@ -1,1 +1,1 @@
-print($ID("ChocoPy"))
+print(len($Literal))

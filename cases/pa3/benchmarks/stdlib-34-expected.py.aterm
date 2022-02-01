@@ -1,1 +1,1 @@
-Target(Var2Target(Var("digits")))
+Literal2Exp(String("\"0\""))

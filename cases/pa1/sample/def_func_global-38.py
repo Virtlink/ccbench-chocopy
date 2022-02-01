@@ -4,4 +4,4 @@ def foo(x:int) -> bool:
     global z
     return x > z
 
-$Var(1)
+foo($INT)

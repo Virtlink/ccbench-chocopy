@@ -1,1 +1,1 @@
-TypedVar("t",Type("Tree"))
+Target(Var2Target(Var("k")))

@@ -12,10 +12,10 @@ b:B = None
 
 def get_b() -> B:
     print("Getting B")
-    return $Exp
+    return b
 
 def get_one() -> int:
-    print("Getting 1")
+    $Exp
     return 1
 
 def get_false() -> bool:

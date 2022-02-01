@@ -1,1 +1,1 @@
-Var2Target(Var("candidate"))
+Return(Literal2Exp(Int("0")))

@@ -5,7 +5,8 @@ def get_prime(n:int) -> int:
     while True:
         if is_prime(candidate):
             found = found + 1
-            $Statement
+            if found == n:
+                $Block
         candidate = candidate + 1
     return 0 # Never happens
 

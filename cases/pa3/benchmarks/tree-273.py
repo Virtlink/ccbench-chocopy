@@ -27,11 +27,11 @@ class TreeNode(object):
 				return self.left.contains(x)
 		elif x > self.value:
 			if self.right is None:
-				$Block
+				return False
 			else:
 				return self.right.contains(x)
 		else:
-			return True
+			return $Literal
 
 class Tree(object):
 	root:TreeNode = None

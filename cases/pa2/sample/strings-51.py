@@ -3,6 +3,6 @@ y:str = "World"
 z:str = ""
 
 z = x + y
-z = x[$Exp]
-x = y = z
+z = x[0]
+$AssignTarget y = z
 

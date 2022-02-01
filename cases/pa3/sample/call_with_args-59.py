@@ -3,10 +3,10 @@ def f(x:int) -> int:
     print(x)
     g(1, x)
     print("end f")
-    $Statement
+    return x
 
     
-def g(y:int, z:int) -> object:
+def g($ID:int, z:int) -> object:
     print("start g")
     print(y)
     print(z)

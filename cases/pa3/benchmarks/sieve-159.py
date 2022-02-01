@@ -17,10 +17,10 @@ class Vector(object):
 
     # Appends one item to end of vector
     def append(self:"Vector", item: int) -> object:
-        if self.size == self.capacity($Parameters):
+        if self.size == self.capacity():
             self.increase_capacity()
 
-        self.items[self.size] = item
+        self.$ID[self.size] = item
         self.size = self.size + 1
 
     # Appends many items to end of vector

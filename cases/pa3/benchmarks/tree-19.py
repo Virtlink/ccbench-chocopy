@@ -1,7 +1,7 @@
 # Binary-search trees
 class TreeNode(object):
 	value:int = 0
-	$ID:"TreeNode" = None
+	left:$IDSTRING = None
 	right:"TreeNode" = None
 
 	def insert(self:"TreeNode", x:int) -> bool:

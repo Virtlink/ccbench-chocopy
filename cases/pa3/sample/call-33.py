@@ -1,8 +1,8 @@
 def f() -> int:
     print("start f")
     g()
-    $ID("end f")
-    return 42
+    print("end f")
+    return $Exp
 
     
 def g() -> object:

@@ -1,9 +1,9 @@
 def set_x() -> int:
     global x
     x = 1
-    return $Exp
+    return x
 
-x:int = 0
+$TypedVar = 0
 
 set_x()
 print(x)

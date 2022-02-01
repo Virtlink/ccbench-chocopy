@@ -1,6 +1,6 @@
 print(True == True)
 print(True == False)
-print()
+print(False == $Literal)
 print(False == False)
 print(True != True)
 print(True != False)

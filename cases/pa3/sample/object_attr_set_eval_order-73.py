@@ -11,7 +11,8 @@ a:A = None
 b:B = None
 
 def get_b() -> B:
-    $FuncBody
+    print($Literal)
+    return b
 
 def get_one() -> int:
     print("Getting 1")

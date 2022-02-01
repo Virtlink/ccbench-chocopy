@@ -6,8 +6,8 @@ def foo(x: int) -> int:
         def baz() -> int:
             return qux(y)
         return baz()
-    def $ID(p: int) -> int:
-        return p
+    def qux(p: int) -> int:
+        return $Var
 
     return bar()
     

@@ -10,8 +10,8 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-    def bar(self:"B") $RetType:
-        return self.foo(self.foo(print("...")))
+    def bar(self:"B") -> int:
+        return self.$ID(self.foo(print("...")))
 
     def foo(self:"B", ignore:object) -> int:
         return 1

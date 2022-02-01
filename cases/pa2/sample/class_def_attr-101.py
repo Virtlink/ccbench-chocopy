@@ -14,9 +14,9 @@ c:C = None
 
 a = A()
 b = B()
-c = $Exp
+c = C()
 
-a.x = 1
+a.x = $Exp
 b.x = a.x
 c.z = a.x == b.x
 

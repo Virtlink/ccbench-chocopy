@@ -13,6 +13,6 @@ b:B = None
 c:C = None
 
 a = A()
-$Target = B()
-b = a = c = C()
+a = B()
+$Var = a = c = C()
 c = None

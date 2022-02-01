@@ -1,1 +1,1 @@
-print(1 - 100)
+$Statement

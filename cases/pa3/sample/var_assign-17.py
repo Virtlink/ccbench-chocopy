@@ -1,4 +1,4 @@
 x:int = 0
-y:object = $INT
-x = y = 42
+y:object = 1
+$Statement
 print(x)

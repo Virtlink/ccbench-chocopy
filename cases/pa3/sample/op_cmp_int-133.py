@@ -10,7 +10,7 @@ print(x >= y)
 
 print(x == x)
 print(x != x)
-$Exp(x < x)
+print(x < $ID)
 print(x <= x)
 print(x > x)
 print(x >= x)

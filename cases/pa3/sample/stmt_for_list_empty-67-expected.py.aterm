@@ -1,1 +1,1 @@
-For("y",Var2Exp(Var("e")),Block([Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(String("\"Never\""))])))]))
+Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(String("\"Never\""))]))

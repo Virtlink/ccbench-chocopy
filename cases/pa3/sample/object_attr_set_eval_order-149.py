@@ -22,9 +22,9 @@ def get_false() -> bool:
     print("Getting False")
     return False
 
-a = b = $Exp()
+a = b = B()
 get_b().a = get_one()
-print("Assigned B.a")
+$Exp("Assigned B.a")
 get_b().b = get_false()
 print("Assigned B.b")
 

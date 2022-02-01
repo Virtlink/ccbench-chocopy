@@ -1,8 +1,8 @@
 def f() -> bool:
   print("f called")
-  return $Exp
+  return True
 
-def g() -> bool:
+def g() $RetType:
   print("g called")
   return False
 

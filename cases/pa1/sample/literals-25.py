@@ -3,5 +3,5 @@ False
 1
 None
 "This is a string"
-[$INT, 2, 3]
+[1, $INT, 3]
 

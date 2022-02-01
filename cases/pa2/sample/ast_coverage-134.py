@@ -17,9 +17,9 @@ class bar(object):
                 x = -1
 
         for x in xx:
-            $Var.p = x == 2
+            self.p = x == 2
 
-        qux(0) # Yay! ChocoPy
+        qux($Exp) # Yay! ChocoPy
 
         count = count + 1
 

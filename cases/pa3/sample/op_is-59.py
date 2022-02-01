@@ -7,7 +7,7 @@ a3:A = None
 a4:A = None
 
 a1 = A()
-$AssignTarget a1
+a2 = $ID
 a3 = A()
 
 print(a1 is a1)

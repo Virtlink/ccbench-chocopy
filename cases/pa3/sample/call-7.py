@@ -1,8 +1,5 @@
-def f() -> $Type:
-    print("start f")
-    g()
-    print("end f")
-    return 42
+def f() -> int:
+    $FuncBody
 
     
 def g() -> object:

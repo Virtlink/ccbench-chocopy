@@ -1,1 +1,1 @@
-Literal2Exp(NONE())
+Literal2Exp(Int("2"))

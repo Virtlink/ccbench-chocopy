@@ -1,4 +1,4 @@
-x:[int] = $Literal
-y:[int] = None
+x:[int] = None
+$Definition
 
 print(len(x+y))

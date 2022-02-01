@@ -1,4 +1,4 @@
 def foo(x:int, y:int) -> bool:
-    return $ID > y
+    return x > y
 
-foo(1,2)
+$Statement

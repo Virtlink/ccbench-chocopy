@@ -9,7 +9,9 @@ class B(A):
         pass
 
 class C(B):
-    $ClassBody
+    z:bool = True
+
+    $FuncDef
 
 a:A = None
 b:B = None

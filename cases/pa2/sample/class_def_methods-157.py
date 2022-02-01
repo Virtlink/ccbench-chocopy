@@ -20,9 +20,9 @@ c:C = None
 
 a = A()
 b = B()
-c = $ID()
+c = C()
 
 b.x = a.get_A()
-a.x = b.get_A()
+$Target = b.get_A()
 c.set_A(0)
 

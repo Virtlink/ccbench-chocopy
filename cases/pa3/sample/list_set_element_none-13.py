@@ -1,4 +1,4 @@
 x:[int] = None
 
-$AssignTarget 1
+$Exp[0] = 1
 

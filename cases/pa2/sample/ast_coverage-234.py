@@ -28,7 +28,8 @@ class bar(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            $ElifElse
+            elif foo("Long"[0]) == 1:
+                $Exp.p = self is None
 
         return "Nope"
 

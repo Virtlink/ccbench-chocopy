@@ -1,6 +1,6 @@
 def f() -> int:
     while True:
         return 1
-    $Statement
+    return 0
 
-print(f())
+$Exp

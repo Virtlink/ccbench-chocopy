@@ -4,8 +4,8 @@ class A(object):
     def foo(self:"A", ignore:object) -> int:
         return self.a
 
-class $ID(A):
-    b:bool = True
+class B(A):
+    $TypedVar = True
 
     def __init__(self:"B"):
         print("B")

@@ -1,5 +1,5 @@
-x:str = $STRING
-a:str = ""
+x:str = ""
+$Definition
 
 def str_get(s:str, i:int) -> str:
     return s[i]

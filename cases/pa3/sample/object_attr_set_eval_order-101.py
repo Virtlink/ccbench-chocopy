@@ -15,10 +15,10 @@ def get_b() -> B:
     return b
 
 def get_one() -> int:
-    $Exp
+    print("Getting 1")
     return 1
 
-def get_false() -> bool:
+def $ID() -> bool:
     print("Getting False")
     return False
 

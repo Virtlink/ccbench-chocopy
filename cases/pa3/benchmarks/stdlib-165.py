@@ -17,9 +17,9 @@ def int_to_str(x: int) -> str:
     result = result + digits[x % 10]
     return result
 
-def str_to_int(x: $ID) -> int:
+def str_to_int(x: str) -> int:
     result:int = 0
-    digit:int = 0
+    $VarDef
     char:str = ""
     sign:int = 1
     first_char:bool = True

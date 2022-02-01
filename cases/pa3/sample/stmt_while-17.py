@@ -1,4 +1,3 @@
 x:int = 1
-while x < $Literal:
-    print(x)
-    x = x + 1
+while x < 10:
+    $Block

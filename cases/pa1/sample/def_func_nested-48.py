@@ -3,8 +3,8 @@ def foo(x:int) -> bool:
     a:int = 0
     b:int = 1
     def bar(y: int) -> int:
-        a:$Type = 2 
-        return y
+        a:int = 2 
+        return $Exp
     return bar(x) > a
 
 foo(1)

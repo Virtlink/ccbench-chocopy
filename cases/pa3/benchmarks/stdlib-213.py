@@ -25,9 +25,9 @@ def str_to_int(x: str) -> int:
     first_char:bool = True
 
     # Parse digits
-    for char in $Exp:
+    for char in x:
         if char == "-":
-            if not first_char:
+            if not $Var:
                 return 0 # Error
             sign = -1
         elif char == "0":

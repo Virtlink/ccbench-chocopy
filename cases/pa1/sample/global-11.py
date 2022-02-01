@@ -1,5 +1,5 @@
 x:int = 1
 
-$Statement
+$Target = 2
 
 print(x)

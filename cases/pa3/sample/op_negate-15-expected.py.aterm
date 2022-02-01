@@ -1,1 +1,1 @@
-"print"
+Negative(Var2Exp(Var("x")))

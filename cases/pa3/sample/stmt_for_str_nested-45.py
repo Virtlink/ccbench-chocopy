@@ -4,5 +4,5 @@ z:str = "abc"
 
 for x in z:
     print(x)
-    for $ID in y:
-        print(x)
+    for x in y:
+        $Block

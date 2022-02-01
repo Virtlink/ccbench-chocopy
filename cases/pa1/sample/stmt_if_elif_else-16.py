@@ -1,5 +1,5 @@
 if 1 > 2:
-    $Var(1)
+    print($Exp)
 elif 3 == 4:
     print(2)
 elif True:

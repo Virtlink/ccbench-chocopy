@@ -5,10 +5,9 @@ d:str = ""
 e:str = ""
 
 def cat2(a:str, b:str) -> str:
-    return $ID + b
+    return a + b
 
-def cat3(a:str, b:str, c:str) -> str:
-    return a + b + c
+$Definition
 
 c = cat2(b, a)
 d = cat2(a, a)

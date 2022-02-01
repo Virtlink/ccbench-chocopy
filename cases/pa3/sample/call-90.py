@@ -11,7 +11,7 @@ def g() -> object:
     print("end g")
 
 def h() -> object:
-    $Statement
-    print("end h")
+    print("start h")
+    print($Literal)
 
 print(f())

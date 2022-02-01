@@ -1,5 +1,5 @@
 x:int = 42
 y:int = 9
 
-$ID(x // y)
+print($Exp)
 print(x % y)

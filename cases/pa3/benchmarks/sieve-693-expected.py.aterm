@@ -1,1 +1,1 @@
-Var2Exp(Var("j"))
+VarDef2Definition(VarDef(TypedVar("n",Type("int")),Int("50")))

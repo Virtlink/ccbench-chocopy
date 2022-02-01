@@ -1,8 +1,8 @@
 x:int = 42
 y:int = 7
 
-print(x == $Var)
-print(x != y)
+print(x == y)
+$Exp
 print(x < y)
 print(x <= y)
 print(x > y)

@@ -1,5 +1,5 @@
 print(True == True)
-$Exp(True == False)
+print($Parameters)
 print(False == True)
 print(False == False)
 print(True != True)

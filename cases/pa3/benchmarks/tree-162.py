@@ -15,7 +15,8 @@ class TreeNode(object):
 			if self.right is None:
 				self.right = makeNode(x)
 				return True
-			$ElifElse
+			else:
+				return self.right.insert($Var)
 		return False
 
 	def contains(self:"TreeNode", x:int) -> bool:

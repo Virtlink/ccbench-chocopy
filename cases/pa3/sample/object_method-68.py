@@ -8,9 +8,8 @@ class B(A):
     b:bool = True
 
     def __init__(self:"B"):
-        $Statement
+        print("B")
 
-    def bar(self:"B") -> int:
-        return self.foo(self.b)
+    $ClassBodyMember
 
 print(B().bar())

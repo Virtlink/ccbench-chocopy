@@ -18,8 +18,8 @@ a:A = None
 b:B = None
 c:C = None
 
- A()
-b = B()
+a = A()
+b = $Exp()
 c = C()
 
 b.x = a.get_A()

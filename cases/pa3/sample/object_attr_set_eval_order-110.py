@@ -16,10 +16,10 @@ def get_b() -> B:
 
 def get_one() -> int:
     print("Getting 1")
-    $Statement
+    return 1
 
 def get_false() -> bool:
-    print("Getting False")
+    $ID("Getting False")
     return False
 
 a = b = B()

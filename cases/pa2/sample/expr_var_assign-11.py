@@ -1,4 +1,4 @@
 x:int = 1
-$VarDef
+$TypedVar = None
 
 x = o = 42

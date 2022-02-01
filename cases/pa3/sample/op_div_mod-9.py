@@ -1,5 +1,5 @@
-x:int = $INT
-y:int = 9
+x:int = 42
+$Definition
 
 print(x // y)
 print(x % y)

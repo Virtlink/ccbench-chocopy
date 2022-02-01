@@ -49,13 +49,13 @@ class Vector(object):
         return self.size
 
 # A faster (but more memory-consuming) implementation of vector
-class $ID(Vector):
+class DoublingVector(Vector):
     doubling_limit:int = 1000
 
     # Overriding to do fewer resizes
     def increase_capacity(self:"DoublingVector") -> int:
         if (self.capacity() <= self.doubling_limit // 2):
-            self.items = self.items + self.items
+            $Statement
         else:
             # If doubling limit has been reached, fall back to
             # standard capacity increases

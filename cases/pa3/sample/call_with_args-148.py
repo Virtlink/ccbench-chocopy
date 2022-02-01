@@ -14,6 +14,6 @@ def g(y:int, z:int) -> object:
     print("end g")
 
 def h(msg: str) -> object:
-    $Var(msg)
+    print(msg)
 
-print(f(4))
+print(f($INT))

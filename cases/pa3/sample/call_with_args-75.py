@@ -6,8 +6,8 @@ def f(x:int) -> int:
     return x
 
     
-def g(y:int, z:int) $RetType:
-    print("start g")
+def g(y:int, z:int) -> object:
+    print($Parameters)
     print(y)
     print(z)
     h("h")

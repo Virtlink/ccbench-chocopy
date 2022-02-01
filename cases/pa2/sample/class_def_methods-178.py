@@ -23,6 +23,6 @@ b = B()
 c = C()
 
 b.x = a.get_A()
-$Statement
-c.set_A(0)
+a.x = b.get_A()
+c.$ID(0)
 

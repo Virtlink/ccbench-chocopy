@@ -12,6 +12,6 @@ print(eq(a,a))
 print(eq(a,b))
 print(neq(a,b))
 print(neq(b,b))
-print($Var(c,a))
-print(neq(c,b))
+print(eq(c,a))
+print($Var(c,b))
 

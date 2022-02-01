@@ -3,4 +3,6 @@
 s: str = ""
 
 s = input()
-$Statement
+while $Var(s) > 0:
+    print(s)
+    s = input()

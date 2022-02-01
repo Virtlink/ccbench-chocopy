@@ -8,8 +8,8 @@ def f(x:int) -> int:
     
 def g(y:int, z:int) -> object:
     print("start g")
-    $Exp(y)
-    print(z)
+    print(y)
+    print($Parameters)
     h("h")
     print("end g")
 

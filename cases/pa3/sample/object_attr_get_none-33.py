@@ -4,7 +4,7 @@ class A(object):
 class B(A):
     b:bool = True
 
-    def __init__($TypedVar):
+    def __init__(self:"$ID"):
         print("B")
 
 a:A = None

@@ -1,1 +1,1 @@
-"\"World\""
+VarDef2Definition(VarDef(TypedVar("c",Type("str")),String("\"ChocoPy\"")))

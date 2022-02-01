@@ -1,4 +1,4 @@
-next:int = $Literal
+next:int = $INT
 
 def next_int() -> int:
     global next

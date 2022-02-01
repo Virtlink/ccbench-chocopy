@@ -1,1 +1,1 @@
-[Nonlocal("a")]
+Var2Target(Var("a"))

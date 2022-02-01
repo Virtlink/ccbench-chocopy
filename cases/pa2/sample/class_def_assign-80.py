@@ -12,7 +12,7 @@ a:A = None
 b:B = None
 c:C = None
 
-a = $ID()
-a = B()
+a = A()
+a = $Var()
 b = a = c = C()
 c = None

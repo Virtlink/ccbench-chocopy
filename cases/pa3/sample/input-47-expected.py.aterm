@@ -1,1 +1,1 @@
-Var("s")
+Call(Var2Exp(Var("input")),Exps2Parameters([]))

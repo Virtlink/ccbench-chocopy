@@ -1,1 +1,1 @@
-Target(Var2Target(Var("found")))
+Literal2Exp(Int("1"))

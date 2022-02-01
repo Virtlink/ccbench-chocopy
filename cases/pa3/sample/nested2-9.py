@@ -1,14 +1,4 @@
-g: int = $INT
-def foo(x: int) -> int:
-    y: int = 2
-    def bar() -> int:
-        z: int = 3
-        def baz() -> int:
-            return qux(y)
-        return baz()
-    def qux(p: int) -> int:
-        return p
-
-    return bar()
+g: int = 1
+$Definition
     
 print(foo(g))

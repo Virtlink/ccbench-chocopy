@@ -1,4 +1,4 @@
-$Statement
+$Literal
 False
 1
 None

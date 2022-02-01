@@ -1,4 +1,4 @@
 x:[int] = None
 y:[int] = None
 
-$Statement
+$Exp(len(x+y))

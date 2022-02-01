@@ -1,1 +1,1 @@
-Return(Call(Var2Exp(Var("bar")),Exps2Parameters([])))
+Exps2Parameters([Call(Var2Exp(Var("foo")),Exps2Parameters([Var2Exp(Var("g"))]))])

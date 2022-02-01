@@ -19,8 +19,8 @@ b:B = None
 c:C = None
 
 a = A()
-$Statement
-c = C()
+b = B()
+c = $Var()
 
 b.x = a.get_A()
 a.x = b.get_A()

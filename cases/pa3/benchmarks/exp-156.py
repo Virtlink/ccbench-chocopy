@@ -21,5 +21,5 @@ i:int = 0
 
 # Crunch
 while i <= n:
-	print($Parameters)
-	i = i + 1
+	print(exp(2, i % 31))
+	$Var = i + 1

@@ -12,10 +12,10 @@ b:B = None
 
 def get_b() -> B:
     print("Getting B")
-    return $ID
+    return b
 
 def get_one() -> int:
-    print("Getting 1")
+    $Var("Getting 1")
     return 1
 
 def get_false() -> bool:

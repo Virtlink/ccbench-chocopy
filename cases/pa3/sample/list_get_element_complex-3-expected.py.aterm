@@ -1,1 +1,1 @@
-VarDef(TypedVar("next",Type("int")),Int("0"))
+TypedVar("next",Type("int"))

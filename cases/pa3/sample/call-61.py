@@ -6,9 +6,9 @@ def f() -> int:
 
     
 def g() -> object:
-    print($Literal)
+    print("start g")
     h()
-    print("end g")
+    $Var("end g")
 
 def h() -> object:
     print("start h")

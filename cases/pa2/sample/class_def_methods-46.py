@@ -5,7 +5,7 @@ class A(object):
         return self.x
 
 class B(A):
-    def $ID(self: "B"):
+    def __init__(self: "B")$RetType:
         pass
 
 class C(B):

@@ -5,5 +5,5 @@ x[0] = 4
 x[1] = 5
 x[2] = 6
 print(x[0])
-$ID(x[1])
+print(x[$Literal])
 print(x[2])

@@ -22,9 +22,9 @@ def get_false() -> bool:
     print("Getting False")
     return False
 
-a = $ID = B()
+a = b = B()
 get_b().a = get_one()
-print("Assigned B.a")
+$Statement
 get_b().b = get_false()
 print("Assigned B.b")
 

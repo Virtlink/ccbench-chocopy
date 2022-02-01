@@ -9,8 +9,8 @@ def cat3(a:str, b:str, c:str) -> str:
     return a + b + c
 
 print(cat2(a, b))
-print(cat2())
-print(cat3(a, " ", c))
+print(cat2("", c))
+print($Parameters)
 print(len(a))
 print(len(cat2(a,a)))
 print(len(cat2("","")))

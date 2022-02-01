@@ -63,7 +63,7 @@ n:int = 100
 c:int = 4
 
 # Data
-$ID:Tree = None
+t:Tree = None
 i:int = 0
 k:int = 37813
 
@@ -71,7 +71,7 @@ k:int = 37813
 t = Tree()
 while i < n:
 	t.insert(k)
-	k = (k * 37813) % 37831
+	$Target = (k * 37813) % 37831
 	if i % c != 0:
 		t.insert(i)
 	i = i + 1

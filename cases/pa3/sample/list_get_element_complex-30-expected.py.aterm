@@ -1,1 +1,1 @@
-Var("next")
+Return(Var2Exp(Var("next")))

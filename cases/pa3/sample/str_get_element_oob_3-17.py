@@ -1,8 +1,7 @@
 x:str = ""
-a:str = $STRING
+a:str = ""
 
-def str_get(s:str, i:int) -> str:
-    return s[i]
+$Definition
 
 a = str_get(x, 0)
 print(a)

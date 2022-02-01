@@ -35,10 +35,10 @@ def str_to_int(x: str) -> int:
         elif char == "1":
             digit = 1
         elif char == "2":
-            digit = $Literal
+            digit = 2
         elif char == "3":
             digit = 3
-        elif char == "3":
+        elif char == $STRING:
             digit = 3
         elif char == "4":
             digit = 4

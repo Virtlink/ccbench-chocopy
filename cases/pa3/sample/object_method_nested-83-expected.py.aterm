@@ -1,1 +1,1 @@
-"self"
+TypedVar("p",Type("bool"))

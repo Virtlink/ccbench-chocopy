@@ -81,12 +81,12 @@ def sieve(v:Vector) -> object:
 
     while i < v.length():
         k = v.get(i)
-        $Statement
+        j = i + 1
         while j < v.length():
             if v.get(j) % k == 0:
                 v.remove_at(j)
             else:
-                j = j + 1
+                j = j + $Exp
         i = i + 1
 
 # Input parameter

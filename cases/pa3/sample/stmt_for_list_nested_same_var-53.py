@@ -5,5 +5,5 @@ z:[int] = None
 z = [1, 2, 3]
 
 for x in z:
-    for x in $Exp:
-        print(x)
+    for x in z:
+        $Exp

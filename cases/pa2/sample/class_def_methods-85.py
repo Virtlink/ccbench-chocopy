@@ -11,8 +11,8 @@ class B(A):
 class C(B):
     z:bool = True
 
-    def set_A(self: "C", val: int) -> $Type:
-        self.x = val
+    def set_A(self: "C", val: int) -> object:
+        self.x = $Exp
 
 a:A = None
 b:B = None

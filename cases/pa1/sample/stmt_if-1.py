@@ -1,3 +1,2 @@
-if True:
-    False
+$Statement
 

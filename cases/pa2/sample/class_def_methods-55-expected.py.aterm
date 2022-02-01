@@ -1,1 +1,1 @@
-[]
+VarDef(TypedVar("z",Type("bool")),True())

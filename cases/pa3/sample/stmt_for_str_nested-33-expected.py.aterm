@@ -1,1 +1,1 @@
-[Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Var2Exp(Var("x"))]))),For("x",Var2Exp(Var("y")),Block([Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Var2Exp(Var("x"))])))]))]
+Var2Exp(Var("print"))

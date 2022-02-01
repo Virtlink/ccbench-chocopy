@@ -5,8 +5,8 @@ def exp(x: int, y: int) -> int:
 		nonlocal a
 		def geta() -> int:
 			return a
-		if $ID <= 0:
-			return geta()
+		if i <= 0:
+			return $ID()
 		else:
 			a = a * x
 			return f(i-1)

@@ -1,2 +1,2 @@
-$Definition
+$VarDef
 print(-x)

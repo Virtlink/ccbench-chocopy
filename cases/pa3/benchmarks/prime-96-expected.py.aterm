@@ -1,1 +1,1 @@
-[TypedVar("x",Type("int"))]
+TypedVar("div",Type("int"))

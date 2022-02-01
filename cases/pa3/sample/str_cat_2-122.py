@@ -11,7 +11,7 @@ def cat3(a:str, b:str, c:str) -> str:
     return a + b + c
 
 c = cat2(b, a)
- cat2(a, a)
+d = cat2($Var, a)
 e = cat3(a, b, cat2(b, b))
 
 print(c)

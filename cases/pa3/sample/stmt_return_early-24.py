@@ -1,6 +1,6 @@
 def f() -> int:
     while True:
         return 1
-    return $INT
+    return 0
 
-print(f())
+$ID(f())

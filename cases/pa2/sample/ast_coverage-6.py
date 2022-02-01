@@ -1,4 +1,4 @@
-count:$Type = 0
+count:$ID = 0
 
 def foo(s: str) -> int:
     return len(s)

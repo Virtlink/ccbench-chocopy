@@ -1,5 +1,5 @@
 class A(object):
-    a:$Type = 42
+    a:int = $Literal
 
     def foo(self:"A", ignore:object) -> int:
         return self.a

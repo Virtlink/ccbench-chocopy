@@ -1,1 +1,1 @@
-TypedVar("z",Type("int"))
+"z"

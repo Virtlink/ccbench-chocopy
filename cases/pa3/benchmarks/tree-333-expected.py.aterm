@@ -1,1 +1,1 @@
-TypedVar("x",Type("int"))
+Exps2Parameters([Var2Exp(Var("x"))])

@@ -63,7 +63,15 @@ class DoublingVector(Vector):
         return self.capacity()
 
 # Makes a vector in the range [i, j)
-$FuncDef
+def vrange(i:int, j:int) -> Vector:
+    v:Vector = None
+    v = DoublingVector()
+    
+    while i < j:
+        v.append(i)
+        $Var = i + 1
+
+    return v
 
 # Sieve of Eratosthenes (not really)
 def sieve(v:Vector) -> object:

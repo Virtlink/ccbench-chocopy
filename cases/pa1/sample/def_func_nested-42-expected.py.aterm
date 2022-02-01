@@ -1,1 +1,1 @@
-FuncBody([VarDef2FuncBodyMember(VarDef(TypedVar("a",Type("int")),Int("2")))],[Return(Var2Exp(Var("y")))])
+"a"

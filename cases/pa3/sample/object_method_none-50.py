@@ -5,10 +5,9 @@ class A(object):
         return self.a
 
 class B(A):
-    $TypedVar = True
+    b:bool = True
 
-    def __init__(self:"B"):
-        print("B")
+    $FuncDef
 
     def bar(self:"B") -> int:
         a:A = None

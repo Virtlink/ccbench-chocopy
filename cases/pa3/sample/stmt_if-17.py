@@ -1,7 +1,6 @@
 if False:
-    print($STRING)
+    print("No")
 elif True:
-    if True:
-        print("Yes")
+    $Block
 else:
     pass

@@ -1,1 +1,1 @@
-VarDef(TypedVar("c",Type("int")),Int("42"))
+Leq(Var2Exp(Var("i")),Mul(Var2Exp(Var("n")),Var2Exp(Var("c"))))

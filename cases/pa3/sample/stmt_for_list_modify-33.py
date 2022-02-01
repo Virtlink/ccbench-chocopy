@@ -1,8 +1,8 @@
 x:int = 0
 z:[int] = None
 
-z = [1, 2, $Exp]
+z = [1, 2, 1]
 
-for x in z:
+for $ID in z:
     z[x] = x
     print(x)

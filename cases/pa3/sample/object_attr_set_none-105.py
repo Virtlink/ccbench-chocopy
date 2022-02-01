@@ -14,6 +14,6 @@ a = B()
 print(a.a)
 
 b.a = 1
- False
-print(b.a)
+b.b = False
+$Var(b.a)
 print(b.b)

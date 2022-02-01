@@ -11,7 +11,7 @@ def g() -> object:
     print("end g")
 
 def h() -> object:
-    $Exp
-    print("end h")
+    print("start h")
+    print($STRING)
 
 print(f())

@@ -4,7 +4,7 @@ def outer() -> int:
         x = 1
         return x
     x:int = 0
-    $ID()
+    inner()
     return x
 
-print(outer())
+$Exp(outer())

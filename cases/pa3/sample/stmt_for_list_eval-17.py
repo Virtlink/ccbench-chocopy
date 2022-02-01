@@ -1,7 +1,7 @@
 x:int = 0
-z:[int] = $Literal
+z:[int] = None
 
-z = [1, 2, 3]
+$Statement
 
 for x in z:
     z = []

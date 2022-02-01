@@ -1,5 +1,5 @@
 # Get the n-th prime starting from 2
-def get_prime(n:int) $RetType:
+def get_prime(n:int) -> $ID:
     candidate:int = 2
     found:int = 0
     while True:

@@ -1,9 +1,8 @@
 a:str = "Hello"
 b:str = "World"
-c:str = $STRING
+c:str = "ChocoPy"
 
-def eq(a:str, b:str) -> bool:
-    return a == b
+$Definition
 
 def neq(a:str, b:str) -> bool:
     return a != b

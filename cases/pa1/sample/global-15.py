@@ -1,5 +1,5 @@
 x:int = 1
 
-$Var = 2
+x = $Literal
 
 print(x)

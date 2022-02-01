@@ -4,7 +4,7 @@ y:int = 7
 print(x == y)
 print(x != y)
 print(x < y)
-print($Exp)
+print(x <= $ID)
 print(x > y)
 print(x >= y)
 

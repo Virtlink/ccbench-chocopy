@@ -18,8 +18,8 @@ def int_to_str(x: int) -> str:
     return result
 
 def str_to_int(x: str) -> int:
-    $FuncBodyMember
-    digit:int = 0
+    result:int = 0
+    digit:int = $INT
     char:str = ""
     sign:int = 1
     first_char:bool = True

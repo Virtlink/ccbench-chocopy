@@ -9,7 +9,10 @@ class B(A):
         pass
 
 class C(B):
-    
+    z:bool = True
+
+    def $ID(self: "C", val: int) -> object:
+        self.x = val
 
 a:A = None
 b:B = None

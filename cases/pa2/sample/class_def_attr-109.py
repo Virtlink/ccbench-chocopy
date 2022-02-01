@@ -16,7 +16,7 @@ a = A()
 b = B()
 c = C()
 
-$AssignTarget 1
-b.x = a.x
+a.x = 1
+$Var.x = a.x
 c.z = a.x == b.x
 

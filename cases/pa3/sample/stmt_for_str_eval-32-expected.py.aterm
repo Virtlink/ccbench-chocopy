@@ -1,1 +1,1 @@
-Literal2Exp(String("\"doesn't matter\""))
+Call(Var2Exp(Var("print")),Exps2Parameters([Var2Exp(Var("x"))]))

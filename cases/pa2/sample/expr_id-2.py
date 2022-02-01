@@ -1,3 +1,3 @@
-$Definition
+$VarDef
 
 x - 1

@@ -1,1 +1,1 @@
-"print"
+Sub(Literal2Exp(Int("1")),Literal2Exp(Int("100")))

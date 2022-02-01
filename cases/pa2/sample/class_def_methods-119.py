@@ -16,10 +16,10 @@ class C(B):
 
 a:A = None
 b:B = None
-$ID:C = None
+c:C = None
 
 a = A()
-b = B()
+$Statement
 c = C()
 
 b.x = a.get_A()

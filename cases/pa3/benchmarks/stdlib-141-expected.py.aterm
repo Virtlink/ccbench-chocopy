@@ -1,1 +1,1 @@
-"result"
+Return(Var2Exp(Var("result")))

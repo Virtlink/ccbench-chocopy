@@ -26,4 +26,5 @@ i:int = 1
 
 # Crunch
 while i <= n:
-    $Block
+    print(get_prime(i))
+    $Target = i + 1

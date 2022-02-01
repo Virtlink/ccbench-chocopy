@@ -8,9 +8,9 @@ class B(A):
     b:bool = True
 
     def __init__(self:"B"):
-        print($Literal)
+        print("B")
 
-    def bar(self:"B") -> int:
+    def bar(self:"B") $RetType:
         return self.foo(self.b)
 
 print(B().bar())

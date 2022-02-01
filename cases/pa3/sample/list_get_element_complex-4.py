@@ -1,4 +1,4 @@
-$TypedVar = 0
+$ID:int = 0
 
 def next_int() -> int:
     global next

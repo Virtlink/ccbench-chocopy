@@ -1,4 +1,4 @@
 x:[int] = None
-$Definition
+$VarDef
 
 print(len(x+y))

@@ -2,11 +2,10 @@ class A(object):
     x:int = 1
 
     def get_A(self: "A") -> int:
-        return self.$ID
+        return self.x
 
 class B(A):
-    def __init__(self: "B"):
-        pass
+    $ClassBody
 
 class C(B):
     z:bool = True

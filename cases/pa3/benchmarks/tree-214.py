@@ -21,7 +21,10 @@ class TreeNode(object):
 
 	def contains(self:"TreeNode", x:int) -> bool:
 		if x < self.value:
-			$Block
+			if self.left is None:
+				return False
+			else:
+				return $Member(x)
 		elif x > self.value:
 			if self.right is None:
 				return False

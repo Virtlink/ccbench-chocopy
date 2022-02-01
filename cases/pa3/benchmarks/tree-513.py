@@ -54,7 +54,7 @@ class Tree(object):
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None
 	b = TreeNode()
-	$AssignTarget x
+	b.value = x
 	return b
 
 
@@ -68,7 +68,7 @@ i:int = 0
 k:int = 37813
 
 # Crunch
-t = Tree()
+$Statement
 while i < n:
 	t.insert(k)
 	k = (k * 37813) % 37831

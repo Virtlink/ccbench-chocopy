@@ -14,10 +14,10 @@ class bar(object):
         def qux(y: int) -> object:
             nonlocal x
             if x > y:
-                $AssignTarget -1
+                x = -1
 
         for x in xx:
-            self.p = x == 2
+            $Block
 
         qux(0) # Yay! ChocoPy
 

@@ -1,5 +1,5 @@
 class A(object):
-    a:$Type = 42
+    a:int = $Literal
 
 a1:A = None
 a2:A = None

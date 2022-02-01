@@ -15,5 +15,5 @@ print(a.a)
 
 b.a = 1
 b.b = False
-print()
-print(b.b)
+print(b.a)
+print($Member)

@@ -49,12 +49,12 @@ class Tree(object):
 		if self.root is None:
 			return False
 		else:
-			$Statement
+			return self.root.contains(x)
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None
 	b = TreeNode()
-	b.value = x
+	$Member = x
 	return b
 
 

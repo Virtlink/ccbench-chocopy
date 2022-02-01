@@ -1,4 +1,4 @@
 x:[int] = None
 
-$Statement
+$Target = []
 x[0] = 4

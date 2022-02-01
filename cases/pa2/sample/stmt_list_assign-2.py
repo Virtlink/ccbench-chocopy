@@ -1,4 +1,4 @@
-$Definition
+$VarDef
 y:[object] = None
 
 x = [1, 2]

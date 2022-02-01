@@ -1,4 +1,4 @@
-$Definition
+$VarDef
 z:[int] = None
 
 z = [1, 2, 1]

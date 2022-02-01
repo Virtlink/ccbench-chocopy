@@ -8,8 +8,8 @@ class B(A):
 class C(B):
     z:bool = True
 
-a:$ID = None
-b:B = None
+a:A = None
+b:$ID = None
 c:C = None
 
 a = A()

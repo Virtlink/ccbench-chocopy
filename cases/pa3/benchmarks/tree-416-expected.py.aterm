@@ -1,1 +1,1 @@
-Member2Exp(Member(Var2Exp(Var("self")),"size"))
+Return(Call(Member2Exp(Member(Member2Exp(Member(Var2Exp(Var("self")),"root")),"contains")),Exps2Parameters([Var2Exp(Var("x"))])))

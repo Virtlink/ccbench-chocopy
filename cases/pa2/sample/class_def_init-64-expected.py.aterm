@@ -1,1 +1,1 @@
-VarDef(TypedVar("c",Type("C")),NONE())
+Target(Var2Target(Var("a")))

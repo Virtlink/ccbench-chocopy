@@ -3,10 +3,8 @@ def get_prime(n:int) -> int:
     candidate:int = 2
     found:int = 0
     while True:
-        if $ID(candidate):
-            found = found + 1
-            if found == n:
-                return candidate
+        if is_prime(candidate):
+            $Block
         candidate = candidate + 1
     return 0 # Never happens
 

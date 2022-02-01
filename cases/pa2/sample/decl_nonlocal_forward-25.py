@@ -1,8 +1,8 @@
 def outer() -> int:
     def inner() -> int:
         nonlocal x
-        $AssignTarget 1
-        return x
+        x = 1
+        $Statement
     x:int = 0
     inner()
     return x

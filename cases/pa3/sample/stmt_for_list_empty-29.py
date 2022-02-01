@@ -1,7 +1,7 @@
 x:int = 0
 y:int = 0
 z:[int] = None
-$ID:[int] = None
+e:$Type = None
 
 z = [1,2,3]
 e = []

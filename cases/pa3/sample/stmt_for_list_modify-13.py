@@ -1,5 +1,5 @@
 x:int = 0
-$ID:[int] = None
+z:$Type = None
 
 z = [1, 2, 1]
 

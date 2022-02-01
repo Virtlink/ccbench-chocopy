@@ -1,6 +1,6 @@
 a:str = "Hello"
-b:str = $STRING
-c:str = "ChocoPy"
+b:str = "World"
+$Definition
 
 def eq(a:str, b:str) -> bool:
     return a == b

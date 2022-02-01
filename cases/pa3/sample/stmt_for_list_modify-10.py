@@ -1,5 +1,5 @@
 x:int = 0
-$Definition
+$VarDef
 
 z = [1, 2, 1]
 

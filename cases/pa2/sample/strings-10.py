@@ -1,5 +1,5 @@
 x:str = "Hello"
-$Definition
+$VarDef
 z:str = ""
 
 z = x + y

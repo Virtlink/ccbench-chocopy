@@ -14,6 +14,6 @@ a = B()
 print(a.a)
 
 b.a = 1
-$Exp.b = False
-print(b.a)
+b.b = False
+print($Member)
 print(b.b)

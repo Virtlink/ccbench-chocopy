@@ -7,8 +7,8 @@ def f(x:int) -> int:
 
     
 def g(y:int, z:int) -> object:
-    print()
-    print(y)
+    print("start g")
+    print($ID)
     print(z)
     h("h")
     print("end g")

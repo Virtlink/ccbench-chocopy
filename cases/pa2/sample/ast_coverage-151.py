@@ -19,11 +19,11 @@ class bar(object):
         for x in xx:
             self.p = x == 2
 
-        qux($Exp) # Yay! ChocoPy
+        qux(0) # Yay! ChocoPy
 
         count = count + 1
 
-        while x <= 0:
+        while $Exp <= 0:
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p

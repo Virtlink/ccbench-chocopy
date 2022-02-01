@@ -7,6 +7,6 @@ x = [1, 2, 3]
 x = []
 y = [1, True]
 z = [False, True]
-$Var = None
-o = x
+x = None
+o = $ID
 o = x = [1]

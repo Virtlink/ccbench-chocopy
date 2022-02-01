@@ -13,6 +13,6 @@ b:B = None
 c:C = None
 
 a = A()
-$Var = B()
-b = a = c = C()
+a = B()
+$ID = a = c = C()
 c = None

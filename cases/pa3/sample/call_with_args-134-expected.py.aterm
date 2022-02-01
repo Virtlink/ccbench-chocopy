@@ -1,1 +1,1 @@
-[TypedVar("msg",Type("str"))]
+"msg"

@@ -38,9 +38,9 @@ class Tree(object):
 	size:int = 0
 
 	def insert(self:"Tree", x:int) -> object:
-		if $Exp.root is None:
+		if self.root is None:
 			self.root = makeNode(x)
-			self.size = 1
+			self.size = $INT
 		else:
 			if self.root.insert(x):
 				self.size = self.size + 1

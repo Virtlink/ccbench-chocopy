@@ -75,7 +75,19 @@ def vrange(i:int, j:int) -> Vector:
 
 # Sieve of Eratosthenes (not really)
 def sieve(v:Vector) -> object:
-    $FuncBody
+    i:int = 0
+    j:int = 0
+    k:int = 0
+
+    while i < v.length():
+        k = v.get(i)
+        j = i + $Exp
+        while j < v.length():
+            if v.get(j) % k == 0:
+                v.remove_at(j)
+            else:
+                j = j + 1
+        i = i + 1
 
 # Input parameter
 n:int = 50

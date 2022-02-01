@@ -1,7 +1,7 @@
 True
 False
-$Literal
-None
+1
+$Statement
 "This is a string"
 [1, 2, 3]
 

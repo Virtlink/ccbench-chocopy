@@ -3,7 +3,7 @@ def set_x() -> int:
     x = 1
     return x
 
-$ID:int = 0
+x:int = 0
 
-set_x()
+$Statement
 print(x)

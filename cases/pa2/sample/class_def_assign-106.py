@@ -14,5 +14,5 @@ c:C = None
 
 a = A()
 a = B()
-b = a = $Target = C()
-c = None
+b = a = c = C()
+c = $Exp

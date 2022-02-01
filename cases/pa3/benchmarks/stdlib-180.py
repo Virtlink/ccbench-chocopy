@@ -19,9 +19,9 @@ def int_to_str(x: int) -> str:
 
 def str_to_int(x: str) -> int:
     result:int = 0
-    $VarDef
+    digit:int = 0
     char:str = ""
-    sign:int = 1
+    $FuncBodyMember
     first_char:bool = True
 
     # Parse digits

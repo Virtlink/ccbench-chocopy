@@ -9,9 +9,9 @@ class bar(object):
     def baz(self:"bar", xx: [int]) -> str:
         global count
         x:int = 0
-        y:int = $INT
+        y:int = 1
 
-        def qux(y: int) -> object:
+        def qux(y: int) $RetType:
             nonlocal x
             if x > y:
                 x = -1

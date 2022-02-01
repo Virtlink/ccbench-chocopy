@@ -1,7 +1,7 @@
 def foo(x:str, y:bool) -> int:
     return bar()
 
-def bar() $RetType:
-    return 1
+def bar() -> int:
+    return $Literal
 
 foo("Hello", False)

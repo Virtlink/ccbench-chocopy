@@ -14,6 +14,6 @@ a = B()
 print(a.a)
 
 b.a = 1
-$Var.b = False
-print(b.a)
+b.b = False
+print($Exp.a)
 print(b.b)

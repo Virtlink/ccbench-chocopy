@@ -12,6 +12,6 @@ a:A = None
 b:B = None
 c:C = None
 
-$Statement
+a = $ID()
 b = B()
 c = C()

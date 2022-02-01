@@ -27,13 +27,13 @@ class TreeNode(object):
 				return self.left.contains(x)
 		elif x > self.value:
 			if self.right is None:
-				return $Exp
+				return False
 			else:
 				return self.right.contains(x)
 		else:
 			return True
 
-class Tree(object):
+class $ID(object):
 	root:TreeNode = None
 	size:int = 0
 

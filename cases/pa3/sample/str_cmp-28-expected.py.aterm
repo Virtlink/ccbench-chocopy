@@ -1,1 +1,1 @@
-"eq"
+TypedVar("a",Type("str"))

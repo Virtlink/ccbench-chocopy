@@ -10,8 +10,8 @@ class B(A):
 a:A = None
 b:B = None
 
-def get_b() -> $ID:
-    print("Getting B")
+def get_b() -> B:
+    print($Exp)
     return b
 
 def get_one() -> int:

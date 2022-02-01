@@ -1,4 +1,4 @@
 s:str = "Hello"
 
-for s in $Var:
-    s[0]
+for s in s:
+    $Block

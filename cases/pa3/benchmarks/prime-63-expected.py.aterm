@@ -1,1 +1,1 @@
-Eq(Var2Exp(Var("found")),Var2Exp(Var("n")))
+Return(Var2Exp(Var("candidate")))

@@ -1,1 +1,1 @@
-VarDef(TypedVar("y",Type("str")),String("\"World\""))
+TypedVar("y",Type("str"))

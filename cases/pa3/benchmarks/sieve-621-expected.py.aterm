@@ -1,1 +1,1 @@
-TypedVar("i",Type("int"))
+Lt(Var2Exp(Var("j")),Call(Member2Exp(Member(Var2Exp(Var("v")),"length")),Exps2Parameters([])))

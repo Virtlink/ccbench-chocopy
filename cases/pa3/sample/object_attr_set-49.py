@@ -5,9 +5,9 @@ class B(A):
     b:bool = True
 
     def __init__(self:"B"):
-        print($Exp)
+        print("B")
 
-a:A = None
+a:$Type = None
 b:B = None
 
 a = b = B()

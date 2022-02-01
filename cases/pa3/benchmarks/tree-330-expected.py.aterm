@@ -1,1 +1,1 @@
-TypeS(IdString("Tree"))
+Var2Exp(Var("makeNode"))

@@ -1,7 +1,7 @@
 
 def foo(x:int) -> bool:
-    a:int = $Literal
-    b:int = 1
+    a:int = 0
+    $VarDef
     def bar(y: int) -> int:
         nonlocal a
         a = 2 

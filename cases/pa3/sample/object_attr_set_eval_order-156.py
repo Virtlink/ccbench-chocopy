@@ -23,9 +23,9 @@ def get_false() -> bool:
     return False
 
 a = b = B()
-$AssignTarget get_one()
+get_b().a = get_one()
 print("Assigned B.a")
-get_b().b = get_false()
+$Statement
 print("Assigned B.b")
 
 print(a.a)

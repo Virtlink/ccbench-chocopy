@@ -10,6 +10,8 @@ def g() -> object:
     h()
     print("end g")
 
-$FuncDef
+def h() -> object:
+    print($Literal)
+    print("end h")
 
 print(f())

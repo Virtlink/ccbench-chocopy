@@ -1,5 +1,5 @@
 x:[int] = None
-y:[$Type] = None
+y:[$ID] = None
 z:[bool] = None
 o:object = None
 

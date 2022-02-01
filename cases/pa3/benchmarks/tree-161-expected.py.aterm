@@ -1,1 +1,1 @@
-True()
+Var2Exp(Var("x"))

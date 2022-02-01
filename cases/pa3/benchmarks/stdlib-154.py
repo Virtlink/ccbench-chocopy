@@ -15,9 +15,9 @@ def int_to_str(x: int) -> str:
     if x >= 10:
         result = result + int_to_str(x // 10)
     result = result + digits[x % 10]
-    $Statement
+    return result
 
-def str_to_int(x: str) -> int:
+def str_to_int(x: str) -> $ID:
     result:int = 0
     digit:int = 0
     char:str = ""

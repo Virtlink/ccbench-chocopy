@@ -6,7 +6,9 @@ def f() -> int:
 
     
 def g() -> object:
-    $FuncBody
+    print($Literal)
+    h()
+    print("end g")
 
 def h() -> object:
     print("start h")

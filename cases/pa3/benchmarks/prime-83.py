@@ -7,16 +7,10 @@ def get_prime(n:int) -> int:
             found = found + 1
             if found == n:
                 return candidate
-        candidate = $Exp + 1
+        candidate = candidate + 1
     return 0 # Never happens
 
-def is_prime(x:int) -> bool:
-    div:int = 2
-    while div < x:
-        if x % div == 0:
-            return False
-        div = div + 1
-    return True
+$Definition
 
 # Input parameter
 n:int = 15

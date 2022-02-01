@@ -1,1 +1,1 @@
-ClassDef2Definition(ClassDef("A","object",ClassBodyMembers2ClassBody([VarDef2ClassBodyMember(VarDef(TypedVar("x",Type("int")),Int("1")))])))
+ClassDef("A","object",ClassBodyMembers2ClassBody([VarDef2ClassBodyMember(VarDef(TypedVar("x",Type("int")),Int("1")))]))

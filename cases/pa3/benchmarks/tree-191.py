@@ -19,8 +19,8 @@ class TreeNode(object):
 				return self.right.insert(x)
 		return False
 
-	def contains(self:$IDSTRING, x:int) -> bool:
-		if x < self.value:
+	def contains(self:"TreeNode", x:int) -> bool:
+		if x < $Var.value:
 			if self.left is None:
 				return False
 			else:

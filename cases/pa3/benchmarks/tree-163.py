@@ -16,7 +16,7 @@ class TreeNode(object):
 				self.right = makeNode(x)
 				return True
 			else:
-				$Block
+				return self.right.insert($ID)
 		return False
 
 	def contains(self:"TreeNode", x:int) -> bool:

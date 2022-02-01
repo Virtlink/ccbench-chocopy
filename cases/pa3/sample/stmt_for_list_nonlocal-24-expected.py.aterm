@@ -1,1 +1,1 @@
-[VarDef2FuncBodyMember(VarDef(TypedVar("z",ListType(Type("int"))),NONE())),Global("x"),FuncDef2FuncBodyMember(FuncDef("make_z",[],Returns(Type("object")),FuncBody([Nonlocal("z")],[For("z",Var2Exp(Var("zz")),Block([PassStmt()]))])))]
+TypedVar("z",ListType(Type("int")))

@@ -1,1 +1,1 @@
-Int("4")
+Call(Var2Exp(Var("print")),Exps2Parameters([Ternary(Literal2Exp(Int("3")),Literal2Exp(False()),Literal2Exp(Int("4")))]))

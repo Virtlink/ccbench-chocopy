@@ -4,7 +4,7 @@ c:str = ""
 d:str = ""
 e:str = ""
 
-def $ID(a:str, b:str) -> str:
+def cat2($TypedVar, b:str) -> str:
     return a + b
 
 def cat3(a:str, b:str, c:str) -> str:

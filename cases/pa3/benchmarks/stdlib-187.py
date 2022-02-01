@@ -20,8 +20,8 @@ def int_to_str(x: int) -> str:
 def str_to_int(x: str) -> int:
     result:int = 0
     digit:int = 0
-    $FuncBodyMember
-    sign:int = 1
+    char:str = ""
+    sign:int = $INT
     first_char:bool = True
 
     # Parse digits

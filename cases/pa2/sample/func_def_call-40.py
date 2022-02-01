@@ -2,6 +2,6 @@ def foo(x:str, y:bool) -> int:
     return bar()
 
 def bar() -> int:
-    return $INT
+    return 1
 
-foo("Hello", False)
+foo($Literal, False)

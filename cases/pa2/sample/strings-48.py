@@ -3,6 +3,6 @@ y:str = "World"
 z:str = ""
 
 z = x + y
-z = $Exp[0]
+z = x[$Literal]
 x = y = z
 

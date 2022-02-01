@@ -1,4 +1,4 @@
-count:int = $Literal
+count:int = $INT
 
 def foo(s: str) -> int:
     return len(s)

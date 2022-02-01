@@ -2,11 +2,11 @@ def f(x:int) -> int:
     print("start f")
     print(x)
     g(1, x)
-    print($STRING)
+    print("end f")
     return x
 
     
-def g(y:int, z:int) -> object:
+def g($TypedVar, z:int) -> object:
     print("start g")
     print(y)
     print(z)

@@ -1,1 +1,1 @@
-[Is(Var2Exp(Var("a4")),Literal2Exp(NONE()))]
+Literal2Exp(NONE())

@@ -1,1 +1,1 @@
-Call(Var2Exp(Var("TreeNode")),Exps2Parameters([]))
+VarDef2Definition(VarDef(TypedVar("k",Type("int")),Int("37813")))

@@ -1,1 +1,1 @@
-[Target(Var2Target(Var("c")))]
+Member(Var2Exp(Var("a")),"get_A")

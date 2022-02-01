@@ -3,10 +3,10 @@ def f(x:int) -> int:
     print(x)
     g(1, x)
     print("end f")
-    return $ID
+    return x
 
     
-def g(y:int, z:int) -> object:
+def g(y:int, $TypedVar) -> object:
     print("start g")
     print(y)
     print(z)

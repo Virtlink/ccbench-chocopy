@@ -1,6 +1,6 @@
 a:str = "Hello"
 b:str = "World"
-$Definition
+$VarDef
 
 def eq(a:str, b:str) -> bool:
     return a == b

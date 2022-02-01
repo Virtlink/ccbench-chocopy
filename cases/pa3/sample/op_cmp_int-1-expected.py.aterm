@@ -1,1 +1,1 @@
-[VarDef2Definition(VarDef(TypedVar("x",Type("int")),Int("42"))),VarDef2Definition(VarDef(TypedVar("y",Type("int")),Int("7")))]
+VarDef2Definition(VarDef(TypedVar("x",Type("int")),Int("42")))

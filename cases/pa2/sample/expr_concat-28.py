@@ -1,3 +1,3 @@
 [1, 2] + [3, 4]
-"Hello " + $STRING
-[1, 2] + [True]
+"Hello " + "World"
+[$Exp, 2] + [True]

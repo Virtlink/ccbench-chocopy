@@ -3,7 +3,7 @@ def foo(x:int) -> bool:
     a:int = 0
     b:int = 1
     def bar(y: int) -> int:
-        $TypedVar = 2 
+        a:int = $INT 
         return y
     return bar(x) > a
 

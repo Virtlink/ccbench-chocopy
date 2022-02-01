@@ -11,8 +11,8 @@ a:A = None
 b:B = None
 
 a = b = B()
-b.a = $INT
+b.a = 1
 b.b = False
-print(a.a)
+$Statement
 print(b.a)
 print(b.b)

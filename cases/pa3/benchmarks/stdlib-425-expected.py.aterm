@@ -1,1 +1,1 @@
-Literal2Exp(String("\"8\""))
+Var("first_char")

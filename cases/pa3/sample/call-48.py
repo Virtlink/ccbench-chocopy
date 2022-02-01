@@ -5,8 +5,8 @@ def f() -> int:
     return 42
 
     
-def g() -> $Type:
-    print("start g")
+def g() -> object:
+    print($Parameters)
     h()
     print("end g")
 

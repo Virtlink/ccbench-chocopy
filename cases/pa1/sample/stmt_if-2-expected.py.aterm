@@ -1,1 +1,1 @@
-[If(Literal2Exp(True()),Block([Exp(Literal2Exp(False()))]))]
+Literal2Exp(True())

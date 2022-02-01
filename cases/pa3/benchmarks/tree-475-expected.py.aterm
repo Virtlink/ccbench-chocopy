@@ -1,1 +1,1 @@
-Var2Exp(Var("x"))
+VarDef(TypedVar("n",Type("int")),Int("100"))

@@ -10,8 +10,8 @@ def g() -> object:
     h()
     print("end g")
 
-def h() -> $Type:
+def h() -> object:
     print("start h")
-    print("end h")
+    $Exp("end h")
 
 print(f())

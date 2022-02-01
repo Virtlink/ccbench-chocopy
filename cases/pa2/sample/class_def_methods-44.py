@@ -5,7 +5,8 @@ class A(object):
         return self.x
 
 class B(A):
-    $ClassBodyMember
+    def __init__(self: $IDSTRING):
+        pass
 
 class C(B):
     z:bool = True

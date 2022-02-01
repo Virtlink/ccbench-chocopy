@@ -1,5 +1,5 @@
 def f(x:int) -> int:
-    print("start f")
+    $Exp("start f")
     print(x)
     g(1, x)
     print("end f")

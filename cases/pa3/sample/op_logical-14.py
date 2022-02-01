@@ -1,5 +1,5 @@
 def f() -> bool:
-  $Exp("f called")
+  print($Exp)
   return True
 
 def g() -> bool:

@@ -34,7 +34,22 @@ class TreeNode(object):
 			return True
 
 class Tree(object):
-	$ClassBody
+	root:TreeNode = None
+	size:int = 0
+
+	def insert(self:"Tree", x:int) -> $Type:
+		if self.root is None:
+			self.root = makeNode(x)
+			self.size = 1
+		else:
+			if self.root.insert(x):
+				self.size = self.size + 1
+
+	def contains(self:"Tree", x:int) -> bool:
+		if self.root is None:
+			return False
+		else:
+			return self.root.contains(x)
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None

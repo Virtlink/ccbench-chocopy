@@ -1,6 +1,6 @@
 def f() -> bool:
-  print($Exp)
-  return True
+  print("f called")
+  return $Literal
 
 def g() -> bool:
   print("g called")

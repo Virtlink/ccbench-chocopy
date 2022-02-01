@@ -1,5 +1,5 @@
 x:int = 42
-$TypedVar = 9
+$ID:int = 9
 
 print(x // y)
 print(x % y)

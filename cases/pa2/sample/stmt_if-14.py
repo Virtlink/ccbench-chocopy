@@ -1,6 +1,7 @@
 if False:
     pass
 elif True:
-    $Statement
+    if $INT == 1:
+        pass
 else:
     pass

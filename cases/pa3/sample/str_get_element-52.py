@@ -4,7 +4,7 @@ b:str = ""
 c:str = ""
 
 def str_get(s:str, i:int) -> str:
-    $Statement
+    return $Var[i]
 
 a = str_get(x, 0)
 b = str_get(x, 1)

@@ -9,7 +9,7 @@ def cat3(a:str, b:str, c:str) -> str:
     return a + b + c
 
 print(cat2(a, b))
-print($Parameters)
+print(cat2("", $Var))
 print(cat3(a, " ", c))
 print(len(a))
 print(len(cat2(a,a)))

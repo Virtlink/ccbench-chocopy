@@ -1,5 +1,5 @@
 if False:
-    $ID("No")
+    print($Literal)
 elif True:
     if True:
         print("Yes")

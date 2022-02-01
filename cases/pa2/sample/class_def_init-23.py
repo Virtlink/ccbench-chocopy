@@ -2,7 +2,8 @@ class A(object):
     x:int = 1
 
 class B(A):
-    $FuncDef
+    def __init__($ID: "B"):
+        pass
 
 class C(B):
     z:bool = True

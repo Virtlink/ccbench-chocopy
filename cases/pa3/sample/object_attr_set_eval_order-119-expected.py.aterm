@@ -1,1 +1,1 @@
-Type("bool")
+Target(Var2Target(Var("a")))

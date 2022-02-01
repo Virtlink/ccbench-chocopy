@@ -12,7 +12,7 @@ def cat3(a:str, b:str, c:str) -> str:
 
 c = cat2(b, a)
 d = cat2(a, a)
-$Statement
+e = cat3($ID, b, cat2(b, b))
 
 print(c)
 print(d)

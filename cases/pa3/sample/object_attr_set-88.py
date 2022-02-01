@@ -11,8 +11,8 @@ a:A = None
 b:B = None
 
 a = b = B()
-$Exp.a = 1
-b.b = False
+b.a = 1
+$Exp.b = False
 print(a.a)
 print(b.a)
 print(b.b)

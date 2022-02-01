@@ -1,4 +1,4 @@
-def f($TypedVar) -> int:
+def f(x:$Type) -> int:
     print("start f")
     print(x)
     g(1, x)

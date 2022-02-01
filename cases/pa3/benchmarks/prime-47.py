@@ -4,7 +4,9 @@ def get_prime(n:int) -> int:
     found:int = 0
     while True:
         if is_prime(candidate):
-            $Block
+            found = $Exp
+            if found == n:
+                return candidate
         candidate = candidate + 1
     return 0 # Never happens
 

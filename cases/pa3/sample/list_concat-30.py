@@ -1,7 +1,7 @@
 def concat(x:[int], y:[int]) -> [int]:
-    return x + $ID
+    return x + y
 
-z:[int] = None
+$ID:[int] = None
 i:int = 0
 
 z = concat([1,2,3], [4,5,6])

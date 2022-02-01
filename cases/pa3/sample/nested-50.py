@@ -3,8 +3,8 @@ def foo(x: int) -> int:
     y: int = 2
     def bar() -> int:
         z: int = 3
-        def $ID() -> int:
-            return y
+        def baz() -> int:
+            $Statement
         return baz()
     return bar()
     

@@ -8,7 +8,7 @@ class B(A):
     b:bool = True
 
     def __init__(self:"B"):
-        $FuncBody
+        print($Exp)
 
     def bar(self:"B") -> int:
         def qux(p: bool) -> int:

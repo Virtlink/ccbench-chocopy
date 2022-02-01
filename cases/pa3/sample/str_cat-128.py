@@ -10,7 +10,7 @@ def cat3(a:str, b:str, c:str) -> str:
 
 print(cat2(a, b))
 print(cat2("", c))
-$Var(cat3(a, " ", c))
+print(cat3(a, $Literal, c))
 print(len(a))
 print(len(cat2(a,a)))
 print(len(cat2("","")))

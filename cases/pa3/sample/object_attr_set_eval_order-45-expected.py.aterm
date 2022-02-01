@@ -1,1 +1,1 @@
-Var("print")
+VarDef2Definition(VarDef(TypedVar("a",Type("A")),NONE()))

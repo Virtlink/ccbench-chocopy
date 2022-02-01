@@ -3,7 +3,7 @@ y:int = 0
 z:[bool] = None
 o:object = None
 
-$Target = [1, 2, 3]
+x = $Exp
 z = [False, True]
 
 y = x[0]

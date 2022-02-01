@@ -65,13 +65,13 @@ c:int = 4
 # Data
 t:Tree = None
 i:int = 0
-$VarDef
+k:int = 37813
 
 # Crunch
 t = Tree()
 while i < n:
 	t.insert(k)
-	k = (k * 37813) % 37831
+	k = (k * 37813) % $INT
 	if i % c != 0:
 		t.insert(i)
 	i = i + 1

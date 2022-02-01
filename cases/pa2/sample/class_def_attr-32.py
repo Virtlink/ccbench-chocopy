@@ -3,9 +3,9 @@ class A(object):
 
 class B(A):
     def __init__(self: "B"):
-        $FuncBody
+        pass
 
-class C(B):
+class $ID(B):
     z:bool = True
 
 a:A = None

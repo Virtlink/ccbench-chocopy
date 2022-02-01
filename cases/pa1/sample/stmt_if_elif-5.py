@@ -1,4 +1,4 @@
-if $Exp > 2:
+if $INT > 2:
     print(1)
 elif 3 == 4:
     print(2)

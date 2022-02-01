@@ -1,5 +1,5 @@
 def f() -> int:
-  $VarDef
+  x:$Type = 1
   return x
 
 print(f())

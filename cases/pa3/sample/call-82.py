@@ -10,8 +10,8 @@ def g() -> object:
     h()
     print("end g")
 
-def $ID() -> object:
-    print("start h")
+def h() -> object:
+    print($STRING)
     print("end h")
 
 print(f())

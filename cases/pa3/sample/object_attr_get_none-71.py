@@ -10,7 +10,7 @@ class B(A):
 a:A = None
 b:B = None
 
-$Var = B()
-print(a.a)
+a = B()
+$Exp(a.a)
 print(b.a)
 print(b.b)

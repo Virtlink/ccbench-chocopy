@@ -8,5 +8,5 @@ x = []
 y = [1, True]
 z = [False, True]
 x = None
-o = $Exp
-o = x = [1]
+o = x
+o = x = $Exp

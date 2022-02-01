@@ -1,1 +1,1 @@
-Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"left")))],Call(Var2Exp(Var("makeNode")),Exps2Parameters([Var2Exp(Var("x"))])))
+"left"

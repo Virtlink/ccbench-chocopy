@@ -5,7 +5,8 @@ class B(A):
     def __init__(self: "B"):
         pass
 
-$Definition
+class C(B):
+    $VarDef
 
 a:A = None
 b:B = None

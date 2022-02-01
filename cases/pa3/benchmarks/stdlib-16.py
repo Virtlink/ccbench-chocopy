@@ -1,6 +1,6 @@
 # ChocoPy library functions
 def int_to_str(x: int) -> str:
-    $VarDef 
+    digits:$Type = None 
     result:str = ""
 
     # Set-up digit mapping

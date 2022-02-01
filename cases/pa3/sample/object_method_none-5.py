@@ -1,8 +1,5 @@
-class A($ID):
-    a:int = 42
-
-    def foo(self:"A", ignore:object) -> int:
-        return self.a
+class A(object):
+    $ClassBody
 
 class B(A):
     b:bool = True

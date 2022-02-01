@@ -3,8 +3,8 @@ def foo(x: int) -> int:
     y: int = 2
     def bar() -> int:
         z: int = 3
-        def baz() $RetType:
-            return y
+        def baz() -> int:
+            return $Var
         return baz()
     return bar()
     

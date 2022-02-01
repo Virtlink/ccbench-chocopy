@@ -1,8 +1,8 @@
 g: int = 1
 def foo(x: int) -> int:
     y: int = 2
-    def bar() -> $Type:
-        z: int = 3
+    def bar() -> int:
+        $VarDef
         def baz() -> int:
             return y
         return baz()

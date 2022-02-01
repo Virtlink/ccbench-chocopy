@@ -1,4 +1,4 @@
-$VarDef
+$TypedVar = 1
 
 x = 2
 

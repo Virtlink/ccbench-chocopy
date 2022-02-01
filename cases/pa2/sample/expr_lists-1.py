@@ -1,4 +1,7 @@
-
+$Definition
+y:[object] = None
+z:[bool] = None
+o:object = None
 
 x = [1, 2, 3]
 x = []

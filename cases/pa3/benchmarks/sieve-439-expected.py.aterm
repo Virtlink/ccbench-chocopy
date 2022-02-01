@@ -1,1 +1,1 @@
-TypedVar("self",TypeS(IdString("DoublingVector")))
+Member(Var2Exp(Var("self")),"items")

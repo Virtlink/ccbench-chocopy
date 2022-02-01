@@ -1,5 +1,5 @@
-def foo(x:str, y:bool) -> $ID:
-    return bar()
+def foo(x:str, y:bool) -> int:
+    $Statement
 
 def bar() -> int:
     return 1

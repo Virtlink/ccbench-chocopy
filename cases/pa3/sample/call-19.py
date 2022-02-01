@@ -1,6 +1,6 @@
 def f() -> int:
-    print($Exp)
-    g()
+    print("start f")
+    $Exp()
     print("end f")
     return 42
 

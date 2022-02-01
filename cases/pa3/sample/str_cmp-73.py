@@ -6,9 +6,9 @@ def eq(a:str, b:str) -> bool:
     return a == b
 
 def neq(a:str, b:str) -> bool:
-    return $Var != b
+    return a != b
 
-print(eq(a,a))
+$Exp(eq(a,a))
 print(eq(a,b))
 print(neq(a,b))
 print(neq(b,b))

@@ -16,8 +16,8 @@ class Vector(object):
         return self.capacity()
 
     # Appends one item to end of vector
-    def append(self:"Vector", item: int) $RetType:
-        if self.size == self.capacity():
+    def append(self:"Vector", item: int) -> object:
+        if self.size == self.$ID():
             self.increase_capacity()
 
         self.items[self.size] = item

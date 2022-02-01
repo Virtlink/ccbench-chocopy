@@ -3,6 +3,6 @@
 s: str = ""
 
 s = input()
-while $Exp:
+while $ID(s) > 0:
     print(s)
     s = input()

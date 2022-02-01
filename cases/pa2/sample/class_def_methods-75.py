@@ -11,7 +11,7 @@ class B(A):
 class C(B):
     z:bool = True
 
-    def set_A($TypedVar, val: int) -> object:
+    def set_A(self: "C", val: int) -> $ID:
         self.x = val
 
 a:A = None

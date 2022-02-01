@@ -1,1 +1,1 @@
-Literal2Exp(True())
+Literal2Exp(Int("1"))

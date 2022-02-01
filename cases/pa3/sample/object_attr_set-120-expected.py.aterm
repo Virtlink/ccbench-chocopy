@@ -1,1 +1,1 @@
-Call(Var2Exp(Var("print")),Exps2Parameters([Member2Exp(Member(Var2Exp(Var("b")),"a"))]))
+Var2Exp(Var("print"))

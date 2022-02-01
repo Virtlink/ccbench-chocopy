@@ -2,8 +2,8 @@ class A(object):
     x:int = 1
 
 class B(A):
-    def __init__(self: $IDSTRING):
-        pass
+    def __init__(self: "B"):
+        $Statement
 
 class C(B):
     z:bool = True

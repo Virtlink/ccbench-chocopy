@@ -1,4 +1,4 @@
-g: $ID = 1
+g: int = $Literal
 def foo(x: int) -> int:
     y: int = 2
     def bar() -> int:

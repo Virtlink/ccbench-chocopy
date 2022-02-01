@@ -1,5 +1,5 @@
 def f() -> int:
-    while True:
+    while $Literal:
         return 1
     return 0
 

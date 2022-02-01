@@ -1,4 +1,4 @@
 def foo(x:int, y:int) -> bool:
-    $FuncBody
+    return $Exp
 
 foo(1,2)

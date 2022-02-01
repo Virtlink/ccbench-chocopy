@@ -26,12 +26,12 @@ class TreeNode(object):
 			else:
 				return self.left.contains(x)
 		elif x > self.value:
-			if self.$ID is None:
+			if self.right is None:
 				return False
 			else:
 				return self.right.contains(x)
 		else:
-			return True
+			$Block
 
 class Tree(object):
 	root:TreeNode = None

@@ -1,1 +1,1 @@
-Lt(Var2Exp(Var("i")),Call(Var2Exp(Var("len")),Exps2Parameters([Var2Exp(Var("z"))])))
+Var2Exp(Var("z"))

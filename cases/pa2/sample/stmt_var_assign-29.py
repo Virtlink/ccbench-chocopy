@@ -1,7 +1,7 @@
 x:int = 1
 y:bool = True
 z:str = ""
-o:$Type = None
+o:$ID = None
 
 x = 2
 y = False

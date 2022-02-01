@@ -20,9 +20,9 @@ c:C = None
 
 a = A()
 b = B()
-$Statement
+c = C()
 
-b.x = a.get_A()
+b.x = $Exp()
 a.x = b.get_A()
 c.set_A(0)
 

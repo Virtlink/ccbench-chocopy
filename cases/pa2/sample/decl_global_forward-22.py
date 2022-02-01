@@ -1,9 +1,9 @@
 def set_x() -> int:
     global x
-    x = $INT
+    x = 1
     return x
 
-x:int = 0
+$Definition
 
 set_x()
 print(x)

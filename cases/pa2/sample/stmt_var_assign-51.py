@@ -5,5 +5,5 @@ o:object = None
 
 x = 2
 y = False
- "Hello"
+z = $Exp
 o = z

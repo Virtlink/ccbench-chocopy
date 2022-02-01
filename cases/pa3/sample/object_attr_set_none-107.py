@@ -14,6 +14,6 @@ a = B()
 print(a.a)
 
 b.a = 1
-$Target = False
-print(b.a)
+b.b = False
+print($Parameters)
 print(b.b)

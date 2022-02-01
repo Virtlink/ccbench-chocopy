@@ -5,9 +5,9 @@ def crunch(zz:[[int]]) -> object:
     def make_z() -> object:
         nonlocal z
         for z in zz:
-             # Set z to last element in zz
+            pass # Set z to last element in zz
 
-    make_z()
+    make_z($Parameters)
     for x in z:
         pass # Set x to last element in z
 

@@ -11,8 +11,8 @@ class bar(object):
         x:int = 0
         y:int = 1
 
-        def qux($TypedVar) -> object:
-            nonlocal x
+        def qux(y: int) -> object:
+            nonlocal $ID
             if x > y:
                 x = -1
 

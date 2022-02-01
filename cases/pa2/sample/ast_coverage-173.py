@@ -23,9 +23,9 @@ class bar(object):
 
         count = count + 1
 
-        while x <= $Literal:
+        while x <= 0:
             if self.p:
-                xx[0] = xx[1]
+                xx[$Exp] = xx[1]
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:

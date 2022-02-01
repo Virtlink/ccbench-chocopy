@@ -8,5 +8,5 @@ e = []
 
 for x in z:
     for y in e:
-        $Statement
+        print($STRING)
     print(x)

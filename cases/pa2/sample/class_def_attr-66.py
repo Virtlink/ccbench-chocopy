@@ -10,9 +10,9 @@ class C(B):
 
 a:A = None
 b:B = None
-$ID:C = None
+c:C = None
 
-a = A()
+$Var = A()
 b = B()
 c = C()
 

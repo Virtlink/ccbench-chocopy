@@ -2,8 +2,8 @@ g: int = 1
 def foo(x: int) -> int:
     y: int = 2
     def bar() -> int:
-        z: $ID = 3
-        def baz() -> int:
+        z: int = 3
+        def $ID() -> int:
             return y
         return baz()
     return bar()

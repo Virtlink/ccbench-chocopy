@@ -8,8 +8,8 @@ def f(x:int) -> int:
     
 def g(y:int, z:int) -> object:
     print("start g")
-    $Statement
-    print(z)
+    print(y)
+    $Var(z)
     h("h")
     print("end g")
 

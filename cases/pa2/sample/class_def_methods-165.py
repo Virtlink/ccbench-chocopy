@@ -22,7 +22,7 @@ a = A()
 b = B()
 c = C()
 
-$Exp.x = a.get_A()
-a.x = b.get_A()
+b.x = a.get_A()
+a.x = $Member()
 c.set_A(0)
 

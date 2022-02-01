@@ -14,9 +14,9 @@ c:C = None
 
 a = A()
 b = B()
-c = C($Parameters)
+c = C()
 
 a.x = 1
-b.x = a.x
+$AssignTarget a.x
 c.z = a.x == b.x
 

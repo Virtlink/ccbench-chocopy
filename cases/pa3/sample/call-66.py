@@ -7,8 +7,8 @@ def f() -> int:
     
 def g() -> object:
     print("start g")
-    $Var()
-    print("end g")
+    h()
+    print($STRING)
 
 def h() -> object:
     print("start h")

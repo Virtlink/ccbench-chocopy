@@ -1,4 +1,4 @@
 x:int = 1
-o:$Type = None
+o:$ID = None
 
 x = o = 42

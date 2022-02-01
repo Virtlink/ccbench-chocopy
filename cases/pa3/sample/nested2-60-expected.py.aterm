@@ -1,1 +1,1 @@
-Var2Exp(Var("qux"))
+Call(Var2Exp(Var("baz")),Exps2Parameters([]))

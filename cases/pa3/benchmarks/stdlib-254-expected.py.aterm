@@ -1,1 +1,1 @@
-Literal2Exp(String("\"0\""))
+Block([Assign([Target(Var2Target(Var("digit")))],Literal2Exp(Int("1")))])

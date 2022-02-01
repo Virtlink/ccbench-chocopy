@@ -24,7 +24,10 @@ class Vector(object):
         self.size = self.size + 1
 
     # Appends many items to end of vector
-    $FuncDef
+    def append_all(self:"Vector", new_items: [int]) -> object:
+        item:int = 0
+        for $ID in new_items:
+            self.append(item)
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector", idx: int) -> object:

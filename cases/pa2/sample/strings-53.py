@@ -3,6 +3,6 @@ y:str = "World"
 z:str = ""
 
 z = x + y
-z = x[$INT]
-x = y = z
+z = x[0]
+$Var = y = z
 

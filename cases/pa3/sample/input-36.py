@@ -3,6 +3,6 @@
 s: str = ""
 
 s = input()
-while len(s) > $INT:
-    print(s)
+while len(s) > 0:
+    $Var(s)
     s = input()

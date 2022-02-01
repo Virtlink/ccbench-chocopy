@@ -8,9 +8,9 @@ class B(A):
         print("B")
 
 a:A = None
-b:$Type = None
+b:B = None
 
-def get_b() -> B:
+def get_b() -> $Type:
     print("Getting B")
     return b
 

@@ -1,6 +1,6 @@
 def set_x() -> int:
     global x
-    $AssignTarget 1
+    x = $Literal
     return x
 
 x:int = 0

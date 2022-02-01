@@ -1,5 +1,5 @@
 # ChocoPy library functions
-def int_to_str(x: $Type) -> str:
+def int_to_str(x: int) $RetType:
     digits:[str] = None 
     result:str = ""
 

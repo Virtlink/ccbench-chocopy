@@ -2,7 +2,7 @@ x:str = "Hello"
 y:str = "World"
 z:str = ""
 
-z = x + $Exp
-z = x[0]
+z = x + y
+$Statement
 x = y = z
 

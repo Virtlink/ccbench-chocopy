@@ -14,5 +14,5 @@ c:C = None
 
 a = A()
 a = B()
- C()
+b = a = c = $Exp
 c = None

@@ -10,8 +10,8 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-    def bar($TypedVar) -> int:
-        return self.foo(self.b)
+    def bar(self:"B") -> int:
+        return $Exp(self.b)
 
     def foo(self:"B", ignore:object) -> int:
         return 1

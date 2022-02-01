@@ -1,1 +1,1 @@
-Var("next")
+Returns(ListType(Type("int")))

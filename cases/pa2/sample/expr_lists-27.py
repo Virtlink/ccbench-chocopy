@@ -1,7 +1,7 @@
 x:[int] = None
 y:[object] = None
 z:[bool] = None
-$VarDef
+$TypedVar = None
 
 x = [1, 2, 3]
 x = []

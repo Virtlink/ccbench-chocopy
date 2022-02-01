@@ -2,7 +2,8 @@ a:str = "Hello"
 b:str = "World"
 c:str = "ChocoPy"
 
-$FuncDef
+def $ID(a:str, b:str) -> bool:
+    return a == b
 
 def neq(a:str, b:str) -> bool:
     return a != b

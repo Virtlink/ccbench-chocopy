@@ -1,1 +1,1 @@
-"bool"
+Var2Exp(Var("self"))

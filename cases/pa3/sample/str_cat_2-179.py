@@ -15,5 +15,5 @@ d = cat2(a, a)
 e = cat3(a, b, cat2(b, b))
 
 print(c)
-$Statement
-print(e)
+print(d)
+print($Var)

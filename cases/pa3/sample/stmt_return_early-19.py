@@ -1,6 +1,6 @@
 def f() -> int:
     while True:
-        return $Literal
-    return 0
+        return 1
+    return $INT
 
 print(f())

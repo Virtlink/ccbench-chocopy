@@ -1,6 +1,4 @@
 x:str = ""
-z:str = $STRING
+z:str = "abc"
 
-for x in z:
-    z = "doesn't matter"
-    print(x)
+$Statement

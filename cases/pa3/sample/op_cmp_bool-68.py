@@ -3,6 +3,6 @@ print(True == False)
 print(False == True)
 print(False == False)
 print(True != True)
-print($Parameters)
-print(False != True)
+print(True != False)
+$Exp
 print(False != False)

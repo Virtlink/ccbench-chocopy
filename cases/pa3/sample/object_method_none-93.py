@@ -11,7 +11,7 @@ class B(A):
         print("B")
 
     def bar(self:"B") -> int:
-        $VarDef
-        return a.foo(self.b)
+        a:A = None
+        return $ID.foo(self.b)
 
 print(B().bar())

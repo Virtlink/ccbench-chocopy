@@ -1,5 +1,5 @@
 def concat(x:[int], y:[int]) -> [int]:
-    return $Exp + y
+    return x + $Var
 
 z:[int] = None
 i:int = 0

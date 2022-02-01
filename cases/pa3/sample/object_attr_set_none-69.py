@@ -10,8 +10,8 @@ class B(A):
 a:A = None
 b:B = None
 
-$AssignTarget B()
-print(a.a)
+a = B()
+$Statement
 
 b.a = 1
 b.b = False

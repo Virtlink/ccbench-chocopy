@@ -1,2 +1,2 @@
-$ID(True)
+print($Exp)
 print(False)

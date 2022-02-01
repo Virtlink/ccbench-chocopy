@@ -1,1 +1,1 @@
-VarDef(TypedVar("t",Type("Tree")),NONE())
+Assign([Target(Var2Target(Var("k")))],Mod(Mul(Var2Exp(Var("k")),Literal2Exp(Int("37813"))),Literal2Exp(Int("37831"))))

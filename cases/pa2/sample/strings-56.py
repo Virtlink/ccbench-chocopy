@@ -4,5 +4,5 @@ z:str = ""
 
 z = x + y
 z = x[0]
-$AssignTarget y = z
+x = $Target = z
 

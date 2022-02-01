@@ -6,9 +6,9 @@ print(x != y)
 print(x < y)
 print(x <= y)
 print(x > y)
-print($Exp)
+print(x >= y)
 
-print(x == x)
+$Exp
 print(x != x)
 print(x < x)
 print(x <= x)

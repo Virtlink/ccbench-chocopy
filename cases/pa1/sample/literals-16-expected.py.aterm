@@ -1,1 +1,1 @@
-Exp(Literal2Exp(String("\"This is a string\"")))
+String("\"This is a string\"")

@@ -1,9 +1,7 @@
 class A(object):
-    x:int = $Literal
+    x:int = 1
 
-class B(A):
-    def __init__(self: "B"):
-        pass
+$Definition
 
 class C(B):
     z:bool = True

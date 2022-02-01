@@ -1,1 +1,1 @@
-$ID("Hello World")
+print($Exp)

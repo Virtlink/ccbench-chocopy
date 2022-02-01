@@ -1,4 +1,4 @@
 x:int = 1
-while x < $Exp:
+while x < $INT:
     print(x)
     x = x + 1

@@ -1,1 +1,1 @@
-[Literal2Exp(String("\"...\""))]
+Returns(Type("int"))

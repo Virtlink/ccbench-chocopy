@@ -54,7 +54,7 @@ def str_to_int(x: str) -> int:
             digit = 9
         else:
             return 0 # On error
-        $AssignTarget False
+        first_char = False
         result = result * 10 + digit
 
     # Compute result
@@ -62,7 +62,7 @@ def str_to_int(x: str) -> int:
         
 # Input parameters
 c:int = 42
-n:int = 10
+n:int = $Literal
 
 # Run [-nc, nc] with step size c
 s:str = ""

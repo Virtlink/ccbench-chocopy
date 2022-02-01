@@ -2,7 +2,8 @@ def f() -> bool:
   print("f called")
   return True
 
-$FuncDef
+def g() -> bool:
+  $FuncBody
 
 if f() or g():      # Short-circuit
   if g() and f():   # Short-circuit

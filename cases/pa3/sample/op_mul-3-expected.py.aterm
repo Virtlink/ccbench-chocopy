@@ -1,1 +1,1 @@
-Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Mul(Mul(Literal2Exp(Int("6")),Literal2Exp(Int("9"))),Literal2Exp(Int("2")))])))
+Var2Exp(Var("print"))

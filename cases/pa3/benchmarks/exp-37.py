@@ -1,10 +1,9 @@
 # Compute x**y
 def exp(x: int, y: int) -> int:
 	a: int = 0
-	def f(i: int) -> $ID:
+	def f(i: int) -> int:
 		nonlocal a
-		def geta() -> int:
-			return a
+		$FuncBodyMember
 		if i <= 0:
 			return geta()
 		else:

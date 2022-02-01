@@ -1,5 +1,5 @@
 x:int = 0
-y:$Type = 0
+y:$ID = 0
 z:[int] = None
 e:[int] = None
 

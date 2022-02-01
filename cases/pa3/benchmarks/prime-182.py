@@ -25,6 +25,6 @@ n:int = 15
 i:int = 1
 
 # Crunch
-while i <= $ID:
+while i <= n:
     print(get_prime(i))
-    i = i + 1
+    $AssignTarget i + 1

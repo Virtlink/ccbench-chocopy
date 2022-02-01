@@ -1,4 +1,4 @@
 x:[int] = None
 
 x = []
-print($Index)
+print(x[$Literal])

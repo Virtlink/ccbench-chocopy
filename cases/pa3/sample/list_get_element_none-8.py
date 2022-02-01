@@ -1,3 +1,3 @@
-x:[$ID] = None
+x:[int] = $Literal
 
 print(x[0])

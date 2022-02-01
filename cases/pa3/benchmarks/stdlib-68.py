@@ -4,10 +4,10 @@ def int_to_str(x: int) -> str:
     result:str = ""
 
     # Set-up digit mapping
-    digits = ["0", "1", "2", "3", "4", "5", "6", "7", "8", $Literal]
+    digits = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
     # Write sign if necessary
-    if x < 0:
+    if $ID < 0:
         result = "-"
         x = -x
 

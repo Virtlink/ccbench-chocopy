@@ -1,6 +1,6 @@
 x:str = ""
-y:str = $STRING
-z:str = "abc"
+y:str = "123"
+$Definition
 
 for x in z:
     print(x)

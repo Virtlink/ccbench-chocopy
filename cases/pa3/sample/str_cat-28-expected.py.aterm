@@ -1,1 +1,1 @@
-"cat2"
+TypedVar("a",Type("str"))

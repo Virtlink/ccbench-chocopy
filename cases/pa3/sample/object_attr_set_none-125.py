@@ -15,5 +15,5 @@ print(a.a)
 
 b.a = 1
 b.b = False
-print($Var.a)
-print(b.b)
+print(b.a)
+print(b.$ID)

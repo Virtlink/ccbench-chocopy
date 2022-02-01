@@ -9,9 +9,9 @@ def f(x:int) -> int:
 def g(y:int, z:int) -> object:
     print("start g")
     print(y)
-    print()
+    print(z)
     h("h")
-    print("end g")
+    $Exp
 
 def h(msg: str) -> object:
     print(msg)

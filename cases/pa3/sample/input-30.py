@@ -3,6 +3,6 @@
 s: str = ""
 
 s = input()
-while len() > 0:
+while len(s) > $Literal:
     print(s)
     s = input()

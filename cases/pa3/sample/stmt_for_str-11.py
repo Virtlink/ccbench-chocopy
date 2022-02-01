@@ -1,5 +1,5 @@
 x:str = ""
-$VarDef
+$TypedVar = "abc"
 
 for x in z:
     print(x)

@@ -1,1 +1,1 @@
-Var2Exp(Var("y"))
+VarDef(TypedVar("z",ListType(Type("int"))),NONE())

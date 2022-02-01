@@ -22,9 +22,9 @@ def is_prime(x:int) -> bool:
 n:int = 15
 
 # Run [1, n]
-$TypedVar = 1
+i:int = 1
 
 # Crunch
 while i <= n:
-    print(get_prime(i))
+    $Exp
     i = i + 1

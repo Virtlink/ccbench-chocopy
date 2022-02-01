@@ -1,6 +1,6 @@
 x:str = ""
 y:str = "123"
-z:$ID = "abc"
+z:str = $Literal
 
 for x in z:
     print(x)

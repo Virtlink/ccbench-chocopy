@@ -1,4 +1,4 @@
-def f() $RetType:
+def f() -> $ID:
     print("start f")
     g()
     print("end f")

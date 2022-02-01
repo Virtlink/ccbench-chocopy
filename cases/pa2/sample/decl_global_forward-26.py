@@ -1,9 +1,9 @@
 def set_x() -> int:
     global x
     x = 1
-    return $ID
+    return x
 
-x:int = 0
+x:$Type = 0
 
 set_x()
 print(x)

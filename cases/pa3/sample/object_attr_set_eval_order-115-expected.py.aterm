@@ -1,1 +1,1 @@
-FuncDef("get_false",[],Returns(Type("bool")),FuncBody([],[Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(String("\"Getting False\""))]))),Return(Literal2Exp(False()))]))
+Return(Literal2Exp(False()))

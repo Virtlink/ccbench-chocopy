@@ -4,8 +4,8 @@ def foo(x: int) -> int:
     def bar() -> int:
         z: int = 3
         def baz() -> int:
-            return qux()
-        return baz()
+            return qux(y)
+        return baz($Parameters)
     def qux(p: int) -> int:
         return p
 

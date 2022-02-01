@@ -6,7 +6,7 @@ print(x != y)
 print(x < y)
 print(x <= y)
 print(x > y)
-$Statement
+print($Exp >= y)
 
 print(x == x)
 print(x != x)

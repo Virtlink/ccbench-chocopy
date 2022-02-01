@@ -1,4 +1,4 @@
-$ID:int = 1
+x:$Type = 1
 
 x = 2
 

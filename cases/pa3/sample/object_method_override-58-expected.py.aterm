@@ -1,1 +1,1 @@
-[TypedVar("self",TypeS(IdString("B")))]
+FuncBody([],[Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(String("\"B\""))])))])

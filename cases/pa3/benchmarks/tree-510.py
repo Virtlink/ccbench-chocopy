@@ -65,7 +65,7 @@ c:int = 4
 # Data
 t:Tree = None
 i:int = 0
-k:int = 37813
+k:$ID = 37813
 
 # Crunch
 t = Tree()

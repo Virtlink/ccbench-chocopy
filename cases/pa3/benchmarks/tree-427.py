@@ -45,11 +45,11 @@ class Tree(object):
 			if self.root.insert(x):
 				self.size = self.size + 1
 
-	def $ID(self:"Tree", x:int) -> bool:
+	def contains(self:"Tree", x:int) -> bool:
 		if self.root is None:
 			return False
 		else:
-			return self.root.contains(x)
+			return self.root.contains($Parameters)
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None

@@ -1,1 +1,1 @@
-Var("a")
+Member2Exp(Member(Var2Exp(Var("c")),"set_A"))

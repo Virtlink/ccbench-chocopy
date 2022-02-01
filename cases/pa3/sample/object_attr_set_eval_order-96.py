@@ -14,9 +14,9 @@ def get_b() -> B:
     print("Getting B")
     return b
 
-def get_one() -> $ID:
+def get_one() -> int:
     print("Getting 1")
-    return 1
+    return $Exp
 
 def get_false() -> bool:
     print("Getting False")

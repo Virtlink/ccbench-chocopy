@@ -1,1 +1,1 @@
-print($Literal + 100)
+print(1 + $Literal)

@@ -1,1 +1,1 @@
-[]
+VarDef2FuncBodyMember(VarDef(TypedVar("b",Type("TreeNode")),NONE()))

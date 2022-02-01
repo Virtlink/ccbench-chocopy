@@ -1,6 +1,6 @@
 def set_x() -> int:
-    $FuncBodyMember
-    x = 1
+    global x
+    $AssignTarget 1
     return x
 
 x:int = 0

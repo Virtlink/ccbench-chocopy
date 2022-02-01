@@ -1,6 +1,6 @@
 def set_x() -> int:
-    global $ID
-    x = 1
+    global x
+    $Target = 1
     return x
 
 x:int = 0

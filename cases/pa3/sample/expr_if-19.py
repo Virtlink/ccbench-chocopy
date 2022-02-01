@@ -1,2 +1,2 @@
 print(3 if True else 4)
-$Statement
+$Var(3 if False else 4)

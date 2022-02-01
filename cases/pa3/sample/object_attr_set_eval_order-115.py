@@ -18,7 +18,9 @@ def get_one() -> int:
     print("Getting 1")
     return 1
 
-$FuncDef
+def get_false() -> bool:
+    print("Getting False")
+    $Statement
 
 a = b = B()
 get_b().a = get_one()

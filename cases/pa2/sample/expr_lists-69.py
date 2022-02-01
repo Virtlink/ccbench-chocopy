@@ -5,8 +5,8 @@ o:object = None
 
 x = [1, 2, 3]
 x = []
-y = [$INT, True]
-z = [False, True]
+y = [1, True]
+z = $Exp
 x = None
 o = x
 o = x = [1]

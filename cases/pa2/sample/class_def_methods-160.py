@@ -22,7 +22,7 @@ a = A()
 b = B()
 c = C()
 
-$Statement
-a.x = b.get_A()
+b.x = a.get_A()
+$Var.x = b.get_A()
 c.set_A(0)
 

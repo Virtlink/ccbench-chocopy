@@ -50,7 +50,7 @@ def str_to_int(x: str) -> int:
             digit = 7
         elif char == "8":
             digit = 8
-        elif char == $Literal:
+        elif char == "9":
             digit = 9
         else:
             return 0 # On error
@@ -58,7 +58,7 @@ def str_to_int(x: str) -> int:
         result = result * 10 + digit
 
     # Compute result
-    return result * sign
+    $Statement
         
 # Input parameters
 c:int = 42

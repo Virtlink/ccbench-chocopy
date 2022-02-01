@@ -1,1 +1,1 @@
-print($INT + 100)
+print(1 + $INT)

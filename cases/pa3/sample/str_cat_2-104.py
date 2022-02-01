@@ -10,7 +10,7 @@ def cat2(a:str, b:str) -> str:
 def cat3(a:str, b:str, c:str) -> str:
     return a + b + c
 
- cat2(b, a)
+c = cat2($Parameters)
 d = cat2(a, a)
 e = cat3(a, b, cat2(b, b))
 

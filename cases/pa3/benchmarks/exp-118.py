@@ -11,13 +11,13 @@ def exp(x: int, y: int) -> int:
 			a = a * x
 			return f(i-1)
 	a = 1
-	return $ID(y)
+	return f(y)
 
 # Input parameter
 n:int = 42
 
 # Run [0, n]
-i:int = 0
+$ID:int = 0
 
 # Crunch
 while i <= n:

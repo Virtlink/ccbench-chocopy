@@ -30,10 +30,10 @@ def str_to_int(x: str) -> int:
             if not first_char:
                 return 0 # Error
             sign = -1
-        elif char == $Exp:
+        elif char == "0":
             digit = 0
         elif char == "1":
-            digit = 1
+            $Block
         elif char == "2":
             digit = 2
         elif char == "3":

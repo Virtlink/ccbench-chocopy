@@ -52,7 +52,7 @@ class Tree(object):
 			return self.root.contains(x)
 
 def makeNode(x: int) -> TreeNode:
-	b:TreeNode = $Literal
+	b:TreeNode = None
 	b = TreeNode()
 	b.value = x
 	return b
@@ -64,7 +64,7 @@ c:int = 4
 
 # Data
 t:Tree = None
-i:int = 0
+$Definition
 k:int = 37813
 
 # Crunch

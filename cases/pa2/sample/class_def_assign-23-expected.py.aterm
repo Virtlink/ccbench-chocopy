@@ -1,1 +1,1 @@
-FuncDef("__init__",[TypedVar("self",TypeS(IdString("B")))],ReturnsNone(),FuncBody([],[PassStmt()]))
+"self"

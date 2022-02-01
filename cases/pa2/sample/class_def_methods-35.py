@@ -2,9 +2,9 @@ class A(object):
     x:int = 1
 
     def get_A(self: "A") -> int:
-        return $Var.x
+        return self.x
 
-class B(A):
+class $ID(A):
     def __init__(self: "B"):
         pass
 

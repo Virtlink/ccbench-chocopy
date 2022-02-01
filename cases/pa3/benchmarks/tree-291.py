@@ -29,13 +29,13 @@ class TreeNode(object):
 			if self.right is None:
 				return False
 			else:
-				return self.right.$ID(x)
+				return self.right.contains(x)
 		else:
 			return True
 
 class Tree(object):
 	root:TreeNode = None
-	size:int = 0
+	size:$ID = 0
 
 	def insert(self:"Tree", x:int) -> object:
 		if self.root is None:

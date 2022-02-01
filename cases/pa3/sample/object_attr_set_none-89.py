@@ -11,9 +11,9 @@ a:A = None
 b:B = None
 
 a = B()
-print($Var.a)
+print(a.a)
 
-b.a = 1
+b.a = $Exp
 b.b = False
 print(b.a)
 print(b.b)

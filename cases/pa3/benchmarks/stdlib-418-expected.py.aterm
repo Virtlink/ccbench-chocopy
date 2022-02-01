@@ -1,1 +1,1 @@
-Int("7")
+Return(Literal2Exp(Int("0")))

@@ -1,6 +1,6 @@
 # Test of 'input' function.
 
-$Definition
+$VarDef
 
 s = input()
 while len(s) > 0:

@@ -11,8 +11,8 @@ a:A = None
 b:B = None
 
 def get_b() -> B:
-    $Exp("Getting B")
-    return b
+    print("Getting B")
+    return $ID
 
 def get_one() -> int:
     print("Getting 1")

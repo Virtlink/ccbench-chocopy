@@ -3,7 +3,7 @@ y:bool = True
 z:str = ""
 o:object = None
 
-x = $INT
-y = False
+x = 2
+$Target = False
 z = "Hello"
 o = z

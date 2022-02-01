@@ -1,3 +1,3 @@
-$ID:[int] = None
+x:$Type = None
 
 print(x[0])

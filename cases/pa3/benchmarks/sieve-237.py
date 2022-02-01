@@ -25,12 +25,12 @@ class Vector(object):
 
     # Appends many items to end of vector
     def append_all(self:"Vector", new_items: [int]) -> object:
-        item:int = $Literal
+        item:int = 0
         for item in new_items:
             self.append(item)
 
     # Removes an item from the middle of vector
-    def remove_at(self:"Vector", idx: int) -> object:
+    def remove_at(self:"$ID", idx: int) -> object:
         if idx < 0:
             return
 

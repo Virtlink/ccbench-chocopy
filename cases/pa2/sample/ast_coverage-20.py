@@ -1,7 +1,7 @@
 count:int = 0
 
-def foo(s: str) -> $ID:
-    return len(s)
+def foo(s: str) -> int:
+    $Statement
 
 class bar(object):
     p: bool = True

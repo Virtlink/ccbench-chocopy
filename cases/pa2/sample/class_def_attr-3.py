@@ -1,4 +1,5 @@
-$ClassDef
+class $ID(object):
+    x:int = 1
 
 class B(A):
     def __init__(self: "B"):

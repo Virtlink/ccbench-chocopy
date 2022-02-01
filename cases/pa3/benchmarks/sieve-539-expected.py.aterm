@@ -1,1 +1,1 @@
-Type("int")
+Return(Var2Exp(Var("v")))

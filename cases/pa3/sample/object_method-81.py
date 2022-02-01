@@ -10,7 +10,7 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-    def bar() -> int:
-        return self.foo(self.b)
+    def bar(self:"B") -> int:
+        return $Exp
 
 print(B().bar())

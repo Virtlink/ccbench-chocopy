@@ -1,5 +1,5 @@
 x:str = ""
-$Definition
+$VarDef
 
 for x in z:
     print(x)

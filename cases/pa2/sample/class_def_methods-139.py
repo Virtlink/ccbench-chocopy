@@ -19,10 +19,10 @@ b:B = None
 c:C = None
 
 a = A()
-$Target = B()
+b = B()
 c = C()
 
-b.x = a.get_A()
+$Statement
 a.x = b.get_A()
 c.set_A(0)
 

@@ -8,10 +8,8 @@ class B(A):
     b:bool = True
 
     def __init__(self:"B"):
-        $Exp
+        print("B")
 
-    def bar(self:"B") -> int:
-        a:A = None
-        return a.foo(self.b)
+    $FuncDef
 
 print(B().bar())

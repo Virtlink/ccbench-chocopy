@@ -1,3 +1,3 @@
 x:[int] = None
 
-$Var(x[0])
+print($Parameters)

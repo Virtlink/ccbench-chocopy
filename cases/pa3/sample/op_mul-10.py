@@ -1,1 +1,1 @@
-print($Exp)
+print($Literal*9*2)

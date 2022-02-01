@@ -1,1 +1,1 @@
-Var2Exp(Var("z"))
+Call(Var2Exp(Var("foo")),Exps2Parameters([Literal2Exp(Int("1"))]))

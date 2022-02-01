@@ -2,7 +2,7 @@ class A(object):
     a:int = 42
 
     def foo(self:"A", ignore:object) -> int:
-        
+        return $Var.a
 
 class B(A):
     b:bool = True

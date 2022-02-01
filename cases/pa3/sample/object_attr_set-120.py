@@ -14,5 +14,5 @@ a = b = B()
 b.a = 1
 b.b = False
 print(a.a)
-$Exp
-print(b.b)
+print(b.a)
+$Exp(b.b)

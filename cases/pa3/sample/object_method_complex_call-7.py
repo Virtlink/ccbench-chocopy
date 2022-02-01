@@ -1,5 +1,8 @@
 class A(object):
-    
+    $VarDef
+
+    def foo(self:"A", ignore:object) -> int:
+        return self.a
 
 class B(A):
     b:bool = True

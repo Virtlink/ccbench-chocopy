@@ -1,6 +1,6 @@
 # Get the n-th prime starting from 2
 def get_prime(n:int) -> int:
-    candidate:$Type = 2
+    candidate:int = $INT
     found:int = 0
     while True:
         if is_prime(candidate):

@@ -13,6 +13,7 @@ def g(y:int, z:int) -> object:
     h("h")
     print("end g")
 
-$Definition
+def h(msg: str) -> object:
+    print($Parameters)
 
 print(f(4))

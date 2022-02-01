@@ -3,8 +3,8 @@ def f() -> bool:
   return True
 
 def g() -> bool:
-  $Var("g called")
-  return False
+  print("g called")
+  return $Literal
 
 if f() or g():      # Short-circuit
   if g() and f():   # Short-circuit

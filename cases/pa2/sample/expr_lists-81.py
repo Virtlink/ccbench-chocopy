@@ -6,7 +6,7 @@ o:object = None
 x = [1, 2, 3]
 x = []
 y = [1, True]
-z = [$Literal, True]
+z = [False, True]
 x = None
-o = x
+$Statement
 o = x = [1]

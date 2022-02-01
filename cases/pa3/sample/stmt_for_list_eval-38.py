@@ -3,6 +3,6 @@ z:[int] = None
 
 z = [1, 2, 3]
 
-for x in $Exp:
-    z = []
+for x in z:
+    $Statement
     print(x)

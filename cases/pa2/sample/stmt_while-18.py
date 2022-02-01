@@ -1,3 +1,3 @@
 x:int = 0
-while x < $INT:
-    x = x + 1
+while x < 100:
+    $Statement

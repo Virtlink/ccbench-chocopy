@@ -12,7 +12,7 @@ class C(B):
     z:bool = True
 
     def set_A(self: "C", val: int) -> object:
-        $FuncBody
+        self.x = $ID
 
 a:A = None
 b:B = None

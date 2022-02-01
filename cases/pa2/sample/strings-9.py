@@ -1,5 +1,5 @@
-x:str = $STRING
-y:str = "World"
+x:str = "Hello"
+$Definition
 z:str = ""
 
 z = x + y

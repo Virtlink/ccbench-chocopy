@@ -1,1 +1,1 @@
-Block([If(Eq(Literal2Exp(Int("1")),Literal2Exp(Int("1"))),Block([PassStmt()]))])
+Literal2Exp(Int("1"))

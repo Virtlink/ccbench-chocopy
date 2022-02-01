@@ -1,4 +1,4 @@
 x:[int] = None
-y:[int] = $Literal
+y:[int] = None
 
-print(len(x+y))
+$Statement

@@ -1,1 +1,1 @@
-TypedVar("next",Type("int"))
+"next"

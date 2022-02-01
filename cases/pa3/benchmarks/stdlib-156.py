@@ -15,10 +15,10 @@ def int_to_str(x: int) -> str:
     if x >= 10:
         result = result + int_to_str(x // 10)
     result = result + digits[x % 10]
-    return $Var
+    return result
 
 def str_to_int(x: str) -> int:
-    result:int = 0
+    $FuncBodyMember
     digit:int = 0
     char:str = ""
     sign:int = 1

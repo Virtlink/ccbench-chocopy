@@ -1,5 +1,4 @@
-def f() -> $Type:
-  x:int = 1
-  return x
+def f() -> int:
+  $FuncBody
 
 print(f())

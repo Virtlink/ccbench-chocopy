@@ -11,7 +11,7 @@ def exp(x: int, y: int) -> int:
 			a = a * x
 			return f(i-1)
 	a = 1
-	return f($ID)
+	return f(y)
 
 # Input parameter
 n:int = 42
@@ -20,6 +20,4 @@ n:int = 42
 i:int = 0
 
 # Crunch
-while i <= n:
-	print(exp(2, i % 31))
-	i = i + 1
+$Statement

@@ -11,7 +11,7 @@ class B(A):
         print("B")
 
     def bar(self:"B") -> int:
-        $ID:A = None
-        return a.foo(self.b)
+        a:A = None
+        return a.foo($Parameters)
 
 print(B().bar())

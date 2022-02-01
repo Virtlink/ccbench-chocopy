@@ -1,6 +1,9 @@
 next:int = 0
 
-$FuncDef
+def $ID() -> int:
+    global next
+    next = next + 1
+    return next
 
 def make_list() -> [int]:
     return [next_int(), next_int(), next_int()]

@@ -15,7 +15,8 @@ def get_b() -> B:
     return b
 
 def get_one() -> int:
-    $FuncBody
+    print("Getting 1")
+    return $Literal
 
 def get_false() -> bool:
     print("Getting False")

@@ -10,7 +10,7 @@ class B(A):
 a:A = None
 b:B = None
 
-a = $Exp
-print(a.a)
+a = B()
+$ID(a.a)
 print(b.a)
 print(b.b)

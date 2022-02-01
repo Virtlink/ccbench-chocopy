@@ -1,4 +1,4 @@
-x:$Type = 0
+x:$ID = 0
 y:int = 0
 z:[int] = None
 

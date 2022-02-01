@@ -1,1 +1,1 @@
-"first_char"
+VarDef(TypedVar("s",Type("str")),String("\"\""))

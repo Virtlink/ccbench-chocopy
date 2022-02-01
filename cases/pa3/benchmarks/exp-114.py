@@ -11,10 +11,10 @@ def exp(x: int, y: int) -> int:
 			a = a * x
 			return f(i-1)
 	a = 1
-	$Statement
+	return f(y)
 
 # Input parameter
-n:int = 42
+n:int = $INT
 
 # Run [0, n]
 i:int = 0

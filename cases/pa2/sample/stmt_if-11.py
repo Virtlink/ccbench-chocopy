@@ -1,7 +1,7 @@
 if False:
     pass
-elif $Literal:
-    if 1 == 1:
+elif True:
+    if $Exp:
         pass
 else:
     pass

@@ -1,1 +1,1 @@
-Type("int")
+FuncBody([],[Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(String("\"start f\""))]))),Exp(Call(Var2Exp(Var("g")),Exps2Parameters([]))),Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(String("\"end f\""))]))),Return(Literal2Exp(Int("42")))])

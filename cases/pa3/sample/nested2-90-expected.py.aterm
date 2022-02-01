@@ -1,1 +1,1 @@
-Return(Var2Exp(Var("p")))
+"print"

@@ -6,6 +6,6 @@ def foo(x:int) -> bool:
         nonlocal a
         a = 2 
         return y
-    
+    return bar($Exp) > a
 
 foo(1)

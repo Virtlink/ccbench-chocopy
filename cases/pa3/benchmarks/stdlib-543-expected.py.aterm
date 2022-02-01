@@ -1,1 +1,1 @@
-Var("c")
+Exps2Parameters([Var2Exp(Var("s"))])

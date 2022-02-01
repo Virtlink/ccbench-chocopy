@@ -64,14 +64,14 @@ c:int = 4
 
 # Data
 t:Tree = None
-i:int = $INT
+i:int = 0
 k:int = 37813
 
 # Crunch
 t = Tree()
 while i < n:
 	t.insert(k)
-	k = (k * 37813) % 37831
+	k = (k * 37813) % $Exp
 	if i % c != 0:
 		t.insert(i)
 	i = i + 1

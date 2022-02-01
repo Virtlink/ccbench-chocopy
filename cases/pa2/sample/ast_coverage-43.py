@@ -4,9 +4,9 @@ def foo(s: str) -> int:
     return len(s)
 
 class bar(object):
-    $ID: bool = True
+    p: bool = True
 
-    def baz(self:"bar", xx: [int]) -> str:
+    def $ID(self:"bar", xx: [int]) -> str:
         global count
         x:int = 0
         y:int = 1

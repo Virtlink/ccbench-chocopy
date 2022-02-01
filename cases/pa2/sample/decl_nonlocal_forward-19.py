@@ -1,7 +1,7 @@
 def outer() -> int:
     def inner() -> int:
-        
-        x = 1
+        nonlocal x
+        $Target = 1
         return x
     x:int = 0
     inner()

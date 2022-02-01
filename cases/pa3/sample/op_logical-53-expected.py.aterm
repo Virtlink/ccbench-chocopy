@@ -1,1 +1,1 @@
-Var("f")
+And(Call(Var2Exp(Var("g")),Exps2Parameters([])),Call(Var2Exp(Var("f")),Exps2Parameters([])))

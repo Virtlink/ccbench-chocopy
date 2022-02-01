@@ -1,4 +1,4 @@
-def f() -> int:
+def f() -> $Type:
     print("start f")
     g()
     print("end f")

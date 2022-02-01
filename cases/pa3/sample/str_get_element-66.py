@@ -6,7 +6,7 @@ c:str = ""
 def str_get(s:str, i:int) -> str:
     return s[i]
 
-$Var = str_get(x, 0)
+a = str_get($Parameters)
 b = str_get(x, 1)
 c = str_get(x, 2)
 print(a)

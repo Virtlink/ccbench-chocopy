@@ -1,1 +1,1 @@
-VarDef(TypedVar("a",Type("str")),String("\"no\""))
+TypedVar("a",Type("str"))

@@ -18,9 +18,9 @@ a:A = None
 b:B = None
 c:C = None
 
-$ID = A()
+a = A()
 b = B()
-c = C()
+$Statement
 
 b.x = a.get_A()
 a.x = b.get_A()

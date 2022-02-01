@@ -1,1 +1,1 @@
-[Target(Var2Target(Var("b"))),Target(Var2Target(Var("a"))),Target(Var2Target(Var("c")))]
+Call(Var2Exp(Var("C")),Exps2Parameters([]))

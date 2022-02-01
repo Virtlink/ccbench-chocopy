@@ -1,4 +1,4 @@
-$Definition
+$VarDef
 a:str = ""
 b:str = ""
 c:str = ""

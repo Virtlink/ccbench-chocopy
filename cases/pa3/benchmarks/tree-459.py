@@ -48,12 +48,13 @@ class Tree(object):
 	def contains(self:"Tree", x:int) -> bool:
 		if self.root is None:
 			return False
-		$ElifElse
+		else:
+			return self.root.contains(x)
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None
 	b = TreeNode()
-	b.value = x
+	$Statement
 	return b
 
 

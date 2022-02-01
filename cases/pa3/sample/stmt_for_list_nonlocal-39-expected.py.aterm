@@ -1,1 +1,1 @@
-Returns(Type("object"))
+Nonlocal("z")

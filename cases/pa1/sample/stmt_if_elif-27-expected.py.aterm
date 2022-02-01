@@ -1,1 +1,1 @@
-"3"
+Block([Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(Int("2"))])))])

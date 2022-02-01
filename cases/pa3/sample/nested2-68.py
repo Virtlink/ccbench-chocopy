@@ -5,8 +5,8 @@ def foo(x: int) -> int:
         z: int = 3
         def baz() -> int:
             return qux(y)
-        
-    def qux(p: int) -> int:
+        return baz()
+    def qux($TypedVar) -> int:
         return p
 
     return bar()

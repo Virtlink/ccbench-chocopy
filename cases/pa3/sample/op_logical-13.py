@@ -1,5 +1,5 @@
 def f() -> bool:
-  $Exp
+  print($Parameters)
   return True
 
 def g() -> bool:

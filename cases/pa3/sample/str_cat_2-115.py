@@ -10,8 +10,8 @@ def cat2(a:str, b:str) -> str:
 def cat3(a:str, b:str, c:str) -> str:
     return a + b + c
 
-c = cat2($Exp, a)
-d = cat2(a, a)
+c = cat2(b, a)
+$ID = cat2(a, a)
 e = cat3(a, b, cat2(b, b))
 
 print(c)

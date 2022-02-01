@@ -5,7 +5,7 @@ def next_int() -> int:
     next = next + 1
     return next
 
-def make_list() -> $Type:
-    return [next_int(), next_int(), next_int()]
+def make_list() -> [int]:
+    return [$Exp, next_int(), next_int()]
 
 print(make_list()[next_int() - 3])

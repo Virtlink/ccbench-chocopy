@@ -1,1 +1,1 @@
-"int"
+While(Literal2Exp(True()),Block([Return(Literal2Exp(Int("1")))]))

@@ -1,1 +1,1 @@
-VarDef(TypedVar("x",ListType(Type("int"))),NONE())
+TypedVar("x",ListType(Type("int")))

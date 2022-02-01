@@ -12,7 +12,7 @@ a:A = None
 b:B = None
 c:C = None
 
-a = $Exp()
-a = B()
+a = A()
+a = $Exp
 b = a = c = C()
 c = None

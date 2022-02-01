@@ -6,9 +6,9 @@ def foo(s: str) -> int:
 class bar(object):
     p: bool = True
 
-    def baz(self:"bar", xx: [int]) $RetType:
+    def baz(self:"bar", xx: [int]) -> str:
         global count
-        x:int = 0
+        $VarDef
         y:int = 1
 
         def qux(y: int) -> object:

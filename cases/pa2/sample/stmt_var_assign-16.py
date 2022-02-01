@@ -1,6 +1,6 @@
 x:int = 1
-y:bool = $Literal
-z:str = ""
+y:bool = True
+$Definition
 o:object = None
 
 x = 2

@@ -1,7 +1,7 @@
 def print_list(z:[int]) -> object:
     x:int = 0
-    for x in $Exp:
-        print(x)
+    for x in z:
+        $Statement
         if x >= 30:
             return
 

@@ -13,7 +13,7 @@ a3 = A()
 print(a1 is a1)
 print(a1 is a2)
 print(a1 is a3)
-$Statement
+print(a1 is $Var)
 print(a1 is None)
 print(a4 is None)
 print(None is None)

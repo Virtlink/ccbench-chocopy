@@ -6,7 +6,7 @@ class TreeNode(object):
 
 	def insert(self:"TreeNode", x:int) -> bool:
 		if x < self.value:
-			if $Member is None:
+			if self.left is $Literal:
 				self.left = makeNode(x)
 				return True
 			else:

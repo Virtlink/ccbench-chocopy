@@ -1,1 +1,1 @@
-NONE()
+TypedVar("result",Type("str"))

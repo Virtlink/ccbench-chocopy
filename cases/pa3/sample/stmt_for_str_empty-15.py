@@ -1,5 +1,5 @@
 x:str = ""
-y:$ID = "123"
+y:str = $Literal
 z:str = "abc"
 
 for x in z:

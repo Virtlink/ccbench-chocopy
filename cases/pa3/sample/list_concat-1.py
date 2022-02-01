@@ -1,4 +1,7 @@
+$Definition
 
+z:[int] = None
+i:int = 0
 
 z = concat([1,2,3], [4,5,6])
 

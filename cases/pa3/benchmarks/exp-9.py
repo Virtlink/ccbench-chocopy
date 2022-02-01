@@ -1,5 +1,5 @@
 # Compute x**y
-def exp(x: $ID, y: int) -> int:
+def exp(x: int, $ID: int) -> int:
 	a: int = 0
 	def f(i: int) -> int:
 		nonlocal a

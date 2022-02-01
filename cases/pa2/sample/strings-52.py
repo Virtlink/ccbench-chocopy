@@ -3,6 +3,6 @@ y:str = "World"
 z:str = ""
 
 z = x + y
-z = x[$Literal]
-x = y = z
+z = x[0]
+$Target = y = z
 

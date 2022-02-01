@@ -12,7 +12,7 @@ a:A = None
 b:B = None
 c:C = None
 
- A()
+a = A($Parameters)
 a = B()
 b = a = c = C()
 c = None

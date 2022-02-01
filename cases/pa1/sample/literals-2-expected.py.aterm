@@ -1,1 +1,1 @@
-[Exp(Literal2Exp(True())),Exp(Literal2Exp(False())),Exp(Literal2Exp(Int("1"))),Exp(Literal2Exp(NONE())),Exp(Literal2Exp(String("\"This is a string\""))),Exp(List([Literal2Exp(Int("1")),Literal2Exp(Int("2")),Literal2Exp(Int("3"))]))]
+Literal2Exp(True())

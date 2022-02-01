@@ -1,4 +1,4 @@
 x:int = 0
 y:object = 1
-x = $AssignTarget 42
+x = $ID = 42
 print(x)

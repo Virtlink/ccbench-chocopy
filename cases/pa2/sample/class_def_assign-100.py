@@ -14,5 +14,5 @@ c:C = None
 
 a = A()
 a = B()
-$ID = a = c = C()
+b = a = c = C($Parameters)
 c = None

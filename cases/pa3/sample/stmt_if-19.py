@@ -1,7 +1,7 @@
 if False:
     print("No")
-elif $Exp:
-    if True:
+elif True:
+    if $Exp:
         print("Yes")
 else:
     pass

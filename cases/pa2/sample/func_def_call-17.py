@@ -1,5 +1,5 @@
 def foo(x:str, y:bool) -> int:
-    $FuncBody
+    return $Exp
 
 def bar() -> int:
     return 1

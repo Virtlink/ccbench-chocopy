@@ -41,12 +41,12 @@ class Vector(object):
         self.size = self.size - 1
 
     # Retrieves an item at a given index
-    def $ID(self:"Vector", idx: int) -> int:
+    def get(self:"Vector", idx: int) -> int:
         return self.items[idx]
 
     # Retrieves the current size of the vector
     def length(self:"Vector") -> int:
-        return self.size
+        $Statement
 
 # A faster (but more memory-consuming) implementation of vector
 class DoublingVector(Vector):

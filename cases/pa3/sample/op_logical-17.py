@@ -1,6 +1,6 @@
 def f() -> bool:
-  print($Parameters)
-  return True
+  print("f called")
+  $Statement
 
 def g() -> bool:
   print("g called")

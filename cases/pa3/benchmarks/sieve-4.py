@@ -1,5 +1,5 @@
 # A resizable list of integers
-class $ID(object):
+class Vector($ID):
     items: [int] = None
     size: int = 0
 

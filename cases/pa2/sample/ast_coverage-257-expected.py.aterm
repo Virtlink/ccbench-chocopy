@@ -1,1 +1,1 @@
-Target(Member2Target(Member(Var2Exp(Var("self")),"p")))
+Call(Var2Exp(Var("bar")),Exps2Parameters([]))

@@ -3,7 +3,7 @@ y:int = 0
 z:[bool] = None
 o:object = None
 
-x = [$Literal, 2, 3]
+x = [1, $INT, 3]
 z = [False, True]
 
 y = x[0]

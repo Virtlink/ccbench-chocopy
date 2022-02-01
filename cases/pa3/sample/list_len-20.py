@@ -1,4 +1,4 @@
 x:[int] = None
 
-x = [$Literal, 2, 3]
+x = [1, $INT, 3]
 print(len(x))

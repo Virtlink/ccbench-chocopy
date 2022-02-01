@@ -1,1 +1,1 @@
-$Statement
+$Exp(42 // 0)

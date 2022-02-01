@@ -1,1 +1,1 @@
-TypedVar("y",Type("int"))
+Returns(Type("int"))

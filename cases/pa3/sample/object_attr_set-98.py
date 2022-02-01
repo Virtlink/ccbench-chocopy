@@ -12,7 +12,7 @@ b:B = None
 
 a = b = B()
 b.a = 1
-$Target = False
-print(a.a)
+b.b = False
+$ID(a.a)
 print(b.a)
 print(b.b)

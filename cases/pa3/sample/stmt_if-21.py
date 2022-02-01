@@ -1,6 +1,7 @@
 if False:
     print("No")
 elif True:
-    $Block
+    if True:
+        $Block
 else:
     pass

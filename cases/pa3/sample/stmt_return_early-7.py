@@ -1,6 +1,4 @@
-def f() -> $Type:
-    while True:
-        return 1
-    return 0
+def f() -> int:
+    $FuncBody
 
 print(f())

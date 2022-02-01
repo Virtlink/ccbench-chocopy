@@ -2,8 +2,8 @@
 def get_prime(n:int) -> int:
     candidate:int = 2
     found:int = 0
-    while $Exp:
-        if is_prime(candidate):
+    while True:
+        if $Exp:
             found = found + 1
             if found == n:
                 return candidate

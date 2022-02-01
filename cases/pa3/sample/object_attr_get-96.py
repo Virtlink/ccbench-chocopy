@@ -12,5 +12,5 @@ b:B = None
 
 a = b = B()
 print(a.a)
-$Statement
+print(b.$ID)
 print(b.b)

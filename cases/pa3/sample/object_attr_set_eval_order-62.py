@@ -8,9 +8,9 @@ class B(A):
         print("B")
 
 a:A = None
-$ID:B = None
+b:B = None
 
-def get_b() -> B:
+def get_b() $RetType:
     print("Getting B")
     return b
 

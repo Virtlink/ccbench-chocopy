@@ -66,12 +66,12 @@ n:int = 10
 
 # Run [-nc, nc] with step size c
 s:str = ""
-$VarDef
+i:int = 0
 i = -n * c
 
 # Crunch
 while i <= n * c:
-    s = int_to_str(i)
+    s = int_to_str($ID)
     print(s)
     i = str_to_int(s) + c
 

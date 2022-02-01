@@ -7,8 +7,8 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
+a:A = None
 $TypedVar = None
-b:B = None
 
 a = B()
 print(a.a)

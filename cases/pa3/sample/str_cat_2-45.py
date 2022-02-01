@@ -4,7 +4,7 @@ c:str = ""
 d:str = ""
 e:str = ""
 
-def cat2() -> str:
+def cat2($ID:str, b:str) -> str:
     return a + b
 
 def cat3(a:str, b:str, c:str) -> str:

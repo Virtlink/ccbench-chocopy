@@ -1,1 +1,1 @@
-"object"
+Member(Call(Var2Exp(Var("B")),Exps2Parameters([])),"bar")

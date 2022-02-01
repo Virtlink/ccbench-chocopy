@@ -1,11 +1,7 @@
 g: int = 1
 def foo(x: int) -> int:
-    y: $ID = 2
-    def bar() -> int:
-        z: int = 3
-        def baz() -> int:
-            return qux(y)
-        return baz()
+    y: int = 2
+    $FuncBodyMember
     def qux(p: int) -> int:
         return p
 

@@ -4,7 +4,7 @@ class A(object):
 class B(A):
     b:bool = True
 
-    def __init__():
+    def __init__(self:$IDSTRING):
         print("B")
 
 a:A = None

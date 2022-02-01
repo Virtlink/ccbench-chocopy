@@ -11,9 +11,9 @@ def g(y:int, z:int) -> object:
     print(y)
     print(z)
     h("h")
-    $Exp
+    print("end g")
 
-def h(msg: str) -> object:
+def h(msg: str) $RetType:
     print(msg)
 
 print(f(4))

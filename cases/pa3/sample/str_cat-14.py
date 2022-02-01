@@ -1,5 +1,5 @@
 a:str = "Hello"
-b:$Type = "World"
+b:$ID = "World"
 c:str = "ChocoPy"
 
 def cat2(a:str, b:str) -> str:

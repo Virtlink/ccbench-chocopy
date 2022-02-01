@@ -1,1 +1,1 @@
-Var2Exp(Var("bar"))
+FuncDef2Definition(FuncDef("bar",[],Returns(Type("int")),FuncBody([],[Return(Literal2Exp(Int("1")))])))

@@ -1,1 +1,1 @@
-VarDef(TypedVar("e",Type("str")),String("\"\""))
+TypedVar("e",Type("str"))

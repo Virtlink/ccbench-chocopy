@@ -15,11 +15,10 @@ def get_b() -> B:
     return b
 
 def get_one() -> int:
-    
+    print("Getting 1")
+    return 1
 
-def get_false() -> bool:
-    print("Getting False")
-    return False
+$Definition
 
 a = b = B()
 get_b().a = get_one()

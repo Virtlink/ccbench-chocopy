@@ -1,1 +1,1 @@
-Var("print")
+Eq(Literal2Exp(True()),Literal2Exp(False()))

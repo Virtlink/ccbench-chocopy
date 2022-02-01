@@ -1,1 +1,1 @@
-Literal2Exp(String("\"Hello\""))
+Var2Target(Var("o"))

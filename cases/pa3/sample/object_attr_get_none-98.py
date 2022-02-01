@@ -12,5 +12,5 @@ b:B = None
 
 a = B()
 print(a.a)
-print()
-print(b.b)
+print(b.a)
+print($Parameters)

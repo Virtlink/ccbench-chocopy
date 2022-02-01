@@ -1,5 +1,5 @@
-x:int = $INT
-z:[int] = None
+x:int = 0
+$Definition
 
 z = [1, 2, 1]
 

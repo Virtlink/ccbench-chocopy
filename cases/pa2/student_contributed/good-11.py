@@ -1,2 +1,2 @@
 x:int = 1
-$Statement
+$Exp * 1

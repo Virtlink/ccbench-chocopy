@@ -9,8 +9,8 @@ class C(B):
     z:bool = True
 
 a:A = None
+b:B = None
 $VarDef
-c:C = None
 
 a = A()
 b = B()

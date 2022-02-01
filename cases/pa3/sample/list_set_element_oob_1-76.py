@@ -4,4 +4,4 @@ x = [1, 2, 3]
 x[-1] = 4
 print(x[0])
 print(x[1])
-$Var(x[2])
+print($ID[2])

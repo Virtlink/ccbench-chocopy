@@ -1,6 +1,6 @@
 # Binary-search trees
 class TreeNode(object):
-	value:$Type = 0
+	value:int = $Literal
 	left:"TreeNode" = None
 	right:"TreeNode" = None
 

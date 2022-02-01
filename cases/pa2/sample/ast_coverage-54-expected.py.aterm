@@ -1,1 +1,1 @@
-IdString("bar")
+Returns(Type("str"))

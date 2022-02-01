@@ -1,7 +1,7 @@
 x:int = 0
 z:[int] = None
 
-z = []
+z = [1, $Exp, 1]
 
 for x in z:
     z[x] = x

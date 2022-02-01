@@ -2,7 +2,7 @@
 def foo(x:int) -> bool:
     a:int = 0
     b:int = 1
-    def $ID(y: int) -> int:
+    def bar(y: $Type) -> int:
         a:int = 2 
         return y
     return bar(x) > a

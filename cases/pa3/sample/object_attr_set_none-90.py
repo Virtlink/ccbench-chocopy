@@ -11,9 +11,9 @@ a:A = None
 b:B = None
 
 a = B()
-print($ID.a)
+print(a.a)
 
-b.a = 1
+b.a = $Literal
 b.b = False
 print(b.a)
 print(b.b)

@@ -1,4 +1,4 @@
 x:int = 0
 y:object = 1
-x = $ID = 42
+x = y = $INT
 print(x)

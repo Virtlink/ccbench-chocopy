@@ -1,6 +1,6 @@
 # Test of 'input' function.
 
-
+$Definition
 
 s = input()
 while len(s) > 0:

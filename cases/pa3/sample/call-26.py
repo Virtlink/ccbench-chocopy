@@ -1,7 +1,7 @@
 def f() -> int:
     print("start f")
-    $ID()
-    print("end f")
+    g()
+    $Var("end f")
     return 42
 
     

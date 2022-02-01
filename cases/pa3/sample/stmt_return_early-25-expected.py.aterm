@@ -1,1 +1,1 @@
-[Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Call(Var2Exp(Var("f")),Exps2Parameters([]))])))]
+Exps2Parameters([Call(Var2Exp(Var("f")),Exps2Parameters([]))])

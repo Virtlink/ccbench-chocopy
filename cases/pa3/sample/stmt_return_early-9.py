@@ -1,4 +1,6 @@
 def f() -> int:
-    $FuncBody
+    while $Exp:
+        return 1
+    return 0
 
 print(f())

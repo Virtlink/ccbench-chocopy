@@ -1,5 +1,5 @@
 class A(object):
-    $VarDef
+    $ID:int = 1
 
 class B(A):
     def __init__(self: "B"):

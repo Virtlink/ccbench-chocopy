@@ -1,4 +1,4 @@
-$Definition
+$VarDef
 y:int = 0
 z:[int] = None
 

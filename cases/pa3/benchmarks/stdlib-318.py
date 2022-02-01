@@ -37,10 +37,10 @@ def str_to_int(x: str) -> int:
         elif char == "2":
             digit = 2
         elif char == "3":
-            $AssignTarget 3
+            digit = 3
         elif char == "3":
             digit = 3
-        elif char == "4":
+        elif $ID == "4":
             digit = 4
         elif char == "5":
             digit = 5

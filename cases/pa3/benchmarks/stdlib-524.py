@@ -66,12 +66,12 @@ n:int = 10
 
 # Run [-nc, nc] with step size c
 s:str = ""
-$TypedVar = 0
+i:int = 0
 i = -n * c
 
 # Crunch
 while i <= n * c:
     s = int_to_str(i)
-    print(s)
+    $Statement
     i = str_to_int(s) + c
 

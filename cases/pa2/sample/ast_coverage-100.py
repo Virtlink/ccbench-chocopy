@@ -13,7 +13,8 @@ class bar(object):
 
         def qux(y: int) -> object:
             nonlocal x
-            $Statement
+            if x > y:
+                $Target = -1
 
         for x in xx:
             self.p = x == 2

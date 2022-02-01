@@ -1,4 +1,4 @@
-def f() -> bool:
+def f() -> $Type:
   print("f called")
   return True
 

@@ -10,10 +10,9 @@ def g(y:int, z:int) -> object:
     print("start g")
     print(y)
     print(z)
-    h($Parameters)
+    h("h")
     print("end g")
 
-def h(msg: str) -> object:
-    print(msg)
+$FuncDef
 
 print(f(4))

@@ -1,1 +1,1 @@
-Var2Exp(Var("char"))
+Assign([Target(Var2Target(Var("first_char")))],Literal2Exp(False()))

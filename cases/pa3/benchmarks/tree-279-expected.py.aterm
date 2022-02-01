@@ -1,1 +1,1 @@
-Block([Return(Call(Member2Exp(Member(Member2Exp(Member(Var2Exp(Var("self")),"right")),"contains")),Exps2Parameters([Var2Exp(Var("x"))])))])
+VarDef2ClassBodyMember(VarDef(TypedVar("root",Type("TreeNode")),NONE()))

@@ -1,1 +1,1 @@
-Var("x")
+Assign([Target(Index2Target(Index(Var2Exp(Var("x")),Literal2Exp(Int("0")))))],Literal2Exp(Int("4")))

@@ -1,5 +1,5 @@
 a:str = "Hello"
-b:str = $Literal
+b:str = $STRING
 c:str = "ChocoPy"
 
 def cat2(a:str, b:str) -> str:

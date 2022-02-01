@@ -1,7 +1,7 @@
 if False:
     pass
 elif True:
-    if $INT == 1:
-        pass
+    if 1 == 1:
+        $Block
 else:
     pass

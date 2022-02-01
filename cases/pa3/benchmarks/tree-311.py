@@ -34,11 +34,11 @@ class TreeNode(object):
 			return True
 
 class Tree(object):
-	$TypedVar = None
+	root:TreeNode = None
 	size:int = 0
 
 	def insert(self:"Tree", x:int) -> object:
-		if self.root is None:
+		if $Exp:
 			self.root = makeNode(x)
 			self.size = 1
 		else:

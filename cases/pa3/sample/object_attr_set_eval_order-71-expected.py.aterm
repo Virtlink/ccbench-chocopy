@@ -1,1 +1,1 @@
-Type("B")
+Exps2Parameters([Literal2Exp(String("\"Getting B\""))])

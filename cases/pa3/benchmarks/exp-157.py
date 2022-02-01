@@ -21,5 +21,5 @@ i:int = 0
 
 # Crunch
 while i <= n:
-	print()
-	i = i + 1
+	print(exp(2, i % 31))
+	$ID = i + 1

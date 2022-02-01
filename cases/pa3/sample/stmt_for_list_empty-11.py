@@ -1,5 +1,5 @@
 x:int = 0
-$VarDef
+$TypedVar = 0
 z:[int] = None
 e:[int] = None
 

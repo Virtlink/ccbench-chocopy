@@ -11,7 +11,8 @@ class B(A):
         print("B")
 
     def bar(self:"B") -> int:
-        $FuncBodyMember
+        def qux(p: bool) -> int:
+            return $Exp
         return qux(True)
 
 print(B().bar())

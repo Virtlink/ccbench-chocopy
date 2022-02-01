@@ -1,4 +1,4 @@
 def foo() -> int:
-    $Statement
+    return 1
 
-foo()
+$Statement

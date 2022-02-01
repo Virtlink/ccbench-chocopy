@@ -4,8 +4,8 @@ def get_prime(n:int) -> int:
     found:int = 0
     while True:
         if is_prime(candidate):
-            found = $Var + 1
-            if found == n:
+            found = found + 1
+            if $Var == n:
                 return candidate
         candidate = candidate + 1
     return 0 # Never happens

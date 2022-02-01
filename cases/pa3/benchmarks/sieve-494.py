@@ -55,7 +55,7 @@ class DoublingVector(Vector):
     # Overriding to do fewer resizes
     def increase_capacity(self:"DoublingVector") -> int:
         if (self.capacity() <= self.doubling_limit // 2):
-            self.items = self.items + self.$ID
+            self.items = self.items + self.items
         else:
             # If doubling limit has been reached, fall back to
             # standard capacity increases
@@ -64,7 +64,7 @@ class DoublingVector(Vector):
 
 # Makes a vector in the range [i, j)
 def vrange(i:int, j:int) -> Vector:
-    v:Vector = None
+    v:$ID = None
     v = DoublingVector()
     
     while i < j:

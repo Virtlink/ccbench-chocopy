@@ -1,5 +1,5 @@
 # Compute x**y
-def exp(x: int, y: $Type) -> int:
+def exp(x: int, y: int) $RetType:
 	a: int = 0
 	def f(i: int) -> int:
 		nonlocal a

@@ -14,7 +14,9 @@ def get_b() -> B:
     print("Getting B")
     return b
 
-$Definition
+def get_one() -> int:
+    $ID("Getting 1")
+    return 1
 
 def get_false() -> bool:
     print("Getting False")

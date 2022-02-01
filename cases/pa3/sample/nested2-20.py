@@ -1,6 +1,6 @@
 g: int = 1
-def foo(x: int) -> $ID:
-    y: int = 2
+def foo(x: int) -> int:
+    $FuncBodyMember
     def bar() -> int:
         z: int = 3
         def baz() -> int:

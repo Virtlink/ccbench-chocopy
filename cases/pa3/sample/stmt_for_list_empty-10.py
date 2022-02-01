@@ -1,5 +1,5 @@
 x:int = 0
-$Definition
+$VarDef
 z:[int] = None
 e:[int] = None
 

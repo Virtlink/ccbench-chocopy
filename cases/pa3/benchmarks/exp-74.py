@@ -7,7 +7,9 @@ def exp(x: int, y: int) -> int:
 			return a
 		if i <= 0:
 			return geta()
-		$ElifElse
+		else:
+			a = a * $Exp
+			return f(i-1)
 	a = 1
 	return f(y)
 

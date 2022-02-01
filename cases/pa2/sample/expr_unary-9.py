@@ -1,2 +1,2 @@
 -1
-$Exp
+not $Literal

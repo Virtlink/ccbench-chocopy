@@ -1,1 +1,1 @@
-"2"
+For("x",Var2Exp(Var("z")),Block([Assign([Target(Var2Target(Var("z")))],List([])),Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Var2Exp(Var("x"))])))]))

@@ -4,8 +4,8 @@ class A(object):
 class B(A):
     b:bool = True
 
-    def __init__(self:$IDSTRING):
-        print("B")
+    def __init__(self:"B"):
+        $Statement
 
 a:A = None
 b:B = None

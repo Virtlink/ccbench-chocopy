@@ -8,9 +8,9 @@ class B(A):
         print("B")
 
 a:A = None
-$VarDef
+b:B = None
 
-a = b = B()
+$AssignTarget b = B()
 b.a = 1
 b.b = False
 print(a.a)

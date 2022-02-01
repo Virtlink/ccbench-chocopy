@@ -1,6 +1,5 @@
-def f() -> $Type:
-  print("f called")
-  return True
+def f() -> bool:
+  $FuncBody
 
 def g() -> bool:
   print("g called")

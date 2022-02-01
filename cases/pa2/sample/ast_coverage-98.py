@@ -12,9 +12,9 @@ class bar(object):
         y:int = 1
 
         def qux(y: int) -> object:
-            nonlocal $ID
+            nonlocal x
             if x > y:
-                x = -1
+                $Statement
 
         for x in xx:
             self.p = x == 2

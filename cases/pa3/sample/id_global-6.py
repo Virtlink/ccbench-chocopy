@@ -1,2 +1,2 @@
-x:$Type = 42
+x:$ID = 42
 print(x)

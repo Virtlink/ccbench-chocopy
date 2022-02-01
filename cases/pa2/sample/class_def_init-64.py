@@ -10,8 +10,8 @@ class C(B):
 
 a:A = None
 b:B = None
-$VarDef
+c:C = None
 
-a = A()
+$AssignTarget A()
 b = B()
 c = C()

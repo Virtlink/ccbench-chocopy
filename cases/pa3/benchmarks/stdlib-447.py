@@ -51,14 +51,14 @@ def str_to_int(x: str) -> int:
         elif char == "8":
             digit = 8
         elif char == "9":
-            $Block
+            digit = 9
         else:
             return 0 # On error
         first_char = False
         result = result * 10 + digit
 
     # Compute result
-    return result * sign
+    return $Exp * sign
         
 # Input parameters
 c:int = 42

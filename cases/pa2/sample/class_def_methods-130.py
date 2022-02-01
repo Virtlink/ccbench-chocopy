@@ -18,9 +18,9 @@ a:A = None
 b:B = None
 c:C = None
 
-a = $Exp
+a = A()
 b = B()
-c = C()
+$AssignTarget C()
 
 b.x = a.get_A()
 a.x = b.get_A()

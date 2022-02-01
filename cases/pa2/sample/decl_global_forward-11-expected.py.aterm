@@ -1,1 +1,1 @@
-Global("x")
+Target(Var2Target(Var("x")))

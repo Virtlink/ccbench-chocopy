@@ -1,1 +1,1 @@
-Var2Exp(Var("n"))
+Assign([Target(Var2Target(Var("candidate")))],Add(Var2Exp(Var("candidate")),Literal2Exp(Int("1"))))

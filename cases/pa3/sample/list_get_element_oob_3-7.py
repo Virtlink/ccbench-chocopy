@@ -1,4 +1,4 @@
-x:[$Type] = None
+x:[$ID] = None
 
 x = []
 print(x[0])

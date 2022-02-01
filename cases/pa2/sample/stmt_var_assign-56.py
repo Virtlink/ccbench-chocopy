@@ -5,5 +5,5 @@ o:object = None
 
 x = 2
 y = False
-z = $Exp
-o = z
+z = "Hello"
+$Target = z

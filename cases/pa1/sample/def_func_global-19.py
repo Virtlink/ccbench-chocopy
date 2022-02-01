@@ -1,7 +1,6 @@
 z:int = 0
 
-def foo(x:int) -> $Type:
-    global z
-    return x > z
+def foo(x:int) -> bool:
+    $FuncBody
 
 foo(1)

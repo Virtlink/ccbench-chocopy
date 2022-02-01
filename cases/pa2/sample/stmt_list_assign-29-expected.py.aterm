@@ -1,1 +1,1 @@
-"1"
+Assign([Target(Var2Target(Var("y")))],List([Literal2Exp(NONE())]))

@@ -3,8 +3,8 @@ y:int = 0
 z:[bool] = None
 o:object = None
 
-x = [1, $INT, 3]
-z = [False, True]
+x = [1, 2, 3]
+$Statement
 
 y = x[0]
 x[0] = 1

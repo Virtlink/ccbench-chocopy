@@ -3,7 +3,7 @@ y:bool = True
 z:str = ""
 o:object = None
 
-x = $Exp
-y = False
+x = 2
+$Statement
 z = "Hello"
 o = z

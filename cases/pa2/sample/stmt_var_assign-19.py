@@ -1,6 +1,6 @@
 x:int = 1
 y:bool = True
-$TypedVar = ""
+$ID:str = ""
 o:object = None
 
 x = 2

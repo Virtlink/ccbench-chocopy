@@ -1,1 +1,1 @@
-Eq(Literal2Exp(True()),Literal2Exp(True()))
+Literal2Exp(True())

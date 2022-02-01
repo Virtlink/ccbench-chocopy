@@ -1,1 +1,1 @@
-[TypedVar("x",Type("str")),TypedVar("y",Type("bool"))]
+"x"

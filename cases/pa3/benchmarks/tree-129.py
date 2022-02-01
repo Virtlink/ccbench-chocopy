@@ -12,7 +12,11 @@ class TreeNode(object):
 			else:
 				return self.left.insert(x)
 		elif x > self.value:
-			$Statement
+			if self.right is None:
+				$AssignTarget makeNode(x)
+				return True
+			else:
+				return self.right.insert(x)
 		return False
 
 	def contains(self:"TreeNode", x:int) -> bool:

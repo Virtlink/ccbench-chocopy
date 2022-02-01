@@ -11,7 +11,8 @@ class TreeNode(object):
 				return True
 			else:
 				return self.left.insert(x)
-		$ElifElse
+		elif x > self.value:
+			$Block
 		return False
 
 	def contains(self:"TreeNode", x:int) -> bool:

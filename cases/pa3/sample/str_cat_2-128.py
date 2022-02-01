@@ -11,8 +11,8 @@ def cat3(a:str, b:str, c:str) -> str:
     return a + b + c
 
 c = cat2(b, a)
-d = $Exp(a, a)
-e = cat3(a, b, cat2(b, b))
+d = cat2(a, a)
+$AssignTarget cat3(a, b, cat2(b, b))
 
 print(c)
 print(d)

@@ -29,12 +29,12 @@ class TreeNode(object):
 			if self.right is None:
 				return False
 			else:
-				return $Exp.contains(x)
+				return self.right.contains(x)
 		else:
 			return True
 
 class Tree(object):
-	root:TreeNode = None
+	root:TreeNode = $Literal
 	size:int = 0
 
 	def insert(self:"Tree", x:int) -> object:

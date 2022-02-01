@@ -8,9 +8,9 @@ class B(A):
         print("B")
 
 a:A = None
-$ID:B = None
+b:B = None
 
-a = b = B()
+$Var = b = B()
 print(a.a)
 print(b.a)
 print(b.b)

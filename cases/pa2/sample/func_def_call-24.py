@@ -1,7 +1,7 @@
 def foo(x:str, y:bool) -> int:
-    return $ID()
+    return bar()
 
-def bar() -> int:
+def $ID() -> int:
     return 1
 
 foo("Hello", False)

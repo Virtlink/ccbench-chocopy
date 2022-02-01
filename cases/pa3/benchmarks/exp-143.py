@@ -20,6 +20,6 @@ n:int = 42
 i:int = 0
 
 # Crunch
-while $Exp <= n:
-	print(exp(2, i % 31))
+while i <= n:
+	print(exp($Exp, i % 31))
 	i = i + 1

@@ -4,7 +4,7 @@ def concat(x:[int], y:[int]) -> [int]:
 z:[int] = None
 i:int = 0
 
-$Target = concat([1,2,3], [4,5,6])
+z = $ID([1,2,3], [4,5,6])
 
 while i < len(z):
     print(z[i])

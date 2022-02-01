@@ -3,9 +3,9 @@ next:int = 0
 def next_int() -> int:
     global next
     next = next + 1
-    return $Var
+    return next
 
-def make_list() -> [int]:
+def make_list() $RetType:
     return [next_int(), next_int(), next_int()]
 
 print(make_list()[next_int() - 3])

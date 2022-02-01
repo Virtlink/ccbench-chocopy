@@ -5,5 +5,5 @@ z:[int] = None
 z = [1, 2, 3]
 
 for x in z:
-    for y in $Var:
-        print(x * y)
+    for y in z:
+        $Exp(x * y)

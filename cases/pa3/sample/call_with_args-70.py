@@ -6,8 +6,8 @@ def f(x:int) -> int:
     return x
 
     
-def g(y:$ID, z:int) -> object:
-    print("start g")
+def g(y:int, z:int) -> object:
+    $Statement
     print(y)
     print(z)
     h("h")

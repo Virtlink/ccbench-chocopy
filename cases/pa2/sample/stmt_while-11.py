@@ -1,2 +1,3 @@
 x:int = 0
-$Statement
+while $Exp < 100:
+    x = x + 1

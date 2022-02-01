@@ -1,4 +1,4 @@
-$VarDef
+$TypedVar = 42
 y:int = 7
 
 print(x == y)

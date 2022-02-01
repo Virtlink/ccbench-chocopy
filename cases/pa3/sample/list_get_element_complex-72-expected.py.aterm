@@ -1,1 +1,1 @@
-Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Index2Exp(Index(Call(Var2Exp(Var("make_list")),Exps2Parameters([])),Sub(Call(Var2Exp(Var("next_int")),Exps2Parameters([])),Literal2Exp(Int("3")))))])))
+Sub(Call(Var2Exp(Var("next_int")),Exps2Parameters([])),Literal2Exp(Int("3")))

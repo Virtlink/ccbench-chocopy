@@ -1,1 +1,1 @@
-"3"
+Index(Var2Exp(Var("x")),Literal2Exp(Int("4")))

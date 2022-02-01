@@ -2,7 +2,7 @@ def f(x:int) -> int:
     print("start f")
     print(x)
     g(1, x)
-    $Statement
+    print($Literal)
     return x
 
     

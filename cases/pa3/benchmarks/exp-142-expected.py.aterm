@@ -1,1 +1,1 @@
-Leq(Var2Exp(Var("i")),Var2Exp(Var("n")))
+Exps2Parameters([Literal2Exp(Int("2")),Mod(Var2Exp(Var("i")),Literal2Exp(Int("31")))])

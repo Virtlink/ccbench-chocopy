@@ -1,4 +1,4 @@
-def print_list(z:[int]) $RetType:
+def print_list(z:[int]) -> $ID:
     x:int = 0
     for x in z:
         print(x)

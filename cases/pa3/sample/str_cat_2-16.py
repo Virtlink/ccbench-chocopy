@@ -1,5 +1,5 @@
 a:str = "no"
-b:str = $Literal
+b:str = $STRING
 c:str = ""
 d:str = ""
 e:str = ""

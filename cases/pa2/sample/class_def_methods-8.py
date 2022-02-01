@@ -1,5 +1,5 @@
 class A(object):
-    $ClassBodyMember
+    $TypedVar = 1
 
     def get_A(self: "A") -> int:
         return self.x

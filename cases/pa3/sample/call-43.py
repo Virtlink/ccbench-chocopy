@@ -5,7 +5,10 @@ def f() -> int:
     return 42
 
     
-$Definition
+def g() -> object:
+    $Statement
+    h()
+    print("end g")
 
 def h() -> object:
     print("start h")

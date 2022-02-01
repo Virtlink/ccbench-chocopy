@@ -1,5 +1,5 @@
 def f() -> int:
-  $TypedVar = 1
+  x:$ID = 1
   return x
 
 print(f())

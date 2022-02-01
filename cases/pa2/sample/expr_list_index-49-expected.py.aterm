@@ -1,1 +1,1 @@
-Int("3")
+Var2Target(Var("z"))

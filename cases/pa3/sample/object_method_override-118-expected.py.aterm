@@ -1,1 +1,1 @@
-TypedVar("ignore",Type("object"))
+Var("print")

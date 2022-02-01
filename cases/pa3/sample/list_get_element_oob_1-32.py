@@ -1,4 +1,4 @@
 x:[int] = None
 
 x = [1, 2, 3]
-$ID(x[-1])
+print($Exp[-1])

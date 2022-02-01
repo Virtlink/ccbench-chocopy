@@ -1,3 +1,3 @@
 [1, 2] + [3, 4]
 "Hello " + "World"
-[] + [True]
+[1, $Literal] + [True]

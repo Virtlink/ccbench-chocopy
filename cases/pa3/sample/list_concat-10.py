@@ -1,4 +1,4 @@
-def concat(x:[$ID], y:[int]) -> [int]:
+def concat(x:[int], $ID:[int]) -> [int]:
     return x + y
 
 z:[int] = None

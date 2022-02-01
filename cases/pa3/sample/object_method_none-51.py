@@ -5,9 +5,9 @@ class A(object):
         return self.a
 
 class B(A):
-    $ID:bool = True
+    b:bool = True
 
-    def __init__(self:"B"):
+    def $ID(self:"B"):
         print("B")
 
     def bar(self:"B") -> int:

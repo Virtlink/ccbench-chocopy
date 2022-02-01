@@ -1,6 +1,6 @@
 a:str = "Hello"
-b:str = $STRING
-c:str = "ChocoPy"
+b:str = "World"
+$Definition
 
 def cat2(a:str, b:str) -> str:
     return a + b

@@ -2,8 +2,8 @@ class A(object):
     a:int = 42
 
 a1:A = None
-a2:A = $Literal
-a3:A = None
+a2:A = None
+$VarDef
 a4:A = None
 
 a1 = A()

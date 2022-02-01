@@ -1,5 +1,5 @@
 x:str = ""
-a:str = $Literal
+a:str = $STRING
 
 def str_get(s:str, i:int) -> str:
     return s[i]

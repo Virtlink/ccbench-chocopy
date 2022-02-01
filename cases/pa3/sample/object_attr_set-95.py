@@ -12,7 +12,7 @@ b:B = None
 
 a = b = B()
 b.a = 1
-$Statement
-print(a.a)
+b.b = False
+$Exp
 print(b.a)
 print(b.b)

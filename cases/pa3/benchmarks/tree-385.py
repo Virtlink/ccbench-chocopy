@@ -41,13 +41,11 @@ class Tree(object):
 		if self.root is None:
 			self.root = makeNode(x)
 			self.size = 1
-		$ElifElse
-
-	def contains(self:"Tree", x:int) -> bool:
-		if self.root is None:
-			return False
 		else:
-			return self.root.contains(x)
+			if self.root.insert(x):
+				self.size = self.size + 1
+
+	$FuncDef
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None

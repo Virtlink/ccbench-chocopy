@@ -6,7 +6,7 @@ o:object = None
 x = [1, 2, 3]
 x = []
 y = [1, True]
-$AssignTarget [False, True]
-x = None
+z = [False, True]
+$Statement
 o = x
 o = x = [1]

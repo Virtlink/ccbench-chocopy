@@ -3,8 +3,8 @@ def exp(x: int, y: int) -> int:
 	a: int = 0
 	def f(i: int) -> int:
 		nonlocal a
-		def geta() $RetType:
-			return a
+		def geta() -> int:
+			return $Var
 		if i <= 0:
 			return geta()
 		else:

@@ -1,1 +1,1 @@
-TypedVar("p",Type("int"))
+Return(Call(Var2Exp(Var("bar")),Exps2Parameters([])))

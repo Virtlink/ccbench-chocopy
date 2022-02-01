@@ -1,5 +1,5 @@
 def f() -> int:
-  x:$Type = 1
+  x:int = $INT
   return x
 
 print(f())

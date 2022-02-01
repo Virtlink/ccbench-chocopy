@@ -1,3 +1,3 @@
 x:[int] = None
 
-print($ID(x))
+print(len($Var))

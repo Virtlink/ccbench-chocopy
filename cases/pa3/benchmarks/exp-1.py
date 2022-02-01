@@ -1,5 +1,11 @@
 # Compute x**y
+$Definition
 
+# Input parameter
+n:int = 42
+
+# Run [0, n]
+i:int = 0
 
 # Crunch
 while i <= n:

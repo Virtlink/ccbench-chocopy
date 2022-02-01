@@ -12,5 +12,5 @@ b:B = None
 
 a = B()
 print(a.a)
-$Exp
-print(b.b)
+print(b.a)
+$Statement

@@ -1,4 +1,4 @@
 print(object() is None)
-print(int($Parameters))
-print(str())
+print(int())
+$ID(str())
 print(bool())

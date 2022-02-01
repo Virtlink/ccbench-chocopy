@@ -11,7 +11,7 @@ a2 = a1
 a3 = A()
 
 print(a1 is a1)
-$Statement
+print($ID is a2)
 print(a1 is a3)
 print(a1 is a4)
 print(a1 is None)

@@ -1,5 +1,5 @@
 x:str = ""
-$ID:str = "123"
+y:$Type = "123"
 z:str = "abc"
 
 for x in z:

@@ -1,1 +1,1 @@
-"x"
+Target(Var2Target(Var("result")))

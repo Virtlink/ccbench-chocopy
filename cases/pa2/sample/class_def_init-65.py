@@ -10,8 +10,8 @@ class C(B):
 
 a:A = None
 b:B = None
-$TypedVar = None
+c:C = None
 
-a = A()
+$Target = A()
 b = B()
 c = C()

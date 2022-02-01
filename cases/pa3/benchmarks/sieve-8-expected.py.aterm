@@ -1,1 +1,1 @@
-VarDef2ClassBodyMember(VarDef(TypedVar("items",ListType(Type("int"))),NONE()))
+TypedVar("items",ListType(Type("int")))

@@ -7,8 +7,8 @@ class A(object):
 class B(A):
     b:bool = True
 
-    def __init__($TypedVar):
-        print("B")
+    def __init__(self:"B"):
+        $Statement
 
     def bar(self:"B") -> int:
         return self.foo(self.foo(print("...")))

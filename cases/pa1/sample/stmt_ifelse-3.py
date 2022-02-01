@@ -1,2 +1,5 @@
-$Statement
+if $Literal:
+    False
+else:
+    True
 

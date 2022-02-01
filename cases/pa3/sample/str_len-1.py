@@ -1,1 +1,1 @@
-print(len("ChocoPy"))
+$Statement

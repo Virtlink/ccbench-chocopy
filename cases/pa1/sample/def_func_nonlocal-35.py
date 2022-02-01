@@ -2,7 +2,7 @@
 def foo(x:int) -> bool:
     a:int = 0
     b:int = 1
-    def bar($TypedVar) -> int:
+    def bar(y: int) $RetType:
         nonlocal a
         a = 2 
         return y

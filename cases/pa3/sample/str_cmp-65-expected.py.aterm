@@ -1,1 +1,1 @@
-Type("bool")
+Var2Exp(Var("a"))

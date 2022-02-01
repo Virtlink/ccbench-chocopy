@@ -1,5 +1,5 @@
-def f() -> $ID:
-  print("f called")
+def f() -> bool:
+  $Statement
   return True
 
 def g() -> bool:

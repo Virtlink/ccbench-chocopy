@@ -1,1 +1,1 @@
-Target(Var2Target(Var("x")))
+Assign([Target(Var2Target(Var("y")))],List([Literal2Exp(Int("1")),Literal2Exp(True())]))

@@ -11,6 +11,6 @@ a:A = None
 b:B = None
 
 a = b = B()
-print($Exp.a)
-print(b.a)
+print(a.a)
+print($Member)
 print(b.b)

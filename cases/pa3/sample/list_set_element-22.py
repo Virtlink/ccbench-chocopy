@@ -1,6 +1,6 @@
 x:[int] = None
 
-x = [1, $Exp, 3]
+x = [1, 2, $Literal]
 x[0] = 4
 x[1] = 5
 x[2] = 6

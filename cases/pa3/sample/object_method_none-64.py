@@ -7,8 +7,8 @@ class A(object):
 class B(A):
     b:bool = True
 
-    def __init__(self:"B")$RetType:
-        print("B")
+    def __init__(self:"B"):
+        print($Parameters)
 
     def bar(self:"B") -> int:
         a:A = None

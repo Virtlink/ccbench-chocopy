@@ -11,9 +11,9 @@ a:A = None
 b:B = None
 
 a = B()
-$Var(a.a)
+print(a.a)
 
-b.a = 1
+$AssignTarget 1
 b.b = False
 print(b.a)
 print(b.b)

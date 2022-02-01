@@ -46,11 +46,11 @@ def str_to_int(x: str) -> int:
             digit = 5
         elif char == "6":
             digit = 6
-        elif char == $Exp:
+        elif char == "7":
             digit = 7
         elif char == "8":
             digit = 8
-        elif char == "9":
+        elif char == $STRING:
             digit = 9
         else:
             return 0 # On error

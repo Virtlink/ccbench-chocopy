@@ -2,5 +2,5 @@ x:str = ""
 z:str = "abc"
 
 for x in z:
-    $Var = "doesn't matter"
+    z = $STRING
     print(x)

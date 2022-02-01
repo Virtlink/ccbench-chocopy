@@ -1,2 +1,2 @@
 -1
-$Statement
+not $Exp

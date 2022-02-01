@@ -17,9 +17,9 @@ class bar(object):
                 x = -1
 
         for x in xx:
-            $Statement
+            self.p = x == 2
 
-        qux(0) # Yay! ChocoPy
+        $Statement # Yay! ChocoPy
 
         count = count + 1
 

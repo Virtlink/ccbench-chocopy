@@ -5,8 +5,8 @@ o:object = None
 
 x = [1, 2, 3]
 x = []
-$ID = [1, True]
-z = [False, True]
+y = [1, True]
+$Statement
 x = None
 o = x
 o = x = [1]

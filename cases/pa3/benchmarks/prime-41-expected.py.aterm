@@ -1,1 +1,1 @@
-"is_prime"
+Block([Assign([Target(Var2Target(Var("found")))],Add(Var2Exp(Var("found")),Literal2Exp(Int("1")))),If(Eq(Var2Exp(Var("found")),Var2Exp(Var("n"))),Block([Return(Var2Exp(Var("candidate")))]))])

@@ -1,1 +1,1 @@
-"insert"
+TypedVar("x",Type("int"))

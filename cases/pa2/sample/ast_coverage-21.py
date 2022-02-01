@@ -1,7 +1,7 @@
 count:int = 0
 
 def foo(s: str) -> int:
-    $FuncBody
+    return $Exp
 
 class bar(object):
     p: bool = True

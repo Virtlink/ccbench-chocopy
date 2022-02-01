@@ -1,1 +1,1 @@
-Ternary(Literal2Exp(Int("3")),Literal2Exp(False()),Literal2Exp(Int("4")))
+Literal2Exp(False())

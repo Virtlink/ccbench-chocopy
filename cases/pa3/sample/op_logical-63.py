@@ -7,4 +7,7 @@ def g() -> bool:
   return False
 
 if f() or g():      # Short-circuit
-  $Block
+  if g() and f($Parameters):   # Short-circuit
+    print("Never")
+  else:
+    print(not (f() and (g() or f())))

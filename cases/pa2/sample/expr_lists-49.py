@@ -3,8 +3,8 @@ y:[object] = None
 z:[bool] = None
 o:object = None
 
-x = [1, 2, $Literal]
-x = []
+x = [1, 2, 3]
+$Target = []
 y = [1, True]
 z = [False, True]
 x = None

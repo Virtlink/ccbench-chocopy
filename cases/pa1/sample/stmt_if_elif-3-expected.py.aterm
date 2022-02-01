@@ -1,1 +1,1 @@
-IfElse(Gt(Literal2Exp(Int("1")),Literal2Exp(Int("2"))),Block([Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(Int("1"))])))]),ElifElse(Eq(Literal2Exp(Int("3")),Literal2Exp(Int("4"))),Block([Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(Int("2"))])))]),Elif(Literal2Exp(True()),Block([Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(Int("3"))])))]))))
+Literal2Exp(Int("1"))

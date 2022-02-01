@@ -2,7 +2,7 @@ x:int = 0
 y:int = 0
 z:[int] = None
 
-z = [1, $Exp, 3]
+z = [1, 2, $Literal]
 
 for x in z:
     for x in z:

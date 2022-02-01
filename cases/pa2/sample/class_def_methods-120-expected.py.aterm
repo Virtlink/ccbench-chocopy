@@ -1,1 +1,1 @@
-Type("C")
+Target(Var2Target(Var("b")))

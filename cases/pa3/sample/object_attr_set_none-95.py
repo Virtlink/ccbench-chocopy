@@ -13,7 +13,7 @@ b:B = None
 a = B()
 print(a.a)
 
-$Target = 1
-b.b = False
+b.a = 1
+$Member = False
 print(b.a)
 print(b.b)

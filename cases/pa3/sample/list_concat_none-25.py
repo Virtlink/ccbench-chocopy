@@ -1,4 +1,4 @@
 x:[int] = None
 y:[int] = None
 
-print()
+print($Var(x+y))

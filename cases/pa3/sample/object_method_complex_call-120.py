@@ -11,9 +11,9 @@ class B(A):
         print("B")
 
     def bar(self:"B") -> int:
-        return self.foo(self.foo(print($STRING)))
+        return self.foo(self.foo(print("...")))
 
     def foo(self:"B", ignore:object) -> int:
-        return 1
+        $FuncBody
 
 print(B().bar())

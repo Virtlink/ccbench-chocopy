@@ -1,1 +1,1 @@
-Call(Var2Exp(Var("is_prime")),Exps2Parameters([Var2Exp(Var("candidate"))]))
+Var2Exp(Var("candidate"))

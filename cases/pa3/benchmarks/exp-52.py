@@ -4,8 +4,8 @@ def exp(x: int, y: int) -> int:
 	def f(i: int) -> int:
 		nonlocal a
 		def geta() -> int:
-			$Statement
-		if i <= 0:
+			return a
+		if $ID <= 0:
 			return geta()
 		else:
 			a = a * x

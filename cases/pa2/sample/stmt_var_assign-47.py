@@ -4,6 +4,6 @@ z:str = ""
 o:object = None
 
 x = 2
-$ID = False
-z = "Hello"
+y = False
+$AssignTarget "Hello"
 o = z

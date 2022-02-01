@@ -1,4 +1,4 @@
 def foo(x:int, y:int) -> bool:
-    return x > $Exp
+    return x > y
 
-foo(1,2)
+$Exp

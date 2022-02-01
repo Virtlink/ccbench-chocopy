@@ -1,4 +1,4 @@
-print(object() is $Literal)
-print(int())
+print(object() is None)
+$Var(int())
 print(str())
 print(bool())

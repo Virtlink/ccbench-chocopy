@@ -1,7 +1,7 @@
 def f() -> int:
     print("start f")
     g()
-    print("end f")
+    print($Parameters)
     return 42
 
     

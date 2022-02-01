@@ -1,6 +1,6 @@
 count:int = 0
 
-def foo($TypedVar) -> int:
+def foo(s: $Type) -> int:
     return len(s)
 
 class bar(object):

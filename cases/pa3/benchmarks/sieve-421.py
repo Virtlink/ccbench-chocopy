@@ -49,7 +49,18 @@ class Vector(object):
         return self.size
 
 # A faster (but more memory-consuming) implementation of vector
-$Definition
+class DoublingVector(Vector):
+    doubling_limit:int = 1000
+
+    # Overriding to do fewer resizes
+    def increase_capacity(self:"DoublingVector") -> int:
+        if (self.capacity() <= self.doubling_limit // $INT):
+            self.items = self.items + self.items
+        else:
+            # If doubling limit has been reached, fall back to
+            # standard capacity increases
+            self.items = self.items + [0]
+        return self.capacity()
 
 # Makes a vector in the range [i, j)
 def vrange(i:int, j:int) -> Vector:

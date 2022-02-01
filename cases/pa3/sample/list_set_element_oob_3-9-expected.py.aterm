@@ -1,1 +1,1 @@
-NONE()
+Assign([Target(Var2Target(Var("x")))],List([]))

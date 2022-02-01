@@ -1,7 +1,7 @@
 a:str = "no"
 b:str = "o"
-c:str = $STRING
-d:str = ""
+c:str = ""
+$Definition
 e:str = ""
 
 def cat2(a:str, b:str) -> str:

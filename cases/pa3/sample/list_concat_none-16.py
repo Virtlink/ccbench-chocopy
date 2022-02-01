@@ -1,4 +1,4 @@
 x:[int] = None
-y:[$ID] = None
+y:[int] = $Literal
 
 print(len(x+y))

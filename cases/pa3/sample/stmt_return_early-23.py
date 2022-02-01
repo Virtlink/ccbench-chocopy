@@ -1,6 +1,6 @@
 def f() -> int:
     while True:
         return 1
-    return $Literal
+    return 0
 
-print(f())
+$Var(f())

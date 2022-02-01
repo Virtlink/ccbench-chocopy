@@ -1,6 +1,6 @@
 x:str = ""
 z:str = "abc"
 
-for x in $ID:
-    z = "doesn't matter"
+for x in z:
+    $Statement
     print(x)

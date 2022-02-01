@@ -12,5 +12,5 @@ b:B = None
 
 a = B()
 print(a.a)
-print($Exp.a)
-print(b.b)
+print(b.a)
+print($Exp.b)

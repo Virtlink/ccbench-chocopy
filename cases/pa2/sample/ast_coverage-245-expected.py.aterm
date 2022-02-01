@@ -1,1 +1,1 @@
-String("\"Long\"")
+Literal2Exp(String("\"Nope\""))

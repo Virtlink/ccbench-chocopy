@@ -1,3 +1,3 @@
-x:int = $Literal
+x:int = $INT
 
 print(len(x))

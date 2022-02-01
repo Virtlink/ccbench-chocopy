@@ -20,9 +20,9 @@ c:C = None
 
 a = A()
 b = B()
-$Target = C()
+c = C()
 
-b.x = a.get_A()
+b.x = $Var.get_A()
 a.x = b.get_A()
 c.set_A(0)
 

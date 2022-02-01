@@ -1,1 +1,1 @@
-[VarDef2Definition(VarDef(TypedVar("x",ListType(Type("int"))),NONE())),VarDef2Definition(VarDef(TypedVar("y",ListType(Type("object"))),NONE()))]
+VarDef2Definition(VarDef(TypedVar("x",ListType(Type("int"))),NONE()))

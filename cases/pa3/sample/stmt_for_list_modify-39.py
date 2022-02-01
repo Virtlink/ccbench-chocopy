@@ -3,6 +3,6 @@ z:[int] = None
 
 z = [1, 2, 1]
 
-for x in $Var:
-    z[x] = x
+for x in z:
+    $AssignTarget x
     print(x)

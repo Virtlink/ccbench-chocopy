@@ -10,8 +10,8 @@ class B(A):
 a:A = None
 b:B = None
 
-a = $Exp()
-print(a.a)
+a = B()
+print($Parameters)
 
 b.a = 1
 b.b = False

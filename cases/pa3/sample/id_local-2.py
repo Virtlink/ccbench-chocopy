@@ -1,3 +1,3 @@
-$Definition
+$FuncDef
 
 print(f())

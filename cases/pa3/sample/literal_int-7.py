@@ -1,2 +1,2 @@
-$ID(42)
+print($Exp)
 print(65999)

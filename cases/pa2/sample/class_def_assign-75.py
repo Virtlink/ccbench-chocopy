@@ -12,7 +12,7 @@ a:A = None
 b:B = None
 c:C = None
 
-$Var = A()
-a = B()
+a = A()
+$Target = B()
 b = a = c = C()
 c = None

@@ -1,8 +1,8 @@
 next:int = 0
 
 def next_int() -> int:
-    $FuncBodyMember
-    next = next + 1
+    global next
+    $AssignTarget next + 1
     return next
 
 def make_list() -> [int]:

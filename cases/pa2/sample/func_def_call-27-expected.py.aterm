@@ -1,1 +1,1 @@
-FuncDef2Definition(FuncDef("bar",[],Returns(Type("int")),FuncBody([],[Return(Literal2Exp(Int("1")))])))
+"int"

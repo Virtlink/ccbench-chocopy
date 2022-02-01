@@ -7,6 +7,6 @@ i:int = 0
 z = concat([1,2,3], [4,5,6])
 
 while i < len(z):
-    $ID(z[i])
-    i = i + 1
+    print(z[i])
+    $AssignTarget i + 1
 

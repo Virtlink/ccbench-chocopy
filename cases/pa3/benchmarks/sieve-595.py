@@ -69,7 +69,7 @@ def vrange(i:int, j:int) -> Vector:
     
     while i < j:
         v.append(i)
-        i = $Exp
+        i = i + 1
 
     return v
 
@@ -80,7 +80,7 @@ def sieve(v:Vector) -> object:
     k:int = 0
 
     while i < v.length():
-        k = v.get(i)
+        $Var = v.get(i)
         j = i + 1
         while j < v.length():
             if v.get(j) % k == 0:

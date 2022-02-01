@@ -3,7 +3,7 @@ a:str = ""
 b:str = ""
 c:str = ""
 
-$Definition
+$FuncDef
 
 a = str_get(x, 0)
 b = str_get(x, 1)

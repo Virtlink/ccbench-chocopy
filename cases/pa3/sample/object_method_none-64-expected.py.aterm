@@ -1,1 +1,1 @@
-ReturnsNone()
+Exps2Parameters([Literal2Exp(String("\"B\""))])

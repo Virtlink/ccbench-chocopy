@@ -1,1 +1,1 @@
-FuncDef2Definition(FuncDef("makeNode",[TypedVar("x",Type("int"))],Returns(Type("TreeNode")),FuncBody([VarDef2FuncBodyMember(VarDef(TypedVar("b",Type("TreeNode")),NONE()))],[Assign([Target(Var2Target(Var("b")))],Call(Var2Exp(Var("TreeNode")),Exps2Parameters([]))),Assign([Target(Member2Target(Member(Var2Exp(Var("b")),"value")))],Var2Exp(Var("x"))),Return(Var2Exp(Var("b")))])))
+Type("int")

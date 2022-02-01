@@ -1,3 +1,4 @@
 s:str = "Hello"
 
-$Statement
+for s in $Exp:
+    s[0]

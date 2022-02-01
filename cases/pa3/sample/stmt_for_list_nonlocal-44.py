@@ -3,8 +3,8 @@ def crunch(zz:[[int]]) -> object:
     z:[int] = None
     global x
     def make_z() -> object:
-        $FuncBodyMember
-        for z in zz:
+        nonlocal z
+        for z in $Var:
             pass # Set z to last element in zz
 
     make_z()

@@ -1,1 +1,1 @@
-[PassStmt()]
+TypedVar("z",Type("bool"))

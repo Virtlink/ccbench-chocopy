@@ -2,8 +2,8 @@ def f() -> bool:
   print("f called")
   return True
 
-def $ID() -> bool:
-  print("g called")
+def g() -> bool:
+  $Statement
   return False
 
 if f() or g():      # Short-circuit

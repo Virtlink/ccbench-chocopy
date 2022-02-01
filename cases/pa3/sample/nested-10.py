@@ -1,4 +1,4 @@
 g: int = 1
-$Definition
+$FuncDef
     
 print(foo(g))

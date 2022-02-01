@@ -11,6 +11,6 @@ a:A = None
 b:B = None
 
 a = b = B()
-$Statement
+print($ID.a)
 print(b.a)
 print(b.b)

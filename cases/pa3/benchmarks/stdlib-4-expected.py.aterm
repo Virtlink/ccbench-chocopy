@@ -1,1 +1,1 @@
-"int_to_str"
+TypedVar("x",Type("int"))

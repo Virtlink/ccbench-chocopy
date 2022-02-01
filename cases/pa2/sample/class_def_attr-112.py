@@ -16,7 +16,7 @@ a = A()
 b = B()
 c = C()
 
-$Exp.x = 1
-b.x = a.x
+a.x = 1
+b.x = $Exp
 c.z = a.x == b.x
 

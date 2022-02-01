@@ -1,5 +1,5 @@
 print(True == True)
-print($Exp)
+print(True == $Literal)
 print(False == True)
 print(False == False)
 print(True != True)

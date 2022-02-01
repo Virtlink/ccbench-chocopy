@@ -1,4 +1,4 @@
 x:[int] = None
 
 x = []
-x[$Exp] = 4
+x[0] = $INT

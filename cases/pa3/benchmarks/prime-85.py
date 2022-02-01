@@ -7,10 +7,10 @@ def get_prime(n:int) -> int:
             found = found + 1
             if found == n:
                 return candidate
-        candidate = $ID + 1
+        candidate = candidate + 1
     return 0 # Never happens
 
-def is_prime(x:int) -> bool:
+def $ID(x:int) -> bool:
     div:int = 2
     while div < x:
         if x % div == 0:

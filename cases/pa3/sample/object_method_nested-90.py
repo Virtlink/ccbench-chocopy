@@ -11,6 +11,8 @@ class B(A):
         print("B")
 
     def bar(self:"B") -> int:
-        $FuncBody
+        def qux(p: bool) -> int:
+            $FuncBody
+        return qux(True)
 
 print(B().bar())

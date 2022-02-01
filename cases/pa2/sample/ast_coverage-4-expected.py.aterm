@@ -1,1 +1,1 @@
-TypedVar("count",Type("int"))
+"count"

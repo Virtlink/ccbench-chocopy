@@ -1,1 +1,1 @@
-"object"
+For("z",Var2Exp(Var("zz")),Block([PassStmt()]))

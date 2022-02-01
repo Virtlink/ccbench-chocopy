@@ -2,7 +2,7 @@ a:str = "Hello"
 b:str = "World"
 c:str = "ChocoPy"
 
-def eq(a:$Type, b:str) -> bool:
+def eq(a:str, $TypedVar) -> bool:
     return a == b
 
 def neq(a:str, b:str) -> bool:

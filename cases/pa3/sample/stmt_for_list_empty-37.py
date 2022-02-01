@@ -3,7 +3,7 @@ y:int = 0
 z:[int] = None
 e:[int] = None
 
-$AssignTarget [1,2,3]
+$ID = [1,2,3]
 e = []
 
 for x in z:

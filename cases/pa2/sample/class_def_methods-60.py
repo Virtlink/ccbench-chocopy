@@ -8,8 +8,8 @@ class B(A):
     def __init__(self: "B"):
         pass
 
-class $ID(B):
-    z:bool = True
+class C(B):
+    z:bool = $Literal
 
     def set_A(self: "C", val: int) -> object:
         self.x = val
