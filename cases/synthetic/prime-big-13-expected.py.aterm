@@ -1,0 +1,1 @@
+VarDef(TypedVar("candidate",Type("int")),Int("2"))

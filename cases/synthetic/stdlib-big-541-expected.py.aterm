@@ -1,0 +1,1 @@
+VarDef(TypedVar("digits4",ListType(Type("str"))),NONE())

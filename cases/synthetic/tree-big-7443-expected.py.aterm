@@ -1,0 +1,1 @@
+VarDef2Definition(VarDef(TypedVar("t2",Type("Tree")),NONE()))

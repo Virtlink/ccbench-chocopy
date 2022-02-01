@@ -1,0 +1,1 @@
+VarDef(TypedVar("digits5",ListType(Type("str"))),NONE())

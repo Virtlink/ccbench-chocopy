@@ -1,0 +1,1 @@
+VarDef2Definition(VarDef(TypedVar("n2",Type("int")),Int("10")))

@@ -1,0 +1,1 @@
+ClassDef("C5","B",ClassBodyMembers2ClassBody([VarDef2ClassBodyMember(VarDef(TypedVar("z",Type("bool")),True())),VarDef2ClassBodyMember(VarDef(TypedVar("z2",Type("bool")),True())),VarDef2ClassBodyMember(VarDef(TypedVar("z3",Type("bool")),True())),VarDef2ClassBodyMember(VarDef(TypedVar("z4",Type("bool")),True())),VarDef2ClassBodyMember(VarDef(TypedVar("z5",Type("bool")),True()))]))

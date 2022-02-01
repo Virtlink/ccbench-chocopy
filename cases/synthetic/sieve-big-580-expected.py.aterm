@@ -1,0 +1,1 @@
+If(Eq(Member2Exp(Member(Var2Exp(Var("self")),"size")),Call(Member2Exp(Member(Var2Exp(Var("self")),"capacity")),Exps2Parameters([]))),Block([Exp(Call(Member2Exp(Member(Var2Exp(Var("self")),"increase_capacity")),Exps2Parameters([])))]))

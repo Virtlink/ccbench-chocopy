@@ -1,0 +1,1 @@
+Mod(Mul(Var2Exp(Var("k")),Literal2Exp(Int("37813"))),Literal2Exp(Int("37831")))

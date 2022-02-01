@@ -1,0 +1,1 @@
+VarDef2Definition(VarDef(TypedVar("s",Type("str")),String("\"\"")))

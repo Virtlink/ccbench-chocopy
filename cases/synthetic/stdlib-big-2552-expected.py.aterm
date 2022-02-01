@@ -1,0 +1,1 @@
+TypedVar("char5",Type("str"))

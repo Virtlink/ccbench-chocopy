@@ -1,0 +1,1 @@
+Block([Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"root")))],Call(Var2Exp(Var("makeNode3")),Exps2Parameters([Var2Exp(Var("x")),Var2Exp(Var("x")),Var2Exp(Var("x"))]))),Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"size")))],Literal2Exp(Int("1")))])

@@ -1,0 +1,1 @@
+TypedVar("idx3",Type("int"))

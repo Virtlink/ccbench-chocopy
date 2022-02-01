@@ -1,0 +1,1 @@
+TypedVar("right",TypeS(IdString("TreeNode4")))

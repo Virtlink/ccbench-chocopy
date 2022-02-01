@@ -1,0 +1,1 @@
+Assign([Target(Var2Target(Var("c")))],Call(Var2Exp(Var("C")),Exps2Parameters([])))
