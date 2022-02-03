@@ -1,1 +1,1 @@
-Int("42")
+Assign([Target(Var2Target(Var("a5")))],Mul(Var2Exp(Var("a")),Var2Exp(Var("x"))))

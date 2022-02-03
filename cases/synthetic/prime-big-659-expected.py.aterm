@@ -1,1 +1,1 @@
-Leq(Var2Exp(Var("i")),Var2Exp(Var("n")))
+VarDef(TypedVar("i",Type("int")),Int("1"))

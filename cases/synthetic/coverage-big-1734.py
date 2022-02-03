@@ -215,7 +215,7 @@ class bar3(object):
                 x = -1
 
         for x in xx:
-            self.p = x == 2
+            $Block
 
         qux(0) # Yay! ChocoPy
 
@@ -235,7 +235,7 @@ class bar3(object):
 
 class bar4(object):
     p: bool = True
-    p2: $Type = True
+    p2: bool = True
     p3: bool = True
     p4: bool = True
 

@@ -1,4 +1,4 @@
 x:int = 1
 while x < 10:
     print(x)
-    x = $Var + 1
+    $Target = x + 1

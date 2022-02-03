@@ -1,1 +1,1 @@
-String("\"8\"")
+Var2Target(Var("digits"))

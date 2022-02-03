@@ -1,1 +1,1 @@
-"y"
+VarDef2FuncBodyMember(VarDef(TypedVar("y",Type("int")),Int("2")))

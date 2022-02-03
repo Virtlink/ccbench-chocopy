@@ -120,7 +120,7 @@ def str_to_int(x: str) -> int:
     for char in x:
         if char == "-":
             if not first_char:
-                return 0 # Error
+                $Statement # Error
             sign = -1
         elif char == "0":
             digit = 0
@@ -128,7 +128,7 @@ def str_to_int(x: str) -> int:
             digit = 1
         elif char == "2":
             digit = 2
-        elif $Var == "3":
+        elif char == "3":
             digit = 3
         elif char == "3":
             digit = 3

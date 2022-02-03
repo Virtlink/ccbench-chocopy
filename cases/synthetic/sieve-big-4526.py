@@ -510,7 +510,7 @@ class Vector5(object):
 
     # Increases capacity of vector by one element
     def increase_capacity(self:"Vector5") -> int:
-        self.items = self.items + [0]
+        self.items = $ID.items + [0]
         return self.capacity()
 
     # Increases capacity of vector by one element
@@ -558,7 +558,12 @@ class Vector5(object):
         self.size = self.size + 1
 
     # Appends one item to end of vector
-    $FuncDef
+    def append4(self:"Vector5", item: int, item2: int, item3: int, item4: int) -> object:
+        if self.size == self.capacity():
+            self.increase_capacity()
+
+        self.items[self.size] = item
+        self.size = self.size + 1
 
     # Appends one item to end of vector
     def append5(self:"Vector5", item: int, item2: int, item3: int, item4: int, item5: int) -> object:

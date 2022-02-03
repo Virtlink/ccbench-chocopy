@@ -82,7 +82,7 @@ class TreeNode2(object):
             if self.right is None:
                 return False
             else:
-                return self.right.contains(x)
+                return self.right.$ID(x)
         else:
             return True
 
@@ -91,7 +91,7 @@ class TreeNode2(object):
             if self.left is None:
                 return False
             else:
-                return self.left.contains($Exp)
+                return self.left.contains(x)
         elif x > self.value:
             if self.right is None:
                 return False

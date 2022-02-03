@@ -1,6 +1,6 @@
 x:int = 1
 y:bool = True
-$VarDef
+$Definition
 o:object = None
 
 x = 2

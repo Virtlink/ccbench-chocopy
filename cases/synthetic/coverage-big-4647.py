@@ -574,7 +574,7 @@ class bar5(object):
         x:int = 0
         x2:int = 0
         x3:int = 0
-        x4:int = 0
+        x4:$ID = 0
         x5:int = 0
         y:int = 1
         y2:int = 1
@@ -630,7 +630,7 @@ class bar5(object):
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
-                $Block
+                self.p = self is None
 
         return "Nope"
 

@@ -1,1 +1,1 @@
-IdString("Vector2")
+VarDef2FuncBodyMember(VarDef(TypedVar("item",Type("int")),Int("0")))

@@ -1,1 +1,1 @@
-VarDef(TypedVar("v4",Type("Vector")),NONE())
+Var("k")

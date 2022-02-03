@@ -719,7 +719,7 @@ class Tree5(object):
         if self.root is None:
             return False
         else:
-            return self.root.contains(x)
+            $Statement
 
     def contains2(self:"Tree5", x:int, x2:int) -> bool:
         if self.root is None:
@@ -796,7 +796,7 @@ c:int = 4
 c2:int = 4
 c3:int = 4
 c4:int = 4
-c5:int = $Literal
+c5:int = 4
 
 # Data
 t:Tree = None

@@ -92,11 +92,11 @@ a5 = A()
 b = B()
 b2 = B()
 b3 = B()
-b4 = B()
+$Statement
 b5 = B()
 c = C()
 c2 = C()
-c3 = $ID()
+c3 = C()
 c4 = C()
 c5 = C()
 

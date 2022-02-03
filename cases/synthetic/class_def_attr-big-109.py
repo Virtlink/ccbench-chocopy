@@ -16,8 +16,8 @@ class A4(object):
     x3:int = 1
     x4:int = 1
 
-class A5(object):
-    $ID:int = 1
+class A5($ID):
+    x:int = 1
     x2:int = 1
     x3:int = 1
     x4:int = 1

@@ -709,7 +709,7 @@ class Vector5(object):
         return self.size
 
 # A faster (but more memory-consuming) implementation of vector
-class DoublingVector(Vector):
+class $ID(Vector):
     doubling_limit:int = 1000
 
     # Overriding to do fewer resizes
@@ -788,7 +788,7 @@ class DoublingVector3(Vector):
 class DoublingVector4(Vector):
     doubling_limit:int = 1000
     doubling_limit2:int = 1000
-    $ClassBodyMember
+    doubling_limit3:int = 1000
     doubling_limit4:int = 1000
 
     # Overriding to do fewer resizes

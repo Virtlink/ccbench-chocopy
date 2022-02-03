@@ -1,1 +1,1 @@
-TypedVar("x4",Type("int"))
+Member(Member2Exp(Member(Var2Exp(Var("self")),"root")),"insert")

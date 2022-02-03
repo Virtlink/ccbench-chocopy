@@ -562,7 +562,7 @@ class bar5(object):
         while x <= 0:
             if self.p:
                 xx[0] = xx[1]
-                self.p = not self.p
+                $AssignTarget not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
@@ -614,7 +614,7 @@ class bar5(object):
             nonlocal x3
             nonlocal x4
             nonlocal x5
-            if $Var > y:
+            if x > y:
                 x = -1
 
         for x in xx:

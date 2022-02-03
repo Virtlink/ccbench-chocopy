@@ -1,6 +1,6 @@
 x:str = ""
 y:str = "123"
-z:$ID = "abc"
+z:$Type = "abc"
 
 for x in z:
     print(x)

@@ -1,1 +1,0 @@
-TypedVar("p",Type("int"))

@@ -1,5 +1,5 @@
 def print_list(z:[int]) -> object:
-    x:$Type = 0
+    $VarDef
     for x in z:
         print(x)
         if x >= 30:

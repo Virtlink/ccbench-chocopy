@@ -1,5 +1,5 @@
 x:int = 0
-def crunch(zz:[[$ID]]) -> object:
+def crunch(zz:[$Type]) -> object:
     z:[int] = None
     global x
     def make_z() -> object:

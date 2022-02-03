@@ -262,7 +262,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
     digit:int = 0
     digit2:int = 0
     digit3:int = 0
-    digit4:int = 0
+    digit4:$ID = 0
     char:str = ""
     char2:str = ""
     char3:str = ""
@@ -285,7 +285,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
         elif char == "0":
             digit = 0
         elif char == "1":
-            $ID = 1
+            digit = 1
         elif char == "2":
             digit = 2
         elif char == "3":

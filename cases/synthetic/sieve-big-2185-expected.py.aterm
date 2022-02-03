@@ -1,1 +1,1 @@
-"get3"
+Member2Exp(Member(Var2Exp(Var("self")),"items"))

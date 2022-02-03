@@ -1,1 +1,1 @@
-Return(Literal2Exp(False()))
+Var2Exp(Var("x"))

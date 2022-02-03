@@ -7,7 +7,7 @@ class A(object):
 class B(A):
     b:bool = True
 
-    def __init__(self:"B")$RetType:
+    def $ID(self:"B"):
         print("B")
 
     def bar(self:"B") -> int:

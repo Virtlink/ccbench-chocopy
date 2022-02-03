@@ -1,1 +1,1 @@
-Type("int")
+Mul(Var2Exp(Var("result")),Literal2Exp(Int("10")))

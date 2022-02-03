@@ -1,1 +1,1 @@
-Type("object")
+Is(Var2Exp(Var("self")),Literal2Exp(NONE()))

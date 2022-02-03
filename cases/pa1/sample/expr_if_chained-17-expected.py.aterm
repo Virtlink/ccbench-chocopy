@@ -1,1 +1,1 @@
-Lt(Literal2Exp(Int("1")),Literal2Exp(Int("0")))
+Int("4")

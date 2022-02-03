@@ -1,1 +1,1 @@
-Eq(Var2Exp(Var("x")),Literal2Exp(Int("2")))
+"bool"

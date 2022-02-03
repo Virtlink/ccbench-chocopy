@@ -1,1 +1,1 @@
-Type("A")
+VarDef(TypedVar("a",Type("A")),NONE())

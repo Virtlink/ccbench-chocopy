@@ -1,1 +1,1 @@
-Var("a")
+Returns(Type("int"))

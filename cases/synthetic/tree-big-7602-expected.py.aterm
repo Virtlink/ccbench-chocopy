@@ -1,1 +1,1 @@
-Var("i")
+Member(Var2Exp(Var("self")),"root")

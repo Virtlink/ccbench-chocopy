@@ -4,8 +4,8 @@ class A(object):
     def get_A(self: "A") -> int:
         return self.x
 
-class B(A):
-    def $ID(self: "B"):
+class $ID(A):
+    def __init__(self: "B"):
         pass
 
 class C(B):

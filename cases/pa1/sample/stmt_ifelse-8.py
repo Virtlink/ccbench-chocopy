@@ -1,4 +1,5 @@
 if True:
-    False
-$ElifElse
+    $Statement
+else:
+    True
 

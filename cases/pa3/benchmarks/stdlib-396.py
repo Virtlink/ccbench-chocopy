@@ -45,11 +45,11 @@ def str_to_int(x: str) -> int:
         elif char == "5":
             digit = 5
         elif char == "6":
-            digit = 6
+            $Var = 6
         elif char == "7":
             digit = 7
         elif char == "8":
-            digit = $Exp
+            digit = 8
         elif char == "9":
             digit = 9
         else:

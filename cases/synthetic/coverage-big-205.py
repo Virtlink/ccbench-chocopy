@@ -19,10 +19,10 @@ def foo4(s: str, s2: str, s3: str, s4: str) -> int:
 def foo5(s: str, s2: str, s3: str, s4: str, s5: str) -> int:
     return len(s)
 
-class bar(object):
+class bar($ID):
     p: bool = True
 
-    def baz(self:"bar", xx: [$ID]) -> str:
+    def baz(self:"bar", xx: [int]) -> str:
         global count
         x:int = 0
         y:int = 1

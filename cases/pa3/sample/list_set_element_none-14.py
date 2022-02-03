@@ -1,4 +1,4 @@
 x:[int] = None
 
-$Var[0] = 1
+$Target = 1
 

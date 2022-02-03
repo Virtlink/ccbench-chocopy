@@ -1,1 +1,1 @@
-Member(Var2Exp(Var("self")),"p")
+Exp(Call(Var2Exp(Var("qux")),Exps2Parameters([Literal2Exp(Int("0"))])))

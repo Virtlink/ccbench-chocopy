@@ -1,1 +1,1 @@
-Eq(Var2Exp(Var("found")),Var2Exp(Var("n")))
+Add(Var2Exp(Var("found")),Literal2Exp(Int("1")))

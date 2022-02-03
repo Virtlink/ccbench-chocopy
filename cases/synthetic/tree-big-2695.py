@@ -275,18 +275,7 @@ class TreeNode4(object):
         return False
 
     def contains(self:"TreeNode4", x:int) -> bool:
-        if x < self.value:
-            if self.left is None:
-                return False
-            else:
-                return self.left.contains(x)
-        elif x > self.value:
-            if self.right is None:
-                return False
-            else:
-                return self.right.contains(x)
-        else:
-            return True
+        $Statement
 
     def contains2(self:"TreeNode4", x:int, x2:int) -> bool:
         if x < self.value:
@@ -303,7 +292,7 @@ class TreeNode4(object):
             return True
 
     def contains3(self:"TreeNode4", x:int, x2:int, x3:int) -> bool:
-        if $ID < self.value:
+        if x < self.value:
             if self.left is None:
                 return False
             else:

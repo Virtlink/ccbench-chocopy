@@ -1,1 +1,1 @@
-PassStmt()
+TypedVar("self",TypeS(IdString("B")))

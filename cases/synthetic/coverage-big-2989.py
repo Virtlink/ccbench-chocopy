@@ -369,11 +369,7 @@ class bar4(object):
                 x = -1
 
         def qux3(y: int, y2: int, y3: int) -> object:
-            nonlocal x
-            nonlocal x2
-            nonlocal x3
-            if x > y:
-                x = -1
+            $FuncBody
 
         def qux4(y: int, y2: int, y3: int, y4: int) -> object:
             nonlocal x
@@ -406,7 +402,7 @@ class bar5(object):
     p2: bool = True
     p3: bool = True
     p4: bool = True
-    p5: $ID = True
+    p5: bool = True
 
     def baz(self:"bar5", xx: [int]) -> str:
         global count

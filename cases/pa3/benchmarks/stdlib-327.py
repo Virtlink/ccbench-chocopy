@@ -38,10 +38,10 @@ def str_to_int(x: str) -> int:
             digit = 2
         elif char == "3":
             digit = 3
-        elif char == "3":
+        elif $Exp == "3":
             digit = 3
         elif char == "4":
-            $ID = 4
+            digit = 4
         elif char == "5":
             digit = 5
         elif char == "6":

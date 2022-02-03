@@ -178,7 +178,7 @@ class TreeNode3(object):
             else:
                 return self.left.contains(x)
         elif x > self.value:
-            if self.right is None:
+            if $Exp.right is None:
                 return False
             else:
                 return self.right.contains(x)
@@ -200,7 +200,7 @@ class TreeNode3(object):
             return True
 
 
-class TreeNode4($ID):
+class TreeNode4(object):
     value:int = 0
     value2:int = 0
     value3:int = 0

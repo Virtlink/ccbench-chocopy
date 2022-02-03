@@ -1,1 +1,1 @@
-"int"
+TypedVar("new_items3",ListType(Type("int")))

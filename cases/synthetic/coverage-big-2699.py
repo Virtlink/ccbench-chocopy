@@ -337,7 +337,7 @@ class bar4(object):
         count = count + 1
 
         while x <= 0:
-            if self.p:
+            if $Var.p:
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
@@ -364,7 +364,7 @@ class bar4(object):
 
         def qux2(y: int, y2: int) -> object:
             nonlocal x
-            nonlocal $ID
+            nonlocal x2
             if x > y:
                 x = -1
 

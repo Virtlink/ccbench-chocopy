@@ -15,5 +15,5 @@ print(a.a)
 
 b.a = 1
 b.b = False
-print(b.a)
-$Exp(b.b)
+$Exp
+print(b.b)

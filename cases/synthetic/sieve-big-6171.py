@@ -670,7 +670,7 @@ class Vector5(object):
 
     # Retrieves an item at a given index
     def get(self:"Vector5", idx: int) -> int:
-        return self.items[idx]
+        $Statement
 
     # Retrieves an item at a given index
     def get2(self:"Vector5", idx: int, idx2: int) -> int:
@@ -751,7 +751,7 @@ class DoublingVector2(Vector):
 # A faster (but more memory-consuming) implementation of vector
 class DoublingVector3(Vector):
     doubling_limit:int = 1000
-    $VarDef
+    doubling_limit2:int = 1000
     doubling_limit3:int = 1000
 
     # Overriding to do fewer resizes

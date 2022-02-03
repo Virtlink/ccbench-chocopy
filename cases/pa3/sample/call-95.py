@@ -11,7 +11,7 @@ def g() -> object:
     print("end g")
 
 def h() -> object:
-    print("start h")
+    print($Parameters)
     print("end h")
 
-$Var(f())
+print(f())

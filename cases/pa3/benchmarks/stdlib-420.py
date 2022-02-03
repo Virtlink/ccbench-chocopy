@@ -48,12 +48,7 @@ def str_to_int(x: str) -> int:
             digit = 6
         elif char == "7":
             digit = 7
-        elif char == "8":
-            digit = 8
-        elif char == "9":
-            digit = 9
-        else:
-            return $Literal # On error
+        $ElifElse # On error
         first_char = False
         result = result * 10 + digit
 

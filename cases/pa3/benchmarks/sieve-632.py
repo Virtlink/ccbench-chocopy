@@ -76,13 +76,13 @@ def vrange(i:int, j:int) -> Vector:
 # Sieve of Eratosthenes (not really)
 def sieve(v:Vector) -> object:
     i:int = 0
-    j:int = 0
+    j:$ID = 0
     k:int = 0
 
     while i < v.length():
         k = v.get(i)
         j = i + 1
-        while j < v.length($Parameters):
+        while j < v.length():
             if v.get(j) % k == 0:
                 v.remove_at(j)
             else:

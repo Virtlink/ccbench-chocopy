@@ -1,5 +1,5 @@
 class A(object):
-    x:$Type = 1
+    $TypedVar = 1
 
 class A2(object):
     x:int = 1

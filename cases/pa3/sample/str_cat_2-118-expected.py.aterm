@@ -1,1 +1,1 @@
-Var("cat2")
+Var2Exp(Var("a"))

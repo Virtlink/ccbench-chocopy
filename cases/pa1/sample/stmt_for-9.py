@@ -1,3 +1,4 @@
-x:int = 0
-$Statement
+x:int = $INT
+for x in [1, 2, 3]:
+    print(x)
 

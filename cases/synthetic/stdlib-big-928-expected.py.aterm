@@ -1,1 +1,1 @@
-Returns(Type("int"))
+Literal2Exp(Int("10"))

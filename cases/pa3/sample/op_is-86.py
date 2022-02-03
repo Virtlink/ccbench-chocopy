@@ -10,8 +10,8 @@ a1 = A()
 a2 = a1
 a3 = A()
 
-print(a1 is a1)
-$Var(a1 is a2)
+print($Exp is a1)
+print(a1 is a2)
 print(a1 is a3)
 print(a1 is a4)
 print(a1 is None)

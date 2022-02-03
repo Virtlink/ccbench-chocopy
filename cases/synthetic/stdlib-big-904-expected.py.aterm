@@ -1,1 +1,1 @@
-"result"
+Assign([Target(Var2Target(Var("result")))],Literal2Exp(String("\"-\"")))

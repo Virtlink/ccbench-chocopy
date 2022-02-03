@@ -713,7 +713,7 @@ class DoublingVector(Vector):
     doubling_limit:int = 1000
 
     # Overriding to do fewer resizes
-    def increase_capacity(self:"DoublingVector") -> int:
+    def increase_capacity(self:$IDSTRING) -> int:
         if (self.capacity() <= self.doubling_limit // 2):
             self.items = self.items + self.items
         else:
@@ -792,7 +792,7 @@ class DoublingVector4(Vector):
     doubling_limit4:int = 1000
 
     # Overriding to do fewer resizes
-    def increase_capacity($TypedVar) -> int:
+    def increase_capacity(self:"DoublingVector4") -> int:
         if (self.capacity() <= self.doubling_limit // 2):
             self.items = self.items + self.items
         else:

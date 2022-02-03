@@ -110,7 +110,7 @@ def int_to_str5(x: int, x2: int, x3: int, x4: int, x5: int) -> str:
     return result
 
 def str_to_int(x: str) -> int:
-    result:int = 0
+    $FuncBodyMember
     digit:int = 0
     char:str = ""
     sign:int = 1
@@ -120,7 +120,7 @@ def str_to_int(x: str) -> int:
     for char in x:
         if char == "-":
             if not first_char:
-                return $INT # Error
+                return 0 # Error
             sign = -1
         elif char == "0":
             digit = 0

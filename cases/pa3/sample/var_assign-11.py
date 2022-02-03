@@ -1,4 +1,4 @@
 x:int = 0
-$TypedVar = 1
+$VarDef
 x = y = 42
 print(x)

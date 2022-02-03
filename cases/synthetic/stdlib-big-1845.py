@@ -219,7 +219,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
     first_char3:bool = True
 
     # Parse digits
-    for char in x:
+    for $ID in x:
         if char == "-":
             if not first_char:
                 return 0 # Error
@@ -235,7 +235,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
         elif char == "3":
             digit = 3
         elif char == "4":
-            $AssignTarget 4
+            digit = 4
         elif char == "5":
             digit = 5
         elif char == "6":

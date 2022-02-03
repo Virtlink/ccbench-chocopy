@@ -11,7 +11,7 @@ class B(A):
         print("B")
 
     def bar(self:"B") -> int:
-        return self.foo(self.foo(print($Parameters)))
+        return self.foo($Parameters)
 
     def foo(self:"B", ignore:object) -> int:
         return 1

@@ -265,7 +265,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
     digit4:int = 0
     char:str = ""
     char2:str = ""
-    char3:str = ""
+    char3:str = $Literal
     char4:str = ""
     sign:int = 1
     sign2:int = 1
@@ -288,7 +288,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
             digit = 1
         elif char == "2":
             digit = 2
-        elif $ID == "3":
+        elif char == "3":
             digit = 3
         elif char == "3":
             digit = 3

@@ -551,7 +551,7 @@ class Tree3(object):
     root2:TreeNode3 = None
     root3:TreeNode3 = None
     size:int = 0
-    size2:int = 0
+    $ClassBodyMember
     size3:int = 0
 
     def insert(self:"Tree3", x:int) -> object:
@@ -594,7 +594,7 @@ class Tree3(object):
         if self.root is None:
             return False
         else:
-            return self.root.contains($Parameters)
+            return self.root.contains(x)
 
 
 class Tree4(object):

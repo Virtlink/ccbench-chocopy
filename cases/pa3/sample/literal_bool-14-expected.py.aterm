@@ -1,1 +1,1 @@
-Exps2Parameters([Literal2Exp(False())])
+Var2Exp(Var("print"))

@@ -35,12 +35,13 @@ class B3(A):
     def __init__(self: "B3"):
         pass
 
-class B4(A):
+class B4($ID):
     def __init__(self: "B4"):
         pass
 
 class B5(A):
-    $ClassBodyMember
+    def __init__(self: "B5"):
+        pass
 
 class C(B):
     z:bool = True

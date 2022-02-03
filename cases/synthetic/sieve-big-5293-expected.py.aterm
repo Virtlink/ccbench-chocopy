@@ -1,1 +1,1 @@
-ReturnNone()
+Var2Exp(Var("new_items"))

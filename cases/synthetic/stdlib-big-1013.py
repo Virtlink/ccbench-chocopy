@@ -112,7 +112,7 @@ def int_to_str5(x: int, x2: int, x3: int, x4: int, x5: int) -> str:
 def str_to_int(x: str) -> int:
     result:int = 0
     digit:int = 0
-    char:str = ""
+    $TypedVar = ""
     sign:int = 1
     first_char:bool = True
 
@@ -123,7 +123,7 @@ def str_to_int(x: str) -> int:
                 return 0 # Error
             sign = -1
         elif char == "0":
-            $Block
+            digit = 0
         elif char == "1":
             digit = 1
         elif char == "2":

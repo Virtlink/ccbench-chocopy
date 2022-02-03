@@ -10,8 +10,8 @@ def foo(s: str) -> int:
 def foo2(s: str, s2: str) -> int:
     return len(s)
 
-def foo3(s: str, s2: str, s3: str) -> int:
-    return $ID(s)
+def foo3(s: str, s2: str, s3: $Type) -> int:
+    return len(s)
 
 def foo4(s: str, s2: str, s3: str, s4: str) -> int:
     return len(s)

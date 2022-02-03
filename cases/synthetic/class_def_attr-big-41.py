@@ -5,8 +5,8 @@ class A2(object):
     x:int = 1
     x2:int = 1
 
-class A3(object):
-    $VarDef
+class A3($ID):
+    x:int = 1
     x2:int = 1
     x3:int = 1
 

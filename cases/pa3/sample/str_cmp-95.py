@@ -8,8 +8,8 @@ def eq(a:str, b:str) -> bool:
 def neq(a:str, b:str) -> bool:
     return a != b
 
-print(eq(a,a))
-print($Exp(a,b))
+print(eq(a,$Exp))
+print(eq(a,b))
 print(neq(a,b))
 print(neq(b,b))
 print(eq(c,a))

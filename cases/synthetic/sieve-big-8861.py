@@ -979,7 +979,7 @@ def sieve2(v:Vector, v2:Vector) -> object:
         k = v.get(i)
         j = i + 1
         while j < v.length():
-            if v.get(j) % k == 0:
+            if v.get($ID) % k == 0:
                 v.remove_at(j)
             else:
                 j = j + 1
@@ -1067,7 +1067,7 @@ n5:int = 50
 # Data
 v:Vector = None
 v2:Vector = None
-v3:Vector = $Literal
+v3:Vector = None
 v4:Vector = None
 v5:Vector = None
 i:int = 0

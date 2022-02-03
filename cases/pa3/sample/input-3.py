@@ -1,6 +1,6 @@
 # Test of 'input' function.
 
-$TypedVar = ""
+$VarDef
 
 s = input()
 while len(s) > 0:

@@ -1,1 +1,1 @@
-Exps2Parameters([Var2Exp(Var("y"))])
+Mul(Var2Exp(Var("a")),Var2Exp(Var("x")))

@@ -1,1 +1,1 @@
-IdString("DoublingVector")
+Var2Exp(Var("idx"))

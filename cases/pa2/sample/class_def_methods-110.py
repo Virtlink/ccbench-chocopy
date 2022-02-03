@@ -15,10 +15,10 @@ class C(B):
         self.x = val
 
 a:A = None
-b:B = None
+$VarDef
 c:C = None
 
-$AssignTarget A()
+a = A()
 b = B()
 c = C()
 

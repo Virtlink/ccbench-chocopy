@@ -32,11 +32,12 @@ class B2(A):
         pass
 
 class B3(A):
-    def __init__(self: "B3"):
+    def $ID(self: "B3"):
         pass
 
 class B4(A):
-    $FuncDef
+    def __init__(self: "B4"):
+        pass
 
 class B5(A):
     def __init__(self: "B5"):

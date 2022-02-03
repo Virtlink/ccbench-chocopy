@@ -16,8 +16,8 @@ def foo3(s: str, s2: str, s3: str) -> int:
 def foo4(s: str, s2: str, s3: str, s4: str) -> int:
     return len(s)
 
-def foo5(s: str, s2: str, s3: str, s4: str, s5: str) -> int:
-    return len($Exp)
+def foo5(s: str, s2: str, s3: str, $TypedVar, s5: str) -> int:
+    return len(s)
 
 class bar(object):
     p: bool = True

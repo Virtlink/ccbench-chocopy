@@ -1,4 +1,4 @@
-def foo() $RetType:
+def $ID() -> int:
     return 1
 
 foo()

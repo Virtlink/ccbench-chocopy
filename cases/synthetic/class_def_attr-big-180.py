@@ -28,10 +28,10 @@ class B(A):
         pass
 
 class B2(A):
-    def __init__(self: "B2"):
+    def $ID(self: "B2"):
         pass
 
-class $ID(A):
+class B3(A):
     def __init__(self: "B3"):
         pass
 

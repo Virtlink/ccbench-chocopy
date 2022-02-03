@@ -1,1 +1,1 @@
-Var2Exp(Var("len"))
+TypedVar("s3",Type("str"))

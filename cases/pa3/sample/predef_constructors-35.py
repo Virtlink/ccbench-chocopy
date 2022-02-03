@@ -1,4 +1,4 @@
 print(object() is None)
 print(int())
-print($ID())
+$Var(str())
 print(bool())

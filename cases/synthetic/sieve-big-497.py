@@ -59,7 +59,7 @@ class Vector2(object):
         self.items = [0]
 
     # Returns current capacity
-    def capacity(self:"Vector2") -> int:
+    def capacity(self:"Vector2") -> $ID:
         return len(self.items)
 
     # Returns current capacity
@@ -68,7 +68,7 @@ class Vector2(object):
 
     # Increases capacity of vector by one element
     def increase_capacity(self:"Vector2") -> int:
-        $AssignTarget self.items + [0]
+        self.items = self.items + [0]
         return self.capacity()
 
     # Increases capacity of vector by one element

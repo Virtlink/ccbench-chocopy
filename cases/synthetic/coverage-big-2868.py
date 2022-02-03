@@ -353,7 +353,7 @@ class bar4(object):
         x3:int = 0
         x4:int = 0
         y:int = 1
-        y2:int = 1
+        $FuncBodyMember
         y3:int = 1
         y4:int = 1
 
@@ -392,7 +392,9 @@ class bar4(object):
 
         while x <= 0:
             if self.p:
-                $Block
+                xx[0] = xx[1]
+                self.p = not self.p
+                x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 

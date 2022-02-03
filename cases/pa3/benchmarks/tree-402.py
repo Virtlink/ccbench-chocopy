@@ -42,11 +42,11 @@ class Tree(object):
 			self.root = makeNode(x)
 			self.size = 1
 		else:
-			if self.root.insert(x):
+			if self.root.insert($Var):
 				self.size = self.size + 1
 
 	def contains(self:"Tree", x:int) -> bool:
-		if $Exp is None:
+		if self.root is None:
 			return False
 		else:
 			return self.root.contains(x)

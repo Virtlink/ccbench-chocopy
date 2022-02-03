@@ -63,7 +63,7 @@ def exp3(x: int, y: int, x2: int, y2: int, x3: int, y3: int) -> int:
     a: int = 0
     a2: int = 0
     a3: int = 0
-    a4: int = 0
+    $ID: int = 0
     a5: int = 0
     def f(i: int) -> int:
         nonlocal a
@@ -73,7 +73,7 @@ def exp3(x: int, y: int, x2: int, y2: int, x3: int, y3: int) -> int:
         nonlocal a5
         def geta() -> int:
             return a
-        if i <= $Literal:
+        if i <= 0:
             return geta()
         else:
             a = a * x

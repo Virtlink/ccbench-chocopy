@@ -1,5 +1,5 @@
 x:str = ""
-$TypedVar = "123"
+$VarDef
 z:str = "abc"
 
 for x in z:

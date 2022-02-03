@@ -728,7 +728,7 @@ class Tree5(object):
             return self.root.contains(x)
 
     def contains3(self:"Tree5", x:int, x2:int, x3:int) -> bool:
-        if self.root is None:
+        if self.root is $Literal:
             return False
         else:
             return self.root.contains(x)
@@ -813,7 +813,7 @@ k:int = 37813
 k2:int = 37813
 k3:int = 37813
 k4:int = 37813
-$Definition
+k5:int = 37813
 
 # Crunch
 t = Tree()

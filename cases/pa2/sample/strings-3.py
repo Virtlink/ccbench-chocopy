@@ -1,4 +1,4 @@
-$TypedVar = "Hello"
+$VarDef
 y:str = "World"
 z:str = ""
 

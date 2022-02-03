@@ -1,1 +1,1 @@
-3 if 1 > $Literal else 4
+3 if $INT > 2 else 4

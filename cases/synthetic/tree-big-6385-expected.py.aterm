@@ -1,1 +1,1 @@
-Member(Var2Exp(Var("self")),"root")
+Is(Member2Exp(Member(Var2Exp(Var("self")),"root")),Literal2Exp(NONE()))

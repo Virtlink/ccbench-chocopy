@@ -3,8 +3,8 @@ count:int = 0
 def foo(s: str) -> int:
     return len(s)
 
-class bar(object):
-    $TypedVar = True
+class $ID(object):
+    p: bool = True
 
     def baz(self:"bar", xx: [int]) -> str:
         global count

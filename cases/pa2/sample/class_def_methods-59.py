@@ -8,11 +8,7 @@ class B(A):
     def __init__(self: "B"):
         pass
 
-class C(B):
-    z:$ID = True
-
-    def set_A(self: "C", val: int) -> object:
-        self.x = val
+$ClassDef
 
 a:A = None
 b:B = None

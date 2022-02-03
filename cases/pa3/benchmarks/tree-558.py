@@ -65,13 +65,13 @@ c:int = 4
 # Data
 t:Tree = None
 i:int = 0
-k:int = 37813
+$Definition
 
 # Crunch
 t = Tree()
 while i < n:
 	t.insert(k)
-	k = (k * 37813) % $Literal
+	k = (k * 37813) % 37831
 	if i % c != 0:
 		t.insert(i)
 	i = i + 1

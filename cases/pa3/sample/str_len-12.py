@@ -1,1 +1,1 @@
-print(len($Exp))
+print($Var("ChocoPy"))

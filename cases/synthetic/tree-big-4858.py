@@ -492,23 +492,7 @@ class TreeNode5(object):
         else:
             return True
 
-class Tree(object):
-    root:TreeNode = None
-    size:int = 0
-
-    def insert(self:"Tree", x:int) -> object:
-        if self.root is None:
-            self.root = makeNode(x)
-            self.size = 1
-        else:
-            if self.root.insert(x):
-                self.size = self.size + 1
-
-    def contains(self:"Tree", x:int) -> bool:
-        if self.root is None:
-            return False
-        else:
-            return self.root.contains(x)
+$ClassDef
 
 
 class Tree2(object):
@@ -536,7 +520,8 @@ class Tree2(object):
     def contains(self:"Tree2", x:int) -> bool:
         if self.root is None:
             return False
-        $ElifElse
+        else:
+            return self.root.contains(x)
 
     def contains2(self:"Tree2", x:int, x2:int) -> bool:
         if self.root is None:

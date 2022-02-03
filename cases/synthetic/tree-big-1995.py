@@ -215,7 +215,7 @@ class TreeNode4(object):
     right4:"TreeNode4" = None
 
     def insert(self:"TreeNode4", x:int) -> bool:
-        if x < self.value:
+        if $ID < self.value:
             if self.left is None:
                 self.left = makeNode4(x, x, x, x)
                 return True
@@ -231,7 +231,7 @@ class TreeNode4(object):
 
     def insert2(self:"TreeNode4", x:int, x2:int) -> bool:
         if x < self.value:
-            if $Member is None:
+            if self.left is None:
                 self.left = makeNode4(x, x, x, x)
                 return True
             else:

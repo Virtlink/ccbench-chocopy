@@ -1,1 +1,1 @@
-Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"root")))],Call(Var2Exp(Var("makeNode2")),Exps2Parameters([Var2Exp(Var("x")),Var2Exp(Var("x"))])))
+Member2Exp(Member(Var2Exp(Var("self")),"value"))

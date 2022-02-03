@@ -1,11 +1,14 @@
 def f() -> int:
     print("start f")
     g()
-    print("end f")
+    print($Exp)
     return 42
 
     
-$Definition
+def g() -> object:
+    print("start g")
+    h()
+    print("end g")
 
 def h() -> object:
     print("start h")

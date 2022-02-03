@@ -1,1 +1,1 @@
-VarDef2FuncBodyMember(VarDef(TypedVar("i3",Type("int")),Int("0")))
+Assign([Target(Var2Target(Var("v")))],Call(Var2Exp(Var("DoublingVector")),Exps2Parameters([])))

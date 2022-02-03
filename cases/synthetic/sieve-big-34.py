@@ -4,7 +4,7 @@ class Vector(object):
     size: int = 0
 
     def __init__(self:"Vector"):
-        $Target = [0]
+        $FuncBody
 
     # Returns current capacity
     def capacity(self:"Vector") -> int:

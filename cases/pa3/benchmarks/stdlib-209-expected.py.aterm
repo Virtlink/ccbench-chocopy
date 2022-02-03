@@ -1,1 +1,1 @@
-Block([If(Not(Var2Exp(Var("first_char"))),Block([Return(Literal2Exp(Int("0")))])),Assign([Target(Var2Target(Var("sign")))],Negative(Literal2Exp(Int("1"))))])
+True()

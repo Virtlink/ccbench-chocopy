@@ -455,7 +455,7 @@ class bar5(object):
                 x = -1
 
         for x in xx:
-            self.p = x == 2
+            $Block
 
         qux(0) # Yay! ChocoPy
 
@@ -495,7 +495,7 @@ class bar5(object):
             nonlocal x
             nonlocal x2
             nonlocal x3
-            if $Var > y:
+            if x > y:
                 x = -1
 
         for x in xx:

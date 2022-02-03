@@ -1,1 +1,1 @@
-"len"
+Call(Var2Exp(Var("len")),Exps2Parameters([Literal2Exp(String("\"ChocoPy\""))]))

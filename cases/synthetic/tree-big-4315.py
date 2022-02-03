@@ -430,7 +430,7 @@ class TreeNode5(object):
                 return self.left.contains(x)
         elif x > self.value:
             if self.right is None:
-                return False
+                return $Literal
             else:
                 return self.right.contains(x)
         else:
@@ -474,7 +474,7 @@ class TreeNode5(object):
             if self.right is None:
                 return False
             else:
-                return self.right.contains($Exp)
+                return self.right.contains(x)
         else:
             return True
 

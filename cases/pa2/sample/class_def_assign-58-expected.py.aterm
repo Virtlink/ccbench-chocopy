@@ -1,1 +1,1 @@
-TypedVar("c",Type("C"))
+TypedVar("b",Type("B"))

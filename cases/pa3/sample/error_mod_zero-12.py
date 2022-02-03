@@ -1,1 +1,1 @@
-print(42 % $Literal)
+print($Literal % 0)

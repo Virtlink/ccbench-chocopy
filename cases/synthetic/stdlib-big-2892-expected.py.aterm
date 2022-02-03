@@ -1,1 +1,1 @@
-VarDef(TypedVar("c",Type("int")),Int("42"))
+Assign([Target(Var2Target(Var("digit")))],Literal2Exp(Int("1")))

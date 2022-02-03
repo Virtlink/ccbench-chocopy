@@ -42,12 +42,12 @@ def exp2(x: int, y: int, x2: int, y2: int) -> int:
         nonlocal a4
         nonlocal a5
         def geta() -> int:
-            return a
+            return $Exp
         if i <= 0:
             return geta()
         else:
             a = a * x
-            $Statement
+            a2 = a * x
             a3 = a * x
             a4 = a * x
             a5 = a * x

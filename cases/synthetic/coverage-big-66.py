@@ -7,8 +7,7 @@ count5:int = 0
 def foo(s: str) -> int:
     return len(s)
 
-def foo2(s: $Type, s2: str) -> int:
-    return len(s)
+$Definition
 
 def foo3(s: str, s2: str, s3: str) -> int:
     return len(s)

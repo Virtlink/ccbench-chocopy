@@ -1,1 +1,1 @@
-IntDiv(Var2Exp(Var("x")),Literal2Exp(Int("10")))
+Var("result")

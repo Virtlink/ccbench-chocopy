@@ -39,10 +39,10 @@ def int_to_str2(x: int, x2: int) -> str:
 
 def int_to_str3(x: int, x2: int, x3: int) -> str:
     digits:[str] = None 
-    digits2:[str] = None 
+    $VarDef 
     digits3:[str] = None 
     result:str = ""
-    result2:$Type = ""
+    result2:str = ""
     result3:str = ""
 
     # Set-up digit mapping

@@ -34,11 +34,11 @@ class TreeNode(object):
             return True
 
 
-class TreeNode2(object):
+class TreeNode2($ID):
     value:int = 0
     value2:int = 0
     left:"TreeNode2" = None
-    $ID:"TreeNode2" = None
+    left2:"TreeNode2" = None
     right:"TreeNode2" = None
     right2:"TreeNode2" = None
 

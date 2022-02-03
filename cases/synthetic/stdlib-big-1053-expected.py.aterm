@@ -1,1 +1,1 @@
-Literal2Exp(Int("2"))
+Not(Var2Exp(Var("first_char")))

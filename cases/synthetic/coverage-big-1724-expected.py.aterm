@@ -1,1 +1,1 @@
-VarDef(TypedVar("p",Type("bool")),True())
+Negative(Literal2Exp(Int("1")))

@@ -10,10 +10,10 @@ def g(y:int, z:int) -> object:
     print("start g")
     print(y)
     print(z)
-    h("h")
+    h($STRING)
     print("end g")
 
-def h(msg: $Type) -> object:
+def h(msg: str) -> object:
     print(msg)
 
 print(f(4))

@@ -113,7 +113,7 @@ def str_to_int(x: str) -> int:
     result:int = 0
     digit:int = 0
     char:str = ""
-    sign:int = 1
+    sign:int = $INT
     first_char:bool = True
 
     # Parse digits
@@ -124,7 +124,7 @@ def str_to_int(x: str) -> int:
             sign = -1
         elif char == "0":
             digit = 0
-        elif $ID == "1":
+        elif char == "1":
             digit = 1
         elif char == "2":
             digit = 2

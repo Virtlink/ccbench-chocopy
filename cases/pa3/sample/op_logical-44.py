@@ -3,10 +3,10 @@ def f() -> bool:
   return True
 
 def g() -> bool:
-  print("g called")
+  print($STRING)
   return False
 
-if $ID() or g():      # Short-circuit
+if f() or g():      # Short-circuit
   if g() and f():   # Short-circuit
     print("Never")
   else:

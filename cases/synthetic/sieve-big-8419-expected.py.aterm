@@ -1,1 +1,1 @@
-"k4"
+TypedVar("i",Type("int"))

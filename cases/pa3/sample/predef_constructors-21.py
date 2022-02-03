@@ -1,4 +1,4 @@
 print(object() is None)
-print($Exp)
+$Exp(int())
 print(str())
 print(bool())

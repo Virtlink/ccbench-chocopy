@@ -5,7 +5,6 @@ def next_int() -> int:
     next = next + 1
     return next
 
-def make_list() -> [$ID]:
-    return [next_int(), next_int(), next_int()]
+$FuncDef
 
 print(make_list()[next_int() - 3])

@@ -1,1 +1,1 @@
-Add(Var2Exp(Var("count")),Literal2Exp(Int("1")))
+Eq(Var2Exp(Var("x")),Literal2Exp(Int("2")))

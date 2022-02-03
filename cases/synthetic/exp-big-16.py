@@ -1,6 +1,6 @@
 # Compute x**y
-def exp(x: int, y: int) -> int:
-    $FuncBodyMember
+def exp(x: int, y: int) -> $ID:
+    a: int = 0
     a2: int = 0
     a3: int = 0
     a4: int = 0

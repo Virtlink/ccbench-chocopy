@@ -1,1 +1,1 @@
-TypeS(IdString("Tree4"))
+VarDef(TypedVar("root3",Type("TreeNode4")),NONE())

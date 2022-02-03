@@ -10,7 +10,7 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-    def bar(self:"B") -> int:
-        $Statement
+    def $ID(self:"B") -> int:
+        return self.foo(self.b)
 
 print(B().bar())

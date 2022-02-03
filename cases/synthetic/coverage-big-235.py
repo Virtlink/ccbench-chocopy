@@ -23,11 +23,11 @@ class bar(object):
     p: bool = True
 
     def baz(self:"bar", xx: [int]) -> str:
-        global count
+        global $ID
         x:int = 0
         y:int = 1
 
-        def qux(y: int) $RetType:
+        def qux(y: int) -> object:
             nonlocal x
             if x > y:
                 x = -1

@@ -310,7 +310,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
         result = result * 10 + digit
 
     # Compute result
-    return result * sign
+    return $Var * sign
 
 def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
     result:int = 0
@@ -332,7 +332,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
     sign2:int = 1
     sign3:int = 1
     sign4:int = 1
-    sign5:$ID = 1
+    sign5:int = 1
     first_char:bool = True
     first_char2:bool = True
     first_char3:bool = True

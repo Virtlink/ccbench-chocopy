@@ -42,11 +42,18 @@ def str_to_int(x: str) -> int:
             digit = 3
         elif char == "4":
             digit = 4
-        elif char == "5":
+        elif $Exp == "5":
             digit = 5
         elif char == "6":
             digit = 6
-        $ElifElse # On error
+        elif char == "7":
+            digit = 7
+        elif char == "8":
+            digit = 8
+        elif char == "9":
+            digit = 9
+        else:
+            return 0 # On error
         first_char = False
         result = result * 10 + digit
 

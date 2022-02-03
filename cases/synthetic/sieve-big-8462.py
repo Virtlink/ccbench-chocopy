@@ -938,18 +938,7 @@ def vrange4(i:int, j:int, i2:int, j2:int, i3:int, j3:int, i4:int, j4:int) -> Vec
     return v
 
 def vrange5(i:int, j:int, i2:int, j2:int, i3:int, j3:int, i4:int, j4:int, i5:int, j5:int) -> Vector:
-    v:Vector = None
-    v2:Vector = None
-    v3:Vector = None
-    v4:Vector = None
-    v5:Vector = None
-    v = DoublingVector()
-    
-    while i < j:
-        v.append(i)
-        i = i + 1
-
-    return v
+    $FuncBody
 
 # Sieve of Eratosthenes (not really)
 def sieve(v:Vector) -> object:
@@ -1022,7 +1011,7 @@ def sieve4(v:Vector, v2:Vector, v3:Vector, v4:Vector) -> object:
 
     while i < v.length():
         k = v.get(i)
-        j = $ID + 1
+        j = i + 1
         while j < v.length():
             if v.get(j) % k == 0:
                 v.remove_at(j)

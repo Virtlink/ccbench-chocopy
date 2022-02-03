@@ -614,7 +614,7 @@ class Vector5(object):
             self.append(item)
 
     # Removes an item from the middle of vector
-    def remove_at(self:"Vector5", idx: int) -> object:
+    def remove_at(self:$Type, idx: int) -> object:
         if idx < 0:
             return
 
@@ -666,7 +666,7 @@ class Vector5(object):
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
-        $Statement
+        self.size = self.size - 1
 
     # Retrieves an item at a given index
     def get(self:"Vector5", idx: int) -> int:

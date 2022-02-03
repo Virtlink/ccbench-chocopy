@@ -1,1 +1,1 @@
-Block([If(Eq(Mod(Var2Exp(Var("x")),Var2Exp(Var("div"))),Literal2Exp(Int("0"))),Block([Return(Literal2Exp(False()))])),Assign([Target(Var2Target(Var("div")))],Add(Var2Exp(Var("div")),Literal2Exp(Int("1"))))])
+Int("2")

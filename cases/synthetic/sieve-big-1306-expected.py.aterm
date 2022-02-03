@@ -1,1 +1,1 @@
-Call(Member2Exp(Member(Var2Exp(Var("self")),"capacity")),Exps2Parameters([]))
+FuncDef("__init__",[TypedVar("self",TypeS(IdString("Vector3")))],ReturnsNone(),FuncBody([],[Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"items")))],List([Literal2Exp(Int("0"))]))]))

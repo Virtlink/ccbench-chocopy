@@ -77,7 +77,7 @@ class bar2(object):
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
-                self.p = self is None
+                $AssignTarget self is None
 
         return "Nope"
 
@@ -86,7 +86,7 @@ class bar2(object):
         global count
         x:int = 0
         x2:int = 0
-        y:int = $Literal
+        y:int = 1
         y2:int = 1
 
         def qux(y: int) -> object:

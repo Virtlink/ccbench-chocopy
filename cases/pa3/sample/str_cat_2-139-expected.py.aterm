@@ -1,1 +1,1 @@
-"a"
+Assign([Target(Var2Target(Var("e")))],Call(Var2Exp(Var("cat3")),Exps2Parameters([Var2Exp(Var("a")),Var2Exp(Var("b")),Call(Var2Exp(Var("cat2")),Exps2Parameters([Var2Exp(Var("b")),Var2Exp(Var("b"))]))])))

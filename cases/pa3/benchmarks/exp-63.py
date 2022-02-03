@@ -5,9 +5,11 @@ def exp(x: int, y: int) -> int:
 		nonlocal a
 		def geta() -> int:
 			return a
-		if i <= 0:
+		if i <= $Literal:
 			return geta()
-		$ElifElse
+		else:
+			a = a * x
+			return f(i-1)
 	a = 1
 	return f(y)
 

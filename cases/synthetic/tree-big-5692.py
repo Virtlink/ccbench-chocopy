@@ -571,7 +571,7 @@ class Tree3(object):
                 self.size = self.size + 1
 
     def insert3(self:"Tree3", x:int, x2:int, x3:int) -> object:
-        if self.root is None:
+        if $ID.root is None:
             self.root = makeNode3(x, x, x)
             self.size = 1
         else:
@@ -621,7 +621,7 @@ class Tree4(object):
             self.size = 1
         else:
             if self.root.insert(x):
-                self.size = self.$ID + 1
+                self.size = self.size + 1
 
     def insert3(self:"Tree4", x:int, x2:int, x3:int) -> object:
         if self.root is None:

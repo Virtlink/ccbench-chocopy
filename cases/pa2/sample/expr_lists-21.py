@@ -1,6 +1,6 @@
 x:[int] = None
 y:[object] = None
-z:$Type = None
+$ID:[bool] = None
 o:object = None
 
 x = [1, 2, 3]

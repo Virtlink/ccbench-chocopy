@@ -1,3 +1,3 @@
-$FuncDef
+$Definition
 
 foo(1,2)

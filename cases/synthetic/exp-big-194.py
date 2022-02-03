@@ -21,10 +21,10 @@ def exp(x: int, y: int) -> int:
             a3 = a * x
             a4 = a * x
             a5 = a * x
-            return f(i-1)
+            return f(i-$Literal)
     a = 1
     a2 = 1
-    $Statement
+    a3 = 1
     a4 = 1
     a5 = 1
     return f(y)

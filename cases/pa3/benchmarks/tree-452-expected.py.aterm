@@ -1,1 +1,1 @@
-Var("b")
+Literal2Exp(NONE())

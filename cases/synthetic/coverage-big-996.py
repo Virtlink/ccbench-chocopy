@@ -121,7 +121,7 @@ class bar2(object):
 
 class bar3(object):
     p: bool = True
-    p2: bool = True
+    p2: $Type = True
     p3: bool = True
 
     def baz(self:"bar3", xx: [int]) -> str:
@@ -135,7 +135,7 @@ class bar3(object):
                 x = -1
 
         for x in xx:
-            self.$ID = x == 2
+            self.p = x == 2
 
         qux(0) # Yay! ChocoPy
 

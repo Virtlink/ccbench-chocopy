@@ -15,14 +15,14 @@ def is_prime(x:int) -> bool:
     while div < x:
         if x % div == 0:
             return False
-        div = div + 1
+        div = div + $Exp
     return True
 
 # Input parameter
 n:int = 15
 
 # Run [1, n]
-$TypedVar = 1
+i:int = 1
 
 # Crunch
 while i <= n:

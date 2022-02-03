@@ -1,7 +1,7 @@
 if False:
     pass
 elif True:
-    if 1 == $INT:
+    if $Literal == 1:
         pass
 else:
     pass

@@ -717,7 +717,7 @@ class Tree5(object):
 
     def contains(self:"Tree5", x:int) -> bool:
         if self.root is None:
-            return False
+            return $Exp
         else:
             return self.root.contains(x)
 
@@ -796,7 +796,7 @@ c:int = 4
 c2:int = 4
 c3:int = 4
 c4:int = 4
-$VarDef
+c5:int = 4
 
 # Data
 t:Tree = None

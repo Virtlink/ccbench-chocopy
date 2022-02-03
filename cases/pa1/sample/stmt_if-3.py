@@ -1,3 +1,2 @@
-if $Literal:
-    False
+$Statement
 

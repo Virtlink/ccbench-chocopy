@@ -16,10 +16,22 @@ class TreeNode(object):
                 self.right = makeNode(x)
                 return True
             else:
-                return self.right.insert(x)
+                return $Member(x)
         return False
 
-    $FuncDef
+    def contains(self:"TreeNode", x:int) -> bool:
+        if x < self.value:
+            if self.left is None:
+                return False
+            else:
+                return self.left.contains(x)
+        elif x > self.value:
+            if self.right is None:
+                return False
+            else:
+                return self.right.contains(x)
+        else:
+            return True
 
 
 class TreeNode2(object):

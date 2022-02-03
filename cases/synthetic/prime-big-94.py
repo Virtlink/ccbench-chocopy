@@ -10,17 +10,7 @@ def get_prime(n:int) -> int:
         candidate = candidate + 1
     return 0 # Never happens
 
-def is_prime(x:int) -> bool:
-    $FuncBodyMember
-    div2:int = 2
-    div3:int = 2
-    div4:int = 2
-    div5:int = 2
-    while div < x:
-        if x % div == 0:
-            return False
-        div = div + 1
-    return True
+$FuncDef
 
 def is_prime2(x:int, x2:int) -> bool:
     div:int = 2

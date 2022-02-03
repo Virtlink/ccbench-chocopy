@@ -1,1 +1,1 @@
-Var2Target(Var("v"))
+Var("self")

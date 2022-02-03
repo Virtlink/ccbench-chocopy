@@ -1,1 +1,1 @@
-Var2Exp(Var("qux"))
+Returns(Type("int"))

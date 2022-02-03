@@ -1,1 +1,1 @@
-"next"
+FuncBody([Global("next")],[Assign([Target(Var2Target(Var("next")))],Add(Var2Exp(Var("next")),Literal2Exp(Int("1")))),Return(Var2Exp(Var("next")))])

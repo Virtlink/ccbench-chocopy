@@ -12,8 +12,8 @@ def get_prime(n:int) -> int:
 
 def is_prime(x:int) -> bool:
     div:int = 2
-    while div < x:
-        if x % $Exp == 0:
+    while $Exp < x:
+        if x % div == 0:
             return False
         div = div + 1
     return True

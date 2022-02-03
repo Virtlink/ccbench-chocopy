@@ -200,7 +200,7 @@ class TreeNode3(object):
             return True
 
 
-class TreeNode4(object):
+class TreeNode4($ID):
     value:int = 0
     value2:int = 0
     value3:int = 0
@@ -220,7 +220,7 @@ class TreeNode4(object):
                 self.left = makeNode4(x, x, x, x)
                 return True
             else:
-                $Block
+                return self.left.insert(x)
         elif x > self.value:
             if self.right is None:
                 self.right = makeNode4(x, x, x, x)

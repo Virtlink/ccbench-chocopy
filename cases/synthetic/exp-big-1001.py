@@ -112,7 +112,7 @@ def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -
             a4 = a * x
             a5 = a * x
             return f(i-1)
-    a = 1
+    a = $Exp
     a2 = 1
     a3 = 1
     a4 = 1
@@ -120,7 +120,7 @@ def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -
     return f(y)
 
 def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x5: int, y5: int) -> int:
-    $VarDef
+    a: int = 0
     a2: int = 0
     a3: int = 0
     a4: int = 0

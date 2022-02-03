@@ -1,1 +1,1 @@
-Member(Var2Exp(Var("self")),"value")
+VarDef2ClassBodyMember(VarDef(TypedVar("right2",TypeS(IdString("TreeNode2"))),NONE()))

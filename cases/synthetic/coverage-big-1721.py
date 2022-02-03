@@ -212,7 +212,7 @@ class bar3(object):
             nonlocal x2
             nonlocal x3
             if x > y:
-                x = -1
+                $Target = -1
 
         for x in xx:
             self.p = x == 2
@@ -233,7 +233,7 @@ class bar3(object):
 
 
 
-class bar4($ID):
+class bar4(object):
     p: bool = True
     p2: bool = True
     p3: bool = True

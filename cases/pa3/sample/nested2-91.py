@@ -7,8 +7,8 @@ def foo(x: int) -> int:
             return qux(y)
         return baz()
     def qux(p: int) -> int:
-        return p
+        return $Exp
 
     return bar()
     
-print($Parameters)
+print(foo(g))

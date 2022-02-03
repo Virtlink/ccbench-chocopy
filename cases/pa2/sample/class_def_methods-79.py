@@ -11,8 +11,8 @@ class B(A):
 class C(B):
     z:bool = True
 
-    def set_A(self: "C", val: int) -> object:
-        $Target = val
+    def set_A(self: "$ID", val: int) -> object:
+        self.x = val
 
 a:A = None
 b:B = None

@@ -1,4 +1,4 @@
-$TypedVar = "Hello"
+$VarDef
 
 for s in s:
     s[0]

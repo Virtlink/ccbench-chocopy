@@ -130,7 +130,7 @@ class TreeNode3(object):
     def insert2(self:"TreeNode3", x:int, x2:int) -> bool:
         if x < self.value:
             if self.left is None:
-                self.left = makeNode3(x, x, x)
+                $Member = makeNode3(x, x, x)
                 return True
             else:
                 return self.left.insert(x)
@@ -140,7 +140,7 @@ class TreeNode3(object):
                 return True
             else:
                 return self.right.insert(x)
-        return $Literal
+        return False
 
     def insert3(self:"TreeNode3", x:int, x2:int, x3:int) -> bool:
         if x < self.value:

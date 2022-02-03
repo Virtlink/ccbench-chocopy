@@ -1,4 +1,0 @@
-
-$Definition
-
-foo(1)

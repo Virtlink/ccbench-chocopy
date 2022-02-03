@@ -1,1 +1,1 @@
-"div"
+If(Eq(Mod(Var2Exp(Var("x")),Var2Exp(Var("div"))),Literal2Exp(Int("0"))),Block([Return(Literal2Exp(False()))]))

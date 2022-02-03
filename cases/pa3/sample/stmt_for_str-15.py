@@ -1,5 +1,5 @@
 x:str = ""
-z:str = $Literal
+z:$ID = "abc"
 
 for x in z:
     print(x)

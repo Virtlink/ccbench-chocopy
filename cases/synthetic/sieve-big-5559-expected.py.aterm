@@ -1,1 +1,1 @@
-Add(Var2Exp(Var("idx")),Literal2Exp(Int("1")))
+Exp(Call(Member2Exp(Member(Var2Exp(Var("self")),"append")),Exps2Parameters([Var2Exp(Var("item"))])))

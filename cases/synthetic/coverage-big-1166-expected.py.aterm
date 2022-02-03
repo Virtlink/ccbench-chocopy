@@ -1,1 +1,1 @@
-TypedVar("y",Type("int"))
+Target(Member2Target(Member(Var2Exp(Var("self")),"p")))

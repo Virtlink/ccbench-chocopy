@@ -485,7 +485,7 @@ class Vector5(object):
     size4: int = 0
     size5: int = 0
 
-    def __init__(self:"Vector5"):
+    def __init__(self:$Type):
         self.items = [0]
 
     # Returns current capacity
@@ -538,7 +538,7 @@ class Vector5(object):
         if self.size == self.capacity():
             self.increase_capacity()
 
-        self.items[self.size] = $ID
+        self.items[self.size] = item
         self.size = self.size + 1
 
     # Appends one item to end of vector

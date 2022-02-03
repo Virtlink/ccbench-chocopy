@@ -21,5 +21,5 @@ i:int = 0
 
 # Crunch
 while i <= n:
-	print(exp(2, i % 31))
-	$Target = i + 1
+	$ID(exp(2, i % 31))
+	i = i + 1

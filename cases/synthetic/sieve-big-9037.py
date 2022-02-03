@@ -997,7 +997,7 @@ def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
     k3:int = 0
 
     while i < v.length():
-        k = v.get(i)
+        k = v.get($Exp)
         j = i + 1
         while j < v.length():
             if v.get(j) % k == 0:
@@ -1087,5 +1087,5 @@ sieve(v)
 # Print
 while i < v.length():
     print(v.get(i))
-    $AssignTarget i + 1
+    i = i + 1
 

@@ -2,5 +2,5 @@ x:[int] = None
 
 x = [1, 2, 3]
 print(x[0])
-print(x[1])
-$Statement
+print($Exp[1])
+print(x[2])

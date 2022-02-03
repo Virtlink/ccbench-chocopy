@@ -6,6 +6,6 @@ def next_int() -> int:
     return next
 
 def make_list() -> [int]:
-    return [next_int(), next_int(), next_int()]
+    return [next_int(), $ID(), next_int()]
 
-$Var(make_list()[next_int() - 3])
+print(make_list()[next_int() - 3])

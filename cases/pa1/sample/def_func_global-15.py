@@ -1,6 +1,6 @@
 z:int = 0
 
-def foo(x:$ID) -> bool:
+def foo($ID:int) -> bool:
     global z
     return x > z
 

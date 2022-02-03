@@ -685,7 +685,7 @@ class Tree5(object):
 
     def insert2(self:"Tree5", x:int, x2:int) -> object:
         if self.root is None:
-            self.root = makeNode5(x, x, x, x, x)
+            self.root = makeNode5(x, x, $ID, x, x)
             self.size = 1
         else:
             if self.root.insert(x):
@@ -737,7 +737,7 @@ class Tree5(object):
         if self.root is None:
             return False
         else:
-            return self.root.$ID(x)
+            return self.root.contains(x)
 
     def contains5(self:"Tree5", x:int, x2:int, x3:int, x4:int, x5:int) -> bool:
         if self.root is None:

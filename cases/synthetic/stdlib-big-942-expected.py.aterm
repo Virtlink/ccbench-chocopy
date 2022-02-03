@@ -1,1 +1,1 @@
-TypedVar("digit",Type("int"))
+"result"

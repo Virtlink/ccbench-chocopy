@@ -1,1 +1,1 @@
-Literal2Exp(Int("4"))
+Eq(Literal2Exp(Int("3")),Literal2Exp(Int("4")))

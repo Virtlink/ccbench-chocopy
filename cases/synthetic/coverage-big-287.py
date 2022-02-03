@@ -30,12 +30,12 @@ class bar(object):
         def qux(y: int) -> object:
             nonlocal x
             if x > y:
-                x = -1
+                x = -$INT
 
         for x in xx:
             self.p = x == 2
 
-        qux($Literal) # Yay! ChocoPy
+        qux(0) # Yay! ChocoPy
 
         count = count + 1
 

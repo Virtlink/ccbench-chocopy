@@ -361,7 +361,7 @@ class Vector4(object):
     # Appends one item to end of vector
     def append4(self:"Vector4", item: int, item2: int, item3: int, item4: int) -> object:
         if self.size == self.capacity():
-            self.increase_capacity()
+            $Exp
 
         self.items[self.size] = item
         self.size = self.size + 1
@@ -398,7 +398,7 @@ class Vector4(object):
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector4", idx: int) -> object:
-        if idx < $Exp:
+        if idx < 0:
             return
 
         while idx < self.size - 1:

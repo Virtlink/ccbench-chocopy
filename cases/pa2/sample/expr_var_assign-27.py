@@ -1,4 +1,4 @@
 x:int = 1
 o:object = None
 
-x = o = $INT
+x = $ID = 42

@@ -14,9 +14,7 @@ def get_b() -> B:
     print("Getting B")
     return b
 
-def get_one() -> int:
-    print($Parameters)
-    return 1
+$FuncDef
 
 def get_false() -> bool:
     print("Getting False")

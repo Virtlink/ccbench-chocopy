@@ -1,1 +1,1 @@
-TypedVar("y",Type("int"))
+Global("count")

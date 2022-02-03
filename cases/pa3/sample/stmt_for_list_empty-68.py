@@ -7,6 +7,6 @@ z = [1,2,3]
 e = []
 
 for x in z:
-    for y in e:
-        $Exp("Never")
+    for $ID in e:
+        print("Never")
     print(x)

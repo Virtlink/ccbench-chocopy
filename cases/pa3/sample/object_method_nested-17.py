@@ -1,8 +1,7 @@
 class A(object):
     a:int = 42
 
-    def foo($TypedVar, ignore:object) -> int:
-        return self.a
+    $FuncDef
 
 class B(A):
     b:bool = True

@@ -1,4 +1,4 @@
-class A($ID):
+class $ID(object):
     a:int = 42
 
 a1:A = None

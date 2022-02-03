@@ -59,7 +59,7 @@ class DoublingVector(Vector):
         else:
             # If doubling limit has been reached, fall back to
             # standard capacity increases
-            self.items = self.items + [0]
+            self.items = self.items + $Exp
         return self.capacity()
 
 # Makes a vector in the range [i, j)
@@ -68,7 +68,8 @@ def vrange(i:int, j:int) -> Vector:
     v = DoublingVector()
     
     while i < j:
-        $Block
+        v.append(i)
+        i = i + 1
 
     return v
 

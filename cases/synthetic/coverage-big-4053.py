@@ -507,9 +507,7 @@ class bar5(object):
 
         while x <= 0:
             if self.p:
-                xx[0] = xx[1]
-                self.p = not self.p
-                x = x + 1
+                $Block
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
@@ -552,7 +550,7 @@ class bar5(object):
             if x > y:
                 x = -1
 
-        for x in $Var:
+        for x in xx:
             self.p = x == 2
 
         qux(0) # Yay! ChocoPy

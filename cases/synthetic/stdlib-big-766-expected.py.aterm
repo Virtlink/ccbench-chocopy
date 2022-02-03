@@ -1,1 +1,1 @@
-TypedVar("result",Type("str"))
+TypedVar("x5",Type("int"))

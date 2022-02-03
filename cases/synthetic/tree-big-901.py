@@ -96,7 +96,7 @@ class TreeNode2(object):
             if self.right is None:
                 return False
             else:
-                return self.right.contains(x)
+                return $Exp.contains(x)
         else:
             return True
 
@@ -109,7 +109,7 @@ class TreeNode3(object):
     left2:"TreeNode3" = None
     left3:"TreeNode3" = None
     right:"TreeNode3" = None
-    right2:$IDSTRING = None
+    right2:"TreeNode3" = None
     right3:"TreeNode3" = None
 
     def insert(self:"TreeNode3", x:int) -> bool:

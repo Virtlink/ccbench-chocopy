@@ -346,7 +346,7 @@ class bar4(object):
 
         return "Nope"
 
-    def baz4(self:"bar4", xx: [int], xx2: [int], xx3: [int], xx4: [int]) -> str:
+    def baz4(self:"bar4", xx: [int], xx2: [int], $ID: [int], xx4: [int]) -> str:
         global count
         x:int = 0
         x2:int = 0
@@ -383,7 +383,7 @@ class bar4(object):
             if x > y:
                 x = -1
 
-        for x in $Exp:
+        for x in xx:
             self.p = x == 2
 
         qux(0) # Yay! ChocoPy

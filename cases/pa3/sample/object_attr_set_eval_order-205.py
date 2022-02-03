@@ -26,8 +26,8 @@ a = b = B()
 get_b().a = get_one()
 print("Assigned B.a")
 get_b().b = get_false()
-print("Assigned B.b")
+print($Parameters)
 
 print(a.a)
 print(b.a)
-$Exp
+print(b.b)

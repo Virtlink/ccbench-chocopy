@@ -4,9 +4,9 @@ z:[bool] = None
 o:object = None
 
 x = [1, 2, 3]
-z = [False, True]
+z = [$Exp, True]
 
-$Target = x[0]
+y = x[0]
 x[0] = 1
 z[1] = z[0]
 o = x[1]

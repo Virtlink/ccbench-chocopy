@@ -1,1 +1,1 @@
-Nonlocal("x")
+Literal2Exp(Int("0"))

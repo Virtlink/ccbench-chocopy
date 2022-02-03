@@ -260,7 +260,7 @@ class bar4(object):
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
-                x = x + 1
+                x = x + $INT
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
@@ -286,7 +286,7 @@ class bar4(object):
                 x = -1
 
         for x in xx:
-            self.p = x == $INT
+            self.p = x == 2
 
         qux(0) # Yay! ChocoPy
 

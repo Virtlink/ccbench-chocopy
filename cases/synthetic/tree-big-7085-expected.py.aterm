@@ -1,1 +1,1 @@
-Returns(Type("TreeNode2"))
+Var2Exp(Var("x"))

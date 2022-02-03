@@ -405,7 +405,7 @@ class bar5(object):
     p: bool = True
     p2: bool = True
     p3: bool = True
-    p4: bool = True
+    $ClassBodyMember
     p5: bool = True
 
     def baz(self:"bar5", xx: [int]) -> str:
@@ -441,7 +441,7 @@ class bar5(object):
         x:int = 0
         x2:int = 0
         y:int = 1
-        y2:int = $INT
+        y2:int = 1
 
         def qux(y: int) -> object:
             nonlocal x

@@ -204,7 +204,7 @@ class Vector3(object):
             self.increase_capacity()
 
         self.items[self.size] = item
-        self.size = self.size + 1
+        self.size = $Exp + 1
 
     # Appends many items to end of vector
     def append_all(self:"Vector3", new_items: [int]) -> object:
@@ -228,7 +228,7 @@ class Vector3(object):
             self.append(item)
 
     # Removes an item from the middle of vector
-    def remove_at(self:"$ID", idx: int) -> object:
+    def remove_at(self:"Vector3", idx: int) -> object:
         if idx < 0:
             return
 

@@ -1,10 +1,10 @@
 # ChocoPy library functions
 def int_to_str(x: int) -> str:
     digits:[str] = None 
-    result:str = ""
+    result:str = $STRING
 
     # Set-up digit mapping
-    $Target = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    digits = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
     # Write sign if necessary
     if x < 0:

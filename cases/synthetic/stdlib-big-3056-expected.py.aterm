@@ -1,1 +1,1 @@
-Mul(Negative(Var2Exp(Var("n"))),Var2Exp(Var("c")))
+Var("char")

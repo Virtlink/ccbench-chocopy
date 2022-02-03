@@ -23,9 +23,8 @@ class TreeNode(object):
 		if x < self.value:
 			if self.left is None:
 				return False
-			else:
-				return self.left.contains(x)
-		elif x > $Exp:
+			$ElifElse
+		elif x > self.value:
 			if self.right is None:
 				return False
 			else:

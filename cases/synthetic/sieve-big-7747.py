@@ -861,13 +861,7 @@ class DoublingVector5(Vector):
 
     # Overriding to do fewer resizes
     def increase_capacity3(self:"DoublingVector5") -> int:
-        if (self.capacity() <= self.doubling_limit // 2):
-            self.items = self.items + self.items
-        else:
-            # If doubling limit has been reached, fall back to
-            # standard capacity increases
-            self.items = self.items + [0]
-        return self.capacity()
+        $FuncBody
 
     # Overriding to do fewer resizes
     def increase_capacity4(self:"DoublingVector5") -> int:
@@ -946,7 +940,7 @@ def vrange5(i:int, j:int, i2:int, j2:int, i3:int, j3:int, i4:int, j4:int, i5:int
     v = DoublingVector()
     
     while i < j:
-        $Exp.append(i)
+        v.append(i)
         i = i + 1
 
     return v

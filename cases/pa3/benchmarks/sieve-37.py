@@ -4,7 +4,7 @@ class Vector(object):
     size: int = 0
 
     def __init__(self:"Vector"):
-        $Var.items = [0]
+        $Statement
 
     # Returns current capacity
     def capacity(self:"Vector") -> int:

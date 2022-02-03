@@ -1,1 +1,1 @@
-Literal2Exp(Int("0"))
+Member2Exp(Member(Var2Exp(Var("self")),"size"))

@@ -3,8 +3,7 @@ a:str = ""
 b:str = ""
 c:str = ""
 
-def $ID(s:str, i:int) -> str:
-    return s[i]
+$FuncDef
 
 a = str_get(x, 0)
 b = str_get(x, 1)

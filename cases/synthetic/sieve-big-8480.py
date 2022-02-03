@@ -940,7 +940,7 @@ def vrange4(i:int, j:int, i2:int, j2:int, i3:int, j3:int, i4:int, j4:int) -> Vec
 def vrange5(i:int, j:int, i2:int, j2:int, i3:int, j3:int, i4:int, j4:int, i5:int, j5:int) -> Vector:
     v:Vector = None
     v2:Vector = None
-    v3:Vector = None
+    $TypedVar = None
     v4:Vector = None
     v5:Vector = None
     v = DoublingVector()
@@ -1024,7 +1024,10 @@ def sieve4(v:Vector, v2:Vector, v3:Vector, v4:Vector) -> object:
         k = v.get(i)
         j = i + 1
         while j < v.length():
-            $Statement
+            if v.get(j) % k == 0:
+                v.remove_at(j)
+            else:
+                j = j + 1
         i = i + 1
 
 def sieve5(v:Vector, v2:Vector, v3:Vector, v4:Vector, v5:Vector) -> object:

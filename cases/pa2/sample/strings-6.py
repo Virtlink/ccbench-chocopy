@@ -1,4 +1,4 @@
-x:$ID = "Hello"
+x:$Type = "Hello"
 y:str = "World"
 z:str = ""
 

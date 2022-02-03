@@ -353,7 +353,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
             digit = 2
         elif char == "3":
             digit = 3
-        elif char == "3":
+        elif $ID == "3":
             digit = 3
         elif char == "4":
             digit = 4
@@ -382,7 +382,7 @@ c3:int = 42
 c4:int = 42
 c5:int = 42
 n:int = 10
-n2:$Type = 10
+n2:int = 10
 n3:int = 10
 n4:int = 10
 n5:int = 10

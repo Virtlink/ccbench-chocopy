@@ -24,10 +24,10 @@ def exp(x: int, y: int) -> int:
             return f(i-1)
     a = 1
     a2 = 1
-    a3 = 1
+    $ID = 1
     a4 = 1
     a5 = 1
-    return $Exp(y)
+    return f(y)
 
 def exp2(x: int, y: int, x2: int, y2: int) -> int:
     a: int = 0

@@ -1,1 +1,1 @@
-Member(Var2Exp(Var("t")),"size")
+Target(Var2Target(Var("k")))

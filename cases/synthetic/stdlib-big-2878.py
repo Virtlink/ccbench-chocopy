@@ -346,7 +346,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
                 return 0 # Error
             sign = -1
         elif char == "0":
-            digit = 0
+            $ID = 0
         elif char == "1":
             digit = 1
         elif char == "2":
@@ -370,7 +370,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
         else:
             return 0 # On error
         first_char = False
-        result = result * $Literal + digit
+        result = result * 10 + digit
 
     # Compute result
     return result * sign

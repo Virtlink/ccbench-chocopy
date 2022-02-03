@@ -28,6 +28,6 @@ print("Assigned B.a")
 get_b().b = get_false()
 print("Assigned B.b")
 
-print(a.a)
+$Statement
 print(b.a)
-print($Exp)
+print(b.b)

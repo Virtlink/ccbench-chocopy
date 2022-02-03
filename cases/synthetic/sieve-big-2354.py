@@ -261,7 +261,7 @@ class Vector3(object):
         self.size = self.size - 1
 
     # Retrieves an item at a given index
-    def get(self:"Vector3", idx: int) -> int:
+    def get(self:"$ID", idx: int) -> int:
         return self.items[idx]
 
     # Retrieves an item at a given index
@@ -296,7 +296,7 @@ class Vector4(object):
     size4: int = 0
 
     def __init__(self:"Vector4"):
-        $FuncBody
+        self.items = [0]
 
     # Returns current capacity
     def capacity(self:"Vector4") -> int:

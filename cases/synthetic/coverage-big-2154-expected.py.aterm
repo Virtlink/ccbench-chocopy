@@ -1,1 +1,1 @@
-Var("xx")
+ListType(Type("int"))

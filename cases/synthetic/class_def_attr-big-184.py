@@ -28,11 +28,12 @@ class B(A):
         pass
 
 class B2(A):
-    def __init__(self: "B2"):
+    def __init__(self: $Type):
         pass
 
 class B3(A):
-    $FuncDef
+    def __init__(self: "B3"):
+        pass
 
 class B4(A):
     def __init__(self: "B4"):

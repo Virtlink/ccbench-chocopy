@@ -1,1 +1,1 @@
-TypedVar("z2",Type("bool"))
+VarDef2ClassBodyMember(VarDef(TypedVar("z",Type("bool")),True()))

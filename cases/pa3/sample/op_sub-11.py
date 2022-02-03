@@ -1,1 +1,1 @@
-print(1 - $Exp)
+print($Exp - 100)

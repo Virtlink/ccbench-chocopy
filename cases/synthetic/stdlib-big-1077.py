@@ -122,7 +122,7 @@ def str_to_int(x: str) -> int:
             if not first_char:
                 return 0 # Error
             sign = -1
-        elif char == "0":
+        elif $ID == "0":
             digit = 0
         elif char == "1":
             digit = 1
@@ -130,7 +130,7 @@ def str_to_int(x: str) -> int:
             digit = 2
         elif char == "3":
             digit = 3
-        elif $ID == "3":
+        elif char == "3":
             digit = 3
         elif char == "4":
             digit = 4

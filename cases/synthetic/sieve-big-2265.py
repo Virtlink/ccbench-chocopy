@@ -252,7 +252,7 @@ class Vector3(object):
     # Removes an item from the middle of vector
     def remove_at3(self:"Vector3", idx: int, idx2: int, idx3: int) -> object:
         if idx < 0:
-            return
+            $Block
 
         while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
@@ -281,7 +281,7 @@ class Vector3(object):
         return self.size
 
     # Retrieves the current size of the vector
-    def length3(self:"Vector3") $RetType:
+    def length3(self:"Vector3") -> int:
         return self.size
 
 # A resizable list of integers

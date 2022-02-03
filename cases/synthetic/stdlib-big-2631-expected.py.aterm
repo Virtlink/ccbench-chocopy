@@ -1,1 +1,1 @@
-"bool"
+TypedVar("result",Type("int"))

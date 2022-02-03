@@ -117,7 +117,7 @@ class Vector2(object):
         self.size = self.size - 1
 
     # Removes an item from the middle of vector
-    def remove_at2(self:"Vector2", idx: int, idx2: int) -> object:
+    def remove_at2(self:"Vector2", idx: $ID, idx2: int) -> object:
         if idx < 0:
             return
 
@@ -128,7 +128,7 @@ class Vector2(object):
         self.size = self.size - 1
 
     # Retrieves an item at a given index
-    def get(self:"Vector2", idx: int) $RetType:
+    def get(self:"Vector2", idx: int) -> int:
         return self.items[idx]
 
     # Retrieves an item at a given index

@@ -1,8 +1,5 @@
 class A(object):
-    $ClassBodyMember
-
-    def get_A(self: "A") -> int:
-        return self.x
+    $ClassBody
 
 class B(A):
     def __init__(self: "B"):

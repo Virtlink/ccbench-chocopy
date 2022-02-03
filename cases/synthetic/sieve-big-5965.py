@@ -652,8 +652,7 @@ class Vector5(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
-            idx = idx + 1
+            $Block
 
         self.size = self.size - 1
 
@@ -720,7 +719,7 @@ class DoublingVector(Vector):
             # If doubling limit has been reached, fall back to
             # standard capacity increases
             self.items = self.items + [0]
-        return $ID.capacity()
+        return self.capacity()
 
 # A faster (but more memory-consuming) implementation of vector
 class DoublingVector2(Vector):

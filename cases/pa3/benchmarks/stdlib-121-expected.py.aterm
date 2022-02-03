@@ -1,1 +1,1 @@
-Target(Var2Target(Var("result")))
+Var("int_to_str")

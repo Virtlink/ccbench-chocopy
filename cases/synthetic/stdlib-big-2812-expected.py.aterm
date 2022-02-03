@@ -1,1 +1,1 @@
-Assign([Target(Var2Target(Var("digit")))],Literal2Exp(Int("7")))
+TypedVar("first_char4",Type("bool"))

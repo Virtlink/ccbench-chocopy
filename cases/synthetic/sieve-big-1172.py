@@ -132,8 +132,7 @@ class Vector2(object):
         return self.items[idx]
 
     # Retrieves an item at a given index
-    def get2(self:"Vector2", idx: int, idx2: int) -> int:
-        return self.items[idx]
+    $ClassBodyMember
 
     # Retrieves the current size of the vector
     def length(self:"Vector2") -> int:
@@ -150,7 +149,7 @@ class Vector3(object):
     items3: [int] = None
     size: int = 0
     size2: int = 0
-    $ClassBodyMember
+    size3: int = 0
 
     def __init__(self:"Vector3"):
         self.items = [0]

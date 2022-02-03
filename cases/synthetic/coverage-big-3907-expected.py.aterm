@@ -1,1 +1,1 @@
-"x"
+TypedVar("y2",Type("int"))

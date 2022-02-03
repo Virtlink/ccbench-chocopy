@@ -145,7 +145,7 @@ def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x
     a = 1
     a2 = 1
     a3 = 1
-    a4 = 1
+    $Statement
     a5 = 1
     return f(y)
 
@@ -165,5 +165,5 @@ i5:int = 0
 
 # Crunch
 while i <= n:
-    $ID(exp(2, i % 31))
+    print(exp(2, i % 31))
     i = i + 1

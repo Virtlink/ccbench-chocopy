@@ -16,7 +16,7 @@ a = A()
 b = B()
 c = C()
 
-a.x = 1
-$Member = a.x
+$Statement
+b.x = a.x
 c.z = a.x == b.x
 

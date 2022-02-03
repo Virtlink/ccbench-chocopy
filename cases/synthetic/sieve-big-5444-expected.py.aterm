@@ -1,1 +1,1 @@
-Var2Exp(Var("idx"))
+VarDef(TypedVar("item4",Type("int")),Int("0"))

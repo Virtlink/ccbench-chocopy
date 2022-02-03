@@ -1,1 +1,1 @@
-VarDef2Definition(VarDef(TypedVar("c4",Type("C")),NONE()))
+Type("B")

@@ -159,10 +159,7 @@ class bar3(object):
         y:int = 1
         y2:int = 1
 
-        def qux(y: int) -> object:
-            nonlocal x
-            if x > y:
-                x = -1
+        $FuncBodyMember
 
         def qux2(y: int, y2: int) -> object:
             nonlocal x
@@ -177,7 +174,7 @@ class bar3(object):
 
         count = count + 1
 
-        while $Exp:
+        while x <= 0:
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p

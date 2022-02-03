@@ -325,7 +325,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
     digit5:int = 0
     char:str = ""
     char2:str = ""
-    char3:str = ""
+    $TypedVar = ""
     char4:str = ""
     char5:str = ""
     sign:int = 1
@@ -352,7 +352,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
         elif char == "2":
             digit = 2
         elif char == "3":
-            $Statement
+            digit = 3
         elif char == "3":
             digit = 3
         elif char == "4":

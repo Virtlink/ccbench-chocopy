@@ -14,8 +14,8 @@ def int_to_str(x: int) -> str:
     # Write digits using a recursive call
     if x >= 10:
         result = result + int_to_str(x // 10)
-    result = result + digits[x % 10]
-    return $ID
+    result = result + $Exp[x % 10]
+    return result
 
 def str_to_int(x: str) -> int:
     result:int = 0

@@ -1,1 +1,1 @@
-TypedVar("i4",Type("int"))
+Var("char")

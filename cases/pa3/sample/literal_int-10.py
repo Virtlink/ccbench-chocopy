@@ -1,2 +1,2 @@
-print(42)
-$Statement
+print($Exp)
+print(65999)

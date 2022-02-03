@@ -1,5 +1,5 @@
 x:int = 0
 z:[int] = None
 
-for x in $Var:
+for $ID in z:
     print(x)

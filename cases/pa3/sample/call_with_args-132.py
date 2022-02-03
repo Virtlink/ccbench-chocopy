@@ -13,7 +13,6 @@ def g(y:int, z:int) -> object:
     h("h")
     print("end g")
 
-def h(msg: str) -> object:
-    print($Exp)
+$FuncDef
 
 print(f(4))

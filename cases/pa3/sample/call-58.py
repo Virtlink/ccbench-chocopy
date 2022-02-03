@@ -6,9 +6,9 @@ def f() -> int:
 
     
 def g() -> object:
-    print("start g")
+    print($Parameters)
     h()
-    $Statement
+    print("end g")
 
 def h() -> object:
     print("start h")

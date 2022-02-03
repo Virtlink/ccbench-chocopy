@@ -1,4 +1,4 @@
 def foo(x:int, y:int) -> bool:
     return x > y
 
-foo($Literal,2)
+$Exp(1,2)

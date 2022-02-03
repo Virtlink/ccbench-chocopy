@@ -1,1 +1,1 @@
-Global("count")
+ListType(Type("int"))

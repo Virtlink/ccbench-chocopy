@@ -1,1 +1,1 @@
-Returns(Type("int"))
+Block([ReturnNone()])

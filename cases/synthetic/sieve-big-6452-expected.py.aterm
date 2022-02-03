@@ -1,1 +1,1 @@
-VarDef(TypedVar("doubling_limit2",Type("int")),Int("1000"))
+Member(Var2Exp(Var("self")),"size")

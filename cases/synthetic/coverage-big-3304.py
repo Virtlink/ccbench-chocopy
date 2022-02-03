@@ -413,10 +413,7 @@ class bar5(object):
         x:int = 0
         y:int = 1
 
-        def qux(y: int) -> object:
-            nonlocal x
-            if x > y:
-                x = -1
+        $FuncBodyMember
 
         for x in xx:
             self.p = x == 2
@@ -451,7 +448,8 @@ class bar5(object):
         def qux2(y: int, y2: int) -> object:
             nonlocal x
             nonlocal x2
-            $Statement
+            if x > y:
+                x = -1
 
         for x in xx:
             self.p = x == 2

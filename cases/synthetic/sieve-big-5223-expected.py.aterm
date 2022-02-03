@@ -1,1 +1,1 @@
-Add(Var2Exp(Var("idx")),Literal2Exp(Int("1")))
+TypedVar("item",Type("int"))

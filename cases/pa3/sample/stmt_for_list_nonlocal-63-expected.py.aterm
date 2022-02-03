@@ -1,1 +1,1 @@
-Var2Exp(Var("crunch"))
+For("x",Var2Exp(Var("z")),Block([PassStmt()]))

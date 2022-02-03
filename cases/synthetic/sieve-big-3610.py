@@ -402,7 +402,7 @@ class Vector4(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
+            self.items[$Exp] = self.items[idx + 1]
             idx = idx + 1
 
         self.size = self.size - 1
@@ -436,7 +436,7 @@ class Vector4(object):
 
         while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
-            $Var = idx + 1
+            idx = idx + 1
 
         self.size = self.size - 1
 

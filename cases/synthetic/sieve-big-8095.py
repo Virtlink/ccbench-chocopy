@@ -901,16 +901,7 @@ def vrange(i:int, j:int) -> Vector:
 
     return v
 
-def vrange2(i:int, j:int, i2:int, j2:int) -> Vector:
-    v:Vector = None
-    v2:Vector = None
-    v = DoublingVector()
-    
-    while i < j:
-        v.append(i)
-        i = i + 1
-
-    return v
+$FuncDef
 
 def vrange3(i:int, j:int, i2:int, j2:int, i3:int, j3:int) -> Vector:
     v:Vector = None
@@ -983,7 +974,7 @@ def sieve2(v:Vector, v2:Vector) -> object:
                 v.remove_at(j)
             else:
                 j = j + 1
-        i = $ID + 1
+        i = i + 1
 
 def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
     i:int = 0

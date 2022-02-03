@@ -939,7 +939,7 @@ def vrange4(i:int, j:int, i2:int, j2:int, i3:int, j3:int, i4:int, j4:int) -> Vec
 
 def vrange5(i:int, j:int, i2:int, j2:int, i3:int, j3:int, i4:int, j4:int, i5:int, j5:int) -> Vector:
     v:Vector = None
-    v2:Vector = None
+    $TypedVar = None
     v3:Vector = None
     v4:Vector = None
     v5:Vector = None
@@ -1023,7 +1023,7 @@ def sieve4(v:Vector, v2:Vector, v3:Vector, v4:Vector) -> object:
     while i < v.length():
         k = v.get(i)
         j = i + 1
-        while j < $Member():
+        while j < v.length():
             if v.get(j) % k == 0:
                 v.remove_at(j)
             else:

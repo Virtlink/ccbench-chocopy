@@ -47,10 +47,9 @@ class TreeNode2(object):
             if self.left is None:
                 self.left = makeNode2(x, x)
                 return True
-            else:
-                return self.left.insert(x)
+            $ElifElse
         elif x > self.value:
-            if self.right is $Exp:
+            if self.right is None:
                 self.right = makeNode2(x, x)
                 return True
             else:

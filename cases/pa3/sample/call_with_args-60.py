@@ -3,10 +3,10 @@ def f(x:int) -> int:
     print(x)
     g(1, x)
     print("end f")
-    return x
+    return $Exp
 
     
-def g(y:$Type, z:int) -> object:
+def g(y:int, z:int) -> object:
     print("start g")
     print(y)
     print(z)

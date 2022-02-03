@@ -122,7 +122,7 @@ class Vector2(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
+            self.items[idx] = $Member[idx + 1]
             idx = idx + 1
 
         self.size = self.size - 1
@@ -136,7 +136,7 @@ class Vector2(object):
         return self.items[idx]
 
     # Retrieves the current size of the vector
-    def length(self:"Vector2") $RetType:
+    def length(self:"Vector2") -> int:
         return self.size
 
     # Retrieves the current size of the vector

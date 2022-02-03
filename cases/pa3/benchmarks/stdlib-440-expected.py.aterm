@@ -1,1 +1,1 @@
-Int("10")
+Eq(Var2Exp(Var("char")),Literal2Exp(String("\"9\"")))

@@ -12,8 +12,8 @@ class TreeNode(object):
             else:
                 return self.left.insert(x)
         elif x > self.value:
-            if self.right is None:
-                self.right = $Var(x)
+            if self.right is $Literal:
+                self.right = makeNode(x)
                 return True
             else:
                 return self.right.insert(x)

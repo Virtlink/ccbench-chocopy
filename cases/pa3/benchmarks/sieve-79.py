@@ -11,8 +11,7 @@ class Vector(object):
         return len(self.items)
 
     # Increases capacity of vector by one element
-    def increase_capacity(self:"Vector") -> int:
-        $FuncBody
+    $ClassBodyMember
 
     # Appends one item to end of vector
     def append(self:"Vector", item: int) -> object:

@@ -1,1 +1,1 @@
-Call(Var2Exp(Var("print")),Exps2Parameters([Is(Literal2Exp(NONE()),Literal2Exp(NONE()))]))
+Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Is(Var2Exp(Var("a4")),Literal2Exp(NONE()))])))

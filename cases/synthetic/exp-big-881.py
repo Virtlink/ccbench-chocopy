@@ -101,8 +101,7 @@ def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -
         nonlocal a3
         nonlocal a4
         nonlocal a5
-        def geta() -> int:
-            return a
+        $FuncDef
         if i <= 0:
             return geta()
         else:
@@ -110,7 +109,7 @@ def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -
             a2 = a * x
             a3 = a * x
             a4 = a * x
-            $Target = a * x
+            a5 = a * x
             return f(i-1)
     a = 1
     a2 = 1

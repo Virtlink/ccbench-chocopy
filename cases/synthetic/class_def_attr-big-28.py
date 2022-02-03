@@ -2,8 +2,8 @@ class A(object):
     x:int = 1
 
 class A2(object):
-    x:int = 1
-    $VarDef
+    x:int = $Literal
+    x2:int = 1
 
 class A3(object):
     x:int = 1

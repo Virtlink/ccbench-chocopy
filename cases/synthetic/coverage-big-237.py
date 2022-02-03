@@ -24,10 +24,10 @@ class bar(object):
 
     def baz(self:"bar", xx: [int]) -> str:
         global count
-        x:int = 0
+        $VarDef
         y:int = 1
 
-        def qux(y: int) -> $ID:
+        def qux(y: int) -> object:
             nonlocal x
             if x > y:
                 x = -1

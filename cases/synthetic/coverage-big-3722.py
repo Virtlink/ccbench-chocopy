@@ -464,7 +464,7 @@ class bar5(object):
         while x <= 0:
             if self.p:
                 xx[0] = xx[1]
-                self.p = not self.p
+                $ID.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
@@ -507,7 +507,7 @@ class bar5(object):
 
         while x <= 0:
             if self.p:
-                xx[0] = $Exp[1]
+                xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:

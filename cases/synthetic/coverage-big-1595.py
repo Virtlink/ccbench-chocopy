@@ -194,7 +194,7 @@ class bar3(object):
         x3:int = 0
         y:int = 1
         y2:int = 1
-        y3:int = 1
+        $VarDef
 
         def qux(y: int) -> object:
             nonlocal x
@@ -215,7 +215,7 @@ class bar3(object):
                 x = -1
 
         for x in xx:
-            self.p = x == $Exp
+            self.p = x == 2
 
         qux(0) # Yay! ChocoPy
 

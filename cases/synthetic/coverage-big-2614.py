@@ -324,7 +324,7 @@ class bar4(object):
 
         def qux3(y: int, y2: int, y3: int) -> object:
             nonlocal x
-            nonlocal x2
+            nonlocal $ID
             nonlocal x3
             if x > y:
                 x = -1
@@ -351,7 +351,7 @@ class bar4(object):
         x:int = 0
         x2:int = 0
         x3:int = 0
-        x4:$Type = 0
+        x4:int = 0
         y:int = 1
         y2:int = 1
         y3:int = 1

@@ -1,1 +1,1 @@
-Assign([Target(Member2Target(Member(Call(Var2Exp(Var("get_b")),Exps2Parameters([])),"a")))],Call(Var2Exp(Var("get_one")),Exps2Parameters([])))
+String("\"Getting False\"")

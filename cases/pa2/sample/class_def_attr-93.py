@@ -13,10 +13,10 @@ b:B = None
 c:C = None
 
 a = A()
-b = B()
+b = B($Parameters)
 c = C()
 
-$Statement
+a.x = 1
 b.x = a.x
 c.z = a.x == b.x
 

@@ -1,4 +1,4 @@
 
-$FuncDef
+$Definition
 
 foo(1)

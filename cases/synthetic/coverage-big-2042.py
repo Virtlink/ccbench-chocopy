@@ -256,7 +256,7 @@ class bar4(object):
 
         count = count + 1
 
-        while x <= 0:
+        while x <= $Literal:
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
@@ -277,7 +277,7 @@ class bar4(object):
         def qux(y: int) -> object:
             nonlocal x
             if x > y:
-                x = -$Exp
+                x = -1
 
         def qux2(y: int, y2: int) -> object:
             nonlocal x

@@ -1,4 +1,4 @@
-$TypedVar = 0
+$VarDef
 
 def foo(x:int) -> bool:
     global z

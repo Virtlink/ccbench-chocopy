@@ -29,13 +29,13 @@ class TreeNode(object):
             if self.right is None:
                 return False
             else:
-                return self.right.contains(x)
+                return $Exp.contains(x)
         else:
             return True
 
 
 class TreeNode2(object):
-    value:int = $Literal
+    value:int = 0
     value2:int = 0
     left:"TreeNode2" = None
     left2:"TreeNode2" = None

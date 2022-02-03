@@ -1,5 +1,5 @@
 # Binary-search trees
-$ClassDef
+$Definition
 
 
 class TreeNode2(object):

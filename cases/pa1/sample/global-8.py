@@ -1,4 +1,4 @@
-x:int = $INT
+x:int = $Literal
 
 x = 2
 

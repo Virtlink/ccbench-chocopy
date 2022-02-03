@@ -1,1 +1,1 @@
-ReturnNone()
+TypedVar("self",TypeS(IdString("Vector3")))

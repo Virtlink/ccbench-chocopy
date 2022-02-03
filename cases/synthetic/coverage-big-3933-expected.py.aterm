@@ -1,1 +1,1 @@
-Type("object")
+Target(Var2Target(Var("x")))

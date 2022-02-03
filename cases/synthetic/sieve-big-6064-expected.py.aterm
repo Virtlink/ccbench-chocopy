@@ -1,1 +1,1 @@
-Return(Call(Member2Exp(Member(Var2Exp(Var("self")),"capacity")),Exps2Parameters([])))
+Lt(Var2Exp(Var("idx")),Literal2Exp(Int("0")))

@@ -211,7 +211,7 @@ class bar3(object):
             nonlocal x
             nonlocal x2
             nonlocal x3
-            if x > y:
+            if x > $Var:
                 x = -1
 
         for x in xx:
@@ -229,7 +229,7 @@ class bar3(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        $Statement
+        return "Nope"
 
 
 

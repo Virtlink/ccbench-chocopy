@@ -1,9 +1,10 @@
 # A resizable list of integers
 class Vector(object):
     items: [int] = None
-    size: int = 0
+    size: int = $Literal
 
-    $ClassBodyMember
+    def __init__(self:"Vector"):
+        self.items = [0]
 
     # Returns current capacity
     def capacity(self:"Vector") -> int:

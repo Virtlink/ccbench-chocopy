@@ -1,1 +1,1 @@
-Member(Var2Exp(Var("self")),"left")
+TypedVar("value3",Type("int"))

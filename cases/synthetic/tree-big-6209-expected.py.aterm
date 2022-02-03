@@ -1,1 +1,1 @@
-TypedVar("self",TypeS(IdString("Tree5")))
+Exps2Parameters([Var2Exp(Var("x"))])

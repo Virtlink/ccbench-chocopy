@@ -152,7 +152,7 @@ class bar3(object):
         return "Nope"
 
 
-    def baz2(self:"bar3", xx: [int], xx2: [int]) -> str:
+    def baz2(self:"bar3", xx: [int], xx2: [$ID]) -> str:
         global count
         x:int = 0
         x2:int = 0
@@ -170,7 +170,7 @@ class bar3(object):
             if x > y:
                 x = -1
 
-        for x in $Var:
+        for x in xx:
             self.p = x == 2
 
         qux(0) # Yay! ChocoPy

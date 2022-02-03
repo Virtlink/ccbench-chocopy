@@ -379,7 +379,7 @@ class bar4(object):
             nonlocal x
             nonlocal x2
             nonlocal x3
-            nonlocal x4
+            $FuncBodyMember
             if x > y:
                 x = -1
 
@@ -416,7 +416,7 @@ class bar5(object):
         def qux(y: int) -> object:
             nonlocal x
             if x > y:
-                $AssignTarget -1
+                x = -1
 
         for x in xx:
             self.p = x == 2

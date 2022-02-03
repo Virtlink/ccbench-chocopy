@@ -1,1 +1,1 @@
-Eq(Var2Exp(Var("char")),Literal2Exp(String("\"2\"")))
+VarDef(TypedVar("digit5",Type("int")),Int("0"))

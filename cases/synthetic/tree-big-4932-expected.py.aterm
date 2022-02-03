@@ -1,1 +1,1 @@
-VarDef(TypedVar("root",Type("TreeNode3")),NONE())
+Var2Exp(Var("self"))

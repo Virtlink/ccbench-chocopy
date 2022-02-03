@@ -52,14 +52,14 @@ class Vector(object):
 class Vector2(object):
     items: [int] = None
     items2: [int] = None
-    size: int = 0
+    $VarDef
     size2: int = 0
 
     def __init__(self:"Vector2"):
         self.items = [0]
 
     # Returns current capacity
-    def capacity(self:"Vector2") $RetType:
+    def capacity(self:"Vector2") -> int:
         return len(self.items)
 
     # Returns current capacity

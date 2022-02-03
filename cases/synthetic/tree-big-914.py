@@ -98,7 +98,7 @@ class TreeNode2(object):
             else:
                 return self.right.contains(x)
         else:
-            return True
+            $Block
 
 
 class TreeNode3(object):
@@ -112,7 +112,7 @@ class TreeNode3(object):
     right2:"TreeNode3" = None
     right3:"TreeNode3" = None
 
-    def $ID(self:"TreeNode3", x:int) -> bool:
+    def insert(self:"TreeNode3", x:int) -> bool:
         if x < self.value:
             if self.left is None:
                 self.left = makeNode3(x, x, x)

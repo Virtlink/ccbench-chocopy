@@ -20,9 +20,9 @@ class TreeNode(object):
 		return False
 
 	def contains(self:"TreeNode", x:int) -> bool:
-		if x < self.value:
+		if x < $Exp:
 			if self.left is None:
-				return $Literal
+				return False
 			else:
 				return self.left.contains(x)
 		elif x > self.value:

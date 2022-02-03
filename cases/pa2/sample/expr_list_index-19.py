@@ -1,6 +1,6 @@
 x:[int] = None
 y:int = 0
-$TypedVar = None
+$VarDef
 o:object = None
 
 x = [1, 2, 3]

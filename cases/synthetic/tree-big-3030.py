@@ -312,7 +312,7 @@ class TreeNode4(object):
             if self.right is None:
                 return False
             else:
-                return self.right.contains(x)
+                return $Var.right.contains(x)
         else:
             return True
 
@@ -347,7 +347,7 @@ class TreeNode5(object):
     right4:"TreeNode5" = None
     right5:"TreeNode5" = None
 
-    def insert($ID:"TreeNode5", x:int) -> bool:
+    def insert(self:"TreeNode5", x:int) -> bool:
         if x < self.value:
             if self.left is None:
                 self.left = makeNode5(x, x, x, x, x)

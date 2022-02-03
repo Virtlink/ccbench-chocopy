@@ -441,7 +441,7 @@ class bar5(object):
         x:int = 0
         x2:int = 0
         y:int = 1
-        y2:int = 1
+        $TypedVar = 1
 
         def qux(y: int) -> object:
             nonlocal x
@@ -480,7 +480,7 @@ class bar5(object):
         y2:int = 1
         y3:int = 1
 
-        def qux(y: $ID) -> object:
+        def qux(y: int) -> object:
             nonlocal x
             if x > y:
                 x = -1

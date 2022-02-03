@@ -95,12 +95,12 @@ b3 = B()
 b4 = B()
 b5 = B()
 c = C()
-c2 = C()
+c2 = $ID()
 c3 = C()
 c4 = C()
 c5 = C()
 
 a.x = 1
-b.x = $ID.x
+b.x = a.x
 c.z = a.x == b.x
 

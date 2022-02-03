@@ -17,9 +17,9 @@ def int_to_str(x: int) -> str:
     result = result + digits[x % 10]
     return result
 
-def str_to_int(x: str) -> int:
+def str_to_int(x: str) -> $Type:
     result:int = 0
-    $ID:int = 0
+    digit:int = 0
     char:str = ""
     sign:int = 1
     first_char:bool = True

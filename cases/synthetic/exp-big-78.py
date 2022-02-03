@@ -9,9 +9,10 @@ def exp(x: int, y: int) -> int:
         nonlocal a
         nonlocal a2
         nonlocal a3
-        nonlocal a4
+        $FuncBodyMember
         nonlocal a5
-        $FuncDef
+        def geta() -> int:
+            return a
         if i <= 0:
             return geta()
         else:

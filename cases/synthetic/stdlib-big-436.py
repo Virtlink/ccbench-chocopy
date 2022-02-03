@@ -46,12 +46,12 @@ def int_to_str3(x: int, x2: int, x3: int) -> str:
     result3:str = ""
 
     # Set-up digit mapping
-    digits = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    digits = ["0", "1", "2", "3", "4", "5", "6", "7", $Exp, "9"]
 
     # Write sign if necessary
     if x < 0:
         result = "-"
-        x = -$Var
+        x = -x
 
     # Write digits using a recursive call
     if x >= 10:

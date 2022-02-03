@@ -1,5 +1,5 @@
 class A(object):
-    $ID:int = 42
+    $VarDef
 
     def foo(self:"A", ignore:object) -> int:
         return self.a

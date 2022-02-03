@@ -1,1 +1,1 @@
-Assign([Target(Var2Target(Var("a4")))],Mul(Var2Exp(Var("a")),Var2Exp(Var("x"))))
+"int"

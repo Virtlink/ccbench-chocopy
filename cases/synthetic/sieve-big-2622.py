@@ -299,7 +299,7 @@ class Vector4(object):
         self.items = [0]
 
     # Returns current capacity
-    def capacity(self:"Vector4") -> int:
+    def capacity(self:"$ID") -> int:
         return len(self.items)
 
     # Returns current capacity
@@ -332,7 +332,7 @@ class Vector4(object):
     # Increases capacity of vector by one element
     def increase_capacity4(self:"Vector4") -> int:
         self.items = self.items + [0]
-        return self.capacity($Parameters)
+        return self.capacity()
 
     # Appends one item to end of vector
     def append(self:"Vector4", item: int) -> object:

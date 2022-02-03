@@ -39,10 +39,10 @@ class Tree(object):
 
 	def insert(self:"Tree", x:int) -> object:
 		if self.root is None:
-			self.root = makeNode(x)
+			$AssignTarget makeNode(x)
 			self.size = 1
 		else:
-			if $Var.root.insert(x):
+			if self.root.insert(x):
 				self.size = self.size + 1
 
 	def contains(self:"Tree", x:int) -> bool:

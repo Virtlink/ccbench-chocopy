@@ -19,10 +19,10 @@ b:B = None
 c:C = None
 
 a = A()
-b = B()
+b = B($Parameters)
 c = C()
 
-b.$ID = a.get_A()
+b.x = a.get_A()
 a.x = b.get_A()
 c.set_A(0)
 

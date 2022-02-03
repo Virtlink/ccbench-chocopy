@@ -1,5 +1,5 @@
 z:int = 0
 
-$FuncDef
+$Definition
 
 foo(1)

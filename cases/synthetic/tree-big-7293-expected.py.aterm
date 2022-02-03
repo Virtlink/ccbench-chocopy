@@ -1,1 +1,1 @@
-Type("TreeNode5")
+TypedVar("x5",Type("int"))

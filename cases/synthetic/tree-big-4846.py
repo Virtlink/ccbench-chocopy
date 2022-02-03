@@ -488,7 +488,7 @@ class TreeNode5(object):
             if self.right is None:
                 return False
             else:
-                return self.right.contains(x)
+                return self.right.contains($Parameters)
         else:
             return True
 
@@ -534,7 +534,7 @@ class Tree2(object):
                 self.size = self.size + 1
 
     def contains(self:"Tree2", x:int) -> bool:
-        if $Exp is None:
+        if self.root is None:
             return False
         else:
             return self.root.contains(x)

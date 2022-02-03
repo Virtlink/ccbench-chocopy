@@ -1,3 +1,0 @@
-$Definition
-
-x - 1

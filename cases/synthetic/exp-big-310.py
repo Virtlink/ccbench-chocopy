@@ -34,13 +34,13 @@ def exp2(x: int, y: int, x2: int, y2: int) -> int:
     a2: int = 0
     a3: int = 0
     a4: int = 0
-    a5: int = 0
+    $VarDef
     def f(i: int) -> int:
         nonlocal a
         nonlocal a2
         nonlocal a3
         nonlocal a4
-        nonlocal $ID
+        nonlocal a5
         def geta() -> int:
             return a
         if i <= 0:

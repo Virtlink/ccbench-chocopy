@@ -25,6 +25,6 @@ n:int = 15
 i:int = 1
 
 # Crunch
-while i <= n:
+while i <= $Var:
     print(get_prime(i))
-    $Statement
+    i = i + 1

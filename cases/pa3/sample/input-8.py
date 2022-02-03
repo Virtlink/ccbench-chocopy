@@ -1,6 +1,6 @@
 # Test of 'input' function.
 
-s: str = $STRING
+s: str = $Literal
 
 s = input()
 while len(s) > 0:

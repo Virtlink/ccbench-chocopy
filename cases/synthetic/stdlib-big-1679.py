@@ -195,7 +195,7 @@ def str_to_int2(x: str, x2: str) -> int:
             digit = 9
         else:
             return 0 # On error
-        first_char = False
+        first_char = $Literal
         result = result * 10 + digit
 
     # Compute result
@@ -212,7 +212,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
     char2:str = ""
     char3:str = ""
     sign:int = 1
-    $FuncBodyMember
+    sign2:int = 1
     sign3:int = 1
     first_char:bool = True
     first_char2:bool = True

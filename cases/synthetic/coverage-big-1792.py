@@ -223,9 +223,7 @@ class bar3(object):
 
         while x <= 0:
             if self.p:
-                xx[0] = xx[1]
-                self.p = not self.p
-                x = x + 1
+                $Block
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
@@ -244,7 +242,7 @@ class bar4(object):
         x:int = 0
         y:int = 1
 
-        def qux(y: $ID) -> object:
+        def qux(y: int) -> object:
             nonlocal x
             if x > y:
                 x = -1

@@ -438,7 +438,7 @@ class Vector4(object):
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
-        self.size = self.size - 1
+        self.size = self.size - $INT
 
     # Retrieves an item at a given index
     def get(self:"Vector4", idx: int) -> int:
@@ -497,7 +497,7 @@ class Vector5(object):
         return len(self.items)
 
     # Returns current capacity
-    def capacity3($TypedVar) -> int:
+    def capacity3(self:"Vector5") -> int:
         return len(self.items)
 
     # Returns current capacity

@@ -14,6 +14,6 @@ print(a1 is a1)
 print(a1 is a2)
 print(a1 is a3)
 print(a1 is a4)
-print(a1 is None)
+print(a1 is $Literal)
 print(a4 is None)
-$Statement
+print(None is None)

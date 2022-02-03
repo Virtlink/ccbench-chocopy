@@ -1,1 +1,1 @@
-Var2Exp(Var("makeNode5"))
+VarDef(TypedVar("left3",TypeS(IdString("TreeNode5"))),NONE())

@@ -912,17 +912,7 @@ def vrange2(i:int, j:int, i2:int, j2:int) -> Vector:
 
     return v
 
-def vrange3(i:int, j:int, i2:int, j2:int, i3:int, j3:int) -> Vector:
-    v:Vector = None
-    v2:Vector = None
-    v3:Vector = None
-    v = DoublingVector()
-    
-    while i < j:
-        v.append(i)
-        i = i + 1
-
-    return v
+$Definition
 
 def vrange4(i:int, j:int, i2:int, j2:int, i3:int, j3:int, i4:int, j4:int) -> Vector:
     v:Vector = None
@@ -994,7 +984,7 @@ def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
     j3:int = 0
     k:int = 0
     k2:int = 0
-    k3:$Type = 0
+    k3:int = 0
 
     while i < v.length():
         k = v.get(i)

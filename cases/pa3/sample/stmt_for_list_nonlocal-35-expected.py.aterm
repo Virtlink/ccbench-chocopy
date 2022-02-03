@@ -1,1 +1,1 @@
-Returns(Type("object"))
+FuncDef2FuncBodyMember(FuncDef("make_z",[],Returns(Type("object")),FuncBody([Nonlocal("z")],[For("z",Var2Exp(Var("zz")),Block([PassStmt()]))])))

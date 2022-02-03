@@ -1,2 +1,2 @@
-$VarDef
+$Definition
 x * 1

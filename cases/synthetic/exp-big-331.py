@@ -36,7 +36,7 @@ def exp2(x: int, y: int, x2: int, y2: int) -> int:
     a4: int = 0
     a5: int = 0
     def f(i: int) -> int:
-        nonlocal a
+        nonlocal $ID
         nonlocal a2
         nonlocal a3
         nonlocal a4
@@ -44,7 +44,7 @@ def exp2(x: int, y: int, x2: int, y2: int) -> int:
         def geta() -> int:
             return a
         if i <= 0:
-            $Statement
+            return geta()
         else:
             a = a * x
             a2 = a * x

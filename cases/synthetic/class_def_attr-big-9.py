@@ -1,5 +1,5 @@
 class A(object):
-    $ID:int = 1
+    $VarDef
 
 class A2(object):
     x:int = 1

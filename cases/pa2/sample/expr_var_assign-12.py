@@ -1,4 +1,4 @@
 x:int = 1
-$ID:object = None
+$TypedVar = None
 
 x = o = 42

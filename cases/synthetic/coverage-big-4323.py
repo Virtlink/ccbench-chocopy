@@ -537,7 +537,7 @@ class bar5(object):
             if x > y:
                 x = -1
 
-        def qux3(y: int, y2: int, y3: int) -> object:
+        def $ID(y: int, y2: int, y3: int) -> object:
             nonlocal x
             nonlocal x2
             nonlocal x3
@@ -584,7 +584,8 @@ class bar5(object):
 
         def qux(y: int) -> object:
             nonlocal x
-            $Statement
+            if x > y:
+                x = -1
 
         def qux2(y: int, y2: int) -> object:
             nonlocal x

@@ -43,11 +43,11 @@ class bar(object):
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
-                x = x + 1
+                x = x + $Exp
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        return $STRING
+        return "Nope"
 
 
 class bar2(object):

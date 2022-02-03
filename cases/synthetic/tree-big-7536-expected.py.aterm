@@ -1,1 +1,1 @@
-VarDef(TypedVar("k4",Type("int")),Int("37813"))
+Member2Exp(Member(Var2Exp(Var("self")),"root"))

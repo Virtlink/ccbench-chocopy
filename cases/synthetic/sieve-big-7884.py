@@ -872,7 +872,7 @@ class DoublingVector5(Vector):
     # Overriding to do fewer resizes
     def increase_capacity4(self:"DoublingVector5") -> int:
         if (self.capacity() <= self.doubling_limit // 2):
-            self.items = self.items + self.items
+            self.items = self.items + $Member
         else:
             # If doubling limit has been reached, fall back to
             # standard capacity increases
@@ -962,7 +962,7 @@ def sieve(v:Vector) -> object:
         j = i + 1
         while j < v.length():
             if v.get(j) % k == 0:
-                $Exp
+                v.remove_at(j)
             else:
                 j = j + 1
         i = i + 1

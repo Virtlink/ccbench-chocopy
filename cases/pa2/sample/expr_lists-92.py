@@ -8,5 +8,5 @@ x = []
 y = [1, True]
 z = [False, True]
 x = None
-o = x
-$Var = x = [1]
+$Statement
+o = x = [1]

@@ -44,14 +44,14 @@ class B5(A):
         pass
 
 class C(B):
-    z:bool = True
+    z:bool = $Literal
 
 class C2(B):
     z:bool = True
     z2:bool = True
 
 class C3(B):
-    $TypedVar = True
+    z:bool = True
     z2:bool = True
     z3:bool = True
 

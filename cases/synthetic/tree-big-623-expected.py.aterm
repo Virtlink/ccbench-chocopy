@@ -1,1 +1,1 @@
-IdString("TreeNode2")
+Var2Exp(Var("self"))

@@ -1,7 +1,4 @@
 def outer() -> int:
-    $FuncDef
-    x:int = 0
-    inner()
-    return x
+    $FuncBody
 
 print(outer())

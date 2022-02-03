@@ -13,15 +13,7 @@ def exp(x: int, y: int) -> int:
         nonlocal a5
         def geta() -> int:
             return a
-        if i <= 0:
-            $Statement
-        else:
-            a = a * x
-            a2 = a * x
-            a3 = a * x
-            a4 = a * x
-            a5 = a * x
-            return f(i-1)
+        $Statement
     a = 1
     a2 = 1
     a3 = 1

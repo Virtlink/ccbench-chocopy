@@ -1,4 +1,4 @@
-$FuncDef
+$Definition
 
 x:int = 0
 

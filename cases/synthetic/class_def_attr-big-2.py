@@ -1,4 +1,4 @@
-$ClassDef
+$Definition
 
 class A2(object):
     x:int = 1

@@ -59,7 +59,7 @@ def makeNode(x: int) -> TreeNode:
 
 
 # Input parameters
-n:int = 100
+n:int = $Literal
 c:int = 4
 
 # Data
@@ -70,7 +70,7 @@ k:int = 37813
 # Crunch
 t = Tree()
 while i < n:
-	$Exp
+	t.insert(k)
 	k = (k * 37813) % 37831
 	if i % c != 0:
 		t.insert(i)

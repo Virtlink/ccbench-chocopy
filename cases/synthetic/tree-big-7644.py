@@ -739,7 +739,7 @@ class Tree5(object):
         else:
             return self.root.contains(x)
 
-    def contains5(self:"Tree5", x:int, x2:int, x3:int, x4:int, x5:int) -> bool:
+    def contains5(self:"Tree5", x:$Type, x2:int, x3:int, x4:int, x5:int) -> bool:
         if self.root is None:
             return False
         else:
@@ -824,7 +824,7 @@ while i < n:
         t.insert(i)
     i = i + 1
 
-print($Var.size)
+print(t.size)
 
 for i in [4, 8, 15, 16, 23, 42]:
     if t.contains(i):

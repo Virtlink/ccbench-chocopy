@@ -4,6 +4,6 @@ z:[int] = None
 
 z = [1, 2, 3]
 
-for x in z:
-    for $ID in z:
+for x in $Var:
+    for x in z:
         print(x)

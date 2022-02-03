@@ -5,4 +5,4 @@ def print_list(z:[int]) -> object:
         if x >= 30:
             return
 
-print_list([10,20,$Exp,40])
+print_list($Parameters)

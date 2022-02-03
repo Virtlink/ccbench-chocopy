@@ -18,7 +18,7 @@ class A4(object):
 
 class A5(object):
     x:int = 1
-    x2:int = $INT
+    $VarDef
     x3:int = 1
     x4:int = 1
     x5:int = 1

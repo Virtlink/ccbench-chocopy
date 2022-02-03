@@ -1,1 +1,1 @@
-"3"
+List([Literal2Exp(Int("1")),Literal2Exp(Int("2"))])

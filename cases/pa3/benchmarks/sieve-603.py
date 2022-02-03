@@ -71,7 +71,7 @@ def vrange(i:int, j:int) -> Vector:
         v.append(i)
         i = i + 1
 
-    return v
+    return $Exp
 
 # Sieve of Eratosthenes (not really)
 def sieve(v:Vector) -> object:
@@ -80,7 +80,7 @@ def sieve(v:Vector) -> object:
     k:int = 0
 
     while i < v.length():
-        k = v.$ID(i)
+        k = v.get(i)
         j = i + 1
         while j < v.length():
             if v.get(j) % k == 0:

@@ -3,7 +3,7 @@ y:int = 7
 
 print(x == y)
 print(x != y)
-print($Exp < y)
+$Var(x < y)
 print(x <= y)
 print(x > y)
 print(x >= y)

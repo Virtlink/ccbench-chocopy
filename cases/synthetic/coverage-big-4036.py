@@ -505,13 +505,7 @@ class bar5(object):
 
         count = count + 1
 
-        while x <= 0:
-            if self.p:
-                xx[0] = xx[1]
-                self.p = not self.p
-                x = x + 1
-            elif foo("Long"[0]) == 1:
-                self.p = self is None
+        $Statement
 
         return "Nope"
 
@@ -549,7 +543,7 @@ class bar5(object):
             nonlocal x2
             nonlocal x3
             nonlocal x4
-            if $ID > y:
+            if x > y:
                 x = -1
 
         for x in xx:

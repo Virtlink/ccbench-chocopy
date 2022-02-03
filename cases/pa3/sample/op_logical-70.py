@@ -7,7 +7,7 @@ def g() -> bool:
   return False
 
 if f() or g():      # Short-circuit
-  if g() and f():   # Short-circuit
-    print($Parameters)
+  if $ID() and f():   # Short-circuit
+    print("Never")
   else:
     print(not (f() and (g() or f())))

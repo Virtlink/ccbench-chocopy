@@ -1,1 +1,1 @@
-"object"
+TypedVar("y",Type("int"))

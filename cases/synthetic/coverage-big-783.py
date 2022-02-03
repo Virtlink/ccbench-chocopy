@@ -94,18 +94,14 @@ class bar2(object):
             if x > y:
                 x = -1
 
-        def qux2(y: int, y2: int) -> object:
-            nonlocal x
-            nonlocal x2
-            if x > y:
-                x = -1
+        $FuncBodyMember
 
         for x in xx:
             self.p = x == 2
 
         qux(0) # Yay! ChocoPy
 
-        $Var = count + 1
+        count = count + 1
 
         while x <= 0:
             if self.p:

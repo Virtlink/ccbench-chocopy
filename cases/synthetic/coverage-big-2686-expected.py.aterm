@@ -1,1 +1,1 @@
-Type("int")
+Leq(Var2Exp(Var("x")),Literal2Exp(Int("0")))

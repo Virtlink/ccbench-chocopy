@@ -1,9 +1,9 @@
 def outer() -> int:
     def inner() -> int:
         nonlocal x
-        x = 1
+        x = $Exp
         return x
-    $FuncBodyMember
+    x:int = 0
     inner()
     return x
 

@@ -81,7 +81,7 @@ class Vector2(object):
         if self.size == self.capacity():
             self.increase_capacity()
 
-        self.items[self.size] = item
+        self.items[self.size] = $ID
         self.size = self.size + 1
 
     # Appends one item to end of vector
@@ -89,7 +89,7 @@ class Vector2(object):
         if self.size == self.capacity():
             self.increase_capacity()
 
-        self.items[$Exp.size] = item
+        self.items[self.size] = item
         self.size = self.size + 1
 
     # Appends many items to end of vector

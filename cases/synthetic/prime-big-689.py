@@ -81,10 +81,10 @@ n5:int = 15
 i:int = 1
 i2:int = 1
 i3:int = 1
-i4:int = 1
+i4:int = $INT
 i5:int = 1
 
 # Crunch
 while i <= n:
     print(get_prime(i))
-    i = $ID + 1
+    i = i + 1

@@ -1,1 +1,1 @@
-True()
+Return(Call(Var2Exp(Var("len")),Exps2Parameters([Var2Exp(Var("s"))])))

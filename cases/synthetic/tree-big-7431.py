@@ -718,8 +718,7 @@ class Tree5(object):
     def contains(self:"Tree5", x:int) -> bool:
         if self.root is None:
             return False
-        else:
-            return self.root.contains(x)
+        $ElifElse
 
     def contains2(self:"Tree5", x:int, x2:int) -> bool:
         if self.root is None:
@@ -796,7 +795,7 @@ c:int = 4
 c2:int = 4
 c3:int = 4
 c4:int = 4
-$ID:int = 4
+c5:int = 4
 
 # Data
 t:Tree = None

@@ -429,7 +429,7 @@ class bar5(object):
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
-                x = x + 1
+                x = $ID + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
@@ -467,7 +467,7 @@ class bar5(object):
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
-                $Var.p = self is None
+                self.p = self is None
 
         return "Nope"
 

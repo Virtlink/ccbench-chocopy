@@ -1,1 +1,1 @@
-Type("int")
+FuncDef("bar",[],Returns(Type("int")),FuncBody([VarDef2FuncBodyMember(VarDef(TypedVar("z",Type("int")),Int("3"))),FuncDef2FuncBodyMember(FuncDef("baz",[],Returns(Type("int")),FuncBody([],[Return(Call(Var2Exp(Var("qux")),Exps2Parameters([Var2Exp(Var("y"))])))])))],[Return(Call(Var2Exp(Var("baz")),Exps2Parameters([])))]))

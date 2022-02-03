@@ -1,1 +1,1 @@
-"get_prime"
+Leq(Var2Exp(Var("i")),Var2Exp(Var("n")))

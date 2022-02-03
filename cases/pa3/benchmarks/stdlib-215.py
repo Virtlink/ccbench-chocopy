@@ -25,10 +25,10 @@ def str_to_int(x: str) -> int:
     first_char:bool = True
 
     # Parse digits
-    for char in x:
+    for char in $ID:
         if char == "-":
             if not first_char:
-                $Block # Error
+                return 0 # Error
             sign = -1
         elif char == "0":
             digit = 0

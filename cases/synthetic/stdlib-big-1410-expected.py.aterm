@@ -1,1 +1,1 @@
-Var("char")
+VarDef2FuncBodyMember(VarDef(TypedVar("first_char2",Type("bool")),True()))

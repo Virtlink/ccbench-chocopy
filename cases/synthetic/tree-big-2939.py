@@ -302,7 +302,7 @@ class TreeNode4(object):
         else:
             return True
 
-    def contains3(self:"TreeNode4", x:int, x2:int, x3:int) -> bool:
+    def contains3(self:"TreeNode4", x:int, x2:int, x3:int) $RetType:
         if x < self.value:
             if self.left is None:
                 return False
@@ -335,7 +335,7 @@ class TreeNode5(object):
     value2:int = 0
     value3:int = 0
     value4:int = 0
-    $VarDef
+    value5:int = 0
     left:"TreeNode5" = None
     left2:"TreeNode5" = None
     left3:"TreeNode5" = None

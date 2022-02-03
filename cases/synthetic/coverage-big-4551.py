@@ -564,7 +564,7 @@ class bar5(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo("Long"[0]) == 1:
+            elif foo("Long"[$Literal]) == 1:
                 self.p = self is None
 
         return "Nope"
@@ -620,7 +620,7 @@ class bar5(object):
         for x in xx:
             self.p = x == 2
 
-        qux($Parameters) # Yay! ChocoPy
+        qux(0) # Yay! ChocoPy
 
         count = count + 1
 

@@ -573,7 +573,7 @@ class bar5(object):
         global count
         x:int = 0
         x2:int = 0
-        x3:int = 0
+        x3:int = $INT
         x4:int = 0
         x5:int = 0
         y:int = 1
@@ -629,7 +629,7 @@ class bar5(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo("Long"[$Exp]) == 1:
+            elif foo("Long"[0]) == 1:
                 self.p = self is None
 
         return "Nope"

@@ -942,7 +942,7 @@ def vrange5(i:int, j:int, i2:int, j2:int, i3:int, j3:int, i4:int, j4:int, i5:int
     v2:Vector = None
     v3:Vector = None
     v4:Vector = None
-    v5:Vector = None
+    v5:$ID = None
     v = DoublingVector()
     
     while i < j:
@@ -1024,7 +1024,7 @@ def sieve4(v:Vector, v2:Vector, v3:Vector, v4:Vector) -> object:
         k = v.get(i)
         j = i + 1
         while j < v.length():
-            if v.get(j) % k == $Exp:
+            if v.get(j) % k == 0:
                 v.remove_at(j)
             else:
                 j = j + 1

@@ -1,1 +1,1 @@
-Var("count")
+Literal2Exp(Int("1"))

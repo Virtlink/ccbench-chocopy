@@ -19,9 +19,9 @@ class bar(object):
         for x in xx:
             self.p = x == 2
 
-        qux(0) # Yay! ChocoPy
+        $Var(0) # Yay! ChocoPy
 
-        count = count + $Literal
+        count = count + 1
 
         while x <= 0:
             if self.p:

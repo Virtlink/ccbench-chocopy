@@ -5,8 +5,8 @@ class B(A):
     def __init__(self: "B"):
         pass
 
-class C(B):
-    $ID:bool = True
+class $ID(B):
+    z:bool = True
 
 a:A = None
 b:B = None

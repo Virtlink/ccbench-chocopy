@@ -11,8 +11,8 @@ class A3(object):
     x3:int = 1
 
 class A4(object):
-    x:int = 1
-    $ID:int = 1
+    x:int = $Literal
+    x2:int = 1
     x3:int = 1
     x4:int = 1
 

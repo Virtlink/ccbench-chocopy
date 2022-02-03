@@ -1,1 +1,1 @@
-Var("self")
+Returns(Type("str"))

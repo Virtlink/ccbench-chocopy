@@ -69,11 +69,11 @@ class C5(B):
     z5:bool = True
 
 a:A = None
-a2:A = None
+$ID:A = None
 a3:A = None
 a4:A = None
 a5:A = None
-b:B = $Literal
+b:B = None
 b2:B = None
 b3:B = None
 b4:B = None

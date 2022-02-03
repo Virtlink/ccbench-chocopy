@@ -2,7 +2,7 @@ def concat(x:[int], y:[int]) -> [int]:
     return x + y
 
 z:[int] = None
-i:$ID = 0
+$VarDef
 
 z = concat([1,2,3], [4,5,6])
 

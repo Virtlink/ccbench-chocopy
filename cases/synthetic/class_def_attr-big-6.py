@@ -1,5 +1,5 @@
 class A(object):
-    $ClassBodyMember
+    $ClassBody
 
 class A2(object):
     x:int = 1

@@ -561,7 +561,7 @@ class bar5(object):
 
         while x <= 0:
             if self.p:
-                xx[0] = xx[1]
+                $Statement
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
@@ -608,7 +608,7 @@ class bar5(object):
             if x > y:
                 x = -1
 
-        def qux5(y: int, y2: int, y3: int, y4: int, $TypedVar) -> object:
+        def qux5(y: int, y2: int, y3: int, y4: int, y5: int) -> object:
             nonlocal x
             nonlocal x2
             nonlocal x3

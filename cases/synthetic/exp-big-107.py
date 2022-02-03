@@ -14,9 +14,9 @@ def exp(x: int, y: int) -> int:
         def geta() -> int:
             return a
         if i <= 0:
-            return geta()
+            $Statement
         else:
-            $Target = a * x
+            a = a * x
             a2 = a * x
             a3 = a * x
             a4 = a * x

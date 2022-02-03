@@ -93,7 +93,7 @@ class Vector2(object):
         self.size = self.size + 1
 
     # Appends many items to end of vector
-    def append_all(self:"Vector2", new_items: [int]) -> object:
+    def $ID(self:"Vector2", new_items: [int]) -> object:
         item:int = 0
         for item in new_items:
             self.append(item)
@@ -103,7 +103,7 @@ class Vector2(object):
         item:int = 0
         item2:int = 0
         for item in new_items:
-            $Exp
+            self.append(item)
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector2", idx: int) -> object:

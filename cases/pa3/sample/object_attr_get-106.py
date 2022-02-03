@@ -12,5 +12,5 @@ b:B = None
 
 a = b = B()
 print(a.a)
-print(b.a)
-print($Var.b)
+print($Var.a)
+print(b.b)

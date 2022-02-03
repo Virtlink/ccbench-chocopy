@@ -1,1 +1,1 @@
-Literal2Exp(Int("4"))
+VarDef(TypedVar("sign3",Type("int")),Int("1"))

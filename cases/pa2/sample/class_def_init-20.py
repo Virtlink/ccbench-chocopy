@@ -2,7 +2,7 @@ class A(object):
     x:int = 1
 
 class B(A):
-    $FuncDef
+    $ClassBody
 
 class C(B):
     z:bool = True

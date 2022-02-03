@@ -288,7 +288,7 @@ class bar4(object):
         for x in xx:
             self.p = x == 2
 
-        qux(0) # Yay! ChocoPy
+        $ID(0) # Yay! ChocoPy
 
         count = count + 1
 
@@ -311,7 +311,7 @@ class bar4(object):
         y2:int = 1
         y3:int = 1
 
-        def qux(y: int) $RetType:
+        def qux(y: int) -> object:
             nonlocal x
             if x > y:
                 x = -1

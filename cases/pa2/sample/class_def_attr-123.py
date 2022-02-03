@@ -17,6 +17,6 @@ b = B()
 c = C()
 
 a.x = 1
-b.x = a.x
-$Var.z = a.x == b.x
+$Member = a.x
+c.z = a.x == b.x
 

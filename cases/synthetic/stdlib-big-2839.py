@@ -341,7 +341,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
 
     # Parse digits
     for char in x:
-        if char == "-":
+        if char == $STRING:
             if not first_char:
                 return 0 # Error
             sign = -1
@@ -365,7 +365,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
             digit = 7
         elif char == "8":
             digit = 8
-        elif $Exp == "9":
+        elif char == "9":
             digit = 9
         else:
             return 0 # On error

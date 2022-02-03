@@ -1,1 +1,1 @@
-Int("3")
+TypedVar("sign3",Type("int"))

@@ -1,1 +1,1 @@
-Add(Mul(Var2Exp(Var("result")),Literal2Exp(Int("10"))),Var2Exp(Var("digit")))
+Literal2Exp(Int("3"))

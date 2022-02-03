@@ -40,13 +40,13 @@ def exp2(x: int, y: int, x2: int, y2: int) -> int:
         nonlocal a2
         nonlocal a3
         nonlocal a4
-        nonlocal a5
+        nonlocal $ID
         def geta() -> int:
             return a
         if i <= 0:
             return geta()
         else:
-            $Statement
+            a = a * x
             a2 = a * x
             a3 = a * x
             a4 = a * x

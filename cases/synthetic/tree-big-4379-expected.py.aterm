@@ -1,1 +1,1 @@
-Literal2Exp(False())
+Member2Exp(Member(Var2Exp(Var("self")),"left"))

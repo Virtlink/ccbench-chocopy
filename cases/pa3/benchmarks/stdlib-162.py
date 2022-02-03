@@ -17,8 +17,8 @@ def int_to_str(x: int) -> str:
     result = result + digits[x % 10]
     return result
 
-def str_to_int(x: str) -> int:
-    result:int = $Literal
+def str_to_int($TypedVar) -> int:
+    result:int = 0
     digit:int = 0
     char:str = ""
     sign:int = 1

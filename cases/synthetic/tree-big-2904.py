@@ -298,7 +298,7 @@ class TreeNode4(object):
             if self.right is None:
                 return False
             else:
-                return self.right.contains(x)
+                return $ID.right.contains(x)
         else:
             return True
 
@@ -330,7 +330,7 @@ class TreeNode4(object):
         else:
             return True
 
-class TreeNode5($ID):
+class TreeNode5(object):
     value:int = 0
     value2:int = 0
     value3:int = 0

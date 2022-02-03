@@ -1,6 +1,6 @@
 print(True == True)
 print(True == False)
-print(False == $Exp)
+print($Parameters)
 print(False == False)
 print(True != True)
 print(True != False)

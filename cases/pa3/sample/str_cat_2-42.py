@@ -4,7 +4,7 @@ c:str = ""
 d:str = ""
 e:str = ""
 
-$FuncDef
+$Definition
 
 def cat3(a:str, b:str, c:str) -> str:
     return a + b + c

@@ -171,7 +171,7 @@ def str_to_int2(x: str, x2: str) -> int:
             if not first_char:
                 return 0 # Error
             sign = -1
-        elif char == "0":
+        elif char == $Exp:
             digit = 0
         elif char == "1":
             digit = 1
@@ -183,7 +183,7 @@ def str_to_int2(x: str, x2: str) -> int:
             digit = 3
         elif char == "4":
             digit = 4
-        elif $Var == "5":
+        elif char == "5":
             digit = 5
         elif char == "6":
             digit = 6

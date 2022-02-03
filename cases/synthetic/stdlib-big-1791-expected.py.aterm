@@ -1,1 +1,1 @@
-"\"2\""
+VarDef(TypedVar("char3",Type("str")),String("\"\""))

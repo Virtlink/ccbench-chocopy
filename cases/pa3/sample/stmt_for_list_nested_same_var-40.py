@@ -2,6 +2,8 @@ x:int = 0
 y:int = 0
 z:[int] = None
 
-z = [1, 2, 3]
+z = [1, $INT, 3]
 
-$Statement
+for x in z:
+    for x in z:
+        print(x)

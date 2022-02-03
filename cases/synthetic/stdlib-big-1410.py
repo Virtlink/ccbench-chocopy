@@ -163,7 +163,7 @@ def str_to_int2(x: str, x2: str) -> int:
     sign:int = 1
     sign2:int = 1
     first_char:bool = True
-    first_char2:bool = True
+    $FuncBodyMember
 
     # Parse digits
     for char in x:
@@ -177,7 +177,7 @@ def str_to_int2(x: str, x2: str) -> int:
             digit = 1
         elif char == "2":
             digit = 2
-        elif $Var == "3":
+        elif char == "3":
             digit = 3
         elif char == "3":
             digit = 3

@@ -179,7 +179,7 @@ class TreeNode3(object):
                 return self.left.contains(x)
         elif x > self.value:
             if self.right is None:
-                return False
+                $Statement
             else:
                 return self.right.contains(x)
         else:
@@ -201,7 +201,7 @@ class TreeNode3(object):
 
 
 class TreeNode4(object):
-    value:int = $Literal
+    value:int = 0
     value2:int = 0
     value3:int = 0
     value4:int = 0

@@ -434,9 +434,7 @@ class Vector4(object):
         if idx < 0:
             return
 
-        while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
-            idx = idx + 1
+        $Statement
 
         self.size = self.size - 1
 
@@ -483,7 +481,7 @@ class Vector5(object):
     size2: int = 0
     size3: int = 0
     size4: int = 0
-    size5: $Type = 0
+    size5: int = 0
 
     def __init__(self:"Vector5"):
         self.items = [0]

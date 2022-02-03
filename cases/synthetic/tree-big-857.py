@@ -91,7 +91,7 @@ class TreeNode2(object):
             if self.left is None:
                 return False
             else:
-                return self.left.contains(x)
+                return $Var.left.contains(x)
         elif x > self.value:
             if self.right is None:
                 return False
@@ -104,7 +104,7 @@ class TreeNode2(object):
 class TreeNode3(object):
     value:int = 0
     value2:int = 0
-    $VarDef
+    value3:int = 0
     left:"TreeNode3" = None
     left2:"TreeNode3" = None
     left3:"TreeNode3" = None

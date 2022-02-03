@@ -707,7 +707,7 @@ class Tree5(object):
             if self.root.insert(x):
                 self.size = self.size + 1
 
-    def insert5(self:"Tree5", x:int, x2:int, x3:int, x4:int, x5:int) -> object:
+    def insert5(self:"Tree5", x:int, x2:int, x3:int, x4:int, x5:int) -> $Type:
         if self.root is None:
             self.root = makeNode5(x, x, x, x, x)
             self.size = 1
@@ -776,7 +776,7 @@ def makeNode4(x: int, x2: int, x3: int, x4: int) -> TreeNode4:
     return b
 
 def makeNode5(x: int, x2: int, x3: int, x4: int, x5: int) -> TreeNode5:
-    $TypedVar = None
+    b:TreeNode5 = None
     b2:TreeNode5 = None
     b3:TreeNode5 = None
     b4:TreeNode5 = None

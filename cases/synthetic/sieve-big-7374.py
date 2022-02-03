@@ -818,7 +818,7 @@ class DoublingVector4(Vector):
         else:
             # If doubling limit has been reached, fall back to
             # standard capacity increases
-            self.items = self.items + [0]
+            $Block
         return self.capacity()
 
     # Overriding to do fewer resizes
@@ -902,7 +902,7 @@ def vrange(i:int, j:int) -> Vector:
     return v
 
 def vrange2(i:int, j:int, i2:int, j2:int) -> Vector:
-    v:Vector = $Literal
+    v:Vector = None
     v2:Vector = None
     v = DoublingVector()
     

@@ -29,10 +29,10 @@ class bar(object):
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
-                self.p = self is None
+                self.p = $Var is None
 
         return "Nope"
 
-print(bar().baz([$Literal,2]))
+print(bar().baz([1,2]))
 
 

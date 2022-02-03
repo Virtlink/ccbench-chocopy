@@ -1,1 +1,1 @@
-ListType(Type("int"))
+Nonlocal("x2")

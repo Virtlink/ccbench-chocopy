@@ -1,1 +1,1 @@
-VarDef(TypedVar("b4",Type("TreeNode4")),NONE())
+Var("self")

@@ -1,3 +1,4 @@
-x:str = "xXx"
+x:str = $STRING
 
-$Statement
+for x in x:
+    print(x)

@@ -13,7 +13,7 @@ b:B = None
 a = B()
 print(a.a)
 
-b.a = 1
-b.b = $Exp
+b.$ID = 1
+b.b = False
 print(b.a)
 print(b.b)

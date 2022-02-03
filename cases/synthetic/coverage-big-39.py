@@ -2,7 +2,7 @@ count:int = 0
 count2:int = 0
 count3:int = 0
 count4:int = 0
-count5:int = $Literal
+count5:$ID = 0
 
 def foo(s: str) -> int:
     return len(s)

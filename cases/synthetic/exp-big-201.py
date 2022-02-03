@@ -22,9 +22,9 @@ def exp(x: int, y: int) -> int:
             a4 = a * x
             a5 = a * x
             return f(i-1)
-    a = 1
+    $Var = 1
     a2 = 1
-    a3 = $INT
+    a3 = 1
     a4 = 1
     a5 = 1
     return f(y)

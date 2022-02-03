@@ -50,72 +50,7 @@ class bar(object):
         return "Nope"
 
 
-class bar2(object):
-    p: bool = True
-    p2: bool = True
-
-    def baz(self:"bar2", xx: [int]) -> str:
-        global count
-        x:$Type = 0
-        y:int = 1
-
-        def qux(y: int) -> object:
-            nonlocal x
-            if x > y:
-                x = -1
-
-        for x in xx:
-            self.p = x == 2
-
-        qux(0) # Yay! ChocoPy
-
-        count = count + 1
-
-        while x <= 0:
-            if self.p:
-                xx[0] = xx[1]
-                self.p = not self.p
-                x = x + 1
-            elif foo("Long"[0]) == 1:
-                self.p = self is None
-
-        return "Nope"
-
-
-    def baz2(self:"bar2", xx: [int], xx2: [int]) -> str:
-        global count
-        x:int = 0
-        x2:int = 0
-        y:int = 1
-        y2:int = 1
-
-        def qux(y: int) -> object:
-            nonlocal x
-            if x > y:
-                x = -1
-
-        def qux2(y: int, y2: int) -> object:
-            nonlocal x
-            nonlocal x2
-            if x > y:
-                x = -1
-
-        for x in xx:
-            self.p = x == 2
-
-        qux(0) # Yay! ChocoPy
-
-        count = count + 1
-
-        while x <= 0:
-            if self.p:
-                xx[0] = xx[1]
-                self.p = not self.p
-                x = x + 1
-            elif foo("Long"[0]) == 1:
-                self.p = self is None
-
-        return "Nope"
+$Definition
 
 
 

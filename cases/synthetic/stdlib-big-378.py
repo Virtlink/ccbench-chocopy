@@ -40,13 +40,13 @@ def int_to_str2(x: int, x2: int) -> str:
 def int_to_str3(x: int, x2: int, x3: int) -> str:
     digits:[str] = None 
     digits2:[str] = None 
-    digits3:[str] = None 
+    digits3:[str] = $Literal 
     result:str = ""
     result2:str = ""
     result3:str = ""
 
     # Set-up digit mapping
-    $Target = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    digits = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
     # Write sign if necessary
     if x < 0:

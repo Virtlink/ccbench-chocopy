@@ -300,7 +300,7 @@ class bar4(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        return "Nope"
+        return $STRING
 
     def baz3(self:"bar4", xx: [int], xx2: [int], xx3: [int]) -> str:
         global count
@@ -332,7 +332,7 @@ class bar4(object):
         for x in xx:
             self.p = x == 2
 
-        $Statement # Yay! ChocoPy
+        qux(0) # Yay! ChocoPy
 
         count = count + 1
 

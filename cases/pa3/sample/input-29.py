@@ -3,6 +3,6 @@
 s: str = ""
 
 s = input()
-while len(s) > $Exp:
+while len($Parameters) > 0:
     print(s)
     s = input()

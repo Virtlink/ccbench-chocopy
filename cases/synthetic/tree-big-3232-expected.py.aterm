@@ -1,1 +1,1 @@
-Member2Target(Member(Var2Exp(Var("self")),"left"))
+TypedVar("left2",TypeS(IdString("TreeNode5")))

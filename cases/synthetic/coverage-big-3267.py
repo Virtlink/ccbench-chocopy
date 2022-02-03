@@ -408,32 +408,7 @@ class bar5(object):
     p4: bool = True
     p5: bool = True
 
-    def baz(self:"bar5", xx: [int]) -> str:
-        global count
-        x:int = 0
-        y:int = 1
-
-        def qux(y: int) -> object:
-            nonlocal x
-            if x > y:
-                x = -1
-
-        for x in xx:
-            self.p = x == 2
-
-        qux(0) # Yay! ChocoPy
-
-        count = count + 1
-
-        while x <= 0:
-            if self.p:
-                xx[0] = xx[1]
-                self.p = not self.p
-                x = x + 1
-            elif foo("Long"[0]) == 1:
-                self.p = self is None
-
-        return "Nope"
+    $ClassBodyMember
 
 
     def baz2(self:"bar5", xx: [int], xx2: [int]) -> str:
@@ -445,7 +420,8 @@ class bar5(object):
 
         def qux(y: int) -> object:
             nonlocal x
-            $Statement
+            if x > y:
+                x = -1
 
         def qux2(y: int, y2: int) -> object:
             nonlocal x

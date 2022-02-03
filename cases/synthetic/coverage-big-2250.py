@@ -279,7 +279,7 @@ class bar4(object):
             if x > y:
                 x = -1
 
-        def qux2(y: int, y2: int) -> object:
+        def qux2(y: int, y2: int) -> $Type:
             nonlocal x
             nonlocal x2
             if x > y:
@@ -303,7 +303,7 @@ class bar4(object):
         return "Nope"
 
     def baz3(self:"bar4", xx: [int], xx2: [int], xx3: [int]) -> str:
-        $FuncBodyMember
+        global count
         x:int = 0
         x2:int = 0
         x3:int = 0

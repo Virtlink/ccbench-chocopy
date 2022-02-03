@@ -575,7 +575,7 @@ class Vector5(object):
 
     # Appends many items to end of vector
     def append_all(self:"Vector5", new_items: [int]) -> object:
-        item:int = 0
+        $FuncBodyMember
         for item in new_items:
             self.append(item)
 
@@ -630,7 +630,7 @@ class Vector5(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = $ID.items[idx + 1]
+            self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
         self.size = self.size - 1

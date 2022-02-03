@@ -1,1 +1,1 @@
-Add(Add(Var2Exp(Var("a")),Var2Exp(Var("b"))),Var2Exp(Var("c")))
+Returns(Type("str"))

@@ -1,1 +1,1 @@
-String("\"9\"")
+Target(Var2Target(Var("digit")))

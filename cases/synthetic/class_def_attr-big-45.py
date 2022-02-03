@@ -6,7 +6,7 @@ class A2(object):
     x2:int = 1
 
 class A3(object):
-    x:$ID = 1
+    $VarDef
     x2:int = 1
     x3:int = 1
 

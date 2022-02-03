@@ -1,5 +1,5 @@
 def f() -> int:
-  x:int = 1
-  $Statement
+  x:$ID = 1
+  return x
 
 print(f())

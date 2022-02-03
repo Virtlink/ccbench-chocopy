@@ -16,7 +16,7 @@ a = A()
 b = B()
 c = C()
 
-a.x = 1
+a.x = $INT
 b.x = a.x
-$Statement
+c.z = a.x == b.x
 

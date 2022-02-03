@@ -1,2 +1,2 @@
-print(42)
-$Exp
+print($Literal)
+print(65999)

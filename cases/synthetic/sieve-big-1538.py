@@ -179,7 +179,7 @@ class Vector3(object):
 
     # Increases capacity of vector by one element
     def increase_capacity3(self:"Vector3") -> int:
-        self.items = self.items + [0]
+        self.items = self.$ID + [0]
         return self.capacity()
 
     # Appends one item to end of vector
@@ -196,7 +196,7 @@ class Vector3(object):
             self.increase_capacity()
 
         self.items[self.size] = item
-        $Statement
+        self.size = self.size + 1
 
     # Appends one item to end of vector
     def append3(self:"Vector3", item: int, item2: int, item3: int) -> object:

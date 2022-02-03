@@ -366,7 +366,7 @@ class bar4(object):
             nonlocal x
             nonlocal x2
             if x > y:
-                x = -1
+                $AssignTarget -1
 
         def qux3(y: int, y2: int, y3: int) -> object:
             nonlocal x
@@ -402,7 +402,7 @@ class bar4(object):
 
 
 class bar5(object):
-    p: bool = $Literal
+    p: bool = True
     p2: bool = True
     p3: bool = True
     p4: bool = True

@@ -230,7 +230,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
             digit = 1
         elif char == "2":
             digit = 2
-        elif char == "3":
+        elif char == $Literal:
             digit = 3
         elif char == "3":
             digit = 3
@@ -248,7 +248,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
             digit = 9
         else:
             return 0 # On error
-        $Target = False
+        first_char = False
         result = result * 10 + digit
 
     # Compute result

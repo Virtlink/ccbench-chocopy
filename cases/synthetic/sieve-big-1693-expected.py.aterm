@@ -1,1 +1,1 @@
-"Vector3"
+Assign([Target(Index2Target(Index(Member2Exp(Member(Var2Exp(Var("self")),"items")),Member2Exp(Member(Var2Exp(Var("self")),"size")))))],Var2Exp(Var("item")))

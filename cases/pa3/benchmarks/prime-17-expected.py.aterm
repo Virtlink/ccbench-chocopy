@@ -1,1 +1,1 @@
-"int"
+TypedVar("candidate",Type("int"))

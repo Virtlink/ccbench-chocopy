@@ -1,7 +1,7 @@
 def f() -> int:
     print("start f")
     g()
-    print($Literal)
+    $Exp
     return 42
 
     

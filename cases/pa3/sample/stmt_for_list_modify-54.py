@@ -4,5 +4,5 @@ z:[int] = None
 z = [1, 2, 1]
 
 for x in z:
-    z[x] = x
-    $Var(x)
+    z[x] = $Exp
+    print(x)

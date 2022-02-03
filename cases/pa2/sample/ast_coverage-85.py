@@ -11,10 +11,7 @@ class bar(object):
         x:int = 0
         y:int = 1
 
-        def qux(y: int) -> $ID:
-            nonlocal x
-            if x > y:
-                x = -1
+        $FuncDef
 
         for x in xx:
             self.p = x == 2

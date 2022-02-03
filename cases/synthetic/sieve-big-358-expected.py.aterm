@@ -1,1 +1,1 @@
-FuncDef2ClassBodyMember(FuncDef("length",[TypedVar("self",TypeS(IdString("Vector")))],Returns(Type("int")),FuncBody([],[Return(Member2Exp(Member(Var2Exp(Var("self")),"size")))])))
+Sub(Member2Exp(Member(Var2Exp(Var("self")),"size")),Literal2Exp(Int("1")))

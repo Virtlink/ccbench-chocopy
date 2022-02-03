@@ -60,12 +60,12 @@ class TreeNode2(object):
     def insert2(self:"TreeNode2", x:int, x2:int) -> bool:
         if x < self.value:
             if self.left is None:
-                self.left = makeNode2(x, x)
+                self.$ID = makeNode2(x, x)
                 return True
             else:
                 return self.left.insert(x)
         elif x > self.value:
-            if self.$ID is None:
+            if self.right is None:
                 self.right = makeNode2(x, x)
                 return True
             else:

@@ -292,7 +292,7 @@ class Vector4(object):
     items4: [int] = None
     size: int = 0
     size2: int = 0
-    size3: int = 0
+    $TypedVar = 0
     size4: int = 0
 
     def __init__(self:"Vector4"):
@@ -326,7 +326,7 @@ class Vector4(object):
 
     # Increases capacity of vector by one element
     def increase_capacity3(self:"Vector4") -> int:
-        self.items = self.items + [$INT]
+        self.items = self.items + [0]
         return self.capacity()
 
     # Increases capacity of vector by one element

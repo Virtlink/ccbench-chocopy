@@ -1,5 +1,5 @@
 if False:
-    print($Exp)
+    $Var("No")
 elif True:
     if True:
         print("Yes")

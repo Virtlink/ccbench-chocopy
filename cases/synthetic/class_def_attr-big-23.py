@@ -2,7 +2,7 @@ class A(object):
     x:int = 1
 
 class A2(object):
-    x:$Type = 1
+    $VarDef
     x2:int = 1
 
 class A3(object):

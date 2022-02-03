@@ -582,7 +582,7 @@ class Vector5(object):
     # Appends many items to end of vector
     def append_all2(self:"Vector5", new_items: [int], new_items2: [int]) -> object:
         item:int = 0
-        item2:int = 0
+        item2:int = $Literal
         for item in new_items:
             self.append(item)
 
@@ -637,7 +637,7 @@ class Vector5(object):
 
     # Removes an item from the middle of vector
     def remove_at3(self:"Vector5", idx: int, idx2: int, idx3: int) -> object:
-        if $ID < 0:
+        if idx < 0:
             return
 
         while idx < self.size - 1:

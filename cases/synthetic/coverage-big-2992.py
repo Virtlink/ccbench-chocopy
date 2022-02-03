@@ -369,7 +369,7 @@ class bar4(object):
                 x = -1
 
         def qux3(y: int, y2: int, y3: int) -> object:
-            nonlocal x
+            nonlocal $ID
             nonlocal x2
             nonlocal x3
             if x > y:
@@ -408,7 +408,32 @@ class bar5(object):
     p4: bool = True
     p5: bool = True
 
-    $FuncDef
+    def baz(self:"bar5", xx: [int]) -> str:
+        global count
+        x:int = 0
+        y:int = 1
+
+        def qux(y: int) -> object:
+            nonlocal x
+            if x > y:
+                x = -1
+
+        for x in xx:
+            self.p = x == 2
+
+        qux(0) # Yay! ChocoPy
+
+        count = count + 1
+
+        while x <= 0:
+            if self.p:
+                xx[0] = xx[1]
+                self.p = not self.p
+                x = x + 1
+            elif foo("Long"[0]) == 1:
+                self.p = self is None
+
+        return "Nope"
 
 
     def baz2(self:"bar5", xx: [int], xx2: [int]) -> str:

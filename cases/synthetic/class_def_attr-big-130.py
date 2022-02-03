@@ -19,8 +19,8 @@ class A4(object):
 class A5(object):
     x:int = 1
     x2:int = 1
-    x3:int = 1
-    $ClassBodyMember
+    $TypedVar = 1
+    x4:int = 1
     x5:int = 1
 
 class B(A):

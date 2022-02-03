@@ -1,1 +1,1 @@
-VarDef(TypedVar("n",Type("int")),Int("10"))
+Target(Var2Target(Var("digit")))

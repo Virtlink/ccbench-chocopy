@@ -1,1 +1,1 @@
-Call(Var2Exp(Var("DoublingVector")),Exps2Parameters([]))
+Member2Target(Member(Var2Exp(Var("self")),"items"))

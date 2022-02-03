@@ -87,13 +87,13 @@ def int_to_str5(x: int, x2: int, x3: int, x4: int, x5: int) -> str:
     digits:[str] = None 
     digits2:[str] = None 
     digits3:[str] = None 
-    digits4:[str] = None 
+    $FuncBodyMember 
     digits5:[str] = None 
     result:str = ""
     result2:str = ""
     result3:str = ""
     result4:str = ""
-    $ID:str = ""
+    result5:str = ""
 
     # Set-up digit mapping
     digits = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]

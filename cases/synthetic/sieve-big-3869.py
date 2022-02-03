@@ -427,7 +427,7 @@ class Vector4(object):
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
-        self.size = self.size - 1
+        $Statement
 
     # Removes an item from the middle of vector
     def remove_at4(self:"Vector4", idx: int, idx2: int, idx3: int, idx4: int) -> object:
@@ -475,7 +475,7 @@ class Vector4(object):
 # A resizable list of integers
 class Vector5(object):
     items: [int] = None
-    items2: [int] = $Literal
+    items2: [int] = None
     items3: [int] = None
     items4: [int] = None
     items5: [int] = None

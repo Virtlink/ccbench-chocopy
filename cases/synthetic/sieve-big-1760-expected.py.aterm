@@ -1,1 +1,1 @@
-TypedVar("new_items3",ListType(Type("int")))
+Eq(Member2Exp(Member(Var2Exp(Var("self")),"size")),Call(Member2Exp(Member(Var2Exp(Var("self")),"capacity")),Exps2Parameters([])))

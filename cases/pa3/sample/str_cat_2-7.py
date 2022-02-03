@@ -1,4 +1,4 @@
-a:str = $Literal
+a:$ID = "no"
 b:str = "o"
 c:str = ""
 d:str = ""

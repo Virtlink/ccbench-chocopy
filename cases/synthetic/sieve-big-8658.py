@@ -961,7 +961,7 @@ def sieve(v:Vector) -> object:
         k = v.get(i)
         j = i + 1
         while j < v.length():
-            if v.get(j) % k == 0:
+            if $Member(j) % k == 0:
                 v.remove_at(j)
             else:
                 j = j + 1
@@ -1042,7 +1042,7 @@ def sieve5(v:Vector, v2:Vector, v3:Vector, v4:Vector, v5:Vector) -> object:
     j4:int = 0
     j5:int = 0
     k:int = 0
-    k2:$Type = 0
+    k2:int = 0
     k3:int = 0
     k4:int = 0
     k5:int = 0

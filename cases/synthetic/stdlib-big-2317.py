@@ -277,7 +277,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
     first_char4:bool = True
 
     # Parse digits
-    for char in x:
+    for char in $ID:
         if char == "-":
             if not first_char:
                 return 0 # Error
@@ -297,7 +297,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
         elif char == "5":
             digit = 5
         elif char == "6":
-            $Target = 6
+            digit = 6
         elif char == "7":
             digit = 7
         elif char == "8":

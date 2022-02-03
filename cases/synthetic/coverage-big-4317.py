@@ -535,7 +535,7 @@ class bar5(object):
             nonlocal x
             nonlocal x2
             if x > y:
-                x = -1
+                x = $Exp
 
         def qux3(y: int, y2: int, y3: int) -> object:
             nonlocal x
@@ -582,7 +582,7 @@ class bar5(object):
         y4:int = 1
         y5:int = 1
 
-        def qux(y: int) $RetType:
+        def qux(y: int) -> object:
             nonlocal x
             if x > y:
                 x = -1

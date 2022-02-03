@@ -1,1 +1,1 @@
-Call(Var2Exp(Var("print")),Exps2Parameters([Call(Var2Exp(Var("f")),Exps2Parameters([Literal2Exp(Int("4"))]))]))
+"msg"

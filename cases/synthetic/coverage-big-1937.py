@@ -241,7 +241,7 @@ class bar4(object):
 
     def baz(self:"bar4", xx: [int]) -> str:
         global count
-        x:int = 0
+        $FuncBodyMember
         y:int = 1
 
         def qux(y: int) -> object:
@@ -261,7 +261,7 @@ class bar4(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo("Long"[0]) == $Literal:
+            elif foo("Long"[0]) == 1:
                 self.p = self is None
 
         return "Nope"

@@ -1,1 +1,1 @@
-Int("0")
+Negative(Literal2Exp(Int("1")))

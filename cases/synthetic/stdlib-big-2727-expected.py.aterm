@@ -1,1 +1,1 @@
-Assign([Target(Var2Target(Var("digit")))],Literal2Exp(Int("3")))
+TypedVar("char3",Type("str"))

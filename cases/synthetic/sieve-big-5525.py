@@ -606,7 +606,7 @@ class Vector5(object):
     # Appends many items to end of vector
     def append_all5(self:"Vector5", new_items: [int], new_items2: [int], new_items3: [int], new_items4: [int], new_items5: [int]) -> object:
         item:int = 0
-        item2:int = 0
+        item2:int = $Literal
         item3:int = 0
         item4:int = 0
         item5:int = 0
@@ -662,7 +662,7 @@ class Vector5(object):
         if idx < 0:
             return
 
-        while $Var < self.size - 1:
+        while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 

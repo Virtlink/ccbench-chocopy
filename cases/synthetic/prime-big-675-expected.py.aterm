@@ -1,1 +1,1 @@
-Var("get_prime")
+VarDef(TypedVar("i3",Type("int")),Int("1"))

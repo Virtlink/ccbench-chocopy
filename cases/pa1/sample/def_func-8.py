@@ -1,4 +1,4 @@
-def foo() -> int:
-    $Statement
+def foo() -> $ID:
+    return 1
 
 foo()

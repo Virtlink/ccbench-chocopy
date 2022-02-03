@@ -1,1 +1,1 @@
-Member2Exp(Member(Var2Exp(Var("self")),"left"))
+VarDef(TypedVar("right2",TypeS(IdString("TreeNode3"))),NONE())

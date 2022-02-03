@@ -1,1 +1,1 @@
-If(Geq(Var2Exp(Var("x")),Literal2Exp(Int("10"))),Block([Assign([Target(Var2Target(Var("result")))],Add(Var2Exp(Var("result")),Call(Var2Exp(Var("int_to_str")),Exps2Parameters([IntDiv(Var2Exp(Var("x")),Literal2Exp(Int("10")))]))))]))
+Block([Assign([Target(Var2Target(Var("result")))],Literal2Exp(String("\"-\""))),Assign([Target(Var2Target(Var("x")))],Negative(Var2Exp(Var("x"))))])

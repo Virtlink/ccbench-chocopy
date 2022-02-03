@@ -5,10 +5,11 @@ def exp(x: int, y: int) -> int:
 		nonlocal a
 		def geta() -> int:
 			return a
-		if i <= 0:
+		if i <= $INT:
 			return geta()
 		else:
-			$Block
+			a = a * x
+			return f(i-1)
 	a = 1
 	return f(y)
 

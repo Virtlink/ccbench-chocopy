@@ -1,1 +1,1 @@
-TypedVar("s",Type("str"))
+"int"

@@ -1,1 +1,1 @@
-Else(Block([PassStmt()]))
+Int("1")

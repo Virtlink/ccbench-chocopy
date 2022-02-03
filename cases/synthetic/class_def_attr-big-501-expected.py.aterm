@@ -1,1 +1,1 @@
-Assign([Target(Var2Target(Var("a5")))],Call(Var2Exp(Var("A")),Exps2Parameters([])))
+Var("A")

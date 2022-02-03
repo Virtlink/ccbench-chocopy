@@ -1,1 +1,1 @@
-VarDef(TypedVar("o",Type("object")),NONE())
+VarDef2Definition(VarDef(TypedVar("o",Type("object")),NONE()))

@@ -988,7 +988,7 @@ def sieve2(v:Vector, v2:Vector) -> object:
 def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
     i:int = 0
     i2:int = 0
-    i3:int = 0
+    i3:int = $INT
     j:int = 0
     j2:int = 0
     j3:int = 0
@@ -1079,7 +1079,7 @@ i5:int = 0
 # Crunch
 v = vrange(2, n)
 v2 = vrange(2, n)
-v3 = $ID(2, n)
+v3 = vrange(2, n)
 v4 = vrange(2, n)
 v5 = vrange(2, n)
 sieve(v)

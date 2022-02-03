@@ -1,1 +1,1 @@
-Var2Exp(Var("xx"))
+Assign([Target(Var2Target(Var("count")))],Add(Var2Exp(Var("count")),Literal2Exp(Int("1"))))

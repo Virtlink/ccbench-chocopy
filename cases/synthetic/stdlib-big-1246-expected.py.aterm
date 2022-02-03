@@ -1,1 +1,1 @@
-TypedVar("result",Type("int"))
+Var2Exp(Var("char"))

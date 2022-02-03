@@ -1,1 +1,1 @@
-"y"
+VarDef(TypedVar("p",Type("bool")),True())

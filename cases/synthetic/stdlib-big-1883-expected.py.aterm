@@ -1,1 +1,1 @@
-Literal2Exp(Int("6"))
+Eq(Var2Exp(Var("char")),Literal2Exp(String("\"0\"")))

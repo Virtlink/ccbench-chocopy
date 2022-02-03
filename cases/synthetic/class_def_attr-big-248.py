@@ -41,13 +41,13 @@ class B4(A):
 
 class B5(A):
     def __init__(self: "B5"):
-        pass
+        $FuncBody
 
 class C(B):
     z:bool = True
 
 class C2(B):
-    z:$ID = True
+    z:bool = True
     z2:bool = True
 
 class C3(B):

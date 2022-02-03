@@ -1,1 +1,1 @@
-Literal2Exp(Int("4"))
+TypedVar("first_char",Type("bool"))

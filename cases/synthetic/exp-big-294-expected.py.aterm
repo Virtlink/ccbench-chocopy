@@ -1,1 +1,1 @@
-"i"
+VarDef(TypedVar("a3",Type("int")),Int("0"))

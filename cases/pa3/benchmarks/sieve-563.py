@@ -65,7 +65,7 @@ class DoublingVector(Vector):
 # Makes a vector in the range [i, j)
 def vrange(i:int, j:int) -> Vector:
     v:Vector = None
-    v = DoublingVector()
+    v = $ID()
     
     while i < j:
         v.append(i)
@@ -76,7 +76,7 @@ def vrange(i:int, j:int) -> Vector:
 # Sieve of Eratosthenes (not really)
 def sieve(v:Vector) -> object:
     i:int = 0
-    $VarDef
+    j:int = 0
     k:int = 0
 
     while i < v.length():

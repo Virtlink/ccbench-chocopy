@@ -7,8 +7,8 @@ class A(object):
 class B(A):
     b:bool = True
 
-    def __init__(self:"B"):
-        print($Parameters)
+    def __init__(self:"B")$RetType:
+        print("B")
 
     def bar(self:"B") -> int:
         def qux(p: bool) -> int:

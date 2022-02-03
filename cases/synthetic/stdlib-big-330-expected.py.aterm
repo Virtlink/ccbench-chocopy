@@ -1,1 +1,1 @@
-TypedVar("digits",ListType(Type("str")))
+Return(Var2Exp(Var("result")))

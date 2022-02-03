@@ -181,7 +181,7 @@ class bar3(object):
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
-                x = x + 1
+                x = $Var + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
@@ -197,7 +197,7 @@ class bar3(object):
         y3:int = 1
 
         def qux(y: int) -> object:
-            nonlocal $ID
+            nonlocal x
             if x > y:
                 x = -1
 

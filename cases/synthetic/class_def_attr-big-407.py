@@ -70,12 +70,12 @@ class C5(B):
 
 a:A = None
 a2:A = None
-a3:A = None
+a3:A = $Literal
 a4:A = None
 a5:A = None
 b:B = None
 b2:B = None
-$TypedVar = None
+b3:B = None
 b4:B = None
 b5:B = None
 c:C = None

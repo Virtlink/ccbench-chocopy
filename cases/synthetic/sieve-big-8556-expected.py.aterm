@@ -1,1 +1,1 @@
-Type("Vector")
+TypedVar("v",Type("Vector"))

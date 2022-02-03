@@ -1,1 +1,1 @@
-TypedVar("i",Type("int"))
+Call(Member2Exp(Member(Var2Exp(Var("v")),"get")),Exps2Parameters([Var2Exp(Var("j"))]))

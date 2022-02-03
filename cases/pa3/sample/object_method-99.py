@@ -11,6 +11,6 @@ class B(A):
         print("B")
 
     def bar(self:"B") -> int:
-        return self.foo(self.b)
+        return $ID.foo(self.b)
 
-$ID(B().bar())
+print(B().bar())

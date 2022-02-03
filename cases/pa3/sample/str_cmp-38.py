@@ -2,7 +2,7 @@ a:str = "Hello"
 b:str = "World"
 c:str = "ChocoPy"
 
-def eq(a:str, b:str) -> $ID:
+def eq(a:str, b:str) $RetType:
     return a == b
 
 def neq(a:str, b:str) -> bool:

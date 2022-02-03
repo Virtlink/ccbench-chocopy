@@ -1,1 +1,1 @@
-TypedVar("self",TypeS(IdString("Vector5")))
+Index2Target(Index(Member2Exp(Member(Var2Exp(Var("self")),"items")),Member2Exp(Member(Var2Exp(Var("self")),"size"))))

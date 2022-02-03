@@ -11,10 +11,10 @@ a:A = None
 b:B = None
 
 def get_b() -> B:
-    print("Getting B")
+    print($Literal)
     return b
 
-def get_one() -> $ID:
+def get_one() -> int:
     print("Getting 1")
     return 1
 

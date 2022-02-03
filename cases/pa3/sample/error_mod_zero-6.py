@@ -1,1 +1,1 @@
-print($Parameters)
+$Var(42 % 0)

@@ -97,8 +97,7 @@ class TreeNode2(object):
                 return False
             else:
                 return self.right.contains(x)
-        else:
-            return True
+        $ElifElse
 
 
 class TreeNode3(object):
@@ -112,7 +111,20 @@ class TreeNode3(object):
     right2:"TreeNode3" = None
     right3:"TreeNode3" = None
 
-    $FuncDef
+    def insert(self:"TreeNode3", x:int) -> bool:
+        if x < self.value:
+            if self.left is None:
+                self.left = makeNode3(x, x, x)
+                return True
+            else:
+                return self.left.insert(x)
+        elif x > self.value:
+            if self.right is None:
+                self.right = makeNode3(x, x, x)
+                return True
+            else:
+                return self.right.insert(x)
+        return False
 
     def insert2(self:"TreeNode3", x:int, x2:int) -> bool:
         if x < self.value:

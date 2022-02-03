@@ -8,6 +8,6 @@ def g() -> bool:
 
 if f() or g():      # Short-circuit
   if g() and f():   # Short-circuit
-    print("Never")
+    print($Parameters)
   else:
-    print(not ($Var() and (g() or f())))
+    print(not (f() and (g() or f())))

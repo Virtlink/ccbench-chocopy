@@ -1,1 +1,1 @@
-Not(Member2Exp(Member(Var2Exp(Var("self")),"p")))
+VarDef2ClassBodyMember(VarDef(TypedVar("p3",Type("bool")),True()))

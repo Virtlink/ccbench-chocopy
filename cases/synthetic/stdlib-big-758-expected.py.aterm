@@ -1,1 +1,1 @@
-TypedVar("digits5",ListType(Type("str")))
+TypedVar("x3",Type("int"))

@@ -1,1 +1,1 @@
-Var("foo")
+Var2Exp(Var("x"))

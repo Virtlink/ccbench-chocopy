@@ -1,1 +1,1 @@
-Gt(Var2Exp(Var("x")),Member2Exp(Member(Var2Exp(Var("self")),"value")))
+Is(Member2Exp(Member(Var2Exp(Var("self")),"left")),Literal2Exp(NONE()))

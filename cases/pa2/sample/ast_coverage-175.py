@@ -24,12 +24,7 @@ class bar(object):
         count = count + 1
 
         while x <= 0:
-            if self.p:
-                xx[$INT] = xx[1]
-                self.p = not self.p
-                x = x + 1
-            elif foo("Long"[0]) == 1:
-                self.p = self is None
+            $Block
 
         return "Nope"
 

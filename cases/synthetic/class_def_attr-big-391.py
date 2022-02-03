@@ -68,12 +68,12 @@ class C5(B):
     z4:bool = True
     z5:bool = True
 
-a:A = None
+a:$Type = None
 a2:A = None
 a3:A = None
 a4:A = None
 a5:A = None
-$Definition
+b:B = None
 b2:B = None
 b3:B = None
 b4:B = None

@@ -13,7 +13,6 @@ class B(A):
     def bar(self:"B") -> int:
         return self.foo(self.b)
 
-    def foo(self:"B", ignore:object) -> int:
-        $FuncBody
+    $FuncDef
 
 print(B().bar())

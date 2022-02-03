@@ -47,7 +47,7 @@ class bar(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        return "Nope"
+        return $Literal
 
 
 class bar2(object):
@@ -56,7 +56,7 @@ class bar2(object):
 
     def baz(self:"bar2", xx: [int]) -> str:
         global count
-        $TypedVar = 0
+        x:int = 0
         y:int = 1
 
         def qux(y: int) -> object:

@@ -8,9 +8,9 @@ def get_prime(n:int) -> int:
             if found == n:
                 return candidate
         candidate = candidate + 1
-    return 0 # Never happens
+    return $Literal # Never happens
 
-def is_prime(x:int) -> $Type:
+def is_prime(x:int) -> bool:
     div:int = 2
     div2:int = 2
     div3:int = 2

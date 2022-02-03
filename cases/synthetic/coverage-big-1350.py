@@ -167,7 +167,7 @@ class bar3(object):
         def qux2(y: int, y2: int) -> object:
             nonlocal x
             nonlocal x2
-            if x > y:
+            if $Exp:
                 x = -1
 
         for x in xx:
@@ -181,7 +181,7 @@ class bar3(object):
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
-                x = x + $Literal
+                x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 

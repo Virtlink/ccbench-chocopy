@@ -1,1 +1,1 @@
-TypedVar("digit4",Type("int"))
+Var2Exp(Var("char"))

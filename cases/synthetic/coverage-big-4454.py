@@ -555,7 +555,7 @@ class bar5(object):
         for x in xx:
             self.p = x == 2
 
-        qux(0) # Yay! ChocoPy
+        qux($Exp) # Yay! ChocoPy
 
         count = count + 1
 
@@ -605,7 +605,7 @@ class bar5(object):
             nonlocal x2
             nonlocal x3
             nonlocal x4
-            if $Exp > y:
+            if x > y:
                 x = -1
 
         def qux5(y: int, y2: int, y3: int, y4: int, y5: int) -> object:

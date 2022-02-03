@@ -1,1 +1,1 @@
-Var2Exp(Var("v"))
+List([Literal2Exp(Int("0"))])

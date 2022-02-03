@@ -1,1 +1,1 @@
-"10"
+Negative(Var2Exp(Var("x")))

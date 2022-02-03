@@ -29,9 +29,7 @@ def is_prime2(x:int, x2:int) -> bool:
     div4:int = 2
     div5:int = 2
     while div < x:
-        if x % div == 0:
-            return False
-        $Target = div + 1
+        $Block
     return True
 
 def is_prime3(x:int, x2:int, x3:int) -> bool:

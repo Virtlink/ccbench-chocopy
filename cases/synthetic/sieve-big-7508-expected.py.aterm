@@ -1,1 +1,1 @@
-Exps2Parameters([Var2Exp(Var("i"))])
+VarDef(TypedVar("doubling_limit",Type("int")),Int("1000"))

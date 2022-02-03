@@ -1,1 +1,1 @@
-VarDef2Definition(VarDef(TypedVar("n",Type("int")),Int("10")))
+Return(Literal2Exp(Int("0")))

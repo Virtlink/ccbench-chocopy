@@ -29,8 +29,8 @@ def exp(x: int, y: int) -> int:
     a5 = 1
     return f(y)
 
-def exp2(x: int, y: int, x2: int, y2: int) -> int:
-    a: int = $INT
+def exp2($ID: int, y: int, x2: int, y2: int) -> int:
+    a: int = 0
     a2: int = 0
     a3: int = 0
     a4: int = 0

@@ -1,1 +1,1 @@
-Literal2Exp(True())
+Var2Exp(Var("self"))

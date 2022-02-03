@@ -1,5 +1,5 @@
 
-def foo(x:int) -> $ID:
+def foo(x:int) $RetType:
     a:int = 0
     b:int = 1
     def bar(y: int) -> int:

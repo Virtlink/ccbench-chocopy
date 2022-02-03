@@ -5,6 +5,6 @@ def foo(x:int) -> bool:
     def bar(y: int) -> int:
         a:int = 2 
         return y
-    return bar(x) > a
+    return bar(x) > $Var
 
-foo($Exp)
+foo(1)

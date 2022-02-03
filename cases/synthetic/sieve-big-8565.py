@@ -953,7 +953,7 @@ def vrange5(i:int, j:int, i2:int, j2:int, i3:int, j3:int, i4:int, j4:int, i5:int
 
 # Sieve of Eratosthenes (not really)
 def sieve(v:Vector) -> object:
-    i:int = 0
+    $FuncBodyMember
     j:int = 0
     k:int = 0
 
@@ -1031,7 +1031,31 @@ def sieve4(v:Vector, v2:Vector, v3:Vector, v4:Vector) -> object:
         i = i + 1
 
 def sieve5(v:Vector, v2:Vector, v3:Vector, v4:Vector, v5:Vector) -> object:
-    $FuncBody
+    i:int = 0
+    i2:int = 0
+    i3:int = 0
+    i4:int = 0
+    i5:int = 0
+    j:int = 0
+    j2:int = 0
+    j3:int = 0
+    j4:int = 0
+    j5:int = 0
+    k:int = 0
+    k2:int = 0
+    k3:int = 0
+    k4:int = 0
+    k5:int = 0
+
+    while i < v.length():
+        k = v.get(i)
+        j = i + 1
+        while j < v.length():
+            if v.get(j) % k == 0:
+                v.remove_at(j)
+            else:
+                j = j + 1
+        i = i + 1
 
 # Input parameter
 n:int = 50

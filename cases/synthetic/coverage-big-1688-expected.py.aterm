@@ -1,1 +1,1 @@
-Index2Exp(Index(Literal2Exp(String("\"Long\"")),Literal2Exp(Int("0"))))
+TypedVar("y2",Type("int"))

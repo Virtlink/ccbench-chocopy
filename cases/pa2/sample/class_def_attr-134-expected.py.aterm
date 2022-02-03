@@ -1,1 +1,1 @@
-Member(Var2Exp(Var("b")),"x")
+Assign([Target(Member2Target(Member(Var2Exp(Var("c")),"z")))],Eq(Member2Exp(Member(Var2Exp(Var("a")),"x")),Member2Exp(Member(Var2Exp(Var("b")),"x"))))

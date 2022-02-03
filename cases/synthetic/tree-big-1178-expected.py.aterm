@@ -1,1 +1,1 @@
-Var2Exp(Var("makeNode3"))
+Returns(Type("bool"))

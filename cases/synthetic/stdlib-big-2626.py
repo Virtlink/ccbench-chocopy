@@ -312,7 +312,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
     # Compute result
     return result * sign
 
-def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
+def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> $ID:
     result:int = 0
     result2:int = 0
     result3:int = 0
@@ -337,7 +337,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
     first_char2:bool = True
     first_char3:bool = True
     first_char4:bool = True
-    $FuncBodyMember
+    first_char5:bool = True
 
     # Parse digits
     for char in x:

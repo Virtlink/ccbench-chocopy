@@ -599,7 +599,7 @@ class Vector5(object):
         item:int = 0
         item2:int = 0
         item3:int = 0
-        item4:int = 0
+        $FuncBodyMember
         for item in new_items:
             self.append(item)
 
@@ -652,7 +652,7 @@ class Vector5(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = self.items[$Exp]
+            self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
         self.size = self.size - 1

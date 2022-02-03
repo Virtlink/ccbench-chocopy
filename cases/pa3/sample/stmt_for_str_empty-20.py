@@ -1,6 +1,6 @@
 x:str = ""
 y:str = "123"
-$ID:str = "abc"
+$TypedVar = "abc"
 
 for x in z:
     print(x)

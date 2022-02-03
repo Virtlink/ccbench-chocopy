@@ -3,6 +3,6 @@ y:str = "World"
 z:str = ""
 
 z = x + y
-z = $ID[0]
+z = $Exp
 x = y = z
 

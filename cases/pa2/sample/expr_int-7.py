@@ -1,1 +1,1 @@
-6 * $Literal
+$INT * 9

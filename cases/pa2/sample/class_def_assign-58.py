@@ -9,8 +9,8 @@ class C(B):
     z:bool = True
 
 a:A = None
-b:B = None
 $TypedVar = None
+c:C = None
 
 a = A()
 a = B()

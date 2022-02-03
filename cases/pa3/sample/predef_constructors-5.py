@@ -1,4 +1,4 @@
-$ID(object() is None)
+$Exp(object() is None)
 print(int())
 print(str())
 print(bool())

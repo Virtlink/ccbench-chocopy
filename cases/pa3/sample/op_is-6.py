@@ -1,5 +1,5 @@
 class A(object):
-    $ClassBodyMember
+    $ClassBody
 
 a1:A = None
 a2:A = None

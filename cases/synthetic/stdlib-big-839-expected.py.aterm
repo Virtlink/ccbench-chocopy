@@ -1,1 +1,1 @@
-"\"9\""
+VarDef2FuncBodyMember(VarDef(TypedVar("result4",Type("str")),String("\"\"")))

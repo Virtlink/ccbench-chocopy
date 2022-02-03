@@ -1,1 +1,1 @@
-Member(Member2Exp(Member(Var2Exp(Var("self")),"root")),"contains")
+VarDef2ClassBodyMember(VarDef(TypedVar("size",Type("int")),Int("0")))

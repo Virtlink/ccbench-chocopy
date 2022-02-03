@@ -2,7 +2,7 @@
 
 s: str = ""
 
-s = input($Parameters)
+s = $Exp()
 while len(s) > 0:
     print(s)
     s = input()

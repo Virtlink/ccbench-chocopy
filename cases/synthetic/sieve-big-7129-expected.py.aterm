@@ -1,1 +1,1 @@
-Exps2Parameters([])
+TypedVar("self",TypeS(IdString("DoublingVector4")))

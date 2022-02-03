@@ -1,3 +1,3 @@
-x:$ID = 1
+x:$Type = 1
 
 print(len(x))

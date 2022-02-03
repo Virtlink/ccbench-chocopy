@@ -369,7 +369,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
             digit = 9
         else:
             return 0 # On error
-        first_char = False
+        $ID = False
         result = result * 10 + digit
 
     # Compute result
@@ -402,7 +402,7 @@ i = -n * c
 
 # Crunch
 while i <= n * c:
-    s = $Var(i)
+    s = int_to_str(i)
     print(s)
     i = str_to_int(s) + c
 

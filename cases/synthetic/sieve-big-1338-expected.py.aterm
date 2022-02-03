@@ -1,1 +1,1 @@
-Var("self")
+TypeS(IdString("Vector3"))

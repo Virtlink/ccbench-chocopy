@@ -1,1 +1,1 @@
-Member(Call(Var2Exp(Var("get_b")),Exps2Parameters([])),"b")
+Call(Var2Exp(Var("get_b")),Exps2Parameters([]))

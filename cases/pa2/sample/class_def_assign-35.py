@@ -3,10 +3,10 @@ class A(object):
 
 class B(A):
     def __init__(self: "B"):
-        pass
+        $Statement
 
 class C(B):
-    $ClassBodyMember
+    z:bool = True
 
 a:A = None
 b:B = None

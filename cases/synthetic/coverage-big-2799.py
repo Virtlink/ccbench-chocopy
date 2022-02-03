@@ -346,7 +346,7 @@ class bar4(object):
 
         return "Nope"
 
-    def baz4(self:"bar4", xx: [int], xx2: [int], xx3: [int], xx4: [int]) -> str:
+    def baz4(self:$IDSTRING, xx: [int], xx2: [int], xx3: [int], xx4: [int]) -> str:
         global count
         x:int = 0
         x2:int = 0
@@ -380,7 +380,7 @@ class bar4(object):
             nonlocal x2
             nonlocal x3
             nonlocal x4
-            if x > $ID:
+            if x > y:
                 x = -1
 
         for x in xx:

@@ -550,7 +550,7 @@ class Tree3(object):
     root:TreeNode3 = None
     root2:TreeNode3 = None
     root3:TreeNode3 = None
-    size:int = 0
+    size:int = $INT
     size2:int = 0
     size3:int = 0
 
@@ -594,7 +594,7 @@ class Tree3(object):
         if self.root is None:
             return False
         else:
-            return self.root.$ID(x)
+            return self.root.contains(x)
 
 
 class Tree4(object):

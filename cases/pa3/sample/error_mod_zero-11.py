@@ -1,1 +1,1 @@
-print(42 % $Exp)
+print($Exp % 0)

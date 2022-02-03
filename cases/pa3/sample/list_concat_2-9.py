@@ -1,5 +1,5 @@
-z:[int] = None
-$Definition
+z:[int] = $Literal
+i:int = 0
 
 z = [1,2,3] + [4,5,6] + [7,8,9]
 

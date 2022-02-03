@@ -1,1 +1,1 @@
-Var2Exp(Var("get_b"))
+Var("get_b")

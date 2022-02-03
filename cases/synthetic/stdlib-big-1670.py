@@ -194,7 +194,7 @@ def str_to_int2(x: str, x2: str) -> int:
         elif char == "9":
             digit = 9
         else:
-            return 0 # On error
+            return $Literal # On error
         first_char = False
         result = result * 10 + digit
 
@@ -210,7 +210,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
     digit3:int = 0
     char:str = ""
     char2:str = ""
-    char3:str = $STRING
+    char3:str = ""
     sign:int = 1
     sign2:int = 1
     sign3:int = 1

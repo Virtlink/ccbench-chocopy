@@ -1,1 +1,1 @@
-Var2Exp(Var("s"))
+TypedVar("s4",Type("str"))

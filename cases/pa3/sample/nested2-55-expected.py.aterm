@@ -1,1 +1,1 @@
-Exps2Parameters([Var2Exp(Var("y"))])
+FuncBody([],[Return(Call(Var2Exp(Var("qux")),Exps2Parameters([Var2Exp(Var("y"))])))])

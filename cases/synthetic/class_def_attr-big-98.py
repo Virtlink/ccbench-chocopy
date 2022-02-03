@@ -14,7 +14,7 @@ class A4(object):
     x:int = 1
     x2:int = 1
     x3:int = 1
-    x4:$ID = 1
+    $ClassBodyMember
 
 class A5(object):
     x:int = 1

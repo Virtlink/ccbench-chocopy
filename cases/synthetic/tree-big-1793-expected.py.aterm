@@ -1,1 +1,1 @@
-TypeS(IdString("TreeNode4"))
+Block([Return(Literal2Exp(False()))])

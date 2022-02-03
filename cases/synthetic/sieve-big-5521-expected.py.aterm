@@ -1,1 +1,1 @@
-ReturnNone()
+TypedVar("item2",Type("int"))

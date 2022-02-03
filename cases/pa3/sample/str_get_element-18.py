@@ -1,6 +1,6 @@
 x:str = "abc"
 a:str = ""
-$VarDef
+$Definition
 c:str = ""
 
 def str_get(s:str, i:int) -> str:

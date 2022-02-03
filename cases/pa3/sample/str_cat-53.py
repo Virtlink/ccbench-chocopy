@@ -5,8 +5,7 @@ c:str = "ChocoPy"
 def cat2(a:str, b:str) -> str:
     return a + b
 
-def cat3(a:$Type, b:str, c:str) -> str:
-    return a + b + c
+$FuncDef
 
 print(cat2(a, b))
 print(cat2("", c))

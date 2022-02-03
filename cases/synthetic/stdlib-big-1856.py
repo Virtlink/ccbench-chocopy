@@ -220,7 +220,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
 
     # Parse digits
     for char in x:
-        if char == "-":
+        if char == $Exp:
             if not first_char:
                 return 0 # Error
             sign = -1
@@ -236,7 +236,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
             digit = 3
         elif char == "4":
             digit = 4
-        elif $ID == "5":
+        elif char == "5":
             digit = 5
         elif char == "6":
             digit = 6

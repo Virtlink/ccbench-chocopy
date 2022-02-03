@@ -501,7 +501,7 @@ class Tree(object):
             self.root = makeNode(x)
             self.size = 1
         else:
-            if self.root.insert(x):
+            if self.root.insert($Parameters):
                 self.size = self.size + 1
 
     def contains(self:"Tree", x:int) -> bool:
@@ -550,7 +550,7 @@ class Tree3(object):
     root:TreeNode3 = None
     root2:TreeNode3 = None
     root3:TreeNode3 = None
-    $VarDef
+    size:int = 0
     size2:int = 0
     size3:int = 0
 

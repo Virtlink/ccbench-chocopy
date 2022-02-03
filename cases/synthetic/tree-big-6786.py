@@ -673,7 +673,7 @@ class Tree5(object):
     size2:int = 0
     size3:int = 0
     size4:int = 0
-    size5:int = 0
+    $TypedVar = 0
 
     def insert(self:"Tree5", x:int) -> object:
         if self.root is None:
@@ -718,7 +718,8 @@ class Tree5(object):
     def contains(self:"Tree5", x:int) -> bool:
         if self.root is None:
             return False
-        $ElifElse
+        else:
+            return self.root.contains(x)
 
     def contains2(self:"Tree5", x:int, x2:int) -> bool:
         if self.root is None:

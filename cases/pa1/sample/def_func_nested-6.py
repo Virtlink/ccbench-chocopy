@@ -1,5 +1,5 @@
 
-def foo(x:$Type) -> bool:
+def foo($TypedVar) -> bool:
     a:int = 0
     b:int = 1
     def bar(y: int) -> int:

@@ -477,7 +477,7 @@ class bar5(object):
         x2:int = 0
         x3:int = 0
         y:int = 1
-        y2:int = 1
+        $VarDef
         y3:int = 1
 
         def qux(y: int) -> object:
@@ -519,7 +519,7 @@ class bar5(object):
         global count
         x:int = 0
         x2:int = 0
-        x3:int = $Literal
+        x3:int = 0
         x4:int = 0
         y:int = 1
         y2:int = 1

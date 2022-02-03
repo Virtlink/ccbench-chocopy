@@ -3,9 +3,9 @@ b:str = "World"
 c:str = "ChocoPy"
 
 def cat2(a:str, b:str) -> str:
-    return a + b
+    return a + $ID
 
-def cat3($TypedVar, b:str, c:str) -> str:
+def cat3(a:str, b:str, c:str) -> str:
     return a + b + c
 
 print(cat2(a, b))

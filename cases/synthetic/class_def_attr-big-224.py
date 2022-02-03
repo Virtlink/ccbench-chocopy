@@ -36,12 +36,12 @@ class B3(A):
         pass
 
 class B4(A):
-    def __init__(self: "B4"):
+    def __init__(self: $Type):
         pass
 
 class B5(A):
     def __init__(self: "B5"):
-        $FuncBody
+        pass
 
 class C(B):
     z:bool = True

@@ -1,1 +1,1 @@
-Var("C")
+Var2Exp(Var("B"))

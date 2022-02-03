@@ -1,1 +1,1 @@
-Var("digits")
+VarDef2FuncBodyMember(VarDef(TypedVar("result",Type("str")),String("\"\"")))

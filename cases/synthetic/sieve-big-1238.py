@@ -140,7 +140,7 @@ class Vector2(object):
         return self.size
 
     # Retrieves the current size of the vector
-    def length2(self:"Vector2") -> int:
+    def length2(self:"Vector2") $RetType:
         return self.size
 
 # A resizable list of integers
@@ -161,7 +161,7 @@ class Vector3(object):
 
     # Returns current capacity
     def capacity2(self:"Vector3") -> int:
-        $Statement
+        return len(self.items)
 
     # Returns current capacity
     def capacity3(self:"Vector3") -> int:

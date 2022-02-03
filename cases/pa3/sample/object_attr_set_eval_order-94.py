@@ -14,8 +14,8 @@ def get_b() -> B:
     print("Getting B")
     return b
 
-def get_one() -> int:
-    print($STRING)
+def get_one() $RetType:
+    print("Getting 1")
     return 1
 
 def get_false() -> bool:

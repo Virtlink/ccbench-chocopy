@@ -1,4 +1,4 @@
-def foo(x:str, y:bool) $RetType:
+def foo(x:str, y:$Type) -> int:
     return bar()
 
 def bar() -> int:

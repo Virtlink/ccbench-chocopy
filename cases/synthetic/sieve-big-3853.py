@@ -424,7 +424,7 @@ class Vector4(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
+            self.items[idx] = self.items[idx + $Exp]
             idx = idx + 1
 
         self.size = self.size - 1
@@ -474,7 +474,239 @@ class Vector4(object):
 
 # A resizable list of integers
 class Vector5(object):
-    $ClassBody
+    items: [int] = None
+    items2: [int] = None
+    items3: [int] = None
+    items4: [int] = None
+    items5: [int] = None
+    size: int = 0
+    size2: int = 0
+    size3: int = 0
+    size4: int = 0
+    size5: int = 0
+
+    def __init__(self:"Vector5"):
+        self.items = [0]
+
+    # Returns current capacity
+    def capacity(self:"Vector5") -> int:
+        return len(self.items)
+
+    # Returns current capacity
+    def capacity2(self:"Vector5") -> int:
+        return len(self.items)
+
+    # Returns current capacity
+    def capacity3(self:"Vector5") -> int:
+        return len(self.items)
+
+    # Returns current capacity
+    def capacity4(self:"Vector5") -> int:
+        return len(self.items)
+
+    # Returns current capacity
+    def capacity5(self:"Vector5") -> int:
+        return len(self.items)
+
+    # Increases capacity of vector by one element
+    def increase_capacity(self:"Vector5") -> int:
+        self.items = self.items + [0]
+        return self.capacity()
+
+    # Increases capacity of vector by one element
+    def increase_capacity2(self:"Vector5") -> int:
+        self.items = self.items + [0]
+        return self.capacity()
+
+    # Increases capacity of vector by one element
+    def increase_capacity3(self:"Vector5") -> int:
+        self.items = self.items + [0]
+        return self.capacity()
+
+    # Increases capacity of vector by one element
+    def increase_capacity4(self:"Vector5") -> int:
+        self.items = self.items + [0]
+        return self.capacity()
+
+    # Increases capacity of vector by one element
+    def increase_capacity5(self:"Vector5") -> int:
+        self.items = self.items + [0]
+        return self.capacity()
+
+    # Appends one item to end of vector
+    def append(self:"Vector5", item: int) -> object:
+        if self.size == self.capacity():
+            self.increase_capacity()
+
+        self.items[self.size] = item
+        self.size = self.size + 1
+
+    # Appends one item to end of vector
+    def append2(self:"Vector5", item: int, item2: int) -> object:
+        if self.size == self.capacity():
+            self.increase_capacity()
+
+        self.items[self.size] = item
+        self.size = self.size + 1
+
+    # Appends one item to end of vector
+    def append3(self:"Vector5", item: int, item2: int, item3: int) -> object:
+        if self.size == self.capacity():
+            self.increase_capacity()
+
+        self.items[self.size] = item
+        self.size = self.size + 1
+
+    # Appends one item to end of vector
+    def append4(self:"Vector5", item: int, item2: int, item3: int, item4: int) -> object:
+        if self.size == self.capacity():
+            self.increase_capacity()
+
+        self.items[self.size] = item
+        self.size = self.size + 1
+
+    # Appends one item to end of vector
+    def append5(self:"Vector5", item: int, item2: int, item3: int, item4: int, item5: int) -> object:
+        if self.size == self.capacity():
+            self.increase_capacity()
+
+        self.items[self.size] = item
+        self.size = self.size + 1
+
+    # Appends many items to end of vector
+    def append_all(self:"Vector5", new_items: [int]) -> object:
+        item:int = 0
+        for item in new_items:
+            self.append(item)
+
+    # Appends many items to end of vector
+    def append_all2(self:"Vector5", new_items: [int], new_items2: [int]) -> object:
+        item:int = 0
+        item2:int = 0
+        for item in new_items:
+            self.append(item)
+
+    # Appends many items to end of vector
+    def append_all3(self:"Vector5", new_items: [int], new_items2: [int], new_items3: [int]) -> object:
+        item:int = 0
+        item2:int = 0
+        item3:int = 0
+        for item in new_items:
+            self.append(item)
+
+    # Appends many items to end of vector
+    def append_all4(self:"Vector5", new_items: [int], new_items2: [int], new_items3: [int], new_items4: [int]) -> object:
+        item:int = 0
+        item2:int = 0
+        item3:int = 0
+        item4:int = 0
+        for item in new_items:
+            self.append(item)
+
+    # Appends many items to end of vector
+    def append_all5(self:"Vector5", new_items: [int], new_items2: [int], new_items3: [int], new_items4: [int], new_items5: [int]) -> object:
+        item:int = 0
+        item2:int = 0
+        item3:int = 0
+        item4:int = 0
+        item5:int = 0
+        for item in new_items:
+            self.append(item)
+
+    # Removes an item from the middle of vector
+    def remove_at(self:"Vector5", idx: int) -> object:
+        if idx < 0:
+            return
+
+        while idx < self.size - 1:
+            self.items[idx] = self.items[idx + 1]
+            idx = idx + 1
+
+        self.size = self.size - 1
+
+    # Removes an item from the middle of vector
+    def remove_at2(self:"Vector5", idx: int, idx2: int) -> object:
+        if idx < 0:
+            return
+
+        while idx < self.size - 1:
+            self.items[idx] = self.items[idx + 1]
+            idx = idx + 1
+
+        self.size = self.size - 1
+
+    # Removes an item from the middle of vector
+    def remove_at3(self:"Vector5", idx: int, idx2: int, idx3: int) -> object:
+        if idx < 0:
+            return
+
+        while idx < self.size - 1:
+            self.items[idx] = self.items[idx + 1]
+            idx = idx + 1
+
+        self.size = self.size - 1
+
+    # Removes an item from the middle of vector
+    def remove_at4(self:"Vector5", idx: int, idx2: int, idx3: int, idx4: int) -> object:
+        if idx < 0:
+            return
+
+        while idx < self.size - 1:
+            self.items[idx] = self.items[idx + 1]
+            idx = idx + 1
+
+        self.size = self.size - 1
+
+    # Removes an item from the middle of vector
+    def remove_at5(self:"Vector5", idx: int, idx2: int, idx3: int, idx4: int, idx5: int) -> object:
+        if idx < 0:
+            return
+
+        while idx < self.size - 1:
+            self.items[idx] = self.items[idx + 1]
+            idx = idx + 1
+
+        self.size = self.size - 1
+
+    # Retrieves an item at a given index
+    def get(self:"Vector5", idx: int) -> int:
+        return self.items[idx]
+
+    # Retrieves an item at a given index
+    def get2(self:"Vector5", idx: int, idx2: int) -> int:
+        return self.items[idx]
+
+    # Retrieves an item at a given index
+    def get3(self:"Vector5", idx: int, idx2: int, idx3: int) -> int:
+        return self.items[idx]
+
+    # Retrieves an item at a given index
+    def get4(self:"Vector5", idx: int, idx2: int, idx3: int, idx4: int) -> int:
+        return self.items[idx]
+
+    # Retrieves an item at a given index
+    def get5(self:"Vector5", idx: int, idx2: int, idx3: int, idx4: int, idx5: int) -> int:
+        return self.items[idx]
+
+    # Retrieves the current size of the vector
+    def length(self:"Vector5") -> int:
+        return self.size
+
+    # Retrieves the current size of the vector
+    def length2(self:"Vector5") -> int:
+        return self.size
+
+    # Retrieves the current size of the vector
+    def length3(self:"Vector5") -> int:
+        return self.size
+
+    # Retrieves the current size of the vector
+    def length4(self:"Vector5") -> int:
+        return self.size
+
+    # Retrieves the current size of the vector
+    def length5(self:"Vector5") -> int:
+        return self.size
 
 # A faster (but more memory-consuming) implementation of vector
 class DoublingVector(Vector):

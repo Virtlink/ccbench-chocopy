@@ -286,7 +286,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
             digit = 0
         elif char == "1":
             digit = 1
-        elif char == "2":
+        elif $Exp:
             digit = 2
         elif char == "3":
             digit = 3
@@ -307,7 +307,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
         else:
             return 0 # On error
         first_char = False
-        $Var = result * 10 + digit
+        result = result * 10 + digit
 
     # Compute result
     return result * sign

@@ -6,9 +6,9 @@ def foo(s: str) -> int:
 class bar(object):
     p: bool = True
 
-    def baz(self:"bar", xx: [int]) -> str:
+    def baz(self:"bar", xx: [$ID]) -> str:
         global count
-        $FuncBodyMember
+        x:int = 0
         y:int = 1
 
         def qux(y: int) -> object:

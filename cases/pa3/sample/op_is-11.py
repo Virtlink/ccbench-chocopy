@@ -1,5 +1,5 @@
 class A(object):
-    a:$ID = 42
+    $ID:int = 42
 
 a1:A = None
 a2:A = None

@@ -86,10 +86,10 @@ c5:C = None
 
 a = A()
 a2 = A()
-a3 = A()
+$AssignTarget A()
 a4 = A()
 a5 = A()
-b = $ID()
+b = B()
 b2 = B()
 b3 = B()
 b4 = B()

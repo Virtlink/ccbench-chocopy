@@ -1,1 +1,1 @@
-TypedVar("t4",Type("Tree"))
+TypedVar("x",Type("int"))

@@ -95,7 +95,7 @@ class Vector2(object):
     # Appends many items to end of vector
     def append_all(self:"Vector2", new_items: [int]) -> object:
         item:int = 0
-        for item in new_items:
+        for $ID in new_items:
             self.append(item)
 
     # Appends many items to end of vector
@@ -107,7 +107,8 @@ class Vector2(object):
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector2", idx: int) -> object:
-        $Statement
+        if idx < 0:
+            return
 
         while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]

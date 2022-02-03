@@ -1,1 +1,1 @@
-Literal2Exp(Int("7"))
+Target(Var2Target(Var("digit")))

@@ -910,7 +910,7 @@ def vrange2(i:int, j:int, i2:int, j2:int) -> Vector:
         v.append(i)
         i = i + 1
 
-    return v
+    return $Exp
 
 def vrange3(i:int, j:int, i2:int, j2:int, i3:int, j3:int) -> Vector:
     v:Vector = None
@@ -994,7 +994,7 @@ def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
     j3:int = 0
     k:int = 0
     k2:int = 0
-    $VarDef
+    k3:int = 0
 
     while i < v.length():
         k = v.get(i)

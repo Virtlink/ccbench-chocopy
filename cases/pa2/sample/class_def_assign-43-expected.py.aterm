@@ -1,1 +1,1 @@
-VarDef(TypedVar("a",Type("A")),NONE())
+VarDef(TypedVar("z",Type("bool")),True())

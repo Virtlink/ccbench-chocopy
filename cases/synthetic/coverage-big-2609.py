@@ -323,11 +323,7 @@ class bar4(object):
                 x = -1
 
         def qux3(y: int, y2: int, y3: int) -> object:
-            nonlocal x
-            nonlocal x2
-            nonlocal x3
-            if x > y:
-                x = -1
+            $FuncBody
 
         for x in xx:
             self.p = x == 2
@@ -350,7 +346,7 @@ class bar4(object):
         global count
         x:int = 0
         x2:int = 0
-        x3:int = $INT
+        x3:int = 0
         x4:int = 0
         y:int = 1
         y2:int = 1

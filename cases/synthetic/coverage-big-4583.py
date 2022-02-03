@@ -569,7 +569,7 @@ class bar5(object):
 
         return "Nope"
 
-    def baz5(self:"bar5", xx: [int], xx2: [int], xx3: [int], xx4: [int], xx5: [int]) -> str:
+    def baz5(self:$Type, xx: [int], xx2: [int], xx3: [int], xx4: [int], xx5: [int]) -> str:
         global count
         x:int = 0
         x2:int = 0
@@ -626,7 +626,9 @@ class bar5(object):
 
         while x <= 0:
             if self.p:
-                $Block
+                xx[0] = xx[1]
+                self.p = not self.p
+                x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 

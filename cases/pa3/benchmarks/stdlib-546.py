@@ -70,8 +70,8 @@ i:int = 0
 i = -n * c
 
 # Crunch
-while i <= n * c:
+while $Exp:
     s = int_to_str(i)
     print(s)
-    i = str_to_int($ID) + c
+    i = str_to_int(s) + c
 

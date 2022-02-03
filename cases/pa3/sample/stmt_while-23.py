@@ -1,4 +1,4 @@
 x:int = 1
 while x < 10:
-    print($Parameters)
+    $Exp(x)
     x = x + 1

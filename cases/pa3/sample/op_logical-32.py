@@ -3,8 +3,7 @@ def f() -> bool:
   return True
 
 def g() -> bool:
-  print($Parameters)
-  return False
+  $FuncBody
 
 if f() or g():      # Short-circuit
   if g() and f():   # Short-circuit

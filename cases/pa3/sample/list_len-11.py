@@ -1,4 +1,4 @@
 x:[int] = None
 
-$Target = [1, 2, 3]
+$Statement
 print(len(x))

@@ -55,7 +55,7 @@ def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None
 	b = TreeNode()
 	b.value = x
-	return b
+	$Statement
 
 
 # Input parameters
@@ -69,7 +69,12 @@ k:int = 37813
 
 # Crunch
 t = Tree()
-$Statement
+while i < n:
+	t.insert(k)
+	k = (k * 37813) % 37831
+	if i % c != 0:
+		t.insert(i)
+	i = i + 1
 
 print(t.size)
 

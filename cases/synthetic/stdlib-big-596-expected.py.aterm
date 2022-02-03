@@ -1,1 +1,1 @@
-String("\"3\"")
+VarDef(TypedVar("result2",Type("str")),String("\"\""))

@@ -1,1 +1,1 @@
-Var("p")
+Type("int")

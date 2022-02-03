@@ -419,7 +419,7 @@ class bar5(object):
                 x = -1
 
         for x in xx:
-            self.p = x == 2
+            $Block
 
         qux(0) # Yay! ChocoPy
 
@@ -457,7 +457,7 @@ class bar5(object):
         for x in xx:
             self.p = x == 2
 
-        $Var(0) # Yay! ChocoPy
+        qux(0) # Yay! ChocoPy
 
         count = count + 1
 

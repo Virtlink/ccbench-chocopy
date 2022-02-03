@@ -240,7 +240,7 @@ class Vector3(object):
 
     # Removes an item from the middle of vector
     def remove_at2(self:"Vector3", idx: int, idx2: int) -> object:
-        if idx < 0:
+        if idx < $INT:
             return
 
         while idx < self.size - 1:
@@ -262,7 +262,7 @@ class Vector3(object):
 
     # Retrieves an item at a given index
     def get(self:"Vector3", idx: int) -> int:
-        return self.items[$Exp]
+        return self.items[idx]
 
     # Retrieves an item at a given index
     def get2(self:"Vector3", idx: int, idx2: int) -> int:

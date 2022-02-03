@@ -834,7 +834,7 @@ class DoublingVector4(Vector):
 # A faster (but more memory-consuming) implementation of vector
 class DoublingVector5(Vector):
     doubling_limit:int = 1000
-    doubling_limit2:int = 1000
+    $VarDef
     doubling_limit3:int = 1000
     doubling_limit4:int = 1000
     doubling_limit5:int = 1000
@@ -920,7 +920,7 @@ def vrange3(i:int, j:int, i2:int, j2:int, i3:int, j3:int) -> Vector:
     
     while i < j:
         v.append(i)
-        $ID = i + 1
+        i = i + 1
 
     return v
 

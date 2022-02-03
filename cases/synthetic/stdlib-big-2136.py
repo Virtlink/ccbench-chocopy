@@ -254,7 +254,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
     # Compute result
     return result * sign
 
-def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
+def str_to_int4($ID: str, x2: str, x3: str, x4: str) -> int:
     result:int = 0
     result2:int = 0
     result3:int = 0
@@ -272,7 +272,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
     sign3:int = 1
     sign4:int = 1
     first_char:bool = True
-    first_char2:$Type = True
+    first_char2:bool = True
     first_char3:bool = True
     first_char4:bool = True
 

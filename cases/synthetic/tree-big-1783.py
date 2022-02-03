@@ -187,10 +187,7 @@ class TreeNode3(object):
 
     def contains3(self:"TreeNode3", x:int, x2:int, x3:int) -> bool:
         if x < self.value:
-            if self.left is None:
-                return False
-            else:
-                return self.left.contains(x)
+            $Statement
         elif x > self.value:
             if self.right is None:
                 return False
@@ -210,7 +207,7 @@ class TreeNode4(object):
     left3:"TreeNode4" = None
     left4:"TreeNode4" = None
     right:"TreeNode4" = None
-    $TypedVar = None
+    right2:"TreeNode4" = None
     right3:"TreeNode4" = None
     right4:"TreeNode4" = None
 

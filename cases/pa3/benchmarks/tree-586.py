@@ -69,12 +69,12 @@ k:int = 37813
 
 # Crunch
 t = Tree()
-while i < n:
+while i < $ID:
 	t.insert(k)
 	k = (k * 37813) % 37831
 	if i % c != 0:
 		t.insert(i)
-	$AssignTarget i + 1
+	i = i + 1
 
 print(t.size)
 

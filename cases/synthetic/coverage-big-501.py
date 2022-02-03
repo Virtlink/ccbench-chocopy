@@ -59,13 +59,13 @@ class bar2(object):
         x:int = 0
         y:int = 1
 
-        def qux(y: int) -> object:
+        def $ID(y: int) -> object:
             nonlocal x
             if x > y:
                 x = -1
 
         for x in xx:
-            self.p = $Var == 2
+            self.p = x == 2
 
         qux(0) # Yay! ChocoPy
 

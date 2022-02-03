@@ -1,6 +1,7 @@
 if False:
     pass
-elif True:
-    $Statement
+elif $Exp:
+    if 1 == 1:
+        pass
 else:
     pass

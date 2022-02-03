@@ -1,1 +1,1 @@
-Global("count")
+Add(Var2Exp(Var("count")),Literal2Exp(Int("1")))

@@ -6,9 +6,9 @@ def exp(x: int, y: int) -> int:
 		def geta() -> int:
 			return a
 		if i <= 0:
-			return geta()
+			return $ID()
 		else:
-			a = $Exp * x
+			a = a * x
 			return f(i-1)
 	a = 1
 	return f(y)

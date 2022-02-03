@@ -48,9 +48,9 @@ class TreeNode2(object):
                 self.left = makeNode2(x, x)
                 return True
             else:
-                return self.left.insert(x)
+                $Block
         elif x > self.value:
-            if self.right is $Literal:
+            if self.right is None:
                 self.right = makeNode2(x, x)
                 return True
             else:

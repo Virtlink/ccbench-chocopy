@@ -13,7 +13,7 @@ b:B = None
 a = B()
 print(a.a)
 
-b.a = 1
+b.a = $INT
 b.b = False
-$Exp
+print(b.a)
 print(b.b)

@@ -1,5 +1,5 @@
-def concat(x:[int], y:[int]) -> [int]:
-    $FuncBody
+def concat(x:[int], y:[int]) -> [$Type]:
+    return x + y
 
 z:[int] = None
 i:int = 0

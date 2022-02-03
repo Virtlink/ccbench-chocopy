@@ -11,7 +11,7 @@ class B(A):
         print("B")
 
     def bar(self:"B") -> int:
-        a:A = None
-        return $Var.foo(self.b)
+        $FuncBodyMember
+        return a.foo(self.b)
 
 print(B().bar())

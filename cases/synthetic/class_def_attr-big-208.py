@@ -33,11 +33,11 @@ class B2(A):
 
 class B3(A):
     def __init__(self: "B3"):
-        pass
+        $FuncBody
 
 class B4(A):
     def __init__(self: "B4"):
-        $FuncBody
+        pass
 
 class B5(A):
     def __init__(self: "B5"):

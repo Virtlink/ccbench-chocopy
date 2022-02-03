@@ -412,7 +412,7 @@ class Vector4(object):
         if idx < 0:
             return
 
-        while idx < self.size - 1:
+        while idx < self.size - $Literal:
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
@@ -449,7 +449,7 @@ class Vector4(object):
         return self.items[idx]
 
     # Retrieves an item at a given index
-    def get3(self:"Vector4", idx: $Type, idx2: int, idx3: int) -> int:
+    def get3(self:"Vector4", idx: int, idx2: int, idx3: int) -> int:
         return self.items[idx]
 
     # Retrieves an item at a given index

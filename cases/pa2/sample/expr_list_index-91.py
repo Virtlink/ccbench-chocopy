@@ -8,5 +8,5 @@ z = [False, True]
 
 y = x[0]
 x[0] = 1
-z[$Literal] = z[0]
+$Statement
 o = x[1]

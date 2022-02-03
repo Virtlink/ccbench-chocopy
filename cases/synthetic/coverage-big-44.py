@@ -4,7 +4,7 @@ count3:int = 0
 count4:int = 0
 count5:int = 0
 
-def foo($TypedVar) -> int:
+def $ID(s: str) -> int:
     return len(s)
 
 def foo2(s: str, s2: str) -> int:

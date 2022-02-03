@@ -210,7 +210,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
     digit3:int = 0
     char:str = ""
     char2:str = ""
-    char3:str = ""
+    $FuncBodyMember
     sign:int = 1
     sign2:int = 1
     sign3:int = 1
@@ -228,7 +228,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
             digit = 0
         elif char == "1":
             digit = 1
-        elif char == $Literal:
+        elif char == "2":
             digit = 2
         elif char == "3":
             digit = 3

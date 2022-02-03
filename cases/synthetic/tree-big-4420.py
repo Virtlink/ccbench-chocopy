@@ -442,7 +442,7 @@ class TreeNode5(object):
                 return False
             else:
                 return self.left.contains(x)
-        elif x > self.value:
+        elif x > $ID.value:
             if self.right is None:
                 return False
             else:
@@ -486,7 +486,7 @@ class TreeNode5(object):
                 return self.left.contains(x)
         elif x > self.value:
             if self.right is None:
-                $Block
+                return False
             else:
                 return self.right.contains(x)
         else:

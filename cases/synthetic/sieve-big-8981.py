@@ -992,7 +992,7 @@ def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
     j:int = 0
     j2:int = 0
     j3:int = 0
-    k:int = 0
+    $FuncBodyMember
     k2:int = 0
     k3:int = 0
 
@@ -1081,7 +1081,7 @@ v = vrange(2, n)
 v2 = vrange(2, n)
 v3 = vrange(2, n)
 v4 = vrange(2, n)
-$AssignTarget vrange(2, n)
+v5 = vrange(2, n)
 sieve(v)
 
 # Print

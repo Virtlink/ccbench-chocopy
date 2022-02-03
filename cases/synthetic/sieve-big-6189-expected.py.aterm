@@ -1,1 +1,1 @@
-TypedVar("self",TypeS(IdString("DoublingVector3")))
+TypeS(IdString("Vector5"))

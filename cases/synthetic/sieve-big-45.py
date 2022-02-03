@@ -4,10 +4,11 @@ class Vector(object):
     size: int = 0
 
     def __init__(self:"Vector"):
-        self.items = [0]
+        self.$ID = [0]
 
     # Returns current capacity
-    $FuncDef
+    def capacity(self:"Vector") -> int:
+        return len(self.items)
 
     # Increases capacity of vector by one element
     def increase_capacity(self:"Vector") -> int:

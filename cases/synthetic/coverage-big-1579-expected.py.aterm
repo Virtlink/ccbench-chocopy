@@ -1,1 +1,1 @@
-Var2Exp(Var("xx"))
+VarDef(TypedVar("y",Type("int")),Int("1"))

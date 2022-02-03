@@ -494,7 +494,7 @@ class TreeNode5(object):
 
 class Tree(object):
     root:TreeNode = None
-    size:int = 0
+    size:$ID = 0
 
     def insert(self:"Tree", x:int) -> object:
         if self.root is None:
@@ -539,7 +539,11 @@ class Tree2(object):
         else:
             return self.root.contains(x)
 
-    $ClassBodyMember
+    def contains2(self:"Tree2", x:int, x2:int) -> bool:
+        if self.root is None:
+            return False
+        else:
+            return self.root.contains(x)
 
 
 class Tree3(object):

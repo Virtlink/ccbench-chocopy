@@ -38,10 +38,10 @@ def int_to_str2(x: int, x2: int) -> str:
     return result
 
 def int_to_str3(x: int, x2: int, x3: int) -> str:
-    digits:[str] = None 
+    $VarDef 
     digits2:[str] = None 
     digits3:[str] = None 
-    result:$Type = ""
+    result:str = ""
     result2:str = ""
     result3:str = ""
 

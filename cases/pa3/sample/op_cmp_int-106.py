@@ -8,7 +8,7 @@ print(x <= y)
 print(x > y)
 print(x >= y)
 
-print(x == $Var)
+$Var(x == x)
 print(x != x)
 print(x < x)
 print(x <= x)

@@ -1,1 +1,1 @@
-Mul(Var2Exp(Var("k")),Literal2Exp(Int("37813")))
+"int"

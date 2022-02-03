@@ -1,1 +1,1 @@
-"len"
+Member(Var2Exp(Var("self")),"items")

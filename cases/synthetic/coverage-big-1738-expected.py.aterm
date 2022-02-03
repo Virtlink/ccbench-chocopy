@@ -1,1 +1,1 @@
-VarDef(TypedVar("p3",Type("bool")),True())
+Target(Member2Target(Member(Var2Exp(Var("self")),"p")))

@@ -1,1 +1,1 @@
-Type("bool")
+ListType(Type("bool"))

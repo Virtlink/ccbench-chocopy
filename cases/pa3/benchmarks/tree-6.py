@@ -1,37 +1,6 @@
 # Binary-search trees
 class TreeNode(object):
-	$ClassBodyMember
-	left:"TreeNode" = None
-	right:"TreeNode" = None
-
-	def insert(self:"TreeNode", x:int) -> bool:
-		if x < self.value:
-			if self.left is None:
-				self.left = makeNode(x)
-				return True
-			else:
-				return self.left.insert(x)
-		elif x > self.value:
-			if self.right is None:
-				self.right = makeNode(x)
-				return True
-			else:
-				return self.right.insert(x)
-		return False
-
-	def contains(self:"TreeNode", x:int) -> bool:
-		if x < self.value:
-			if self.left is None:
-				return False
-			else:
-				return self.left.contains(x)
-		elif x > self.value:
-			if self.right is None:
-				return False
-			else:
-				return self.right.contains(x)
-		else:
-			return True
+	$ClassBody
 
 class Tree(object):
 	root:TreeNode = None

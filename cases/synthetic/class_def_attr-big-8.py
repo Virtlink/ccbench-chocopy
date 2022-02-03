@@ -1,5 +1,5 @@
 class A(object):
-    $TypedVar = 1
+    $ClassBodyMember
 
 class A2(object):
     x:int = 1

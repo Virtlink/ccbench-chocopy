@@ -1,5 +1,5 @@
 class A(object):
-    x:int = $Literal
+    x:$Type = 1
 
 class A2(object):
     x:int = 1

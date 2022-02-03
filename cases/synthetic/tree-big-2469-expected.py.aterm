@@ -1,1 +1,1 @@
-"x"
+Return(Literal2Exp(True()))

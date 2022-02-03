@@ -1,1 +1,1 @@
-TypedVar("msg",Type("str"))
+Literal2Exp(String("\"h\""))

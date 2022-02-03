@@ -433,7 +433,7 @@ class bar5(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        return "Nope"
+        return $STRING
 
 
     def baz2(self:"bar5", xx: [int], xx2: [int]) -> str:
@@ -473,7 +473,7 @@ class bar5(object):
 
     def baz3(self:"bar5", xx: [int], xx2: [int], xx3: [int]) -> str:
         global count
-        $VarDef
+        x:int = 0
         x2:int = 0
         x3:int = 0
         y:int = 1

@@ -526,10 +526,7 @@ class bar5(object):
         y3:int = 1
         y4:int = 1
 
-        def qux(y: int) -> object:
-            nonlocal x
-            if x > y:
-                x = -1
+        $FuncBodyMember
 
         def qux2(y: int, y2: int) -> object:
             nonlocal x
@@ -572,7 +569,7 @@ class bar5(object):
     def baz5(self:"bar5", xx: [int], xx2: [int], xx3: [int], xx4: [int], xx5: [int]) -> str:
         global count
         x:int = 0
-        x2:$ID = 0
+        x2:int = 0
         x3:int = 0
         x4:int = 0
         x5:int = 0

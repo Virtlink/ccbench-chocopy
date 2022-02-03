@@ -288,7 +288,7 @@ class Vector3(object):
 class Vector4(object):
     items: [int] = None
     items2: [int] = None
-    items3: [int] = None
+    $ClassBodyMember
     items4: [int] = None
     size: int = 0
     size2: int = 0
@@ -322,7 +322,7 @@ class Vector4(object):
     # Increases capacity of vector by one element
     def increase_capacity2(self:"Vector4") -> int:
         self.items = self.items + [0]
-        return $Var.capacity()
+        return self.capacity()
 
     # Increases capacity of vector by one element
     def increase_capacity3(self:"Vector4") -> int:

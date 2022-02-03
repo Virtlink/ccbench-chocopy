@@ -1,1 +1,1 @@
-Literal2Exp(String("\"3\""))
+TypedVar("first_char2",Type("bool"))

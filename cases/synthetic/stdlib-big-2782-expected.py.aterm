@@ -1,1 +1,1 @@
-"digit"
+VarDef(TypedVar("sign5",Type("int")),Int("1"))

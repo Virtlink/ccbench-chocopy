@@ -33,10 +33,10 @@ def exp2(x: int, y: int, x2: int, y2: int) -> int:
     a: int = 0
     a2: int = 0
     a3: int = 0
-    a4: int = 0
+    $VarDef
     a5: int = 0
     def f(i: int) -> int:
-        nonlocal $ID
+        nonlocal a
         nonlocal a2
         nonlocal a3
         nonlocal a4

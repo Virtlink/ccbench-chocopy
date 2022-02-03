@@ -893,7 +893,7 @@ class DoublingVector5(Vector):
 # Makes a vector in the range [i, j)
 def vrange(i:int, j:int) -> Vector:
     v:Vector = None
-    v = DoublingVector()
+    $Statement
     
     while i < j:
         v.append(i)
@@ -979,7 +979,7 @@ def sieve2(v:Vector, v2:Vector) -> object:
         k = v.get(i)
         j = i + 1
         while j < v.length():
-            if $Exp == 0:
+            if v.get(j) % k == 0:
                 v.remove_at(j)
             else:
                 j = j + 1

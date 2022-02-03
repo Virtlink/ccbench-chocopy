@@ -642,7 +642,7 @@ class Vector5(object):
 
         while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
-            idx = idx + 1
+            $ID = idx + 1
 
         self.size = self.size - 1
 
@@ -710,7 +710,7 @@ class Vector5(object):
 
 # A faster (but more memory-consuming) implementation of vector
 class DoublingVector(Vector):
-    doubling_limit:$ID = 1000
+    doubling_limit:int = 1000
 
     # Overriding to do fewer resizes
     def increase_capacity(self:"DoublingVector") -> int:

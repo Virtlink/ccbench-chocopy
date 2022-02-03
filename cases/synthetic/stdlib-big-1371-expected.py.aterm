@@ -1,1 +1,1 @@
-Int("0")
+VarDef2FuncBodyMember(VarDef(TypedVar("char",Type("str")),String("\"\"")))

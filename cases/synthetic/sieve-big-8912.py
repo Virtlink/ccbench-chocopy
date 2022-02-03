@@ -985,26 +985,7 @@ def sieve2(v:Vector, v2:Vector) -> object:
                 j = j + 1
         i = i + 1
 
-def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
-    i:int = 0
-    i2:int = 0
-    i3:int = 0
-    j:int = 0
-    j2:int = 0
-    j3:int = 0
-    k:int = 0
-    k2:int = 0
-    k3:int = 0
-
-    while i < v.length():
-        k = v.get(i)
-        j = i + 1
-        while j < v.length():
-            if v.get(j) % k == 0:
-                v.remove_at(j)
-            else:
-                j = j + 1
-        i = i + 1
+$Definition
 
 def sieve4(v:Vector, v2:Vector, v3:Vector, v4:Vector) -> object:
     i:int = 0
@@ -1074,7 +1055,7 @@ i:int = 0
 i2:int = 0
 i3:int = 0
 i4:int = 0
-i5:$Type = 0
+i5:int = 0
 
 # Crunch
 v = vrange(2, n)

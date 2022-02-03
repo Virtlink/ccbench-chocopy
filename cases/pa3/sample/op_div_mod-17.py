@@ -1,5 +1,5 @@
 x:int = 42
-y:int = 9
+y:int = $INT
 
-$Statement
+print(x // y)
 print(x % y)

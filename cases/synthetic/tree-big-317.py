@@ -36,10 +36,10 @@ class TreeNode(object):
 
 class TreeNode2(object):
     value:int = 0
-    value2:int = 0
+    $ClassBodyMember
     left:"TreeNode2" = None
     left2:"TreeNode2" = None
-    right:"$ID" = None
+    right:"TreeNode2" = None
     right2:"TreeNode2" = None
 
     def insert(self:"TreeNode2", x:int) -> bool:

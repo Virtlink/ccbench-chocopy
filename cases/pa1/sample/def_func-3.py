@@ -1,4 +1,3 @@
-def $ID() -> int:
-    return 1
+$FuncDef
 
 foo()

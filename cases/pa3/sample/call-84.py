@@ -10,8 +10,8 @@ def g() -> object:
     h()
     print("end g")
 
-def h() -> object:
+def h() $RetType:
     print("start h")
-    $Exp
+    print("end h")
 
 print(f())

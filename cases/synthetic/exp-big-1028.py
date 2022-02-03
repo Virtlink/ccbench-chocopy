@@ -115,7 +115,7 @@ def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -
     a = 1
     a2 = 1
     a3 = 1
-    a4 = 1
+    a4 = $Exp
     a5 = 1
     return f(y)
 
@@ -123,7 +123,7 @@ def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x
     a: int = 0
     a2: int = 0
     a3: int = 0
-    a4: $Type = 0
+    a4: int = 0
     a5: int = 0
     def f(i: int) -> int:
         nonlocal a

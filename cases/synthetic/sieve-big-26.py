@@ -3,7 +3,7 @@ class Vector(object):
     items: [int] = None
     size: int = 0
 
-    def __init__($ID:"Vector"):
+    def $ID(self:"Vector"):
         self.items = [0]
 
     # Returns current capacity

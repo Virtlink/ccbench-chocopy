@@ -24,10 +24,10 @@ def get_false() -> bool:
 
 a = b = B()
 get_b().a = get_one()
-print("Assigned B.a")
+print($STRING)
 get_b().b = get_false()
 print("Assigned B.b")
 
-$Exp
+print(a.a)
 print(b.a)
 print(b.b)

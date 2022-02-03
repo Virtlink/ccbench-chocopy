@@ -1,1 +1,1 @@
-"root"
+VarDef(TypedVar("size",Type("int")),Int("0"))

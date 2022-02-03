@@ -1,1 +1,1 @@
-"a"
+Return(Eq(Var2Exp(Var("a")),Var2Exp(Var("b"))))

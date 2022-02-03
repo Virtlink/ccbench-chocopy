@@ -4,8 +4,7 @@ class A(object):
 class B(A):
     b:bool = True
 
-    def __init__($TypedVar):
-        print("B")
+    $ClassBodyMember
 
 
 B()

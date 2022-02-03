@@ -1,1 +1,1 @@
-Assign([Target(Index2Target(Index(Var2Exp(Var("xx")),Literal2Exp(Int("0")))))],Index2Exp(Index(Var2Exp(Var("xx")),Literal2Exp(Int("1")))))
+Literal2Exp(NONE())

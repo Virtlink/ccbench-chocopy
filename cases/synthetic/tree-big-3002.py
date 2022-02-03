@@ -308,7 +308,7 @@ class TreeNode4(object):
                 return False
             else:
                 return self.left.contains(x)
-        elif x > self.value:
+        elif x > self.$ID:
             if self.right is None:
                 return False
             else:
@@ -343,7 +343,7 @@ class TreeNode5(object):
     left5:"TreeNode5" = None
     right:"TreeNode5" = None
     right2:"TreeNode5" = None
-    $ClassBodyMember
+    right3:"TreeNode5" = None
     right4:"TreeNode5" = None
     right5:"TreeNode5" = None
 

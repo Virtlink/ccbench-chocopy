@@ -307,7 +307,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
         else:
             return 0 # On error
         first_char = False
-        result = result * 10 + digit
+        result = result * 10 + $Var
 
     # Compute result
     return result * sign
@@ -332,7 +332,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
     sign2:int = 1
     sign3:int = 1
     sign4:int = 1
-    $FuncBodyMember
+    sign5:int = 1
     first_char:bool = True
     first_char2:bool = True
     first_char3:bool = True

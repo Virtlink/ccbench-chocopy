@@ -1,1 +1,1 @@
-String("\"7\"")
+Assign([Target(Var2Target(Var("digits")))],List([Literal2Exp(String("\"0\"")),Literal2Exp(String("\"1\"")),Literal2Exp(String("\"2\"")),Literal2Exp(String("\"3\"")),Literal2Exp(String("\"4\"")),Literal2Exp(String("\"5\"")),Literal2Exp(String("\"6\"")),Literal2Exp(String("\"7\"")),Literal2Exp(String("\"8\"")),Literal2Exp(String("\"9\""))]))

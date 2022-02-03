@@ -1,4 +1,4 @@
-$ID:int = 1
+$TypedVar = 1
 y:bool = True
 z:str = ""
 o:object = None

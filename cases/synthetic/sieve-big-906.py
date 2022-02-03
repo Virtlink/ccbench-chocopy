@@ -103,7 +103,7 @@ class Vector2(object):
         item:int = 0
         item2:int = 0
         for item in new_items:
-            self.append(item)
+            $Block
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector2", idx: int) -> object:
@@ -112,7 +112,7 @@ class Vector2(object):
 
         while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
-            idx = idx + $INT
+            idx = idx + 1
 
         self.size = self.size - 1
 

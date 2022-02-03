@@ -1,1 +1,1 @@
-"first_char"
+VarDef2FuncBodyMember(VarDef(TypedVar("result3",Type("int")),Int("0")))

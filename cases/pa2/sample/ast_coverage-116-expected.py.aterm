@@ -1,1 +1,1 @@
-Member(Var2Exp(Var("self")),"p")
+Negative(Literal2Exp(Int("1")))

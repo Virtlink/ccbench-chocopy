@@ -543,7 +543,7 @@ class Tree2(object):
         if self.root is None:
             return False
         else:
-            return self.root.contains(x)
+            return $Exp
 
 
 class Tree3(object):
@@ -590,7 +590,11 @@ class Tree3(object):
         else:
             return self.root.contains(x)
 
-    $FuncDef
+    def contains3(self:"Tree3", x:int, x2:int, x3:int) -> bool:
+        if self.root is None:
+            return False
+        else:
+            return self.root.contains(x)
 
 
 class Tree4(object):

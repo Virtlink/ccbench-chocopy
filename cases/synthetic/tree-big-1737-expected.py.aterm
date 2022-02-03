@@ -1,1 +1,1 @@
-Type("int")
+Else(Block([Return(Literal2Exp(True()))]))

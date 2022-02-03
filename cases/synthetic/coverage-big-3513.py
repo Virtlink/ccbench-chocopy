@@ -436,7 +436,7 @@ class bar5(object):
         return "Nope"
 
 
-    def baz2(self:"bar5", xx: [int], xx2: [int]) -> str:
+    def baz2(self:"bar5", xx: [int], xx2: [int]) $RetType:
         global count
         x:int = 0
         x2:int = 0
@@ -475,7 +475,7 @@ class bar5(object):
         global count
         x:int = 0
         x2:int = 0
-        x3:$ID = 0
+        x3:int = 0
         y:int = 1
         y2:int = 1
         y3:int = 1

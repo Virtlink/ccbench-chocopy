@@ -108,7 +108,7 @@ class TreeNode3(object):
     left:"TreeNode3" = None
     left2:"TreeNode3" = None
     left3:"TreeNode3" = None
-    right:"TreeNode3" = None
+    $ClassBodyMember
     right2:"TreeNode3" = None
     right3:"TreeNode3" = None
 
@@ -116,7 +116,7 @@ class TreeNode3(object):
         if x < self.value:
             if self.left is None:
                 self.left = makeNode3(x, x, x)
-                $Statement
+                return True
             else:
                 return self.left.insert(x)
         elif x > self.value:

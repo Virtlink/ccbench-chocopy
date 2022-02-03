@@ -1,1 +1,1 @@
-Var("div")
+Lt(Var2Exp(Var("div")),Var2Exp(Var("x")))

@@ -1,6 +1,6 @@
 z:int = 0
 
-def foo(x:int) -> $Type:
+def foo(x:$ID) -> bool:
     global z
     return x > z
 

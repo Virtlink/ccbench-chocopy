@@ -1,5 +1,5 @@
 True
-$Literal
+$Statement
 1
 None
 "This is a string"

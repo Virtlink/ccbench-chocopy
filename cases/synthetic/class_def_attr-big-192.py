@@ -31,9 +31,7 @@ class B2(A):
     def __init__(self: "B2"):
         pass
 
-class B3(A):
-    def __init__(self: "B3"):
-        $FuncBody
+$Definition
 
 class B4(A):
     def __init__(self: "B4"):

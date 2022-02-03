@@ -4,7 +4,7 @@ c:str = ""
 d:str = ""
 e:str = ""
 
-def cat2(a:str, b:str) -> $ID:
+def cat2(a:str, b:str) $RetType:
     return a + b
 
 def cat3(a:str, b:str, c:str) -> str:

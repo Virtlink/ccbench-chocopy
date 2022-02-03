@@ -11,7 +11,6 @@ def g() -> object:
     print("end g")
 
 def h() -> object:
-    print("start h")
-    $ID("end h")
+    $FuncBody
 
 print(f())

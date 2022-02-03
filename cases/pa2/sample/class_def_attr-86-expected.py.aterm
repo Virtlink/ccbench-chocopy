@@ -1,1 +1,1 @@
-Var("c")
+Var2Target(Var("b"))

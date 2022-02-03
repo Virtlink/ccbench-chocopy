@@ -1,1 +1,1 @@
-VarDef2Definition(VarDef(TypedVar("s3",Type("str")),String("\"\"")))
+Assign([Target(Var2Target(Var("digit")))],Literal2Exp(Int("5")))

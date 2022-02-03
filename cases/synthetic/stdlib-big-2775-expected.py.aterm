@@ -1,1 +1,1 @@
-String("\"5\"")
+TypedVar("sign4",Type("int"))

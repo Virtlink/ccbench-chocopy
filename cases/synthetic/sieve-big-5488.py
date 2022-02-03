@@ -604,7 +604,7 @@ class Vector5(object):
             self.append(item)
 
     # Appends many items to end of vector
-    def append_all5(self:"Vector5", new_items: [int], new_items2: [int], new_items3: [int], new_items4: [int], new_items5: [int]) -> object:
+    def append_all5(self:"Vector5", new_items: [int], new_items2: $Type, new_items3: [int], new_items4: [int], new_items5: [int]) -> object:
         item:int = 0
         item2:int = 0
         item3:int = 0
@@ -658,7 +658,7 @@ class Vector5(object):
         self.size = self.size - 1
 
     # Removes an item from the middle of vector
-    def remove_at5(self:"Vector5", $TypedVar, idx2: int, idx3: int, idx4: int, idx5: int) -> object:
+    def remove_at5(self:"Vector5", idx: int, idx2: int, idx3: int, idx4: int, idx5: int) -> object:
         if idx < 0:
             return
 

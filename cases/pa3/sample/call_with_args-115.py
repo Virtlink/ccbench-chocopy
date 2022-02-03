@@ -10,9 +10,10 @@ def g(y:int, z:int) -> object:
     print("start g")
     print(y)
     print(z)
-    h("h")
+    $ID("h")
     print("end g")
 
-$Definition
+def h(msg: str) -> object:
+    print(msg)
 
 print(f(4))

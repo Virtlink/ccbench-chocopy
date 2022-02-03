@@ -176,7 +176,7 @@ class TreeNode3(object):
             if self.left is None:
                 return False
             else:
-                return self.left.contains(x)
+                return self.left.contains($Var)
         elif x > self.value:
             if self.right is None:
                 return False
@@ -195,7 +195,7 @@ class TreeNode3(object):
             if self.right is None:
                 return False
             else:
-                return $Exp.contains(x)
+                return self.right.contains(x)
         else:
             return True
 

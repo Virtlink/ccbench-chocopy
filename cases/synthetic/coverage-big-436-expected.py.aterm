@@ -1,1 +1,1 @@
-Global("count")
+Literal2Exp(NONE())

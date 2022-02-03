@@ -1,1 +1,1 @@
-TypedVar("self",TypeS(IdString("bar4")))
+Var2Exp(Var("qux"))

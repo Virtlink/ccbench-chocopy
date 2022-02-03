@@ -1,1 +1,1 @@
-Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"items")))],Add(Member2Exp(Member(Var2Exp(Var("self")),"items")),List([Literal2Exp(Int("0"))])))
+FuncDef("increase_capacity",[TypedVar("self",TypeS(IdString("Vector")))],Returns(Type("int")),FuncBody([],[Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"items")))],Add(Member2Exp(Member(Var2Exp(Var("self")),"items")),List([Literal2Exp(Int("0"))]))),Return(Call(Member2Exp(Member(Var2Exp(Var("self")),"capacity")),Exps2Parameters([])))]))

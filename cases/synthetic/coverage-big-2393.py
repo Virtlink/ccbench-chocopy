@@ -297,8 +297,7 @@ class bar4(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo("Long"[0]) == 1:
-                self.p = self is None
+            $ElifElse
 
         return "Nope"
 
@@ -326,7 +325,8 @@ class bar4(object):
             nonlocal x
             nonlocal x2
             nonlocal x3
-            $Statement
+            if x > y:
+                x = -1
 
         for x in xx:
             self.p = x == 2

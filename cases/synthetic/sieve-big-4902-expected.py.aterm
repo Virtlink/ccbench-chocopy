@@ -1,1 +1,1 @@
-TypedVar("new_items4",ListType(Type("int")))
+Literal2Exp(Int("1"))

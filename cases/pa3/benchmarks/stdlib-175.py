@@ -18,9 +18,9 @@ def int_to_str(x: int) -> str:
     return result
 
 def str_to_int(x: str) -> int:
-    result:int = 0
+    result:$Type = 0
     digit:int = 0
-    $ID:str = ""
+    char:str = ""
     sign:int = 1
     first_char:bool = True
 

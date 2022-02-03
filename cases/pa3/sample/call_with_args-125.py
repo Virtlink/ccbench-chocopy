@@ -11,9 +11,9 @@ def g(y:int, z:int) -> object:
     print(y)
     print(z)
     h("h")
-    print("end g")
+    $ID("end g")
 
 def h(msg: str) -> object:
-    $FuncBody
+    print(msg)
 
 print(f(4))

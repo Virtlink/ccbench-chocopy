@@ -665,7 +665,7 @@ class Tree4(object):
 
 class Tree5(object):
     root:TreeNode5 = None
-    root2:TreeNode5 = None
+    $ID:TreeNode5 = None
     root3:TreeNode5 = None
     root4:TreeNode5 = None
     root5:TreeNode5 = None
@@ -712,7 +712,7 @@ class Tree5(object):
             self.root = makeNode5(x, x, x, x, x)
             self.size = 1
         else:
-            if $Member.insert(x):
+            if self.root.insert(x):
                 self.size = self.size + 1
 
     def contains(self:"Tree5", x:int) -> bool:

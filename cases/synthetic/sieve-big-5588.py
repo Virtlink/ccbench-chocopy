@@ -615,14 +615,7 @@ class Vector5(object):
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector5", idx: int) -> object:
-        if idx < 0:
-            return
-
-        while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
-            idx = idx + 1
-
-        self.size = self.size - 1
+        $FuncBody
 
     # Removes an item from the middle of vector
     def remove_at2(self:"Vector5", idx: int, idx2: int) -> object:
@@ -666,7 +659,7 @@ class Vector5(object):
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
-        self.size = $Member - 1
+        self.size = self.size - 1
 
     # Retrieves an item at a given index
     def get(self:"Vector5", idx: int) -> int:

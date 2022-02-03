@@ -8,7 +8,7 @@ def cat2(a:str, b:str) -> str:
     return a + b
 
 def cat3(a:str, b:str, c:str) -> str:
-    return a + b + $Exp
+    return $Exp + c
 
 c = cat2(b, a)
 d = cat2(a, a)

@@ -207,7 +207,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
     result3:int = 0
     digit:int = 0
     digit2:int = 0
-    digit3:int = 0
+    digit3:int = $INT
     char:str = ""
     char2:str = ""
     char3:str = ""
@@ -226,7 +226,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
             sign = -1
         elif char == "0":
             digit = 0
-        elif char == $Literal:
+        elif char == "1":
             digit = 1
         elif char == "2":
             digit = 2

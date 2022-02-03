@@ -1,6 +1,6 @@
 # ChocoPy library functions
 def int_to_str(x: int) -> str:
-    $ID:[str] = None 
+    $FuncBodyMember 
     result:str = ""
 
     # Set-up digit mapping

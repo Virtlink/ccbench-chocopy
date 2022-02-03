@@ -181,7 +181,7 @@ def str_to_int2(x: str, x2: str) -> int:
             digit = 3
         elif char == "3":
             digit = 3
-        elif char == "4":
+        elif $Exp == "4":
             digit = 4
         elif char == "5":
             digit = 5
@@ -195,7 +195,7 @@ def str_to_int2(x: str, x2: str) -> int:
             digit = 9
         else:
             return 0 # On error
-        $ID = False
+        first_char = False
         result = result * 10 + digit
 
     # Compute result

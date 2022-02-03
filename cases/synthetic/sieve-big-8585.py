@@ -955,7 +955,7 @@ def vrange5(i:int, j:int, i2:int, j2:int, i3:int, j3:int, i4:int, j4:int, i5:int
 def sieve(v:Vector) -> object:
     i:int = 0
     j:int = 0
-    k:int = 0
+    k:$Type = 0
 
     while i < v.length():
         k = v.get(i)
@@ -1033,7 +1033,7 @@ def sieve4(v:Vector, v2:Vector, v3:Vector, v4:Vector) -> object:
 def sieve5(v:Vector, v2:Vector, v3:Vector, v4:Vector, v5:Vector) -> object:
     i:int = 0
     i2:int = 0
-    $ID:int = 0
+    i3:int = 0
     i4:int = 0
     i5:int = 0
     j:int = 0

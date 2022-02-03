@@ -3,7 +3,7 @@ def set_x() -> int:
     x = 1
     return x
 
-x:int = 0
+x:$ID = 0
 
-$Exp()
+set_x()
 print(x)

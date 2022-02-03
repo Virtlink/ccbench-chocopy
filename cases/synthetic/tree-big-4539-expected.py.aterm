@@ -1,1 +1,1 @@
-Target(Member2Target(Member(Var2Exp(Var("self")),"size")))
+Gt(Var2Exp(Var("x")),Member2Exp(Member(Var2Exp(Var("self")),"value")))

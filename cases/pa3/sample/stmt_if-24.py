@@ -1,7 +1,7 @@
 if False:
     print("No")
 elif True:
-    if True:
-        $Exp("Yes")
+    if $Exp:
+        print("Yes")
 else:
     pass

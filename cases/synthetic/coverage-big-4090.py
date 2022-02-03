@@ -509,7 +509,7 @@ class bar5(object):
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
-                x = x + 1
+                $Statement
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
@@ -557,7 +557,7 @@ class bar5(object):
 
         qux(0) # Yay! ChocoPy
 
-        count = count + $Literal
+        count = count + 1
 
         while x <= 0:
             if self.p:

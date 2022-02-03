@@ -1,5 +1,5 @@
 def f(x:int) -> int:
-    print($STRING)
+    $ID("start f")
     print(x)
     g(1, x)
     print("end f")

@@ -1,1 +1,1 @@
-Type("int")
+VarDef2ClassBodyMember(VarDef(TypedVar("doubling_limit4",Type("int")),Int("1000")))

@@ -1,4 +1,4 @@
-print($ID() is None)
+print($Exp is None)
 print(int())
 print(str())
 print(bool())

@@ -1,1 +1,1 @@
-TypedVar("y4",Type("int"))
+Var("qux")

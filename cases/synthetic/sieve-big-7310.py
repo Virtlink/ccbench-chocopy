@@ -809,7 +809,7 @@ class DoublingVector4(Vector):
             # If doubling limit has been reached, fall back to
             # standard capacity increases
             self.items = self.items + [0]
-        return self.capacity()
+        return self.$ID()
 
     # Overriding to do fewer resizes
     def increase_capacity3(self:"DoublingVector4") -> int:
@@ -895,7 +895,7 @@ def vrange(i:int, j:int) -> Vector:
     v:Vector = None
     v = DoublingVector()
     
-    while $Exp < j:
+    while i < j:
         v.append(i)
         i = i + 1
 

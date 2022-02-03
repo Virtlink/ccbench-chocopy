@@ -636,7 +636,7 @@ class Vector5(object):
         self.size = self.size - 1
 
     # Removes an item from the middle of vector
-    def remove_at3(self:"Vector5", idx: int, idx2: int, idx3: int) -> object:
+    def remove_at3(self:"Vector5", idx: int, idx2: int, idx3: int) -> $ID:
         if idx < 0:
             return
 
@@ -697,7 +697,8 @@ class Vector5(object):
         return self.size
 
     # Retrieves the current size of the vector
-    $FuncDef
+    def length3(self:"Vector5") -> int:
+        return self.size
 
     # Retrieves the current size of the vector
     def length4(self:"Vector5") -> int:

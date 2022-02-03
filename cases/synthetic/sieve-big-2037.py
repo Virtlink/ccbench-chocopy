@@ -230,7 +230,7 @@ class Vector3(object):
     # Removes an item from the middle of vector
     def remove_at(self:"Vector3", idx: int) -> object:
         if idx < 0:
-            return
+            $Block
 
         while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
@@ -250,7 +250,7 @@ class Vector3(object):
         self.size = self.size - 1
 
     # Removes an item from the middle of vector
-    def remove_at3(self:"Vector3", idx: int, idx2: int, idx3: int) -> $ID:
+    def remove_at3(self:"Vector3", idx: int, idx2: int, idx3: int) -> object:
         if idx < 0:
             return
 

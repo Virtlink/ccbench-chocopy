@@ -5,9 +5,9 @@ class A(object):
         return self.a
 
 class B(A):
-    b:bool = True
+    b:$Type = True
 
-    def __init__($TypedVar):
+    def __init__(self:"B"):
         print("B")
 
     def bar(self:"B") -> int:

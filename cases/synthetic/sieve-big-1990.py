@@ -224,8 +224,7 @@ class Vector3(object):
         item:int = 0
         item2:int = 0
         item3:int = 0
-        for item in new_items:
-            self.append(item)
+        $Statement
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector3", idx: int) -> object:
@@ -245,7 +244,7 @@ class Vector3(object):
 
         while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
-            idx = $Exp
+            idx = idx + 1
 
         self.size = self.size - 1
 

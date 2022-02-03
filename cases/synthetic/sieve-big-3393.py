@@ -380,7 +380,7 @@ class Vector4(object):
             self.append(item)
 
     # Appends many items to end of vector
-    def append_all3(self:"Vector4", new_items: [int], new_items2: [int], new_items3: [int]) -> object:
+    def $ID(self:"Vector4", new_items: [int], new_items2: [int], new_items3: [int]) -> object:
         item:int = 0
         item2:int = 0
         item3:int = 0
@@ -414,7 +414,7 @@ class Vector4(object):
 
         while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
-            idx = $Exp + 1
+            idx = idx + 1
 
         self.size = self.size - 1
 

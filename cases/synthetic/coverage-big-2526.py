@@ -312,7 +312,7 @@ class bar4(object):
         y3:int = 1
 
         def qux(y: int) -> object:
-            nonlocal x
+            nonlocal $ID
             if x > y:
                 x = -1
 
@@ -341,7 +341,7 @@ class bar4(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo($STRING[0]) == 1:
+            elif foo("Long"[0]) == 1:
                 self.p = self is None
 
         return "Nope"

@@ -191,7 +191,7 @@ class bar3(object):
         global count
         x:int = 0
         x2:int = 0
-        x3:int = 0
+        x3:$ID = 0
         y:int = 1
         y2:int = 1
         y3:int = 1
@@ -212,7 +212,7 @@ class bar3(object):
             nonlocal x2
             nonlocal x3
             if x > y:
-                x = -$Literal
+                x = -1
 
         for x in xx:
             self.p = x == 2

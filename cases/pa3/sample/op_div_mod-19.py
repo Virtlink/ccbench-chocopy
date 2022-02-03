@@ -1,5 +1,5 @@
 x:int = 42
 y:int = 9
 
-$Exp(x // y)
+$Statement
 print(x % y)

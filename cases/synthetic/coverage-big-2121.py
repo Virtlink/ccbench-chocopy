@@ -261,7 +261,7 @@ class bar4(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo("Long"[0]) == 1:
+            elif foo("Long"[0]) == $INT:
                 self.p = self is None
 
         return "Nope"
@@ -290,7 +290,7 @@ class bar4(object):
 
         qux(0) # Yay! ChocoPy
 
-        count = count + $Exp
+        count = count + 1
 
         while x <= 0:
             if self.p:

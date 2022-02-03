@@ -69,14 +69,15 @@ class TreeNode2(object):
                 self.right = makeNode2(x, x)
                 return True
             else:
-                return self.right.insert(x)
+                return $Exp
         return False
 
     def contains(self:"TreeNode2", x:int) -> bool:
         if x < self.value:
             if self.left is None:
                 return False
-            $ElifElse
+            else:
+                return self.left.contains(x)
         elif x > self.value:
             if self.right is None:
                 return False

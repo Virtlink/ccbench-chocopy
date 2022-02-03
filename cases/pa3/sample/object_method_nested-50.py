@@ -5,9 +5,10 @@ class A(object):
         return self.a
 
 class B(A):
-    b:bool = True
+    $TypedVar = True
 
-    $FuncDef
+    def __init__(self:"B"):
+        print("B")
 
     def bar(self:"B") -> int:
         def qux(p: bool) -> int:

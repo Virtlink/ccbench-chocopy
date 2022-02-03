@@ -387,7 +387,7 @@ class TreeNode5(object):
         elif x > self.value:
             if self.right is None:
                 self.right = makeNode5(x, x, x, x, x)
-                return True
+                return $Literal
             else:
                 return self.right.insert(x)
         return False
@@ -416,7 +416,8 @@ class TreeNode5(object):
                 return self.left.insert(x)
         elif x > self.value:
             if self.right is None:
-                $Block
+                self.right = makeNode5(x, x, x, x, x)
+                return True
             else:
                 return self.right.insert(x)
         return False

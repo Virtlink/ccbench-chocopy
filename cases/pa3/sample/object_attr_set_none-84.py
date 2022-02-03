@@ -11,9 +11,9 @@ a:A = None
 b:B = None
 
 a = B()
-print(a.a)
+print($Parameters)
 
-$Member = 1
+b.a = 1
 b.b = False
 print(b.a)
 print(b.b)

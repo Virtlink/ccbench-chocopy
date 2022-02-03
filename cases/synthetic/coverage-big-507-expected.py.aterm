@@ -1,1 +1,1 @@
-Call(Var2Exp(Var("qux")),Exps2Parameters([Literal2Exp(Int("0"))]))
+Returns(Type("object"))

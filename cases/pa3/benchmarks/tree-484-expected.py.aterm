@@ -1,1 +1,1 @@
-TypedVar("c",Type("int"))
+Type("int")

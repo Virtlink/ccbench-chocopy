@@ -50,12 +50,12 @@ def str_to_int(x: str) -> int:
             digit = 7
         elif char == "8":
             digit = 8
-        elif char == "9":
+        elif $Exp == "9":
             digit = 9
         else:
             return 0 # On error
         first_char = False
-        result = result * $INT + digit
+        result = result * 10 + digit
 
     # Compute result
     return result * sign

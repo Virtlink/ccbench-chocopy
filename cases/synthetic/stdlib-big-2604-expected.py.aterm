@@ -1,1 +1,1 @@
-True()
+TypedVar("x",Type("str"))

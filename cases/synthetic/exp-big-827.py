@@ -91,7 +91,7 @@ def exp3(x: int, y: int, x2: int, y2: int, x3: int, y3: int) -> int:
 
 def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -> int:
     a: int = 0
-    a2: int = 0
+    $TypedVar = 0
     a3: int = 0
     a4: int = 0
     a5: int = 0
@@ -104,7 +104,7 @@ def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -
         def geta() -> int:
             return a
         if i <= 0:
-            return $ID()
+            return geta()
         else:
             a = a * x
             a2 = a * x

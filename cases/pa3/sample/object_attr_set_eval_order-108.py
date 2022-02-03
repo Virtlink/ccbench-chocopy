@@ -15,11 +15,11 @@ def get_b() -> B:
     return b
 
 def get_one() -> int:
-    print("Getting 1")
+    print($Literal)
     return 1
 
 def get_false() -> bool:
-    $Exp("Getting False")
+    print("Getting False")
     return False
 
 a = b = B()

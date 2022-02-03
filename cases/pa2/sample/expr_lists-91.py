@@ -7,6 +7,6 @@ x = [1, 2, 3]
 x = []
 y = [1, True]
 z = [False, True]
-x = None
+x = $Literal
 o = x
-$Target = x = [1]
+o = x = [1]

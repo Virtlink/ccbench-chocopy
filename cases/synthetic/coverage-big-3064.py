@@ -381,7 +381,7 @@ class bar4(object):
             nonlocal x3
             nonlocal x4
             if x > y:
-                x = -1
+                $AssignTarget -1
 
         for x in xx:
             self.p = x == 2
@@ -419,7 +419,7 @@ class bar5(object):
                 x = -1
 
         for x in xx:
-            $AssignTarget x == 2
+            self.p = x == 2
 
         qux(0) # Yay! ChocoPy
 

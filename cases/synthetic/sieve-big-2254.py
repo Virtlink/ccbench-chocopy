@@ -251,14 +251,7 @@ class Vector3(object):
 
     # Removes an item from the middle of vector
     def remove_at3(self:"Vector3", idx: int, idx2: int, idx3: int) -> object:
-        if idx < 0:
-            return
-
-        while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
-            idx = idx + 1
-
-        self.size = self.size - 1
+        $FuncBody
 
     # Retrieves an item at a given index
     def get(self:"Vector3", idx: int) -> int:
@@ -278,7 +271,7 @@ class Vector3(object):
 
     # Retrieves the current size of the vector
     def length2(self:"Vector3") -> int:
-        return $Var.size
+        return self.size
 
     # Retrieves the current size of the vector
     def length3(self:"Vector3") -> int:

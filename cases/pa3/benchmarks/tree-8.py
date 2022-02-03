@@ -1,6 +1,6 @@
 # Binary-search trees
 class TreeNode(object):
-	$TypedVar = 0
+	$ClassBodyMember
 	left:"TreeNode" = None
 	right:"TreeNode" = None
 

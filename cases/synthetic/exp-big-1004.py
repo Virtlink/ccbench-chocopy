@@ -113,14 +113,14 @@ def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -
             a5 = a * x
             return f(i-1)
     a = 1
-    a2 = 1
+    $Statement
     a3 = 1
     a4 = 1
     a5 = 1
     return f(y)
 
 def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x5: int, y5: int) -> int:
-    a: $Type = 0
+    a: int = 0
     a2: int = 0
     a3: int = 0
     a4: int = 0

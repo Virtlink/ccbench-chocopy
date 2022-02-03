@@ -705,7 +705,7 @@ class Vector5(object):
         return self.size
 
     # Retrieves the current size of the vector
-    def length5(self:"Vector5") -> int:
+    def length5(self:$Type) -> int:
         return self.size
 
 # A faster (but more memory-consuming) implementation of vector
@@ -785,7 +785,7 @@ class DoublingVector3(Vector):
         return self.capacity()
 
 # A faster (but more memory-consuming) implementation of vector
-class DoublingVector4($ID):
+class DoublingVector4(Vector):
     doubling_limit:int = 1000
     doubling_limit2:int = 1000
     doubling_limit3:int = 1000

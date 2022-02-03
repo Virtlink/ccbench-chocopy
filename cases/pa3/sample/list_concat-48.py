@@ -4,7 +4,7 @@ def concat(x:[int], y:[int]) -> [int]:
 z:[int] = None
 i:int = 0
 
-z = $Exp
+$Statement
 
 while i < len(z):
     print(z[i])

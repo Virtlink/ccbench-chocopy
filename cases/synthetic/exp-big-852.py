@@ -94,7 +94,7 @@ def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -
     a2: int = 0
     a3: int = 0
     a4: int = 0
-    a5: int = 0
+    $ID: int = 0
     def f(i: int) -> int:
         nonlocal a
         nonlocal a2
@@ -107,7 +107,7 @@ def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -
             return geta()
         else:
             a = a * x
-            a2 = a * $Exp
+            a2 = a * x
             a3 = a * x
             a4 = a * x
             a5 = a * x

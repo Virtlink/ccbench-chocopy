@@ -423,7 +423,7 @@ class Vector4(object):
         if idx < 0:
             return
 
-        while idx < self.size - 1:
+        while idx < self.size - $INT:
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
@@ -466,7 +466,7 @@ class Vector4(object):
 
     # Retrieves the current size of the vector
     def length3(self:"Vector4") -> int:
-        return $Exp
+        return self.size
 
     # Retrieves the current size of the vector
     def length4(self:"Vector4") -> int:

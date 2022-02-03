@@ -354,7 +354,7 @@ class bar4(object):
         x4:int = 0
         y:int = 1
         y2:int = 1
-        y3:int = 1
+        $ID:int = 1
         y4:int = 1
 
         def qux(y: int) -> object:
@@ -392,7 +392,7 @@ class bar4(object):
 
         while x <= 0:
             if self.p:
-                xx[0] = $Exp
+                xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:

@@ -205,7 +205,7 @@ class TreeNode4(object):
     value2:int = 0
     value3:int = 0
     value4:int = 0
-    left:"TreeNode4" = None
+    left:"TreeNode4" = $Literal
     left2:"TreeNode4" = None
     left3:"TreeNode4" = None
     left4:"TreeNode4" = None
@@ -223,7 +223,7 @@ class TreeNode4(object):
                 return self.left.insert(x)
         elif x > self.value:
             if self.right is None:
-                $Member = makeNode4(x, x, x, x)
+                self.right = makeNode4(x, x, x, x)
                 return True
             else:
                 return self.right.insert(x)

@@ -600,7 +600,7 @@ class Tree3(object):
 class Tree4(object):
     root:TreeNode4 = None
     root2:TreeNode4 = None
-    root3:TreeNode4 = None
+    $TypedVar = None
     root4:TreeNode4 = None
     size:int = 0
     size2:int = 0
@@ -645,7 +645,7 @@ class Tree4(object):
         else:
             return self.root.contains(x)
 
-    def contains2(self:$IDSTRING, x:int, x2:int) -> bool:
+    def contains2(self:"Tree4", x:int, x2:int) -> bool:
         if self.root is None:
             return False
         else:

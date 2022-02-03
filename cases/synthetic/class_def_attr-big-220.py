@@ -36,11 +36,11 @@ class B3(A):
         pass
 
 class B4(A):
-    def __init__(self: "B4"):
+    def $ID(self: "B4"):
         pass
 
 class B5(A):
-    def __init__(self: $Type):
+    def __init__(self: "B5"):
         pass
 
 class C(B):

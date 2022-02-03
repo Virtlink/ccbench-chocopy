@@ -82,7 +82,7 @@ class bar2(object):
         return "Nope"
 
 
-    def baz2(self:"bar2", xx: [int], xx2: [int]) -> str:
+    def baz2(self:"bar2", xx: [int], xx2: [int]) $RetType:
         global count
         x:int = 0
         x2:int = 0
@@ -92,7 +92,7 @@ class bar2(object):
         def qux(y: int) -> object:
             nonlocal x
             if x > y:
-                $ID = -1
+                x = -1
 
         def qux2(y: int, y2: int) -> object:
             nonlocal x

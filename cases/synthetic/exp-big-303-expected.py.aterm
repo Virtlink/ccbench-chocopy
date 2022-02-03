@@ -1,1 +1,1 @@
-Nonlocal("a2")
+TypedVar("a4",Type("int"))

@@ -39,10 +39,10 @@ def is_prime3(x:int, x2:int, x3:int) -> bool:
     div2:int = 2
     div3:int = 2
     div4:int = 2
-    div5:int = 2
+    div5:int = $Literal
     while div < x:
         if x % div == 0:
-            $Statement
+            return False
         div = div + 1
     return True
 

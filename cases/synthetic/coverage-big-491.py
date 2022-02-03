@@ -57,7 +57,7 @@ class bar2(object):
     def baz(self:"bar2", xx: [int]) -> str:
         global count
         x:int = 0
-        y:int = 1
+        $FuncBodyMember
 
         def qux(y: int) -> object:
             nonlocal x
@@ -65,7 +65,7 @@ class bar2(object):
                 x = -1
 
         for x in xx:
-            $Statement
+            self.p = x == 2
 
         qux(0) # Yay! ChocoPy
 

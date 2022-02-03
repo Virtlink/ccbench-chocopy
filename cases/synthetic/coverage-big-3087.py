@@ -384,7 +384,7 @@ class bar4(object):
                 x = -1
 
         for x in xx:
-            self.p = x == 2
+            $ID.p = x == 2
 
         qux(0) # Yay! ChocoPy
 
@@ -423,7 +423,7 @@ class bar5(object):
 
         qux(0) # Yay! ChocoPy
 
-        $Statement
+        count = count + 1
 
         while x <= 0:
             if self.p:

@@ -240,14 +240,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
             digit = 5
         elif char == "6":
             digit = 6
-        elif char == "7":
-            digit = 7
-        elif char == "8":
-            digit = 8
-        elif char == "9":
-            digit = 9
-        else:
-            return 0 # On error
+        $ElifElse # On error
         first_char = False
         result = result * 10 + digit
 
@@ -259,7 +252,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
     result2:int = 0
     result3:int = 0
     result4:int = 0
-    digit:$ID = 0
+    digit:int = 0
     digit2:int = 0
     digit3:int = 0
     digit4:int = 0

@@ -1,8 +1,4 @@
-def $ID() -> int:
-    print("start f")
-    g()
-    print("end f")
-    return 42
+$FuncDef
 
     
 def g() -> object:

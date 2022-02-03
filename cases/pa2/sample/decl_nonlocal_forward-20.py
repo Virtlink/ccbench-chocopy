@@ -1,7 +1,7 @@
 def outer() -> int:
     def inner() -> int:
-        nonlocal x
-        $Var = 1
+        $FuncBodyMember
+        x = 1
         return x
     x:int = 0
     inner()

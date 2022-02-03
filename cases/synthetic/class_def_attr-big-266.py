@@ -46,12 +46,10 @@ class B5(A):
 class C(B):
     z:bool = True
 
-class C2(B):
-    z:bool = True
-    z2:bool = True
+$ClassDef
 
 class C3(B):
-    z:$Type = True
+    z:bool = True
     z2:bool = True
     z3:bool = True
 

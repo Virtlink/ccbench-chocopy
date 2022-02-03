@@ -10,8 +10,7 @@ def get_prime(n:int) -> int:
         candidate = candidate + 1
     return 0 # Never happens
 
-def is_prime(x:int) -> bool:
-    $FuncBody
+$Definition
 
 def is_prime2(x:int, x2:int) -> bool:
     div:int = 2

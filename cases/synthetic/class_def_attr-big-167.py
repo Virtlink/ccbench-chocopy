@@ -24,11 +24,12 @@ class A5(object):
     x5:int = 1
 
 class B(A):
-    def __init__(self: "B"):
+    def __init__(self: "B")$RetType:
         pass
 
 class B2(A):
-    $ClassBodyMember
+    def __init__(self: "B2"):
+        pass
 
 class B3(A):
     def __init__(self: "B3"):

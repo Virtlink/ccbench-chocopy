@@ -14,10 +14,14 @@ class A4(object):
     x:int = 1
     x2:int = 1
     x3:int = 1
-    x4:int = 1
+    x4:int = $INT
 
 class A5(object):
-    $ClassBody
+    x:int = 1
+    x2:int = 1
+    x3:int = 1
+    x4:int = 1
+    x5:int = 1
 
 class B(A):
     def __init__(self: "B"):

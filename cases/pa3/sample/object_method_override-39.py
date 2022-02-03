@@ -2,9 +2,9 @@ class A(object):
     a:int = 42
 
     def foo(self:"A", ignore:object) -> int:
-        return self.a
+        return $Var.a
 
-class $ID(A):
+class B(A):
     b:bool = True
 
     def __init__(self:"B"):

@@ -1,1 +1,1 @@
-Type("bool")
+TypedVar("y",Type("int"))

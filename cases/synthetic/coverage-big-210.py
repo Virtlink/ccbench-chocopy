@@ -20,10 +20,10 @@ def foo5(s: str, s2: str, s3: str, s4: str, s5: str) -> int:
     return len(s)
 
 class bar(object):
-    p: bool = True
+    $TypedVar = True
 
     def baz(self:"bar", xx: [int]) -> str:
-        $FuncBodyMember
+        global count
         x:int = 0
         y:int = 1
 

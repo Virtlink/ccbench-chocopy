@@ -1,4 +1,4 @@
-class A($ID):
+class $ID(object):
     x:int = 1
 
 class B(A):

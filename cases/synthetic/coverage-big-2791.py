@@ -344,7 +344,7 @@ class bar4(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        return "Nope"
+        return $STRING
 
     def baz4(self:"bar4", xx: [int], xx2: [int], xx3: [int], xx4: [int]) -> str:
         global count
@@ -379,7 +379,7 @@ class bar4(object):
             nonlocal x
             nonlocal x2
             nonlocal x3
-            nonlocal $ID
+            nonlocal x4
             if x > y:
                 x = -1
 

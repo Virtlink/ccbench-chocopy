@@ -1,1 +1,1 @@
-VarDef2ClassBodyMember(VarDef(TypedVar("value",Type("int")),Int("0")))
+Literal2Exp(NONE())

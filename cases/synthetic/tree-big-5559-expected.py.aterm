@@ -1,1 +1,1 @@
-If(Call(Member2Exp(Member(Member2Exp(Member(Var2Exp(Var("self")),"root")),"insert")),Exps2Parameters([Var2Exp(Var("x"))])),Block([Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"size")))],Add(Member2Exp(Member(Var2Exp(Var("self")),"size")),Literal2Exp(Int("1"))))]))
+Type("int")

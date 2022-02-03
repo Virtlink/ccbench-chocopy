@@ -1,1 +1,1 @@
-TypedVar("char",Type("str"))
+"digit"

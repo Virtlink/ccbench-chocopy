@@ -21,10 +21,10 @@ class bar(object):
 
         qux(0) # Yay! ChocoPy
 
-        count = count + 1
+        count = $ID + 1
 
         while x <= 0:
-            if $ID.p:
+            if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1

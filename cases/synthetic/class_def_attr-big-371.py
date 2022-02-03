@@ -64,13 +64,13 @@ class C4(B):
 class C5(B):
     z:bool = True
     z2:bool = True
-    z3:bool = True
+    z3:$ID = True
     z4:bool = True
     z5:bool = True
 
 a:A = None
 a2:A = None
-$VarDef
+a3:A = None
 a4:A = None
 a5:A = None
 b:B = None

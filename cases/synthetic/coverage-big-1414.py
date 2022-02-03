@@ -175,7 +175,7 @@ class bar3(object):
 
         qux(0) # Yay! ChocoPy
 
-        count = count + 1
+        count = count + $Literal
 
         while x <= 0:
             if self.p:
@@ -187,7 +187,7 @@ class bar3(object):
 
         return "Nope"
 
-    def baz3(self:"bar3", xx: [int], xx2: [int], xx3: [int]) -> $ID:
+    def baz3(self:"bar3", xx: [int], xx2: [int], xx3: [int]) -> str:
         global count
         x:int = 0
         x2:int = 0

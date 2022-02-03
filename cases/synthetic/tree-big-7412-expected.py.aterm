@@ -1,1 +1,1 @@
-VarDef2Definition(VarDef(TypedVar("c3",Type("int")),Int("4")))
+"bool"

@@ -1,1 +1,1 @@
-Var("next")
+Literal2Exp(Int("1"))

@@ -1,1 +1,1 @@
-Var("x")
+Block([Assign([Target(Var2Target(Var("a")))],Mul(Var2Exp(Var("a")),Var2Exp(Var("x")))),Assign([Target(Var2Target(Var("a2")))],Mul(Var2Exp(Var("a")),Var2Exp(Var("x")))),Assign([Target(Var2Target(Var("a3")))],Mul(Var2Exp(Var("a")),Var2Exp(Var("x")))),Assign([Target(Var2Target(Var("a4")))],Mul(Var2Exp(Var("a")),Var2Exp(Var("x")))),Assign([Target(Var2Target(Var("a5")))],Mul(Var2Exp(Var("a")),Var2Exp(Var("x")))),Return(Call(Var2Exp(Var("f")),Exps2Parameters([Sub(Var2Exp(Var("i")),Literal2Exp(Int("1")))])))])

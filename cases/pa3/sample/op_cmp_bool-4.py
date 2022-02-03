@@ -1,4 +1,4 @@
-$Var(True == True)
+$Exp
 print(True == False)
 print(False == True)
 print(False == False)

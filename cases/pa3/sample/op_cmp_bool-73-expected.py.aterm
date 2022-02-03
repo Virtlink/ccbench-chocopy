@@ -1,1 +1,1 @@
-Neq(Literal2Exp(False()),Literal2Exp(True()))
+Literal2Exp(False())

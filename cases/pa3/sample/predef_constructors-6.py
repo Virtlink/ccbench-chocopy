@@ -1,4 +1,4 @@
-print($Parameters)
+$Var(object() is None)
 print(int())
 print(str())
 print(bool())

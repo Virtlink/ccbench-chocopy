@@ -1,1 +1,1 @@
-Returns(Type("bool"))
+Member2Exp(Member(Var2Exp(Var("self")),"root"))

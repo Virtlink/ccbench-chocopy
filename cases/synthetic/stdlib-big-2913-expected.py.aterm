@@ -1,1 +1,1 @@
-Int("42")
+Target(Var2Target(Var("digit")))

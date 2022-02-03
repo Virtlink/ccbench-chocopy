@@ -1,1 +1,1 @@
-Literal2Exp(False())
+Exp(Not(Literal2Exp(False())))

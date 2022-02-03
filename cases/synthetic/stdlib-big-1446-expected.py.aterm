@@ -1,1 +1,1 @@
-Literal2Exp(String("\"4\""))
+Assign([Target(Var2Target(Var("sign")))],Negative(Literal2Exp(Int("1"))))

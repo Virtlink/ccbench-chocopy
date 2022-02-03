@@ -2,7 +2,7 @@ count:int = 0
 count2:int = 0
 count3:int = 0
 count4:int = 0
-$VarDef
+$Definition
 
 def foo(s: str) -> int:
     return len(s)

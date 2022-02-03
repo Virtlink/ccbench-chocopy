@@ -1,1 +1,1 @@
-Call(Var2Exp(Var("DoublingVector")),Exps2Parameters([]))
+Return(Call(Member2Exp(Member(Var2Exp(Var("self")),"capacity")),Exps2Parameters([])))

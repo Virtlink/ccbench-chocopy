@@ -1,1 +1,1 @@
-Call(Var2Exp(Var("TreeNode")),Exps2Parameters([]))
+Block([Return(Literal2Exp(False()))])

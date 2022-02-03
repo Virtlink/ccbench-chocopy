@@ -1,6 +1,6 @@
 count:int = 0
 count2:int = 0
-$VarDef
+$Definition
 count4:int = 0
 count5:int = 0
 

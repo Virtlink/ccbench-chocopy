@@ -7,6 +7,7 @@ def g() -> bool:
   return False
 
 if f() or g():      # Short-circuit
-  if g() and f():   # Short-circuit
+  if g() and $Exp():   # Short-circuit
     print("Never")
-  $ElifElse
+  else:
+    print(not (f() and (g() or f())))

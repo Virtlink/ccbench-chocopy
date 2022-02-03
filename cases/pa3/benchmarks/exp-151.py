@@ -21,5 +21,5 @@ i:int = 0
 
 # Crunch
 while i <= n:
-	print(exp(2, i % $Literal))
+	$Statement
 	i = i + 1

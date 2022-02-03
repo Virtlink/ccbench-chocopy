@@ -1,4 +1,4 @@
-count:int = $INT
+count:int = $Literal
 count2:int = 0
 count3:int = 0
 count4:int = 0

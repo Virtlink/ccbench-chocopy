@@ -13,7 +13,7 @@ class B(A):
     def bar(self:"B") -> int:
         return self.foo(self.b)
 
-    def foo(self:"B", ignore:object) -> int:
+    def foo(self:"B", ignore:$ID) -> int:
         return 1
 
-print($Exp)
+print(B().bar())

@@ -1,1 +1,1 @@
-VarDef2ClassBodyMember(VarDef(TypedVar("root",Type("TreeNode3")),NONE()))
+Member(Var2Exp(Var("self")),"size")

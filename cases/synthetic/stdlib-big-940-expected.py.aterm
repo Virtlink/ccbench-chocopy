@@ -1,1 +1,1 @@
-VarDef2FuncBodyMember(VarDef(TypedVar("digit",Type("int")),Int("0")))
+Var2Exp(Var("result"))

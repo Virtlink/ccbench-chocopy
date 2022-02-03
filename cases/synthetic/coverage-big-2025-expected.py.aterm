@@ -1,1 +1,1 @@
-Nonlocal("x")
+Target(Var2Target(Var("count")))

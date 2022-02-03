@@ -1,5 +1,5 @@
-def set_x() -> int:
-    $FuncBodyMember
+def set_x() -> $ID:
+    global x
     x = 1
     return x
 

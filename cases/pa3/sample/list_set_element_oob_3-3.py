@@ -1,4 +1,4 @@
-$TypedVar = None
+$VarDef
 
 x = []
 x[0] = 4

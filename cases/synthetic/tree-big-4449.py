@@ -446,7 +446,7 @@ class TreeNode5(object):
             if self.right is None:
                 return False
             else:
-                return self.right.contains(x)
+                return $Var.right.contains(x)
         else:
             return True
 
@@ -492,7 +492,7 @@ class TreeNode5(object):
         else:
             return True
 
-class Tree($ID):
+class Tree(object):
     root:TreeNode = None
     size:int = 0
 

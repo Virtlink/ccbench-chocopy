@@ -1,1 +1,1 @@
-Exps2Parameters([Eq(Var2Exp(Var("x")),Var2Exp(Var("y")))])
+Var("print")

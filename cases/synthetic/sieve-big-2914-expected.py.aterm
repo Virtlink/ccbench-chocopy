@@ -1,1 +1,1 @@
-"capacity"
+TypedVar("self",TypeS(IdString("Vector4")))

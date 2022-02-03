@@ -1,4 +1,4 @@
-x:int = $INT
+x:int = $Literal
 def crunch(zz:[[int]]) -> object:
     z:[int] = None
     global x

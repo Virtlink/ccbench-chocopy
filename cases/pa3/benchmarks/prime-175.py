@@ -25,6 +25,4 @@ n:int = 15
 i:int = 1
 
 # Crunch
-while i <= n:
-    print($Var(i))
-    i = i + 1
+$Statement

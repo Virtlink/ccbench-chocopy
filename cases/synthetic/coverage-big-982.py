@@ -119,7 +119,7 @@ class bar2(object):
 
 
 
-class bar3(object):
+class bar3($ID):
     p: bool = True
     p2: bool = True
     p3: bool = True
@@ -132,7 +132,7 @@ class bar3(object):
         def qux(y: int) -> object:
             nonlocal x
             if x > y:
-                x = -$INT
+                x = -1
 
         for x in xx:
             self.p = x == 2

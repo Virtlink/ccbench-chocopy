@@ -1,1 +1,1 @@
-VarDef(TypedVar("char2",Type("str")),String("\"\""))
+Return(Literal2Exp(Int("0")))

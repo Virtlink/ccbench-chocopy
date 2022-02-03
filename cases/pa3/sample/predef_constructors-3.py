@@ -1,4 +1,4 @@
-$Exp(object() is None)
+$Statement
 print(int())
 print(str())
 print(bool())

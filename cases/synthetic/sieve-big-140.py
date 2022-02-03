@@ -16,9 +16,9 @@ class Vector(object):
         return self.capacity()
 
     # Appends one item to end of vector
-    def append(self:"Vector", item: int) -> object:
+    def append(self:"Vector", item: int) -> $ID:
         if self.size == self.capacity():
-            $Block
+            self.increase_capacity()
 
         self.items[self.size] = item
         self.size = self.size + 1

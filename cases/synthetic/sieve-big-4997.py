@@ -555,7 +555,7 @@ class Vector5(object):
             self.increase_capacity()
 
         self.items[self.size] = item
-        self.size = self.size + 1
+        self.size = self.size + $Exp
 
     # Appends one item to end of vector
     def append4(self:"Vector5", item: int, item2: int, item3: int, item4: int) -> object:
@@ -605,7 +605,13 @@ class Vector5(object):
 
     # Appends many items to end of vector
     def append_all5(self:"Vector5", new_items: [int], new_items2: [int], new_items3: [int], new_items4: [int], new_items5: [int]) -> object:
-        $FuncBody
+        item:int = 0
+        item2:int = 0
+        item3:int = 0
+        item4:int = 0
+        item5:int = 0
+        for item in new_items:
+            self.append(item)
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector5", idx: int) -> object:

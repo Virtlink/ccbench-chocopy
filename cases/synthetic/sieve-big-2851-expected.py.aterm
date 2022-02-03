@@ -1,1 +1,1 @@
-Var2Exp(Var("item"))
+Literal2Exp(Int("0"))

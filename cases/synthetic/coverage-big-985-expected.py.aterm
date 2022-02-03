@@ -1,1 +1,1 @@
-Var2Exp(Var("xx"))
+VarDef2ClassBodyMember(VarDef(TypedVar("p",Type("bool")),True()))

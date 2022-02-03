@@ -1,1 +1,1 @@
-Var2Exp(Var("item"))
+Member2Target(Member(Var2Exp(Var("self")),"size"))

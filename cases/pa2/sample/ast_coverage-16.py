@@ -1,6 +1,6 @@
 count:int = 0
 
-def foo(s: str) $RetType:
+def foo(s: $Type) -> int:
     return len(s)
 
 class bar(object):

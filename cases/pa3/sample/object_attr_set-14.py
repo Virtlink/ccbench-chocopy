@@ -1,7 +1,11 @@
 class A(object):
-    a:int = 42
+    a:int = $Literal
 
-$Definition
+class B(A):
+    b:bool = True
+
+    def __init__(self:"B"):
+        print("B")
 
 a:A = None
 b:B = None

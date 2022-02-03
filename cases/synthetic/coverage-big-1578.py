@@ -192,7 +192,7 @@ class bar3(object):
         x:int = 0
         x2:int = 0
         x3:int = 0
-        y:int = 1
+        $FuncBodyMember
         y2:int = 1
         y3:int = 1
 
@@ -214,7 +214,7 @@ class bar3(object):
             if x > y:
                 x = -1
 
-        for $ID in xx:
+        for x in xx:
             self.p = x == 2
 
         qux(0) # Yay! ChocoPy

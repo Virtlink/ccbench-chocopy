@@ -983,7 +983,7 @@ def sieve2(v:Vector, v2:Vector) -> object:
                 v.remove_at(j)
             else:
                 j = j + 1
-        i = i + 1
+        i = $ID + 1
 
 def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
     i:int = 0
@@ -1074,7 +1074,7 @@ i:int = 0
 i2:int = 0
 i3:int = 0
 i4:int = 0
-$Definition
+i5:int = 0
 
 # Crunch
 v = vrange(2, n)

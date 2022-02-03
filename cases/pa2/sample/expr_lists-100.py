@@ -8,5 +8,5 @@ x = []
 y = [1, True]
 z = [False, True]
 x = None
-o = x
-o = x = [$Literal]
+o = $ID
+o = x = [1]

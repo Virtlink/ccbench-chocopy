@@ -309,7 +309,7 @@ class TreeNode4(object):
             else:
                 return self.left.contains(x)
         elif x > self.value:
-            if self.right is None:
+            if $ID.right is None:
                 return False
             else:
                 return self.right.contains(x)
@@ -344,7 +344,7 @@ class TreeNode5(object):
     right:"TreeNode5" = None
     right2:"TreeNode5" = None
     right3:"TreeNode5" = None
-    $VarDef
+    right4:"TreeNode5" = None
     right5:"TreeNode5" = None
 
     def insert(self:"TreeNode5", x:int) -> bool:

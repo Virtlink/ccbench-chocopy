@@ -25,12 +25,20 @@ class Vector(object):
 
     # Appends many items to end of vector
     def append_all(self:"Vector", new_items: [int]) -> object:
-        item:int = 0
+        $FuncBodyMember
         for item in new_items:
             self.append(item)
 
     # Removes an item from the middle of vector
-    $FuncDef
+    def remove_at(self:"Vector", idx: int) -> object:
+        if idx < 0:
+            return
+
+        while idx < self.size - 1:
+            self.items[idx] = self.items[idx + 1]
+            idx = idx + 1
+
+        self.size = self.size - 1
 
     # Retrieves an item at a given index
     def get(self:"Vector", idx: int) -> int:

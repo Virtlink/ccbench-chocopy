@@ -1,4 +1,4 @@
-a:$ID = "no"
+a:$Type = "no"
 b:str = "o"
 c:str = ""
 d:str = ""

@@ -3,5 +3,5 @@ y:[object] = None
 
 x = [1, 2]
 y = [None]
-x[0] = 3
-$Statement
+$ID[0] = 3
+x[1] = y[0] = 4

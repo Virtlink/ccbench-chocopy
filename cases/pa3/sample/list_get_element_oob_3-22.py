@@ -1,4 +1,4 @@
 x:[int] = None
 
 x = []
-print($Index)
+$Var(x[0])

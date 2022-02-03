@@ -1,1 +1,1 @@
-VarDef(TypedVar("z",Type("bool")),True())
+ClassDef2Definition(ClassDef("B5","A",ClassBodyMembers2ClassBody([FuncDef2ClassBodyMember(FuncDef("__init__",[TypedVar("self",TypeS(IdString("B5")))],ReturnsNone(),FuncBody([],[PassStmt()])))])))

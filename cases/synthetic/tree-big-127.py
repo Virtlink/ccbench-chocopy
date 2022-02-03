@@ -12,10 +12,7 @@ class TreeNode(object):
             else:
                 return self.left.insert(x)
         elif x > self.value:
-            if self.right is None:
-                $Block
-            else:
-                return self.right.insert(x)
+            $Block
         return False
 
     def contains(self:"TreeNode", x:int) -> bool:

@@ -5,10 +5,10 @@ class A(object):
         return self.x
 
 class B(A):
-    def __init__(self: "B"):
+    def __init__(self: "$ID"):
         pass
 
-class C($ID):
+class C(B):
     z:bool = True
 
     def set_A(self: "C", val: int) -> object:

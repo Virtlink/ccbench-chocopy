@@ -6,7 +6,7 @@ print(x != y)
 print(x < y)
 print(x <= y)
 print(x > y)
-print($ID >= y)
+$Exp(x >= y)
 
 print(x == x)
 print(x != x)

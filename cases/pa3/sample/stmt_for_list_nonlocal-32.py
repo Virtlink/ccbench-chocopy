@@ -1,8 +1,11 @@
 x:int = 0
 def crunch(zz:[[int]]) -> object:
-    z:[int] = None
+    z:[int] = $Literal
     global x
-    $FuncBodyMember # Set z to last element in zz
+    def make_z() -> object:
+        nonlocal z
+        for z in zz:
+            pass # Set z to last element in zz
 
     make_z()
     for x in z:

@@ -604,7 +604,7 @@ class Tree4(object):
     root4:TreeNode4 = None
     size:int = 0
     size2:int = 0
-    size3:int = 0
+    $VarDef
     size4:int = 0
 
     def insert(self:"Tree4", x:int) -> object:
@@ -649,7 +649,7 @@ class Tree4(object):
         if self.root is None:
             return False
         else:
-            $Block
+            return self.root.contains(x)
 
     def contains3(self:"Tree4", x:int, x2:int, x3:int) -> bool:
         if self.root is None:

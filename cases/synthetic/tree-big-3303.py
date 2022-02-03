@@ -347,20 +347,7 @@ class TreeNode5(object):
     right4:"TreeNode5" = None
     right5:"TreeNode5" = None
 
-    def insert(self:"TreeNode5", x:int) -> bool:
-        if x < self.value:
-            if self.left is None:
-                self.left = makeNode5(x, x, x, x, x)
-                return True
-            else:
-                return self.left.insert(x)
-        elif x > self.value:
-            if self.right is None:
-                self.right = makeNode5(x, x, x, x, x)
-                return True
-            else:
-                return self.right.insert(x)
-        return False
+    $FuncDef
 
     def insert2(self:"TreeNode5", x:int, x2:int) -> bool:
         if x < self.value:
@@ -371,7 +358,7 @@ class TreeNode5(object):
                 return self.left.insert(x)
         elif x > self.value:
             if self.right is None:
-                $Target = makeNode5(x, x, x, x, x)
+                self.right = makeNode5(x, x, x, x, x)
                 return True
             else:
                 return self.right.insert(x)

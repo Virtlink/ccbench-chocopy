@@ -1,1 +1,1 @@
-VarDef2FuncBodyMember(VarDef(TypedVar("x2",Type("int")),Int("0")))
+Index(Literal2Exp(String("\"Long\"")),Literal2Exp(Int("0")))

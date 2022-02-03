@@ -1,1 +1,1 @@
-"Tree3"
+TypedVar("self",TypeS(IdString("Tree")))

@@ -1,1 +1,1 @@
-Exps2Parameters([Literal2Exp(Int("2")),Var2Exp(Var("n"))])
+VarDef2FuncBodyMember(VarDef(TypedVar("j",Type("int")),Int("0")))

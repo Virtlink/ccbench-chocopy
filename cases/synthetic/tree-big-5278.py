@@ -531,7 +531,7 @@ class Tree2(object):
             self.size = 1
         else:
             if self.root.insert(x):
-                self.size = self.size + 1
+                self.size = self.size + $Literal
 
     def contains(self:"Tree2", x:int) -> bool:
         if self.root is None:
@@ -578,7 +578,7 @@ class Tree3(object):
             if self.root.insert(x):
                 self.size = self.size + 1
 
-    def $ID(self:"Tree3", x:int) -> bool:
+    def contains(self:"Tree3", x:int) -> bool:
         if self.root is None:
             return False
         else:

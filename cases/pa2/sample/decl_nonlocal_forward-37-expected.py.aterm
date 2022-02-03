@@ -1,1 +1,1 @@
-Exp(Call(Var2Exp(Var("inner")),Exps2Parameters([])))
+VarDef(TypedVar("x",Type("int")),Int("0"))

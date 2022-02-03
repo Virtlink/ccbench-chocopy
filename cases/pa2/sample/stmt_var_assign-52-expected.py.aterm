@@ -1,1 +1,1 @@
-String("\"Hello\"")
+Target(Var2Target(Var("z")))

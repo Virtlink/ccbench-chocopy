@@ -1,8 +1,8 @@
 # Test of 'input' function.
 
-s: str = ""
+s: str = $STRING
 
-$Statement
+s = input()
 while len(s) > 0:
     print(s)
     s = input()

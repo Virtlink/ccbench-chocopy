@@ -146,7 +146,7 @@ class Vector2(object):
 # A resizable list of integers
 class Vector3(object):
     items: [int] = None
-    items2: [int] = None
+    $ClassBodyMember
     items3: [int] = None
     size: int = 0
     size2: int = 0
@@ -165,7 +165,7 @@ class Vector3(object):
 
     # Returns current capacity
     def capacity3(self:"Vector3") -> int:
-        return $Var(self.items)
+        return len(self.items)
 
     # Increases capacity of vector by one element
     def increase_capacity(self:"Vector3") -> int:

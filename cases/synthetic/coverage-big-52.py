@@ -4,8 +4,8 @@ count3:int = 0
 count4:int = 0
 count5:int = 0
 
-def foo(s: str) -> int:
-    $Statement
+def foo(s: str) -> $ID:
+    return len(s)
 
 def foo2(s: str, s2: str) -> int:
     return len(s)

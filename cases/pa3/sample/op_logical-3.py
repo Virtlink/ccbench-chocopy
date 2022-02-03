@@ -1,6 +1,4 @@
-def $ID() -> bool:
-  print("f called")
-  return True
+$FuncDef
 
 def g() -> bool:
   print("g called")

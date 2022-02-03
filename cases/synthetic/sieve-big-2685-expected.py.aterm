@@ -1,1 +1,1 @@
-Target(Member2Target(Member(Var2Exp(Var("self")),"size")))
+Return(Call(Var2Exp(Var("len")),Exps2Parameters([Member2Exp(Member(Var2Exp(Var("self")),"items"))])))

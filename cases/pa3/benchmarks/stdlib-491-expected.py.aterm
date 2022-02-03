@@ -1,1 +1,1 @@
-Negative(Var2Exp(Var("n")))
+Mul(Var2Exp(Var("result")),Var2Exp(Var("sign")))

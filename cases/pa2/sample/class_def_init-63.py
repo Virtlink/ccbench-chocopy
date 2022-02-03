@@ -10,8 +10,8 @@ class C(B):
 
 a:A = None
 b:B = None
-c:C = None
+$Definition
 
-$Statement
+a = A()
 b = B()
 c = C()

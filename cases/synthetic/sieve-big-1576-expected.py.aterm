@@ -1,1 +1,1 @@
-Returns(Type("object"))
+Member(Var2Exp(Var("self")),"size")

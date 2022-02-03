@@ -1,1 +1,1 @@
-"sign5"
+Mul(Var2Exp(Var("result")),Var2Exp(Var("sign")))

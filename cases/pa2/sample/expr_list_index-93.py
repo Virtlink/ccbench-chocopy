@@ -8,5 +8,5 @@ z = [False, True]
 
 y = x[0]
 x[0] = 1
-z[1] = $Exp
+$AssignTarget z[0]
 o = x[1]

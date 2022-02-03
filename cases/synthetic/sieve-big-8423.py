@@ -937,7 +937,7 @@ def vrange4(i:int, j:int, i2:int, j2:int, i3:int, j3:int, i4:int, j4:int) -> Vec
 
     return v
 
-def vrange5(i:int, j:int, i2:int, j2:int, i3:int, j3:int, i4:int, j4:int, i5:int, j5:int) -> Vector:
+def vrange5(i:int, $TypedVar, i2:int, j2:int, i3:int, j3:int, i4:int, j4:int, i5:int, j5:int) -> Vector:
     v:Vector = None
     v2:Vector = None
     v3:Vector = None
@@ -1018,7 +1018,7 @@ def sieve4(v:Vector, v2:Vector, v3:Vector, v4:Vector) -> object:
     k:int = 0
     k2:int = 0
     k3:int = 0
-    k4:int = $INT
+    k4:int = 0
 
     while i < v.length():
         k = v.get(i)

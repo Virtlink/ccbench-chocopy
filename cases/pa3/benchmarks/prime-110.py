@@ -11,9 +11,11 @@ def get_prime(n:int) -> int:
     return 0 # Never happens
 
 def is_prime(x:int) -> bool:
-    div:int = 2
+    div:$Type = 2
     while div < x:
-        $Block
+        if x % div == 0:
+            return False
+        div = div + 1
     return True
 
 # Input parameter

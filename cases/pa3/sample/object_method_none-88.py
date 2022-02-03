@@ -10,8 +10,8 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-    def bar(self:"B") -> int:
+    def bar(self:"B") -> $Type:
         a:A = None
-        return $Exp
+        return a.foo(self.b)
 
 print(B().bar())

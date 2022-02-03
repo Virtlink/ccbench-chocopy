@@ -1,1 +1,1 @@
-Var2Exp(Var("v"))
+TypedVar("doubling_limit3",Type("int"))

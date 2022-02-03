@@ -1,1 +1,1 @@
-Literal2Exp(String("\"h\""))
+Var2Exp(Var("print"))

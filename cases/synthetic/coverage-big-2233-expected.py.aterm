@@ -1,1 +1,1 @@
-ListType(Type("int"))
+Negative(Literal2Exp(Int("1")))

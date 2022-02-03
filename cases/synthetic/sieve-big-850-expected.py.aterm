@@ -1,1 +1,1 @@
-ReturnNone()
+Member(Var2Exp(Var("self")),"append")

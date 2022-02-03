@@ -1,7 +1,4 @@
-def $ID() -> int:
-    global x
-    x = 1
-    return x
+$FuncDef
 
 x:int = 0
 

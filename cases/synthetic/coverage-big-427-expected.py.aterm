@@ -1,1 +1,1 @@
-TypedVar("xx",ListType(Type("int")))
+Member(Var2Exp(Var("self")),"p")

@@ -20,9 +20,9 @@ def is_prime(x:int) -> bool:
         if x % div == 0:
             return False
         div = div + 1
-    return True
+    $Statement
 
-def is_prime2(x:int, x2:int) -> $ID:
+def is_prime2(x:int, x2:int) -> bool:
     div:int = 2
     div2:int = 2
     div3:int = 2

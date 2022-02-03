@@ -1,1 +1,1 @@
-Var2Exp(Var("makeNode5"))
+Target(Member2Target(Member(Var2Exp(Var("self")),"size")))

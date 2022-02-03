@@ -1,1 +1,1 @@
-FuncBody([],[Return(Index2Exp(Index(Member2Exp(Member(Var2Exp(Var("self")),"items")),Var2Exp(Var("idx")))))])
+"1"

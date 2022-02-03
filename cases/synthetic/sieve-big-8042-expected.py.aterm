@@ -1,1 +1,1 @@
-Mod(Call(Member2Exp(Member(Var2Exp(Var("v")),"get")),Exps2Parameters([Var2Exp(Var("j"))])),Var2Exp(Var("k")))
+Assign([Target(Var2Target(Var("v")))],Call(Var2Exp(Var("DoublingVector")),Exps2Parameters([])))

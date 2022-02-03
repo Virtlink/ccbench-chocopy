@@ -5,15 +5,6 @@ class A(object):
         return self.a
 
 class B(A):
-    b:$Type = True
-
-    def __init__(self:"B"):
-        print("B")
-
-    def bar(self:"B") -> int:
-        return self.foo(self.foo(print("...")))
-
-    def foo(self:"B", ignore:object) -> int:
-        return 1
+    $ClassBody
 
 print(B().bar())

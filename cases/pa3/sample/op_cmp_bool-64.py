@@ -3,6 +3,6 @@ print(True == False)
 print(False == True)
 print(False == False)
 print(True != True)
-print($Literal != False)
+$Exp
 print(False != True)
 print(False != False)

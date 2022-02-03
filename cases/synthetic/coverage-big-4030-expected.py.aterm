@@ -1,1 +1,1 @@
-Nonlocal("x4")
+Var2Exp(Var("count"))

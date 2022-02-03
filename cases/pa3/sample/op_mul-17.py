@@ -1,1 +1,1 @@
-print(6*9*$INT)
+print(6*$INT*2)

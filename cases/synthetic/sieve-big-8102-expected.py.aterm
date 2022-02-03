@@ -1,1 +1,1 @@
-TypedVar("v",Type("Vector"))
+TypedVar("j",Type("int"))

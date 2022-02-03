@@ -1,1 +1,1 @@
-"int"
+FuncDef2ClassBodyMember(FuncDef("foo",[TypedVar("self",TypeS(IdString("B"))),TypedVar("ignore",Type("object"))],Returns(Type("int")),FuncBody([],[Return(Literal2Exp(Int("1")))])))

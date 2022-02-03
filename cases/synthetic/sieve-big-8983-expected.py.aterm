@@ -1,1 +1,1 @@
-Var("v5")
+TypedVar("k",Type("int"))

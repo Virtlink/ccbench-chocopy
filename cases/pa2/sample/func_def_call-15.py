@@ -1,5 +1,5 @@
-def foo(x:str, y:bool) -> int:
-    $FuncBody
+def foo(x:str, y:bool) -> $Type:
+    return bar()
 
 def bar() -> int:
     return 1

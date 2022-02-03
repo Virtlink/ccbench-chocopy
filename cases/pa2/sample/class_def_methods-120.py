@@ -16,10 +16,10 @@ class C(B):
 
 a:A = None
 b:B = None
-c:C = None
+c:$Type = None
 
 a = A()
-$AssignTarget B()
+b = B()
 c = C()
 
 b.x = a.get_A()

@@ -49,14 +49,14 @@ class Vector(object):
         return self.size
 
 # A resizable list of integers
-class Vector2(object):
+class Vector2($ID):
     items: [int] = None
     items2: [int] = None
     size: int = 0
     size2: int = 0
 
     def __init__(self:"Vector2"):
-        $Statement
+        self.items = [0]
 
     # Returns current capacity
     def capacity(self:"Vector2") -> int:

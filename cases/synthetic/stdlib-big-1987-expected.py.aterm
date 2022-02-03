@@ -1,1 +1,1 @@
-Type("str")
+Assign([Target(Var2Target(Var("digit")))],Literal2Exp(Int("4")))

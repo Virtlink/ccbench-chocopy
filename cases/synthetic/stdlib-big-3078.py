@@ -368,7 +368,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
         elif char == "9":
             digit = 9
         else:
-            return 0 # On error
+            return $INT # On error
         first_char = False
         result = result * 10 + digit
 
@@ -402,7 +402,7 @@ i = -n * c
 
 # Crunch
 while i <= n * c:
-    $AssignTarget int_to_str(i)
+    s = int_to_str(i)
     print(s)
     i = str_to_int(s) + c
 

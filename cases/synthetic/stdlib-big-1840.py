@@ -216,7 +216,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
     sign3:int = 1
     first_char:bool = True
     first_char2:bool = True
-    first_char3:bool = True
+    first_char3:$Type = True
 
     # Parse digits
     for char in x:
@@ -234,7 +234,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
             digit = 3
         elif char == "3":
             digit = 3
-        elif char == $Exp:
+        elif char == "4":
             digit = 4
         elif char == "5":
             digit = 5

@@ -18,9 +18,9 @@ def exp(x: int, y: int) -> int:
         else:
             a = a * x
             a2 = a * x
-            a3 = a * x
+            a3 = a * $Var
             a4 = a * x
-            $AssignTarget a * x
+            a5 = a * x
             return f(i-1)
     a = 1
     a2 = 1

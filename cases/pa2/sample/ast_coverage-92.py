@@ -11,9 +11,9 @@ class bar(object):
         x:int = 0
         y:int = 1
 
-        def qux(y: int) -> object:
+        def qux(y: int) $RetType:
             nonlocal x
-            if $Var > y:
+            if x > y:
                 x = -1
 
         for x in xx:

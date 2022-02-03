@@ -109,7 +109,7 @@ class bar2(object):
 
         while x <= 0:
             if self.p:
-                xx[0] = xx[1]
+                xx[0] = xx[$Literal]
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
@@ -121,7 +121,7 @@ class bar2(object):
 
 class bar3(object):
     p: bool = True
-    p2: $ID = True
+    p2: bool = True
     p3: bool = True
 
     def baz(self:"bar3", xx: [int]) -> str:

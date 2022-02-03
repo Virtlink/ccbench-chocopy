@@ -1,4 +1,4 @@
 x:[int] = None
-y:[int] = $Literal
+y:[$ID] = None
 
 print(len(x+y))

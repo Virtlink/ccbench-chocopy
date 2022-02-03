@@ -4,8 +4,24 @@ def exp(x: int, y: int) -> int:
     a2: int = 0
     a3: int = 0
     a4: int = 0
-    a5: int = 0
-    $FuncDef
+    a5: int = $Literal
+    def f(i: int) -> int:
+        nonlocal a
+        nonlocal a2
+        nonlocal a3
+        nonlocal a4
+        nonlocal a5
+        def geta() -> int:
+            return a
+        if i <= 0:
+            return geta()
+        else:
+            a = a * x
+            a2 = a * x
+            a3 = a * x
+            a4 = a * x
+            a5 = a * x
+            return f(i-1)
     a = 1
     a2 = 1
     a3 = 1

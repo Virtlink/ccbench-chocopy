@@ -1,1 +1,1 @@
-VarDef(TypedVar("digits2",ListType(Type("str"))),NONE())
+Var("digits")

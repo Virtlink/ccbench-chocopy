@@ -1,1 +1,1 @@
-Type("A")
+VarDef(TypedVar("z4",Type("bool")),True())

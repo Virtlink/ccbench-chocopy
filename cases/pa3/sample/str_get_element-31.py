@@ -1,7 +1,7 @@
 x:str = "abc"
 a:str = ""
 b:str = ""
-c:str = $Literal
+c:$ID = ""
 
 def str_get(s:str, i:int) -> str:
     return s[i]

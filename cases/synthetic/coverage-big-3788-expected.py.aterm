@@ -1,1 +1,1 @@
-Return(Literal2Exp(String("\"Nope\"")))
+TypedVar("self",TypeS(IdString("bar5")))

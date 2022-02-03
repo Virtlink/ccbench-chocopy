@@ -6,8 +6,7 @@ def foo(x: int) -> int:
         def baz() -> int:
             return qux(y)
         return baz()
-    def qux(p: int) -> int:
-        return $Exp
+    $FuncDef
 
     return bar()
     

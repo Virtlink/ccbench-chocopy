@@ -4,7 +4,7 @@ class TreeNode(object):
     left:"TreeNode" = None
     right:"TreeNode" = None
 
-    def insert($ID:"TreeNode", x:int) -> bool:
+    def $ID(self:"TreeNode", x:int) -> bool:
         if x < self.value:
             if self.left is None:
                 self.left = makeNode(x)

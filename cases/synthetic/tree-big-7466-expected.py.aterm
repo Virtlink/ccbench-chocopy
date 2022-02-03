@@ -1,1 +1,1 @@
-TypedVar("t5",Type("Tree"))
+"int"

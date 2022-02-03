@@ -298,7 +298,7 @@ class TreeNode4(object):
             if self.right is None:
                 return False
             else:
-                return self.right.contains(x)
+                return self.right.contains($Parameters)
         else:
             return True
 
@@ -331,7 +331,7 @@ class TreeNode4(object):
             return True
 
 class TreeNode5(object):
-    $VarDef
+    value:int = 0
     value2:int = 0
     value3:int = 0
     value4:int = 0

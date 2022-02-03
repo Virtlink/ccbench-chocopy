@@ -1,1 +1,1 @@
-"s5"
+Assign([Target(Var2Target(Var("digit")))],Literal2Exp(Int("6")))

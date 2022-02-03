@@ -1,1 +1,1 @@
-TypedVar("a",Type("int"))
+Var2Target(Var("a5"))

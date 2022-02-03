@@ -94,7 +94,7 @@ class TreeNode2(object):
                 return self.left.contains(x)
         elif x > self.value:
             if self.right is None:
-                return False
+                $Statement
             else:
                 return self.right.contains(x)
         else:
@@ -108,7 +108,7 @@ class TreeNode3(object):
     left:"TreeNode3" = None
     left2:"TreeNode3" = None
     left3:"TreeNode3" = None
-    $ID:"TreeNode3" = None
+    right:"TreeNode3" = None
     right2:"TreeNode3" = None
     right3:"TreeNode3" = None
 

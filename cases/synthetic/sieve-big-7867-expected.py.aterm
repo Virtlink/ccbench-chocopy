@@ -1,1 +1,1 @@
-Member(Var2Exp(Var("v")),"get")
+Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"items")))],Add(Member2Exp(Member(Var2Exp(Var("self")),"items")),Member2Exp(Member(Var2Exp(Var("self")),"items"))))

@@ -304,7 +304,7 @@ class bar4(object):
 
     def baz3(self:"bar4", xx: [int], xx2: [int], xx3: [int]) -> str:
         global count
-        x:int = 0
+        x:$ID = 0
         x2:int = 0
         x3:int = 0
         y:int = 1
@@ -338,7 +338,9 @@ class bar4(object):
 
         while x <= 0:
             if self.p:
-                $Block
+                xx[0] = xx[1]
+                self.p = not self.p
+                x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 

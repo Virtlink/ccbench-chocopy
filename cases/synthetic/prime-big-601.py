@@ -66,14 +66,14 @@ def is_prime5(x:int, x2:int, x3:int, x4:int, x5:int) -> bool:
     div5:int = 2
     while div < x:
         if x % div == 0:
-            return False
+            return $Literal
         div = div + 1
     return True
 
 # Input parameter
 n:int = 15
 n2:int = 15
-n3:int = $INT
+n3:int = 15
 n4:int = 15
 n5:int = 15
 

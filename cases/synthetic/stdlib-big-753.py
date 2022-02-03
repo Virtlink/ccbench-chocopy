@@ -83,11 +83,11 @@ def int_to_str4(x: int, x2: int, x3: int, x4: int) -> str:
     result = result + digits[x % 10]
     return result
 
-def int_to_str5(x: int, x2: int, x3: int, x4: int, x5: int) -> str:
+def int_to_str5(x: $ID, x2: int, x3: int, x4: int, x5: int) -> str:
     digits:[str] = None 
     digits2:[str] = None 
     digits3:[str] = None 
-    digits4:[$Type] = None 
+    digits4:[str] = None 
     digits5:[str] = None 
     result:str = ""
     result2:str = ""

@@ -3,8 +3,8 @@ a:str = ""
 b:str = ""
 c:str = ""
 
-def str_get(s:str, i:int) -> str:
-    $Statement
+def str_get(s:str, i:int) -> $ID:
+    return s[i]
 
 a = str_get(x, 0)
 b = str_get(x, 1)

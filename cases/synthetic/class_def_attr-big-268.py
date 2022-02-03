@@ -46,12 +46,12 @@ class B5(A):
 class C(B):
     z:bool = True
 
-class C2(B):
+class C2($ID):
     z:bool = True
     z2:bool = True
 
 class C3(B):
-    z:bool = $Literal
+    z:bool = True
     z2:bool = True
     z3:bool = True
 

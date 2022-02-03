@@ -1,1 +1,1 @@
-Call(Member2Exp(Member(Member2Exp(Member(Var2Exp(Var("self")),"root")),"contains")),Exps2Parameters([Var2Exp(Var("x"))]))
+Var2Exp(Var("self"))

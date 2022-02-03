@@ -1,1 +1,1 @@
-Var("x")
+TypedVar("right3",TypeS(IdString("TreeNode3")))

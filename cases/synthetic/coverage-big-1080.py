@@ -134,8 +134,7 @@ class bar3(object):
             if x > y:
                 x = -1
 
-        for x in xx:
-            self.p = x == 2
+        $Statement
 
         qux(0) # Yay! ChocoPy
 
@@ -145,7 +144,7 @@ class bar3(object):
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
-                x = $Exp
+                x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 

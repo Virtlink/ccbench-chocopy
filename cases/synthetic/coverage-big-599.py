@@ -73,10 +73,8 @@ class bar2(object):
 
         while x <= 0:
             if self.p:
-                xx[0] = xx[1]
-                self.p = not self.p
-                x = x + 1
-            elif foo($Literal[0]) == 1:
+                $Block
+            elif foo("Long"[0]) == 1:
                 self.p = self is None
 
         return "Nope"

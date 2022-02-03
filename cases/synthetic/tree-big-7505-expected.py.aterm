@@ -1,1 +1,1 @@
-TypedVar("i5",Type("int"))
+Var("x")

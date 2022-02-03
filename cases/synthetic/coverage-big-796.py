@@ -94,7 +94,7 @@ class bar2(object):
             if x > y:
                 x = -1
 
-        def qux2(y: int, y2: int) -> object:
+        def qux2(y: int, y2: int) -> $Type:
             nonlocal x
             nonlocal x2
             if x > y:
@@ -107,7 +107,7 @@ class bar2(object):
 
         count = count + 1
 
-        while $ID <= 0:
+        while x <= 0:
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p

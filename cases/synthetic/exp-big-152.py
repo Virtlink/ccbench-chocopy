@@ -18,8 +18,8 @@ def exp(x: int, y: int) -> int:
         else:
             a = a * x
             a2 = a * x
-            a3 = a * x
-            a4 = a * $ID
+            a3 = $ID * x
+            a4 = a * x
             a5 = a * x
             return f(i-1)
     a = 1

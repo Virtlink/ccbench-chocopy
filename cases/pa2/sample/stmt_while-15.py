@@ -1,3 +1,3 @@
 x:int = 0
-while x < $Literal:
+while $ID < 100:
     x = x + 1

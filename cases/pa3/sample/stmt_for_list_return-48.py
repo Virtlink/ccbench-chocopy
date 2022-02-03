@@ -2,7 +2,7 @@ def print_list(z:[int]) -> object:
     x:int = 0
     for x in z:
         print(x)
-        if x >= 30:
+        if x >= $Literal:
             return
 
-$Exp([10,20,30,40])
+print_list([10,20,30,40])

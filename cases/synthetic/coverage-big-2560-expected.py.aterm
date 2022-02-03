@@ -1,1 +1,1 @@
-TypedVar("xx",ListType(Type("int")))
+Returns(Type("object"))

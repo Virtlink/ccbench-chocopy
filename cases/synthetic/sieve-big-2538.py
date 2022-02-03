@@ -287,7 +287,7 @@ class Vector3(object):
 # A resizable list of integers
 class Vector4(object):
     items: [int] = None
-    items2: [int] = None
+    items2: [int] = $Literal
     items3: [int] = None
     items4: [int] = None
     size: int = 0
@@ -322,7 +322,7 @@ class Vector4(object):
     # Increases capacity of vector by one element
     def increase_capacity2(self:"Vector4") -> int:
         self.items = self.items + [0]
-        return $Exp.capacity()
+        return self.capacity()
 
     # Increases capacity of vector by one element
     def increase_capacity3(self:"Vector4") -> int:

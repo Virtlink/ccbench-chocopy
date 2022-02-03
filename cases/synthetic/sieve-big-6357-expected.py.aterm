@@ -1,1 +1,1 @@
-TypedVar("self",TypeS(IdString("DoublingVector3")))
+Type("int")

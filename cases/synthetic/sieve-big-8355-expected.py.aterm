@@ -1,1 +1,1 @@
-"i4"
+VarDef2FuncBodyMember(VarDef(TypedVar("v4",Type("Vector")),NONE()))

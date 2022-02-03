@@ -1,1 +1,1 @@
-Member(Var2Exp(Var("v")),"length")
+TypedVar("j2",Type("int"))

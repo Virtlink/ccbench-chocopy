@@ -1,1 +1,1 @@
-Member(Var2Exp(Var("self")),"size")
+List([Literal2Exp(Int("0"))])

@@ -4,5 +4,5 @@ print(False == True)
 print(False == False)
 print(True != True)
 print(True != False)
-print(False != True)
-$Exp
+$ID(False != True)
+print(False != False)

@@ -29,7 +29,7 @@ class TreeNode(object):
             if self.right is None:
                 return False
             else:
-                return self.right.contains(x)
+                return self.right.contains($ID)
         else:
             return True
 
@@ -37,7 +37,7 @@ class TreeNode(object):
 class TreeNode2(object):
     value:int = 0
     value2:int = 0
-    $VarDef
+    left:"TreeNode2" = None
     left2:"TreeNode2" = None
     right:"TreeNode2" = None
     right2:"TreeNode2" = None

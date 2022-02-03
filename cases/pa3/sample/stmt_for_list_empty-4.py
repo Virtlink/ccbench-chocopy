@@ -1,4 +1,4 @@
-$ID:int = 0
+$TypedVar = 0
 y:int = 0
 z:[int] = None
 e:[int] = None

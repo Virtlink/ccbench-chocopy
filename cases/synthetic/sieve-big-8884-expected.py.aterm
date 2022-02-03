@@ -1,1 +1,1 @@
-VarDef2Definition(VarDef(TypedVar("i2",Type("int")),Int("0")))
+Block([Assign([Target(Var2Target(Var("j")))],Add(Var2Exp(Var("j")),Literal2Exp(Int("1"))))])

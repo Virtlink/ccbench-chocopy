@@ -1,1 +1,1 @@
-Var2Exp(Var("char"))
+TypedVar("first_char3",Type("bool"))

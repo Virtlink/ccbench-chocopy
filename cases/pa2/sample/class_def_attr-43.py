@@ -6,9 +6,9 @@ class B(A):
         pass
 
 class C(B):
-    z:bool = True
+    $VarDef
 
-$VarDef
+a:A = None
 b:B = None
 c:C = None
 

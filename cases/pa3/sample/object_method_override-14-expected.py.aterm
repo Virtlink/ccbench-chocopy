@@ -1,1 +1,1 @@
-FuncDef2ClassBodyMember(FuncDef("foo",[TypedVar("self",TypeS(IdString("A"))),TypedVar("ignore",Type("object"))],Returns(Type("int")),FuncBody([],[Return(Member2Exp(Member(Var2Exp(Var("self")),"a")))])))
+Int("42")

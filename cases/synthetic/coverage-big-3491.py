@@ -433,7 +433,7 @@ class bar5(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        return "Nope"
+        return $Exp
 
 
     def baz2(self:"bar5", xx: [int], xx2: [int]) -> str:
@@ -472,7 +472,7 @@ class bar5(object):
         return "Nope"
 
     def baz3(self:"bar5", xx: [int], xx2: [int], xx3: [int]) -> str:
-        global $ID
+        global count
         x:int = 0
         x2:int = 0
         x3:int = 0

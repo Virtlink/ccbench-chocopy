@@ -1,1 +1,0 @@
-VarDef(TypedVar("a",Type("int")),Int("42"))

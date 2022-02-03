@@ -1,1 +1,1 @@
-Eq(Var2Exp(Var("x")),Literal2Exp(Int("2")))
+Call(Var2Exp(Var("foo")),Exps2Parameters([Index2Exp(Index(Literal2Exp(String("\"Long\"")),Literal2Exp(Int("0"))))]))

@@ -1,1 +1,1 @@
-Exps2Parameters([Call(Var2Exp(Var("outer")),Exps2Parameters([]))])
+Return(Var2Exp(Var("x")))

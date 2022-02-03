@@ -259,7 +259,7 @@ class bar4(object):
         while x <= 0:
             if self.p:
                 xx[0] = xx[1]
-                self.p = not self.p
+                self.p = $Exp
                 x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
@@ -285,7 +285,7 @@ class bar4(object):
             if x > y:
                 x = -1
 
-        for $ID in xx:
+        for x in xx:
             self.p = x == 2
 
         qux(0) # Yay! ChocoPy

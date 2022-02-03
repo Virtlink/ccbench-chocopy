@@ -239,7 +239,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
         elif char == "5":
             digit = 5
         elif char == "6":
-            digit = 6
+            $ID = 6
         elif char == "7":
             digit = 7
         elif char == "8":
@@ -259,7 +259,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
     result2:int = 0
     result3:int = 0
     result4:int = 0
-    $VarDef
+    digit:int = 0
     digit2:int = 0
     digit3:int = 0
     digit4:int = 0

@@ -341,7 +341,7 @@ class bar4(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo("Long"[0]) == 1:
+            elif foo("Long"[$Exp]) == 1:
                 self.p = self is None
 
         return "Nope"
@@ -375,7 +375,7 @@ class bar4(object):
             if x > y:
                 x = -1
 
-        def qux4($ID: int, y2: int, y3: int, y4: int) -> object:
+        def qux4(y: int, y2: int, y3: int, y4: int) -> object:
             nonlocal x
             nonlocal x2
             nonlocal x3

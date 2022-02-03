@@ -15,10 +15,12 @@ def get_b() -> B:
     return b
 
 def get_one() -> int:
-    print("Getting 1")
+    $Statement
     return 1
 
-$FuncDef
+def get_false() -> bool:
+    print("Getting False")
+    return False
 
 a = b = B()
 get_b().a = get_one()

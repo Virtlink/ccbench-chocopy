@@ -1,7 +1,7 @@
 g: int = 1
 def foo(x: int) -> int:
-    y: int = 2
-    def $ID() -> int:
+    y: int = $INT
+    def bar() -> int:
         z: int = 3
         def baz() -> int:
             return qux(y)

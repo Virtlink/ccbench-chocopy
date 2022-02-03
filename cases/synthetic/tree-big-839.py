@@ -88,7 +88,7 @@ class TreeNode2(object):
 
     def contains2(self:"TreeNode2", x:int, x2:int) -> bool:
         if x < self.value:
-            if self.left is None:
+            if self.$ID is None:
                 return False
             else:
                 return self.left.contains(x)
@@ -102,7 +102,102 @@ class TreeNode2(object):
 
 
 class TreeNode3(object):
-    $ClassBody
+    value:int = 0
+    value2:int = 0
+    value3:int = 0
+    left:"TreeNode3" = None
+    left2:"TreeNode3" = None
+    left3:"TreeNode3" = None
+    right:"TreeNode3" = None
+    right2:"TreeNode3" = None
+    right3:"TreeNode3" = None
+
+    def insert(self:"TreeNode3", x:int) -> bool:
+        if x < self.value:
+            if self.left is None:
+                self.left = makeNode3(x, x, x)
+                return True
+            else:
+                return self.left.insert(x)
+        elif x > self.value:
+            if self.right is None:
+                self.right = makeNode3(x, x, x)
+                return True
+            else:
+                return self.right.insert(x)
+        return False
+
+    def insert2(self:"TreeNode3", x:int, x2:int) -> bool:
+        if x < self.value:
+            if self.left is None:
+                self.left = makeNode3(x, x, x)
+                return True
+            else:
+                return self.left.insert(x)
+        elif x > self.value:
+            if self.right is None:
+                self.right = makeNode3(x, x, x)
+                return True
+            else:
+                return self.right.insert(x)
+        return False
+
+    def insert3(self:"TreeNode3", x:int, x2:int, x3:int) -> bool:
+        if x < self.value:
+            if self.left is None:
+                self.left = makeNode3(x, x, x)
+                return True
+            else:
+                return self.left.insert(x)
+        elif x > self.value:
+            if self.right is None:
+                self.right = makeNode3(x, x, x)
+                return True
+            else:
+                return self.right.insert(x)
+        return False
+
+    def contains(self:"TreeNode3", x:int) -> bool:
+        if x < self.value:
+            if self.left is None:
+                return False
+            else:
+                return self.left.contains(x)
+        elif x > self.value:
+            if self.right is None:
+                return False
+            else:
+                return self.right.contains(x)
+        else:
+            return True
+
+    def contains2(self:"TreeNode3", x:int, x2:int) -> bool:
+        if x < self.value:
+            if self.left is None:
+                return False
+            else:
+                return self.left.contains(x)
+        elif x > self.value:
+            if self.right is None:
+                return False
+            else:
+                return self.right.contains(x)
+        else:
+            return True
+
+    def contains3(self:"TreeNode3", x:int, x2:int, x3:int) -> bool:
+        if x < self.value:
+            if self.left is None:
+                return False
+            else:
+                return self.left.contains(x)
+        elif x > self.value:
+            if self.right is None:
+                return False
+            else:
+                return self.right.contains(x)
+        else:
+            return True
 
 
 class TreeNode4(object):

@@ -1,1 +1,1 @@
-Nonlocal("x2")
+VarDef(TypedVar("x",Type("int")),Int("0"))

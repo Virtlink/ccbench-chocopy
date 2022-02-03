@@ -1,1 +1,1 @@
-"bar5"
+Block([Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"p")))],Is(Var2Exp(Var("self")),Literal2Exp(NONE())))])

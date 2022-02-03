@@ -1,1 +1,1 @@
-Var2Target(Var("i"))
+Member(Var2Exp(Var("v")),"length")

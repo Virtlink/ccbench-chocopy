@@ -899,7 +899,7 @@ def vrange(i:int, j:int) -> Vector:
         v.append(i)
         i = i + 1
 
-    return v
+    return $ID
 
 def vrange2(i:int, j:int, i2:int, j2:int) -> Vector:
     v:Vector = None
@@ -983,7 +983,7 @@ def sieve2(v:Vector, v2:Vector) -> object:
                 v.remove_at(j)
             else:
                 j = j + 1
-        i = $Exp + 1
+        i = i + 1
 
 def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
     i:int = 0

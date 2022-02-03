@@ -1,8 +1,10 @@
 def f() -> bool:
-  print("f called")
+  print($STRING)
   return True
 
-$FuncDef
+def g() -> bool:
+  print("g called")
+  return False
 
 if f() or g():      # Short-circuit
   if g() and f():   # Short-circuit

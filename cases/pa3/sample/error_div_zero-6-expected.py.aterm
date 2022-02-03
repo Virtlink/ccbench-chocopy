@@ -1,1 +1,1 @@
-Exps2Parameters([IntDiv(Literal2Exp(Int("42")),Literal2Exp(Int("0")))])
+Var("print")

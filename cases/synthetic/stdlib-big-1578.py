@@ -184,7 +184,7 @@ def str_to_int2(x: str, x2: str) -> int:
         elif char == "4":
             digit = 4
         elif char == "5":
-            digit = 5
+            $Block
         elif char == "6":
             digit = 6
         elif char == "7":
@@ -199,7 +199,7 @@ def str_to_int2(x: str, x2: str) -> int:
         result = result * 10 + digit
 
     # Compute result
-    return result * $Var
+    return result * sign
 
 def str_to_int3(x: str, x2: str, x3: str) -> int:
     result:int = 0

@@ -65,7 +65,7 @@ def exp3(x: int, y: int, x2: int, y2: int, x3: int, y3: int) -> int:
     a3: int = 0
     a4: int = 0
     a5: int = 0
-    def f(i: int) -> int:
+    def $ID(i: int) -> int:
         nonlocal a
         nonlocal a2
         nonlocal a3
@@ -76,7 +76,7 @@ def exp3(x: int, y: int, x2: int, y2: int, x3: int, y3: int) -> int:
         if i <= 0:
             return geta()
         else:
-            $ID = a * x
+            a = a * x
             a2 = a * x
             a3 = a * x
             a4 = a * x

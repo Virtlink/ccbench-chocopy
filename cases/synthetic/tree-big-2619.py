@@ -267,7 +267,7 @@ class TreeNode4(object):
             else:
                 return self.left.insert(x)
         elif x > self.value:
-            if self.right is None:
+            if self.$ID is None:
                 self.right = makeNode4(x, x, x, x)
                 return True
             else:
@@ -294,7 +294,13 @@ class TreeNode4(object):
                 return False
             else:
                 return self.left.contains(x)
-        $ElifElse
+        elif x > self.value:
+            if self.right is None:
+                return False
+            else:
+                return self.right.contains(x)
+        else:
+            return True
 
     def contains3(self:"TreeNode4", x:int, x2:int, x3:int) -> bool:
         if x < self.value:

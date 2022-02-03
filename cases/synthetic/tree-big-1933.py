@@ -208,7 +208,7 @@ class TreeNode4(object):
     left:"TreeNode4" = None
     left2:"TreeNode4" = None
     left3:"TreeNode4" = None
-    left4:"TreeNode4" = None
+    $VarDef
     right:"TreeNode4" = None
     right2:"TreeNode4" = None
     right3:"TreeNode4" = None
@@ -223,7 +223,7 @@ class TreeNode4(object):
                 return self.left.insert(x)
         elif x > self.value:
             if self.right is None:
-                self.right = makeNode4(x, x, $ID, x)
+                self.right = makeNode4(x, x, x, x)
                 return True
             else:
                 return self.right.insert(x)

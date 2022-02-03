@@ -1,1 +1,1 @@
-Member(Var2Exp(Var("t")),"size")
+TypedVar("x",Type("int"))

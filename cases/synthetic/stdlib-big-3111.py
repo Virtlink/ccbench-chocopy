@@ -373,7 +373,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
         result = result * 10 + digit
 
     # Compute result
-    return result * sign
+    return result * $ID
         
 # Input parameters
 c:int = 42
@@ -404,5 +404,5 @@ i = -n * c
 while i <= n * c:
     s = int_to_str(i)
     print(s)
-    i = str_to_int($Var) + c
+    i = str_to_int(s) + c
 

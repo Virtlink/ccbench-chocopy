@@ -1,3 +1,3 @@
-x:int = 1
+x:int = $INT
 
-$Statement
+print(len(x))

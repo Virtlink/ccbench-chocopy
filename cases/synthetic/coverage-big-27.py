@@ -1,7 +1,7 @@
 count:int = 0
 count2:int = 0
 count3:int = 0
-$TypedVar = 0
+$VarDef
 count5:int = 0
 
 def foo(s: str) -> int:

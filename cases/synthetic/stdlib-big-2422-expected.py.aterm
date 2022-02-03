@@ -1,1 +1,1 @@
-TypedVar("x3",Type("str"))
+Var("digit")

@@ -88,7 +88,7 @@ class TreeNode2(object):
 
     def contains2(self:"TreeNode2", x:int, x2:int) -> bool:
         if x < self.value:
-            if self.left is None:
+            if self.left is $Literal:
                 return False
             else:
                 return self.left.contains(x)
@@ -102,7 +102,7 @@ class TreeNode2(object):
 
 
 class TreeNode3(object):
-    $VarDef
+    value:int = 0
     value2:int = 0
     value3:int = 0
     left:"TreeNode3" = None

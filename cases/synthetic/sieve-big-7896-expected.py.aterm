@@ -1,1 +1,1 @@
-Block([Assign([Target(Var2Target(Var("j")))],Add(Var2Exp(Var("j")),Literal2Exp(Int("1"))))])
+Member(Var2Exp(Var("self")),"items")

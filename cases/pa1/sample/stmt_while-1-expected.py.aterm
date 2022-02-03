@@ -1,1 +1,0 @@
-While(Literal2Exp(True()),Block([PassStmt()]))

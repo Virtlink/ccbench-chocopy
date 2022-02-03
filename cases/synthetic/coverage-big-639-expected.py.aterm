@@ -1,1 +1,1 @@
-TypedVar("xx2",ListType(Type("int")))
+Var2Target(Var("x"))

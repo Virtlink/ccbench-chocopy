@@ -1,1 +1,1 @@
-"contains"
+Member(Var2Exp(Var("self")),"value")

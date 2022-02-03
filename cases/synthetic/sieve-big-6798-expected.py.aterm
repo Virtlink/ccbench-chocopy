@@ -1,1 +1,1 @@
-List([Literal2Exp(Int("0"))])
+VarDef(TypedVar("doubling_limit3",Type("int")),Int("1000"))

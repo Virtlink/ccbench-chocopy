@@ -410,7 +410,7 @@ class bar5(object):
 
     def baz(self:"bar5", xx: [int]) -> str:
         global count
-        x:int = 0
+        x:$Type = 0
         y:int = 1
 
         def qux(y: int) -> object:
@@ -448,7 +448,7 @@ class bar5(object):
             if x > y:
                 x = -1
 
-        def qux2(y: int, $TypedVar) -> object:
+        def qux2(y: int, y2: int) -> object:
             nonlocal x
             nonlocal x2
             if x > y:

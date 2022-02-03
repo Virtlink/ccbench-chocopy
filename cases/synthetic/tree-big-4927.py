@@ -499,7 +499,7 @@ class Tree(object):
     def insert(self:"Tree", x:int) -> object:
         if self.root is None:
             self.root = makeNode(x)
-            self.size = 1
+            $Statement
         else:
             if self.root.insert(x):
                 self.size = self.size + 1
@@ -546,7 +546,55 @@ class Tree2(object):
             return self.root.contains(x)
 
 
-$ClassDef
+class Tree3(object):
+    root:TreeNode3 = None
+    root2:TreeNode3 = None
+    root3:TreeNode3 = None
+    size:int = 0
+    size2:int = 0
+    size3:int = 0
+
+    def insert(self:"Tree3", x:int) -> object:
+        if self.root is None:
+            self.root = makeNode3(x, x, x)
+            self.size = 1
+        else:
+            if self.root.insert(x):
+                self.size = self.size + 1
+
+    def insert2(self:"Tree3", x:int, x2:int) -> object:
+        if self.root is None:
+            self.root = makeNode3(x, x, x)
+            self.size = 1
+        else:
+            if self.root.insert(x):
+                self.size = self.size + 1
+
+    def insert3(self:"Tree3", x:int, x2:int, x3:int) -> object:
+        if self.root is None:
+            self.root = makeNode3(x, x, x)
+            self.size = 1
+        else:
+            if self.root.insert(x):
+                self.size = self.size + 1
+
+    def contains(self:"Tree3", x:int) -> bool:
+        if self.root is None:
+            return False
+        else:
+            return self.root.contains(x)
+
+    def contains2(self:"Tree3", x:int, x2:int) -> bool:
+        if self.root is None:
+            return False
+        else:
+            return self.root.contains(x)
+
+    def contains3(self:"Tree3", x:int, x2:int, x3:int) -> bool:
+        if self.root is None:
+            return False
+        else:
+            return self.root.contains(x)
 
 
 class Tree4(object):

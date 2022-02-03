@@ -1,1 +1,1 @@
-Global("count")
+Assign([Target(Var2Target(Var("x")))],Negative(Literal2Exp(Int("1"))))

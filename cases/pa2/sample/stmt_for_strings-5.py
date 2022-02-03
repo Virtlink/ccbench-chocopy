@@ -1,4 +1,4 @@
-s:$Type = "Hello"
+$ID:str = "Hello"
 
 for s in s:
     s[0]

@@ -1,2 +1,2 @@
-print($Exp if True else 4)
+print($Parameters)
 print(3 if False else 4)

@@ -75,14 +75,14 @@ n:int = 15
 n2:int = 15
 n3:int = 15
 n4:int = 15
-n5:int = 15
+$TypedVar = 15
 
 # Run [1, n]
 i:int = 1
 i2:int = 1
 i3:int = 1
 i4:int = 1
-$TypedVar = 1
+i5:int = 1
 
 # Crunch
 while i <= n:

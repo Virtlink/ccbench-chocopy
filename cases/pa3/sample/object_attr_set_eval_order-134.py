@@ -20,10 +20,10 @@ def get_one() -> int:
 
 def get_false() -> bool:
     print("Getting False")
-    return False
+    $Statement
 
 a = b = B()
-$Target = get_one()
+get_b().a = get_one()
 print("Assigned B.a")
 get_b().b = get_false()
 print("Assigned B.b")

@@ -8,10 +8,11 @@ class B(A):
         print("B")
 
 a:A = None
-b:B = None
+b:B = $Literal
 
 def get_b() -> B:
-    $FuncBody
+    print("Getting B")
+    return b
 
 def get_one() -> int:
     print("Getting 1")

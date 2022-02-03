@@ -1,1 +1,1 @@
-Exps2Parameters([Index2Exp(Index(Literal2Exp(String("\"Long\"")),Literal2Exp(Int("0"))))])
+VarDef(TypedVar("x3",Type("int")),Int("0"))

@@ -109,7 +109,7 @@ def int_to_str5(x: int, x2: int, x3: int, x4: int, x5: int) -> str:
     result = result + digits[x % 10]
     return result
 
-def str_to_int(x: str) -> int:
+def str_to_int(x: str) -> $ID:
     result:int = 0
     digit:int = 0
     char:str = ""
@@ -120,7 +120,7 @@ def str_to_int(x: str) -> int:
     for char in x:
         if char == "-":
             if not first_char:
-                $Statement # Error
+                return 0 # Error
             sign = -1
         elif char == "0":
             digit = 0

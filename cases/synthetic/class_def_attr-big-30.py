@@ -3,7 +3,7 @@ class A(object):
 
 class A2(object):
     x:int = 1
-    $ID:int = 1
+    $ClassBodyMember
 
 class A3(object):
     x:int = 1

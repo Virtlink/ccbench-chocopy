@@ -253,7 +253,7 @@ class TreeNode4(object):
                 return self.left.insert(x)
         elif x > self.value:
             if self.right is None:
-                self.right = makeNode4(x, x, x, x)
+                self.right = makeNode4(x, x, $ID, x)
                 return True
             else:
                 return self.right.insert(x)
@@ -275,7 +275,18 @@ class TreeNode4(object):
         return False
 
     def contains(self:"TreeNode4", x:int) -> bool:
-        $Statement
+        if x < self.value:
+            if self.left is None:
+                return False
+            else:
+                return self.left.contains(x)
+        elif x > self.value:
+            if self.right is None:
+                return False
+            else:
+                return self.right.contains(x)
+        else:
+            return True
 
     def contains2(self:"TreeNode4", x:int, x2:int) -> bool:
         if x < self.value:

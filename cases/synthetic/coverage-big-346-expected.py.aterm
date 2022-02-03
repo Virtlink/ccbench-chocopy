@@ -1,1 +1,1 @@
-Member(Var2Exp(Var("self")),"p")
+Member2Exp(Member(Var2Exp(Var("self")),"p"))

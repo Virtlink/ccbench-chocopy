@@ -1,7 +1,7 @@
 count:int = 0
 count2:int = 0
-count3:int = 0
-$Definition
+count3:int = $INT
+count4:int = 0
 count5:int = 0
 
 def foo(s: str) -> int:

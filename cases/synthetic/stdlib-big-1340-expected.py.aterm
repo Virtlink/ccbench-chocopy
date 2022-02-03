@@ -1,1 +1,1 @@
-Var("first_char")
+VarDef(TypedVar("result",Type("int")),Int("0"))

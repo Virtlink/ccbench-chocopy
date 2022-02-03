@@ -1,2 +1,2 @@
-x:int = $INT
+x:int = $Literal
 print(-x)

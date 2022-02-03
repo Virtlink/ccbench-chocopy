@@ -171,7 +171,7 @@ class bar3(object):
                 x = -1
 
         for x in xx:
-            self.p = x == 2
+            self.p = $Var == 2
 
         qux(0) # Yay! ChocoPy
 
@@ -185,7 +185,7 @@ class bar3(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        return $STRING
+        return "Nope"
 
     def baz3(self:"bar3", xx: [int], xx2: [int], xx3: [int]) -> str:
         global count

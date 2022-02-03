@@ -1,1 +1,1 @@
-String("\"0\"")
+Return(Literal2Exp(Int("0")))

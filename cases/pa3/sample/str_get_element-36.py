@@ -3,7 +3,7 @@ a:str = ""
 b:str = ""
 c:str = ""
 
-def str_get($TypedVar, i:int) -> str:
+def $ID(s:str, i:int) -> str:
     return s[i]
 
 a = str_get(x, 0)

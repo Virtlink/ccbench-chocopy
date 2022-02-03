@@ -1,5 +1,5 @@
-x:int = 1
-$Definition
+x:int = $INT
+y:bool = True
 z:str = ""
 o:object = None
 

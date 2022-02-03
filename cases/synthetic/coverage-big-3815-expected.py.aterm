@@ -1,1 +1,1 @@
-TypedVar("xx4",ListType(Type("int")))
+VarDef2FuncBodyMember(VarDef(TypedVar("x",Type("int")),Int("0")))

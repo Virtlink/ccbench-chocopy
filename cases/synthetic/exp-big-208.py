@@ -23,9 +23,9 @@ def exp(x: int, y: int) -> int:
             a5 = a * x
             return f(i-1)
     a = 1
-    a2 = 1
+    $AssignTarget 1
     a3 = 1
-    a4 = $Literal
+    a4 = 1
     a5 = 1
     return f(y)
 

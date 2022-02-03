@@ -1,1 +1,1 @@
-"Vector4"
+Call(Var2Exp(Var("len")),Exps2Parameters([Member2Exp(Member(Var2Exp(Var("self")),"items"))]))

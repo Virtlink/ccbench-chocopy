@@ -601,7 +601,7 @@ class Vector5(object):
         item3:int = 0
         item4:int = 0
         for item in new_items:
-            self.append(item)
+            $Statement
 
     # Appends many items to end of vector
     def append_all5(self:"Vector5", new_items: [int], new_items2: [int], new_items3: [int], new_items4: [int], new_items5: [int]) -> object:
@@ -653,7 +653,7 @@ class Vector5(object):
 
         while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
-            idx = idx + $Exp
+            idx = idx + 1
 
         self.size = self.size - 1
 

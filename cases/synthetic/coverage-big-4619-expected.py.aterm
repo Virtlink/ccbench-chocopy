@@ -1,1 +1,1 @@
-Var2Target(Var("x"))
+VarDef(TypedVar("x",Type("int")),Int("0"))

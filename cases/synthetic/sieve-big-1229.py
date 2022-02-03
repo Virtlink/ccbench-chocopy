@@ -140,8 +140,7 @@ class Vector2(object):
         return self.size
 
     # Retrieves the current size of the vector
-    def length2(self:"Vector2") -> int:
-        return self.size
+    $ClassBodyMember
 
 # A resizable list of integers
 class Vector3(object):
@@ -160,7 +159,7 @@ class Vector3(object):
         return len(self.items)
 
     # Returns current capacity
-    def capacity2($TypedVar) -> int:
+    def capacity2(self:"Vector3") -> int:
         return len(self.items)
 
     # Returns current capacity

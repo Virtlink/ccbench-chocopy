@@ -1,4 +1,4 @@
-def f() $RetType:
+def $ID() -> int:
   x:int = 1
   return x
 

@@ -159,7 +159,7 @@ def str_to_int2(x: str, x2: str) -> int:
     digit:int = 0
     digit2:int = 0
     char:str = ""
-    char2:str = ""
+    $FuncBodyMember
     sign:int = 1
     sign2:int = 1
     first_char:bool = True
@@ -173,7 +173,7 @@ def str_to_int2(x: str, x2: str) -> int:
             sign = -1
         elif char == "0":
             digit = 0
-        elif char == $Literal:
+        elif char == "1":
             digit = 1
         elif char == "2":
             digit = 2

@@ -5,10 +5,7 @@ def f() -> int:
     return 42
 
     
-def g() -> object:
-    $Exp
-    h()
-    print("end g")
+$FuncDef
 
 def h() -> object:
     print("start h")

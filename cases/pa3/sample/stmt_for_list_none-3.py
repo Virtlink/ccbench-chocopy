@@ -1,4 +1,4 @@
-$TypedVar = 0
+$VarDef
 z:[int] = None
 
 for x in z:

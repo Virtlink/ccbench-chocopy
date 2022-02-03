@@ -1,1 +1,1 @@
-VarDef(TypedVar("y2",Type("int")),Int("1"))
+VarDef(TypedVar("p3",Type("bool")),True())

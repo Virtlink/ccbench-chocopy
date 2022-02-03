@@ -1,1 +1,1 @@
-Exps2Parameters([Member2Exp(Member(Var2Exp(Var("a")),"a"))])
+Var2Exp(Var("B"))

@@ -1,1 +1,1 @@
-Call(Member2Exp(Member(Var2Exp(Var("self")),"increase_capacity")),Exps2Parameters([]))
+Return(Call(Var2Exp(Var("len")),Exps2Parameters([Member2Exp(Member(Var2Exp(Var("self")),"items"))])))

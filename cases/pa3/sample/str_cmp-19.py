@@ -1,6 +1,6 @@
 a:str = "Hello"
 b:str = "World"
-$TypedVar = "ChocoPy"
+$VarDef
 
 def eq(a:str, b:str) -> bool:
     return a == b

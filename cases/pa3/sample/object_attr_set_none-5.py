@@ -1,5 +1,5 @@
-class A(object):
-    $ClassBody
+class A($ID):
+    a:int = 42
 
 class B(A):
     b:bool = True

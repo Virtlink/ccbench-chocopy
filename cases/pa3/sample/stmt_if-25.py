@@ -1,7 +1,7 @@
 if False:
     print("No")
 elif True:
-    if True:
-        $Var("Yes")
+    if $Literal:
+        print("Yes")
 else:
     pass

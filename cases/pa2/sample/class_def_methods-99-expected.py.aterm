@@ -1,1 +1,1 @@
-Type("B")
+Var2Exp(Var("val"))

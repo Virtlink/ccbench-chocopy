@@ -725,7 +725,7 @@ class Tree5(object):
         if self.root is None:
             return False
         else:
-            return self.root.contains(x)
+            return $Member.contains(x)
 
     def contains3(self:"Tree5", x:int, x2:int, x3:int) -> bool:
         if self.root is None:
@@ -807,7 +807,7 @@ t5:Tree = None
 i:int = 0
 i2:int = 0
 i3:int = 0
-$VarDef
+i4:int = 0
 i5:int = 0
 k:int = 37813
 k2:int = 37813

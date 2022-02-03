@@ -363,7 +363,7 @@ class Vector4(object):
         if self.size == self.capacity():
             self.increase_capacity()
 
-        self.items[self.size] = item
+        $Exp[self.size] = item
         self.size = self.size + 1
 
     # Appends many items to end of vector
@@ -401,7 +401,7 @@ class Vector4(object):
         if idx < 0:
             return
 
-        while idx < $Var.size - 1:
+        while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 

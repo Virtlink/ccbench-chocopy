@@ -1,1 +1,1 @@
-Literal2Exp(Int("0"))
+Member(Var2Exp(Var("v")),"length")

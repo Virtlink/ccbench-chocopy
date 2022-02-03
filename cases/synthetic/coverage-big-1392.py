@@ -171,7 +171,7 @@ class bar3(object):
                 x = -1
 
         for x in xx:
-            self.p = x == 2
+            self.p = x == $INT
 
         qux(0) # Yay! ChocoPy
 
@@ -187,7 +187,7 @@ class bar3(object):
 
         return "Nope"
 
-    def baz3($TypedVar, xx: [int], xx2: [int], xx3: [int]) -> str:
+    def baz3(self:"bar3", xx: [int], xx2: [int], xx3: [int]) -> str:
         global count
         x:int = 0
         x2:int = 0

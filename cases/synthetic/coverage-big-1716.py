@@ -212,7 +212,7 @@ class bar3(object):
             nonlocal x2
             nonlocal x3
             if x > y:
-                x = -1
+                $Block
 
         for x in xx:
             self.p = x == 2
@@ -229,7 +229,7 @@ class bar3(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        return $Literal
+        return "Nope"
 
 
 

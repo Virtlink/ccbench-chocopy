@@ -111,7 +111,7 @@ class bar2(object):
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
-                x = x + 1
+                $AssignTarget x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
@@ -124,7 +124,7 @@ class bar3(object):
     p2: bool = True
     p3: bool = True
 
-    def baz(self:"bar3", xx: [$Type]) -> str:
+    def baz(self:"bar3", xx: [int]) -> str:
         global count
         x:int = 0
         y:int = 1

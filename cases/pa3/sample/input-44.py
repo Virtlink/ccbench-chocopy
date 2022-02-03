@@ -4,5 +4,5 @@ s: str = ""
 
 s = input()
 while len(s) > 0:
-    print(s)
-    $Target = input()
+    print($Parameters)
+    s = input()

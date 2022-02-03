@@ -258,7 +258,7 @@ class bar4(object):
 
         while x <= 0:
             if self.p:
-                xx[0] = xx[1]
+                $Index = xx[1]
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
@@ -280,7 +280,10 @@ class bar4(object):
                 x = -1
 
         def qux2(y: int, y2: int) -> object:
-            $FuncBody
+            nonlocal x
+            nonlocal x2
+            if x > y:
+                x = -1
 
         for x in xx:
             self.p = x == 2

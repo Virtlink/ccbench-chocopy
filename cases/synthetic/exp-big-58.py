@@ -4,8 +4,8 @@ def exp(x: int, y: int) -> int:
     a2: int = 0
     a3: int = 0
     a4: int = 0
-    a5: int = 0
-    def $ID(i: int) -> int:
+    a5: int = $INT
+    def f(i: int) -> int:
         nonlocal a
         nonlocal a2
         nonlocal a3

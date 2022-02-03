@@ -1,1 +1,1 @@
-Literal2Exp(String("\"3\""))
+VarDef2FuncBodyMember(VarDef(TypedVar("result2",Type("str")),String("\"\"")))

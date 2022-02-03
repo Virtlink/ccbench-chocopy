@@ -156,7 +156,7 @@ class bar3(object):
         global count
         x:int = 0
         x2:int = 0
-        y:int = 1
+        y:int = $Literal
         y2:int = 1
 
         def qux(y: int) -> object:
@@ -175,7 +175,7 @@ class bar3(object):
 
         qux(0) # Yay! ChocoPy
 
-        $Var = count + 1
+        count = count + 1
 
         while x <= 0:
             if self.p:

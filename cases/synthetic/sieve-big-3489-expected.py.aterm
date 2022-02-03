@@ -1,1 +1,1 @@
-Var2Exp(Var("idx"))
+TypedVar("new_items4",ListType(Type("int")))

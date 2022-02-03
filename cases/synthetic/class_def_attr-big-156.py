@@ -24,8 +24,7 @@ class A5(object):
     x5:int = 1
 
 class B(A):
-    def __init__(self: $Type):
-        pass
+    $ClassBody
 
 class B2(A):
     def __init__(self: "B2"):

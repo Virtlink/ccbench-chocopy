@@ -1,3 +1,3 @@
-$TypedVar = None
+$VarDef
 
 print(x[0])

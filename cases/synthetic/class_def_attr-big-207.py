@@ -32,11 +32,11 @@ class B2(A):
         pass
 
 class B3(A):
-    def __init__(self: "B3"):
+    def __init__(self: "B3")$RetType:
         pass
 
 class B4(A):
-    def __init__(self: "B4")$RetType:
+    def __init__(self: "B4"):
         pass
 
 class B5(A):

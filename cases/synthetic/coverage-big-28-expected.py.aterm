@@ -1,1 +1,1 @@
-"count4"
+TypedVar("count4",Type("int"))

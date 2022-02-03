@@ -1,1 +1,1 @@
-List([Literal2Exp(Int("0"))])
+FuncBody([],[Return(Member2Exp(Member(Var2Exp(Var("self")),"size")))])

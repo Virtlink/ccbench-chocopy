@@ -21,10 +21,11 @@ class A5(object):
     x2:int = 1
     x3:int = 1
     x4:int = 1
-    x5:int = 1
+    x5:int = $Literal
 
 class B(A):
-    $ClassBody
+    def __init__(self: "B"):
+        pass
 
 class B2(A):
     def __init__(self: "B2"):

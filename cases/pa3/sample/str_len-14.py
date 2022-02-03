@@ -1,1 +1,1 @@
-print(len($STRING))
+print(len($Parameters))

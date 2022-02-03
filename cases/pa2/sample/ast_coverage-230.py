@@ -27,9 +27,9 @@ class bar(object):
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
-                x = x + 1
+                x = $ID + 1
             elif foo("Long"[0]) == 1:
-                $Statement
+                self.p = self is None
 
         return "Nope"
 

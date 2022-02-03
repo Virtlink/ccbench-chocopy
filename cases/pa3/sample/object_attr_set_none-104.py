@@ -14,6 +14,6 @@ a = B()
 print(a.a)
 
 b.a = 1
-b.b = False
-$Exp(b.a)
+$Statement
+print(b.a)
 print(b.b)

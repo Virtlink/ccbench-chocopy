@@ -1,1 +1,1 @@
-TypedVar("idx5",Type("int"))
+Type("int")

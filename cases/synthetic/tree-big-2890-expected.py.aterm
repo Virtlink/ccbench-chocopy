@@ -1,1 +1,1 @@
-"right"
+Return(Literal2Exp(False()))

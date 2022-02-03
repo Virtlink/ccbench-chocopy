@@ -1,7 +1,7 @@
 class A(object):
     x:int = 1
 
-    def get_A(self: "A") -> $ID:
+    def get_A(self: "$ID") -> int:
         return self.x
 
 class B(A):

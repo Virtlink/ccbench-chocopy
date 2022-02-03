@@ -6,10 +6,10 @@ class A(object):
 
 class B(A):
     def __init__(self: "B"):
-        pass
+        $FuncBody
 
 class C(B):
-    $ClassBodyMember
+    z:bool = True
 
     def set_A(self: "C", val: int) -> object:
         self.x = val

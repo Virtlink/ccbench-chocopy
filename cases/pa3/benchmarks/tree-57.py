@@ -5,8 +5,12 @@ class TreeNode(object):
 	right:"TreeNode" = None
 
 	def insert(self:"TreeNode", x:int) -> bool:
-		if x < self.value:
-			$Block
+		if x < $Member:
+			if self.left is None:
+				self.left = makeNode(x)
+				return True
+			else:
+				return self.left.insert(x)
 		elif x > self.value:
 			if self.right is None:
 				self.right = makeNode(x)

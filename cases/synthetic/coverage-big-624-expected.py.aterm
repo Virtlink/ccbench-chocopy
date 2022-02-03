@@ -1,1 +1,1 @@
-String("\"Nope\"")
+Member(Var2Exp(Var("self")),"p")

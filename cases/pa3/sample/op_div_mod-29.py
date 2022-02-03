@@ -1,5 +1,5 @@
 x:int = 42
 y:int = 9
 
-print(x // $ID)
+print($ID // y)
 print(x % y)

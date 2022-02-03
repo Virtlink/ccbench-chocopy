@@ -3,6 +3,6 @@ y:str = "123"
 z:str = "abc"
 
 for x in z:
-    print($Exp)
+    $Var(x)
     for x in "":
         print(x)

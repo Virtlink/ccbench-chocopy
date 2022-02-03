@@ -78,11 +78,11 @@ b2:B = None
 b3:B = None
 b4:B = None
 b5:B = None
-c:C = None
+$Definition
 c2:C = None
 c3:C = None
 c4:C = None
-$ID:C = None
+c5:C = None
 
 a = A()
 a2 = A()

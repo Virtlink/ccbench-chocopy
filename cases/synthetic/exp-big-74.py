@@ -7,9 +7,9 @@ def exp(x: int, y: int) -> int:
     a5: int = 0
     def f(i: int) -> int:
         nonlocal a
-        nonlocal a2
+        $FuncBodyMember
         nonlocal a3
-        nonlocal $ID
+        nonlocal a4
         nonlocal a5
         def geta() -> int:
             return a

@@ -1,1 +1,1 @@
-VarDef(TypedVar("p",Type("bool")),True())
+Type("int")

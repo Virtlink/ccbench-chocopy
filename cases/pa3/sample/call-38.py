@@ -1,11 +1,11 @@
 def f() -> int:
     print("start f")
     g()
-    print("end f")
+    print($STRING)
     return 42
 
     
-def $ID() -> object:
+def g() -> object:
     print("start g")
     h()
     print("end g")

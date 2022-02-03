@@ -1,1 +1,1 @@
-Literal2Exp(NONE())
+Block([Return(Literal2Exp(True()))])

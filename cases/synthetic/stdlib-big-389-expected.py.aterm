@@ -1,1 +1,1 @@
-String("\"2\"")
+TypedVar("result2",Type("str"))

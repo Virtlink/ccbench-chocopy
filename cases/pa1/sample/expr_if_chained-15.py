@@ -1,1 +1,1 @@
-3 if 1 > 2 else $Literal if 1 < 0 else 5
+3 if 1 > 2 else $Exp

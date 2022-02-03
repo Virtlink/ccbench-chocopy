@@ -1,7 +1,7 @@
 True
 False
 1
-None
-$Exp
+$Literal
+"This is a string"
 [1, 2, 3]
 

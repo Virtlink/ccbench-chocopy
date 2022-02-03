@@ -1,7 +1,7 @@
 def foo(x:str, y:bool) -> int:
     return bar()
 
-def bar() -> int:
+def bar() -> $ID:
     return 1
 
-$Statement
+foo("Hello", False)

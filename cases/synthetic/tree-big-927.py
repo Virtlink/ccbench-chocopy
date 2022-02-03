@@ -102,7 +102,7 @@ class TreeNode2(object):
 
 
 class TreeNode3(object):
-    value:int = 0
+    $TypedVar = 0
     value2:int = 0
     value3:int = 0
     left:"TreeNode3" = None
@@ -113,7 +113,19 @@ class TreeNode3(object):
     right3:"TreeNode3" = None
 
     def insert(self:"TreeNode3", x:int) -> bool:
-        $FuncBody
+        if x < self.value:
+            if self.left is None:
+                self.left = makeNode3(x, x, x)
+                return True
+            else:
+                return self.left.insert(x)
+        elif x > self.value:
+            if self.right is None:
+                self.right = makeNode3(x, x, x)
+                return True
+            else:
+                return self.right.insert(x)
+        return False
 
     def insert2(self:"TreeNode3", x:int, x2:int) -> bool:
         if x < self.value:

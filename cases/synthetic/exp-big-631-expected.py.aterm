@@ -1,1 +1,1 @@
-Var2Target(Var("a5"))
+Return(Call(Var2Exp(Var("geta")),Exps2Parameters([])))

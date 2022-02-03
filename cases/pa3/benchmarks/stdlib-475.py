@@ -55,7 +55,7 @@ def str_to_int(x: str) -> int:
         else:
             return 0 # On error
         first_char = False
-        result = result * 10 + digit
+        $AssignTarget result * 10 + digit
 
     # Compute result
     return result * sign
@@ -65,7 +65,7 @@ c:int = 42
 n:int = 10
 
 # Run [-nc, nc] with step size c
-s:str = $Literal
+s:str = ""
 i:int = 0
 i = -n * c
 

@@ -1,7 +1,7 @@
 next:int = 0
 
-def next_int() -> int:
-    $FuncBodyMember
+def next_int() -> $ID:
+    global next
     next = next + 1
     return next
 

@@ -55,7 +55,7 @@ class Vector2(object):
     size: int = 0
     size2: int = 0
 
-    def __init__(self:"Vector2"):
+    def __init__(self:$Type):
         self.items = [0]
 
     # Returns current capacity
@@ -63,7 +63,7 @@ class Vector2(object):
         return len(self.items)
 
     # Returns current capacity
-    def capacity2(self:$Type) -> int:
+    def capacity2(self:"Vector2") -> int:
         return len(self.items)
 
     # Increases capacity of vector by one element

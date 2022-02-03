@@ -1,6 +1,6 @@
 a:str = "no"
-b:str = "o"
-$Definition
+b:str = $STRING
+c:str = ""
 d:str = ""
 e:str = ""
 

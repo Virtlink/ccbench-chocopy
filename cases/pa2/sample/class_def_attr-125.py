@@ -17,6 +17,6 @@ b = B()
 c = C()
 
 a.x = 1
-b.x = a.x
-c.$ID = a.x == b.x
+$Var.x = a.x
+c.z = a.x == b.x
 

@@ -44,13 +44,13 @@ class bar(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo("Long"[0]) == 1:
+            elif $Exp:
                 self.p = self is None
 
         return "Nope"
 
 
-class bar2($ID):
+class bar2(object):
     p: bool = True
     p2: bool = True
 

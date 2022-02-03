@@ -1,1 +1,1 @@
-Literal2Exp(String("\"5\""))
+TypedVar("result2",Type("str"))

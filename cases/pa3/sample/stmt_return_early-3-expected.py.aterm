@@ -1,1 +1,1 @@
-"f"
+FuncDef("f",[],Returns(Type("int")),FuncBody([],[While(Literal2Exp(True()),Block([Return(Literal2Exp(Int("1")))])),Return(Literal2Exp(Int("0")))]))

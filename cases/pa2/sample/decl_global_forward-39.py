@@ -5,5 +5,5 @@ def set_x() -> int:
 
 x:int = 0
 
-set_x()
-$Var(x)
+$Var()
+print(x)

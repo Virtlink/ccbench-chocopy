@@ -23,8 +23,7 @@ class A5(object):
     x4:int = 1
     x5:int = 1
 
-class B(A):
-    $FuncDef
+$Definition
 
 class B2(A):
     def __init__(self: "B2"):

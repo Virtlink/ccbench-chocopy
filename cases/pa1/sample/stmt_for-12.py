@@ -1,4 +1,4 @@
 x:int = 0
-for x in [$Exp, 2, 3]:
+for $ID in [1, 2, 3]:
     print(x)
 

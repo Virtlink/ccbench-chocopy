@@ -2,6 +2,6 @@ True
 False
 1
 None
-"This is a string"
-$Statement
+$Literal
+[1, 2, 3]
 

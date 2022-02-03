@@ -327,8 +327,7 @@ class TreeNode4(object):
                 return False
             else:
                 return self.right.contains(x)
-        else:
-            return True
+        $ElifElse
 
 class TreeNode5(object):
     value:int = 0
@@ -359,7 +358,7 @@ class TreeNode5(object):
                 self.right = makeNode5(x, x, x, x, x)
                 return True
             else:
-                return $Exp
+                return self.right.insert(x)
         return False
 
     def insert2(self:"TreeNode5", x:int, x2:int) -> bool:

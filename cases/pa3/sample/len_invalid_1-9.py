@@ -1,3 +1,3 @@
-x:[int] = None
+x:[int] = $Literal
 
-$Statement
+print(len(x))

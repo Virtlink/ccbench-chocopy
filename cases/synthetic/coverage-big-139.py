@@ -13,8 +13,8 @@ def foo2(s: str, s2: str) -> int:
 def foo3(s: str, s2: str, s3: str) -> int:
     return len(s)
 
-def foo4(s: str, s2: str, s3: str, s4: str) -> int:
-    return $Var(s)
+def foo4(s: str, s2: str, $ID: str, s4: str) -> int:
+    return len(s)
 
 def foo5(s: str, s2: str, s3: str, s4: str, s5: str) -> int:
     return len(s)

@@ -482,7 +482,7 @@ class Vector5(object):
     size: int = 0
     size2: int = 0
     size3: int = 0
-    size4: int = 0
+    size4: $Type = 0
     size5: int = 0
 
     def __init__(self:"Vector5"):
@@ -538,7 +538,7 @@ class Vector5(object):
         if self.size == self.capacity():
             self.increase_capacity()
 
-        $Statement
+        self.items[self.size] = item
         self.size = self.size + 1
 
     # Appends one item to end of vector

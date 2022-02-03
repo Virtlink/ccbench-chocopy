@@ -1,1 +1,1 @@
-Eq(Literal2Exp(False()),Literal2Exp(False()))
+Int("1")

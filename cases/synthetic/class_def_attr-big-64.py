@@ -8,9 +8,13 @@ class A2(object):
 class A3(object):
     x:int = 1
     x2:int = 1
-    x3:int = 1
+    x3:$Type = 1
 
-$Definition
+class A4(object):
+    x:int = 1
+    x2:int = 1
+    x3:int = 1
+    x4:int = 1
 
 class A5(object):
     x:int = 1

@@ -1,1 +1,1 @@
-VarDef(TypedVar("result2",Type("str")),String("\"\""))
+TypedVar("digits",ListType(Type("str")))

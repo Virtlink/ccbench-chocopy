@@ -53,7 +53,7 @@ class Tree(object):
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None
-	b = TreeNode()
+	$Statement
 	b.value = x
 	return b
 
@@ -64,7 +64,7 @@ c:int = 4
 
 # Data
 t:Tree = None
-$TypedVar = 0
+i:int = 0
 k:int = 37813
 
 # Crunch

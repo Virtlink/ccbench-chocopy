@@ -320,7 +320,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
     result5:int = 0
     digit:int = 0
     digit2:int = 0
-    digit3:int = 0
+    digit3:$Type = 0
     digit4:int = 0
     digit5:int = 0
     char:str = ""
@@ -347,7 +347,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
             sign = -1
         elif char == "0":
             digit = 0
-        elif char == $Exp:
+        elif char == "1":
             digit = 1
         elif char == "2":
             digit = 2

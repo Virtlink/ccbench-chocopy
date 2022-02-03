@@ -286,7 +286,7 @@ class bar4(object):
                 x = -1
 
         for x in xx:
-            self.p = x == 2
+            $AssignTarget x == 2
 
         qux(0) # Yay! ChocoPy
 
@@ -308,7 +308,7 @@ class bar4(object):
         x2:int = 0
         x3:int = 0
         y:int = 1
-        y2:$ID = 1
+        y2:int = 1
         y3:int = 1
 
         def qux(y: int) -> object:

@@ -1,3 +1,3 @@
 x:[int] = None
 
-print(x[$INT])
+print($ID[0])

@@ -1,1 +1,1 @@
-"char"
+Block([Return(Literal2Exp(Int("0")))])

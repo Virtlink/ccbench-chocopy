@@ -159,7 +159,7 @@ class TreeNode3(object):
 
     def contains(self:"TreeNode3", x:int) -> bool:
         if x < self.value:
-            if self.left is None:
+            if self.left is $Literal:
                 return False
             else:
                 return self.left.contains(x)
@@ -177,7 +177,7 @@ class TreeNode3(object):
                 return False
             else:
                 return self.left.contains(x)
-        elif $Exp:
+        elif x > self.value:
             if self.right is None:
                 return False
             else:

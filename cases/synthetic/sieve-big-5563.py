@@ -611,7 +611,7 @@ class Vector5(object):
         item4:int = 0
         item5:int = 0
         for item in new_items:
-            self.append(item)
+            $Exp.append(item)
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector5", idx: int) -> object:
@@ -663,7 +663,7 @@ class Vector5(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = self.items[idx + $Exp]
+            self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
         self.size = self.size - 1

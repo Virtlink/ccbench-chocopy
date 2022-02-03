@@ -6,4 +6,4 @@ def set_x() -> int:
 x:int = 0
 
 set_x()
-print($ID)
+$Exp

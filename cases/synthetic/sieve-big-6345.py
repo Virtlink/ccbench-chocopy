@@ -686,7 +686,7 @@ class Vector5(object):
 
     # Retrieves an item at a given index
     def get5(self:"Vector5", idx: int, idx2: int, idx3: int, idx4: int, idx5: int) -> int:
-        return self.items[idx]
+        return self.items[$Var]
 
     # Retrieves the current size of the vector
     def length(self:"Vector5") -> int:
@@ -772,7 +772,7 @@ class DoublingVector3(Vector):
             # If doubling limit has been reached, fall back to
             # standard capacity increases
             self.items = self.items + [0]
-        $Statement
+        return self.capacity()
 
     # Overriding to do fewer resizes
     def increase_capacity3(self:"DoublingVector3") -> int:

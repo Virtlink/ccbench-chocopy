@@ -1,1 +1,1 @@
-Target(Var2Target(Var("result")))
+Assign([Target(Var2Target(Var("digit")))],Literal2Exp(Int("8")))

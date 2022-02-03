@@ -151,7 +151,7 @@ class TreeNode3(object):
                 return self.left.insert(x)
         elif x > self.value:
             if self.right is None:
-                self.right = makeNode3(x, x, x)
+                $Statement
                 return True
             else:
                 return self.right.insert(x)
@@ -165,7 +165,7 @@ class TreeNode3(object):
                 return self.left.contains(x)
         elif x > self.value:
             if self.right is None:
-                $Block
+                return False
             else:
                 return self.right.contains(x)
         else:

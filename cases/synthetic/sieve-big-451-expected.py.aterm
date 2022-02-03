@@ -1,1 +1,1 @@
-Var("len")
+VarDef2ClassBodyMember(VarDef(TypedVar("size2",Type("int")),Int("0")))

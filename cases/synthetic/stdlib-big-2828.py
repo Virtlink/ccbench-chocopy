@@ -340,7 +340,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
     first_char5:bool = True
 
     # Parse digits
-    for char in x:
+    for char in $Var:
         if char == "-":
             if not first_char:
                 return 0 # Error
@@ -364,7 +364,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
         elif char == "7":
             digit = 7
         elif char == "8":
-            $Block
+            digit = 8
         elif char == "9":
             digit = 9
         else:

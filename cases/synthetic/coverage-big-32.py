@@ -1,7 +1,7 @@
 count:int = 0
 count2:int = 0
 count3:int = 0
-count4:int = $INT
+count4:int = $Literal
 count5:int = 0
 
 def foo(s: str) -> int:

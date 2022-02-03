@@ -4,5 +4,5 @@ print(False == True)
 print(False == False)
 print(True != True)
 print(True != False)
-print($Literal != True)
+$Statement
 print(False != False)

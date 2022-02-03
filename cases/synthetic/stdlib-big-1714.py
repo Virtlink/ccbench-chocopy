@@ -201,7 +201,7 @@ def str_to_int2(x: str, x2: str) -> int:
     # Compute result
     return result * sign
 
-def str_to_int3(x: str, x2: str, x3: str) -> int:
+def str_to_int3(x: str, $ID: str, x3: str) -> int:
     result:int = 0
     result2:int = 0
     result3:int = 0
@@ -216,7 +216,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
     sign3:int = 1
     first_char:bool = True
     first_char2:bool = True
-    first_char3:$ID = True
+    first_char3:bool = True
 
     # Parse digits
     for char in x:

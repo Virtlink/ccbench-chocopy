@@ -1,1 +1,1 @@
-TypedVar("new_items4",ListType(Type("int")))
+Member2Target(Member(Var2Exp(Var("self")),"size"))

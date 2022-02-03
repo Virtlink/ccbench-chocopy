@@ -13,8 +13,8 @@ def get_prime(n:int) -> int:
 def is_prime(x:int) -> bool:
     div:int = 2
     div2:int = 2
-    div3:int = 2
-    div4:$Type = 2
+    $FuncBodyMember
+    div4:int = 2
     div5:int = 2
     while div < x:
         if x % div == 0:

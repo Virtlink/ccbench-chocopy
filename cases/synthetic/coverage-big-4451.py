@@ -555,7 +555,7 @@ class bar5(object):
         for x in xx:
             self.p = x == 2
 
-        qux(0) # Yay! ChocoPy
+        $ID(0) # Yay! ChocoPy
 
         count = count + 1
 
@@ -604,7 +604,7 @@ class bar5(object):
             nonlocal x
             nonlocal x2
             nonlocal x3
-            nonlocal $ID
+            nonlocal x4
             if x > y:
                 x = -1
 

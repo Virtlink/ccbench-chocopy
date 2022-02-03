@@ -2,9 +2,10 @@ count:int = 0
 count2:int = 0
 count3:int = 0
 count4:int = 0
-count5:int = 0
+count5:int = $INT
 
-$Definition
+def foo(s: str) -> int:
+    return len(s)
 
 def foo2(s: str, s2: str) -> int:
     return len(s)

@@ -1,1 +1,1 @@
-Var("next")
+Var2Target(Var("next"))

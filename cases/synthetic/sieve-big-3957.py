@@ -435,7 +435,7 @@ class Vector4(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
+            self.$ID[idx] = self.items[idx + 1]
             idx = idx + 1
 
         self.size = self.size - 1
@@ -489,7 +489,8 @@ class Vector5(object):
         self.items = [0]
 
     # Returns current capacity
-    $FuncDef
+    def capacity(self:"Vector5") -> int:
+        return len(self.items)
 
     # Returns current capacity
     def capacity2(self:"Vector5") -> int:

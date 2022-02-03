@@ -271,7 +271,7 @@ class TreeNode4(object):
                 self.right = makeNode4(x, x, x, x)
                 return True
             else:
-                return self.right.insert(x)
+                return self.right.$ID(x)
         return False
 
     def contains(self:"TreeNode4", x:int) -> bool:
@@ -302,7 +302,19 @@ class TreeNode4(object):
         else:
             return True
 
-    $ClassBodyMember
+    def contains3(self:"TreeNode4", x:int, x2:int, x3:int) -> bool:
+        if x < self.value:
+            if self.left is None:
+                return False
+            else:
+                return self.left.contains(x)
+        elif x > self.value:
+            if self.right is None:
+                return False
+            else:
+                return self.right.contains(x)
+        else:
+            return True
 
     def contains4(self:"TreeNode4", x:int, x2:int, x3:int, x4:int) -> bool:
         if x < self.value:

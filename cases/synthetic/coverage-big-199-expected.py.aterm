@@ -1,1 +1,1 @@
-IdString("bar")
+Var2Exp(Var("s"))

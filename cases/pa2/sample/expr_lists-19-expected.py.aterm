@@ -1,1 +1,1 @@
-TypedVar("z",ListType(Type("bool")))
+VarDef(TypedVar("z",ListType(Type("bool"))),NONE())

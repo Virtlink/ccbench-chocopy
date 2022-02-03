@@ -1,1 +1,1 @@
-Type("int")
+TypedVar("doubling_limit4",Type("int"))

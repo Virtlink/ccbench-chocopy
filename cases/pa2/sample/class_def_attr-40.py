@@ -6,7 +6,7 @@ class B(A):
         pass
 
 class C(B):
-    z:$ID = True
+    $ClassBody
 
 a:A = None
 b:B = None

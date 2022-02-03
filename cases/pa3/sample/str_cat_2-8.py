@@ -1,4 +1,4 @@
-a:str = $STRING
+a:str = $Literal
 b:str = "o"
 c:str = ""
 d:str = ""

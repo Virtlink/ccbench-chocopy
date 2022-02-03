@@ -78,13 +78,13 @@ n4:int = 15
 n5:int = 15
 
 # Run [1, n]
-i:int = 1
+$VarDef
 i2:int = 1
 i3:int = 1
 i4:int = 1
 i5:int = 1
 
 # Crunch
-while $Exp:
+while i <= n:
     print(get_prime(i))
     i = i + 1

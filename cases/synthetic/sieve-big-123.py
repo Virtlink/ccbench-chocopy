@@ -13,11 +13,15 @@ class Vector(object):
     # Increases capacity of vector by one element
     def increase_capacity(self:"Vector") -> int:
         self.items = self.items + [0]
-        return self.capacity()
+        return self.capacity($Parameters)
 
     # Appends one item to end of vector
     def append(self:"Vector", item: int) -> object:
-        $FuncBody
+        if self.size == self.capacity():
+            self.increase_capacity()
+
+        self.items[self.size] = item
+        self.size = self.size + 1
 
     # Appends many items to end of vector
     def append_all(self:"Vector", new_items: [int]) -> object:

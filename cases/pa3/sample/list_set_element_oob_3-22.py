@@ -1,4 +1,4 @@
 x:[int] = None
 
 x = []
-x[$Exp] = 4
+$Target = 4

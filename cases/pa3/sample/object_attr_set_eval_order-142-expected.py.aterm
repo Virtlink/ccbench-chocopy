@@ -1,1 +1,1 @@
-Call(Var2Exp(Var("get_one")),Exps2Parameters([]))
+Var("a")

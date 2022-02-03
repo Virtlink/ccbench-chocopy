@@ -673,8 +673,7 @@ class Vector5(object):
         return self.items[idx]
 
     # Retrieves an item at a given index
-    def get2(self:"Vector5", idx: int, idx2: int) -> int:
-        return self.items[idx]
+    $FuncDef
 
     # Retrieves an item at a given index
     def get3(self:"Vector5", idx: int, idx2: int, idx3: int) -> int:
@@ -752,7 +751,7 @@ class DoublingVector2(Vector):
 class DoublingVector3(Vector):
     doubling_limit:int = 1000
     doubling_limit2:int = 1000
-    doubling_limit3:int = $Literal
+    doubling_limit3:int = 1000
 
     # Overriding to do fewer resizes
     def increase_capacity(self:"DoublingVector3") -> int:

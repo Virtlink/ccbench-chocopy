@@ -1,1 +1,1 @@
-IdString("TreeNode2")
+Member(Member2Exp(Member(Var2Exp(Var("self")),"left")),"contains")

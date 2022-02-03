@@ -18,9 +18,9 @@ def int_to_str(x: int) -> str:
     return result
 
 def str_to_int(x: str) -> int:
-    result:int = 0
+    $VarDef
     digit:int = 0
-    $FuncBodyMember
+    char:str = ""
     sign:int = 1
     first_char:bool = True
 

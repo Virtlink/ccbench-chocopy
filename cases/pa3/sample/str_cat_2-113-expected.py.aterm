@@ -1,1 +1,1 @@
-Var2Target(Var("d"))
+Exps2Parameters([Var2Exp(Var("b")),Var2Exp(Var("a"))])

@@ -45,15 +45,14 @@ class Vector(object):
         return self.items[idx]
 
     # Retrieves the current size of the vector
-    def length(self:"Vector") -> int:
-        return self.size
+    $FuncDef
 
 # A faster (but more memory-consuming) implementation of vector
 class DoublingVector(Vector):
     doubling_limit:int = 1000
 
     # Overriding to do fewer resizes
-    def increase_capacity(self:"DoublingVector") -> $ID:
+    def increase_capacity(self:"DoublingVector") -> int:
         if (self.capacity() <= self.doubling_limit // 2):
             self.items = self.items + self.items
         else:

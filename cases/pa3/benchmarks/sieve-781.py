@@ -93,7 +93,7 @@ def sieve(v:Vector) -> object:
 n:int = 50
 
 # Data
-v:Vector = None
+$VarDef
 i:int = 0
 
 # Crunch
@@ -103,5 +103,5 @@ sieve(v)
 # Print
 while i < v.length():
     print(v.get(i))
-    i = i + $Exp
+    i = i + 1
 

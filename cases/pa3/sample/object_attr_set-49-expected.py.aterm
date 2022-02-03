@@ -1,1 +1,1 @@
-Type("A")
+Literal2Exp(String("\"B\""))

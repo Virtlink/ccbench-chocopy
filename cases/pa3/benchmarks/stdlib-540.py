@@ -67,11 +67,11 @@ n:int = 10
 # Run [-nc, nc] with step size c
 s:str = ""
 i:int = 0
-i = -n * c
+i = -$Var * c
 
 # Crunch
 while i <= n * c:
     s = int_to_str(i)
     print(s)
-    i = $Exp(s) + c
+    i = str_to_int(s) + c
 

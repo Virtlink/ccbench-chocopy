@@ -2,8 +2,8 @@ class A(object):
     x:int = 1
 
 class A2(object):
-    x:int = 1
-    $ClassBodyMember
+    x:$ID = 1
+    x2:int = 1
 
 class A3(object):
     x:int = 1

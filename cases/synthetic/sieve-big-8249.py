@@ -916,7 +916,7 @@ def vrange3(i:int, j:int, i2:int, j2:int, i3:int, j3:int) -> Vector:
     v:Vector = None
     v2:Vector = None
     v3:Vector = None
-    v = DoublingVector()
+    v = $Var()
     
     while i < j:
         v.append(i)
@@ -1000,7 +1000,7 @@ def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
         k = v.get(i)
         j = i + 1
         while j < v.length():
-            if $Exp % k == 0:
+            if v.get(j) % k == 0:
                 v.remove_at(j)
             else:
                 j = j + 1

@@ -1,1 +1,1 @@
-Var2Exp(Var("z"))
+For("x",Var2Exp(Var("z")),Block([Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Var2Exp(Var("x"))]))),For("x",Literal2Exp(String("\"\"")),Block([Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Var2Exp(Var("x"))])))]))]))

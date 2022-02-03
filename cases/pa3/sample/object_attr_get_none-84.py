@@ -11,6 +11,6 @@ a:A = None
 b:B = None
 
 a = B()
-print(a.a)
-$Var(b.a)
+print($Parameters)
+print(b.a)
 print(b.b)

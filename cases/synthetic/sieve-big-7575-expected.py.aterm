@@ -1,1 +1,1 @@
-VarDef(TypedVar("v2",Type("Vector")),NONE())
+Member(Var2Exp(Var("self")),"doubling_limit")

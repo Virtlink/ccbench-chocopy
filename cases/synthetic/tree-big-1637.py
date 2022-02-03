@@ -171,7 +171,7 @@ class TreeNode3(object):
         else:
             return True
 
-    def contains2(self:"TreeNode3", x:int, x2:int) -> bool:
+    def contains2(self:"TreeNode3", x:int, x2:int) $RetType:
         if x < self.value:
             if self.left is None:
                 return False
@@ -188,7 +188,7 @@ class TreeNode3(object):
     def contains3(self:"TreeNode3", x:int, x2:int, x3:int) -> bool:
         if x < self.value:
             if self.left is None:
-                return $Exp
+                return False
             else:
                 return self.left.contains(x)
         elif x > self.value:

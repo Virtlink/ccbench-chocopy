@@ -710,7 +710,7 @@ class Vector5(object):
 
 # A faster (but more memory-consuming) implementation of vector
 class DoublingVector(Vector):
-    doubling_limit:int = 1000
+    $VarDef
 
     # Overriding to do fewer resizes
     def increase_capacity(self:"DoublingVector") -> int:
@@ -788,7 +788,7 @@ class DoublingVector3(Vector):
 class DoublingVector4(Vector):
     doubling_limit:int = 1000
     doubling_limit2:int = 1000
-    doubling_limit3:$ID = 1000
+    doubling_limit3:int = 1000
     doubling_limit4:int = 1000
 
     # Overriding to do fewer resizes

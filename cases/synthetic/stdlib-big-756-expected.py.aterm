@@ -1,1 +1,1 @@
-VarDef2FuncBodyMember(VarDef(TypedVar("digits5",ListType(Type("str"))),NONE()))
+Type("int")

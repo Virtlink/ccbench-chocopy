@@ -5,8 +5,8 @@ def exp(x: int, y: int) -> int:
     a3: int = 0
     a4: int = 0
     a5: int = 0
-    def f(i: int) -> int:
-        $FuncBodyMember
+    def f(i: int) $RetType:
+        nonlocal a
         nonlocal a2
         nonlocal a3
         nonlocal a4

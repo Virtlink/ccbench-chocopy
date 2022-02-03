@@ -1,1 +1,1 @@
-False()
+VarDef(TypedVar("root3",Type("TreeNode3")),NONE())

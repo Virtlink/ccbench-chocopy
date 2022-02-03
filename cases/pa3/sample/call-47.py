@@ -5,8 +5,8 @@ def f() -> int:
     return 42
 
     
-def g() -> object:
-    $ID("start g")
+def g() $RetType:
+    print("start g")
     h()
     print("end g")
 

@@ -2,7 +2,7 @@ a:str = "Hello"
 b:str = "World"
 c:str = "ChocoPy"
 
-def cat2(a:str, b:str) -> $ID:
+def cat2(a:str, b:str) $RetType:
     return a + b
 
 def cat3(a:str, b:str, c:str) -> str:

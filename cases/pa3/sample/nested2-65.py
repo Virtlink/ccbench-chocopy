@@ -4,9 +4,10 @@ def foo(x: int) -> int:
     def bar() -> int:
         z: int = 3
         def baz() -> int:
-            return qux(y)
+            return qux($Exp)
         return baz()
-    $FuncBodyMember
+    def qux(p: int) -> int:
+        return p
 
     return bar()
     

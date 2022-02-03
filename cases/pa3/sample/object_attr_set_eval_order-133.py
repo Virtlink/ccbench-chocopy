@@ -19,11 +19,11 @@ def get_one() -> int:
     return 1
 
 def get_false() -> bool:
-    print("Getting False")
+    print($STRING)
     return False
 
 a = b = B()
-$AssignTarget get_one()
+get_b().a = get_one()
 print("Assigned B.a")
 get_b().b = get_false()
 print("Assigned B.b")

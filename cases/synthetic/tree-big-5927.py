@@ -594,7 +594,7 @@ class Tree3(object):
         if self.root is None:
             return False
         else:
-            return self.root.contains(x)
+            $Block
 
 
 class Tree4(object):
@@ -639,7 +639,7 @@ class Tree4(object):
             if self.root.insert(x):
                 self.size = self.size + 1
 
-    def contains(self:"Tree4", x:int) -> $Type:
+    def contains(self:"Tree4", x:int) -> bool:
         if self.root is None:
             return False
         else:

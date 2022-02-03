@@ -72,11 +72,11 @@ a:A = None
 a2:A = None
 a3:A = None
 a4:A = None
-a5:A = None
+$Definition
 b:B = None
 b2:B = None
 b3:B = None
-$ID:B = None
+b4:B = None
 b5:B = None
 c:C = None
 c2:C = None

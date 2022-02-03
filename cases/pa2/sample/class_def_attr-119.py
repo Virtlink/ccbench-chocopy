@@ -17,6 +17,6 @@ b = B()
 c = C()
 
 a.x = 1
-b.x = a.x
-$AssignTarget a.x == b.x
+$Statement
+c.z = a.x == b.x
 

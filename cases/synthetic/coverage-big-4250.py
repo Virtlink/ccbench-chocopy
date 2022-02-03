@@ -526,7 +526,7 @@ class bar5(object):
         y3:int = 1
         y4:int = 1
 
-        def qux(y: int) -> object:
+        def qux(y: $ID) -> object:
             nonlocal x
             if x > y:
                 x = -1
@@ -573,7 +573,7 @@ class bar5(object):
         global count
         x:int = 0
         x2:int = 0
-        x3:$Type = 0
+        x3:int = 0
         x4:int = 0
         x5:int = 0
         y:int = 1

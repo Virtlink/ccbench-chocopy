@@ -548,7 +548,7 @@ class Tree2(object):
 
 class Tree3(object):
     root:TreeNode3 = None
-    root2:TreeNode3 = None
+    root2:$ID = None
     root3:TreeNode3 = None
     size:int = 0
     size2:int = 0
@@ -592,7 +592,7 @@ class Tree3(object):
 
     def contains3(self:"Tree3", x:int, x2:int, x3:int) -> bool:
         if self.root is None:
-            $Block
+            return False
         else:
             return self.root.contains(x)
 

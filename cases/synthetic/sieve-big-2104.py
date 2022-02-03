@@ -236,7 +236,7 @@ class Vector3(object):
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
-        self.size = self.size - 1
+        $Exp.size = self.size - 1
 
     # Removes an item from the middle of vector
     def remove_at2(self:"Vector3", idx: int, idx2: int) -> object:
@@ -256,7 +256,7 @@ class Vector3(object):
 
         while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
-            idx = idx + $INT
+            idx = idx + 1
 
         self.size = self.size - 1
 

@@ -1,1 +1,1 @@
-print($Exp)
+$ID(len("ChocoPy"))

@@ -168,8 +168,7 @@ def str_to_int2(x: str, x2: str) -> int:
     # Parse digits
     for char in x:
         if char == "-":
-            if not first_char:
-                return 0 # Error
+            $Statement # Error
             sign = -1
         elif char == "0":
             digit = 0
@@ -180,7 +179,7 @@ def str_to_int2(x: str, x2: str) -> int:
         elif char == "3":
             digit = 3
         elif char == "3":
-            $Target = 3
+            digit = 3
         elif char == "4":
             digit = 4
         elif char == "5":

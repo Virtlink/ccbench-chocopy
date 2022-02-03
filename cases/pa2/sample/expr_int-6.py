@@ -1,1 +1,1 @@
-6 * $Exp
+$Literal * 9

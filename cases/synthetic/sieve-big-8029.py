@@ -891,7 +891,7 @@ class DoublingVector5(Vector):
 
 
 # Makes a vector in the range [i, j)
-def vrange(i:int, j:int) -> Vector:
+def vrange(i:int, j:int) $RetType:
     v:Vector = None
     v = DoublingVector()
     
@@ -978,7 +978,7 @@ def sieve2(v:Vector, v2:Vector) -> object:
     while i < v.length():
         k = v.get(i)
         j = i + 1
-        while $Var < v.length():
+        while j < v.length():
             if v.get(j) % k == 0:
                 v.remove_at(j)
             else:

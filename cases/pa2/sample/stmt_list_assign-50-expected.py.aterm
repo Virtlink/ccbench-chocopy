@@ -1,1 +1,1 @@
-Assign([Target(Index2Target(Index(Var2Exp(Var("x")),Literal2Exp(Int("1"))))),Target(Index2Target(Index(Var2Exp(Var("y")),Literal2Exp(Int("0")))))],Literal2Exp(Int("4")))
+"x"

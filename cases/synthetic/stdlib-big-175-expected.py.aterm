@@ -1,1 +1,1 @@
-NONE()
+VarDef2FuncBodyMember(VarDef(TypedVar("digits",ListType(Type("str"))),NONE()))

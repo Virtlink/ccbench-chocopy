@@ -14,10 +14,10 @@ def int_to_str(x: int) -> str:
     # Write digits using a recursive call
     if x >= 10:
         result = result + int_to_str(x // 10)
-    result = result + digits[x % 10]
+    result = result + digits[$ID % 10]
     return result
 
-def int_to_str2(x: $Type, x2: int) -> str:
+def int_to_str2(x: int, x2: int) -> str:
     digits:[str] = None 
     digits2:[str] = None 
     result:str = ""

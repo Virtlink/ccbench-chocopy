@@ -1,7 +1,7 @@
 def f(x:int) -> int:
     print("start f")
-    print(x)
-    $Var(1, x)
+    print($Exp)
+    g(1, x)
     print("end f")
     return x
 

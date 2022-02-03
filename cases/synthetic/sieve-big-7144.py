@@ -793,7 +793,7 @@ class DoublingVector4(Vector):
 
     # Overriding to do fewer resizes
     def increase_capacity(self:"DoublingVector4") -> int:
-        if (self.capacity() <= self.doubling_limit // 2):
+        if ($Member() <= self.doubling_limit // 2):
             self.items = self.items + self.items
         else:
             # If doubling limit has been reached, fall back to
@@ -872,7 +872,7 @@ class DoublingVector5(Vector):
     # Overriding to do fewer resizes
     def increase_capacity4(self:"DoublingVector5") -> int:
         if (self.capacity() <= self.doubling_limit // 2):
-            $Member = self.items + self.items
+            self.items = self.items + self.items
         else:
             # If doubling limit has been reached, fall back to
             # standard capacity increases

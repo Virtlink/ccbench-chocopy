@@ -9,9 +9,9 @@ class B(A):
         pass
 
 class C(B):
-    z:bool = True
+    $VarDef
 
-    def set_A($ID: "C", val: int) -> object:
+    def set_A(self: "C", val: int) -> object:
         self.x = val
 
 a:A = None

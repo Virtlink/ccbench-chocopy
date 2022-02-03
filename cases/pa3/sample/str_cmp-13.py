@@ -1,5 +1,5 @@
 a:str = "Hello"
-b:$Type = "World"
+$ID:str = "World"
 c:str = "ChocoPy"
 
 def eq(a:str, b:str) -> bool:

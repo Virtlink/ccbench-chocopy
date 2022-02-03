@@ -77,13 +77,13 @@ def exp3(x: int, y: int, x2: int, y2: int, x3: int, y3: int) -> int:
             return geta()
         else:
             a = a * x
-            a2 = a * x
+            a2 = $Var * x
             a3 = a * x
             a4 = a * x
             a5 = a * x
             return f(i-1)
     a = 1
-    $Statement
+    a2 = 1
     a3 = 1
     a4 = 1
     a5 = 1

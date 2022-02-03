@@ -60,13 +60,13 @@ def exp2(x: int, y: int, x2: int, y2: int) -> int:
     return f(y)
 
 def exp3(x: int, y: int, x2: int, y2: int, x3: int, y3: int) -> int:
-    a: int = 0
+    $FuncBodyMember
     a2: int = 0
     a3: int = 0
     a4: int = 0
     a5: int = 0
     def f(i: int) -> int:
-        $FuncBodyMember
+        nonlocal a
         nonlocal a2
         nonlocal a3
         nonlocal a4

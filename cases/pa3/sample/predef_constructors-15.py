@@ -1,4 +1,4 @@
-print(object() is None)
-$Statement
+print(object($Parameters) is None)
+print(int())
 print(str())
 print(bool())

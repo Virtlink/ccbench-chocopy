@@ -82,7 +82,7 @@ def sieve(v:Vector) -> object:
     while i < v.length():
         k = v.get(i)
         j = i + 1
-        while j < v.length():
+        while j < v.$ID():
             if v.get(j) % k == 0:
                 v.remove_at(j)
             else:
@@ -93,7 +93,7 @@ def sieve(v:Vector) -> object:
 n:int = 50
 
 # Data
-$VarDef
+v:Vector = None
 i:int = 0
 
 # Crunch

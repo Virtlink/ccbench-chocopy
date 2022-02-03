@@ -1,1 +1,1 @@
-Returns(Type("str"))
+Var2Exp(Var("x"))

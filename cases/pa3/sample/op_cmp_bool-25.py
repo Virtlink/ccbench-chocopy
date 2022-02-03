@@ -1,6 +1,6 @@
 print(True == True)
-print(True == False)
-$Exp(False == True)
+print(True == $Exp)
+print(False == True)
 print(False == False)
 print(True != True)
 print(True != False)

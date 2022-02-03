@@ -1,1 +1,1 @@
-"bool"
+Return(Literal2Exp(False()))

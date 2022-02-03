@@ -609,7 +609,7 @@ class Tree4(object):
 
     def insert(self:"Tree4", x:int) -> object:
         if self.root is None:
-            self.root = makeNode4(x, x, x, x)
+            self.$ID = makeNode4(x, x, x, x)
             self.size = 1
         else:
             if self.root.insert(x):
@@ -654,7 +654,8 @@ class Tree4(object):
     def contains3(self:"Tree4", x:int, x2:int, x3:int) -> bool:
         if self.root is None:
             return False
-        $ElifElse
+        else:
+            return self.root.contains(x)
 
     def contains4(self:"Tree4", x:int, x2:int, x3:int, x4:int) -> bool:
         if self.root is None:

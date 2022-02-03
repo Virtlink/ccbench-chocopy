@@ -18,8 +18,8 @@ def is_prime(x:int) -> bool:
     div5:int = 2
     while div < x:
         if x % div == 0:
-            return False
-        div = div + $Literal
+            $Block
+        div = div + 1
     return True
 
 def is_prime2(x:int, x2:int) -> bool:

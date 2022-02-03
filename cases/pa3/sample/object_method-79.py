@@ -10,7 +10,6 @@ class B(A):
     def __init__(self:"B"):
         print("B")
 
-    def bar(self:"B") -> int:
-        $FuncBody
+    $FuncDef
 
 print(B().bar())

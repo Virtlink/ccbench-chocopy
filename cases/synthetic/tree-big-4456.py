@@ -446,7 +446,7 @@ class TreeNode5(object):
             if self.right is None:
                 return False
             else:
-                return self.right.contains(x)
+                return self.right.contains($Var)
         else:
             return True
 
@@ -493,7 +493,7 @@ class TreeNode5(object):
             return True
 
 class Tree(object):
-    root:$ID = None
+    root:TreeNode = None
     size:int = 0
 
     def insert(self:"Tree", x:int) -> object:

@@ -1,1 +1,1 @@
-Exps2Parameters([])
+Member(Var2Exp(Var("self")),"items")

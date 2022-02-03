@@ -1,4 +1,4 @@
-def print_list(z:[$ID]) -> object:
+def print_list(z:$Type) -> object:
     x:int = 0
     for x in z:
         print(x)

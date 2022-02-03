@@ -1,1 +1,1 @@
-ElifElse(Gt(Var2Exp(Var("x")),Member2Exp(Member(Var2Exp(Var("self")),"value"))),Block([IfElse(Is(Member2Exp(Member(Var2Exp(Var("self")),"right")),Literal2Exp(NONE())),Block([Return(Literal2Exp(False()))]),Else(Block([Return(Call(Member2Exp(Member(Member2Exp(Member(Var2Exp(Var("self")),"right")),"contains")),Exps2Parameters([Var2Exp(Var("x"))])))])))]),Else(Block([Return(Literal2Exp(True()))])))
+Is(Member2Exp(Member(Var2Exp(Var("self")),"right")),Literal2Exp(NONE()))

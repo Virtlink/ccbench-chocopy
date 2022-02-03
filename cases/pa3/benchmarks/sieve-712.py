@@ -83,7 +83,7 @@ def sieve(v:Vector) -> object:
         k = v.get(i)
         j = i + 1
         while j < v.length():
-            if v.get(j) % k == 0:
+            if $Member(j) % k == 0:
                 v.remove_at(j)
             else:
                 j = j + 1
@@ -94,7 +94,7 @@ n:int = 50
 
 # Data
 v:Vector = None
-i:$Type = 0
+i:int = 0
 
 # Crunch
 v = vrange(2, n)

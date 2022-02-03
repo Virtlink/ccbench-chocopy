@@ -25,9 +25,9 @@ class bar(object):
 
         while x <= 0:
             if self.p:
-                xx[0] = xx[1]
+                xx[0] = $ID[1]
                 self.p = not self.p
-                $Target = x + 1
+                x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 

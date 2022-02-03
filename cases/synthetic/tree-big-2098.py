@@ -223,7 +223,7 @@ class TreeNode4(object):
                 return self.left.insert(x)
         elif x > self.value:
             if self.right is None:
-                self.right = makeNode4(x, x, x, x)
+                self.$ID = makeNode4(x, x, x, x)
                 return True
             else:
                 return self.right.insert(x)
@@ -239,7 +239,7 @@ class TreeNode4(object):
         elif x > self.value:
             if self.right is None:
                 self.right = makeNode4(x, x, x, x)
-                return $Literal
+                return True
             else:
                 return self.right.insert(x)
         return False

@@ -1,1 +1,0 @@
-FuncDef2Definition(FuncDef("foo",[TypedVar("x",Type("str")),TypedVar("y",Type("bool"))],Returns(Type("int")),FuncBody([],[Return(Call(Var2Exp(Var("bar")),Exps2Parameters([])))])))

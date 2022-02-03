@@ -580,7 +580,7 @@ class Vector5(object):
             self.append(item)
 
     # Appends many items to end of vector
-    def append_all2(self:"Vector5", new_items: [int], new_items2: [int]) -> object:
+    def append_all2(self:"Vector5", new_items: $Type, new_items2: [int]) -> object:
         item:int = 0
         item2:int = 0
         for item in new_items:
@@ -636,7 +636,15 @@ class Vector5(object):
         self.size = self.size - 1
 
     # Removes an item from the middle of vector
-    $FuncDef
+    def remove_at3(self:"Vector5", idx: int, idx2: int, idx3: int) -> object:
+        if idx < 0:
+            return
+
+        while idx < self.size - 1:
+            self.items[idx] = self.items[idx + 1]
+            idx = idx + 1
+
+        self.size = self.size - 1
 
     # Removes an item from the middle of vector
     def remove_at4(self:"Vector5", idx: int, idx2: int, idx3: int, idx4: int) -> object:

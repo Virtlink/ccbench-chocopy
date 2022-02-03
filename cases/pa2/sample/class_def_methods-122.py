@@ -16,10 +16,10 @@ class C(B):
 
 a:A = None
 b:B = None
-c:C = None
+c:C = $Literal
 
 a = A()
-$Var = B()
+b = B()
 c = C()
 
 b.x = a.get_A()

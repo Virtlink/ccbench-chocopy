@@ -1,6 +1,6 @@
 x:int = 0
 y:int = 0
-$VarDef
+$Definition
 
 z = [1, 2, 3]
 

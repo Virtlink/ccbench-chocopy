@@ -233,8 +233,7 @@ class Vector3(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
-            idx = idx + 1
+            $Block
 
         self.size = self.size - 1
 
@@ -254,7 +253,7 @@ class Vector3(object):
         if idx < 0:
             return
 
-        while idx < $Exp - 1:
+        while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 

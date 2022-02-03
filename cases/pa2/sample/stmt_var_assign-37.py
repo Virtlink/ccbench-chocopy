@@ -3,7 +3,7 @@ y:bool = True
 z:str = ""
 o:object = None
 
-x = $Literal
+$Var = 2
 y = False
 z = "Hello"
 o = z

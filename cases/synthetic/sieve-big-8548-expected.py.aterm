@@ -1,1 +1,1 @@
-Type("Vector")
+Return(Var2Exp(Var("v")))

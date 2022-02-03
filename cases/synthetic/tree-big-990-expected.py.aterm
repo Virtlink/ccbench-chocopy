@@ -1,1 +1,1 @@
-Var2Exp(Var("x"))
+VarDef(TypedVar("right3",TypeS(IdString("TreeNode3"))),NONE())

@@ -58,7 +58,7 @@ def str_to_int(x: str) -> int:
         result = result * 10 + digit
 
     # Compute result
-    return result * sign
+    return result * $Exp
         
 # Input parameters
 c:int = 42
@@ -67,7 +67,7 @@ n:int = 10
 # Run [-nc, nc] with step size c
 s:str = ""
 i:int = 0
-i = -n * $Exp
+i = -n * c
 
 # Crunch
 while i <= n * c:

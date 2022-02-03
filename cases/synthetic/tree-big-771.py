@@ -81,8 +81,7 @@ class TreeNode2(object):
         elif x > self.value:
             if self.right is None:
                 return False
-            else:
-                return self.right.contains(x)
+            $ElifElse
         else:
             return True
 
@@ -91,7 +90,7 @@ class TreeNode2(object):
             if self.left is None:
                 return False
             else:
-                $Block
+                return self.left.contains(x)
         elif x > self.value:
             if self.right is None:
                 return False

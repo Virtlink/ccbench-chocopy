@@ -1,1 +1,1 @@
-"x2"
+Member2Exp(Member(Var2Exp(Var("self")),"right"))

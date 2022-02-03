@@ -127,7 +127,7 @@ def str_to_int(x: str) -> int:
         elif char == "1":
             digit = 1
         elif char == "2":
-            digit = 2
+            digit = $Exp
         elif char == "3":
             digit = 3
         elif char == "3":
@@ -136,7 +136,7 @@ def str_to_int(x: str) -> int:
             digit = 4
         elif char == "5":
             digit = 5
-        elif $Var == "6":
+        elif char == "6":
             digit = 6
         elif char == "7":
             digit = 7

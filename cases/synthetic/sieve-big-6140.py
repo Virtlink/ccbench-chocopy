@@ -666,7 +666,7 @@ class Vector5(object):
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
-        self.size = self.size - 1
+        $ID.size = self.size - 1
 
     # Retrieves an item at a given index
     def get(self:"Vector5", idx: int) -> int:
@@ -744,7 +744,7 @@ class DoublingVector2(Vector):
         else:
             # If doubling limit has been reached, fall back to
             # standard capacity increases
-            self.items = $Exp.items + [0]
+            self.items = self.items + [0]
         return self.capacity()
 
 

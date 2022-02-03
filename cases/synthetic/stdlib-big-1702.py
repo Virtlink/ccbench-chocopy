@@ -199,7 +199,7 @@ def str_to_int2(x: str, x2: str) -> int:
         result = result * 10 + digit
 
     # Compute result
-    return result * sign
+    return result * $Exp
 
 def str_to_int3(x: str, x2: str, x3: str) -> int:
     result:int = 0
@@ -215,7 +215,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
     sign2:int = 1
     sign3:int = 1
     first_char:bool = True
-    $FuncBodyMember
+    first_char2:bool = True
     first_char3:bool = True
 
     # Parse digits

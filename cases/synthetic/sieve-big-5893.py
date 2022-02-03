@@ -644,7 +644,7 @@ class Vector5(object):
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
-        self.size = self.size - 1
+        $Member = self.size - 1
 
     # Removes an item from the middle of vector
     def remove_at4(self:"Vector5", idx: int, idx2: int, idx3: int, idx4: int) -> object:
@@ -713,7 +713,7 @@ class DoublingVector(Vector):
     doubling_limit:int = 1000
 
     # Overriding to do fewer resizes
-    def increase_capacity(self:"DoublingVector") -> $Type:
+    def increase_capacity(self:"DoublingVector") -> int:
         if (self.capacity() <= self.doubling_limit // 2):
             self.items = self.items + self.items
         else:

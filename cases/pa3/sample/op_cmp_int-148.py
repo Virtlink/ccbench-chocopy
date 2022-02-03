@@ -11,6 +11,6 @@ print(x >= y)
 print(x == x)
 print(x != x)
 print(x < x)
-print(x <= x)
-$Exp
+$Var(x <= x)
+print(x > x)
 print(x >= x)

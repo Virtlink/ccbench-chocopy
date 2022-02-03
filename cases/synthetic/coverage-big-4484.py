@@ -560,7 +560,7 @@ class bar5(object):
         count = count + 1
 
         while x <= 0:
-            if self.p:
+            if $Var.p:
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
@@ -608,7 +608,7 @@ class bar5(object):
             if x > y:
                 x = -1
 
-        def qux5(y: int, y2: int, y3: $ID, y4: int, y5: int) -> object:
+        def qux5(y: int, y2: int, y3: int, y4: int, y5: int) -> object:
             nonlocal x
             nonlocal x2
             nonlocal x3

@@ -1,1 +1,1 @@
-String("\"9\"")
+Not(Var2Exp(Var("first_char")))

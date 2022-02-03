@@ -166,7 +166,7 @@ def str_to_int2(x: str, x2: str) -> int:
     first_char2:bool = True
 
     # Parse digits
-    for char in x:
+    for char in $ID:
         if char == "-":
             if not first_char:
                 return 0 # Error
@@ -178,7 +178,7 @@ def str_to_int2(x: str, x2: str) -> int:
         elif char == "2":
             digit = 2
         elif char == "3":
-            digit = $Literal
+            digit = 3
         elif char == "3":
             digit = 3
         elif char == "4":

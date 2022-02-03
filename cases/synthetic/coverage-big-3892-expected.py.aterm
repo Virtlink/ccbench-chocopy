@@ -1,1 +1,1 @@
-"qux"
+Var2Target(Var("x"))

@@ -534,7 +534,7 @@ class Vector5(object):
         return self.capacity()
 
     # Appends one item to end of vector
-    def append(self:"Vector5", item: int) -> object:
+    def append(self:"Vector5", $TypedVar) -> object:
         if self.size == self.capacity():
             self.increase_capacity()
 
@@ -576,7 +576,8 @@ class Vector5(object):
     # Appends many items to end of vector
     def append_all(self:"Vector5", new_items: [int]) -> object:
         item:int = 0
-        $Statement
+        for item in new_items:
+            self.append(item)
 
     # Appends many items to end of vector
     def append_all2(self:"Vector5", new_items: [int], new_items2: [int]) -> object:

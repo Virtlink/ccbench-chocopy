@@ -1,1 +1,1 @@
-VarDef2FuncBodyMember(VarDef(TypedVar("sign4",Type("int")),Int("1")))
+Mul(Var2Exp(Var("result")),Literal2Exp(Int("10")))

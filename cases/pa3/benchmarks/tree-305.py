@@ -33,11 +33,11 @@ class TreeNode(object):
 		else:
 			return True
 
-class Tree(object):
+class $ID(object):
 	root:TreeNode = None
 	size:int = 0
 
-	def insert(self:"Tree", x:$ID) -> object:
+	def insert(self:"Tree", x:int) -> object:
 		if self.root is None:
 			self.root = makeNode(x)
 			self.size = 1

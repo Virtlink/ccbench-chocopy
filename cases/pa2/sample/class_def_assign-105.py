@@ -14,5 +14,5 @@ c:C = None
 
 a = A()
 a = B()
-b = a = c = C()
-$ID = None
+b = a = $AssignTarget C()
+c = None

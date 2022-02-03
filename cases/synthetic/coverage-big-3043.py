@@ -376,7 +376,7 @@ class bar4(object):
                 x = -1
 
         def qux4(y: int, y2: int, y3: int, y4: int) -> object:
-            nonlocal x
+            $FuncBodyMember
             nonlocal x2
             nonlocal x3
             nonlocal x4
@@ -415,7 +415,7 @@ class bar5(object):
 
         def qux(y: int) -> object:
             nonlocal x
-            if $ID > y:
+            if x > y:
                 x = -1
 
         for x in xx:

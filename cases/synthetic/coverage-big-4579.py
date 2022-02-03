@@ -569,7 +569,7 @@ class bar5(object):
 
         return "Nope"
 
-    def baz5(self:"bar5", xx: [int], xx2: [int], xx3: [int], xx4: [int], xx5: [int]) -> str:
+    def $ID(self:"bar5", xx: [int], xx2: [int], xx3: [int], xx4: [int], xx5: [int]) -> str:
         global count
         x:int = 0
         x2:int = 0
@@ -625,7 +625,7 @@ class bar5(object):
         count = count + 1
 
         while x <= 0:
-            if $Exp.p:
+            if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1

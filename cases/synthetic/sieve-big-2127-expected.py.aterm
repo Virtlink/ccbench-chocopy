@@ -1,1 +1,1 @@
-"self"
+TypedVar("idx",Type("int"))

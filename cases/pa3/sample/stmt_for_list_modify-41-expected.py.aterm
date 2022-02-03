@@ -1,1 +1,1 @@
-Index(Var2Exp(Var("z")),Var2Exp(Var("x")))
+Block([Assign([Target(Index2Target(Index(Var2Exp(Var("z")),Var2Exp(Var("x")))))],Var2Exp(Var("x"))),Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Var2Exp(Var("x"))])))])

@@ -1,1 +1,1 @@
-"item2"
+Add(Member2Exp(Member(Var2Exp(Var("self")),"items")),List([Literal2Exp(Int("0"))]))

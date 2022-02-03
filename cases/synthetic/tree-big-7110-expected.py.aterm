@@ -1,1 +1,1 @@
-Var("TreeNode2")
+Member2Exp(Member(Var2Exp(Var("self")),"root"))

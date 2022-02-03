@@ -6,6 +6,6 @@ def next_int() -> int:
     return next
 
 def make_list() -> [int]:
-    return [next_int(), $Var(), next_int()]
+    return $Exp
 
 print(make_list()[next_int() - 3])

@@ -22,7 +22,7 @@ a = A()
 b = B()
 c = C()
 
-b.x = a.get_A()
+b.x = a.$ID()
 a.x = b.get_A()
-$Exp.set_A(0)
+c.set_A(0)
 

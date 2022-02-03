@@ -1,1 +1,1 @@
-Var2Exp(Var("c"))
+Block([Return(Literal2Exp(Int("0")))])

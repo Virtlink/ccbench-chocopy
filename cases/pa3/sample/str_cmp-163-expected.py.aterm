@@ -1,1 +1,1 @@
-Var2Exp(Var("neq"))
+Var2Exp(Var("eq"))

@@ -211,7 +211,7 @@ class TreeNode4(object):
     left4:"TreeNode4" = None
     right:"TreeNode4" = None
     right2:"TreeNode4" = None
-    right3:"TreeNode4" = None
+    $ID:"TreeNode4" = None
     right4:"TreeNode4" = None
 
     def insert(self:"TreeNode4", x:int) -> bool:
@@ -227,7 +227,7 @@ class TreeNode4(object):
                 return True
             else:
                 return self.right.insert(x)
-        return $Literal
+        return False
 
     def insert2(self:"TreeNode4", x:int, x2:int) -> bool:
         if x < self.value:

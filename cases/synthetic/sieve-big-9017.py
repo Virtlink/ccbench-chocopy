@@ -996,7 +996,7 @@ def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
     k2:int = 0
     k3:int = 0
 
-    while i < v.length():
+    while i < v.$ID():
         k = v.get(i)
         j = i + 1
         while j < v.length():
@@ -1085,7 +1085,7 @@ v5 = vrange(2, n)
 sieve(v)
 
 # Print
-while i < v.length($Parameters):
+while i < v.length():
     print(v.get(i))
     i = i + 1
 

@@ -1,1 +1,1 @@
-Or(Call(Var2Exp(Var("f")),Exps2Parameters([])),Call(Var2Exp(Var("g")),Exps2Parameters([])))
+Exps2Parameters([Literal2Exp(String("\"g called\""))])

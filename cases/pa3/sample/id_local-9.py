@@ -1,5 +1,4 @@
 def f() -> int:
-  $VarDef
-  return x
+  $FuncBody
 
 print(f())

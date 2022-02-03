@@ -127,7 +127,7 @@ class bar3(object):
     def baz(self:"bar3", xx: [int]) -> str:
         global count
         x:int = 0
-        y:int = 1
+        $ID:int = 1
 
         def qux(y: int) -> object:
             nonlocal x
@@ -142,7 +142,7 @@ class bar3(object):
         count = count + 1
 
         while x <= 0:
-            if $Var.p:
+            if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1

@@ -1,4 +1,4 @@
-$TypedVar = 1
+$VarDef
 y:bool = True
 z:str = ""
 o:object = None

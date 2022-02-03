@@ -1,1 +1,1 @@
-Literal2Exp(String("\"Long\""))
+Target(Var2Target(Var("x")))

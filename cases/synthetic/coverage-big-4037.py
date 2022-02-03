@@ -505,7 +505,7 @@ class bar5(object):
 
         count = count + 1
 
-        while x <= 0:
+        while $Exp:
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
@@ -549,7 +549,7 @@ class bar5(object):
             nonlocal x2
             nonlocal x3
             nonlocal x4
-            if x > $Exp:
+            if x > y:
                 x = -1
 
         for x in xx:

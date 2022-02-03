@@ -298,7 +298,7 @@ class TreeNode4(object):
             if self.right is None:
                 return False
             else:
-                return self.right.contains(x)
+                return $Exp(x)
         else:
             return True
 
@@ -328,7 +328,7 @@ class TreeNode4(object):
             else:
                 return self.right.contains(x)
         else:
-            $Statement
+            return True
 
 class TreeNode5(object):
     value:int = 0

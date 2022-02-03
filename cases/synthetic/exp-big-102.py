@@ -13,8 +13,8 @@ def exp(x: int, y: int) -> int:
         nonlocal a5
         def geta() -> int:
             return a
-        if i <= 0:
-            return geta($Parameters)
+        if i <= $Exp:
+            return geta()
         else:
             a = a * x
             a2 = a * x

@@ -1,1 +1,1 @@
-"bool"
+Block([Return(Literal2Exp(True()))])

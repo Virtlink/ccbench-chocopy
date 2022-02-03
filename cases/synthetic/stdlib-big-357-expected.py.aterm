@@ -1,1 +1,1 @@
-"str"
+TypedVar("digits",ListType(Type("str")))

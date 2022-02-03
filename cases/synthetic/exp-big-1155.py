@@ -127,7 +127,7 @@ def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x
     a5: int = 0
     def f(i: int) -> int:
         nonlocal a
-        nonlocal a2
+        nonlocal $ID
         nonlocal a3
         nonlocal a4
         nonlocal a5
@@ -141,7 +141,7 @@ def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x
             a3 = a * x
             a4 = a * x
             a5 = a * x
-            return f($Exp)
+            return f(i-1)
     a = 1
     a2 = 1
     a3 = 1

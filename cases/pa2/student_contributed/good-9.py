@@ -1,2 +1,2 @@
-x:int = 1
-$Statement
+x:int = $INT
+x * 1

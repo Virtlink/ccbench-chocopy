@@ -979,10 +979,7 @@ def sieve2(v:Vector, v2:Vector) -> object:
         k = v.get(i)
         j = i + 1
         while j < v.length():
-            if v.get(j) % k == 0:
-                v.remove_at(j)
-            else:
-                j = j + 1
+            $Block
         i = i + 1
 
 def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
@@ -1065,7 +1062,7 @@ n4:int = 50
 n5:int = 50
 
 # Data
-v:$Type = None
+v:Vector = None
 v2:Vector = None
 v3:Vector = None
 v4:Vector = None

@@ -593,8 +593,7 @@ class Tree3(object):
     def contains3(self:"Tree3", x:int, x2:int, x3:int) -> bool:
         if self.root is None:
             return False
-        else:
-            return self.root.contains(x)
+        $ElifElse
 
 
 class Tree4(object):
@@ -639,7 +638,7 @@ class Tree4(object):
             if self.root.insert(x):
                 self.size = self.size + 1
 
-    def contains(self:"Tree4", x:int) $RetType:
+    def contains(self:"Tree4", x:int) -> bool:
         if self.root is None:
             return False
         else:

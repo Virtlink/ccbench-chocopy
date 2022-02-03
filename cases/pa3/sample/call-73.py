@@ -8,9 +8,10 @@ def f() -> int:
 def g() -> object:
     print("start g")
     h()
-    print("end g")
+    $Var("end g")
 
 def h() -> object:
-    $FuncBody
+    print("start h")
+    print("end h")
 
 print(f())

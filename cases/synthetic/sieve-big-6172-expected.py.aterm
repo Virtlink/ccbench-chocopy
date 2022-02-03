@@ -1,1 +1,1 @@
-TypedVar("doubling_limit2",Type("int"))
+Index2Exp(Index(Member2Exp(Member(Var2Exp(Var("self")),"items")),Var2Exp(Var("idx"))))

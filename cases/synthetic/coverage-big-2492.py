@@ -307,7 +307,7 @@ class bar4(object):
         x:int = 0
         x2:int = 0
         x3:int = 0
-        y:int = 1
+        y:$Type = 1
         y2:int = 1
         y3:int = 1
 
@@ -339,7 +339,7 @@ class bar4(object):
         while x <= 0:
             if self.p:
                 xx[0] = xx[1]
-                $Exp.p = not self.p
+                self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None

@@ -1,1 +1,1 @@
-Var("idx")
+TypeS(IdString("Vector4"))

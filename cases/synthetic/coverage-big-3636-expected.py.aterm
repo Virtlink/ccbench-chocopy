@@ -1,1 +1,1 @@
-Var("x")
+Block([Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"p")))],Eq(Var2Exp(Var("x")),Literal2Exp(Int("2"))))])

@@ -41,12 +41,11 @@ def exp2(x: int, y: int, x2: int, y2: int) -> int:
         nonlocal a3
         nonlocal a4
         nonlocal a5
-        def geta() -> int:
-            return a
+        $FuncDef
         if i <= 0:
             return geta()
         else:
-            $Target = a * x
+            a = a * x
             a2 = a * x
             a3 = a * x
             a4 = a * x

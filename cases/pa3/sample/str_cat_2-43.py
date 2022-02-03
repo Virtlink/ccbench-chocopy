@@ -4,8 +4,7 @@ c:str = ""
 d:str = ""
 e:str = ""
 
-def $ID(a:str, b:str) -> str:
-    return a + b
+$FuncDef
 
 def cat3(a:str, b:str, c:str) -> str:
     return a + b + c

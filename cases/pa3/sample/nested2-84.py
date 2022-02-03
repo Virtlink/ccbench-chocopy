@@ -6,9 +6,9 @@ def foo(x: int) -> int:
         def baz() -> int:
             return qux(y)
         return baz()
-    def qux(p: int) -> int:
+    def qux(p: int) $RetType:
         return p
 
-    return $ID()
+    return bar()
     
 print(foo(g))

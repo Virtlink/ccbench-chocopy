@@ -1,1 +1,1 @@
-"capacity"
+VarDef2ClassBodyMember(VarDef(TypedVar("items4",ListType(Type("int"))),NONE()))

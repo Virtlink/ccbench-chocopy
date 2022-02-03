@@ -471,7 +471,7 @@ class bar5(object):
 
         return "Nope"
 
-    def baz3(self:"bar5", xx: [int], xx2: [int], xx3: [int]) -> str:
+    def baz3($TypedVar, xx: [int], xx2: [int], xx3: [int]) -> str:
         global count
         x:int = 0
         x2:int = 0
@@ -513,7 +513,7 @@ class bar5(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        $Statement
+        return "Nope"
 
     def baz4(self:"bar5", xx: [int], xx2: [int], xx3: [int], xx4: [int]) -> str:
         global count

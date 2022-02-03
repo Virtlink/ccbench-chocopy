@@ -25,11 +25,11 @@ def exp(x: int, y: int) -> int:
     a = 1
     a2 = 1
     a3 = 1
-    a4 = 1
+    $ID = 1
     a5 = 1
     return f(y)
 
-def $ID(x: int, y: int, x2: int, y2: int) -> int:
+def exp2(x: int, y: int, x2: int, y2: int) -> int:
     a: int = 0
     a2: int = 0
     a3: int = 0

@@ -1,1 +1,1 @@
-Var("self")
+TypedVar("right2",TypeS(IdString("TreeNode2")))

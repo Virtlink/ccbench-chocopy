@@ -3,9 +3,9 @@ b:str = "World"
 c:str = "ChocoPy"
 
 def eq(a:str, b:str) -> bool:
-    return a == b
+    return a == $Var
 
-def $ID(a:str, b:str) -> bool:
+def neq(a:str, b:str) -> bool:
     return a != b
 
 print(eq(a,a))

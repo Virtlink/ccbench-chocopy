@@ -3,6 +3,6 @@ if 1 > 2:
 elif 3 == 4:
     print(2)
 elif True:
-    print(3)
+    print($INT)
 else:
-    print($Parameters)
+    print(4)

@@ -1,1 +1,1 @@
-IdString("TreeNode2")
+Return(Literal2Exp(True()))

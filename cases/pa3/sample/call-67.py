@@ -7,9 +7,11 @@ def f() -> int:
     
 def g() -> object:
     print("start g")
-    h()
+    $ID()
     print("end g")
 
-$Definition
+def h() -> object:
+    print("start h")
+    print("end h")
 
 print(f())

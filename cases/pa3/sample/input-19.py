@@ -2,5 +2,7 @@
 
 s: str = ""
 
-s = input()
-$Statement
+s = $Var()
+while len(s) > 0:
+    print(s)
+    s = input()

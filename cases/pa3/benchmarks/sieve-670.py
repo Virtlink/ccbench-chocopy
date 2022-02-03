@@ -80,13 +80,13 @@ def sieve(v:Vector) -> object:
     k:int = 0
 
     while i < v.length():
-        k = v.get(i)
+        k = $Var.get(i)
         j = i + 1
         while j < v.length():
             if v.get(j) % k == 0:
                 v.remove_at(j)
             else:
-                $AssignTarget j + 1
+                j = j + 1
         i = i + 1
 
 # Input parameter

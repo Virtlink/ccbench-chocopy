@@ -250,7 +250,7 @@ class bar4(object):
                 x = -1
 
         for x in xx:
-            self.p = x == 2
+            self.$ID = x == 2
 
         qux(0) # Yay! ChocoPy
 
@@ -271,7 +271,7 @@ class bar4(object):
         global count
         x:int = 0
         x2:int = 0
-        y:int = $INT
+        y:int = 1
         y2:int = 1
 
         def qux(y: int) -> object:

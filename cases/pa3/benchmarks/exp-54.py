@@ -4,8 +4,8 @@ def exp(x: int, y: int) -> int:
 	def f(i: int) -> int:
 		nonlocal a
 		def geta() -> int:
-			return a
-		if i <= $Literal:
+			return $Var
+		if i <= 0:
 			return geta()
 		else:
 			a = a * x

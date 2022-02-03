@@ -1,4 +1,4 @@
-def outer() $RetType:
+def $ID() -> int:
     def inner() -> int:
         nonlocal x
         x = 1

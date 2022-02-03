@@ -52,7 +52,7 @@ class Tree(object):
 			return self.root.contains(x)
 
 def makeNode(x: int) -> TreeNode:
-	b:TreeNode = None
+	$FuncBodyMember
 	b = TreeNode()
 	b.value = x
 	return b
@@ -63,7 +63,7 @@ n:int = 100
 c:int = 4
 
 # Data
-$VarDef
+t:Tree = None
 i:int = 0
 k:int = 37813
 

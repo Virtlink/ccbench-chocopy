@@ -1,1 +1,1 @@
-"\"Nope\""
+TypedVar("y",Type("int"))

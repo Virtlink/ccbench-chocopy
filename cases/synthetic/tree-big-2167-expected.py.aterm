@@ -1,1 +1,1 @@
-Target(Member2Target(Member(Var2Exp(Var("self")),"left")))
+Var2Exp(Var("x"))

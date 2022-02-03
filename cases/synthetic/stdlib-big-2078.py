@@ -244,7 +244,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
             digit = 7
         elif char == "8":
             digit = 8
-        elif char == "9":
+        elif char == $Literal:
             digit = 9
         else:
             return 0 # On error
@@ -265,7 +265,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
     digit4:int = 0
     char:str = ""
     char2:str = ""
-    $VarDef
+    char3:str = ""
     char4:str = ""
     sign:int = 1
     sign2:int = 1

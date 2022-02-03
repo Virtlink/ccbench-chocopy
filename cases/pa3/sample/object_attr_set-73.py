@@ -10,8 +10,8 @@ class B(A):
 a:A = None
 b:B = None
 
-a = b = B()
-$Statement
+a = $AssignTarget B()
+b.a = 1
 b.b = False
 print(a.a)
 print(b.a)

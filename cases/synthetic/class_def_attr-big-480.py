@@ -81,11 +81,11 @@ b5:B = None
 c:C = None
 c2:C = None
 c3:C = None
-c4:C = None
+$TypedVar = None
 c5:C = None
 
 a = A()
-a2 = A($Parameters)
+a2 = A()
 a3 = A()
 a4 = A()
 a5 = A()

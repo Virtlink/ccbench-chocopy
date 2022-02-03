@@ -1,4 +1,4 @@
-x:int = $INT
+x:int = $Literal
 y:bool = True
 z:str = ""
 o:object = None

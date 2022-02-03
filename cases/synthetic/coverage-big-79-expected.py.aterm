@@ -1,1 +1,1 @@
-Var("len")
+Type("int")

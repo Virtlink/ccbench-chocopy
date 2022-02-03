@@ -1,1 +1,1 @@
-VarDef2FuncBodyMember(VarDef(TypedVar("sign2",Type("int")),Int("1")))
+Var2Target(Var("result"))

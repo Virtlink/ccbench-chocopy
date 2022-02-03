@@ -1,1 +1,1 @@
-Call(Var2Exp(Var("A")),Exps2Parameters([]))
+TypedVar("c2",Type("C"))

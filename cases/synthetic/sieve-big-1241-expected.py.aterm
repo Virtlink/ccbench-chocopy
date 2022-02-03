@@ -1,1 +1,1 @@
-Var("len")
+FuncBody([],[Return(Member2Exp(Member(Var2Exp(Var("self")),"size")))])

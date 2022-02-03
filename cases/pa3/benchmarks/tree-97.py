@@ -9,8 +9,7 @@ class TreeNode(object):
 			if self.left is None:
 				self.left = makeNode(x)
 				return True
-			else:
-				return $Var.left.insert(x)
+			$ElifElse
 		elif x > self.value:
 			if self.right is None:
 				self.right = makeNode(x)

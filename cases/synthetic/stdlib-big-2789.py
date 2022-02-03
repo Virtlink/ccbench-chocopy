@@ -333,7 +333,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
     sign3:int = 1
     sign4:int = 1
     sign5:int = 1
-    first_char:bool = True
+    $FuncBodyMember
     first_char2:bool = True
     first_char3:bool = True
     first_char4:bool = True
@@ -359,7 +359,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
             digit = 4
         elif char == "5":
             digit = 5
-        elif $Var == "6":
+        elif char == "6":
             digit = 6
         elif char == "7":
             digit = 7

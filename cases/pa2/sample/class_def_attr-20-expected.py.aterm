@@ -1,1 +1,1 @@
-FuncDef("__init__",[TypedVar("self",TypeS(IdString("B")))],ReturnsNone(),FuncBody([],[PassStmt()]))
+ClassBodyMembers2ClassBody([FuncDef2ClassBodyMember(FuncDef("__init__",[TypedVar("self",TypeS(IdString("B")))],ReturnsNone(),FuncBody([],[PassStmt()])))])

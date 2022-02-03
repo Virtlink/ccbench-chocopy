@@ -476,7 +476,7 @@ class bar5(object):
         x:int = 0
         x2:int = 0
         x3:int = 0
-        y:int = 1
+        y:$Type = 1
         y2:int = 1
         y3:int = 1
 
@@ -519,7 +519,7 @@ class bar5(object):
         global count
         x:int = 0
         x2:int = 0
-        $VarDef
+        x3:int = 0
         x4:int = 0
         y:int = 1
         y2:int = 1

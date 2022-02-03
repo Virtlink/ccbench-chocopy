@@ -1,1 +1,1 @@
-VarDef(TypedVar("z",Type("str")),String("\"abc\""))
+VarDef2Definition(VarDef(TypedVar("z",Type("str")),String("\"abc\"")))

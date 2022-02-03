@@ -234,7 +234,7 @@ class bar3(object):
 
 
 class bar4(object):
-    p: bool = True
+    p: $ID = True
     p2: bool = True
     p3: bool = True
     p4: bool = True
@@ -258,7 +258,7 @@ class bar4(object):
 
         while x <= 0:
             if self.p:
-                xx[0] = xx[$INT]
+                xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:

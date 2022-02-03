@@ -4,8 +4,7 @@ class A(object):
     def get_A(self: "A") -> int:
         return self.x
 
-class B(A):
-    $ClassBodyMember
+$Definition
 
 class C(B):
     z:bool = True

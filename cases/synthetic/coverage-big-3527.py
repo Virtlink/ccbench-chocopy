@@ -438,7 +438,7 @@ class bar5(object):
 
     def baz2(self:"bar5", xx: [int], xx2: [int]) -> str:
         global count
-        x:int = 0
+        x:int = $INT
         x2:int = 0
         y:int = 1
         y2:int = 1
@@ -477,7 +477,7 @@ class bar5(object):
         x2:int = 0
         x3:int = 0
         y:int = 1
-        $ID:int = 1
+        y2:int = 1
         y3:int = 1
 
         def qux(y: int) -> object:

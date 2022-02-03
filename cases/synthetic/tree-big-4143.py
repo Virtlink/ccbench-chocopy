@@ -414,7 +414,7 @@ class TreeNode5(object):
                 return True
             else:
                 return self.left.insert(x)
-        elif x > self.value:
+        elif $Exp:
             if self.right is None:
                 self.right = makeNode5(x, x, x, x, x)
                 return True
@@ -455,7 +455,7 @@ class TreeNode5(object):
             if self.left is None:
                 return False
             else:
-                return $Exp(x)
+                return self.left.contains(x)
         elif x > self.value:
             if self.right is None:
                 return False

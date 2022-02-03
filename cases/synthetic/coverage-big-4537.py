@@ -564,8 +564,7 @@ class bar5(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo("Long"[0]) == 1:
-                self.p = self is None
+            $ElifElse
 
         return "Nope"
 
@@ -618,7 +617,7 @@ class bar5(object):
                 x = -1
 
         for x in xx:
-            $ID.p = x == 2
+            self.p = x == 2
 
         qux(0) # Yay! ChocoPy
 

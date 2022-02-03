@@ -1,4 +1,4 @@
 x:[int] = None
 
-x = []
-$Statement
+$Var = []
+print(x[0])

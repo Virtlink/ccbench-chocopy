@@ -2,10 +2,10 @@ def f() -> int:
     print("start f")
     g()
     print("end f")
-    return 42
+    $Statement
 
     
-def g() $RetType:
+def g() -> object:
     print("start g")
     h()
     print("end g")

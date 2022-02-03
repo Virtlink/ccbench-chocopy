@@ -35,12 +35,12 @@ class bar(object):
         for x in xx:
             self.p = x == 2
 
-        qux(0) # Yay! ChocoPy
+        $Var(0) # Yay! ChocoPy
 
         count = count + 1
 
         while x <= 0:
-            if $ID.p:
+            if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1

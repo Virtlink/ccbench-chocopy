@@ -40,11 +40,11 @@ class TreeNode2(object):
     left:"TreeNode2" = None
     left2:"TreeNode2" = None
     right:"TreeNode2" = None
-    right2:"TreeNode2" = None
+    right2:"TreeNode2" = $Literal
 
     def insert(self:"TreeNode2", x:int) -> bool:
         if x < self.value:
-            if $Exp:
+            if self.left is None:
                 self.left = makeNode2(x, x)
                 return True
             else:

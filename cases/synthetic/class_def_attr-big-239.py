@@ -40,13 +40,14 @@ class B4(A):
         pass
 
 class B5(A):
-    def __init__(self: "B5"):
-        pass
+    $FuncDef
 
 class C(B):
     z:bool = True
 
-$ClassDef
+class C2(B):
+    z:bool = True
+    z2:bool = True
 
 class C3(B):
     z:bool = True

@@ -1,6 +1,6 @@
 count:int = 0
 count2:int = 0
-count3:$ID = 0
+count3:$Type = 0
 count4:int = 0
 count5:int = 0
 

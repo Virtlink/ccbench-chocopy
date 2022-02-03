@@ -1,1 +1,1 @@
-Var("str_get")
+Target(Var2Target(Var("a")))

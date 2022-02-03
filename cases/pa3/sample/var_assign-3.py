@@ -1,4 +1,4 @@
-$TypedVar = 0
+$VarDef
 y:object = 1
 x = y = 42
 print(x)

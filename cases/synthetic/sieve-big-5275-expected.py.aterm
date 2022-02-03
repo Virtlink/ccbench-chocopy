@@ -1,1 +1,1 @@
-"int"
+VarDef(TypedVar("item",Type("int")),Int("0"))

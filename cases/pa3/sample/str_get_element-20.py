@@ -1,6 +1,6 @@
 x:str = "abc"
 a:str = ""
-$ID:str = ""
+$TypedVar = ""
 c:str = ""
 
 def str_get(s:str, i:int) -> str:

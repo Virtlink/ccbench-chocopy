@@ -1,1 +1,1 @@
-Assign([Target(Var2Target(Var("a2")))],Call(Var2Exp(Var("A")),Exps2Parameters([])))
+VarDef2Definition(VarDef(TypedVar("c3",Type("C")),NONE()))

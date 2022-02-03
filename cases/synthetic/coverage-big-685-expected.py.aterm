@@ -1,1 +1,1 @@
-TypedVar("y",Type("int"))
+Return(Literal2Exp(String("\"Nope\"")))

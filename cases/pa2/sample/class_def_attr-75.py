@@ -12,8 +12,8 @@ a:A = None
 b:B = None
 c:C = None
 
-a = A()
-$Target = B()
+$Var = A()
+b = B()
 c = C()
 
 a.x = 1

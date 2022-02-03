@@ -1,1 +1,1 @@
-Var2Target(Var("x"))
+TypedVar("p4",Type("bool"))

@@ -1,3 +1,3 @@
-$VarDef
+$Definition
 
 print(len(x))

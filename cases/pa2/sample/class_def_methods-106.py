@@ -14,9 +14,9 @@ class C(B):
     def set_A(self: "C", val: int) -> object:
         self.x = val
 
-a:A = None
+a:$Type = None
 b:B = None
-c:$Type = None
+c:C = None
 
 a = A()
 b = B()

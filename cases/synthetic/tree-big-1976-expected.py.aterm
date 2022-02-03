@@ -1,1 +1,1 @@
-Returns(Type("bool"))
+TypedVar("self",TypeS(IdString("TreeNode4")))

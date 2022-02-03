@@ -1,1 +1,1 @@
-Var("y")
+Literal2Exp(Int("0"))

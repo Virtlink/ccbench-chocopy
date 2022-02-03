@@ -25,11 +25,11 @@ class bar(object):
     def baz(self:"bar", xx: [int]) -> str:
         global count
         x:int = 0
-        y:int = 1
+        $TypedVar = 1
 
         def qux(y: int) -> object:
             nonlocal x
-            if x > $Exp:
+            if x > y:
                 x = -1
 
         for x in xx:

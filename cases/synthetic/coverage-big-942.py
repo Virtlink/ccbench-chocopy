@@ -112,7 +112,7 @@ class bar2(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo("Long"[0]) == 1:
+            elif $Exp("Long"[0]) == 1:
                 self.p = self is None
 
         return "Nope"
@@ -126,7 +126,7 @@ class bar3(object):
 
     def baz(self:"bar3", xx: [int]) -> str:
         global count
-        x:int = $Literal
+        x:int = 0
         y:int = 1
 
         def qux(y: int) -> object:

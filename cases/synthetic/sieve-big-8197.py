@@ -912,7 +912,7 @@ def vrange2(i:int, j:int, i2:int, j2:int) -> Vector:
 
     return v
 
-def vrange3(i:int, j:int, i2:int, j2:int, i3:int, j3:int) -> Vector:
+def vrange3(i:int, j:$ID, i2:int, j2:int, i3:int, j3:int) -> Vector:
     v:Vector = None
     v2:Vector = None
     v3:Vector = None
@@ -996,7 +996,7 @@ def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
     k2:int = 0
     k3:int = 0
 
-    while i < $Member():
+    while i < v.length():
         k = v.get(i)
         j = i + 1
         while j < v.length():

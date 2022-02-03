@@ -461,7 +461,7 @@ class bar5(object):
 
         count = count + 1
 
-        while x <= 0:
+        while x <= $INT:
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
@@ -503,7 +503,7 @@ class bar5(object):
 
         qux(0) # Yay! ChocoPy
 
-        $Var = count + 1
+        count = count + 1
 
         while x <= 0:
             if self.p:

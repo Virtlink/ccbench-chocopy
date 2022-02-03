@@ -297,7 +297,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
         elif char == "5":
             digit = 5
         elif char == "6":
-            digit = 6
+            $Statement
         elif char == "7":
             digit = 7
         elif char == "8":
@@ -320,7 +320,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
     result5:int = 0
     digit:int = 0
     digit2:int = 0
-    $FuncBodyMember
+    digit3:int = 0
     digit4:int = 0
     digit5:int = 0
     char:str = ""

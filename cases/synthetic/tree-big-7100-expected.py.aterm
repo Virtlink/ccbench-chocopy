@@ -1,1 +1,1 @@
-Type("TreeNode2")
+Literal2Exp(Int("1"))

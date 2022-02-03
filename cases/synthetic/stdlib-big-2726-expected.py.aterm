@@ -1,1 +1,1 @@
-Block([Assign([Target(Var2Target(Var("digit")))],Literal2Exp(Int("3")))])
+VarDef(TypedVar("char3",Type("str")),String("\"\""))

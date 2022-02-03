@@ -22,12 +22,12 @@ def foo5(s: str, s2: str, s3: str, s4: str, s5: str) -> int:
 class bar(object):
     p: bool = True
 
-    def baz(self:"bar", xx: [int]) -> str:
+    def baz(self:"bar", xx: [int]) -> $Type:
         global count
         x:int = 0
         y:int = 1
 
-        def $ID(y: int) -> object:
+        def qux(y: int) -> object:
             nonlocal x
             if x > y:
                 x = -1

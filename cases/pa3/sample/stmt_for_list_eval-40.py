@@ -3,6 +3,6 @@ z:[int] = None
 
 z = [1, 2, 3]
 
-for x in z:
-    $Target = []
+for x in $ID:
+    z = []
     print(x)

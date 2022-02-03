@@ -1,3 +1,3 @@
 x:int = 0
 while x < 100:
-    x = $Exp + 1
+    $Target = x + 1

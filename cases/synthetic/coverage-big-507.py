@@ -59,7 +59,7 @@ class bar2(object):
         x:int = 0
         y:int = 1
 
-        def qux(y: int) -> object:
+        def qux(y: int) $RetType:
             nonlocal x
             if x > y:
                 x = -1
@@ -67,7 +67,7 @@ class bar2(object):
         for x in xx:
             self.p = x == 2
 
-        $Exp # Yay! ChocoPy
+        qux(0) # Yay! ChocoPy
 
         count = count + 1
 

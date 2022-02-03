@@ -1,1 +1,1 @@
-Var2Exp(Var("print"))
+Eq(Var2Exp(Var("x")),Var2Exp(Var("x")))

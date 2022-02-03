@@ -199,7 +199,7 @@ class bar3(object):
         def qux(y: int) -> object:
             nonlocal x
             if x > y:
-                x = -1
+                x = -$INT
 
         def qux2(y: int, y2: int) -> object:
             nonlocal x
@@ -223,7 +223,7 @@ class bar3(object):
 
         while x <= 0:
             if self.p:
-                $AssignTarget xx[1]
+                xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:

@@ -1,5 +1,5 @@
-x:int = 1
+x:int = $INT
 
-$Statement
+x = 2
 
 print(x)

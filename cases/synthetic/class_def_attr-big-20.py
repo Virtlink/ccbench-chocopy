@@ -2,8 +2,7 @@ class A(object):
     x:int = 1
 
 class A2(object):
-    $VarDef
-    x2:int = 1
+    $ClassBody
 
 class A3(object):
     x:int = 1

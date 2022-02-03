@@ -137,7 +137,7 @@ class Vector2(object):
 
     # Retrieves the current size of the vector
     def length(self:"Vector2") -> int:
-        return self.size
+        return $ID.size
 
     # Retrieves the current size of the vector
     def length2(self:"Vector2") -> int:
@@ -160,7 +160,8 @@ class Vector3(object):
         return len(self.items)
 
     # Returns current capacity
-    $FuncDef
+    def capacity2(self:"Vector3") -> int:
+        return len(self.items)
 
     # Returns current capacity
     def capacity3(self:"Vector3") -> int:

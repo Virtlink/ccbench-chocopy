@@ -1,1 +1,1 @@
-IdString("Vector4")
+Member(Var2Exp(Var("self")),"increase_capacity")

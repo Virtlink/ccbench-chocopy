@@ -1,1 +1,1 @@
-"k"
+Member2Target(Member(Var2Exp(Var("self")),"items"))

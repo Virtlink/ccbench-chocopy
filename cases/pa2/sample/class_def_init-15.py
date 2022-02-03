@@ -1,7 +1,9 @@
 class A(object):
-    x:int = 1
+    x:int = $INT
 
-$ClassDef
+class B(A):
+    def __init__(self: "B"):
+        pass
 
 class C(B):
     z:bool = True

@@ -886,7 +886,7 @@ class DoublingVector5(Vector):
         else:
             # If doubling limit has been reached, fall back to
             # standard capacity increases
-            self.items = self.items + [0]
+            $ID.items = self.items + [0]
         return self.capacity()
 
 
@@ -975,7 +975,7 @@ def sieve2(v:Vector, v2:Vector) -> object:
     k:int = 0
     k2:int = 0
 
-    while i < $Var.length():
+    while i < v.length():
         k = v.get(i)
         j = i + 1
         while j < v.length():

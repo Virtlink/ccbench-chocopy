@@ -653,7 +653,7 @@ class Vector5(object):
 
         while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
-            idx = idx + 1
+            $Statement
 
         self.size = self.size - 1
 
@@ -728,7 +728,7 @@ class DoublingVector2(Vector):
     doubling_limit2:int = 1000
 
     # Overriding to do fewer resizes
-    def increase_capacity(self:"$ID") -> int:
+    def increase_capacity(self:"DoublingVector2") -> int:
         if (self.capacity() <= self.doubling_limit // 2):
             self.items = self.items + self.items
         else:

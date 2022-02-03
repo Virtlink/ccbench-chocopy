@@ -348,7 +348,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
         elif char == "0":
             digit = 0
         elif char == "1":
-            digit = 1
+            $Block
         elif char == "2":
             digit = 2
         elif char == "3":
@@ -373,7 +373,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
         result = result * 10 + digit
 
     # Compute result
-    return result * $ID
+    return result * sign
         
 # Input parameters
 c:int = 42

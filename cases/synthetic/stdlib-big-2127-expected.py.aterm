@@ -1,1 +1,1 @@
-TypedVar("first_char",Type("bool"))
+"result"

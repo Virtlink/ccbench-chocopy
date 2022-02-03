@@ -27,10 +27,7 @@ class bar(object):
         x:int = 0
         y:int = 1
 
-        def qux(y: int) -> object:
-            nonlocal x
-            if x > y:
-                $Target = -1
+        $FuncBodyMember
 
         for x in xx:
             self.p = x == 2

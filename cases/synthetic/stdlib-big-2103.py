@@ -248,7 +248,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
             digit = 9
         else:
             return 0 # On error
-        first_char = False
+        $ID = False
         result = result * 10 + digit
 
     # Compute result
@@ -268,7 +268,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
     char3:str = ""
     char4:str = ""
     sign:int = 1
-    $TypedVar = 1
+    sign2:int = 1
     sign3:int = 1
     sign4:int = 1
     first_char:bool = True

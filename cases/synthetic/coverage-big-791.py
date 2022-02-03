@@ -94,7 +94,7 @@ class bar2(object):
             if x > y:
                 x = -1
 
-        def qux2(y: int, y2: int) -> object:
+        def qux2(y: int, $TypedVar) -> object:
             nonlocal x
             nonlocal x2
             if x > y:
@@ -105,7 +105,7 @@ class bar2(object):
 
         qux(0) # Yay! ChocoPy
 
-        count = count + $INT
+        count = count + 1
 
         while x <= 0:
             if self.p:

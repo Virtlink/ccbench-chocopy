@@ -37,10 +37,10 @@ def int_to_str2(x: int, x2: int) -> str:
     result = result + digits[x % 10]
     return result
 
-def int_to_str3(x: int, x2: int, x3: int) -> str:
+def int_to_str3(x: int, x2: int, $TypedVar) -> str:
     digits:[str] = None 
     digits2:[str] = None 
-    $TypedVar = None 
+    digits3:[str] = None 
     result:str = ""
     result2:str = ""
     result3:str = ""

@@ -40,14 +40,14 @@ class B4(A):
         pass
 
 class B5(A):
-    def __init__(self: "B5"):
+    def __init__(self: "$ID"):
         pass
 
 class C(B):
     z:bool = True
 
 class C2(B):
-    $ID:bool = True
+    z:bool = True
     z2:bool = True
 
 class C3(B):

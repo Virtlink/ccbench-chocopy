@@ -182,7 +182,7 @@ def str_to_int2(x: str, x2: str) -> int:
         elif char == "3":
             digit = 3
         elif char == "4":
-            digit = 4
+            $Block
         elif char == "5":
             digit = 5
         elif char == "6":
@@ -196,7 +196,7 @@ def str_to_int2(x: str, x2: str) -> int:
         else:
             return 0 # On error
         first_char = False
-        $Var = result * 10 + digit
+        result = result * 10 + digit
 
     # Compute result
     return result * sign

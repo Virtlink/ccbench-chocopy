@@ -394,7 +394,7 @@ class bar4(object):
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
-                x = x + 1
+                x = x + $Literal
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
@@ -431,7 +431,7 @@ class bar5(object):
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
-                $Exp.p = self is None
+                self.p = self is None
 
         return "Nope"
 

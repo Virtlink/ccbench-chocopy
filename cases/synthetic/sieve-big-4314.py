@@ -482,7 +482,7 @@ class Vector5(object):
     size: int = 0
     size2: int = 0
     size3: int = 0
-    size4: int = 0
+    $ClassBodyMember
     size5: int = 0
 
     def __init__(self:"Vector5"):
@@ -536,7 +536,7 @@ class Vector5(object):
     # Appends one item to end of vector
     def append(self:"Vector5", item: int) -> object:
         if self.size == self.capacity():
-            $Var.increase_capacity()
+            self.increase_capacity()
 
         self.items[self.size] = item
         self.size = self.size + 1

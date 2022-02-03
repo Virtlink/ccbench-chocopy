@@ -1,1 +1,1 @@
-Var("x")
+Call(Var2Exp(Var("print")),Exps2Parameters([Geq(Var2Exp(Var("x")),Var2Exp(Var("y")))]))

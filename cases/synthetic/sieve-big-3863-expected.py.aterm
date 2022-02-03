@@ -1,1 +1,1 @@
-VarDef(TypedVar("items2",ListType(Type("int"))),NONE())
+Var2Exp(Var("idx"))

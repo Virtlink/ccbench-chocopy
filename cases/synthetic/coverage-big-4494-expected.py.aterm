@@ -1,1 +1,1 @@
-Type("object")
+Var2Exp(Var("xx"))

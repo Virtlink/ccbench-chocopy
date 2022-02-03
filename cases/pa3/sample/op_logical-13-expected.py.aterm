@@ -1,1 +1,1 @@
-Exps2Parameters([Literal2Exp(String("\"f called\""))])
+Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(String("\"f called\""))]))

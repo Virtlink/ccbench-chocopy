@@ -11,7 +11,7 @@ class A3(object):
     x3:int = 1
 
 class A4(object):
-    x:int = $INT
+    $TypedVar = 1
     x2:int = 1
     x3:int = 1
     x4:int = 1

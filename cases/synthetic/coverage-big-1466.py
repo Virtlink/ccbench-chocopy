@@ -180,7 +180,7 @@ class bar3(object):
         while x <= 0:
             if self.p:
                 xx[0] = xx[1]
-                self.p = not self.p
+                self.p = not $Exp.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
@@ -196,7 +196,10 @@ class bar3(object):
         y2:int = 1
         y3:int = 1
 
-        $FuncBodyMember
+        def qux(y: int) -> object:
+            nonlocal x
+            if x > y:
+                x = -1
 
         def qux2(y: int, y2: int) -> object:
             nonlocal x

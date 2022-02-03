@@ -1,8 +1,5 @@
 def f() -> int:
-    $Exp
-    g()
-    print("end f")
-    return 42
+    $FuncBody
 
     
 def g() -> object:

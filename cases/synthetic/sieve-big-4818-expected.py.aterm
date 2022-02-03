@@ -1,1 +1,1 @@
-TypedVar("new_items",ListType(Type("int")))
+TypedVar("self",TypeS(IdString("Vector5")))

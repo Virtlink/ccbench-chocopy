@@ -1,5 +1,5 @@
 x:str = "Hello"
-y:str = $STRING
+y:str = $Literal
 z:str = ""
 
 z = x + y

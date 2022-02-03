@@ -101,7 +101,7 @@ class TreeNode2(object):
             return True
 
 
-class TreeNode3(object):
+class $ID(object):
     value:int = 0
     value2:int = 0
     value3:int = 0
@@ -112,7 +112,7 @@ class TreeNode3(object):
     right2:"TreeNode3" = None
     right3:"TreeNode3" = None
 
-    def insert(self:"TreeNode3", $ID:int) -> bool:
+    def insert(self:"TreeNode3", x:int) -> bool:
         if x < self.value:
             if self.left is None:
                 self.left = makeNode3(x, x, x)

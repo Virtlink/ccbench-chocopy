@@ -56,14 +56,14 @@ class Vector2(object):
     size2: int = 0
 
     def __init__(self:"Vector2"):
-        self.items = [0]
+        $FuncBody
 
     # Returns current capacity
     def capacity(self:"Vector2") -> int:
         return len(self.items)
 
     # Returns current capacity
-    def capacity2(self:"Vector2") -> $Type:
+    def capacity2(self:"Vector2") -> int:
         return len(self.items)
 
     # Increases capacity of vector by one element

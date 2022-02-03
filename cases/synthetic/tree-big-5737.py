@@ -575,8 +575,7 @@ class Tree3(object):
             self.root = makeNode3(x, x, x)
             self.size = 1
         else:
-            if self.root.insert(x):
-                self.size = self.size + 1
+            $Statement
 
     def contains(self:"Tree3", x:int) -> bool:
         if self.root is None:
@@ -625,7 +624,7 @@ class Tree4(object):
 
     def insert3(self:"Tree4", x:int, x2:int, x3:int) -> object:
         if self.root is None:
-            $ID.root = makeNode4(x, x, x, x)
+            self.root = makeNode4(x, x, x, x)
             self.size = 1
         else:
             if self.root.insert(x):

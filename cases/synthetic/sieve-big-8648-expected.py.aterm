@@ -1,1 +1,1 @@
-TypedVar("k",Type("int"))
+"length"

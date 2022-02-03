@@ -89,7 +89,7 @@ class bar2(object):
         y:int = 1
         y2:int = 1
 
-        def qux(y: int) -> object:
+        def qux(y: int) -> $ID:
             nonlocal x
             if x > y:
                 x = -1
@@ -101,7 +101,7 @@ class bar2(object):
                 x = -1
 
         for x in xx:
-            $AssignTarget x == 2
+            self.p = x == 2
 
         qux(0) # Yay! ChocoPy
 

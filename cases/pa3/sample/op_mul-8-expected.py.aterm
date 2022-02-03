@@ -1,1 +1,1 @@
-Mul(Literal2Exp(Int("6")),Literal2Exp(Int("9")))
+Exps2Parameters([Mul(Mul(Literal2Exp(Int("6")),Literal2Exp(Int("9"))),Literal2Exp(Int("2")))])

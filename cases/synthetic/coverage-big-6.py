@@ -1,4 +1,4 @@
-count:$ID = 0
+count:$Type = 0
 count2:int = 0
 count3:int = 0
 count4:int = 0

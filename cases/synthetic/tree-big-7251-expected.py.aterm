@@ -1,1 +1,1 @@
-Var("TreeNode4")
+Target(Member2Target(Member(Var2Exp(Var("self")),"size")))

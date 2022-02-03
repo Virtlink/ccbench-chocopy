@@ -1,1 +1,1 @@
-While(Leq(Var2Exp(Var("i")),Var2Exp(Var("n"))),Block([Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Call(Var2Exp(Var("get_prime")),Exps2Parameters([Var2Exp(Var("i"))]))]))),Assign([Target(Var2Target(Var("i")))],Add(Var2Exp(Var("i")),Literal2Exp(Int("1"))))]))
+VarDef2Definition(VarDef(TypedVar("n",Type("int")),Int("15")))

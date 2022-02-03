@@ -1,1 +1,1 @@
-TypedVar("self",TypeS(IdString("Vector")))
+FuncDef("__init__",[TypedVar("self",TypeS(IdString("Vector")))],ReturnsNone(),FuncBody([],[Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"items")))],List([Literal2Exp(Int("0"))]))]))

@@ -244,10 +244,7 @@ class bar4(object):
         x:int = 0
         y:int = 1
 
-        def qux(y: int) -> object:
-            nonlocal x
-            if x > y:
-                x = -1
+        $FuncDef
 
         for x in xx:
             self.p = x == 2
@@ -264,7 +261,7 @@ class bar4(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        $Statement
+        return "Nope"
 
 
     def baz2(self:"bar4", xx: [int], xx2: [int]) -> str:

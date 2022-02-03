@@ -86,13 +86,13 @@ def exp3(x: int, y: int, x2: int, y2: int, x3: int, y3: int) -> int:
     a2 = 1
     a3 = 1
     a4 = 1
-    a5 = 1
+    a5 = $Exp
     return f(y)
 
 def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -> int:
     a: int = 0
     a2: int = 0
-    a3: $ID = 0
+    a3: int = 0
     a4: int = 0
     a5: int = 0
     def f(i: int) -> int:

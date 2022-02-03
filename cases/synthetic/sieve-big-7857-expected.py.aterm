@@ -1,1 +1,1 @@
-Var("v")
+Member(Var2Exp(Var("self")),"doubling_limit")

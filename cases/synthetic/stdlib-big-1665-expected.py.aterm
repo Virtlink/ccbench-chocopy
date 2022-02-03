@@ -1,1 +1,1 @@
-TypedVar("char3",Type("str"))
+Else(Block([Return(Literal2Exp(Int("0")))]))

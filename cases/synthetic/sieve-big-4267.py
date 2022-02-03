@@ -476,7 +476,7 @@ class Vector4(object):
 class Vector5(object):
     items: [int] = None
     items2: [int] = None
-    items3: [int] = None
+    $VarDef
     items4: [int] = None
     items5: [int] = None
     size: int = 0
@@ -531,7 +531,7 @@ class Vector5(object):
     # Increases capacity of vector by one element
     def increase_capacity5(self:"Vector5") -> int:
         self.items = self.items + [0]
-        $Statement
+        return self.capacity()
 
     # Appends one item to end of vector
     def append(self:"Vector5", item: int) -> object:

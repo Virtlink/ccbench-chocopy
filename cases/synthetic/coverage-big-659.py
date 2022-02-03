@@ -76,7 +76,7 @@ class bar2(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo("Long"[0]) == 1:
+            elif foo($Exp[0]) == 1:
                 self.p = self is None
 
         return "Nope"
@@ -85,7 +85,7 @@ class bar2(object):
     def baz2(self:"bar2", xx: [int], xx2: [int]) -> str:
         global count
         x:int = 0
-        $VarDef
+        x2:int = 0
         y:int = 1
         y2:int = 1
 

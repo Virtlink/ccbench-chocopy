@@ -1,1 +1,1 @@
-Assign([Target(Var2Target(Var("digit")))],Literal2Exp(Int("5")))
+VarDef2FuncBodyMember(VarDef(TypedVar("first_char3",Type("bool")),True()))

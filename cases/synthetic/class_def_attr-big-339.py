@@ -59,12 +59,12 @@ class C4(B):
     z:bool = True
     z2:bool = True
     z3:bool = True
-    z4:bool = True
+    $ClassBodyMember
 
 class C5(B):
     z:bool = True
     z2:bool = True
-    z3:$Type = True
+    z3:bool = True
     z4:bool = True
     z5:bool = True
 

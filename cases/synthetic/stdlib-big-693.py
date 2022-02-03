@@ -78,10 +78,10 @@ def int_to_str4(x: int, x2: int, x3: int, x4: int) -> str:
         x = -x
 
     # Write digits using a recursive call
-    if x >= 10:
+    if x >= $Literal:
         result = result + int_to_str(x // 10)
     result = result + digits[x % 10]
-    $Statement
+    return result
 
 def int_to_str5(x: int, x2: int, x3: int, x4: int, x5: int) -> str:
     digits:[str] = None 

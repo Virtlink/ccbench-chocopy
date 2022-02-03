@@ -1,4 +1,4 @@
 x:[int] = None
 
-x = [$Literal, 2, 3]
+$ID = [1, 2, 3]
 print(x[3])

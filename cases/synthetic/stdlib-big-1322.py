@@ -153,23 +153,7 @@ def str_to_int(x: str) -> int:
     return result * sign
 
 
-def str_to_int2(x: str, x2: str) -> int:
-    result:int = 0
-    result2:int = 0
-    digit:int = 0
-    digit2:int = 0
-    char:str = ""
-    char2:str = ""
-    sign:int = 1
-    sign2:int = 1
-    first_char:bool = True
-    first_char2:bool = True
-
-    # Parse digits
-    $Statement
-
-    # Compute result
-    return result * sign
+$Definition
 
 def str_to_int3(x: str, x2: str, x3: str) -> int:
     result:int = 0

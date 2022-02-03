@@ -1,7 +1,7 @@
 # Binary-search trees
 class TreeNode(object):
-	value:int = 0
-	$ClassBodyMember
+	value:int = $Literal
+	left:"TreeNode" = None
 	right:"TreeNode" = None
 
 	def insert(self:"TreeNode", x:int) -> bool:

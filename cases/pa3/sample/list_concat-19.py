@@ -1,5 +1,5 @@
-def concat(x:[int], y:[int]) -> [int]:
-    $Statement
+def concat(x:[int], y:[int]) -> [$ID]:
+    return x + y
 
 z:[int] = None
 i:int = 0

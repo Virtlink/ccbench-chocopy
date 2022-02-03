@@ -1,1 +1,1 @@
-VarDef2ClassBodyMember(VarDef(TypedVar("size2",Type("int")),Int("0")))
+Member(Var2Exp(Var("self")),"items")

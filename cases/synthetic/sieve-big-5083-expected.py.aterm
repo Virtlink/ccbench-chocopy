@@ -1,1 +1,1 @@
-Lt(Var2Exp(Var("idx")),Sub(Member2Exp(Member(Var2Exp(Var("self")),"size")),Literal2Exp(Int("1"))))
+Member2Target(Member(Var2Exp(Var("self")),"size"))

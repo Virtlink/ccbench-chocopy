@@ -1,5 +1,5 @@
 x:int = 42
-$VarDef
+$Definition
 
 print(x // y)
 print(x % y)

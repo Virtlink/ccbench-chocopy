@@ -3,8 +3,8 @@ def outer() -> int:
         nonlocal x
         x = 1
         return x
-    x:int = 0
+    x:int = $INT
     inner()
-    $Statement
+    return x
 
 print(outer())

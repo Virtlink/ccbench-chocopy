@@ -1,1 +1,1 @@
-VarDef(TypedVar("char5",Type("str")),String("\"\""))
+Assign([Target(Var2Target(Var("digit")))],Literal2Exp(Int("9")))

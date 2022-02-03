@@ -1,5 +1,5 @@
 x:int = 1
 
-x = $Exp
+$Target = 2
 
 print(x)

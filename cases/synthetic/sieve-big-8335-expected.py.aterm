@@ -1,1 +1,1 @@
-"0"
+VarDef(TypedVar("v",Type("Vector")),NONE())

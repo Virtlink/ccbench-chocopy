@@ -320,7 +320,7 @@ class bar4(object):
             nonlocal x
             nonlocal x2
             if x > y:
-                x = -1
+                x = -$INT
 
         def qux3(y: int, y2: int, y3: int) -> object:
             nonlocal x
@@ -348,7 +348,7 @@ class bar4(object):
 
     def baz4(self:"bar4", xx: [int], xx2: [int], xx3: [int], xx4: [int]) -> str:
         global count
-        $ID:int = 0
+        x:int = 0
         x2:int = 0
         x3:int = 0
         x4:int = 0

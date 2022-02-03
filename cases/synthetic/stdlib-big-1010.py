@@ -111,7 +111,7 @@ def int_to_str5(x: int, x2: int, x3: int, x4: int, x5: int) -> str:
 
 def str_to_int(x: str) -> int:
     result:int = 0
-    digit:int = 0
+    digit:int = $INT
     char:str = ""
     sign:int = 1
     first_char:bool = True
@@ -122,7 +122,7 @@ def str_to_int(x: str) -> int:
             if not first_char:
                 return 0 # Error
             sign = -1
-        elif char == $Exp:
+        elif char == "0":
             digit = 0
         elif char == "1":
             digit = 1

@@ -52,14 +52,14 @@ class bar(object):
 
 class bar2(object):
     p: bool = True
-    p2: bool = True
+    p2: $ID = True
 
     def baz(self:"bar2", xx: [int]) -> str:
         global count
         x:int = 0
         y:int = 1
 
-        def qux(y: $ID) -> object:
+        def qux(y: int) -> object:
             nonlocal x
             if x > y:
                 x = -1

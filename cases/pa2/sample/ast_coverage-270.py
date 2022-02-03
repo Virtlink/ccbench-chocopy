@@ -31,8 +31,8 @@ class bar(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        return "Nope"
+        $Statement
 
-print(bar().baz([1,$INT]))
+print(bar().baz([1,2]))
 
 

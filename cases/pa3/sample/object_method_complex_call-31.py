@@ -1,8 +1,8 @@
 class A(object):
     a:int = 42
 
-    def foo(self:"A", ignore:object) -> int:
-        return $Exp
+    def foo(self:"A", ignore:object) -> $ID:
+        return self.a
 
 class B(A):
     b:bool = True

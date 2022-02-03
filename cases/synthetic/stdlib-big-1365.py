@@ -157,7 +157,7 @@ def str_to_int2(x: str, x2: str) -> int:
     result:int = 0
     result2:int = 0
     digit:int = 0
-    digit2:int = 0
+    $TypedVar = 0
     char:str = ""
     char2:str = ""
     sign:int = 1
@@ -172,7 +172,7 @@ def str_to_int2(x: str, x2: str) -> int:
                 return 0 # Error
             sign = -1
         elif char == "0":
-            $Statement
+            digit = 0
         elif char == "1":
             digit = 1
         elif char == "2":

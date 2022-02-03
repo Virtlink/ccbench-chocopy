@@ -1,1 +1,1 @@
-"y"
+VarDef(TypedVar("x",Type("int")),Int("0"))

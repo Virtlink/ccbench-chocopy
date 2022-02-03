@@ -38,13 +38,13 @@ def exp2(x: int, y: int, x2: int, y2: int) -> int:
     def f(i: int) -> int:
         nonlocal a
         nonlocal a2
-        nonlocal a3
+        $FuncBodyMember
         nonlocal a4
         nonlocal a5
         def geta() -> int:
             return a
         if i <= 0:
-            return $Var()
+            return geta()
         else:
             a = a * x
             a2 = a * x

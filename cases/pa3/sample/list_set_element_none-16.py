@@ -1,4 +1,4 @@
 x:[int] = None
 
-x[$Exp] = 1
+$Exp[0] = 1
 

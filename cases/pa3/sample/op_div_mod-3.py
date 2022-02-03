@@ -1,4 +1,4 @@
-$TypedVar = 42
+$VarDef
 y:int = 9
 
 print(x // y)

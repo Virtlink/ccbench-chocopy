@@ -1,1 +1,1 @@
-"\"8\""
+VarDef(TypedVar("result4",Type("str")),String("\"\""))

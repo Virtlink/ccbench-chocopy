@@ -1,1 +1,1 @@
-"str"
+TypedVar("result",Type("str"))

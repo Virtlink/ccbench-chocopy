@@ -202,7 +202,7 @@ class TreeNode3(object):
 
 class TreeNode4(object):
     value:int = 0
-    value2:int = 0
+    $TypedVar = 0
     value3:int = 0
     value4:int = 0
     left:"TreeNode4" = None
@@ -220,7 +220,7 @@ class TreeNode4(object):
                 self.left = makeNode4(x, x, x, x)
                 return True
             else:
-                return self.left.insert($Exp)
+                return self.left.insert(x)
         elif x > self.value:
             if self.right is None:
                 self.right = makeNode4(x, x, x, x)

@@ -6,8 +6,8 @@ class A2(object):
     x2:int = 1
 
 class A3(object):
-    x:int = 1
-    $ID:int = 1
+    x:int = $INT
+    x2:int = 1
     x3:int = 1
 
 class A4(object):

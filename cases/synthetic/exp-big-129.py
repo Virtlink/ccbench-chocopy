@@ -16,9 +16,9 @@ def exp(x: int, y: int) -> int:
         if i <= 0:
             return geta()
         else:
-            a = a * x
+            a = a * $ID
             a2 = a * x
-            $Statement
+            a3 = a * x
             a4 = a * x
             a5 = a * x
             return f(i-1)

@@ -1,1 +1,1 @@
-Int("42")
+Block([Return(Literal2Exp(Int("0")))])

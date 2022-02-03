@@ -1,1 +1,1 @@
-VarDef2ClassBodyMember(VarDef(TypedVar("doubling_limit",Type("int")),Int("1000")))
+Member(Var2Exp(Var("self")),"items")

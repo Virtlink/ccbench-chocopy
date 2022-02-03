@@ -8,10 +8,12 @@ class Vector(object):
 
     # Returns current capacity
     def capacity(self:"Vector") -> int:
-        return len(self.items)
+        return $Exp(self.items)
 
     # Increases capacity of vector by one element
-    $ClassBodyMember
+    def increase_capacity(self:"Vector") -> int:
+        self.items = self.items + [0]
+        return self.capacity()
 
     # Appends one item to end of vector
     def append(self:"Vector", item: int) -> object:

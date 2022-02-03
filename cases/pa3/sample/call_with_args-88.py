@@ -7,9 +7,9 @@ def f(x:int) -> int:
 
     
 def g(y:int, z:int) -> object:
-    print("start g")
+    print($Exp)
     print(y)
-    $Statement
+    print(z)
     h("h")
     print("end g")
 

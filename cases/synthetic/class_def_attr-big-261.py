@@ -44,14 +44,16 @@ class B5(A):
         pass
 
 class C(B):
-    z:bool = True
+    $ID:bool = True
 
 class C2(B):
     z:bool = True
     z2:bool = True
 
 class C3(B):
-    $ClassBody
+    z:bool = True
+    z2:bool = True
+    z3:bool = True
 
 class C4(B):
     z:bool = True

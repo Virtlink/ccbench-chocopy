@@ -13,6 +13,6 @@ b:B = None
 a = b = B()
 b.a = 1
 b.b = False
-print(a.a)
+print(a.$ID)
 print(b.a)
-$Statement
+print(b.b)

@@ -1,4 +1,4 @@
 x:[int] = None
 
 x = [1, 2, 3]
-print(x[-$Literal])
+print($Exp[-1])

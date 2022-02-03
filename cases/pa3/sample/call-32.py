@@ -1,8 +1,8 @@
 def f() -> int:
     print("start f")
     g()
-    print("end f")
-    $Statement
+    $Var("end f")
+    return 42
 
     
 def g() -> object:

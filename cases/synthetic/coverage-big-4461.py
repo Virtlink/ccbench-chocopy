@@ -557,7 +557,7 @@ class bar5(object):
 
         qux(0) # Yay! ChocoPy
 
-        count = count + 1
+        $Var = count + 1
 
         while x <= 0:
             if self.p:
@@ -606,7 +606,7 @@ class bar5(object):
             nonlocal x3
             nonlocal x4
             if x > y:
-                $Statement
+                x = -1
 
         def qux5(y: int, y2: int, y3: int, y4: int, y5: int) -> object:
             nonlocal x

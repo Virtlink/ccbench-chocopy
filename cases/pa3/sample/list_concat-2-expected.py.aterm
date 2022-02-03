@@ -1,1 +1,1 @@
-FuncDef("concat",[TypedVar("x",ListType(Type("int"))),TypedVar("y",ListType(Type("int")))],Returns(ListType(Type("int"))),FuncBody([],[Return(Add(Var2Exp(Var("x")),Var2Exp(Var("y"))))]))
+FuncDef2Definition(FuncDef("concat",[TypedVar("x",ListType(Type("int"))),TypedVar("y",ListType(Type("int")))],Returns(ListType(Type("int"))),FuncBody([],[Return(Add(Var2Exp(Var("x")),Var2Exp(Var("y"))))])))

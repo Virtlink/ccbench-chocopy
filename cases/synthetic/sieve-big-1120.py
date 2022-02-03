@@ -123,7 +123,7 @@ class Vector2(object):
 
         while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
-            idx = idx + 1
+            idx = idx + $Literal
 
         self.size = self.size - 1
 
@@ -141,7 +141,7 @@ class Vector2(object):
 
     # Retrieves the current size of the vector
     def length2(self:"Vector2") -> int:
-        $Statement
+        return self.size
 
 # A resizable list of integers
 class Vector3(object):

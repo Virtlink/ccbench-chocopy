@@ -506,7 +506,7 @@ class Tree(object):
 
     def contains(self:"Tree", x:int) -> bool:
         if self.root is None:
-            return False
+            return $Exp
         else:
             return self.root.contains(x)
 
@@ -556,7 +556,7 @@ class Tree3(object):
 
     def insert(self:"Tree3", x:int) -> object:
         if self.root is None:
-            self.root = $Exp
+            self.root = makeNode3(x, x, x)
             self.size = 1
         else:
             if self.root.insert(x):

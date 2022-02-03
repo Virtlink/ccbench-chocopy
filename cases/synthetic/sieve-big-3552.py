@@ -397,15 +397,7 @@ class Vector4(object):
             self.append(item)
 
     # Removes an item from the middle of vector
-    def remove_at(self:"Vector4", idx: int) -> object:
-        if idx < 0:
-            return
-
-        while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
-            idx = idx + 1
-
-        self.size = self.size - 1
+    $ClassBodyMember
 
     # Removes an item from the middle of vector
     def remove_at2(self:"Vector4", idx: int, idx2: int) -> object:
@@ -431,7 +423,14 @@ class Vector4(object):
 
     # Removes an item from the middle of vector
     def remove_at4(self:"Vector4", idx: int, idx2: int, idx3: int, idx4: int) -> object:
-        $FuncBody
+        if idx < 0:
+            return
+
+        while idx < self.size - 1:
+            self.items[idx] = self.items[idx + 1]
+            idx = idx + 1
+
+        self.size = self.size - 1
 
     # Retrieves an item at a given index
     def get(self:"Vector4", idx: int) -> int:

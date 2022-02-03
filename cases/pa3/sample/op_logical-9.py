@@ -1,6 +1,5 @@
 def f() -> bool:
-  $Exp
-  return True
+  $FuncBody
 
 def g() -> bool:
   print("g called")

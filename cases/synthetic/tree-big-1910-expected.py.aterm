@@ -1,1 +1,1 @@
-NONE()
+TypedVar("left",TypeS(IdString("TreeNode4")))

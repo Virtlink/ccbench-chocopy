@@ -85,11 +85,11 @@ c4:C = None
 c5:C = None
 
 a = A()
-a2 = A()
+a2 = A($Parameters)
 a3 = A()
 a4 = A()
 a5 = A()
-$ID = B()
+b = B()
 b2 = B()
 b3 = B()
 b4 = B()

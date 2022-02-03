@@ -1,6 +1,6 @@
 True
 False
-$INT
+$Exp
 None
 "This is a string"
 [1, 2, 3]

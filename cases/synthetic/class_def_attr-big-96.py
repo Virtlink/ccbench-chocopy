@@ -13,8 +13,8 @@ class A3(object):
 class A4(object):
     x:int = 1
     x2:int = 1
-    x3:int = 1
-    $ID:int = 1
+    x3:int = $Literal
+    x4:int = 1
 
 class A5(object):
     x:int = 1

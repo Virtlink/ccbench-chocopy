@@ -1,1 +1,1 @@
-TypedVar("char2",Type("str"))
+Literal2Exp(Int("0"))

@@ -1,4 +1,4 @@
-x:str = $STRING
+x:str = $Literal
 y:str = "123"
 z:str = "abc"
 

@@ -1,1 +1,1 @@
-TypedVar("new_items",ListType(Type("int")))
+Member2Exp(Member(Var2Exp(Var("self")),"capacity"))

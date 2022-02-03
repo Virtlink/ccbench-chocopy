@@ -1,1 +1,1 @@
-TypedVar("self",TypeS(IdString("Vector3")))
+TypedVar("item2",Type("int"))

@@ -93,10 +93,7 @@ class TreeNode2(object):
             else:
                 return self.left.contains(x)
         elif x > self.value:
-            if self.right is None:
-                return False
-            else:
-                return self.right.contains(x)
+            $Statement
         else:
             return True
 
@@ -106,7 +103,7 @@ class TreeNode3(object):
     value2:int = 0
     value3:int = 0
     left:"TreeNode3" = None
-    left2:"TreeNode3" = $Literal
+    left2:"TreeNode3" = None
     left3:"TreeNode3" = None
     right:"TreeNode3" = None
     right2:"TreeNode3" = None

@@ -77,11 +77,11 @@ b:B = None
 b2:B = None
 b3:B = None
 b4:B = None
-b5:B = None
+$VarDef
 c:C = None
 c2:C = None
 c3:C = None
-c4:$Type = None
+c4:C = None
 c5:C = None
 
 a = A()

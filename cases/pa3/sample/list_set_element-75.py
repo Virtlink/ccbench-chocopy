@@ -4,6 +4,6 @@ x = [1, 2, 3]
 x[0] = 4
 x[1] = 5
 x[2] = 6
-print(x[$Literal])
+print($Parameters)
 print(x[1])
 print(x[2])

@@ -1,5 +1,5 @@
 x:str = ""
-$VarDef
+$Definition
 
 for x in z:
     z = "doesn't matter"

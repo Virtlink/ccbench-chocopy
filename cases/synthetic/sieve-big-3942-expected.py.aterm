@@ -1,1 +1,1 @@
-ReturnsNone()
+Literal2Exp(Int("1"))

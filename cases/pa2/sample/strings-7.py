@@ -1,4 +1,4 @@
-x:str = $Literal
+x:$ID = "Hello"
 y:str = "World"
 z:str = ""
 

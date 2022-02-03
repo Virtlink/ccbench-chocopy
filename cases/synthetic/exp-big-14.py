@@ -1,5 +1,5 @@
 # Compute x**y
-def exp(x: int, y: int) -> $ID:
+def exp(x: int, y: int) $RetType:
     a: int = 0
     a2: int = 0
     a3: int = 0

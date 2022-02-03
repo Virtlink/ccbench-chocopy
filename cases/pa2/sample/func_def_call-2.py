@@ -1,4 +1,4 @@
-$FuncDef
+$Definition
 
 def bar() -> int:
     return 1

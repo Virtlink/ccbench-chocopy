@@ -11,8 +11,7 @@ def exp(x: int, y: int) -> int:
         nonlocal a3
         nonlocal a4
         nonlocal a5
-        def geta() -> int:
-            $FuncBody
+        $FuncDef
         if i <= 0:
             return geta()
         else:

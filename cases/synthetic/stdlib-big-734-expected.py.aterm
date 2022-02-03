@@ -1,1 +1,1 @@
-TypedVar("digits2",ListType(Type("str")))
+"digits"

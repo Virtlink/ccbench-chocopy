@@ -47,13 +47,13 @@ def str_to_int(x: str) -> int:
         elif char == "6":
             digit = 6
         elif char == "7":
-            digit = 7
+            digit = $Exp
         elif char == "8":
             digit = 8
         elif char == "9":
             digit = 9
         else:
-            $Block # On error
+            return 0 # On error
         first_char = False
         result = result * 10 + digit
 

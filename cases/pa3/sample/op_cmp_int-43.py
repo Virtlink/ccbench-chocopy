@@ -2,8 +2,8 @@ x:int = 42
 y:int = 7
 
 print(x == y)
-print(x != y)
-$Statement
+print($ID != y)
+print(x < y)
 print(x <= y)
 print(x > y)
 print(x >= y)

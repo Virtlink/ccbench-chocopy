@@ -217,7 +217,7 @@ class bar3(object):
         for x in xx:
             self.p = x == 2
 
-        qux(0) # Yay! ChocoPy
+        qux($Parameters) # Yay! ChocoPy
 
         count = count + 1
 
@@ -239,7 +239,7 @@ class bar4(object):
     p3: bool = True
     p4: bool = True
 
-    def baz(self:$IDSTRING, xx: [int]) -> str:
+    def baz(self:"bar4", xx: [int]) -> str:
         global count
         x:int = 0
         y:int = 1

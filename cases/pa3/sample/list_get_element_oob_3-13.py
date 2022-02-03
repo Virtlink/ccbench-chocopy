@@ -1,4 +1,4 @@
 x:[int] = None
 
-$ID = []
+$AssignTarget []
 print(x[0])

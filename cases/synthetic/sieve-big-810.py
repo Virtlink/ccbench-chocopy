@@ -90,7 +90,7 @@ class Vector2(object):
             self.increase_capacity()
 
         self.items[self.size] = item
-        self.size = self.size + 1
+        self.size = self.size + $Literal
 
     # Appends many items to end of vector
     def append_all(self:"Vector2", new_items: [int]) -> object:
@@ -102,7 +102,7 @@ class Vector2(object):
     def append_all2(self:"Vector2", new_items: [int], new_items2: [int]) -> object:
         item:int = 0
         item2:int = 0
-        for item in $Var:
+        for item in new_items:
             self.append(item)
 
     # Removes an item from the middle of vector

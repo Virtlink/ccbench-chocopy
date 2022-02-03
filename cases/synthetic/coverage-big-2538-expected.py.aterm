@@ -1,1 +1,1 @@
-Var2Exp(Var("self"))
+Assign([Target(Var2Target(Var("x")))],Negative(Literal2Exp(Int("1"))))

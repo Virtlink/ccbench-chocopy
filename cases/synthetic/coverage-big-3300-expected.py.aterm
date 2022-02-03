@@ -1,1 +1,1 @@
-Nonlocal("x")
+Type("int")

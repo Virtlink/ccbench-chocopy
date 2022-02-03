@@ -375,13 +375,7 @@ class bar4(object):
             if x > y:
                 x = -1
 
-        def qux4(y: int, y2: int, y3: int, y4: int) -> object:
-            nonlocal x
-            nonlocal x2
-            nonlocal x3
-            nonlocal x4
-            if x > y:
-                x = -1
+        $FuncDef
 
         for x in xx:
             self.p = x == 2
@@ -411,7 +405,7 @@ class bar5(object):
     def baz(self:"bar5", xx: [int]) -> str:
         global count
         x:int = 0
-        $VarDef
+        y:int = 1
 
         def qux(y: int) -> object:
             nonlocal x

@@ -126,7 +126,7 @@ class bar3(object):
 
     def baz(self:"bar3", xx: [int]) -> str:
         global count
-        x:int = 0
+        x:$ID = 0
         y:int = 1
 
         def qux(y: int) -> object:
@@ -141,7 +141,7 @@ class bar3(object):
 
         count = count + 1
 
-        while x <= $INT:
+        while x <= 0:
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p

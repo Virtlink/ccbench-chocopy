@@ -110,7 +110,7 @@ class Vector2(object):
         if idx < 0:
             return
 
-        while idx < self.size - 1:
+        while idx < $Exp - 1:
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
@@ -121,7 +121,7 @@ class Vector2(object):
         if idx < 0:
             return
 
-        while $Exp < self.size - 1:
+        while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 

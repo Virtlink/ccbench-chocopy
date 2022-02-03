@@ -97,10 +97,10 @@ b5 = B()
 c = C()
 c2 = C()
 c3 = C()
-c4 = C()
+$Statement
 c5 = C()
 
 a.x = 1
 b.x = a.x
-c.z = $ID.x == b.x
+c.z = a.x == b.x
 

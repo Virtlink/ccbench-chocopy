@@ -1,1 +1,1 @@
-"10"
+Lt(Var2Exp(Var("x")),Literal2Exp(Int("0")))

@@ -1,1 +1,1 @@
-Var2Exp(Var("self"))
+Exps2Parameters([Var2Exp(Var("x"))])

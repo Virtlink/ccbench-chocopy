@@ -1,1 +1,1 @@
-String("\"\"")
+Literal2Exp(Int("5"))

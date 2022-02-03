@@ -18,9 +18,9 @@ def is_prime(x:int) -> bool:
     div5:int = 2
     while div < x:
         if x % div == 0:
-            return False
+            $Statement
         div = div + 1
-    $Statement
+    return True
 
 def is_prime2(x:int, x2:int) -> bool:
     div:int = 2

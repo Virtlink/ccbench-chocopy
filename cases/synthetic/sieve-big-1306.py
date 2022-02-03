@@ -152,8 +152,7 @@ class Vector3(object):
     size2: int = 0
     size3: int = 0
 
-    def __init__(self:"Vector3"):
-        self.items = [0]
+    $FuncDef
 
     # Returns current capacity
     def capacity(self:"Vector3") -> int:
@@ -170,7 +169,7 @@ class Vector3(object):
     # Increases capacity of vector by one element
     def increase_capacity(self:"Vector3") -> int:
         self.items = self.items + [0]
-        return $Exp
+        return self.capacity()
 
     # Increases capacity of vector by one element
     def increase_capacity2(self:"Vector3") -> int:

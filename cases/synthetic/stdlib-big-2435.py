@@ -291,7 +291,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
         elif char == "3":
             digit = 3
         elif char == "3":
-            digit = 3
+            $Block
         elif char == "4":
             digit = 4
         elif char == "5":
@@ -312,7 +312,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
     # Compute result
     return result * sign
 
-def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> $Type:
+def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
     result:int = 0
     result2:int = 0
     result3:int = 0

@@ -1,1 +1,1 @@
-TypedVar("n4",Type("int"))
+Member(Var2Exp(Var("self")),"size")

@@ -69,7 +69,7 @@ def vrange(i:int, j:int) -> Vector:
     
     while i < j:
         v.append(i)
-        i = i + 1
+        $AssignTarget i + 1
 
     return v
 
@@ -80,7 +80,14 @@ def sieve(v:Vector) -> object:
     k:int = 0
 
     while i < v.length():
-        $Block
+        k = v.get(i)
+        j = i + 1
+        while j < v.length():
+            if v.get(j) % k == 0:
+                v.remove_at(j)
+            else:
+                j = j + 1
+        i = i + 1
 
 # Input parameter
 n:int = 50

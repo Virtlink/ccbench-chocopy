@@ -14,9 +14,9 @@ c:C = None
 
 a = A()
 b = B()
-c = C()
+c = $ID()
 
 a.x = 1
-$Statement
+b.x = a.x
 c.z = a.x == b.x
 

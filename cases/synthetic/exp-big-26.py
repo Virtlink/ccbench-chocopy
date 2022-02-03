@@ -1,7 +1,7 @@
 # Compute x**y
 def exp(x: int, y: int) -> int:
-    a: int = 0
-    $TypedVar = 0
+    a: int = $INT
+    a2: int = 0
     a3: int = 0
     a4: int = 0
     a5: int = 0

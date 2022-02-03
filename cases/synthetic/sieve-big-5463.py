@@ -601,7 +601,7 @@ class Vector5(object):
         item3:int = 0
         item4:int = 0
         for item in new_items:
-            self.append(item)
+            $Exp.append(item)
 
     # Appends many items to end of vector
     def append_all5(self:"Vector5", new_items: [int], new_items2: [int], new_items3: [int], new_items4: [int], new_items5: [int]) -> object:
@@ -655,7 +655,7 @@ class Vector5(object):
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
-        $AssignTarget self.size - 1
+        self.size = self.size - 1
 
     # Removes an item from the middle of vector
     def remove_at5(self:"Vector5", idx: int, idx2: int, idx3: int, idx4: int, idx5: int) -> object:

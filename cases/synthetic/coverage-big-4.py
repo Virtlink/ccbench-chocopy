@@ -1,4 +1,4 @@
-$ID:int = 0
+$TypedVar = 0
 count2:int = 0
 count3:int = 0
 count4:int = 0

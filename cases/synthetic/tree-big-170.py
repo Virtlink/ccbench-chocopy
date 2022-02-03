@@ -16,10 +16,10 @@ class TreeNode(object):
                 self.right = makeNode(x)
                 return True
             else:
-                return self.right.insert(x)
+                return $Member.insert(x)
         return False
 
-    def contains($TypedVar, x:int) -> bool:
+    def contains(self:"TreeNode", x:int) -> bool:
         if x < self.value:
             if self.left is None:
                 return False

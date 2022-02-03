@@ -139,7 +139,7 @@ class bar3(object):
 
         qux(0) # Yay! ChocoPy
 
-        count = count + 1
+        count = $Exp + 1
 
         while x <= 0:
             if self.p:
@@ -149,7 +149,7 @@ class bar3(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        $Statement
+        return "Nope"
 
 
     def baz2(self:"bar3", xx: [int], xx2: [int]) -> str:

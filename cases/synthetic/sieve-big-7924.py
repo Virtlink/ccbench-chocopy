@@ -880,14 +880,7 @@ class DoublingVector5(Vector):
         return self.capacity()
 
     # Overriding to do fewer resizes
-    def increase_capacity5(self:"DoublingVector5") -> int:
-        if (self.capacity() <= self.doubling_limit // 2):
-            self.items = self.items + self.items
-        else:
-            # If doubling limit has been reached, fall back to
-            # standard capacity increases
-            self.items = self.items + [0]
-        return self.capacity()
+    $FuncDef
 
 
 # Makes a vector in the range [i, j)
@@ -967,7 +960,7 @@ def sieve(v:Vector) -> object:
                 j = j + 1
         i = i + 1
 
-def sieve2($TypedVar, v2:Vector) -> object:
+def sieve2(v:Vector, v2:Vector) -> object:
     i:int = 0
     i2:int = 0
     j:int = 0

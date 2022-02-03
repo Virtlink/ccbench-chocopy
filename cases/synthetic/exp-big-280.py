@@ -30,10 +30,10 @@ def exp(x: int, y: int) -> int:
     return f(y)
 
 def exp2(x: int, y: int, x2: int, y2: int) -> int:
-    a: int = 0
+    $ID: int = 0
     a2: int = 0
     a3: int = 0
-    a4: int = $Literal
+    a4: int = 0
     a5: int = 0
     def f(i: int) -> int:
         nonlocal a

@@ -1,1 +1,1 @@
-"len"
+Gt(Call(Var2Exp(Var("len")),Exps2Parameters([Var2Exp(Var("s"))])),Literal2Exp(Int("0")))

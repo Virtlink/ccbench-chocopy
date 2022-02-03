@@ -9,7 +9,7 @@ def neq(a:str, b:str) -> bool:
     return a != b
 
 print(eq(a,a))
-print(eq($Var,b))
+$Exp(eq(a,b))
 print(neq(a,b))
 print(neq(b,b))
 print(eq(c,a))

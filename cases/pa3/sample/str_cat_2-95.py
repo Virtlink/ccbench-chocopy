@@ -8,9 +8,9 @@ def cat2(a:str, b:str) -> str:
     return a + b
 
 def cat3(a:str, b:str, c:str) -> str:
-    return a + b + c
+    return $ID + b + c
 
-$Statement
+c = cat2(b, a)
 d = cat2(a, a)
 e = cat3(a, b, cat2(b, b))
 

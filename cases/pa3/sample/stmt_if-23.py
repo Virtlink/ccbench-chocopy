@@ -1,7 +1,6 @@
 if False:
     print("No")
 elif True:
-    if True:
-        $Exp
+    $Statement
 else:
     pass

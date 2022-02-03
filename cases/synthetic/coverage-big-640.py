@@ -75,14 +75,14 @@ class bar2(object):
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
-                x = x + 1
+                $Var = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
         return "Nope"
 
 
-    def baz2(self:"bar2", xx: [int], $ID: [int]) -> str:
+    def baz2(self:"bar2", xx: [int], xx2: [int]) -> str:
         global count
         x:int = 0
         x2:int = 0

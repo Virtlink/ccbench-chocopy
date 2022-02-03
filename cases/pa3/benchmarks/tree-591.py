@@ -70,11 +70,11 @@ k:int = 37813
 # Crunch
 t = Tree()
 while i < n:
-	t.insert(k)
+	$Exp(k)
 	k = (k * 37813) % 37831
 	if i % c != 0:
 		t.insert(i)
-	i = $Exp + 1
+	i = i + 1
 
 print(t.size)
 

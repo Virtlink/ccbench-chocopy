@@ -52,7 +52,7 @@ class Vector(object):
 class Vector2(object):
     items: [int] = None
     items2: [int] = None
-    size: int = 0
+    size: $Type = 0
     size2: int = 0
 
     def __init__(self:"Vector2"):
@@ -60,7 +60,7 @@ class Vector2(object):
 
     # Returns current capacity
     def capacity(self:"Vector2") -> int:
-        $FuncBody
+        return len(self.items)
 
     # Returns current capacity
     def capacity2(self:"Vector2") -> int:

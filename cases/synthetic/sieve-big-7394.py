@@ -818,7 +818,7 @@ class DoublingVector4(Vector):
         else:
             # If doubling limit has been reached, fall back to
             # standard capacity increases
-            self.items = self.items + [0]
+            self.items = self.items + [$Exp]
         return self.capacity()
 
     # Overriding to do fewer resizes
@@ -906,7 +906,7 @@ def vrange2(i:int, j:int, i2:int, j2:int) -> Vector:
     v2:Vector = None
     v = DoublingVector()
     
-    while $Exp < j:
+    while i < j:
         v.append(i)
         i = i + 1
 

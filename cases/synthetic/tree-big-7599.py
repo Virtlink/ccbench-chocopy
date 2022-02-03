@@ -734,10 +734,7 @@ class Tree5(object):
             return self.root.contains(x)
 
     def contains4(self:"Tree5", x:int, x2:int, x3:int, x4:int) -> bool:
-        if self.root is None:
-            return False
-        else:
-            return self.root.contains(x)
+        $Statement
 
     def contains5(self:"Tree5", x:int, x2:int, x3:int, x4:int, x5:int) -> bool:
         if self.root is None:
@@ -820,7 +817,7 @@ t = Tree()
 while i < n:
     t.insert(k)
     k = (k * 37813) % 37831
-    if $Exp:
+    if i % c != 0:
         t.insert(i)
     i = i + 1
 

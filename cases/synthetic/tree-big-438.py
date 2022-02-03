@@ -48,10 +48,10 @@ class TreeNode2(object):
                 self.left = makeNode2(x, x)
                 return True
             else:
-                return self.left.insert(x)
+                return self.left.$ID(x)
         elif x > self.value:
             if self.right is None:
-                self.right = $Var(x, x)
+                self.right = makeNode2(x, x)
                 return True
             else:
                 return self.right.insert(x)

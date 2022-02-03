@@ -60,14 +60,12 @@ class bar2(object):
         y:int = 1
 
         def qux(y: int) -> object:
-            nonlocal x
-            if x > y:
-                x = -1
+            $FuncBody
 
         for x in xx:
             self.p = x == 2
 
-        $ID(0) # Yay! ChocoPy
+        qux(0) # Yay! ChocoPy
 
         count = count + 1
 

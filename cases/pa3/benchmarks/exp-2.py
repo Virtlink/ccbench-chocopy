@@ -1,5 +1,5 @@
 # Compute x**y
-$FuncDef
+$Definition
 
 # Input parameter
 n:int = 42

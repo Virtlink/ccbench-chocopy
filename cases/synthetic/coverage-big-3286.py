@@ -409,7 +409,7 @@ class bar5(object):
     p5: bool = True
 
     def baz(self:"bar5", xx: [int]) -> str:
-        global count
+        $FuncBodyMember
         x:int = 0
         y:int = 1
 
@@ -448,7 +448,11 @@ class bar5(object):
             if x > y:
                 x = -1
 
-        $FuncDef
+        def qux2(y: int, y2: int) -> object:
+            nonlocal x
+            nonlocal x2
+            if x > y:
+                x = -1
 
         for x in xx:
             self.p = x == 2

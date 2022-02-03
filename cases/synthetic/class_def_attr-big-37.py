@@ -3,9 +3,9 @@ class A(object):
 
 class A2(object):
     x:int = 1
-    x2:int = 1
+    x2:int = $INT
 
-class $ID(object):
+class A3(object):
     x:int = 1
     x2:int = 1
     x3:int = 1

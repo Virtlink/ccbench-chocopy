@@ -69,13 +69,13 @@ class bar2(object):
 
         qux(0) # Yay! ChocoPy
 
-        count = count + 1
+        count = $ID + 1
 
         while x <= 0:
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
-                $AssignTarget x + 1
+                x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 

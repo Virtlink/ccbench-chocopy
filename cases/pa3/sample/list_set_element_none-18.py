@@ -1,4 +1,4 @@
 x:[int] = None
 
-x[$INT] = 1
+$ID[0] = 1
 

@@ -1,1 +1,1 @@
-Literal2Exp(True())
+Exps2Parameters([Literal2Exp(Int("2"))])

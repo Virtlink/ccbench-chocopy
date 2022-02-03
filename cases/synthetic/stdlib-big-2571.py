@@ -306,7 +306,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
             digit = 9
         else:
             return 0 # On error
-        first_char = False
+        $Var = False
         result = result * 10 + digit
 
     # Compute result
@@ -329,7 +329,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
     char4:str = ""
     char5:str = ""
     sign:int = 1
-    sign2:$ID = 1
+    sign2:int = 1
     sign3:int = 1
     sign4:int = 1
     sign5:int = 1

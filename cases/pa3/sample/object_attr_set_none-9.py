@@ -1,5 +1,5 @@
 class A(object):
-    $ID:int = 42
+    $VarDef
 
 class B(A):
     b:bool = True

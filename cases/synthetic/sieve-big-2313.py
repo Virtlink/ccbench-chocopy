@@ -255,7 +255,7 @@ class Vector3(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
+            self.items[idx] = self.items[idx + $INT]
             idx = idx + 1
 
         self.size = self.size - 1
@@ -290,7 +290,7 @@ class Vector4(object):
     items2: [int] = None
     items3: [int] = None
     items4: [int] = None
-    $ClassBodyMember
+    size: int = 0
     size2: int = 0
     size3: int = 0
     size4: int = 0

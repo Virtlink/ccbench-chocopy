@@ -1,5 +1,5 @@
 x:int = 1
 
-x = $INT
+$ID = 2
 
 print(x)

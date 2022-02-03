@@ -1,1 +1,1 @@
-Member2Target(Member(Var2Exp(Var("self")),"p"))
+FuncBody([Nonlocal("x")],[If(Gt(Var2Exp(Var("x")),Var2Exp(Var("y"))),Block([Assign([Target(Var2Target(Var("x")))],Negative(Literal2Exp(Int("1"))))]))])

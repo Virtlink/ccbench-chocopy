@@ -1,6 +1,6 @@
 # Test of 'input' function.
 
-$ID: str = ""
+$TypedVar = ""
 
 s = input()
 while len(s) > 0:

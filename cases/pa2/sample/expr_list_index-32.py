@@ -1,9 +1,9 @@
 x:[int] = None
 y:int = 0
 z:[bool] = None
-o:object = None
+o:object = $Literal
 
-$Statement
+x = [1, 2, 3]
 z = [False, True]
 
 y = x[0]

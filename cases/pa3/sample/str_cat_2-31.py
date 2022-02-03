@@ -1,7 +1,7 @@
 a:str = "no"
 b:str = "o"
 c:str = ""
-d:str = $Literal
+d:$ID = ""
 e:str = ""
 
 def cat2(a:str, b:str) -> str:

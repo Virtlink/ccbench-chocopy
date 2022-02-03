@@ -191,7 +191,7 @@ class bar3(object):
         global count
         x:int = 0
         x2:int = 0
-        x3:int = 0
+        x3:int = $INT
         y:int = 1
         y2:int = 1
         y3:int = 1
@@ -214,7 +214,8 @@ class bar3(object):
             if x > y:
                 x = -1
 
-        $Statement
+        for x in xx:
+            self.p = x == 2
 
         qux(0) # Yay! ChocoPy
 

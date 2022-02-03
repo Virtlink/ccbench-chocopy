@@ -1,1 +1,1 @@
-Var2Exp(Var("y"))
+Gt(Var2Exp(Var("x")),Var2Exp(Var("y")))

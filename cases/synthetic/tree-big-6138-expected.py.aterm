@@ -1,1 +1,1 @@
-VarDef2ClassBodyMember(VarDef(TypedVar("root2",Type("TreeNode5")),NONE()))
+Returns(Type("object"))

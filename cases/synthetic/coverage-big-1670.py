@@ -205,7 +205,7 @@ class bar3(object):
             nonlocal x
             nonlocal x2
             if x > y:
-                x = -1
+                $Statement
 
         def qux3(y: int, y2: int, y3: int) -> object:
             nonlocal x
@@ -225,7 +225,7 @@ class bar3(object):
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
-                $AssignTarget x + 1
+                x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 

@@ -185,19 +185,7 @@ class TreeNode3(object):
         else:
             return True
 
-    def contains3(self:"TreeNode3", x:int, x2:int, x3:int) -> bool:
-        if x < self.value:
-            if self.left is None:
-                return False
-            else:
-                return self.left.contains(x)
-        elif x > self.value:
-            if self.right is None:
-                return False
-            else:
-                return self.right.contains(x)
-        else:
-            return True
+    $ClassBodyMember
 
 
 class TreeNode4(object):
@@ -205,7 +193,7 @@ class TreeNode4(object):
     value2:int = 0
     value3:int = 0
     value4:int = 0
-    $TypedVar = None
+    left:"TreeNode4" = None
     left2:"TreeNode4" = None
     left3:"TreeNode4" = None
     left4:"TreeNode4" = None

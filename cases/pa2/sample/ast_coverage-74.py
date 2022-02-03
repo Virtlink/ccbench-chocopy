@@ -8,8 +8,8 @@ class bar(object):
 
     def baz(self:"bar", xx: [int]) -> str:
         global count
-        x:int = 0
-        y:int = $Literal
+        x:int = $Literal
+        y:int = 1
 
         def qux(y: int) -> object:
             nonlocal x

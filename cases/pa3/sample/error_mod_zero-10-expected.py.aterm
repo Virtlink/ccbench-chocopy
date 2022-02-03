@@ -1,1 +1,1 @@
-"42"
+Mod(Literal2Exp(Int("42")),Literal2Exp(Int("0")))

@@ -27,9 +27,7 @@ class B(A):
     def __init__(self: "B"):
         pass
 
-class B2(A):
-    def __init__(self: $IDSTRING):
-        pass
+$ClassDef
 
 class B3(A):
     def __init__(self: "B3"):

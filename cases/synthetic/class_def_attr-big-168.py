@@ -25,10 +25,11 @@ class A5(object):
 
 class B(A):
     def __init__(self: "B"):
-        pass
+        $FuncBody
 
 class B2(A):
-    $FuncDef
+    def __init__(self: "B2"):
+        pass
 
 class B3(A):
     def __init__(self: "B3"):

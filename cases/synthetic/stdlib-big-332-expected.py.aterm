@@ -1,1 +1,1 @@
-ListType(Type("str"))
+Var("result")

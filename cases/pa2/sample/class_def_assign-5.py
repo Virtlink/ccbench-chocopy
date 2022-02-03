@@ -1,5 +1,5 @@
-class A(object):
-    $ClassBody
+class A($ID):
+    x:int = 1
 
 class B(A):
     def __init__(self: "B"):

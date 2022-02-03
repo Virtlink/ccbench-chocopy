@@ -1,6 +1,7 @@
 def foo(x:str, y:bool) -> int:
-    return bar()
+    return $Var()
 
-$FuncDef
+def bar() -> int:
+    return 1
 
 foo("Hello", False)

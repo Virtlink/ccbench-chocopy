@@ -1,6 +1,6 @@
 a:str = "no"
 b:str = "o"
-c:str = $STRING
+c:str = $Literal
 d:str = ""
 e:str = ""
 

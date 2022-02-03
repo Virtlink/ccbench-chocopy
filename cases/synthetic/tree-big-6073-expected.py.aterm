@@ -1,1 +1,1 @@
-IdString("Tree4")
+Member(Var2Exp(Var("self")),"size")

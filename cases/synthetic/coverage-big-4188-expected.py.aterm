@@ -1,1 +1,1 @@
-Literal2Exp(String("\"Nope\""))
+VarDef(TypedVar("x2",Type("int")),Int("0"))

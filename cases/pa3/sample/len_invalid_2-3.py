@@ -1,3 +1,3 @@
-$TypedVar = 1
+$VarDef
 
 print(len(x))

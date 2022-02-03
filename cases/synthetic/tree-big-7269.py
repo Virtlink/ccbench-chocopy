@@ -707,13 +707,7 @@ class Tree5(object):
             if self.root.insert(x):
                 self.size = self.size + 1
 
-    def insert5(self:"Tree5", x:int, x2:int, x3:int, x4:int, x5:int) -> object:
-        if self.root is None:
-            self.root = makeNode5(x, x, x, x, x)
-            self.size = 1
-        else:
-            if self.root.insert(x):
-                self.size = self.size + 1
+    $FuncDef
 
     def contains(self:"Tree5", x:int) -> bool:
         if self.root is None:
@@ -775,7 +769,15 @@ def makeNode4(x: int, x2: int, x3: int, x4: int) -> TreeNode4:
     b.value = x
     return b
 
-$Definition
+def makeNode5(x: int, x2: int, x3: int, x4: int, x5: int) -> TreeNode5:
+    b:TreeNode5 = None
+    b2:TreeNode5 = None
+    b3:TreeNode5 = None
+    b4:TreeNode5 = None
+    b5:TreeNode5 = None
+    b = TreeNode5()
+    b.value = x
+    return b
 
 
 # Input parameters

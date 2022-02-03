@@ -1,2 +1,2 @@
-$Exp(True)
+$Statement
 print(False)

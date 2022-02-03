@@ -2,7 +2,7 @@ x:str = ""
 a:str = ""
 
 def str_get(s:str, i:int) -> str:
-    return s[i]
+    return s[$Exp]
 
-$AssignTarget str_get(x, 0)
+a = str_get(x, 0)
 print(a)

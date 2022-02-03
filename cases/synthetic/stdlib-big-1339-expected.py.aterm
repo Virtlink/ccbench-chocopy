@@ -1,1 +1,1 @@
-Var2Exp(Var("first_char"))
+VarDef2FuncBodyMember(VarDef(TypedVar("result",Type("int")),Int("0")))

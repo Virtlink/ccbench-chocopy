@@ -1,1 +1,1 @@
-Var2Exp(Var("self"))
+VarDef(TypedVar("items",ListType(Type("int"))),NONE())

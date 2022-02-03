@@ -1,1 +1,1 @@
-Int("0")
+Eq(Var2Exp(Var("x")),Literal2Exp(Int("2")))

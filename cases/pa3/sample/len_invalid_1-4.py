@@ -1,3 +1,3 @@
-$ID:[int] = None
+$TypedVar = None
 
 print(len(x))

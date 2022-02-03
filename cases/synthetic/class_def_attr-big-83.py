@@ -12,7 +12,7 @@ class A3(object):
 
 class A4(object):
     x:int = 1
-    x2:int = $Literal
+    $VarDef
     x3:int = 1
     x4:int = 1
 

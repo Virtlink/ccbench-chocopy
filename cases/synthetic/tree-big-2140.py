@@ -227,7 +227,7 @@ class TreeNode4(object):
                 return True
             else:
                 return self.right.insert(x)
-        return False
+        return $Exp
 
     def insert2(self:"TreeNode4", x:int, x2:int) -> bool:
         if x < self.value:
@@ -244,7 +244,7 @@ class TreeNode4(object):
                 return self.right.insert(x)
         return False
 
-    def insert3(self:"TreeNode4", x:int, x2:int, x3:int) -> $Type:
+    def insert3(self:"TreeNode4", x:int, x2:int, x3:int) -> bool:
         if x < self.value:
             if self.left is None:
                 self.left = makeNode4(x, x, x, x)

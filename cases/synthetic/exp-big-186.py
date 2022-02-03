@@ -21,9 +21,9 @@ def exp(x: int, y: int) -> int:
             a3 = a * x
             a4 = a * x
             a5 = a * x
-            return f(i-1)
+            return $ID(i-1)
     a = 1
-    $Statement
+    a2 = 1
     a3 = 1
     a4 = 1
     a5 = 1

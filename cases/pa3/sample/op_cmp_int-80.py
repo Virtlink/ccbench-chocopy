@@ -5,7 +5,7 @@ print(x == y)
 print(x != y)
 print(x < y)
 print(x <= y)
-print(x > $Var)
+print($Parameters)
 print(x >= y)
 
 print(x == x)

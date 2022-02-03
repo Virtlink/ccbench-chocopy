@@ -183,12 +183,7 @@ class Vector3(object):
         return self.capacity()
 
     # Appends one item to end of vector
-    def append(self:"Vector3", item: int) -> object:
-        if self.size == self.capacity():
-            self.increase_capacity()
-
-        self.items[self.size] = item
-        self.size = self.size + 1
+    $ClassBodyMember
 
     # Appends one item to end of vector
     def append2(self:"Vector3", item: int, item2: int) -> object:
@@ -196,7 +191,7 @@ class Vector3(object):
             self.increase_capacity()
 
         self.items[self.size] = item
-        self.size = self.size + $Literal
+        self.size = self.size + 1
 
     # Appends one item to end of vector
     def append3(self:"Vector3", item: int, item2: int, item3: int) -> object:

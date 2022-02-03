@@ -302,7 +302,7 @@ class bar4(object):
 
         return "Nope"
 
-    def baz3(self:"bar4", xx: [int], xx2: [int], xx3: [int]) -> str:
+    def baz3($ID:"bar4", xx: [int], xx2: [int], xx3: [int]) -> str:
         global count
         x:int = 0
         x2:int = 0
@@ -332,7 +332,7 @@ class bar4(object):
         for x in xx:
             self.p = x == 2
 
-        qux($Exp) # Yay! ChocoPy
+        qux(0) # Yay! ChocoPy
 
         count = count + 1
 

@@ -296,7 +296,7 @@ class bar4(object):
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
-                x = x + 1
+                x = $Exp
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
@@ -323,7 +323,11 @@ class bar4(object):
                 x = -1
 
         def qux3(y: int, y2: int, y3: int) -> object:
-            $FuncBody
+            nonlocal x
+            nonlocal x2
+            nonlocal x3
+            if x > y:
+                x = -1
 
         for x in xx:
             self.p = x == 2

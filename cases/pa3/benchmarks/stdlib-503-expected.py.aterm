@@ -1,1 +1,1 @@
-Mul(Var2Exp(Var("n")),Var2Exp(Var("c")))
+"int"

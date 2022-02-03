@@ -877,7 +877,7 @@ class DoublingVector5(Vector):
             # If doubling limit has been reached, fall back to
             # standard capacity increases
             self.items = self.items + [0]
-        return self.capacity()
+        return $Exp
 
     # Overriding to do fewer resizes
     def increase_capacity5(self:"DoublingVector5") -> int:
@@ -965,7 +965,7 @@ def sieve(v:Vector) -> object:
                 v.remove_at(j)
             else:
                 j = j + 1
-        i = $Exp
+        i = i + 1
 
 def sieve2(v:Vector, v2:Vector) -> object:
     i:int = 0

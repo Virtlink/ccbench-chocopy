@@ -29,10 +29,10 @@ class B(A):
 
 class B2(A):
     def __init__(self: "B2"):
-        pass
+        $Statement
 
 class B3(A):
-    def __init__(self: "B3")$RetType:
+    def __init__(self: "B3"):
         pass
 
 class B4(A):

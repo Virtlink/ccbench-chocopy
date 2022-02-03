@@ -1,1 +1,1 @@
-VarDef(TypedVar("y",Type("object")),Int("1"))
+VarDef2Definition(VarDef(TypedVar("y",Type("object")),Int("1")))

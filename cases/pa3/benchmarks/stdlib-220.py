@@ -26,10 +26,10 @@ def str_to_int(x: str) -> int:
 
     # Parse digits
     for char in x:
-        if char == "-":
+        if $Exp == "-":
             if not first_char:
                 return 0 # Error
-            $Statement
+            sign = -1
         elif char == "0":
             digit = 0
         elif char == "1":

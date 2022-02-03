@@ -1,4 +1,4 @@
-$VarDef
+$Definition
 z:[int] = None
 
 for x in z:

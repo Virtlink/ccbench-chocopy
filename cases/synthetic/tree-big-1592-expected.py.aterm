@@ -1,1 +1,1 @@
-TypedVar("self",TypeS(IdString("TreeNode3")))
+Return(Literal2Exp(False()))

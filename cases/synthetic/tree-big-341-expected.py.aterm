@@ -1,1 +1,1 @@
-"bool"
+VarDef2ClassBodyMember(VarDef(TypedVar("right",TypeS(IdString("TreeNode2"))),NONE()))

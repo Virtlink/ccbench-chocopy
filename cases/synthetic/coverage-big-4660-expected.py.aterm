@@ -1,1 +1,1 @@
-Literal2Exp(NONE())
+TypedVar("y",Type("int"))

@@ -51,15 +51,11 @@ class Tree(object):
 		else:
 			return self.root.contains(x)
 
-def makeNode(x: int) -> TreeNode:
-	b:TreeNode = None
-	b = TreeNode()
-	b.value = x
-	return b
+$FuncDef
 
 
 # Input parameters
-n:$ID = 100
+n:int = 100
 c:int = 4
 
 # Data

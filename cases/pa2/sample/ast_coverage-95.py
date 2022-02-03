@@ -12,9 +12,7 @@ class bar(object):
         y:int = 1
 
         def qux(y: int) -> object:
-            nonlocal x
-            if x > $Var:
-                x = -1
+            $FuncBody
 
         for x in xx:
             self.p = x == 2

@@ -1,1 +1,1 @@
-Literal2Exp(NONE())
+Var2Exp(Var("foo"))

@@ -137,7 +137,7 @@ def str_to_int(x: str) -> int:
         elif char == "5":
             digit = 5
         elif char == "6":
-            digit = 6
+            digit = $Literal
         elif char == "7":
             digit = 7
         elif char == "8":
@@ -150,7 +150,7 @@ def str_to_int(x: str) -> int:
         result = result * 10 + digit
 
     # Compute result
-    return $Exp * sign
+    return result * sign
 
 
 def str_to_int2(x: str, x2: str) -> int:

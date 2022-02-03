@@ -1,1 +1,1 @@
-Var2Exp(Var("self"))
+TypedVar("idx4",Type("int"))

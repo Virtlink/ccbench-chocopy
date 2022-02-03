@@ -108,7 +108,7 @@ class TreeNode3(object):
     left:"TreeNode3" = None
     left2:"TreeNode3" = None
     left3:"TreeNode3" = None
-    right:"TreeNode3" = None
+    right:"$ID" = None
     right2:"TreeNode3" = None
     right3:"TreeNode3" = None
 
@@ -118,7 +118,7 @@ class TreeNode3(object):
                 self.left = makeNode3(x, x, x)
                 return True
             else:
-                return $Exp
+                return self.left.insert(x)
         elif x > self.value:
             if self.right is None:
                 self.right = makeNode3(x, x, x)

@@ -641,7 +641,7 @@ class Vector5(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
+            $Statement
             idx = idx + 1
 
         self.size = self.size - 1
@@ -702,7 +702,7 @@ class Vector5(object):
 
     # Retrieves the current size of the vector
     def length4(self:"Vector5") -> int:
-        return $Member
+        return self.size
 
     # Retrieves the current size of the vector
     def length5(self:"Vector5") -> int:

@@ -507,8 +507,7 @@ class Tree(object):
     def contains(self:"Tree", x:int) -> bool:
         if self.root is None:
             return False
-        else:
-            return self.root.contains(x)
+        $ElifElse
 
 
 class Tree2(object):
@@ -556,7 +555,7 @@ class Tree3(object):
 
     def insert(self:"Tree3", x:int) -> object:
         if self.root is None:
-            self.root = $Var(x, x, x)
+            self.root = makeNode3(x, x, x)
             self.size = 1
         else:
             if self.root.insert(x):

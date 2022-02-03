@@ -610,7 +610,7 @@ class Vector5(object):
         item3:int = 0
         item4:int = 0
         item5:int = 0
-        for item in new_items:
+        for item in $ID:
             self.append(item)
 
     # Removes an item from the middle of vector
@@ -663,7 +663,7 @@ class Vector5(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = $Var.items[idx + 1]
+            self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
         self.size = self.size - 1

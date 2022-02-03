@@ -1,7 +1,6 @@
 count:int = 0
 
-def $ID(s: str) -> int:
-    return len(s)
+$FuncDef
 
 class bar(object):
     p: bool = True

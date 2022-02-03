@@ -1,1 +1,1 @@
-FuncDef2ClassBodyMember(FuncDef("bar",[TypedVar("self",TypeS(IdString("B")))],Returns(Type("int")),FuncBody([VarDef2FuncBodyMember(VarDef(TypedVar("a",Type("A")),NONE()))],[Return(Call(Member2Exp(Member(Var2Exp(Var("a")),"foo")),Exps2Parameters([Member2Exp(Member(Var2Exp(Var("self")),"b"))])))])))
+Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(String("\"B\""))])))

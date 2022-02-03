@@ -47,13 +47,13 @@ class Tree(object):
 
 	def contains(self:"Tree", x:int) -> bool:
 		if self.root is None:
-			return False
+			$Statement
 		else:
 			return self.root.contains(x)
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None
-	b = $Var()
+	b = TreeNode()
 	b.value = x
 	return b
 

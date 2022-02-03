@@ -10,8 +10,8 @@ class B(A):
 a:A = None
 b:B = None
 
-a = B()
-$Exp(a.a)
+$Var = B()
+print(a.a)
 
 b.a = 1
 b.b = False

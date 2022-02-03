@@ -6,10 +6,10 @@ class A(object):
 
 class B(A):
     def __init__(self: "B"):
-        pass
+        $Statement
 
 class C(B):
-    $ID:bool = True
+    z:bool = True
 
     def set_A(self: "C", val: int) -> object:
         self.x = val

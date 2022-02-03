@@ -1,7 +1,7 @@
 if False:
     print("No")
-elif True:
-    if $Literal:
+elif $Literal:
+    if True:
         print("Yes")
 else:
     pass

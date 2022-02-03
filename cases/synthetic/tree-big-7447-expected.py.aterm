@@ -1,1 +1,1 @@
-Type("Tree")
+Var2Exp(Var("x"))

@@ -459,7 +459,7 @@ class bar5(object):
 
         qux(0) # Yay! ChocoPy
 
-        count = count + 1
+        count = $Exp + 1
 
         while x <= 0:
             if self.p:
@@ -499,7 +499,7 @@ class bar5(object):
                 x = -1
 
         for x in xx:
-            self.p = x == $INT
+            self.p = x == 2
 
         qux(0) # Yay! ChocoPy
 

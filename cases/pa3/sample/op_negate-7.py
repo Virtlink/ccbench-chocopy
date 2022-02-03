@@ -1,2 +1,2 @@
-x:int = $Literal
+x:$ID = 42
 print(-x)

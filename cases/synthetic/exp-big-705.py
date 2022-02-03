@@ -80,7 +80,7 @@ def exp3(x: int, y: int, x2: int, y2: int, x3: int, y3: int) -> int:
             a2 = a * x
             a3 = a * x
             a4 = a * x
-            a5 = a * x
+            a5 = a * $ID
             return f(i-1)
     a = 1
     a2 = 1
@@ -89,7 +89,7 @@ def exp3(x: int, y: int, x2: int, y2: int, x3: int, y3: int) -> int:
     a5 = 1
     return f(y)
 
-def $ID(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -> int:
+def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -> int:
     a: int = 0
     a2: int = 0
     a3: int = 0

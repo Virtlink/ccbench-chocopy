@@ -3,7 +3,7 @@ y:int = 7
 
 print(x == y)
 print(x != y)
-print($ID < y)
+print($Parameters)
 print(x <= y)
 print(x > y)
 print(x >= y)

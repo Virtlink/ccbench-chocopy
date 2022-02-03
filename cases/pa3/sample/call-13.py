@@ -1,5 +1,5 @@
 def f() -> int:
-    print($Parameters)
+    $Exp
     g()
     print("end f")
     return 42

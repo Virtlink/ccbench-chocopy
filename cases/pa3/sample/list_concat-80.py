@@ -4,9 +4,9 @@ def concat(x:[int], y:[int]) -> [int]:
 z:[int] = None
 i:int = 0
 
-z = concat([1,2,3], [4,5,6])
+z = concat([1,2,3], [4,5,$Literal])
 
-while i < $Var(z):
+while i < len(z):
     print(z[i])
     i = i + 1
 

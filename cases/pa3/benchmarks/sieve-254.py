@@ -27,12 +27,12 @@ class Vector(object):
     def append_all(self:"Vector", new_items: [int]) -> object:
         item:int = 0
         for item in new_items:
-            self.append(item)
+            self.$ID(item)
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector", idx: int) -> object:
         if idx < 0:
-            $Block
+            return
 
         while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]

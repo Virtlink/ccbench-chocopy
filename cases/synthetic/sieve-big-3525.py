@@ -392,7 +392,7 @@ class Vector4(object):
         item:int = 0
         item2:int = 0
         item3:int = 0
-        item4:int = 0
+        $TypedVar = 0
         for item in new_items:
             self.append(item)
 
@@ -430,7 +430,15 @@ class Vector4(object):
         self.size = self.size - 1
 
     # Removes an item from the middle of vector
-    $ClassBodyMember
+    def remove_at4(self:"Vector4", idx: int, idx2: int, idx3: int, idx4: int) -> object:
+        if idx < 0:
+            return
+
+        while idx < self.size - 1:
+            self.items[idx] = self.items[idx + 1]
+            idx = idx + 1
+
+        self.size = self.size - 1
 
     # Retrieves an item at a given index
     def get(self:"Vector4", idx: int) -> int:

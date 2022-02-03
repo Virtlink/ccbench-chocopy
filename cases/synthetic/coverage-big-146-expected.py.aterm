@@ -1,1 +1,1 @@
-FuncDef("foo5",[TypedVar("s",Type("str")),TypedVar("s2",Type("str")),TypedVar("s3",Type("str")),TypedVar("s4",Type("str")),TypedVar("s5",Type("str"))],Returns(Type("int")),FuncBody([],[Return(Call(Var2Exp(Var("len")),Exps2Parameters([Var2Exp(Var("s"))])))]))
+Returns(Type("int"))

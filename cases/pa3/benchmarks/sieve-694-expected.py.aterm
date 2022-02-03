@@ -1,1 +1,1 @@
-VarDef(TypedVar("n",Type("int")),Int("50"))
+Var("j")

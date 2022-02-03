@@ -2,8 +2,8 @@ a:str = "Hello"
 b:str = "World"
 c:str = "ChocoPy"
 
-def eq(a:str, b:str) -> bool:
-    $Statement
+def eq(a:str, b:str) -> $ID:
+    return a == b
 
 def neq(a:str, b:str) -> bool:
     return a != b

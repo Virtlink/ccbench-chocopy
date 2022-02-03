@@ -1,1 +1,1 @@
-TypedVar("items4",ListType(Type("int")))
+Member(Var2Exp(Var("self")),"size")

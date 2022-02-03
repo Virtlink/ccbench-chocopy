@@ -1,1 +1,1 @@
-VarDef2FuncBodyMember(VarDef(TypedVar("y",Type("int")),Int("1")))
+Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"p")))],Not(Member2Exp(Member(Var2Exp(Var("self")),"p"))))

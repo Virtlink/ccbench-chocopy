@@ -1,5 +1,5 @@
-x:[int] = None
-$Definition
+x:[int] = $Literal
+y:[object] = None
 z:[bool] = None
 o:object = None
 

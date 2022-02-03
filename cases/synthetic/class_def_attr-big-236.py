@@ -40,11 +40,10 @@ class B4(A):
         pass
 
 class B5(A):
-    def __init__(self: "B5"):
-        pass
+    $ClassBody
 
 class C(B):
-    z:$ID = True
+    z:bool = True
 
 class C2(B):
     z:bool = True

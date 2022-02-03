@@ -332,7 +332,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
     sign2:int = 1
     sign3:int = 1
     sign4:int = 1
-    sign5:int = 1
+    sign5:$ID = 1
     first_char:bool = True
     first_char2:bool = True
     first_char3:bool = True
@@ -359,7 +359,16 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
             digit = 4
         elif char == "5":
             digit = 5
-        $ElifElse # On error
+        elif char == "6":
+            digit = 6
+        elif char == "7":
+            digit = 7
+        elif char == "8":
+            digit = 8
+        elif char == "9":
+            digit = 9
+        else:
+            return 0 # On error
         first_char = False
         result = result * 10 + digit
 

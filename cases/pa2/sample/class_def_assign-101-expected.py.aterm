@@ -1,1 +1,1 @@
-Assign([Target(Var2Target(Var("c")))],Literal2Exp(NONE()))
+Target(Var2Target(Var("a")))

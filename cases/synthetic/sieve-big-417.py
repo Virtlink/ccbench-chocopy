@@ -46,7 +46,7 @@ class Vector(object):
 
     # Retrieves the current size of the vector
     def length(self:"Vector") -> int:
-        return self.size
+        return $Exp.size
 
 # A resizable list of integers
 class Vector2(object):
@@ -55,7 +55,7 @@ class Vector2(object):
     size: int = 0
     size2: int = 0
 
-    def __init__($TypedVar):
+    def __init__(self:"Vector2"):
         self.items = [0]
 
     # Returns current capacity

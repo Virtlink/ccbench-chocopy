@@ -207,7 +207,7 @@ class bar3(object):
             if x > y:
                 x = -1
 
-        def qux3(y: int, y2: int, y3: int) -> object:
+        def $ID(y: int, y2: int, y3: int) -> object:
             nonlocal x
             nonlocal x2
             nonlocal x3
@@ -226,7 +226,7 @@ class bar3(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif $Exp:
+            elif foo("Long"[0]) == 1:
                 self.p = self is None
 
         return "Nope"

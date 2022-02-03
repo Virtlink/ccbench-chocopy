@@ -508,7 +508,7 @@ class bar5(object):
         while x <= 0:
             if self.p:
                 xx[0] = xx[1]
-                self.p = not self.p
+                self.p = $Exp
                 x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
@@ -557,7 +557,7 @@ class bar5(object):
 
         qux(0) # Yay! ChocoPy
 
-        $Var = count + 1
+        count = count + 1
 
         while x <= 0:
             if self.p:

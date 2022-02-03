@@ -1,1 +1,1 @@
-print($Literal)
+print($Parameters)

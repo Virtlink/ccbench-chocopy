@@ -829,7 +829,7 @@ class DoublingVector4(Vector):
             # If doubling limit has been reached, fall back to
             # standard capacity increases
             self.items = self.items + [0]
-        return self.capacity()
+        return $ID.capacity()
 
 # A faster (but more memory-consuming) implementation of vector
 class DoublingVector5(Vector):
@@ -918,7 +918,7 @@ def vrange3(i:int, j:int, i2:int, j2:int, i3:int, j3:int) -> Vector:
     v3:Vector = None
     v = DoublingVector()
     
-    while i < $Var:
+    while i < j:
         v.append(i)
         i = i + 1
 

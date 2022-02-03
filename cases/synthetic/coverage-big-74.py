@@ -7,7 +7,7 @@ count5:int = 0
 def foo(s: str) -> int:
     return len(s)
 
-def foo2(s: str, s2: str) -> $ID:
+def foo2(s: str, $TypedVar) -> int:
     return len(s)
 
 def foo3(s: str, s2: str, s3: str) -> int:

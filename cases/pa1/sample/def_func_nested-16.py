@@ -1,6 +1,6 @@
 
 def foo(x:int) -> bool:
-    a:$Type = 0
+    $VarDef
     b:int = 1
     def bar(y: int) -> int:
         a:int = 2 

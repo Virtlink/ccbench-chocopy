@@ -629,7 +629,7 @@ class Vector5(object):
         if idx < 0:
             return
 
-        while idx < self.size - 1:
+        while idx < self.size - $INT:
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
@@ -682,7 +682,7 @@ class Vector5(object):
 
     # Retrieves an item at a given index
     def get4(self:"Vector5", idx: int, idx2: int, idx3: int, idx4: int) -> int:
-        return self.$ID[idx]
+        return self.items[idx]
 
     # Retrieves an item at a given index
     def get5(self:"Vector5", idx: int, idx2: int, idx3: int, idx4: int, idx5: int) -> int:

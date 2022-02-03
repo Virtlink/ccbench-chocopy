@@ -44,7 +44,7 @@ class bar(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo("Long"[0]) == 1:
+            elif foo("Long"[$Exp]) == 1:
                 self.p = self is None
 
         return "Nope"
@@ -52,7 +52,7 @@ class bar(object):
 
 class bar2(object):
     p: bool = True
-    $ID: bool = True
+    p2: bool = True
 
     def baz(self:"bar2", xx: [int]) -> str:
         global count

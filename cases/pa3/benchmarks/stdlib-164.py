@@ -17,9 +17,9 @@ def int_to_str(x: int) -> str:
     result = result + digits[x % 10]
     return result
 
-def str_to_int(x: str) -> int:
+def str_to_int(x: $Type) -> int:
     result:int = 0
-    $FuncBodyMember
+    digit:int = 0
     char:str = ""
     sign:int = 1
     first_char:bool = True

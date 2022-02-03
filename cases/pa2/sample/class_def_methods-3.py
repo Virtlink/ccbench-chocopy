@@ -1,8 +1,4 @@
-class $ID(object):
-    x:int = 1
-
-    def get_A(self: "A") -> int:
-        return self.x
+$ClassDef
 
 class B(A):
     def __init__(self: "B"):

@@ -281,7 +281,7 @@ class Vector3(object):
         return self.size
 
     # Retrieves the current size of the vector
-    def length3(self:"Vector3") -> int:
+    def $ID(self:"Vector3") -> int:
         return self.size
 
 # A resizable list of integers
@@ -317,7 +317,7 @@ class Vector4(object):
     # Increases capacity of vector by one element
     def increase_capacity(self:"Vector4") -> int:
         self.items = self.items + [0]
-        return $Member()
+        return self.capacity()
 
     # Increases capacity of vector by one element
     def increase_capacity2(self:"Vector4") -> int:

@@ -82,9 +82,9 @@ i:int = 1
 i2:int = 1
 i3:int = 1
 i4:int = 1
-i5:int = 1
+$Definition
 
 # Crunch
 while i <= n:
     print(get_prime(i))
-    i = i + $Exp
+    i = i + 1

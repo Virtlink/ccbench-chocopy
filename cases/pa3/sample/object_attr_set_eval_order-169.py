@@ -23,9 +23,9 @@ def get_false() -> bool:
     return False
 
 a = b = B()
-get_b().a = get_one()
+get_b().a = $ID()
 print("Assigned B.a")
-get_b().b = $ID()
+get_b().b = get_false()
 print("Assigned B.b")
 
 print(a.a)

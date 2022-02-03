@@ -925,7 +925,7 @@ def vrange3(i:int, j:int, i2:int, j2:int, i3:int, j3:int) -> Vector:
     return v
 
 def vrange4(i:int, j:int, i2:int, j2:int, i3:int, j3:int, i4:int, j4:int) -> Vector:
-    v:Vector = None
+    $ID:Vector = None
     v2:Vector = None
     v3:Vector = None
     v4:Vector = None
@@ -1008,7 +1008,7 @@ def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
 
 def sieve4(v:Vector, v2:Vector, v3:Vector, v4:Vector) -> object:
     i:int = 0
-    $VarDef
+    i2:int = 0
     i3:int = 0
     i4:int = 0
     j:int = 0

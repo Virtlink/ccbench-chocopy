@@ -1,1 +1,1 @@
-Call(Var2Exp(Var("bar")),Exps2Parameters([]))
+FuncBody([],[Return(Call(Var2Exp(Var("bar")),Exps2Parameters([])))])

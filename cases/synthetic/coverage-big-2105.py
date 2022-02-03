@@ -261,7 +261,7 @@ class bar4(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo("Long"[0]) == 1:
+            elif $Exp == 1:
                 self.p = self is None
 
         return "Nope"
@@ -288,7 +288,7 @@ class bar4(object):
         for x in xx:
             self.p = x == 2
 
-        $Exp(0) # Yay! ChocoPy
+        qux(0) # Yay! ChocoPy
 
         count = count + 1
 

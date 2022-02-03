@@ -1,7 +1,7 @@
 print(True == True)
 print(True == False)
 print(False == True)
-print($Exp)
+$Exp
 print(True != True)
 print(True != False)
 print(False != True)

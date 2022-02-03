@@ -1,5 +1,5 @@
 x:str = ""
-z:$Type = "abc"
+$ID:str = "abc"
 
 for x in z:
     print(x)

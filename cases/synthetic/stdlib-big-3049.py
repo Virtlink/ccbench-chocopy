@@ -364,7 +364,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
         elif char == "7":
             digit = 7
         elif char == "8":
-            digit = 8
+            $ID = 8
         elif char == "9":
             digit = 9
         else:
@@ -397,7 +397,7 @@ i:int = 0
 i2:int = 0
 i3:int = 0
 i4:int = 0
-i5:int = $Literal
+i5:int = 0
 i = -n * c
 
 # Crunch

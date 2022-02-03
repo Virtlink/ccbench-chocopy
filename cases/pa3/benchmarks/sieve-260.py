@@ -30,15 +30,7 @@ class Vector(object):
             self.append(item)
 
     # Removes an item from the middle of vector
-    def remove_at(self:"Vector", idx: int) -> object:
-        if idx < 0:
-            return
-
-        while $ID < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
-            idx = idx + 1
-
-        self.size = self.size - 1
+    $ClassBodyMember
 
     # Retrieves an item at a given index
     def get(self:"Vector", idx: int) -> int:

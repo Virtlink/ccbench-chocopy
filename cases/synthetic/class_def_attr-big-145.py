@@ -21,7 +21,7 @@ class A5(object):
     x2:int = 1
     x3:int = 1
     x4:int = 1
-    x5:int = $INT
+    $VarDef
 
 class B(A):
     def __init__(self: "B"):

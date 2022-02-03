@@ -158,7 +158,7 @@ def str_to_int2(x: str, x2: str) -> int:
     result2:int = 0
     digit:int = 0
     digit2:int = 0
-    char:str = ""
+    char:str = $Literal
     char2:str = ""
     sign:int = 1
     sign2:int = 1
@@ -173,7 +173,7 @@ def str_to_int2(x: str, x2: str) -> int:
             sign = -1
         elif char == "0":
             digit = 0
-        elif $ID == "1":
+        elif char == "1":
             digit = 1
         elif char == "2":
             digit = 2

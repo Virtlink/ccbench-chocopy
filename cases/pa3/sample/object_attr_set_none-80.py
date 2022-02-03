@@ -11,7 +11,7 @@ a:A = None
 b:B = None
 
 a = B()
-print(a.$ID)
+$Exp
 
 b.a = 1
 b.b = False

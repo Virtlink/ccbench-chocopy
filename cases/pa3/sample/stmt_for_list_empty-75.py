@@ -8,5 +8,5 @@ e = []
 
 for x in z:
     for y in e:
-        print("Never")
-    $Statement
+        $Exp
+    print(x)

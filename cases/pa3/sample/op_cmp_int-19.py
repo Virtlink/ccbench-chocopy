@@ -1,7 +1,7 @@
 x:int = 42
 y:int = 7
 
-$Exp(x == y)
+$Statement
 print(x != y)
 print(x < y)
 print(x <= y)

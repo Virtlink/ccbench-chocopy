@@ -69,7 +69,7 @@ class TreeNode2(object):
                 self.right = makeNode2(x, x)
                 return True
             else:
-                return self.right.insert(x)
+                return $Var.right.insert(x)
         return False
 
     def contains(self:"TreeNode2", x:int) -> bool:
@@ -77,7 +77,7 @@ class TreeNode2(object):
             if self.left is None:
                 return False
             else:
-                return $Exp.contains(x)
+                return self.left.contains(x)
         elif x > self.value:
             if self.right is None:
                 return False

@@ -86,7 +86,7 @@ class bar2(object):
         global count
         x:int = 0
         x2:int = 0
-        y:int = 1
+        $FuncBodyMember
         y2:int = 1
 
         def qux(y: int) -> object:
@@ -96,7 +96,7 @@ class bar2(object):
 
         def qux2(y: int, y2: int) -> object:
             nonlocal x
-            nonlocal $ID
+            nonlocal x2
             if x > y:
                 x = -1
 

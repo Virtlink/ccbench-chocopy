@@ -1,1 +1,1 @@
-Target(Member2Target(Member(Var2Exp(Var("self")),"right")))
+Is(Member2Exp(Member(Var2Exp(Var("self")),"right")),Literal2Exp(NONE()))

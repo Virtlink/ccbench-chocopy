@@ -77,7 +77,7 @@ class bar2(object):
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
-                self.p = self is None
+                self.p = self is $Exp
 
         return "Nope"
 
@@ -89,7 +89,10 @@ class bar2(object):
         y:int = 1
         y2:int = 1
 
-        $FuncDef
+        def qux(y: int) -> object:
+            nonlocal x
+            if x > y:
+                x = -1
 
         def qux2(y: int, y2: int) -> object:
             nonlocal x

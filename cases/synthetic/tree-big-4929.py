@@ -499,7 +499,7 @@ class Tree(object):
     def insert(self:"Tree", x:int) -> object:
         if self.root is None:
             self.root = makeNode(x)
-            self.size = 1
+            $AssignTarget 1
         else:
             if self.root.insert(x):
                 self.size = self.size + 1
@@ -546,7 +546,7 @@ class Tree2(object):
             return self.root.contains(x)
 
 
-class Tree3($ID):
+class Tree3(object):
     root:TreeNode3 = None
     root2:TreeNode3 = None
     root3:TreeNode3 = None

@@ -1,8 +1,7 @@
 class A(object):
     x:int = 1
 
-    def $ID(self: "A") -> int:
-        return self.x
+    $ClassBodyMember
 
 class B(A):
     def __init__(self: "B"):

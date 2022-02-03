@@ -129,7 +129,7 @@ class Vector2(object):
 
     # Retrieves an item at a given index
     def get(self:"Vector2", idx: int) -> int:
-        return self.items[idx]
+        return $ID.items[idx]
 
     # Retrieves an item at a given index
     def get2(self:"Vector2", idx: int, idx2: int) -> int:
@@ -149,7 +149,7 @@ class Vector3(object):
     items2: [int] = None
     items3: [int] = None
     size: int = 0
-    $ID: int = 0
+    size2: int = 0
     size3: int = 0
 
     def __init__(self:"Vector3"):

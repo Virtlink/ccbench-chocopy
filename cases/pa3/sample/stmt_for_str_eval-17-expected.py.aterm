@@ -1,1 +1,1 @@
-For("x",Var2Exp(Var("z")),Block([Assign([Target(Var2Target(Var("z")))],Literal2Exp(String("\"doesn't matter\""))),Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Var2Exp(Var("x"))])))]))
+"\"abc\""

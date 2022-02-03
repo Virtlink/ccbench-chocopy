@@ -1,1 +1,1 @@
-Var("print")
+Literal2Exp(String("\"end g\""))

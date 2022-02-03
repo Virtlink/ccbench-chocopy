@@ -1,1 +1,1 @@
-IdString("Tree5")
+TypedVar("size2",Type("int"))

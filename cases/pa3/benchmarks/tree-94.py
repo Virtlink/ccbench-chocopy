@@ -8,9 +8,9 @@ class TreeNode(object):
 		if x < self.value:
 			if self.left is None:
 				self.left = makeNode(x)
-				return True
+				$Statement
 			else:
-				return $Exp.insert(x)
+				return self.left.insert(x)
 		elif x > self.value:
 			if self.right is None:
 				self.right = makeNode(x)

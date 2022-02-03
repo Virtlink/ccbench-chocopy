@@ -75,7 +75,7 @@ class bar2(object):
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
-                x = x + 1
+                x = x + $INT
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
@@ -83,7 +83,7 @@ class bar2(object):
 
 
     def baz2(self:"bar2", xx: [int], xx2: [int]) -> str:
-        $FuncBodyMember
+        global count
         x:int = 0
         x2:int = 0
         y:int = 1

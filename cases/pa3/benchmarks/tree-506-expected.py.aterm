@@ -1,1 +1,1 @@
-VarDef(TypedVar("k",Type("int")),Int("37813"))
+Var2Exp(Var("TreeNode"))

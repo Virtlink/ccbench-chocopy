@@ -4,9 +4,9 @@ def foo(x: int) -> int:
     def bar() -> int:
         z: int = 3
         def baz() -> int:
-            return qux(y)
+            return qux($ID)
         return baz()
-    def $ID(p: int) -> int:
+    def qux(p: int) -> int:
         return p
 
     return bar()

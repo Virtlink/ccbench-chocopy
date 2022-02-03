@@ -1,1 +1,1 @@
-TypedVar("s2",Type("str"))
+"foo2"

@@ -835,7 +835,7 @@ class DoublingVector4(Vector):
 class DoublingVector5(Vector):
     doubling_limit:int = 1000
     doubling_limit2:int = 1000
-    doubling_limit3:int = 1000
+    $ClassBodyMember
     doubling_limit4:int = 1000
     doubling_limit5:int = 1000
 
@@ -920,7 +920,7 @@ def vrange3(i:int, j:int, i2:int, j2:int, i3:int, j3:int) -> Vector:
     
     while i < j:
         v.append(i)
-        i = i + $INT
+        i = i + 1
 
     return v
 

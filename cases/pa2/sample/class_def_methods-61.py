@@ -8,10 +8,11 @@ class B(A):
     def __init__(self: "B"):
         pass
 
-class C(B):
+class C($ID):
     z:bool = True
 
-    $ClassBodyMember
+    def set_A(self: "C", val: int) -> object:
+        self.x = val
 
 a:A = None
 b:B = None

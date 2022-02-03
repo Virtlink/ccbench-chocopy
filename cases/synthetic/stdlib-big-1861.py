@@ -221,8 +221,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
     # Parse digits
     for char in x:
         if char == "-":
-            if not first_char:
-                return 0 # Error
+            $Statement # Error
             sign = -1
         elif char == "0":
             digit = 0
@@ -237,7 +236,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
         elif char == "4":
             digit = 4
         elif char == "5":
-            $Statement
+            digit = 5
         elif char == "6":
             digit = 6
         elif char == "7":

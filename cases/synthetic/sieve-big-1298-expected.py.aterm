@@ -1,1 +1,1 @@
-Var("self")
+VarDef(TypedVar("size3",Type("int")),Int("0"))

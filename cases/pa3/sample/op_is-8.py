@@ -1,5 +1,5 @@
 class A(object):
-    $TypedVar = 42
+    $ClassBodyMember
 
 a1:A = None
 a2:A = None

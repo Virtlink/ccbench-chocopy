@@ -2,6 +2,6 @@ True
 False
 1
 None
-$Literal
+$Statement
 [1, 2, 3]
 

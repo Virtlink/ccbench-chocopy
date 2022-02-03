@@ -52,13 +52,24 @@ class TreeNode2(object):
         elif x > self.value:
             if self.right is None:
                 self.right = makeNode2(x, x)
-                return True
+                $Statement
             else:
                 return self.right.insert(x)
         return False
 
     def insert2(self:"TreeNode2", x:int, x2:int) -> bool:
-        $Statement
+        if x < self.value:
+            if self.left is None:
+                self.left = makeNode2(x, x)
+                return True
+            else:
+                return self.left.insert(x)
+        elif x > self.value:
+            if self.right is None:
+                self.right = makeNode2(x, x)
+                return True
+            else:
+                return self.right.insert(x)
         return False
 
     def contains(self:"TreeNode2", x:int) -> bool:

@@ -10,9 +10,9 @@ class C(B):
 
 a:A = None
 b:B = None
-c:C = None
+c:$ID = None
 
-a = $Exp
+a = A()
 b = B()
 c = C()
 

@@ -1,1 +1,1 @@
-Var2Exp(Var("makeNode4"))
+Is(Member2Exp(Member(Var2Exp(Var("self")),"root")),Literal2Exp(NONE()))

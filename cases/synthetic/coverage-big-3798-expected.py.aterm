@@ -1,1 +1,1 @@
-IdString("bar5")
+TypedVar("xx2",ListType(Type("int")))

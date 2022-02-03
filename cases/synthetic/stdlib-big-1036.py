@@ -117,7 +117,7 @@ def str_to_int(x: str) -> int:
     first_char:bool = True
 
     # Parse digits
-    for char in x:
+    for $ID in x:
         if char == "-":
             if not first_char:
                 return 0 # Error
@@ -125,7 +125,7 @@ def str_to_int(x: str) -> int:
         elif char == "0":
             digit = 0
         elif char == "1":
-            digit = $Exp
+            digit = 1
         elif char == "2":
             digit = 2
         elif char == "3":

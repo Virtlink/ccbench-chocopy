@@ -1,5 +1,5 @@
 def f() -> int:
-  $ID:int = 1
+  $FuncBodyMember
   return x
 
 print(f())

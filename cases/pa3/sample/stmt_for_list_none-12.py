@@ -1,5 +1,5 @@
 x:int = 0
-$ID:[int] = None
+$TypedVar = None
 
 for x in z:
     print(x)

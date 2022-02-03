@@ -54,7 +54,7 @@ def str_to_int(x: str) -> int:
             digit = 9
         else:
             return 0 # On error
-        first_char = False
+        first_char = $Exp
         result = result * 10 + digit
 
     # Compute result
@@ -65,7 +65,7 @@ c:int = 42
 n:int = 10
 
 # Run [-nc, nc] with step size c
-$TypedVar = ""
+s:str = ""
 i:int = 0
 i = -n * c
 

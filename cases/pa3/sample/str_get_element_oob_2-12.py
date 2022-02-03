@@ -1,5 +1,5 @@
 x:str = "abc"
-$ID:str = ""
+$TypedVar = ""
 
 def str_get(s:str, i:int) -> str:
     return s[i]

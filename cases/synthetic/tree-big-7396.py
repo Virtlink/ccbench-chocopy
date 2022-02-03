@@ -713,7 +713,7 @@ class Tree5(object):
             self.size = 1
         else:
             if self.root.insert(x):
-                self.size = self.size + 1
+                self.size = self.size + $INT
 
     def contains(self:"Tree5", x:int) -> bool:
         if self.root is None:
@@ -792,7 +792,7 @@ n2:int = 100
 n3:int = 100
 n4:int = 100
 n5:int = 100
-$Definition
+c:int = 4
 c2:int = 4
 c3:int = 4
 c4:int = 4

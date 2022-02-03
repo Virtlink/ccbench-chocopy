@@ -1,1 +1,1 @@
-Negative(Literal2Exp(Int("1")))
+TypedVar("xx2",ListType(Type("int")))

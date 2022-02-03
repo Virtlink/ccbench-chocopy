@@ -1,4 +1,4 @@
-$TypedVar = "no"
+$VarDef
 b:str = "o"
 c:str = ""
 d:str = ""

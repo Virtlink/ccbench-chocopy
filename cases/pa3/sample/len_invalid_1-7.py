@@ -1,3 +1,3 @@
-x:[$ID] = None
+x:[$Type] = None
 
 print(len(x))

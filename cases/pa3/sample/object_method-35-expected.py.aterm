@@ -1,1 +1,1 @@
-"self"
+Return(Member2Exp(Member(Var2Exp(Var("self")),"a")))

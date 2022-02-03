@@ -1,7 +1,7 @@
 x:[int] = None
 y:[object] = None
 z:[bool] = None
-o:$ID = None
+o:$Type = None
 
 x = [1, 2, 3]
 x = []

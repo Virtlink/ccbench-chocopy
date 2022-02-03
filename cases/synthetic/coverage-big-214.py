@@ -20,11 +20,11 @@ def foo5(s: str, s2: str, s3: str, s4: str, s5: str) -> int:
     return len(s)
 
 class bar(object):
-    p: bool = True
+    p: bool = $Literal
 
     def baz(self:"bar", xx: [int]) -> str:
         global count
-        $TypedVar = 0
+        x:int = 0
         y:int = 1
 
         def qux(y: int) -> object:

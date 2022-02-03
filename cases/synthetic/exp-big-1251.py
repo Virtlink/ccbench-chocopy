@@ -140,7 +140,7 @@ def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x
             a2 = a * x
             a3 = a * x
             a4 = a * x
-            a5 = a * x
+            $AssignTarget a * x
             return f(i-1)
     a = 1
     a2 = 1
@@ -157,7 +157,7 @@ n4:int = 42
 n5:int = 42
 
 # Run [0, n]
-$Definition
+i:int = 0
 i2:int = 0
 i3:int = 0
 i4:int = 0

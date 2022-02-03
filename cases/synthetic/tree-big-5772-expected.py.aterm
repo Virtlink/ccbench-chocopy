@@ -1,1 +1,1 @@
-Member(Member2Exp(Member(Var2Exp(Var("self")),"root")),"insert")
+Int("1")

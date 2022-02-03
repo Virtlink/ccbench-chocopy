@@ -28,11 +28,9 @@ class bar(object):
         y:int = 1
 
         def qux(y: int) -> object:
-            nonlocal x
-            if x > y:
-                x = -1
+            $FuncBody
 
-        for x in $ID:
+        for x in xx:
             self.p = x == 2
 
         qux(0) # Yay! ChocoPy

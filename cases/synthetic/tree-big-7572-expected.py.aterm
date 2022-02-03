@@ -1,1 +1,1 @@
-Member2Exp(Member(Var2Exp(Var("t")),"insert"))
+TypedVar("self",TypeS(IdString("Tree5")))

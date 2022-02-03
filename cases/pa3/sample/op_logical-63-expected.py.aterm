@@ -1,1 +1,1 @@
-Exps2Parameters([])
+Block([IfElse(And(Call(Var2Exp(Var("g")),Exps2Parameters([])),Call(Var2Exp(Var("f")),Exps2Parameters([]))),Block([Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(String("\"Never\""))])))]),Else(Block([Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Not(And(Call(Var2Exp(Var("f")),Exps2Parameters([])),Or(Call(Var2Exp(Var("g")),Exps2Parameters([])),Call(Var2Exp(Var("f")),Exps2Parameters([])))))])))])))])

@@ -1,1 +1,1 @@
-VarDef2ClassBodyMember(VarDef(TypedVar("items3",ListType(Type("int"))),NONE()))
+IdString("Vector2")

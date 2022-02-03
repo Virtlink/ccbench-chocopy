@@ -150,7 +150,7 @@ def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x
     return f(y)
 
 # Input parameter
-n:int = 42
+$Definition
 n2:int = 42
 n3:int = 42
 n4:int = 42
@@ -166,4 +166,4 @@ i5:int = 0
 # Crunch
 while i <= n:
     print(exp(2, i % 31))
-    i = i + $INT
+    i = i + 1

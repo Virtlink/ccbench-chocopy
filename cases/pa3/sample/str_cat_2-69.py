@@ -7,8 +7,7 @@ e:str = ""
 def cat2(a:str, b:str) -> str:
     return a + b
 
-def cat3(a:$Type, b:str, c:str) -> str:
-    return a + b + c
+$FuncDef
 
 c = cat2(b, a)
 d = cat2(a, a)

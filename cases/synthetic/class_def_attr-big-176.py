@@ -28,8 +28,7 @@ class B(A):
         pass
 
 class B2(A):
-    def __init__(self: "B2"):
-        $FuncBody
+    $ClassBody
 
 class B3(A):
     def __init__(self: "B3"):

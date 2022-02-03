@@ -8,5 +8,5 @@ x = []
 y = [1, True]
 z = [False, True]
 x = None
-o = x
-o = $AssignTarget [1]
+$AssignTarget x
+o = x = [1]

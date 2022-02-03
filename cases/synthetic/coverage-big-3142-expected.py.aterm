@@ -1,1 +1,1 @@
-Not(Member2Exp(Member(Var2Exp(Var("self")),"p")))
+Index(Var2Exp(Var("xx")),Literal2Exp(Int("0")))

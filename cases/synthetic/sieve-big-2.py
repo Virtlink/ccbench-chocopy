@@ -1,5 +1,5 @@
 # A resizable list of integers
-$ClassDef
+$Definition
 
 # A resizable list of integers
 class Vector2(object):

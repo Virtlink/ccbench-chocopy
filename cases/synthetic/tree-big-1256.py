@@ -134,7 +134,7 @@ class TreeNode3(object):
                 return True
             else:
                 return self.left.insert(x)
-        elif x > self.value:
+        elif $Exp:
             if self.right is None:
                 self.right = makeNode3(x, x, x)
                 return True
@@ -144,7 +144,7 @@ class TreeNode3(object):
 
     def insert3(self:"TreeNode3", x:int, x2:int, x3:int) -> bool:
         if x < self.value:
-            if $ID.left is None:
+            if self.left is None:
                 self.left = makeNode3(x, x, x)
                 return True
             else:

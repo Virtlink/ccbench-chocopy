@@ -47,10 +47,10 @@ def exp2(x: int, y: int, x2: int, y2: int) -> int:
             return geta()
         else:
             a = a * x
-            a2 = a * x
+            $Var = a * x
             a3 = a * x
             a4 = a * x
-            a5 = $Exp
+            a5 = a * x
             return f(i-1)
     a = 1
     a2 = 1

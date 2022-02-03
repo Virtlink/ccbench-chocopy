@@ -1,2 +1,2 @@
-print(True)
-$Exp(False)
+print($Literal)
+print(False)

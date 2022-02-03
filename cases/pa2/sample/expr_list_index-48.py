@@ -3,8 +3,8 @@ y:int = 0
 z:[bool] = None
 o:object = None
 
-x = [1, 2, 3]
-$AssignTarget [False, True]
+x = [1, 2, $Exp]
+z = [False, True]
 
 y = x[0]
 x[0] = 1

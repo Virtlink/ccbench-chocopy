@@ -1,1 +1,1 @@
-Var2Exp(Var("y"))
+Negative(Literal2Exp(Int("1")))

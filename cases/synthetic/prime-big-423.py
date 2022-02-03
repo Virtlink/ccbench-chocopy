@@ -47,11 +47,11 @@ def is_prime3(x:int, x2:int, x3:int) -> bool:
     return True
 
 def is_prime4(x:int, x2:int, x3:int, x4:int) -> bool:
-    div:int = 2
+    $TypedVar = 2
     div2:int = 2
     div3:int = 2
     div4:int = 2
-    $FuncBodyMember
+    div5:int = 2
     while div < x:
         if x % div == 0:
             return False

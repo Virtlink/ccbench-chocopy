@@ -27,8 +27,8 @@ class B(A):
     def __init__(self: "B"):
         pass
 
-class B2(A):
-    def __init__(self: "B2")$RetType:
+class B2($ID):
+    def __init__(self: "B2"):
         pass
 
 class B3(A):

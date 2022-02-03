@@ -1,9 +1,9 @@
 def outer() -> int:
     def inner() -> int:
         nonlocal x
-        x = 1
+        x = $INT
         return x
-    $TypedVar = 0
+    x:int = 0
     inner()
     return x
 

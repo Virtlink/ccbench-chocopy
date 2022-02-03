@@ -43,12 +43,11 @@ class B5(A):
     def __init__(self: "B5"):
         pass
 
-class C(B):
-    z:bool = True
+$Definition
 
 class C2(B):
     z:bool = True
-    $TypedVar = True
+    z2:bool = True
 
 class C3(B):
     z:bool = True

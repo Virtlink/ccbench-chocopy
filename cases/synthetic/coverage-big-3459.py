@@ -430,7 +430,7 @@ class bar5(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo("Long"[0]) == 1:
+            elif $ID("Long"[0]) == 1:
                 self.p = self is None
 
         return "Nope"
@@ -469,7 +469,7 @@ class bar5(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        $Statement
+        return "Nope"
 
     def baz3(self:"bar5", xx: [int], xx2: [int], xx3: [int]) -> str:
         global count

@@ -209,7 +209,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
     digit2:int = 0
     digit3:int = 0
     char:str = ""
-    char2:str = ""
+    $VarDef
     char3:str = ""
     sign:int = 1
     sign2:int = 1
@@ -227,7 +227,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
         elif char == "0":
             digit = 0
         elif char == "1":
-            digit = $INT
+            digit = 1
         elif char == "2":
             digit = 2
         elif char == "3":

@@ -1,1 +1,1 @@
-IdString("A")
+TypedVar("self",TypeS(IdString("A")))

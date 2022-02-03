@@ -1,1 +1,1 @@
-Eq(Mod(Var2Exp(Var("x")),Var2Exp(Var("div"))),Literal2Exp(Int("0")))
+TypedVar("div4",Type("int"))

@@ -1,6 +1,5 @@
 def f() -> int:
-    while True:
-        $Statement
+    $Statement
     return 0
 
 print(f())

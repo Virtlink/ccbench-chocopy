@@ -1,5 +1,5 @@
 x:str = ""
-z:str = $STRING
+z:str = $Literal
 
 for x in z:
     z = "doesn't matter"

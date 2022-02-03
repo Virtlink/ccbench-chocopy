@@ -598,70 +598,7 @@ class Tree3(object):
 
 
 class Tree4(object):
-    root:TreeNode4 = None
-    root2:TreeNode4 = None
-    root3:TreeNode4 = None
-    root4:TreeNode4 = None
-    size:int = 0
-    size2:int = 0
-    size3:int = 0
-    size4:int = 0
-
-    def insert(self:"Tree4", x:int) -> object:
-        if self.root is None:
-            self.root = makeNode4(x, x, x, x)
-            self.size = 1
-        else:
-            if self.root.insert(x):
-                self.size = self.size + 1
-
-    def insert2(self:"Tree4", x:int, x2:int) -> object:
-        if self.root is None:
-            self.root = makeNode4(x, x, x, x)
-            self.size = 1
-        else:
-            if self.root.insert(x):
-                self.size = self.size + 1
-
-    def insert3(self:"Tree4", x:int, x2:int, x3:int) -> object:
-        if self.root is None:
-            self.root = makeNode4(x, x, x, x)
-            self.size = 1
-        else:
-            if self.root.insert(x):
-                self.size = self.size + 1
-
-    def insert4(self:"Tree4", x:int, x2:int, x3:int, x4:int) -> object:
-        if self.root is None:
-            self.root = makeNode4(x, x, x, x)
-            self.size = 1
-        else:
-            if self.root.insert(x):
-                self.size = self.size + 1
-
-    def contains(self:"Tree4", x:int) -> bool:
-        if self.root is None:
-            return False
-        else:
-            return $Member(x)
-
-    def contains2(self:"Tree4", x:int, x2:int) -> bool:
-        if self.root is None:
-            return False
-        else:
-            return self.root.contains(x)
-
-    def contains3(self:"Tree4", x:int, x2:int, x3:int) -> bool:
-        if self.root is None:
-            return False
-        else:
-            return self.root.contains(x)
-
-    def contains4(self:"Tree4", x:int, x2:int, x3:int, x4:int) -> bool:
-        if self.root is None:
-            return False
-        else:
-            return self.root.contains(x)
+    $ClassBody
 
 class Tree5(object):
     root:TreeNode5 = None

@@ -1,4 +1,4 @@
-$TypedVar = 0
+$VarDef
 
 def foo(s: str) -> int:
     return len(s)

@@ -386,7 +386,7 @@ class bar4(object):
         for x in xx:
             self.p = x == 2
 
-        qux(0) # Yay! ChocoPy
+        qux($Exp) # Yay! ChocoPy
 
         count = count + 1
 
@@ -425,7 +425,7 @@ class bar5(object):
 
         count = count + 1
 
-        while $ID <= 0:
+        while x <= 0:
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p

@@ -1,1 +1,1 @@
-Var2Exp(Var("len"))
+Literal2Exp(Int("6"))

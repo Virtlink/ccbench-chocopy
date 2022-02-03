@@ -1,1 +1,1 @@
-IdString("Vector3")
+Sub(Member2Exp(Member(Var2Exp(Var("self")),"size")),Literal2Exp(Int("1")))

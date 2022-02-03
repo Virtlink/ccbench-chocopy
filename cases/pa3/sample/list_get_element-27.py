@@ -1,6 +1,6 @@
 x:[int] = None
 
-x = [1, 2, 3]
-$Var(x[0])
+x = [1, 2, $INT]
+print(x[0])
 print(x[1])
 print(x[2])

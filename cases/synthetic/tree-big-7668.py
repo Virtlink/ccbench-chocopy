@@ -740,10 +740,7 @@ class Tree5(object):
             return self.root.contains(x)
 
     def contains5(self:"Tree5", x:int, x2:int, x3:int, x4:int, x5:int) -> bool:
-        if self.root is None:
-            return False
-        else:
-            return self.root.contains(x)
+        $Statement
 
 def makeNode(x: int) -> TreeNode:
     b:TreeNode = None
@@ -827,4 +824,5 @@ while i < n:
 print(t.size)
 
 for i in [4, 8, 15, 16, 23, 42]:
-    $Block
+    if t.contains(i):
+        print(i)

@@ -1,1 +1,1 @@
-Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(String("\"Getting B\""))])))
+FuncDef2Definition(FuncDef("get_b",[],Returns(Type("B")),FuncBody([],[Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Literal2Exp(String("\"Getting B\""))]))),Return(Var2Exp(Var("b")))])))

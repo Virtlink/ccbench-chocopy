@@ -62,7 +62,7 @@ class bar2(object):
         def qux(y: int) -> object:
             nonlocal x
             if x > y:
-                x = -1
+                $AssignTarget -1
 
         for x in xx:
             self.p = x == 2
@@ -71,7 +71,13 @@ class bar2(object):
 
         count = count + 1
 
-        $Statement
+        while x <= 0:
+            if self.p:
+                xx[0] = xx[1]
+                self.p = not self.p
+                x = x + 1
+            elif foo("Long"[0]) == 1:
+                self.p = self is None
 
         return "Nope"
 

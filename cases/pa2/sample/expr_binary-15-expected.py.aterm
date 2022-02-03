@@ -1,1 +1,1 @@
-Mod(IntDiv(Literal2Exp(Int("13")),Literal2Exp(Int("3"))),Literal2Exp(Int("2")))
+Int("3")

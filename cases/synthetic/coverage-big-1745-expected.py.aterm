@@ -1,1 +1,1 @@
-VarDef(TypedVar("p4",Type("bool")),True())
+Eq(Var2Exp(Var("x")),Literal2Exp(Int("2")))

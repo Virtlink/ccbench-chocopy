@@ -11,9 +11,9 @@ class B(A):
         print("B")
 
     def bar(self:"B") -> int:
-        return self.foo(self.b)
+        return $Var.foo(self.b)
 
-    def foo($TypedVar, ignore:object) -> int:
+    def foo(self:"B", ignore:object) -> int:
         return 1
 
 print(B().bar())

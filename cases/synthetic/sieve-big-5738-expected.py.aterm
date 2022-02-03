@@ -1,1 +1,1 @@
-IdString("Vector5")
+Var2Exp(Var("self"))

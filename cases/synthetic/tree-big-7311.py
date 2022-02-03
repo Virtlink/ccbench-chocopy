@@ -708,7 +708,7 @@ class Tree5(object):
                 self.size = self.size + 1
 
     def insert5(self:"Tree5", x:int, x2:int, x3:int, x4:int, x5:int) -> object:
-        if self.root is None:
+        if self.root is $Exp:
             self.root = makeNode5(x, x, x, x, x)
             self.size = 1
         else:
@@ -778,7 +778,7 @@ def makeNode4(x: int, x2: int, x3: int, x4: int) -> TreeNode4:
 def makeNode5(x: int, x2: int, x3: int, x4: int, x5: int) -> TreeNode5:
     b:TreeNode5 = None
     b2:TreeNode5 = None
-    $VarDef
+    b3:TreeNode5 = None
     b4:TreeNode5 = None
     b5:TreeNode5 = None
     b = TreeNode5()

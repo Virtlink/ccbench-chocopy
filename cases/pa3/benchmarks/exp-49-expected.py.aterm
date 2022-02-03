@@ -1,1 +1,1 @@
-Leq(Var2Exp(Var("i")),Literal2Exp(Int("0")))
+FuncBody([],[Return(Var2Exp(Var("a")))])

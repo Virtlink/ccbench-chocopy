@@ -998,7 +998,7 @@ def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
 
     while i < v.length():
         k = v.get(i)
-        j = i + 1
+        $AssignTarget i + 1
         while j < v.length():
             if v.get(j) % k == 0:
                 v.remove_at(j)
@@ -1087,5 +1087,5 @@ sieve(v)
 # Print
 while i < v.length():
     print(v.get(i))
-    i = $Exp + 1
+    i = i + 1
 

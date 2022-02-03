@@ -1,4 +1,4 @@
-print($Exp is None)
+print($Parameters)
 print(int())
 print(str())
 print(bool())

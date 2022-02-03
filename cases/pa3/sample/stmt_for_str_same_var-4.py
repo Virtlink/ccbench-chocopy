@@ -1,4 +1,4 @@
-$ID:str = "xXx"
+$TypedVar = "xXx"
 
 for x in x:
     print(x)

@@ -1,9 +1,5 @@
 def f(x:int) -> int:
-    $Exp
-    print(x)
-    g(1, x)
-    print("end f")
-    return x
+    $FuncBody
 
     
 def g(y:int, z:int) -> object:

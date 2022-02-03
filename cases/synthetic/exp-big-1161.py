@@ -130,7 +130,7 @@ def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x
         nonlocal a2
         nonlocal a3
         nonlocal a4
-        nonlocal a5
+        nonlocal $ID
         def geta() -> int:
             return a
         if i <= 0:
@@ -141,7 +141,7 @@ def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x
             a3 = a * x
             a4 = a * x
             a5 = a * x
-            return f(i-$INT)
+            return f(i-1)
     a = 1
     a2 = 1
     a3 = 1

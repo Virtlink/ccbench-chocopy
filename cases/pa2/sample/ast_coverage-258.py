@@ -29,10 +29,10 @@ class bar(object):
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
-                self.p = self is None
+                $Target = self is None
 
         return "Nope"
 
-print($Exp().baz([1,2]))
+print(bar().baz([1,2]))
 
 

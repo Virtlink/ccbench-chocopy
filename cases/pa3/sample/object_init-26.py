@@ -2,9 +2,10 @@ class A(object):
     a:int = 42
 
 class B(A):
-    b:bool = True
+    b:$Type = True
 
-    $ClassBodyMember
+    def __init__(self:"B"):
+        print("B")
 
 
 B()

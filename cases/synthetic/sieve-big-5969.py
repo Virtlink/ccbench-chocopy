@@ -652,7 +652,7 @@ class Vector5(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
+            $AssignTarget self.items[idx + 1]
             idx = idx + 1
 
         self.size = self.size - 1
@@ -723,7 +723,29 @@ class DoublingVector(Vector):
         return self.capacity()
 
 # A faster (but more memory-consuming) implementation of vector
-$ClassDef
+class DoublingVector2(Vector):
+    doubling_limit:int = 1000
+    doubling_limit2:int = 1000
+
+    # Overriding to do fewer resizes
+    def increase_capacity(self:"DoublingVector2") -> int:
+        if (self.capacity() <= self.doubling_limit // 2):
+            self.items = self.items + self.items
+        else:
+            # If doubling limit has been reached, fall back to
+            # standard capacity increases
+            self.items = self.items + [0]
+        return self.capacity()
+
+    # Overriding to do fewer resizes
+    def increase_capacity2(self:"DoublingVector2") -> int:
+        if (self.capacity() <= self.doubling_limit // 2):
+            self.items = self.items + self.items
+        else:
+            # If doubling limit has been reached, fall back to
+            # standard capacity increases
+            self.items = self.items + [0]
+        return self.capacity()
 
 
 # A faster (but more memory-consuming) implementation of vector

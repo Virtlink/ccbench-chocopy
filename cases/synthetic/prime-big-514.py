@@ -58,10 +58,10 @@ def is_prime4(x:int, x2:int, x3:int, x4:int) -> bool:
         div = div + 1
     return True
 
-def is_prime5(x:int, x2:int, x3:int, x4:int, x5:int) -> bool:
+def is_prime5(x:int, $ID:int, x3:int, x4:int, x5:int) -> bool:
     div:int = 2
     div2:int = 2
-    $FuncBodyMember
+    div3:int = 2
     div4:int = 2
     div5:int = 2
     while div < x:

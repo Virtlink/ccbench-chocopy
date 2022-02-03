@@ -24,10 +24,10 @@ class TreeNode(object):
             if self.left is None:
                 return False
             else:
-                return self.left.contains(x)
+                return self.left.contains($ID)
         elif x > self.value:
             if self.right is None:
-                $Statement
+                return False
             else:
                 return self.right.contains(x)
         else:

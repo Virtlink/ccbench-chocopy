@@ -1,1 +1,0 @@
-Call(Var2Exp(Var("print")),Exps2Parameters([Is(Call(Var2Exp(Var("object")),Exps2Parameters([])),Literal2Exp(NONE()))]))

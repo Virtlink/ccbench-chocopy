@@ -3,6 +3,6 @@ y:str = "123"
 z:str = "abc"
 
 for x in z:
-    print(x)
-    for x in $Literal:
+    print($ID)
+    for x in "":
         print(x)

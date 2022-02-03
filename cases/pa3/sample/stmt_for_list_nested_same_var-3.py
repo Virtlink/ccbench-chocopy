@@ -1,4 +1,4 @@
-$TypedVar = 0
+$VarDef
 y:int = 0
 z:[int] = None
 

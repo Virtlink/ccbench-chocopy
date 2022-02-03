@@ -1,7 +1,7 @@
 class A(object):
     a:int = 42
 
-    def foo(self:$IDSTRING, ignore:object) -> int:
+    def foo($TypedVar, ignore:object) -> int:
         return self.a
 
 class B(A):

@@ -785,7 +785,7 @@ class DoublingVector3(Vector):
         return self.capacity()
 
 # A faster (but more memory-consuming) implementation of vector
-class DoublingVector4(Vector):
+class DoublingVector4($ID):
     doubling_limit:int = 1000
     doubling_limit2:int = 1000
     doubling_limit3:int = 1000
@@ -866,7 +866,7 @@ class DoublingVector5(Vector):
         else:
             # If doubling limit has been reached, fall back to
             # standard capacity increases
-            self.items = $Member + [0]
+            self.items = self.items + [0]
         return self.capacity()
 
     # Overriding to do fewer resizes

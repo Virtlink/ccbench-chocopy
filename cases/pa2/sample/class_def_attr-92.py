@@ -13,8 +13,8 @@ b:B = None
 c:C = None
 
 a = A()
-b = B()
-c = C($Parameters)
+b = $ID()
+c = C()
 
 a.x = 1
 b.x = a.x

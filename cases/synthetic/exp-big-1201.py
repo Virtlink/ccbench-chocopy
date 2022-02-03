@@ -136,7 +136,7 @@ def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x
         if i <= 0:
             return geta()
         else:
-            a = a * x
+            $Var = a * x
             a2 = a * x
             a3 = a * x
             a4 = a * x
@@ -146,7 +146,7 @@ def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x
     a2 = 1
     a3 = 1
     a4 = 1
-    a5 = $INT
+    a5 = 1
     return f(y)
 
 # Input parameter

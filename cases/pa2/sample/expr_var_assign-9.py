@@ -1,4 +1,4 @@
-x:int = 1
-$Definition
+x:int = $INT
+o:object = None
 
 x = o = 42

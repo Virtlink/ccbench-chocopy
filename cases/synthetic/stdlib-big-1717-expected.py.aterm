@@ -1,1 +1,1 @@
-"char"
+TypedVar("x3",Type("str"))

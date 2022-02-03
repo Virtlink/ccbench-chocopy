@@ -1,3 +1,3 @@
 x:[int] = None
 
-print($Exp)
+$ID(x[0])

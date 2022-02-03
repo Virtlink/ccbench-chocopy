@@ -1,1 +1,1 @@
-Type("int")
+ListType(ListType(Type("int")))

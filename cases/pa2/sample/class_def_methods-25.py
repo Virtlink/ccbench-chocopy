@@ -1,8 +1,8 @@
 class A(object):
     x:int = 1
 
-    def get_A(self: "A") -> int:
-        $FuncBody
+    def get_A(self: "A") $RetType:
+        return self.x
 
 class B(A):
     def __init__(self: "B"):

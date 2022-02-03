@@ -1,4 +1,4 @@
-$TypedVar = None
+$VarDef
 
 x = []
 print(x[0])

@@ -1,6 +1,6 @@
 print(True == True)
 print(True == False)
-$ID(False == True)
+$Statement
 print(False == False)
 print(True != True)
 print(True != False)

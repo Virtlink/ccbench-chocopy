@@ -8,9 +8,9 @@ class B(A):
         print("B")
 
 a:A = None
-b:B = None
+$Definition
 
-$Statement
+a = b = B()
 print(a.a)
 print(b.a)
 print(b.b)

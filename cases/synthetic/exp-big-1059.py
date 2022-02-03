@@ -119,7 +119,7 @@ def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -
     a5 = 1
     return f(y)
 
-def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x5: int, y5: int) -> int:
+def exp5(x: int, $ID: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x5: int, y5: int) -> int:
     a: int = 0
     a2: int = 0
     a3: int = 0
@@ -130,7 +130,7 @@ def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x
         nonlocal a2
         nonlocal a3
         nonlocal a4
-        $FuncBodyMember
+        nonlocal a5
         def geta() -> int:
             return a
         if i <= 0:

@@ -1,1 +1,1 @@
-"B"
+FuncBody([],[Return(Literal2Exp(Int("1")))])

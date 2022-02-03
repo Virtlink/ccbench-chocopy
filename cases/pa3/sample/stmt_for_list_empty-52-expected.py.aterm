@@ -1,1 +1,1 @@
-"e"
+Assign([Target(Var2Target(Var("e")))],List([]))

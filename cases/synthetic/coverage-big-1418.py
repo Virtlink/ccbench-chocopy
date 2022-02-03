@@ -177,7 +177,7 @@ class bar3(object):
 
         count = count + 1
 
-        while x <= 0:
+        while $Exp <= 0:
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
@@ -189,7 +189,7 @@ class bar3(object):
 
     def baz3(self:"bar3", xx: [int], xx2: [int], xx3: [int]) -> str:
         global count
-        $FuncBodyMember
+        x:int = 0
         x2:int = 0
         x3:int = 0
         y:int = 1

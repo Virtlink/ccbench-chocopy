@@ -283,7 +283,7 @@ class bar4(object):
             nonlocal x
             nonlocal x2
             if x > y:
-                x = -1
+                $Var = -1
 
         for x in xx:
             self.p = x == 2
@@ -306,7 +306,7 @@ class bar4(object):
         global count
         x:int = 0
         x2:int = 0
-        x3:$ID = 0
+        x3:int = 0
         y:int = 1
         y2:int = 1
         y3:int = 1

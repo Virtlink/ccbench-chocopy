@@ -122,7 +122,7 @@ class Vector2(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
+            $Statement
             idx = idx + 1
 
         self.size = self.size - 1
@@ -133,7 +133,7 @@ class Vector2(object):
 
     # Retrieves an item at a given index
     def get2(self:"Vector2", idx: int, idx2: int) -> int:
-        return $Exp[idx]
+        return self.items[idx]
 
     # Retrieves the current size of the vector
     def length(self:"Vector2") -> int:

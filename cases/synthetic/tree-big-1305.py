@@ -137,7 +137,7 @@ class TreeNode3(object):
         elif x > self.value:
             if self.right is None:
                 self.right = makeNode3(x, x, x)
-                return True
+                return $Exp
             else:
                 return self.right.insert(x)
         return False
@@ -149,7 +149,7 @@ class TreeNode3(object):
                 return True
             else:
                 return self.left.insert(x)
-        elif $Exp > self.value:
+        elif x > self.value:
             if self.right is None:
                 self.right = makeNode3(x, x, x)
                 return True

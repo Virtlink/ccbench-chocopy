@@ -1,4 +1,4 @@
 x:int = 1
 while x < 10:
-    $Var(x)
+    $Statement
     x = x + 1

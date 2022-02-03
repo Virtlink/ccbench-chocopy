@@ -1,1 +1,1 @@
-Var2Exp(Var("qux"))
+Assign([Target(Var2Target(Var("x")))],Negative(Literal2Exp(Int("1"))))

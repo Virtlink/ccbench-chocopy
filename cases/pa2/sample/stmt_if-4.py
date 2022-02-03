@@ -1,5 +1,5 @@
-if False:
-    $Block
+if $Exp:
+    pass
 elif True:
     if 1 == 1:
         pass

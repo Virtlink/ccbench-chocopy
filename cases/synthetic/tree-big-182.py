@@ -17,10 +17,21 @@ class TreeNode(object):
                 return True
             else:
                 return self.right.insert(x)
-        return False
+        return $Exp
 
     def contains(self:"TreeNode", x:int) -> bool:
-        $FuncBody
+        if x < self.value:
+            if self.left is None:
+                return False
+            else:
+                return self.left.contains(x)
+        elif x > self.value:
+            if self.right is None:
+                return False
+            else:
+                return self.right.contains(x)
+        else:
+            return True
 
 
 class TreeNode2(object):

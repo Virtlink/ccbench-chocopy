@@ -1,1 +1,1 @@
-"y"
+TypedVar("self",TypeS(IdString("bar3")))

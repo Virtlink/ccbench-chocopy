@@ -5,7 +5,7 @@ print(x == y)
 print(x != y)
 print(x < y)
 print(x <= y)
-print($ID > y)
+$Var(x > y)
 print(x >= y)
 
 print(x == x)

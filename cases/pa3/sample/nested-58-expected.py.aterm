@@ -1,1 +1,1 @@
-"baz"
+Return(Var2Exp(Var("y")))

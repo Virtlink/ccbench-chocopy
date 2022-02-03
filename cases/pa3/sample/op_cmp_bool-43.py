@@ -1,7 +1,7 @@
 print(True == True)
 print(True == False)
 print(False == True)
-print(False == $Exp)
+$ID(False == False)
 print(True != True)
 print(True != False)
 print(False != True)

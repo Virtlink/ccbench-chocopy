@@ -479,7 +479,7 @@ class Vector5(object):
     items3: [int] = None
     items4: [int] = None
     items5: [int] = None
-    size: int = 0
+    $VarDef
     size2: int = 0
     size3: int = 0
     size4: int = 0
@@ -535,7 +535,11 @@ class Vector5(object):
 
     # Appends one item to end of vector
     def append(self:"Vector5", item: int) -> object:
-        $FuncBody
+        if self.size == self.capacity():
+            self.increase_capacity()
+
+        self.items[self.size] = item
+        self.size = self.size + 1
 
     # Appends one item to end of vector
     def append2(self:"Vector5", item: int, item2: int) -> object:

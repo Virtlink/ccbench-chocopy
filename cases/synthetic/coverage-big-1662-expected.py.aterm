@@ -1,1 +1,1 @@
-Not(Member2Exp(Member(Var2Exp(Var("self")),"p")))
+Var2Exp(Var("x"))

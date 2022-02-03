@@ -95,12 +95,12 @@ b3 = B()
 b4 = B()
 b5 = B()
 c = C()
-c2 = C()
+c2 = C($Parameters)
 c3 = C()
 c4 = C()
 c5 = C()
 
 a.x = 1
-b.x = a.$ID
+b.x = a.x
 c.z = a.x == b.x
 

@@ -1,1 +1,1 @@
-VarDef2ClassBodyMember(VarDef(TypedVar("doubling_limit",Type("int")),Int("1000")))
+"Vector5"

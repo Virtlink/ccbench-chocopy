@@ -906,7 +906,7 @@ def vrange2(i:int, j:int, i2:int, j2:int) -> Vector:
     v2:Vector = None
     v = DoublingVector()
     
-    while i < j:
+    while $ID < j:
         v.append(i)
         i = i + 1
 
@@ -990,7 +990,7 @@ def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
     i2:int = 0
     i3:int = 0
     j:int = 0
-    $FuncBodyMember
+    j2:int = 0
     j3:int = 0
     k:int = 0
     k2:int = 0

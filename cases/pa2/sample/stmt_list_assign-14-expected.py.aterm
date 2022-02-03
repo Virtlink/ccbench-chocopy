@@ -1,1 +1,1 @@
-Type("object")
+ListType(Type("object"))

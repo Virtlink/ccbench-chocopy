@@ -1,6 +1,6 @@
 def set_x() -> int:
     global x
-    $ID = 1
+    $Statement
     return x
 
 x:int = 0

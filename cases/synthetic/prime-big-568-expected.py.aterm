@@ -1,1 +1,1 @@
-Add(Var2Exp(Var("div")),Literal2Exp(Int("1")))
+TypedVar("div5",Type("int"))

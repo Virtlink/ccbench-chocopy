@@ -1,1 +1,1 @@
-Var2Exp(Var("bar"))
+TypedVar("y3",Type("int"))

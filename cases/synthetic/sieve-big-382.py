@@ -41,7 +41,7 @@ class Vector(object):
         self.size = self.size - 1
 
     # Retrieves an item at a given index
-    def get(self:"Vector", idx: int) -> int:
+    def get(self:"Vector", idx: int) -> $Type:
         return self.items[idx]
 
     # Retrieves the current size of the vector
@@ -50,7 +50,7 @@ class Vector(object):
 
 # A resizable list of integers
 class Vector2(object):
-    $ClassBodyMember
+    items: [int] = None
     items2: [int] = None
     size: int = 0
     size2: int = 0

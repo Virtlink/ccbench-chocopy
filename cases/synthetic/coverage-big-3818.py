@@ -473,7 +473,7 @@ class bar5(object):
 
     def baz3(self:"bar5", xx: [int], xx2: [int], xx3: [int]) -> str:
         global count
-        x:int = 0
+        $ID:int = 0
         x2:int = 0
         x3:int = 0
         y:int = 1
@@ -515,7 +515,7 @@ class bar5(object):
 
         return "Nope"
 
-    def baz4(self:"bar5", xx: [int], xx2: [int], xx3: [int], xx4: [$Type]) -> str:
+    def baz4(self:"bar5", xx: [int], xx2: [int], xx3: [int], xx4: [int]) -> str:
         global count
         x:int = 0
         x2:int = 0

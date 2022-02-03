@@ -1,1 +1,1 @@
-Block([Assign([Target(Var2Target(Var("digit")))],Literal2Exp(Int("1")))])
+VarDef2FuncBodyMember(VarDef(TypedVar("digit4",Type("int")),Int("0")))

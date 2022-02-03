@@ -1,1 +1,1 @@
-VarDef2ClassBodyMember(VarDef(TypedVar("items5",ListType(Type("int"))),NONE()))
+Int("1")

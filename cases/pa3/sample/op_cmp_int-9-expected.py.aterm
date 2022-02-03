@@ -1,1 +1,1 @@
-VarDef2Definition(VarDef(TypedVar("y",Type("int")),Int("7")))
+"42"

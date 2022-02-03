@@ -1,1 +1,1 @@
-VarDef(TypedVar("digit",Type("int")),Int("0"))
+"str"

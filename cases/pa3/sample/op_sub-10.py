@@ -1,1 +1,1 @@
-print($INT - 100)
+print($Exp)

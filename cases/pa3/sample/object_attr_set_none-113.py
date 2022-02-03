@@ -14,6 +14,6 @@ a = B()
 print(a.a)
 
 b.a = 1
-b.b = False
-print(b.$ID)
+b.b = $Exp
+print(b.a)
 print(b.b)

@@ -1,1 +1,1 @@
-Var2Exp(Var("int_to_str"))
+Literal2Exp(String("\"7\""))

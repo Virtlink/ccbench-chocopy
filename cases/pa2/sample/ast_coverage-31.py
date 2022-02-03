@@ -1,9 +1,9 @@
 count:int = 0
 
 def foo(s: str) -> int:
-    return len(s)
+    return len($Exp)
 
-class $ID(object):
+class bar(object):
     p: bool = True
 
     def baz(self:"bar", xx: [int]) -> str:

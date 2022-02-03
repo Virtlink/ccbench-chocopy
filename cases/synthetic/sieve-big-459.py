@@ -55,12 +55,11 @@ class Vector2(object):
     size: int = 0
     size2: int = 0
 
-    def __init__(self:"Vector2"):
-        self.items = [0]
+    $ClassBodyMember
 
     # Returns current capacity
     def capacity(self:"Vector2") -> int:
-        return len(self.$ID)
+        return len(self.items)
 
     # Returns current capacity
     def capacity2(self:"Vector2") -> int:

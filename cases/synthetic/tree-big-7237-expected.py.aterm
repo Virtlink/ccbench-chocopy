@@ -1,1 +1,1 @@
-VarDef2FuncBodyMember(VarDef(TypedVar("b4",Type("TreeNode4")),NONE()))
+Var2Exp(Var("self"))

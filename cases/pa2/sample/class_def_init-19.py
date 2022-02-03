@@ -1,8 +1,9 @@
 class A(object):
     x:int = 1
 
-class B(A):
-    $ClassBodyMember
+class B($ID):
+    def __init__(self: "B"):
+        pass
 
 class C(B):
     z:bool = True

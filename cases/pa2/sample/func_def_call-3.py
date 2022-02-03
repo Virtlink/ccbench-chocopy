@@ -1,5 +1,4 @@
-def $ID(x:str, y:bool) -> int:
-    return bar()
+$FuncDef
 
 def bar() -> int:
     return 1

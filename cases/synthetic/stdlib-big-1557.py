@@ -181,7 +181,7 @@ def str_to_int2(x: str, x2: str) -> int:
             digit = 3
         elif char == "3":
             digit = 3
-        elif char == "4":
+        elif char == $Literal:
             digit = 4
         elif char == "5":
             digit = 5
@@ -196,7 +196,7 @@ def str_to_int2(x: str, x2: str) -> int:
         else:
             return 0 # On error
         first_char = False
-        $AssignTarget result * 10 + digit
+        result = result * 10 + digit
 
     # Compute result
     return result * sign

@@ -360,7 +360,7 @@ class Vector4(object):
 
     # Appends one item to end of vector
     def append4(self:"Vector4", item: int, item2: int, item3: int, item4: int) -> object:
-        if self.size == self.capacity():
+        if self.size == self.$ID():
             self.increase_capacity()
 
         self.items[self.size] = item
@@ -398,7 +398,14 @@ class Vector4(object):
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector4", idx: int) -> object:
-        $FuncBody
+        if idx < 0:
+            return
+
+        while idx < self.size - 1:
+            self.items[idx] = self.items[idx + 1]
+            idx = idx + 1
+
+        self.size = self.size - 1
 
     # Removes an item from the middle of vector
     def remove_at2(self:"Vector4", idx: int, idx2: int) -> object:

@@ -22,8 +22,9 @@ def is_prime(x:int) -> bool:
 n:int = 15
 
 # Run [1, n]
-i:int = 1
+$Definition
 
 # Crunch
 while i <= n:
-    $Block
+    print(get_prime(i))
+    i = i + 1

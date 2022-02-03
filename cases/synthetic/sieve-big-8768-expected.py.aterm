@@ -1,1 +1,1 @@
-Var("v")
+VarDef(TypedVar("k",Type("int")),Int("0"))

@@ -55,7 +55,7 @@ def str_to_int(x: str) -> int:
         else:
             return 0 # On error
         first_char = False
-        result = result * 10 + digit
+        result = $Exp + digit
 
     # Compute result
     return result * sign
@@ -66,7 +66,7 @@ n:int = 10
 
 # Run [-nc, nc] with step size c
 s:str = ""
-$ID:int = 0
+i:int = 0
 i = -n * c
 
 # Crunch

@@ -1,6 +1,6 @@
 x:[int] = None
 y:int = 0
-$VarDef
+$Definition
 o:object = None
 
 x = [1, 2, 3]

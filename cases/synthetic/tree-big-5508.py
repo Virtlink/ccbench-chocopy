@@ -558,9 +558,7 @@ class Tree3(object):
         if self.root is None:
             self.root = makeNode3(x, x, x)
             self.size = 1
-        else:
-            if self.root.insert(x):
-                self.size = self.size + 1
+        $ElifElse
 
     def insert2(self:"Tree3", x:int, x2:int) -> object:
         if self.root is None:
@@ -607,7 +605,7 @@ class Tree4(object):
     size3:int = 0
     size4:int = 0
 
-    def insert(self:"Tree4", x:int) -> $ID:
+    def insert(self:"Tree4", x:int) -> object:
         if self.root is None:
             self.root = makeNode4(x, x, x, x)
             self.size = 1

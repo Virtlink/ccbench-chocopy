@@ -1,1 +1,1 @@
-Exps2Parameters([Var2Exp(Var("x"))])
+VarDef2ClassBodyMember(VarDef(TypedVar("size2",Type("int")),Int("0")))

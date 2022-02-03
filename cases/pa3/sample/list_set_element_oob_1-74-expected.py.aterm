@@ -1,1 +1,1 @@
-Var2Exp(Var("x"))
+Call(Var2Exp(Var("print")),Exps2Parameters([Index2Exp(Index(Var2Exp(Var("x")),Literal2Exp(Int("2"))))]))

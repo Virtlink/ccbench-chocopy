@@ -152,7 +152,7 @@ class bar3(object):
         return "Nope"
 
 
-    def baz2(self:"bar3", xx: [int], xx2: [int]) -> str:
+    def baz2(self:$Type, xx: [int], xx2: [int]) -> str:
         global count
         x:int = 0
         x2:int = 0
@@ -168,7 +168,7 @@ class bar3(object):
             nonlocal x
             nonlocal x2
             if x > y:
-                $Statement
+                x = -1
 
         for x in xx:
             self.p = x == 2

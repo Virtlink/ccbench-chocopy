@@ -302,7 +302,7 @@ class TreeNode4(object):
         else:
             return True
 
-    def contains3(self:"TreeNode4", x:int, x2:int, x3:int) -> bool:
+    def contains3(self:"TreeNode4", x:$ID, x2:int, x3:int) -> bool:
         if x < self.value:
             if self.left is None:
                 return False
@@ -334,7 +334,7 @@ class TreeNode5(object):
     value:int = 0
     value2:int = 0
     value3:int = 0
-    $ClassBodyMember
+    value4:int = 0
     value5:int = 0
     left:"TreeNode5" = None
     left2:"TreeNode5" = None

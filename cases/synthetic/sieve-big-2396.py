@@ -265,7 +265,7 @@ class Vector3(object):
         return self.items[idx]
 
     # Retrieves an item at a given index
-    def get2(self:"Vector3", idx: int, idx2: int) -> int:
+    def get2(self:"Vector3", idx: int, idx2: int) -> $ID:
         return self.items[idx]
 
     # Retrieves an item at a given index
@@ -303,7 +303,7 @@ class Vector4(object):
         return len(self.items)
 
     # Returns current capacity
-    def capacity2(self:$Type) -> int:
+    def capacity2(self:"Vector4") -> int:
         return len(self.items)
 
     # Returns current capacity

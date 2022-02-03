@@ -1,4 +1,4 @@
-def concat(x:[int], y:[int]) -> [$Type]:
+def concat(x:[int], y:[int]) $RetType:
     return x + y
 
 z:[int] = None

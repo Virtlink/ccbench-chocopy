@@ -153,7 +153,7 @@ def str_to_int(x: str) -> int:
     return result * sign
 
 
-def str_to_int2(x: str, x2: str) -> int:
+def str_to_int2(x: str, x2: $Type) -> int:
     result:int = 0
     result2:int = 0
     digit:int = 0
@@ -167,7 +167,7 @@ def str_to_int2(x: str, x2: str) -> int:
 
     # Parse digits
     for char in x:
-        if $ID == "-":
+        if char == "-":
             if not first_char:
                 return 0 # Error
             sign = -1

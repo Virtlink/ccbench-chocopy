@@ -2,7 +2,7 @@
 
 s: str = ""
 
-$ID = input()
+$AssignTarget input()
 while len(s) > 0:
     print(s)
     s = input()

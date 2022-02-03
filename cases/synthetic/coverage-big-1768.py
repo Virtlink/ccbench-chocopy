@@ -219,7 +219,7 @@ class bar3(object):
 
         qux(0) # Yay! ChocoPy
 
-        count = count + 1
+        count = $Exp
 
         while x <= 0:
             if self.p:
@@ -240,7 +240,7 @@ class bar4(object):
     p4: bool = True
 
     def baz(self:"bar4", xx: [int]) -> str:
-        $FuncBodyMember
+        global count
         x:int = 0
         y:int = 1
 

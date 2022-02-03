@@ -11,7 +11,7 @@ def g() -> object:
     print("end g")
 
 def h() -> object:
-    print("start h")
+    $ID("start h")
     print("end h")
 
-$Exp(f())
+print(f())

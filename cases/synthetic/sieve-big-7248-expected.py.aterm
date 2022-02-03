@@ -1,1 +1,1 @@
-Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"items")))],Add(Member2Exp(Member(Var2Exp(Var("self")),"items")),List([Literal2Exp(Int("0"))])))
+Var2Exp(Var("self"))

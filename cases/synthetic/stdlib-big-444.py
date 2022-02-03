@@ -49,12 +49,12 @@ def int_to_str3(x: int, x2: int, x3: int) -> str:
     digits = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
     # Write sign if necessary
-    if x < 0:
+    if $Exp < 0:
         result = "-"
         x = -x
 
     # Write digits using a recursive call
-    if x >= $Literal:
+    if x >= 10:
         result = result + int_to_str(x // 10)
     result = result + digits[x % 10]
     return result

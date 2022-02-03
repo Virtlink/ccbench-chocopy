@@ -1,2 +1,0 @@
-$Definition
-x * 1

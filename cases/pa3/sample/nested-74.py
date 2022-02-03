@@ -6,6 +6,6 @@ def foo(x: int) -> int:
         def baz() -> int:
             return y
         return baz()
-    return bar()
+    return $Var()
     
-print($Var(g))
+print(foo(g))

@@ -41,10 +41,10 @@ class bar(object):
 
         while x <= 0:
             if self.p:
-                xx[0] = xx[1]
+                xx[0] = xx[$Literal]
                 self.p = not self.p
                 x = x + 1
-            elif foo($Index) == 1:
+            elif foo("Long"[0]) == 1:
                 self.p = self is None
 
         return "Nope"

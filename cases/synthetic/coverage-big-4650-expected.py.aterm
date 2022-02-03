@@ -1,1 +1,1 @@
-Member2Target(Member(Var2Exp(Var("self")),"p"))
+VarDef2FuncBodyMember(VarDef(TypedVar("x5",Type("int")),Int("0")))

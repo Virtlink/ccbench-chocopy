@@ -1,1 +1,1 @@
-Var2Exp(Var("result"))
+Target(Var2Target(Var("digit")))

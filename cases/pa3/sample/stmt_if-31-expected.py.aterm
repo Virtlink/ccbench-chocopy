@@ -1,1 +1,1 @@
-Else(Block([PassStmt()]))
+Var("print")

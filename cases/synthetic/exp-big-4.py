@@ -1,5 +1,5 @@
 # Compute x**y
-def exp($TypedVar, y: int) -> int:
+def $ID(x: int, y: int) -> int:
     a: int = 0
     a2: int = 0
     a3: int = 0

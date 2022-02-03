@@ -1,1 +1,1 @@
-Assign([Target(Var2Target(Var("a"))),Target(Var2Target(Var("b")))],Call(Var2Exp(Var("B")),Exps2Parameters([])))
+Returns(Type("bool"))

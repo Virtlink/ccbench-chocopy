@@ -1,1 +1,1 @@
-Type("object")
+Member2Exp(Member(Var2Exp(Var("self")),"items"))

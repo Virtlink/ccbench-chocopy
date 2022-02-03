@@ -1,1 +1,1 @@
-IdString("TreeNode3")
+Member2Exp(Member(Member2Exp(Member(Var2Exp(Var("self")),"right")),"insert"))

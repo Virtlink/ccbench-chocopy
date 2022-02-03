@@ -1,1 +1,1 @@
-"i"
+VarDef(TypedVar("doubling_limit4",Type("int")),Int("1000"))

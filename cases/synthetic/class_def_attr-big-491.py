@@ -82,12 +82,12 @@ c:C = None
 c2:C = None
 c3:C = None
 c4:C = None
-c5:C = None
+c5:C = $Literal
 
 a = A()
 a2 = A()
 a3 = A()
-$Statement
+a4 = A()
 a5 = A()
 b = B()
 b2 = B()

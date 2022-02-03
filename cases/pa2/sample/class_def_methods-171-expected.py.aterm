@@ -1,1 +1,1 @@
-Exp(Call(Member2Exp(Member(Var2Exp(Var("c")),"set_A")),Exps2Parameters([Literal2Exp(Int("0"))])))
+Member(Var2Exp(Var("a")),"get_A")

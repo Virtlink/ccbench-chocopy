@@ -1,1 +1,1 @@
-List([Literal2Exp(Int("1")),Literal2Exp(Int("2"))])
+VarDef2FuncBodyMember(VarDef(TypedVar("y4",Type("int")),Int("1")))

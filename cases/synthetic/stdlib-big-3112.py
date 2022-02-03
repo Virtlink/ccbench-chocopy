@@ -376,7 +376,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
     return result * sign
         
 # Input parameters
-c:int = 42
+$Definition
 c2:int = 42
 c3:int = 42
 c4:int = 42
@@ -404,5 +404,5 @@ i = -n * c
 while i <= n * c:
     s = int_to_str(i)
     print(s)
-    i = str_to_int($ID) + c
+    i = str_to_int(s) + c
 

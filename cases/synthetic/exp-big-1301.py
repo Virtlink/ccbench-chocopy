@@ -144,7 +144,7 @@ def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x
             return f(i-1)
     a = 1
     a2 = 1
-    a3 = 1
+    a3 = $Exp
     a4 = 1
     a5 = 1
     return f(y)
@@ -165,5 +165,5 @@ i5:int = 0
 
 # Crunch
 while i <= n:
-    $Exp
+    print(exp(2, i % 31))
     i = i + 1

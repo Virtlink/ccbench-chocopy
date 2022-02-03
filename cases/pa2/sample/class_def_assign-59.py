@@ -9,8 +9,8 @@ class C(B):
     z:bool = True
 
 a:A = None
-b:B = None
-$ID:C = None
+$ID:B = None
+c:C = None
 
 a = A()
 a = B()

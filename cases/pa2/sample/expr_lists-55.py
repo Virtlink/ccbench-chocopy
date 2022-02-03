@@ -4,8 +4,8 @@ z:[bool] = None
 o:object = None
 
 x = [1, 2, 3]
-x = []
-$Target = [1, True]
+$Var = []
+y = [1, True]
 z = [False, True]
 x = None
 o = x

@@ -1,1 +1,1 @@
-Is(Member2Exp(Member(Var2Exp(Var("self")),"left")),Literal2Exp(NONE()))
+VarDef2ClassBodyMember(VarDef(TypedVar("value3",Type("int")),Int("0")))

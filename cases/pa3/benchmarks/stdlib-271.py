@@ -32,10 +32,10 @@ def str_to_int(x: str) -> int:
             sign = -1
         elif char == "0":
             digit = 0
-        elif char == "1":
+        elif $Var == "1":
             digit = 1
         elif char == "2":
-            $Block
+            digit = 2
         elif char == "3":
             digit = 3
         elif char == "3":

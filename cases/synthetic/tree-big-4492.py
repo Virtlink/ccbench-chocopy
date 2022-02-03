@@ -451,7 +451,7 @@ class TreeNode5(object):
             return True
 
     def contains3(self:"TreeNode5", x:int, x2:int, x3:int) -> bool:
-        if x < self.value:
+        if $Exp:
             if self.left is None:
                 return False
             else:
@@ -498,7 +498,8 @@ class Tree(object):
 
     def insert(self:"Tree", x:int) -> object:
         if self.root is None:
-            $Block
+            self.root = makeNode(x)
+            self.size = 1
         else:
             if self.root.insert(x):
                 self.size = self.size + 1

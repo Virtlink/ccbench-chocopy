@@ -1,1 +1,1 @@
-Call(Member2Exp(Member(Member2Exp(Member(Var2Exp(Var("self")),"right")),"insert")),Exps2Parameters([Var2Exp(Var("x"))]))
+Else(Block([Return(Literal2Exp(True()))]))

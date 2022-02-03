@@ -523,7 +523,7 @@ class bar5(object):
         x4:int = 0
         y:int = 1
         y2:int = 1
-        y3:int = 1
+        $VarDef
         y4:int = 1
 
         def qux(y: int) -> object:
@@ -570,7 +570,7 @@ class bar5(object):
         return "Nope"
 
     def baz5(self:"bar5", xx: [int], xx2: [int], xx3: [int], xx4: [int], xx5: [int]) -> str:
-        $FuncBodyMember
+        global count
         x:int = 0
         x2:int = 0
         x3:int = 0

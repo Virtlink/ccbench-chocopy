@@ -1,1 +1,1 @@
-Var2Exp(Var("j"))
+Member(Var2Exp(Var("self")),"items")

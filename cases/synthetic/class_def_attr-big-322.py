@@ -56,13 +56,13 @@ class C3(B):
     z3:bool = True
 
 class C4(B):
-    z:bool = True
+    z:$Type = True
     z2:bool = True
     z3:bool = True
     z4:bool = True
 
 class C5(B):
-    $VarDef
+    z:bool = True
     z2:bool = True
     z3:bool = True
     z4:bool = True

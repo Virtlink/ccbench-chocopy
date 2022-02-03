@@ -1,1 +1,1 @@
-Literal2Exp(NONE())
+Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"size")))],Add(Member2Exp(Member(Var2Exp(Var("self")),"size")),Literal2Exp(Int("1"))))

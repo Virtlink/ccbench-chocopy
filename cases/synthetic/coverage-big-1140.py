@@ -142,7 +142,7 @@ class bar3(object):
         count = count + 1
 
         while x <= 0:
-            if self.p:
+            if $Var.p:
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
@@ -152,7 +152,7 @@ class bar3(object):
         return "Nope"
 
 
-    def baz2(self:"bar3", xx: [int], xx2: [$Type]) -> str:
+    def baz2(self:"bar3", xx: [int], xx2: [int]) -> str:
         global count
         x:int = 0
         x2:int = 0

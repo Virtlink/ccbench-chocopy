@@ -1,1 +1,1 @@
-Call(Var2Exp(Var("print")),Exps2Parameters([Var2Exp(Var("i"))]))
+Else(Block([Return(Call(Member2Exp(Member(Member2Exp(Member(Var2Exp(Var("self")),"root")),"contains")),Exps2Parameters([Var2Exp(Var("x"))])))]))

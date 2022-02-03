@@ -402,7 +402,7 @@ class bar4(object):
 
 
 class bar5(object):
-    p: bool = True
+    p: $Type = True
     p2: bool = True
     p3: bool = True
     p4: bool = True
@@ -439,7 +439,7 @@ class bar5(object):
     def baz2(self:"bar5", xx: [int], xx2: [int]) -> str:
         global count
         x:int = 0
-        x2:int = $Literal
+        x2:int = 0
         y:int = 1
         y2:int = 1
 

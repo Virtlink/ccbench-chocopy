@@ -1,1 +1,1 @@
-Var("result")
+Var2Exp(Var("char"))

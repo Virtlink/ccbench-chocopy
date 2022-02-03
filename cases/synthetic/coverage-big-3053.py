@@ -380,7 +380,7 @@ class bar4(object):
             nonlocal x2
             nonlocal x3
             nonlocal x4
-            if x > y:
+            if $Exp:
                 x = -1
 
         for x in xx:
@@ -416,7 +416,7 @@ class bar5(object):
         def qux(y: int) -> object:
             nonlocal x
             if x > y:
-                x = $Exp
+                x = -1
 
         for x in xx:
             self.p = x == 2

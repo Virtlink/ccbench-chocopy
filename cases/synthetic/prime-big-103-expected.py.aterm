@@ -1,1 +1,1 @@
-VarDef(TypedVar("div2",Type("int")),Int("2"))
+"bool"

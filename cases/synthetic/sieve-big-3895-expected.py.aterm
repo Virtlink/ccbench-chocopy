@@ -1,1 +1,1 @@
-VarDef(TypedVar("size",Type("int")),Int("0"))
+IdString("Vector4")

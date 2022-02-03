@@ -4,7 +4,7 @@ def foo(x: int) -> int:
     def bar() -> int:
         z: int = 3
         def baz() -> int:
-            return qux($Parameters)
+            $FuncBody
         return baz()
     def qux(p: int) -> int:
         return p

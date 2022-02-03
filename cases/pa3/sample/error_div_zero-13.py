@@ -1,1 +1,1 @@
-print(42 // $INT)
+print($INT // 0)

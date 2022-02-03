@@ -1,5 +1,5 @@
 a:str = "Hello"
-$TypedVar = "World"
+$VarDef
 c:str = "ChocoPy"
 
 def cat2(a:str, b:str) -> str:

@@ -298,7 +298,7 @@ class bar4(object):
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
-                self.p = self is None
+                $Statement
 
         return "Nope"
 
@@ -329,7 +329,7 @@ class bar4(object):
             if x > y:
                 x = -1
 
-        for x in $Var:
+        for x in xx:
             self.p = x == 2
 
         qux(0) # Yay! ChocoPy

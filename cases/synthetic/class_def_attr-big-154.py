@@ -23,8 +23,8 @@ class A5(object):
     x4:int = 1
     x5:int = 1
 
-class B(A):
-    def __init__($TypedVar):
+class $ID(A):
+    def __init__(self: "B"):
         pass
 
 class B2(A):

@@ -31,9 +31,9 @@ def str_to_int(x: str) -> int:
                 return 0 # Error
             sign = -1
         elif char == "0":
-            digit = 0
+            $Statement
         elif char == "1":
-            $ID = 1
+            digit = 1
         elif char == "2":
             digit = 2
         elif char == "3":

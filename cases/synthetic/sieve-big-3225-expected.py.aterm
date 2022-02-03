@@ -1,1 +1,1 @@
-Returns(Type("object"))
+Var2Exp(Var("self"))

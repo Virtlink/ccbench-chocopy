@@ -10,7 +10,7 @@ print(x >= y)
 
 print(x == x)
 print(x != x)
-print(x < x)
-$Statement
+$Var(x < x)
+print(x <= x)
 print(x > x)
 print(x >= x)

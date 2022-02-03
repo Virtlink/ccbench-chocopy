@@ -1,1 +1,1 @@
-Var2Exp(Var("z"))
+Assign([Target(Var2Target(Var("o")))],Var2Exp(Var("z")))

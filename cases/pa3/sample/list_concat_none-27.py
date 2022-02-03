@@ -1,4 +1,4 @@
 x:[int] = None
 y:[int] = None
 
-print(len($Parameters))
+print($Exp(x+y))

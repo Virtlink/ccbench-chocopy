@@ -1,1 +1,1 @@
-String("\"Long\"")
+Var2Target(Var("x"))

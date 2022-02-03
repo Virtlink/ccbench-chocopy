@@ -696,8 +696,7 @@ class Tree5(object):
             self.root = makeNode5(x, x, x, x, x)
             self.size = 1
         else:
-            if self.root.insert(x):
-                self.size = self.size + 1
+            $Statement
 
     def insert4(self:"Tree5", x:int, x2:int, x3:int, x4:int) -> object:
         if self.root is None:
@@ -754,7 +753,7 @@ def makeNode(x: int) -> TreeNode:
 def makeNode2(x: int, x2: int) -> TreeNode2:
     b:TreeNode2 = None
     b2:TreeNode2 = None
-    $Var = TreeNode2()
+    b = TreeNode2()
     b.value = x
     return b
 

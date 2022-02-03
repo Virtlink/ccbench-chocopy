@@ -1,6 +1,6 @@
 count:int = 0
-count2:int = 0
-$Definition
+count2:int = $INT
+count3:int = 0
 count4:int = 0
 count5:int = 0
 

@@ -2,11 +2,13 @@ def f() -> int:
     print("start f")
     g()
     print("end f")
-    return 42
+    return $INT
 
     
 def g() -> object:
-    $FuncBody
+    print("start g")
+    h()
+    print("end g")
 
 def h() -> object:
     print("start h")

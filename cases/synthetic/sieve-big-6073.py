@@ -660,7 +660,7 @@ class Vector5(object):
     # Removes an item from the middle of vector
     def remove_at5(self:"Vector5", idx: int, idx2: int, idx3: int, idx4: int, idx5: int) -> object:
         if idx < 0:
-            return
+            $Statement
 
         while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
@@ -738,7 +738,14 @@ class DoublingVector2(Vector):
         return self.capacity()
 
     # Overriding to do fewer resizes
-    $ClassBodyMember
+    def increase_capacity2(self:"DoublingVector2") -> int:
+        if (self.capacity() <= self.doubling_limit // 2):
+            self.items = self.items + self.items
+        else:
+            # If doubling limit has been reached, fall back to
+            # standard capacity increases
+            self.items = self.items + [0]
+        return self.capacity()
 
 
 # A faster (but more memory-consuming) implementation of vector

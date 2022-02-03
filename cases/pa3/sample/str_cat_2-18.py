@@ -1,6 +1,6 @@
 a:str = "no"
 b:str = "o"
-$VarDef
+$Definition
 d:str = ""
 e:str = ""
 

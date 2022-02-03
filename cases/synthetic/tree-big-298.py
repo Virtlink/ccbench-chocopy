@@ -31,13 +31,13 @@ class TreeNode(object):
             else:
                 return self.right.contains(x)
         else:
-            return True
+            $Block
 
 
 class TreeNode2(object):
     value:int = 0
     value2:int = 0
-    $ID:"TreeNode2" = None
+    left:"TreeNode2" = None
     left2:"TreeNode2" = None
     right:"TreeNode2" = None
     right2:"TreeNode2" = None

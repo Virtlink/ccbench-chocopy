@@ -1,1 +1,1 @@
-FuncBody([VarDef2FuncBodyMember(VarDef(TypedVar("item",Type("int")),Int("0"))),VarDef2FuncBodyMember(VarDef(TypedVar("item2",Type("int")),Int("0"))),VarDef2FuncBodyMember(VarDef(TypedVar("item3",Type("int")),Int("0"))),VarDef2FuncBodyMember(VarDef(TypedVar("item4",Type("int")),Int("0"))),VarDef2FuncBodyMember(VarDef(TypedVar("item5",Type("int")),Int("0")))],[For("item",Var2Exp(Var("new_items")),Block([Exp(Call(Member2Exp(Member(Var2Exp(Var("self")),"append")),Exps2Parameters([Var2Exp(Var("item"))])))]))])
+Literal2Exp(Int("1"))

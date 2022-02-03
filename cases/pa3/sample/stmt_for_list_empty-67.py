@@ -7,6 +7,5 @@ z = [1,2,3]
 e = []
 
 for x in z:
-    for y in e:
-        $Exp
+    $Statement
     print(x)

@@ -1,1 +1,1 @@
-Var2Exp(Var("self"))
+Var("self")

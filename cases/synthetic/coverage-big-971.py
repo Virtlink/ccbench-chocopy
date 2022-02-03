@@ -113,7 +113,7 @@ class bar2(object):
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
-                self.p = self is None
+                self.p = $Var is None
 
         return "Nope"
 
@@ -131,7 +131,7 @@ class bar3(object):
 
         def qux(y: int) -> object:
             nonlocal x
-            if x > $Var:
+            if x > y:
                 x = -1
 
         for x in xx:

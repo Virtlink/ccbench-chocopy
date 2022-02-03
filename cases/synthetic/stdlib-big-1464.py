@@ -172,7 +172,7 @@ def str_to_int2(x: str, x2: str) -> int:
                 return 0 # Error
             sign = -1
         elif char == "0":
-            digit = 0
+            $Block
         elif char == "1":
             digit = 1
         elif char == "2":
@@ -183,7 +183,7 @@ def str_to_int2(x: str, x2: str) -> int:
             digit = 3
         elif char == "4":
             digit = 4
-        elif char == $Literal:
+        elif char == "5":
             digit = 5
         elif char == "6":
             digit = 6

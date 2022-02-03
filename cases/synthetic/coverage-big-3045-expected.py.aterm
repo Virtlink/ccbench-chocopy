@@ -1,1 +1,1 @@
-Var("y")
+Nonlocal("x2")

@@ -1,4 +1,4 @@
 x:[int] = None
 
 x = []
-x[0] = $Exp
+$Var[0] = 4

@@ -1,4 +1,5 @@
 x:int = 0
-z:[int] = None
+z:[int] = $Literal
 
-$Statement
+for x in z:
+    print(x)

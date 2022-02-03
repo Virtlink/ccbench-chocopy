@@ -1,1 +1,1 @@
-TypedVar("idx",Type("int"))
+TypedVar("idx2",Type("int"))

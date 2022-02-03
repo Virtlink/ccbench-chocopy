@@ -12,5 +12,5 @@ print(x == x)
 print(x != x)
 print(x < x)
 print(x <= x)
-print(x > x)
-$Exp
+$Exp(x > x)
+print(x >= x)

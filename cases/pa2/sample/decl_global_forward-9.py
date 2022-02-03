@@ -1,7 +1,5 @@
 def set_x() -> int:
-    global $ID
-    x = 1
-    return x
+    $FuncBody
 
 x:int = 0
 

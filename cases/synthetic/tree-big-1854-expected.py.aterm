@@ -1,1 +1,1 @@
-Var("makeNode4")
+Var2Exp(Var("self"))

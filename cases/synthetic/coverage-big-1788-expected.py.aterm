@@ -1,1 +1,1 @@
-"qux"
+Var2Exp(Var("self"))

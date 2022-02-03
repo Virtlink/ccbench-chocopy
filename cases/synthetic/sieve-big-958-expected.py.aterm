@@ -1,1 +1,1 @@
-Var("idx")
+Member(Var2Exp(Var("self")),"size")

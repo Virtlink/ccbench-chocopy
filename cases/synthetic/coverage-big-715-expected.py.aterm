@@ -1,1 +1,1 @@
-"qux2"
+VarDef2FuncBodyMember(VarDef(TypedVar("x",Type("int")),Int("0")))

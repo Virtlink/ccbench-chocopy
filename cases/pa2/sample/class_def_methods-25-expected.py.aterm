@@ -1,1 +1,1 @@
-FuncBody([],[Return(Member2Exp(Member(Var2Exp(Var("self")),"x")))])
+Returns(Type("int"))

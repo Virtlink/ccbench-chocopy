@@ -1,1 +1,1 @@
-Add(Var2Exp(Var("count")),Literal2Exp(Int("1")))
+VarDef(TypedVar("x3",Type("int")),Int("0"))

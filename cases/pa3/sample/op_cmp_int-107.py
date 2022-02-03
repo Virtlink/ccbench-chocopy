@@ -8,7 +8,7 @@ print(x <= y)
 print(x > y)
 print(x >= y)
 
-print(x == $ID)
+$ID(x == x)
 print(x != x)
 print(x < x)
 print(x <= x)

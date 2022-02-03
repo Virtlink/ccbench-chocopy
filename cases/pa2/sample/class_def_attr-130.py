@@ -17,6 +17,6 @@ b = B()
 c = C()
 
 a.x = 1
-b.x = a.x
-c.z = $Var.x == b.x
+b.x = $Exp.x
+c.z = a.x == b.x
 

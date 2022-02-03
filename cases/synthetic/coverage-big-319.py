@@ -35,13 +35,13 @@ class bar(object):
         for x in xx:
             self.p = x == 2
 
-        qux(0) # Yay! ChocoPy
+        qux($Exp) # Yay! ChocoPy
 
         count = count + 1
 
         while x <= 0:
             if self.p:
-                $AssignTarget xx[1]
+                xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:

@@ -1,1 +1,1 @@
-Target(Var2Target(Var("digit")))
+Not(Var2Exp(Var("first_char")))

@@ -51,13 +51,13 @@ class bar(object):
 
 
 class bar2(object):
-    p: bool = True
+    $TypedVar = True
     p2: bool = True
 
     def baz(self:"bar2", xx: [int]) -> str:
         global count
         x:int = 0
-        y:$Type = 1
+        y:int = 1
 
         def qux(y: int) -> object:
             nonlocal x

@@ -1,1 +1,1 @@
-VarDef(TypedVar("next",Type("int")),Int("0"))
+VarDef2Definition(VarDef(TypedVar("next",Type("int")),Int("0")))

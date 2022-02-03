@@ -1,1 +1,1 @@
-"Vector2"
+VarDef(TypedVar("item",Type("int")),Int("0"))

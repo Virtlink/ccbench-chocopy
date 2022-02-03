@@ -63,12 +63,12 @@ class C4(B):
 
 class C5(B):
     z:bool = True
-    z2:bool = True
+    $ID:bool = True
     z3:bool = True
     z4:bool = True
     z5:bool = True
 
-a:A = $Literal
+a:A = None
 a2:A = None
 a3:A = None
 a4:A = None

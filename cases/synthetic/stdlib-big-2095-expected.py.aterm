@@ -1,1 +1,1 @@
-TypedVar("sign",Type("int"))
+Literal2Exp(Int("0"))

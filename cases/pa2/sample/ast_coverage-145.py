@@ -19,9 +19,9 @@ class bar(object):
         for x in xx:
             self.p = x == 2
 
-        qux(0) # Yay! ChocoPy
+        $Exp # Yay! ChocoPy
 
-        count = $ID + 1
+        count = count + 1
 
         while x <= 0:
             if self.p:

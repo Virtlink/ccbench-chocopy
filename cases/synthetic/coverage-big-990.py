@@ -120,7 +120,7 @@ class bar2(object):
 
 
 class bar3(object):
-    p: bool = True
+    p: $ID = True
     p2: bool = True
     p3: bool = True
 
@@ -135,7 +135,7 @@ class bar3(object):
                 x = -1
 
         for x in xx:
-            $AssignTarget x == 2
+            self.p = x == 2
 
         qux(0) # Yay! ChocoPy
 

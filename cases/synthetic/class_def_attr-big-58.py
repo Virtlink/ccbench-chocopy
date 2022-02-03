@@ -7,8 +7,8 @@ class A2(object):
 
 class A3(object):
     x:int = 1
-    x2:int = 1
-    $TypedVar = 1
+    x2:int = $Literal
+    x3:int = 1
 
 class A4(object):
     x:int = 1

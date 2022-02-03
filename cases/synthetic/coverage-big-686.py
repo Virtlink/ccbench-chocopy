@@ -79,7 +79,7 @@ class bar2(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        return "Nope"
+        return $Exp
 
 
     def baz2(self:"bar2", xx: [int], xx2: [int]) -> str:
@@ -89,7 +89,7 @@ class bar2(object):
         y:int = 1
         y2:int = 1
 
-        def qux($ID: int) -> object:
+        def qux(y: int) -> object:
             nonlocal x
             if x > y:
                 x = -1

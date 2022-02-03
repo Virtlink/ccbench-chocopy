@@ -1,5 +1,5 @@
 x:int = 0
-z:$Type = None
+$ID:[int] = None
 
 for x in z:
     print(x)

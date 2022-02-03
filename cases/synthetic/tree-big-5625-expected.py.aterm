@@ -1,1 +1,1 @@
-Target(Member2Target(Member(Var2Exp(Var("self")),"root")))
+Member(Member2Exp(Member(Var2Exp(Var("self")),"root")),"insert")

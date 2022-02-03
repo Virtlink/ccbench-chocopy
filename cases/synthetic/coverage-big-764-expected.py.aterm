@@ -1,1 +1,1 @@
-Eq(Var2Exp(Var("x")),Literal2Exp(Int("2")))
+Gt(Var2Exp(Var("x")),Var2Exp(Var("y")))

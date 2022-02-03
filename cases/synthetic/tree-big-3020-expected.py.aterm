@@ -1,1 +1,1 @@
-TypedVar("right5",TypeS(IdString("TreeNode5")))
+Else(Block([Return(Call(Member2Exp(Member(Member2Exp(Member(Var2Exp(Var("self")),"right")),"contains")),Exps2Parameters([Var2Exp(Var("x"))])))]))

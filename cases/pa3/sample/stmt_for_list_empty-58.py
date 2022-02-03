@@ -4,9 +4,9 @@ z:[int] = None
 e:[int] = None
 
 z = [1,2,3]
-e = []
+e = $Exp
 
-for x in $ID:
+for x in z:
     for y in e:
         print("Never")
     print(x)

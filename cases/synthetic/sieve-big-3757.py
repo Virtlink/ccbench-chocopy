@@ -416,7 +416,7 @@ class Vector4(object):
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
-        self.size = self.size - 1
+        $Member = self.size - 1
 
     # Removes an item from the middle of vector
     def remove_at3(self:"Vector4", idx: int, idx2: int, idx3: int) -> object:
@@ -453,7 +453,7 @@ class Vector4(object):
         return self.items[idx]
 
     # Retrieves an item at a given index
-    def get4(self:"Vector4", idx: int, idx2: int, idx3: int, idx4: int) $RetType:
+    def get4(self:"Vector4", idx: int, idx2: int, idx3: int, idx4: int) -> int:
         return self.items[idx]
 
     # Retrieves the current size of the vector

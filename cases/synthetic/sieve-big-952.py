@@ -110,7 +110,7 @@ class Vector2(object):
         if idx < 0:
             return
 
-        while idx < self.size - 1:
+        while $Exp:
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
@@ -118,7 +118,7 @@ class Vector2(object):
 
     # Removes an item from the middle of vector
     def remove_at2(self:"Vector2", idx: int, idx2: int) -> object:
-        if idx < $INT:
+        if idx < 0:
             return
 
         while idx < self.size - 1:

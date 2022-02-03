@@ -3,8 +3,7 @@ def foo(x: int) -> int:
     y: int = 2
     def bar() -> int:
         z: int = 3
-        def baz() -> int:
-            $FuncBody
+        $FuncDef
         return baz()
     def qux(p: int) -> int:
         return p

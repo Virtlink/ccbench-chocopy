@@ -2,4 +2,4 @@ x:int = 42
 y:int = 9
 
 print(x // y)
-print(x % $Var)
+print($Exp % y)

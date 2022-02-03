@@ -81,13 +81,13 @@ class Vector2(object):
         if self.size == self.capacity():
             self.increase_capacity()
 
-        self.items[self.size] = item
+        $Exp[self.size] = item
         self.size = self.size + 1
 
     # Appends one item to end of vector
     def append2(self:"Vector2", item: int, item2: int) -> object:
         if self.size == self.capacity():
-            self.$ID()
+            self.increase_capacity()
 
         self.items[self.size] = item
         self.size = self.size + 1

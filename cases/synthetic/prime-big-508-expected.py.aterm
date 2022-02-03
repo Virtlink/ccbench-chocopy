@@ -1,1 +1,0 @@
-TypedVar("div2",Type("int"))

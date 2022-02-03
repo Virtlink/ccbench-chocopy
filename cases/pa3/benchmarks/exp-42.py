@@ -3,8 +3,7 @@ def exp(x: int, y: int) -> int:
 	a: int = 0
 	def f(i: int) -> int:
 		nonlocal a
-		def geta() -> $ID:
-			return a
+		$FuncBodyMember
 		if i <= 0:
 			return geta()
 		else:

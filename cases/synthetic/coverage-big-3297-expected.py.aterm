@@ -1,1 +1,1 @@
-Type("object")
+VarDef(TypedVar("y",Type("int")),Int("1"))

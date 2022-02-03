@@ -1,1 +1,1 @@
-Var2Exp(Var("len"))
+TypedVar("idx3",Type("int"))

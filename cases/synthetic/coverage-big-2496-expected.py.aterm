@@ -1,1 +1,1 @@
-Not(Member2Exp(Member(Var2Exp(Var("self")),"p")))
+VarDef2FuncBodyMember(VarDef(TypedVar("y2",Type("int")),Int("1")))

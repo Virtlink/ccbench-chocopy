@@ -1,1 +1,1 @@
-VarDef(TypedVar("n",Type("int")),Int("42"))
+Target(Var2Target(Var("a2")))

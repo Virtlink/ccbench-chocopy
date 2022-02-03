@@ -1,3 +1,3 @@
 [1, 2] + [3, 4]
-"Hello " + "World"
-$Statement
+$STRING + "World"
+[1, 2] + [True]

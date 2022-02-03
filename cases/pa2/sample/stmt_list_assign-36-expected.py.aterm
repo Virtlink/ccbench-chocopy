@@ -1,1 +1,1 @@
-NONE()
+Var2Target(Var("y"))

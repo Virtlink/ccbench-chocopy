@@ -1,1 +1,1 @@
-Var2Exp(Var("c"))
+VarDef(TypedVar("c",Type("int")),Int("42"))

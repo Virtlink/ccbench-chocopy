@@ -1,1 +1,1 @@
-TypedVar("v2",Type("Vector"))
+Int("1")

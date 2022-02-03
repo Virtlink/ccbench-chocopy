@@ -302,7 +302,7 @@ class bar4(object):
 
         return "Nope"
 
-    def baz3(self:"bar4", xx: [int], xx2: [int], xx3: [int]) -> str:
+    def baz3(self:"bar4", $TypedVar, xx2: [int], xx3: [int]) -> str:
         global count
         x:int = 0
         x2:int = 0
@@ -334,7 +334,7 @@ class bar4(object):
 
         qux(0) # Yay! ChocoPy
 
-        $AssignTarget count + 1
+        count = count + 1
 
         while x <= 0:
             if self.p:

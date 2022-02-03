@@ -1,1 +1,1 @@
-"x2"
+TypedVar("xx",ListType(Type("int")))

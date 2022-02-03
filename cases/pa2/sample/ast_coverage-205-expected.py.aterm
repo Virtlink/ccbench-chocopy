@@ -1,1 +1,1 @@
-Var2Exp(Var("x"))
+Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"p")))],Not(Member2Exp(Member(Var2Exp(Var("self")),"p"))))

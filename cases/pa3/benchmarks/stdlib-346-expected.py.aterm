@@ -1,1 +1,1 @@
-Int("5")
+Var2Exp(Var("char"))

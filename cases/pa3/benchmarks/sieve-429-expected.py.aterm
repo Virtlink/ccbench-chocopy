@@ -1,1 +1,1 @@
-"self"
+TypedVar("doubling_limit",Type("int"))

@@ -1,1 +1,1 @@
-FuncDef2ClassBodyMember(FuncDef("get2",[TypedVar("self",TypeS(IdString("Vector2"))),TypedVar("idx",Type("int")),TypedVar("idx2",Type("int"))],Returns(Type("int")),FuncBody([],[Return(Index2Exp(Index(Member2Exp(Member(Var2Exp(Var("self")),"items")),Var2Exp(Var("idx")))))])))
+Literal2Exp(Int("0"))

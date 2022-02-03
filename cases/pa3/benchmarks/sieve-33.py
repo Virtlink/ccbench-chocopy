@@ -3,8 +3,8 @@ class Vector(object):
     items: [int] = None
     size: int = 0
 
-    def __init__(self:"Vector"):
-        $AssignTarget [0]
+    def __init__(self:"Vector")$RetType:
+        self.items = [0]
 
     # Returns current capacity
     def capacity(self:"Vector") -> int:

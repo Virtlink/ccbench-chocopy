@@ -1,1 +1,1 @@
-Int("3")
+VarDef(TypedVar("z",Type("int")),Int("3"))

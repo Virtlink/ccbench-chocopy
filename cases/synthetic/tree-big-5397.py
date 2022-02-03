@@ -547,7 +547,7 @@ class Tree2(object):
 
 
 class Tree3(object):
-    root:TreeNode3 = None
+    $VarDef
     root2:TreeNode3 = None
     root3:TreeNode3 = None
     size:int = 0
@@ -591,7 +591,10 @@ class Tree3(object):
             return self.root.contains(x)
 
     def contains3(self:"Tree3", x:int, x2:int, x3:int) -> bool:
-        $FuncBody
+        if self.root is None:
+            return False
+        else:
+            return self.root.contains(x)
 
 
 class Tree4(object):

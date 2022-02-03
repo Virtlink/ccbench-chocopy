@@ -1,1 +1,1 @@
-Var2Exp(Var("self"))
+Block([Return(Literal2Exp(True()))])

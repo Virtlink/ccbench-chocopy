@@ -108,7 +108,7 @@ def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -
         else:
             a = a * x
             a2 = a * x
-            a3 = a * x
+            $ID = a * x
             a4 = a * x
             a5 = a * x
             return f(i-1)
@@ -117,7 +117,7 @@ def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -
     a3 = 1
     a4 = 1
     a5 = 1
-    return $Exp(y)
+    return f(y)
 
 def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x5: int, y5: int) -> int:
     a: int = 0

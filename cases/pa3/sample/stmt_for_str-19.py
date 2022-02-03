@@ -1,5 +1,4 @@
 x:str = ""
 z:str = "abc"
 
-for x in $Exp:
-    print(x)
+$Statement

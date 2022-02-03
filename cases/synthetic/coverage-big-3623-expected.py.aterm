@@ -1,1 +1,1 @@
-Returns(Type("object"))
+Var2Target(Var("x"))

@@ -25,8 +25,8 @@ class bar(object):
 
         while x <= 0:
             if self.p:
-                xx[0] = xx[1]
-                $Var.p = not self.p
+                $Target = xx[1]
+                self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None

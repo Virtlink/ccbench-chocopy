@@ -196,10 +196,7 @@ class bar3(object):
         y2:int = 1
         y3:int = 1
 
-        def qux(y: int) -> object:
-            nonlocal x
-            if x > y:
-                x = -1
+        $FuncDef
 
         def qux2(y: int, y2: int) -> object:
             nonlocal x
@@ -217,7 +214,7 @@ class bar3(object):
         for x in xx:
             self.p = x == 2
 
-        qux($Parameters) # Yay! ChocoPy
+        qux(0) # Yay! ChocoPy
 
         count = count + 1
 

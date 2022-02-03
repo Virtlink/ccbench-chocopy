@@ -55,15 +55,15 @@ class Vector2(object):
     size: int = 0
     size2: int = 0
 
-    def __init__(self:"Vector2"):
-        self.items = [0]
+    $FuncDef
 
     # Returns current capacity
     def capacity(self:"Vector2") -> int:
         return len(self.items)
 
     # Returns current capacity
-    $ClassBodyMember
+    def capacity2(self:"Vector2") -> int:
+        return len(self.items)
 
     # Increases capacity of vector by one element
     def increase_capacity(self:"Vector2") -> int:

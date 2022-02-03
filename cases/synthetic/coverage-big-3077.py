@@ -383,7 +383,7 @@ class bar4(object):
             if x > y:
                 x = -1
 
-        for x in xx:
+        for x in $ID:
             self.p = x == 2
 
         qux(0) # Yay! ChocoPy
@@ -419,7 +419,7 @@ class bar5(object):
                 x = -1
 
         for x in xx:
-            self.p = x == $INT
+            self.p = x == 2
 
         qux(0) # Yay! ChocoPy
 

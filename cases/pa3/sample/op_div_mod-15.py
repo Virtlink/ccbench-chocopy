@@ -1,5 +1,5 @@
 x:int = 42
-y:int = $Literal
+y:$ID = 9
 
 print(x // y)
 print(x % y)

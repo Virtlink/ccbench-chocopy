@@ -42,9 +42,9 @@ class TreeNode2(object):
     right:"TreeNode2" = None
     right2:"TreeNode2" = None
 
-    def insert(self:"TreeNode2", x:int) -> bool:
+    def insert($TypedVar, x:int) -> bool:
         if x < self.value:
-            if $ID.left is None:
+            if self.left is None:
                 self.left = makeNode2(x, x)
                 return True
             else:

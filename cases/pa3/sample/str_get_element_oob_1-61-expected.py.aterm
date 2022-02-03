@@ -1,1 +1,1 @@
-Var("print")
+Negative(Literal2Exp(Int("1")))

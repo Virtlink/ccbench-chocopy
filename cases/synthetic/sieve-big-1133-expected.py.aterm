@@ -1,1 +1,1 @@
-VarDef(TypedVar("items",ListType(Type("int"))),NONE())
+Member(Var2Exp(Var("self")),"size")

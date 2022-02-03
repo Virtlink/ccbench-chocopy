@@ -26,9 +26,9 @@ def str_to_int(x: str) -> int:
 
     # Parse digits
     for char in x:
-        if char == "-":
+        if $Exp:
             if not first_char:
-                return $INT # Error
+                return 0 # Error
             sign = -1
         elif char == "0":
             digit = 0

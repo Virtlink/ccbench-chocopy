@@ -14,5 +14,5 @@ c:C = None
 
 a = A()
 a = B()
-b = a = c = C()
-$AssignTarget None
+b = $Target = c = C()
+c = None

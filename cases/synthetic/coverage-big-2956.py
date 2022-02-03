@@ -365,7 +365,7 @@ class bar4(object):
         def qux2(y: int, y2: int) -> object:
             nonlocal x
             nonlocal x2
-            if x > y:
+            if x > $Var:
                 x = -1
 
         def qux3(y: int, y2: int, y3: int) -> object:
@@ -402,7 +402,7 @@ class bar4(object):
 
 
 class bar5(object):
-    $ClassBodyMember
+    p: bool = True
     p2: bool = True
     p3: bool = True
     p4: bool = True

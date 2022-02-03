@@ -1,4 +1,4 @@
-def f($TypedVar) -> int:
+def $ID(x:int) -> int:
     print("start f")
     print(x)
     g(1, x)

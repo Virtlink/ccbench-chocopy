@@ -1,1 +1,1 @@
-VarDef2Definition(VarDef(TypedVar("n",Type("int")),Int("15")))
+Var("div")

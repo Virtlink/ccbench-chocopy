@@ -1,1 +1,1 @@
-IdString("TreeNode4")
+Exps2Parameters([Var2Exp(Var("x")),Var2Exp(Var("x")),Var2Exp(Var("x")),Var2Exp(Var("x"))])

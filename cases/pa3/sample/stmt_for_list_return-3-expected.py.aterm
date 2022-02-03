@@ -1,1 +1,1 @@
-"print_list"
+FuncDef("print_list",[TypedVar("z",ListType(Type("int")))],Returns(Type("object")),FuncBody([VarDef2FuncBodyMember(VarDef(TypedVar("x",Type("int")),Int("0")))],[For("x",Var2Exp(Var("z")),Block([Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Var2Exp(Var("x"))]))),If(Geq(Var2Exp(Var("x")),Literal2Exp(Int("30"))),Block([ReturnNone()]))]))]))

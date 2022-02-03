@@ -8,9 +8,11 @@ class B(A):
         print("B")
 
 a:A = None
-b:B = None
-
 $Definition
+
+def get_b() -> B:
+    print("Getting B")
+    return b
 
 def get_one() -> int:
     print("Getting 1")

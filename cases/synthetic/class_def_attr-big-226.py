@@ -36,14 +36,15 @@ class B3(A):
         pass
 
 class B4(A):
-    def __init__(self: "B4"):
+    def __init__(self: "$ID"):
         pass
 
 class B5(A):
     def __init__(self: "B5"):
         pass
 
-$Definition
+class C(B):
+    z:bool = True
 
 class C2(B):
     z:bool = True

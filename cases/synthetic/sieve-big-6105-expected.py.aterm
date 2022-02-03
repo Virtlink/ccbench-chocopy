@@ -1,1 +1,1 @@
-Block([Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"items")))],Add(Member2Exp(Member(Var2Exp(Var("self")),"items")),Member2Exp(Member(Var2Exp(Var("self")),"items"))))])
+Index2Exp(Index(Member2Exp(Member(Var2Exp(Var("self")),"items")),Add(Var2Exp(Var("idx")),Literal2Exp(Int("1")))))

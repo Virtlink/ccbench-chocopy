@@ -1,1 +1,1 @@
-TypedVar("x",Type("int"))
+Mod(Var2Exp(Var("x")),Var2Exp(Var("div")))

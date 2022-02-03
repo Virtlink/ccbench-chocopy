@@ -1,1 +1,1 @@
-TypedVar("n3",Type("int"))
+Mul(Var2Exp(Var("a")),Var2Exp(Var("x")))

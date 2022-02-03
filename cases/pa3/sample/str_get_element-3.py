@@ -1,4 +1,4 @@
-$TypedVar = "abc"
+$VarDef
 a:str = ""
 b:str = ""
 c:str = ""

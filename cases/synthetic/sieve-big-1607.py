@@ -187,7 +187,7 @@ class Vector3(object):
         if self.size == self.capacity():
             self.increase_capacity()
 
-        self.items[self.size] = item
+        $Exp[self.size] = item
         self.size = self.size + 1
 
     # Appends one item to end of vector
@@ -203,7 +203,7 @@ class Vector3(object):
         if self.size == self.capacity():
             self.increase_capacity()
 
-        $AssignTarget item
+        self.items[self.size] = item
         self.size = self.size + 1
 
     # Appends many items to end of vector

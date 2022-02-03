@@ -562,7 +562,7 @@ class Vector5(object):
         if self.size == self.capacity():
             self.increase_capacity()
 
-        self.items[self.size] = item
+        self.items[$Exp] = item
         self.size = self.size + 1
 
     # Appends one item to end of vector
@@ -615,7 +615,14 @@ class Vector5(object):
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector5", idx: int) -> object:
-        $FuncBody
+        if idx < 0:
+            return
+
+        while idx < self.size - 1:
+            self.items[idx] = self.items[idx + 1]
+            idx = idx + 1
+
+        self.size = self.size - 1
 
     # Removes an item from the middle of vector
     def remove_at2(self:"Vector5", idx: int, idx2: int) -> object:

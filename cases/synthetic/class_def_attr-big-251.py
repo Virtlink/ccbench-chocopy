@@ -41,14 +41,14 @@ class B4(A):
 
 class B5(A):
     def __init__(self: "B5"):
-        pass
+        $Statement
 
 class C(B):
     z:bool = True
 
 class C2(B):
     z:bool = True
-    $VarDef
+    z2:bool = True
 
 class C3(B):
     z:bool = True

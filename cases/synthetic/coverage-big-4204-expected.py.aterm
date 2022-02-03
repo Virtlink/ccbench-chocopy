@@ -1,1 +1,1 @@
-TypedVar("xx2",ListType(Type("int")))
+VarDef(TypedVar("x4",Type("int")),Int("0"))

@@ -1,4 +1,4 @@
-x:$ID = 42
+x:$Type = 42
 y:int = 9
 
 print(x // y)

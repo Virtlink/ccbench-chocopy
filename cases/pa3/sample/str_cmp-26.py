@@ -2,7 +2,7 @@ a:str = "Hello"
 b:str = "World"
 c:str = "ChocoPy"
 
-$FuncDef
+$Definition
 
 def neq(a:str, b:str) -> bool:
     return a != b

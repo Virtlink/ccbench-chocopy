@@ -1,1 +1,1 @@
-Var("result")
+Var2Target(Var("digit"))

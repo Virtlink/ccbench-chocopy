@@ -1,4 +1,4 @@
-print($Exp == True)
+print($Parameters)
 print(True == False)
 print(False == True)
 print(False == False)

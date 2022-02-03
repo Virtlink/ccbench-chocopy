@@ -1,4 +1,4 @@
 x:int = 0
 y:object = 1
-x = y = $Literal
+x = $Var = 42
 print(x)

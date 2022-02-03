@@ -293,7 +293,7 @@ class TreeNode4(object):
             if self.left is None:
                 return False
             else:
-                return self.left.contains(x)
+                return self.left.contains($ID)
         elif x > self.value:
             if self.right is None:
                 return False
@@ -323,7 +323,10 @@ class TreeNode4(object):
             else:
                 return self.left.contains(x)
         elif x > self.value:
-            $Block
+            if self.right is None:
+                return False
+            else:
+                return self.right.contains(x)
         else:
             return True
 

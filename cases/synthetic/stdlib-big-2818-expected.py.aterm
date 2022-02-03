@@ -1,1 +1,1 @@
-Int("7")
+VarDef(TypedVar("first_char5",Type("bool")),True())

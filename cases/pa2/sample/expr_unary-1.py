@@ -1,2 +1,0 @@
-$Statement
-not False

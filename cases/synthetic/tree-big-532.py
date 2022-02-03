@@ -57,11 +57,11 @@ class TreeNode2(object):
                 return self.right.insert(x)
         return False
 
-    def insert2(self:"TreeNode2", x:int, x2:int) -> bool:
+    def insert2(self:"TreeNode2", x:int, x2:int) $RetType:
         if x < self.value:
             if self.left is None:
                 self.left = makeNode2(x, x)
-                $Statement
+                return True
             else:
                 return self.left.insert(x)
         elif x > self.value:

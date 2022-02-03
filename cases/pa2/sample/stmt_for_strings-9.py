@@ -1,3 +1,4 @@
-s:str = "Hello"
+s:str = $STRING
 
-$Statement
+for s in s:
+    s[0]

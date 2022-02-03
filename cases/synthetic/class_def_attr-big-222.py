@@ -36,11 +36,11 @@ class B3(A):
         pass
 
 class B4(A):
-    def __init__(self: "B4"):
+    def __init__($TypedVar):
         pass
 
 class B5(A):
-    def __init__(self: "$ID"):
+    def __init__(self: "B5"):
         pass
 
 class C(B):

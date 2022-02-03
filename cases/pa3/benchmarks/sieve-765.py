@@ -87,7 +87,7 @@ def sieve(v:Vector) -> object:
                 v.remove_at(j)
             else:
                 j = j + 1
-        i = i + 1
+        i = $Exp
 
 # Input parameter
 n:int = 50
@@ -102,6 +102,6 @@ sieve(v)
 
 # Print
 while i < v.length():
-    print($Var.get(i))
+    print(v.get(i))
     i = i + 1
 

@@ -155,7 +155,7 @@ def str_to_int(x: str) -> int:
 
 def str_to_int2(x: str, x2: str) -> int:
     result:int = 0
-    result2:int = 0
+    $ID:int = 0
     digit:int = 0
     digit2:int = 0
     char:str = ""
@@ -170,7 +170,7 @@ def str_to_int2(x: str, x2: str) -> int:
         if char == "-":
             if not first_char:
                 return 0 # Error
-            $Var = -1
+            sign = -1
         elif char == "0":
             digit = 0
         elif char == "1":

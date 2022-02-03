@@ -1,1 +1,1 @@
-VarDef2Definition(VarDef(TypedVar("t4",Type("Tree")),NONE()))
+IdString("Tree5")

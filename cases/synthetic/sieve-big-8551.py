@@ -949,7 +949,7 @@ def vrange5(i:int, j:int, i2:int, j2:int, i3:int, j3:int, i4:int, j4:int, i5:int
         v.append(i)
         i = i + 1
 
-    return v
+    return $ID
 
 # Sieve of Eratosthenes (not really)
 def sieve(v:Vector) -> object:
@@ -1030,7 +1030,7 @@ def sieve4(v:Vector, v2:Vector, v3:Vector, v4:Vector) -> object:
                 j = j + 1
         i = i + 1
 
-def sieve5(v:Vector, v2:Vector, $ID:Vector, v4:Vector, v5:Vector) -> object:
+def sieve5(v:Vector, v2:Vector, v3:Vector, v4:Vector, v5:Vector) -> object:
     i:int = 0
     i2:int = 0
     i3:int = 0

@@ -5,8 +5,7 @@ class B(A):
     def __init__(self: "B"):
         pass
 
-class C(B):
-    $TypedVar = True
+$ClassDef
 
 a:A = None
 b:B = None

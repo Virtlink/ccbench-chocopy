@@ -1,4 +1,4 @@
-$VarDef
+$Definition
 
 def next_int() -> int:
     global next

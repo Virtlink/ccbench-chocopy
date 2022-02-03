@@ -1,5 +1,5 @@
 x:int = 1
 
-x = 2
+x = $Exp
 
-$Statement
+print(x)

@@ -1,8 +1,8 @@
 def f() -> bool:
   print("f called")
-  return True
+  return $Literal
 
-def g() -> $Type:
+def g() -> bool:
   print("g called")
   return False
 

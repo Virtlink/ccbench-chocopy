@@ -1,1 +1,1 @@
-"qux"
+VarDef(TypedVar("p2",Type("bool")),True())

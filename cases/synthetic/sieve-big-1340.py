@@ -156,7 +156,7 @@ class Vector3(object):
         self.items = [0]
 
     # Returns current capacity
-    def capacity(self:"Vector3") -> int:
+    def capacity(self:"$ID") -> int:
         return len(self.items)
 
     # Returns current capacity
@@ -174,7 +174,7 @@ class Vector3(object):
 
     # Increases capacity of vector by one element
     def increase_capacity2(self:"Vector3") -> int:
-        self.items = self.$ID + [0]
+        self.items = self.items + [0]
         return self.capacity()
 
     # Increases capacity of vector by one element

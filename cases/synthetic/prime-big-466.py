@@ -52,10 +52,10 @@ def is_prime4(x:int, x2:int, x3:int, x4:int) -> bool:
     div3:int = 2
     div4:int = 2
     div5:int = 2
-    while div < x:
+    while $ID < x:
         if x % div == 0:
             return False
-        div = div + $Literal
+        div = div + 1
     return True
 
 def is_prime5(x:int, x2:int, x3:int, x4:int, x5:int) -> bool:

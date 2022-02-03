@@ -264,7 +264,7 @@ class bar4(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        return "Nope"
+        return $Exp
 
 
     def baz2(self:"bar4", xx: [int], xx2: [int]) -> str:
@@ -294,7 +294,9 @@ class bar4(object):
 
         while x <= 0:
             if self.p:
-                $Block
+                xx[0] = xx[1]
+                self.p = not self.p
+                x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 

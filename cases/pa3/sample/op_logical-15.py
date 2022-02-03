@@ -1,5 +1,5 @@
 def f() -> bool:
-  print($Literal)
+  $Var("f called")
   return True
 
 def g() -> bool:

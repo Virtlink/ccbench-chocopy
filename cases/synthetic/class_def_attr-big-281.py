@@ -48,12 +48,12 @@ class C(B):
 
 class C2(B):
     z:bool = True
-    z2:bool = True
+    $ID:bool = True
 
 class C3(B):
     z:bool = True
     z2:bool = True
-    z3:$ID = True
+    z3:bool = True
 
 class C4(B):
     z:bool = True

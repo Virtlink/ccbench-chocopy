@@ -39,10 +39,10 @@ class bar(object):
 
         count = count + 1
 
-        while x <= 0:
+        while $ID <= 0:
             if self.p:
                 xx[0] = xx[1]
-                $Member = not self.p
+                self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None

@@ -1,1 +1,1 @@
-Type("Vector")
+Returns(Type("object"))

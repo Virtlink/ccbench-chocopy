@@ -1,1 +1,1 @@
-Int("0")
+Member2Target(Member(Var2Exp(Var("a")),"x"))

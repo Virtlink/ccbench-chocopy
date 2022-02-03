@@ -7,8 +7,8 @@ class Vector(object):
         self.items = [0]
 
     # Returns current capacity
-    def capacity(self:"Vector") -> int:
-        $Statement
+    def capacity($ID:"Vector") -> int:
+        return len(self.items)
 
     # Increases capacity of vector by one element
     def increase_capacity(self:"Vector") -> int:

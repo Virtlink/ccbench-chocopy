@@ -1,1 +1,0 @@
-Call(Var2Exp(Var("int_to_str")),Exps2Parameters([IntDiv(Var2Exp(Var("x")),Literal2Exp(Int("10")))]))

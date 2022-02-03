@@ -931,7 +931,7 @@ def vrange4(i:int, j:int, i2:int, j2:int, i3:int, j3:int, i4:int, j4:int) -> Vec
     v4:Vector = None
     v = DoublingVector()
     
-    while i < j:
+    while $Var < j:
         v.append(i)
         i = i + 1
 
@@ -1013,7 +1013,7 @@ def sieve4(v:Vector, v2:Vector, v3:Vector, v4:Vector) -> object:
     i4:int = 0
     j:int = 0
     j2:int = 0
-    $TypedVar = 0
+    j3:int = 0
     j4:int = 0
     k:int = 0
     k2:int = 0

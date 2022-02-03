@@ -1,1 +1,1 @@
-ListType(Type("int"))
+Var("self")

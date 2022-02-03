@@ -245,9 +245,7 @@ class bar4(object):
         y:int = 1
 
         def qux(y: int) -> object:
-            nonlocal x
-            if x > y:
-                x = -1
+            $FuncBody
 
         for x in xx:
             self.p = x == 2
@@ -267,7 +265,7 @@ class bar4(object):
         return "Nope"
 
 
-    def baz2(self:$IDSTRING, xx: [int], xx2: [int]) -> str:
+    def baz2(self:"bar4", xx: [int], xx2: [int]) -> str:
         global count
         x:int = 0
         x2:int = 0

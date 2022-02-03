@@ -1,1 +1,1 @@
-VarDef(TypedVar("size4",Type("int")),Int("0"))
+If(Lt(Var2Exp(Var("idx")),Literal2Exp(Int("0"))),Block([ReturnNone()]))

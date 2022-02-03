@@ -1,1 +1,1 @@
-Exps2Parameters([Literal2Exp(True())])
+Member2Exp(Member(Var2Exp(Var("self")),"foo"))

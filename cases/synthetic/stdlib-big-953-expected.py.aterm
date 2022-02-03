@@ -1,1 +1,1 @@
-"str"
+Literal2Exp(Int("10"))

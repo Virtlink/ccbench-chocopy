@@ -133,7 +133,7 @@ class Vector2(object):
 
     # Retrieves an item at a given index
     def get2(self:"Vector2", idx: int, idx2: int) -> int:
-        return self.items[idx]
+        return $Exp.items[idx]
 
     # Retrieves the current size of the vector
     def length(self:"Vector2") -> int:
@@ -153,7 +153,7 @@ class Vector3(object):
     size3: int = 0
 
     def __init__(self:"Vector3"):
-        self.items = [$Literal]
+        self.items = [0]
 
     # Returns current capacity
     def capacity(self:"Vector3") -> int:

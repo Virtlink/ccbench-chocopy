@@ -1,6 +1,6 @@
 x:int = 0
-y:int = 0
-$Definition
+y:int = $INT
+z:[int] = None
 e:[int] = None
 
 z = [1,2,3]

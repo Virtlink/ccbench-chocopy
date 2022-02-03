@@ -3,5 +3,6 @@
 s: str = ""
 
 s = input()
-while len(s) > 0:
-    $Block
+while len($Var) > 0:
+    print(s)
+    s = input()

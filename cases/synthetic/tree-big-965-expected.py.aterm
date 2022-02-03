@@ -1,1 +1,1 @@
-Var("x")
+VarDef2ClassBodyMember(VarDef(TypedVar("left3",TypeS(IdString("TreeNode3"))),NONE()))

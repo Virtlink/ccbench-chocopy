@@ -1,1 +1,1 @@
-"b3"
+TypedVar("x4",Type("int"))

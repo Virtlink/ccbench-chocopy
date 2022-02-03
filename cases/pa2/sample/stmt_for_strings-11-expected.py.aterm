@@ -1,1 +1,1 @@
-Var2Exp(Var("s"))
+For("s",Var2Exp(Var("s")),Block([Exp(Index2Exp(Index(Var2Exp(Var("s")),Literal2Exp(Int("0")))))]))

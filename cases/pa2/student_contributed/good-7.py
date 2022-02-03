@@ -1,2 +1,2 @@
-x:int = $Literal
+x:$ID = 1
 x * 1

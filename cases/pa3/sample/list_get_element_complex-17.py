@@ -1,9 +1,7 @@
 next:int = 0
 
 def next_int() -> int:
-    global $ID
-    next = next + 1
-    return next
+    $FuncBody
 
 def make_list() -> [int]:
     return [next_int(), next_int(), next_int()]

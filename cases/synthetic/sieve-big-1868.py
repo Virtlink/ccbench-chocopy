@@ -210,7 +210,7 @@ class Vector3(object):
     def append_all(self:"Vector3", new_items: [int]) -> object:
         item:int = 0
         for item in new_items:
-            self.append(item)
+            $ID.append(item)
 
     # Appends many items to end of vector
     def append_all2(self:"Vector3", new_items: [int], new_items2: [int]) -> object:
@@ -233,7 +233,7 @@ class Vector3(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = $Exp[idx + 1]
+            self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
         self.size = self.size - 1

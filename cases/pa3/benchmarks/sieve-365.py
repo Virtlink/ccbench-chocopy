@@ -38,14 +38,14 @@ class Vector(object):
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
-        self.size = self.size - 1
+        self.size = self.size - $Exp
 
     # Retrieves an item at a given index
     def get(self:"Vector", idx: int) -> int:
         return self.items[idx]
 
     # Retrieves the current size of the vector
-    def length(self:"$ID") -> int:
+    def length(self:"Vector") -> int:
         return self.size
 
 # A faster (but more memory-consuming) implementation of vector

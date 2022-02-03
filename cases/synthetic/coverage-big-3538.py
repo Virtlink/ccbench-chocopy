@@ -440,7 +440,7 @@ class bar5(object):
         global count
         x:int = 0
         x2:int = 0
-        y:int = 1
+        $TypedVar = 1
         y2:int = 1
 
         def qux(y: int) -> object:
@@ -478,7 +478,7 @@ class bar5(object):
         x3:int = 0
         y:int = 1
         y2:int = 1
-        y3:int = $Literal
+        y3:int = 1
 
         def qux(y: int) -> object:
             nonlocal x

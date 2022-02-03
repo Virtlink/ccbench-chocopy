@@ -982,7 +982,7 @@ def sieve2(v:Vector, v2:Vector) -> object:
             if v.get(j) % k == 0:
                 v.remove_at(j)
             else:
-                j = j + 1
+                j = j + $INT
         i = i + 1
 
 def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
@@ -1072,7 +1072,7 @@ v4:Vector = None
 v5:Vector = None
 i:int = 0
 i2:int = 0
-i3:int = $Literal
+i3:int = 0
 i4:int = 0
 i5:int = 0
 

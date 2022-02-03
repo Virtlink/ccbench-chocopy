@@ -1,1 +1,1 @@
-Var2Exp(Var("i"))
+Assign([Target(Var2Target(Var("result")))],Add(Mul(Var2Exp(Var("result")),Literal2Exp(Int("10"))),Var2Exp(Var("digit"))))

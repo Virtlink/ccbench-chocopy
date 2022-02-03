@@ -184,7 +184,7 @@ def str_to_int2(x: str, x2: str) -> int:
         elif char == "4":
             digit = 4
         elif char == "5":
-            digit = 5
+            digit = $Exp
         elif char == "6":
             digit = 6
         elif char == "7":
@@ -201,7 +201,7 @@ def str_to_int2(x: str, x2: str) -> int:
     # Compute result
     return result * sign
 
-def str_to_int3(x: $ID, x2: str, x3: str) -> int:
+def str_to_int3(x: str, x2: str, x3: str) -> int:
     result:int = 0
     result2:int = 0
     result3:int = 0

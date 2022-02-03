@@ -1,4 +1,4 @@
-$ID:str = "Hello"
+$TypedVar = "Hello"
 b:str = "World"
 c:str = "ChocoPy"
 

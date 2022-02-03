@@ -716,7 +716,7 @@ class Tree5(object):
                 self.size = self.size + 1
 
     def contains(self:"Tree5", x:int) -> bool:
-        if self.root is None:
+        if $Exp is None:
             return False
         else:
             return self.root.contains(x)
@@ -794,7 +794,7 @@ n4:int = 100
 n5:int = 100
 c:int = 4
 c2:int = 4
-c3:int = $Literal
+c3:int = 4
 c4:int = 4
 c5:int = 4
 

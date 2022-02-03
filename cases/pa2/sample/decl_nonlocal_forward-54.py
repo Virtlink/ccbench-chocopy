@@ -5,6 +5,6 @@ def outer() -> int:
         return x
     x:int = 0
     inner()
-    return x
+    return $Var
 
-print($Exp())
+print(outer())

@@ -271,7 +271,7 @@ class bar4(object):
         global count
         x:int = 0
         x2:int = 0
-        y:int = 1
+        y:int = $INT
         y2:int = 1
 
         def qux(y: int) -> object:
@@ -297,7 +297,7 @@ class bar4(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo($Parameters) == 1:
+            elif foo("Long"[0]) == 1:
                 self.p = self is None
 
         return "Nope"

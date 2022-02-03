@@ -215,7 +215,7 @@ class bar3(object):
                 x = -1
 
         for x in xx:
-            self.p = x == 2
+            self.p = $Exp
 
         qux(0) # Yay! ChocoPy
 
@@ -237,7 +237,7 @@ class bar4(object):
     p: bool = True
     p2: bool = True
     p3: bool = True
-    $VarDef
+    p4: bool = True
 
     def baz(self:"bar4", xx: [int]) -> str:
         global count

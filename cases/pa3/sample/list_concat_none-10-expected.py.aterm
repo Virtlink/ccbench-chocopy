@@ -1,1 +1,1 @@
-VarDef(TypedVar("y",ListType(Type("int"))),NONE())
+VarDef2Definition(VarDef(TypedVar("y",ListType(Type("int"))),NONE()))

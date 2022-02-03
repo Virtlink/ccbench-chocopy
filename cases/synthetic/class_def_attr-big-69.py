@@ -10,11 +10,7 @@ class A3(object):
     x2:int = 1
     x3:int = 1
 
-class A4(object):
-    $ClassBodyMember
-    x2:int = 1
-    x3:int = 1
-    x4:int = 1
+$ClassDef
 
 class A5(object):
     x:int = 1

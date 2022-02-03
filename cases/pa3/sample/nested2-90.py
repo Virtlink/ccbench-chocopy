@@ -7,8 +7,8 @@ def foo(x: int) -> int:
             return qux(y)
         return baz()
     def qux(p: int) -> int:
-        return p
+        $Statement
 
     return bar()
     
-$ID(foo(g))
+print(foo(g))

@@ -125,7 +125,7 @@ class bar3(object):
     p3: bool = True
 
     def baz(self:"bar3", xx: [int]) -> str:
-        global count
+        $FuncBodyMember
         x:int = 0
         y:int = 1
 
@@ -141,7 +141,13 @@ class bar3(object):
 
         count = count + 1
 
-        $Statement
+        while x <= 0:
+            if self.p:
+                xx[0] = xx[1]
+                self.p = not self.p
+                x = x + 1
+            elif foo("Long"[0]) == 1:
+                self.p = self is None
 
         return "Nope"
 

@@ -1,1 +1,1 @@
-VarDef(TypedVar("k3",Type("int")),Int("37813"))
+Returns(Type("bool"))

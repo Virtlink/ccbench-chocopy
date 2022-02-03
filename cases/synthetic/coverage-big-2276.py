@@ -283,7 +283,7 @@ class bar4(object):
             nonlocal x
             nonlocal x2
             if x > y:
-                x = -1
+                x = -$Exp
 
         for x in xx:
             self.p = x == 2
@@ -307,7 +307,7 @@ class bar4(object):
         x:int = 0
         x2:int = 0
         x3:int = 0
-        $FuncBodyMember
+        y:int = 1
         y2:int = 1
         y3:int = 1
 

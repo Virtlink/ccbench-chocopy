@@ -7,10 +7,10 @@ class TreeNode(object):
     def insert(self:"TreeNode", x:int) -> bool:
         if x < self.value:
             if self.left is None:
-                self.left = makeNode(x)
+                self.left = makeNode($Parameters)
                 return True
             else:
-                $Block
+                return self.left.insert(x)
         elif x > self.value:
             if self.right is None:
                 self.right = makeNode(x)

@@ -32,8 +32,7 @@ def int_to_str2(x: int, x2: int) -> str:
         x = -x
 
     # Write digits using a recursive call
-    if x >= 10:
-        result = result + $ID(x // 10)
+    $Statement
     result = result + digits[x % 10]
     return result
 

@@ -326,7 +326,7 @@ class bar4(object):
             nonlocal x
             nonlocal x2
             nonlocal x3
-            if x > y:
+            if x > $Exp:
                 x = -1
 
         for x in xx:
@@ -352,7 +352,7 @@ class bar4(object):
         x2:int = 0
         x3:int = 0
         x4:int = 0
-        y:$ID = 1
+        y:int = 1
         y2:int = 1
         y3:int = 1
         y4:int = 1

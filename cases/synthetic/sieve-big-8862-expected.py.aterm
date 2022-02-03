@@ -1,1 +1,1 @@
-VarDef2Definition(VarDef(TypedVar("v4",Type("Vector")),NONE()))
+Var2Exp(Var("k"))

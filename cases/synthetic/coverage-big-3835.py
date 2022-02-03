@@ -475,7 +475,7 @@ class bar5(object):
         global count
         x:int = 0
         x2:int = 0
-        x3:int = 0
+        x3:$Type = 0
         y:int = 1
         y2:int = 1
         y3:int = 1
@@ -518,7 +518,7 @@ class bar5(object):
     def baz4(self:"bar5", xx: [int], xx2: [int], xx3: [int], xx4: [int]) -> str:
         global count
         x:int = 0
-        $VarDef
+        x2:int = 0
         x3:int = 0
         x4:int = 0
         y:int = 1

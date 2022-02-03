@@ -27,10 +27,10 @@ class bar(object):
         x:int = 0
         y:int = 1
 
-        def qux(y: int) -> object:
+        def $ID(y: int) -> object:
             nonlocal x
             if x > y:
-                $ID = -1
+                x = -1
 
         for x in xx:
             self.p = x == 2

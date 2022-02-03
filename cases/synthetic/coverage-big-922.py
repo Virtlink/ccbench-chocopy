@@ -110,7 +110,7 @@ class bar2(object):
         while x <= 0:
             if self.p:
                 xx[0] = xx[1]
-                self.p = not self.p
+                self.p = not $Exp.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
@@ -124,7 +124,7 @@ class bar3(object):
     p2: bool = True
     p3: bool = True
 
-    def baz(self:$Type, xx: [int]) -> str:
+    def baz(self:"bar3", xx: [int]) -> str:
         global count
         x:int = 0
         y:int = 1

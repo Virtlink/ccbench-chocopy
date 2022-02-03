@@ -1,1 +1,1 @@
-TypedVar("x",Type("str"))
+Geq(Var2Exp(Var("x")),Literal2Exp(Int("10")))

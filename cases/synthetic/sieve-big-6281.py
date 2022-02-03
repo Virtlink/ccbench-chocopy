@@ -681,7 +681,7 @@ class Vector5(object):
         return self.items[idx]
 
     # Retrieves an item at a given index
-    def get4(self:"Vector5", idx: int, idx2: int, idx3: int, idx4: int) -> int:
+    def get4(self:"Vector5", idx: int, idx2: int, idx3: int, idx4: $ID) -> int:
         return self.items[idx]
 
     # Retrieves an item at a given index
@@ -766,7 +766,13 @@ class DoublingVector3(Vector):
 
     # Overriding to do fewer resizes
     def increase_capacity2(self:"DoublingVector3") -> int:
-        $FuncBody
+        if (self.capacity() <= self.doubling_limit // 2):
+            self.items = self.items + self.items
+        else:
+            # If doubling limit has been reached, fall back to
+            # standard capacity increases
+            self.items = self.items + [0]
+        return self.capacity()
 
     # Overriding to do fewer resizes
     def increase_capacity3(self:"DoublingVector3") -> int:

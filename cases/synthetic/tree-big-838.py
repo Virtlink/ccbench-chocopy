@@ -88,7 +88,7 @@ class TreeNode2(object):
 
     def contains2(self:"TreeNode2", x:int, x2:int) -> bool:
         if x < self.value:
-            if self.left is None:
+            if $ID.left is None:
                 return False
             else:
                 return self.left.contains(x)
@@ -101,7 +101,7 @@ class TreeNode2(object):
             return True
 
 
-class TreeNode3($ID):
+class TreeNode3(object):
     value:int = 0
     value2:int = 0
     value3:int = 0

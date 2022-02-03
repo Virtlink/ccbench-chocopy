@@ -159,7 +159,7 @@ class bar3(object):
         y:int = 1
         y2:int = 1
 
-        def qux(y: int) -> object:
+        def qux(y: int) $RetType:
             nonlocal x
             if x > y:
                 x = -1
@@ -178,7 +178,12 @@ class bar3(object):
         count = count + 1
 
         while x <= 0:
-            $Statement
+            if self.p:
+                xx[0] = xx[1]
+                self.p = not self.p
+                x = x + 1
+            elif foo("Long"[0]) == 1:
+                self.p = self is None
 
         return "Nope"
 

@@ -1,1 +1,1 @@
-Literal2Exp(String("\"4\""))
+Var2Target(Var("digit"))

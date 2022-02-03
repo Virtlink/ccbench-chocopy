@@ -1,1 +1,1 @@
-Var2Target(Var("result"))
+Eq(Var2Exp(Var("char")),Literal2Exp(String("\"6\"")))

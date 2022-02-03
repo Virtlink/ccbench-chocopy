@@ -360,7 +360,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
         elif char == "5":
             digit = 5
         elif char == "6":
-            digit = 6
+            $ID = 6
         elif char == "7":
             digit = 7
         elif char == "8":
@@ -393,7 +393,7 @@ s2:str = ""
 s3:str = ""
 s4:str = ""
 s5:str = ""
-$Definition
+i:int = 0
 i2:int = 0
 i3:int = 0
 i4:int = 0

@@ -317,7 +317,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
     result2:int = 0
     result3:int = 0
     result4:int = 0
-    result5:int = 0
+    result5:int = $INT
     digit:int = 0
     digit2:int = 0
     digit3:int = 0
@@ -345,7 +345,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
             if not first_char:
                 return 0 # Error
             sign = -1
-        elif $Exp:
+        elif char == "0":
             digit = 0
         elif char == "1":
             digit = 1

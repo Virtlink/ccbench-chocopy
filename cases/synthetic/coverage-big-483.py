@@ -56,13 +56,13 @@ class bar2(object):
 
     def baz(self:"bar2", xx: [int]) -> str:
         global count
-        x:int = 0
+        $FuncBodyMember
         y:int = 1
 
         def qux(y: int) -> object:
             nonlocal x
             if x > y:
-                x = -$Literal
+                x = -1
 
         for x in xx:
             self.p = x == 2

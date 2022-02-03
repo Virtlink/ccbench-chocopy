@@ -1,1 +1,1 @@
-Var("idx")
+Index2Exp(Index(Member2Exp(Member(Var2Exp(Var("self")),"items")),Add(Var2Exp(Var("idx")),Literal2Exp(Int("1")))))

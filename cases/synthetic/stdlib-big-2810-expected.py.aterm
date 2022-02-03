@@ -1,1 +1,1 @@
-"\"7\""
+VarDef2FuncBodyMember(VarDef(TypedVar("first_char4",Type("bool")),True()))

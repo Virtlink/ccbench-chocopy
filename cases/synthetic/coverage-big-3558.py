@@ -443,7 +443,7 @@ class bar5(object):
         y:int = 1
         y2:int = 1
 
-        def qux(y: int) -> object:
+        def qux(y: $Type) -> object:
             nonlocal x
             if x > y:
                 x = -1
@@ -482,7 +482,7 @@ class bar5(object):
 
         def qux(y: int) -> object:
             nonlocal x
-            if x > $Exp:
+            if x > y:
                 x = -1
 
         def qux2(y: int, y2: int) -> object:

@@ -1,1 +1,1 @@
-Leq(Var2Exp(Var("x")),Var2Exp(Var("y")))
+Call(Var2Exp(Var("print")),Exps2Parameters([Leq(Var2Exp(Var("x")),Var2Exp(Var("y")))]))

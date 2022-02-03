@@ -1,6 +1,6 @@
 x:str = "Hello"
 y:str = "World"
-z:$Type = ""
+$ID:str = ""
 
 z = x + y
 z = x[0]

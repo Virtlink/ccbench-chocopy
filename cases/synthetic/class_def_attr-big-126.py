@@ -18,8 +18,8 @@ class A4(object):
 
 class A5(object):
     x:int = 1
-    x2:int = 1
-    x3:$Type = 1
+    x2:int = $Literal
+    x3:int = 1
     x4:int = 1
     x5:int = 1
 

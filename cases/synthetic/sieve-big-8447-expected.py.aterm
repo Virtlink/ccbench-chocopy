@@ -1,1 +1,1 @@
-Var("v")
+TypedVar("j4",Type("int"))

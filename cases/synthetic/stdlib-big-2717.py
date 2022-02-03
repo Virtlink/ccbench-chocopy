@@ -324,7 +324,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
     digit4:int = 0
     digit5:int = 0
     char:str = ""
-    char2:str = ""
+    $FuncBodyMember
     char3:str = ""
     char4:str = ""
     char5:str = ""
@@ -350,7 +350,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
         elif char == "1":
             digit = 1
         elif char == "2":
-            digit = $INT
+            digit = 2
         elif char == "3":
             digit = 3
         elif char == "3":

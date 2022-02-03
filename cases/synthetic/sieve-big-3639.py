@@ -403,7 +403,7 @@ class Vector4(object):
 
         while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
-            idx = idx + 1
+            idx = idx + $Literal
 
         self.size = self.size - 1
 
@@ -441,7 +441,7 @@ class Vector4(object):
         self.size = self.size - 1
 
     # Retrieves an item at a given index
-    def $ID(self:"Vector4", idx: int) -> int:
+    def get(self:"Vector4", idx: int) -> int:
         return self.items[idx]
 
     # Retrieves an item at a given index

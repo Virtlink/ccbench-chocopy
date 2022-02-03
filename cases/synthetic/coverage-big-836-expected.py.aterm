@@ -1,1 +1,1 @@
-Member2Exp(Member(Var2Exp(Var("self")),"p"))
+Member2Target(Member(Var2Exp(Var("self")),"p"))

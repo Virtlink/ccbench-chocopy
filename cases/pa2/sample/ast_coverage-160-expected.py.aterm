@@ -1,1 +1,1 @@
-Member(Var2Exp(Var("self")),"p")
+Add(Var2Exp(Var("count")),Literal2Exp(Int("1")))

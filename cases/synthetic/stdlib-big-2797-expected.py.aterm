@@ -1,1 +1,1 @@
-Var2Target(Var("digit"))
+VarDef(TypedVar("first_char2",Type("bool")),True())

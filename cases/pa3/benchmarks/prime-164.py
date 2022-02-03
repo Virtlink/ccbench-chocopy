@@ -19,12 +19,12 @@ def is_prime(x:int) -> bool:
     return True
 
 # Input parameter
-n:int = 15
+n:int = $Literal
 
 # Run [1, n]
 i:int = 1
 
 # Crunch
-while i <= $Var:
+while i <= n:
     print(get_prime(i))
     i = i + 1

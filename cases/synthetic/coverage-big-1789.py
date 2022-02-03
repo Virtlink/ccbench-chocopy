@@ -222,7 +222,7 @@ class bar3(object):
         count = count + 1
 
         while x <= 0:
-            if self.p:
+            if $Var.p:
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
@@ -244,7 +244,7 @@ class bar4(object):
         x:int = 0
         y:int = 1
 
-        def qux($TypedVar) -> object:
+        def qux(y: int) -> object:
             nonlocal x
             if x > y:
                 x = -1

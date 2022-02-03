@@ -1,1 +1,1 @@
-Target(Var2Target(Var("count")))
+Gt(Var2Exp(Var("x")),Var2Exp(Var("y")))

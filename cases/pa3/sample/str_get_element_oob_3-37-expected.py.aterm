@@ -1,1 +1,1 @@
-"s"
+Index2Exp(Index(Var2Exp(Var("s")),Var2Exp(Var("i"))))

@@ -5,8 +5,8 @@ class A(object):
         return self.x
 
 class B(A):
-    def __init__(self: "B"):
-        $Statement
+    def __init__($TypedVar):
+        pass
 
 class C(B):
     z:bool = True

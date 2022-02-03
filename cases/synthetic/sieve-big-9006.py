@@ -996,15 +996,7 @@ def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
     k2:int = 0
     k3:int = 0
 
-    while i < v.length():
-        k = v.get(i)
-        j = i + 1
-        while j < v.length():
-            if v.get(j) % k == 0:
-                v.remove_at(j)
-            else:
-                j = j + 1
-        i = i + 1
+    $Statement
 
 def sieve4(v:Vector, v2:Vector, v3:Vector, v4:Vector) -> object:
     i:int = 0
@@ -1085,7 +1077,7 @@ v5 = vrange(2, n)
 sieve(v)
 
 # Print
-while $Exp:
+while i < v.length():
     print(v.get(i))
     i = i + 1
 

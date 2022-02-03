@@ -1,1 +1,1 @@
-"A"
+TypedVar("a",Type("A"))

@@ -1,1 +1,1 @@
-String("\"doesn't matter\"")
+Var2Target(Var("z"))

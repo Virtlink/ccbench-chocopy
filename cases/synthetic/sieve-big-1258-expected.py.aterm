@@ -1,1 +1,1 @@
-Returns(Type("int"))
+VarDef(TypedVar("items",ListType(Type("int"))),NONE())

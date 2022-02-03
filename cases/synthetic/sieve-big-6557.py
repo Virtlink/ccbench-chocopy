@@ -720,7 +720,7 @@ class DoublingVector(Vector):
             # If doubling limit has been reached, fall back to
             # standard capacity increases
             self.items = self.items + [0]
-        return self.capacity()
+        return $Exp()
 
 # A faster (but more memory-consuming) implementation of vector
 class DoublingVector2(Vector):
@@ -799,7 +799,7 @@ class DoublingVector4(Vector):
             # If doubling limit has been reached, fall back to
             # standard capacity increases
             self.items = self.items + [0]
-        return self.$ID()
+        return self.capacity()
 
     # Overriding to do fewer resizes
     def increase_capacity2(self:"DoublingVector4") -> int:

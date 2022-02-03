@@ -1,1 +1,1 @@
-Var("t")
+Type("int")

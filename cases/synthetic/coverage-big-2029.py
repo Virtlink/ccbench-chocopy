@@ -254,7 +254,7 @@ class bar4(object):
 
         qux(0) # Yay! ChocoPy
 
-        count = count + 1
+        count = $Exp
 
         while x <= 0:
             if self.p:
@@ -276,7 +276,7 @@ class bar4(object):
 
         def qux(y: int) -> object:
             nonlocal x
-            if $Exp > y:
+            if x > y:
                 x = -1
 
         def qux2(y: int, y2: int) -> object:

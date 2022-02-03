@@ -1,1 +1,1 @@
-Nonlocal("x")
+Var2Exp(Var("x"))

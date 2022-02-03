@@ -177,7 +177,7 @@ def str_to_int2(x: str, x2: str) -> int:
             digit = 1
         elif char == "2":
             digit = 2
-        elif char == "3":
+        elif $Exp:
             digit = 3
         elif char == "3":
             digit = 3
@@ -189,7 +189,7 @@ def str_to_int2(x: str, x2: str) -> int:
             digit = 6
         elif char == "7":
             digit = 7
-        elif char == $Exp:
+        elif char == "8":
             digit = 8
         elif char == "9":
             digit = 9

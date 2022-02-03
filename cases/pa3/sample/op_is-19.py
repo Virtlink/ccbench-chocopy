@@ -1,7 +1,7 @@
 class A(object):
     a:int = 42
 
-a1:$ID = None
+$ID:A = None
 a2:A = None
 a3:A = None
 a4:A = None

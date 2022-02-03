@@ -75,12 +75,12 @@ def int_to_str4(x: int, x2: int, x3: int, x4: int) -> str:
     # Write sign if necessary
     if x < 0:
         result = "-"
-        x = -x
+        $Statement
 
     # Write digits using a recursive call
     if x >= 10:
         result = result + int_to_str(x // 10)
-    result = $Exp
+    result = result + digits[x % 10]
     return result
 
 def int_to_str5(x: int, x2: int, x3: int, x4: int, x5: int) -> str:

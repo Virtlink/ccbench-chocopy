@@ -11,8 +11,8 @@ def exp(x: int, y: int) -> int:
         nonlocal a3
         nonlocal a4
         nonlocal a5
-        def geta() -> int:
-            $Statement
+        def $ID() -> int:
+            return a
         if i <= 0:
             return geta()
         else:

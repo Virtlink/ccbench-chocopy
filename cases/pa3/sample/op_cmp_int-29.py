@@ -1,7 +1,7 @@
 x:int = 42
 y:int = 7
 
-print(x == $ID)
+print($ID == y)
 print(x != y)
 print(x < y)
 print(x <= y)

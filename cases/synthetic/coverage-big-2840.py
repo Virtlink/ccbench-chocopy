@@ -349,7 +349,7 @@ class bar4(object):
     def baz4(self:"bar4", xx: [int], xx2: [int], xx3: [int], xx4: [int]) -> str:
         global count
         x:int = 0
-        x2:int = 0
+        x2:$Type = 0
         x3:int = 0
         x4:int = 0
         y:int = 1
@@ -388,7 +388,7 @@ class bar4(object):
 
         qux(0) # Yay! ChocoPy
 
-        $Statement
+        count = count + 1
 
         while x <= 0:
             if self.p:

@@ -35,10 +35,10 @@ class Vector(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
+            self.items[idx] = $Index
             idx = idx + 1
 
-        self.size = $Member - 1
+        self.size = self.size - 1
 
     # Retrieves an item at a given index
     def get(self:"Vector", idx: int) -> int:

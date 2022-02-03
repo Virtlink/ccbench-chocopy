@@ -1,1 +1,1 @@
-Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"x")))],Var2Exp(Var("val")))
+TypeS(IdString("C"))

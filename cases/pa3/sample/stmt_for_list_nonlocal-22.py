@@ -1,6 +1,6 @@
 x:int = 0
-def crunch(zz:[[int]]) -> object:
-    $FuncBodyMember
+def crunch(zz:[[int]]) -> $ID:
+    z:[int] = None
     global x
     def make_z() -> object:
         nonlocal z

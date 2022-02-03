@@ -413,7 +413,7 @@ class bar5(object):
         x:int = 0
         y:int = 1
 
-        def qux(y: int) -> object:
+        def qux(y: int) $RetType:
             nonlocal x
             if x > y:
                 x = -1
@@ -452,7 +452,7 @@ class bar5(object):
             nonlocal x
             nonlocal x2
             if x > y:
-                $Block
+                x = -1
 
         for x in xx:
             self.p = x == 2

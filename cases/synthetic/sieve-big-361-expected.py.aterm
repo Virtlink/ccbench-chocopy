@@ -1,1 +1,1 @@
-TypedVar("self",TypeS(IdString("Vector")))
+Var2Exp(Var("self"))

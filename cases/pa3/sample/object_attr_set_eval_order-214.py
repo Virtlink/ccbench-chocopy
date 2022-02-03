@@ -28,6 +28,6 @@ print("Assigned B.a")
 get_b().b = get_false()
 print("Assigned B.b")
 
-print(a.a)
+$ID(a.a)
 print(b.a)
-print($ID.b)
+print(b.b)

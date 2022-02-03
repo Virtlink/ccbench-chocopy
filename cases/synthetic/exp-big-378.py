@@ -46,10 +46,10 @@ def exp2(x: int, y: int, x2: int, y2: int) -> int:
         if i <= 0:
             return geta()
         else:
-            a = a * x
+            $Target = a * x
             a2 = a * x
             a3 = a * x
-            $Var = a * x
+            a4 = a * x
             a5 = a * x
             return f(i-1)
     a = 1

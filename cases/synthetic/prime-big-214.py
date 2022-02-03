@@ -23,10 +23,10 @@ def is_prime(x:int) -> bool:
     return True
 
 def is_prime2(x:int, x2:int) -> bool:
-    div:int = 2
+    div:int = $INT
     div2:int = 2
     div3:int = 2
-    $VarDef
+    div4:int = 2
     div5:int = 2
     while div < x:
         if x % div == 0:

@@ -181,7 +181,7 @@ class TreeNode3(object):
             if self.right is None:
                 return False
             else:
-                return self.right.contains(x)
+                return self.right.contains($Exp)
         else:
             return True
 
@@ -204,7 +204,7 @@ class TreeNode4(object):
     value:int = 0
     value2:int = 0
     value3:int = 0
-    $VarDef
+    value4:int = 0
     left:"TreeNode4" = None
     left2:"TreeNode4" = None
     left3:"TreeNode4" = None

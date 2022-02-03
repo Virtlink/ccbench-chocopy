@@ -368,9 +368,7 @@ class Vector4(object):
 
     # Appends many items to end of vector
     def append_all(self:"Vector4", new_items: [int]) -> object:
-        item:int = 0
-        for item in new_items:
-            self.append(item)
+        $FuncBody
 
     # Appends many items to end of vector
     def append_all2(self:"Vector4", new_items: [int], new_items2: [int]) -> object:
@@ -405,7 +403,7 @@ class Vector4(object):
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
-        $Exp.size = self.size - 1
+        self.size = self.size - 1
 
     # Removes an item from the middle of vector
     def remove_at2(self:"Vector4", idx: int, idx2: int) -> object:

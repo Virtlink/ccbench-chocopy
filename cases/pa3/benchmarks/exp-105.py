@@ -10,8 +10,8 @@ def exp(x: int, y: int) -> int:
 		else:
 			a = a * x
 			return f(i-1)
-	a = 1
-	return f($Var)
+	$Statement
+	return f(y)
 
 # Input parameter
 n:int = 42

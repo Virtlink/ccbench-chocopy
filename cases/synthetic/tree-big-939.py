@@ -103,7 +103,7 @@ class TreeNode2(object):
 
 class TreeNode3(object):
     value:int = 0
-    value2:int = 0
+    value2:int = $Literal
     value3:int = 0
     left:"TreeNode3" = None
     left2:"TreeNode3" = None
@@ -114,7 +114,11 @@ class TreeNode3(object):
 
     def insert(self:"TreeNode3", x:int) -> bool:
         if x < self.value:
-            $Block
+            if self.left is None:
+                self.left = makeNode3(x, x, x)
+                return True
+            else:
+                return self.left.insert(x)
         elif x > self.value:
             if self.right is None:
                 self.right = makeNode3(x, x, x)

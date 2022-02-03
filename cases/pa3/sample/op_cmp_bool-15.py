@@ -1,5 +1,5 @@
 print(True == True)
-$Var(True == False)
+$Statement
 print(False == True)
 print(False == False)
 print(True != True)

@@ -1,1 +1,1 @@
-Returns(Type("int"))
+Add(Var2Exp(Var("idx")),Literal2Exp(Int("1")))

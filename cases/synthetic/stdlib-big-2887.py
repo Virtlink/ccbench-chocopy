@@ -347,7 +347,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
             sign = -1
         elif char == "0":
             digit = 0
-        elif char == "1":
+        elif char == $Exp:
             digit = 1
         elif char == "2":
             digit = 2
@@ -373,7 +373,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
         result = result * 10 + digit
 
     # Compute result
-    return $ID * sign
+    return result * sign
         
 # Input parameters
 c:int = 42

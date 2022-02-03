@@ -1,3 +1,3 @@
 x:[int] = None
 
-print(len($Exp))
+print($Var(x))

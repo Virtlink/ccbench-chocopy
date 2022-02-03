@@ -652,7 +652,7 @@ class Tree4(object):
             return self.root.contains(x)
 
     def contains3(self:"Tree4", x:int, x2:int, x3:int) -> bool:
-        if self.root is None:
+        if self.root is $Literal:
             return False
         else:
             return self.root.contains(x)
@@ -705,7 +705,7 @@ class Tree5(object):
             self.size = 1
         else:
             if self.root.insert(x):
-                $AssignTarget self.size + 1
+                self.size = self.size + 1
 
     def insert5(self:"Tree5", x:int, x2:int, x3:int, x4:int, x5:int) -> object:
         if self.root is None:

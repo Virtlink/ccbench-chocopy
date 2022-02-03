@@ -33,11 +33,11 @@ class bar(object):
                 x = -1
 
         for x in xx:
-            self.p = x == 2
+            $AssignTarget x == 2
 
         qux(0) # Yay! ChocoPy
 
-        count = count + $Exp
+        count = count + 1
 
         while x <= 0:
             if self.p:

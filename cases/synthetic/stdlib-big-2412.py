@@ -288,7 +288,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
             digit = 1
         elif char == "2":
             digit = 2
-        elif char == "3":
+        elif $ID == "3":
             digit = 3
         elif char == "3":
             digit = 3
@@ -312,7 +312,68 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
     # Compute result
     return result * sign
 
-$FuncDef
+def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
+    result:int = 0
+    result2:int = 0
+    result3:int = 0
+    result4:int = 0
+    result5:int = 0
+    digit:int = 0
+    digit2:int = 0
+    digit3:int = 0
+    digit4:int = 0
+    digit5:int = 0
+    char:str = ""
+    char2:str = ""
+    char3:str = ""
+    char4:str = ""
+    char5:str = ""
+    sign:int = 1
+    sign2:int = 1
+    sign3:int = 1
+    sign4:int = 1
+    sign5:int = 1
+    first_char:bool = True
+    first_char2:bool = True
+    first_char3:bool = True
+    first_char4:bool = True
+    first_char5:bool = True
+
+    # Parse digits
+    for char in x:
+        if char == "-":
+            if not first_char:
+                return 0 # Error
+            sign = -1
+        elif char == "0":
+            digit = 0
+        elif char == "1":
+            digit = 1
+        elif char == "2":
+            digit = 2
+        elif char == "3":
+            digit = 3
+        elif char == "3":
+            digit = 3
+        elif char == "4":
+            digit = 4
+        elif char == "5":
+            digit = 5
+        elif char == "6":
+            digit = 6
+        elif char == "7":
+            digit = 7
+        elif char == "8":
+            digit = 8
+        elif char == "9":
+            digit = 9
+        else:
+            return 0 # On error
+        first_char = False
+        result = result * 10 + digit
+
+    # Compute result
+    return result * sign
         
 # Input parameters
 c:int = 42

@@ -41,9 +41,9 @@ def is_prime3(x:int, x2:int, x3:int) -> bool:
     div4:int = 2
     div5:int = 2
     while div < x:
-        if x % div == 0:
+        if $Exp:
             return False
-        div = div + $INT
+        div = div + 1
     return True
 
 def is_prime4(x:int, x2:int, x3:int, x4:int) -> bool:

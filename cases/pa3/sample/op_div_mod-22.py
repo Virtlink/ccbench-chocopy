@@ -1,5 +1,5 @@
 x:int = 42
 y:int = 9
 
-print($Parameters)
+$Var(x // y)
 print(x % y)

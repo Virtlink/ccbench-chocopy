@@ -1,6 +1,6 @@
 # Test of 'input' function.
 
-s: $ID = ""
+s: $Type = ""
 
 s = input()
 while len(s) > 0:

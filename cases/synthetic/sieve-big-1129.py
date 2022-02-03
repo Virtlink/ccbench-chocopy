@@ -125,7 +125,7 @@ class Vector2(object):
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
-        self.size = self.size - 1
+        $ID.size = self.size - 1
 
     # Retrieves an item at a given index
     def get(self:"Vector2", idx: int) -> int:
@@ -144,7 +144,7 @@ class Vector2(object):
         return self.size
 
 # A resizable list of integers
-class $ID(object):
+class Vector3(object):
     items: [int] = None
     items2: [int] = None
     items3: [int] = None

@@ -3,8 +3,8 @@ class Vector(object):
     items: [int] = None
     size: int = 0
 
-    def __init__(self:"Vector"):
-        $Statement
+    def __init__(self:"$ID"):
+        self.items = [0]
 
     # Returns current capacity
     def capacity(self:"Vector") -> int:

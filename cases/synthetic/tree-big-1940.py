@@ -209,7 +209,7 @@ class TreeNode4(object):
     left2:"TreeNode4" = None
     left3:"TreeNode4" = None
     left4:"TreeNode4" = None
-    right:"TreeNode4" = None
+    $ClassBodyMember
     right2:"TreeNode4" = None
     right3:"TreeNode4" = None
     right4:"TreeNode4" = None
@@ -225,7 +225,8 @@ class TreeNode4(object):
             if self.right is None:
                 self.right = makeNode4(x, x, x, x)
                 return True
-            $ElifElse
+            else:
+                return self.right.insert(x)
         return False
 
     def insert2(self:"TreeNode4", x:int, x2:int) -> bool:

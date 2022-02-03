@@ -1,6 +1,6 @@
 print(True == True)
-print(True == False)
-$Var(False == True)
+print(True == $Literal)
+print(False == True)
 print(False == False)
 print(True != True)
 print(True != False)

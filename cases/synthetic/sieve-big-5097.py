@@ -563,7 +563,7 @@ class Vector5(object):
             self.increase_capacity()
 
         self.items[self.size] = item
-        self.size = self.size + 1
+        self.size = self.size + $Literal
 
     # Appends one item to end of vector
     def append5(self:"Vector5", item: int, item2: int, item3: int, item4: int, item5: int) -> object:
@@ -619,7 +619,8 @@ class Vector5(object):
             return
 
         while idx < self.size - 1:
-            $Block
+            self.items[idx] = self.items[idx + 1]
+            idx = idx + 1
 
         self.size = self.size - 1
 

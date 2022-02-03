@@ -16,8 +16,8 @@ def exp(x: int, y: int) -> int:
         if i <= 0:
             return geta()
         else:
-            a = a * x
-            a2 = $Var * x
+            a = $Exp * x
+            a2 = a * x
             a3 = a * x
             a4 = a * x
             a5 = a * x

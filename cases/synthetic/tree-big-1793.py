@@ -188,7 +188,7 @@ class TreeNode3(object):
     def contains3(self:"TreeNode3", x:int, x2:int, x3:int) -> bool:
         if x < self.value:
             if self.left is None:
-                return False
+                $Block
             else:
                 return self.left.contains(x)
         elif x > self.value:
@@ -211,7 +211,7 @@ class TreeNode4(object):
     left4:"TreeNode4" = None
     right:"TreeNode4" = None
     right2:"TreeNode4" = None
-    right3:$Type = None
+    right3:"TreeNode4" = None
     right4:"TreeNode4" = None
 
     def insert(self:"TreeNode4", x:int) -> bool:

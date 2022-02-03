@@ -1,4 +1,4 @@
-$ClassDef
+$Definition
 
 a1:A = None
 a2:A = None

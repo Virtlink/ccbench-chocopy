@@ -2,6 +2,6 @@ def foo(x:str, y:bool) -> int:
     return bar()
 
 def bar() -> int:
-    return 1
+    $FuncBody
 
-$Exp
+foo("Hello", False)

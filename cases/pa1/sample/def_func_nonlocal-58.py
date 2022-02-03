@@ -5,7 +5,7 @@ def foo(x:int) -> bool:
     def bar(y: int) -> int:
         nonlocal a
         a = 2 
-        return y
-    return $ID(x) > a
+        return $Var
+    return bar(x) > a
 
 foo(1)

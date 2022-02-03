@@ -1,1 +1,1 @@
-"digit"
+If(Not(Var2Exp(Var("first_char"))),Block([Return(Literal2Exp(Int("0")))]))

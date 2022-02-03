@@ -1,1 +1,1 @@
-Literal2Exp(String("\"-\""))
+VarDef(TypedVar("result",Type("int")),Int("0"))

@@ -309,7 +309,7 @@ class bar4(object):
         x3:int = 0
         y:int = 1
         y2:int = 1
-        y3:int = 1
+        $VarDef
 
         def qux(y: int) -> object:
             nonlocal x
@@ -340,7 +340,7 @@ class bar4(object):
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
-                $Target = x + 1
+                x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 

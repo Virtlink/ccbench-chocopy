@@ -1,1 +1,1 @@
-Target(Var2Target(Var("i")))
+Index2Exp(Index(Var2Exp(Var("z")),Var2Exp(Var("i"))))

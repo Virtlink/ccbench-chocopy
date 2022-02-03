@@ -274,7 +274,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
     first_char:bool = True
     first_char2:bool = True
     first_char3:bool = True
-    first_char4:bool = True
+    $FuncBodyMember
 
     # Parse digits
     for char in x:
@@ -295,7 +295,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
         elif char == "4":
             digit = 4
         elif char == "5":
-            digit = $INT
+            digit = 5
         elif char == "6":
             digit = 6
         elif char == "7":

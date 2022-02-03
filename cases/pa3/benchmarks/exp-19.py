@@ -1,6 +1,6 @@
 # Compute x**y
 def exp(x: int, y: int) -> int:
-	$ID: int = 0
+	$FuncBodyMember
 	def f(i: int) -> int:
 		nonlocal a
 		def geta() -> int:

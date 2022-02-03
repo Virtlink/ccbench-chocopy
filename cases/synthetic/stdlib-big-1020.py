@@ -113,7 +113,7 @@ def str_to_int(x: str) -> int:
     result:int = 0
     digit:int = 0
     char:str = ""
-    sign:int = 1
+    $VarDef
     first_char:bool = True
 
     # Parse digits
@@ -123,7 +123,7 @@ def str_to_int(x: str) -> int:
                 return 0 # Error
             sign = -1
         elif char == "0":
-            digit = $Literal
+            digit = 0
         elif char == "1":
             digit = 1
         elif char == "2":

@@ -651,7 +651,7 @@ class Vector5(object):
         if idx < 0:
             return
 
-        while idx < self.size - 1:
+        while $Var < self.size - 1:
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
@@ -719,7 +719,7 @@ class DoublingVector(Vector):
         else:
             # If doubling limit has been reached, fall back to
             # standard capacity increases
-            self.items = $ID.items + [0]
+            self.items = self.items + [0]
         return self.capacity()
 
 # A faster (but more memory-consuming) implementation of vector

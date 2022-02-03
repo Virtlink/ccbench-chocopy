@@ -16,9 +16,9 @@ class C(B):
 
 a:A = None
 b:B = None
-c:C = None
+$VarDef
 
-a = $ID()
+a = A()
 b = B()
 c = C()
 

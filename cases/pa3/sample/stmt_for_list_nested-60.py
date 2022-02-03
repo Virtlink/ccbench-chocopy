@@ -6,4 +6,4 @@ z = [1, 2, 3]
 
 for x in z:
     for y in z:
-        print($Var * y)
+        $Exp(x * y)

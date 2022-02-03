@@ -480,7 +480,7 @@ class bar5(object):
         y2:int = 1
         y3:int = 1
 
-        def qux(y: int) -> object:
+        def qux($TypedVar) -> object:
             nonlocal x
             if x > y:
                 x = -1
@@ -522,7 +522,7 @@ class bar5(object):
         x3:int = 0
         x4:int = 0
         y:int = 1
-        $VarDef
+        y2:int = 1
         y3:int = 1
         y4:int = 1
 

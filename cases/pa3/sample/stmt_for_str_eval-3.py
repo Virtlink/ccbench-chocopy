@@ -1,4 +1,4 @@
-$TypedVar = ""
+$VarDef
 z:str = "abc"
 
 for x in z:

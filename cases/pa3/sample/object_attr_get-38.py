@@ -4,8 +4,8 @@ class A(object):
 class B(A):
     b:bool = True
 
-    def __init__(self:"B"):
-        $Exp("B")
+    def __init__(self:"B")$RetType:
+        print("B")
 
 a:A = None
 b:B = None

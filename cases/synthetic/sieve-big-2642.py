@@ -303,8 +303,7 @@ class Vector4(object):
         return len(self.items)
 
     # Returns current capacity
-    def capacity2(self:"Vector4") -> int:
-        return len(self.items)
+    $ClassBodyMember
 
     # Returns current capacity
     def capacity3(self:"Vector4") -> int:
@@ -336,7 +335,7 @@ class Vector4(object):
 
     # Appends one item to end of vector
     def append(self:"Vector4", item: int) -> object:
-        if $Member == self.capacity():
+        if self.size == self.capacity():
             self.increase_capacity()
 
         self.items[self.size] = item

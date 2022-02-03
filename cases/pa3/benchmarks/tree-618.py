@@ -71,13 +71,13 @@ k:int = 37813
 t = Tree()
 while i < n:
 	t.insert(k)
-	k = (k * 37813) % 37831
+	k = (k * 37813) % $INT
 	if i % c != 0:
 		t.insert(i)
 	i = i + 1
 
 print(t.size)
 
-for i in [4, 8, $Exp, 16, 23, 42]:
+for i in [4, 8, 15, 16, 23, 42]:
 	if t.contains(i):
 		print(i)

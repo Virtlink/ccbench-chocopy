@@ -1,5 +1,5 @@
 def f() -> int:
-    print($Literal)
+    $Var("start f")
     g()
     print("end f")
     return 42

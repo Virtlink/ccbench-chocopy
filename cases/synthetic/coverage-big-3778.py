@@ -467,7 +467,7 @@ class bar5(object):
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
-                self.p = self is None
+                self.p = self is $Exp
 
         return "Nope"
 
@@ -511,7 +511,7 @@ class bar5(object):
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
-                $Exp.p = self is None
+                self.p = self is None
 
         return "Nope"
 

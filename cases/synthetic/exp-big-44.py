@@ -3,7 +3,7 @@ def exp(x: int, y: int) -> int:
     a: int = 0
     a2: int = 0
     a3: int = 0
-    a4: $Type = 0
+    $VarDef
     a5: int = 0
     def f(i: int) -> int:
         nonlocal a

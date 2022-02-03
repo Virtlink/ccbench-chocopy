@@ -283,7 +283,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
                 return 0 # Error
             sign = -1
         elif char == "0":
-            digit = 0
+            $ID = 0
         elif char == "1":
             digit = 1
         elif char == "2":
@@ -303,7 +303,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
         elif char == "8":
             digit = 8
         elif char == "9":
-            $Statement
+            digit = 9
         else:
             return 0 # On error
         first_char = False

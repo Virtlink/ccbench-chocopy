@@ -1,1 +1,1 @@
-TypedVar("div3",Type("int"))
+"int"

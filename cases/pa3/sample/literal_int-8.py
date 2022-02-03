@@ -1,2 +1,2 @@
-print($Literal)
+print($Parameters)
 print(65999)

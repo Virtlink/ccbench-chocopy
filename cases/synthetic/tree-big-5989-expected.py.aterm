@@ -1,1 +1,1 @@
-Literal2Exp(NONE())
+TypedVar("size2",Type("int"))

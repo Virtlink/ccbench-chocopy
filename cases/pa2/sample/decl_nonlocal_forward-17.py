@@ -1,7 +1,7 @@
 def outer() -> int:
-    def inner() -> int:
+    def inner() -> $ID:
         nonlocal x
-        $Statement
+        x = 1
         return x
     x:int = 0
     inner()

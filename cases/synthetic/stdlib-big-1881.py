@@ -223,7 +223,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
         if char == "-":
             if not first_char:
                 return 0 # Error
-            sign = -1
+            sign = -$INT
         elif char == "0":
             digit = 0
         elif char == "1":
@@ -239,7 +239,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
         elif char == "5":
             digit = 5
         elif char == "6":
-            $Var = 6
+            digit = 6
         elif char == "7":
             digit = 7
         elif char == "8":

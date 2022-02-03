@@ -217,7 +217,7 @@ class Vector3(object):
         item:int = 0
         item2:int = 0
         for item in new_items:
-            self.append(item)
+            self.$ID(item)
 
     # Appends many items to end of vector
     def append_all3(self:"Vector3", new_items: [int], new_items2: [int], new_items3: [int]) -> object:
@@ -240,7 +240,14 @@ class Vector3(object):
 
     # Removes an item from the middle of vector
     def remove_at2(self:"Vector3", idx: int, idx2: int) -> object:
-        $FuncBody
+        if idx < 0:
+            return
+
+        while idx < self.size - 1:
+            self.items[idx] = self.items[idx + 1]
+            idx = idx + 1
+
+        self.size = self.size - 1
 
     # Removes an item from the middle of vector
     def remove_at3(self:"Vector3", idx: int, idx2: int, idx3: int) -> object:

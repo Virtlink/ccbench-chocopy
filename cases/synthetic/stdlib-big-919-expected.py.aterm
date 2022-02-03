@@ -1,1 +1,1 @@
-Var("result")
+Negative(Var2Exp(Var("x")))

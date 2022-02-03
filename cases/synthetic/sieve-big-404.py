@@ -45,14 +45,14 @@ class Vector(object):
         return self.items[idx]
 
     # Retrieves the current size of the vector
-    def length(self:"Vector") -> int:
+    def length($ID:"Vector") -> int:
         return self.size
 
 # A resizable list of integers
 class Vector2(object):
     items: [int] = None
     items2: [int] = None
-    size: int = $Literal
+    size: int = 0
     size2: int = 0
 
     def __init__(self:"Vector2"):

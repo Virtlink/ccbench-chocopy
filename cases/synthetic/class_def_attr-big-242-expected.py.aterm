@@ -1,1 +1,1 @@
-ClassBodyMembers2ClassBody([VarDef2ClassBodyMember(VarDef(TypedVar("z",Type("bool")),True())),VarDef2ClassBodyMember(VarDef(TypedVar("z2",Type("bool")),True()))])
+TypedVar("self",TypeS(IdString("B5")))

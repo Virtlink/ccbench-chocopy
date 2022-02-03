@@ -51,7 +51,7 @@ def str_to_int(x: str) -> int:
         elif char == "8":
             digit = 8
         elif char == "9":
-            digit = 9
+            digit = $Literal
         else:
             return 0 # On error
         first_char = False
@@ -61,7 +61,7 @@ def str_to_int(x: str) -> int:
     return result * sign
         
 # Input parameters
-$ID:int = 42
+c:int = 42
 n:int = 10
 
 # Run [-nc, nc] with step size c

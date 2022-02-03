@@ -20,9 +20,9 @@ def foo5(s: str, s2: str, s3: str, s4: str, s5: str) -> int:
     return len(s)
 
 class bar(object):
-    p: bool = True
+    $ClassBodyMember
 
-    def baz(self:"bar", xx: [int]) -> $ID:
+    def baz(self:"bar", xx: [int]) -> str:
         global count
         x:int = 0
         y:int = 1

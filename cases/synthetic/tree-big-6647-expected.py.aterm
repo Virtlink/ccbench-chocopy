@@ -1,1 +1,1 @@
-"x"
+FuncDef("contains4",[TypedVar("self",TypeS(IdString("Tree4"))),TypedVar("x",Type("int")),TypedVar("x2",Type("int")),TypedVar("x3",Type("int")),TypedVar("x4",Type("int"))],Returns(Type("bool")),FuncBody([],[IfElse(Is(Member2Exp(Member(Var2Exp(Var("self")),"root")),Literal2Exp(NONE())),Block([Return(Literal2Exp(False()))]),Else(Block([Return(Call(Member2Exp(Member(Member2Exp(Member(Var2Exp(Var("self")),"root")),"contains")),Exps2Parameters([Var2Exp(Var("x"))])))])))]))

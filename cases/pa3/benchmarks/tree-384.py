@@ -40,12 +40,16 @@ class Tree(object):
 	def insert(self:"Tree", x:int) -> object:
 		if self.root is None:
 			self.root = makeNode(x)
-			self.size = 1
+			self.size = $INT
 		else:
 			if self.root.insert(x):
 				self.size = self.size + 1
 
-	$ClassBodyMember
+	def contains(self:"Tree", x:int) -> bool:
+		if self.root is None:
+			return False
+		else:
+			return self.root.contains(x)
 
 def makeNode(x: int) -> TreeNode:
 	b:TreeNode = None

@@ -54,7 +54,7 @@ class bar2(object):
     p: bool = True
     p2: bool = True
 
-    def baz(self:"bar2", xx: [int]) -> str:
+    def baz(self:"bar2", xx: [int]) -> $Type:
         global count
         x:int = 0
         y:int = 1
@@ -62,7 +62,7 @@ class bar2(object):
         def qux(y: int) -> object:
             nonlocal x
             if x > y:
-                $AssignTarget -1
+                x = -1
 
         for x in xx:
             self.p = x == 2

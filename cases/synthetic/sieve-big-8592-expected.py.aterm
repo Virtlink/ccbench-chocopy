@@ -1,1 +1,1 @@
-TypedVar("i4",Type("int"))
+Var2Exp(Var("i"))

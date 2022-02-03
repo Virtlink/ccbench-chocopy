@@ -693,8 +693,7 @@ class Vector5(object):
         return self.size
 
     # Retrieves the current size of the vector
-    def length2(self:"Vector5") -> int:
-        return self.size
+    $FuncDef
 
     # Retrieves the current size of the vector
     def length3(self:"Vector5") -> int:
@@ -776,7 +775,7 @@ class DoublingVector3(Vector):
 
     # Overriding to do fewer resizes
     def increase_capacity3(self:"DoublingVector3") -> int:
-        if ($Member() <= self.doubling_limit // 2):
+        if (self.capacity() <= self.doubling_limit // 2):
             self.items = self.items + self.items
         else:
             # If doubling limit has been reached, fall back to

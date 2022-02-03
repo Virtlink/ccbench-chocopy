@@ -1,4 +1,4 @@
 x:str = "xXx"
 
-for x in $ID:
+for x in $Exp:
     print(x)

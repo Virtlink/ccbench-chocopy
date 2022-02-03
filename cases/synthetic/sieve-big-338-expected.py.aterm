@@ -1,1 +1,1 @@
-TypedVar("idx",Type("int"))
+Target(Var2Target(Var("idx")))

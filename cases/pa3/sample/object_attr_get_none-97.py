@@ -12,5 +12,5 @@ b:B = None
 
 a = B()
 print(a.a)
-print(b.a)
-$ID(b.b)
+print($Parameters)
+print(b.b)

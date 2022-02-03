@@ -1,5 +1,5 @@
-if False:
-    $Block
+if $Exp:
+    print("No")
 elif True:
     if True:
         print("Yes")

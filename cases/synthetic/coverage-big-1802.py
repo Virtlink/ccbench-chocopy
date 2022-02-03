@@ -223,7 +223,7 @@ class bar3(object):
 
         while x <= 0:
             if self.p:
-                xx[0] = xx[1]
+                xx[$Exp] = xx[1]
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
@@ -246,7 +246,7 @@ class bar4(object):
 
         def qux(y: int) -> object:
             nonlocal x
-            if $Var > y:
+            if x > y:
                 x = -1
 
         for x in xx:

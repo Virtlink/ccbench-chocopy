@@ -408,7 +408,7 @@ class bar5(object):
     p4: bool = True
     p5: bool = True
 
-    def baz(self:"bar5", xx: [int]) -> str:
+    def baz(self:"bar5", xx: [$Type]) -> str:
         global count
         x:int = 0
         y:int = 1
@@ -446,7 +446,7 @@ class bar5(object):
         def qux(y: int) -> object:
             nonlocal x
             if x > y:
-                $Var = -1
+                x = -1
 
         def qux2(y: int, y2: int) -> object:
             nonlocal x

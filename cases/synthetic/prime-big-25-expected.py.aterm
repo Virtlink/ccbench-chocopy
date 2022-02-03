@@ -1,1 +1,1 @@
-"int"
+TypedVar("found",Type("int"))

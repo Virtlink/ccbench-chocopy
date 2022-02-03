@@ -1,1 +1,1 @@
-"0"
+TypedVar("size3",Type("int"))

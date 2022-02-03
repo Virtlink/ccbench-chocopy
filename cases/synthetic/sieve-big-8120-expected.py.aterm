@@ -1,1 +1,1 @@
-TypedVar("i",Type("int"))
+VarDef(TypedVar("v",Type("Vector")),NONE())

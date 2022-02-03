@@ -107,7 +107,7 @@ class Vector2(object):
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector2", idx: int) -> object:
-        if idx < 0:
+        if $Exp:
             return
 
         while idx < self.size - 1:
@@ -117,7 +117,7 @@ class Vector2(object):
         self.size = self.size - 1
 
     # Removes an item from the middle of vector
-    def remove_at2(self:"Vector2", idx: int, idx2: int) $RetType:
+    def remove_at2(self:"Vector2", idx: int, idx2: int) -> object:
         if idx < 0:
             return
 

@@ -300,7 +300,7 @@ class TreeNode4(object):
             else:
                 return self.right.contains(x)
         else:
-            return True
+            $Block
 
     def contains3(self:"TreeNode4", x:int, x2:int, x3:int) -> bool:
         if x < self.value:
@@ -331,7 +331,7 @@ class TreeNode4(object):
             return True
 
 class TreeNode5(object):
-    value:int = $INT
+    value:int = 0
     value2:int = 0
     value3:int = 0
     value4:int = 0

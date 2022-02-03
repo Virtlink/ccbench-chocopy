@@ -1,1 +1,1 @@
-Var("j")
+Returns(Type("Vector"))

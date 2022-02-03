@@ -295,7 +295,7 @@ class Vector4(object):
     size3: int = 0
     size4: int = 0
 
-    def __init__(self:"Vector4"):
+    def __init__(self:$IDSTRING):
         self.items = [0]
 
     # Returns current capacity
@@ -331,7 +331,8 @@ class Vector4(object):
 
     # Increases capacity of vector by one element
     def increase_capacity4(self:"Vector4") -> int:
-        $FuncBody
+        self.items = self.items + [0]
+        return self.capacity()
 
     # Appends one item to end of vector
     def append(self:"Vector4", item: int) -> object:

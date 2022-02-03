@@ -35,10 +35,10 @@ def int_to_str2(x: int, x2: int) -> str:
     if x >= 10:
         result = result + int_to_str(x // 10)
     result = result + digits[x % 10]
-    return result
+    return $ID
 
 def int_to_str3(x: int, x2: int, x3: int) -> str:
-    digits:[$Type] = None 
+    digits:[str] = None 
     digits2:[str] = None 
     digits3:[str] = None 
     result:str = ""

@@ -1,1 +1,1 @@
-"x"
+Call(Var2Exp(Var("bar")),Exps2Parameters([Var2Exp(Var("x"))]))

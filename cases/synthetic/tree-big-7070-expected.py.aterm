@@ -1,1 +1,1 @@
-Return(Var2Exp(Var("b")))
+Call(Var2Exp(Var("makeNode5")),Exps2Parameters([Var2Exp(Var("x")),Var2Exp(Var("x")),Var2Exp(Var("x")),Var2Exp(Var("x")),Var2Exp(Var("x"))]))

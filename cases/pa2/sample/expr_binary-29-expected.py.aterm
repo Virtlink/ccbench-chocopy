@@ -1,1 +1,1 @@
-Int("1")
+Neq(Literal2Exp(Int("1")),Literal2Exp(Int("1")))

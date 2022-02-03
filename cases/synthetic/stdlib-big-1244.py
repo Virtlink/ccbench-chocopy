@@ -140,12 +140,7 @@ def str_to_int(x: str) -> int:
             digit = 6
         elif char == "7":
             digit = 7
-        elif char == "8":
-            digit = 8
-        elif char == "9":
-            digit = 9
-        else:
-            return 0 # On error
+        $ElifElse # On error
         first_char = False
         result = result * 10 + digit
 
@@ -154,7 +149,7 @@ def str_to_int(x: str) -> int:
 
 
 def str_to_int2(x: str, x2: str) -> int:
-    $FuncBodyMember
+    result:int = 0
     result2:int = 0
     digit:int = 0
     digit2:int = 0

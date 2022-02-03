@@ -812,7 +812,7 @@ class DoublingVector4(Vector):
         return self.capacity()
 
     # Overriding to do fewer resizes
-    def increase_capacity3(self:"DoublingVector4") -> int:
+    def increase_capacity3(self:"DoublingVector4") $RetType:
         if (self.capacity() <= self.doubling_limit // 2):
             self.items = self.items + self.items
         else:
@@ -896,7 +896,7 @@ def vrange(i:int, j:int) -> Vector:
     v = DoublingVector()
     
     while i < j:
-        $Var.append(i)
+        v.append(i)
         i = i + 1
 
     return v

@@ -1,4 +1,4 @@
-x:$ID = ""
+x:$Type = ""
 z:str = "abc"
 
 for x in z:

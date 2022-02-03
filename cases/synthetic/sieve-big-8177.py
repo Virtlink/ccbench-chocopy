@@ -908,7 +908,7 @@ def vrange2(i:int, j:int, i2:int, j2:int) -> Vector:
     
     while i < j:
         v.append(i)
-        i = i + 1
+        i = $Var + 1
 
     return v
 
@@ -993,7 +993,7 @@ def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:
     j2:int = 0
     j3:int = 0
     k:int = 0
-    $ID:int = 0
+    k2:int = 0
     k3:int = 0
 
     while i < v.length():

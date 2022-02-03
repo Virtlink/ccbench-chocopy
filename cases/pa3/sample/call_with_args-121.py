@@ -11,9 +11,9 @@ def g(y:int, z:int) -> object:
     print(y)
     print(z)
     h("h")
-    print("end g")
+    $Statement
 
-def h(msg: $ID) -> object:
+def h(msg: str) -> object:
     print(msg)
 
 print(f(4))

@@ -1,1 +1,1 @@
-TypedVar("idx4",Type("int"))
+Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"size")))],Sub(Member2Exp(Member(Var2Exp(Var("self")),"size")),Literal2Exp(Int("1"))))

@@ -1,1 +1,1 @@
-List([Literal2Exp(Int("1")),Literal2Exp(Int("2"))])
+Is(Var2Exp(Var("self")),Literal2Exp(NONE()))

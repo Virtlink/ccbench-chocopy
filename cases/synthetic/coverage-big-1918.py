@@ -239,7 +239,7 @@ class bar4(object):
     p3: bool = True
     p4: bool = True
 
-    def baz(self:"bar4", xx: [int]) -> str:
+    def $ID(self:"bar4", xx: [int]) -> str:
         global count
         x:int = 0
         y:int = 1
@@ -260,7 +260,7 @@ class bar4(object):
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
-                x = x + $Exp
+                x = x + 1
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 

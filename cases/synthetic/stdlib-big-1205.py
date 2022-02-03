@@ -135,7 +135,7 @@ def str_to_int(x: str) -> int:
         elif char == "4":
             digit = 4
         elif char == "5":
-            digit = 5
+            digit = $INT
         elif char == "6":
             digit = 6
         elif char == "7":
@@ -147,7 +147,7 @@ def str_to_int(x: str) -> int:
         else:
             return 0 # On error
         first_char = False
-        $Statement
+        result = result * 10 + digit
 
     # Compute result
     return result * sign

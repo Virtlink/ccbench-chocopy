@@ -52,13 +52,13 @@ class C2(B):
 
 class C3(B):
     z:bool = True
-    z2:bool = True
+    z2:bool = $Literal
     z3:bool = True
 
 class C4(B):
     z:bool = True
     z2:bool = True
-    $TypedVar = True
+    z3:bool = True
     z4:bool = True
 
 class C5(B):

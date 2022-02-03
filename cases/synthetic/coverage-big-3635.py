@@ -454,7 +454,7 @@ class bar5(object):
             if x > y:
                 x = -1
 
-        for x in xx:
+        for x in $ID:
             self.p = x == 2
 
         qux(0) # Yay! ChocoPy
@@ -495,7 +495,7 @@ class bar5(object):
             nonlocal x
             nonlocal x2
             nonlocal x3
-            if $Exp > y:
+            if x > y:
                 x = -1
 
         for x in xx:

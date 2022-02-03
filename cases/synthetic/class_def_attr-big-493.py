@@ -84,10 +84,10 @@ c3:C = None
 c4:C = None
 c5:C = None
 
-a = A()
+$Statement
 a2 = A()
 a3 = A()
-$Target = A()
+a4 = A()
 a5 = A()
 b = B()
 b2 = B()

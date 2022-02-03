@@ -79,12 +79,12 @@ def sieve(v:Vector) -> object:
     j:int = 0
     k:int = 0
 
-    while i < v.length():
+    while i < v.$ID():
         k = v.get(i)
         j = i + 1
         while j < v.length():
             if v.get(j) % k == 0:
-                $Statement
+                v.remove_at(j)
             else:
                 j = j + 1
         i = i + 1

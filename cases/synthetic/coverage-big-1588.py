@@ -193,7 +193,7 @@ class bar3(object):
         x2:int = 0
         x3:int = 0
         y:int = 1
-        y2:int = 1
+        $TypedVar = 1
         y3:int = 1
 
         def qux(y: int) -> object:
@@ -215,7 +215,7 @@ class bar3(object):
                 x = -1
 
         for x in xx:
-            $Var.p = x == 2
+            self.p = x == 2
 
         qux(0) # Yay! ChocoPy
 

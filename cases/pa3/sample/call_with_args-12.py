@@ -1,5 +1,5 @@
-def f(x:int) -> int:
-    $Statement
+def f(x:int) -> $ID:
+    print("start f")
     print(x)
     g(1, x)
     print("end f")

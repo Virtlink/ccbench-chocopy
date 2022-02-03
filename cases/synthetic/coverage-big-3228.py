@@ -401,7 +401,7 @@ class bar4(object):
         return "Nope"
 
 
-class bar5(object):
+class $ID(object):
     p: bool = True
     p2: bool = True
     p3: bool = True
@@ -438,7 +438,7 @@ class bar5(object):
 
     def baz2(self:"bar5", xx: [int], xx2: [int]) -> str:
         global count
-        x:int = $Literal
+        x:int = 0
         x2:int = 0
         y:int = 1
         y2:int = 1

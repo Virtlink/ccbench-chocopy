@@ -1,1 +1,1 @@
-VarDef2FuncBodyMember(VarDef(TypedVar("b",Type("TreeNode3")),NONE()))
+TypedVar("self",TypeS(IdString("Tree5")))

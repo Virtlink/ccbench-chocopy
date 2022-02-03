@@ -1,1 +1,1 @@
-TypeS(IdString("Tree4"))
+Member2Target(Member(Var2Exp(Var("self")),"root"))

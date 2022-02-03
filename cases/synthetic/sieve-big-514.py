@@ -63,12 +63,11 @@ class Vector2(object):
         return len(self.items)
 
     # Returns current capacity
-    def capacity2(self:"Vector2") -> int:
-        return len(self.items)
+    $ClassBodyMember
 
     # Increases capacity of vector by one element
     def increase_capacity(self:"Vector2") -> int:
-        self.items = self.items + [$INT]
+        self.items = self.items + [0]
         return self.capacity()
 
     # Increases capacity of vector by one element

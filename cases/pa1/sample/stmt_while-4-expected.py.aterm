@@ -1,1 +1,1 @@
-Block([PassStmt()])
+Literal2Exp(True())

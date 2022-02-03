@@ -1,6 +1,6 @@
 count:int = 0
 count2:int = 0
-count3:int = $INT
+count3:int = $Literal
 count4:int = 0
 count5:int = 0
 

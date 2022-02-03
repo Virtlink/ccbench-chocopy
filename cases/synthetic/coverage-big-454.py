@@ -51,7 +51,7 @@ class bar(object):
 
 
 class bar2(object):
-    p: bool = True
+    p: bool = $Literal
     p2: bool = True
 
     def baz(self:"bar2", xx: [int]) -> str:
@@ -59,7 +59,10 @@ class bar2(object):
         x:int = 0
         y:int = 1
 
-        $FuncBodyMember
+        def qux(y: int) -> object:
+            nonlocal x
+            if x > y:
+                x = -1
 
         for x in xx:
             self.p = x == 2

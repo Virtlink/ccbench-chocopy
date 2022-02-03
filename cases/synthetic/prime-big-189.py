@@ -20,10 +20,10 @@ def is_prime(x:int) -> bool:
         if x % div == 0:
             return False
         div = div + 1
-    return True
+    return $Literal
 
 def is_prime2(x:int, x2:int) -> bool:
-    $FuncBodyMember
+    div:int = 2
     div2:int = 2
     div3:int = 2
     div4:int = 2

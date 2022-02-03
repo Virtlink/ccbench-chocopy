@@ -1,1 +1,1 @@
-VarDef(TypedVar("x",Type("int")),Int("1"))
+FuncBody([VarDef2FuncBodyMember(VarDef(TypedVar("x",Type("int")),Int("1")))],[Return(Var2Exp(Var("x")))])

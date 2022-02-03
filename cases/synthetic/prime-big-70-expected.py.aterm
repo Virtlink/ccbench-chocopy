@@ -1,1 +1,1 @@
-Var("candidate")
+Block([Return(Var2Exp(Var("candidate")))])

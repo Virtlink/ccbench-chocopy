@@ -1,7 +1,7 @@
 x:[int] = None
 y:int = 0
-z:[bool] = None
-$Definition
+z:[bool] = $Literal
+o:object = None
 
 x = [1, 2, 3]
 z = [False, True]

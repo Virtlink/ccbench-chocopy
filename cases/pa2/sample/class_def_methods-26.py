@@ -1,8 +1,8 @@
 class A(object):
     x:int = 1
 
-    def get_A(self: "A") -> int:
-        $Statement
+    def get_A(self: "A") -> $Type:
+        return self.x
 
 class B(A):
     def __init__(self: "B"):

@@ -4,9 +4,9 @@ def f() -> bool:
 
 def g() -> bool:
   print("g called")
-  return False
+  return $Exp
 
-if f() or $Exp:      # Short-circuit
+if f() or g():      # Short-circuit
   if g() and f():   # Short-circuit
     print("Never")
   else:

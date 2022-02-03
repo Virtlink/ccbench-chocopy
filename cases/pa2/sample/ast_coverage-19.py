@@ -1,7 +1,7 @@
 count:int = 0
 
-def foo(s: str) -> int:
-    $FuncBody
+def foo(s: str) -> $Type:
+    return len(s)
 
 class bar(object):
     p: bool = True

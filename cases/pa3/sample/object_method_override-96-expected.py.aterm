@@ -1,1 +1,1 @@
-FuncDef("foo",[TypedVar("self",TypeS(IdString("B"))),TypedVar("ignore",Type("object"))],Returns(Type("int")),FuncBody([],[Return(Literal2Exp(Int("1")))]))
+Member(Var2Exp(Var("self")),"foo")

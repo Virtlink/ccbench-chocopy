@@ -1,1 +1,1 @@
-"2"
+VarDef(TypedVar("div",Type("int")),Int("2"))

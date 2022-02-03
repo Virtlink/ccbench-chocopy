@@ -1,1 +1,1 @@
-Var("digit")
+TypedVar("digit2",Type("int"))

@@ -59,13 +59,13 @@ def exp2(x: int, y: int, x2: int, y2: int) -> int:
     a5 = 1
     return f(y)
 
-def exp3(x: int, y: int, x2: int, y2: int, x3: int, y3: int) -> int:
+def exp3(x: int, y: int, x2: int, y2: int, x3: int, y3: int) -> $ID:
     a: int = 0
     a2: int = 0
     a3: int = 0
     a4: int = 0
     a5: int = 0
-    def f(i: int) -> $Type:
+    def f(i: int) -> int:
         nonlocal a
         nonlocal a2
         nonlocal a3

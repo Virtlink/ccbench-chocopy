@@ -45,7 +45,7 @@ class bar(object):
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
-                self.p = self is None
+                self.p = self is $Literal
 
         return "Nope"
 
@@ -55,7 +55,7 @@ class bar2(object):
     p2: bool = True
 
     def baz(self:"bar2", xx: [int]) -> str:
-        global $ID
+        global count
         x:int = 0
         y:int = 1
 

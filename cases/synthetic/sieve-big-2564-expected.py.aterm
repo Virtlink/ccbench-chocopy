@@ -1,1 +1,1 @@
-Member2Exp(Member(Var2Exp(Var("self")),"items"))
+VarDef(TypedVar("size2",Type("int")),Int("0"))

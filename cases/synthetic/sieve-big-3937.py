@@ -434,7 +434,7 @@ class Vector4(object):
         if idx < 0:
             return
 
-        while idx < self.size - 1:
+        while idx < $Member - 1:
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
@@ -485,7 +485,7 @@ class Vector5(object):
     size4: int = 0
     size5: int = 0
 
-    def __init__($TypedVar):
+    def __init__(self:"Vector5"):
         self.items = [0]
 
     # Returns current capacity

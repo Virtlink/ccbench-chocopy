@@ -1,1 +1,1 @@
-"bool"
+Call(Var2Exp(Var("print")),Exps2Parameters([Call(Var2Exp(Var("bool")),Exps2Parameters([]))]))

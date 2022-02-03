@@ -1,1 +1,1 @@
-Member(Var2Exp(Var("v")),"length")
+IntDiv(Member2Exp(Member(Var2Exp(Var("self")),"doubling_limit")),Literal2Exp(Int("2")))

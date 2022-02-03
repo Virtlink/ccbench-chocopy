@@ -1,1 +1,1 @@
-Block([Exp(Call(Member2Exp(Member(Var2Exp(Var("self")),"increase_capacity")),Exps2Parameters([])))])
+TypeS(IdString("Vector4"))

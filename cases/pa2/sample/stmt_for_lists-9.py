@@ -1,3 +1,4 @@
-x:int = 0
+x:int = $INT
 
-$Statement
+for x in [1, 2, 3]:
+    x + 1

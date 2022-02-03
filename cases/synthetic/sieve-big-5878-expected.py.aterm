@@ -1,1 +1,1 @@
-TypedVar("doubling_limit",Type("int"))
+Target(Var2Target(Var("idx")))

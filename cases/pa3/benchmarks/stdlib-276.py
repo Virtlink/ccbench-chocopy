@@ -33,9 +33,9 @@ def str_to_int(x: str) -> int:
         elif char == "0":
             digit = 0
         elif char == "1":
-            digit = 1
+            $Block
         elif char == "2":
-            $ID = 2
+            digit = 2
         elif char == "3":
             digit = 3
         elif char == "3":

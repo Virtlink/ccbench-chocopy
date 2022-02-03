@@ -1,1 +1,1 @@
-Literal2Exp(Int("1"))
+Var2Exp(Var("x"))

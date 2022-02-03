@@ -1,6 +1,6 @@
 next:int = 0
 
-def next_int() $RetType:
+def $ID() -> int:
     global next
     next = next + 1
     return next

@@ -86,10 +86,10 @@ c5:C = None
 
 a = A()
 a2 = A()
-a3 = A()
+$Statement
 a4 = A()
 a5 = A()
-b = $Exp()
+b = B()
 b2 = B()
 b3 = B()
 b4 = B()

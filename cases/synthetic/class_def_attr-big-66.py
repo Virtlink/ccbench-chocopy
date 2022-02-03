@@ -8,9 +8,9 @@ class A2(object):
 class A3(object):
     x:int = 1
     x2:int = 1
-    x3:int = 1
+    x3:int = $Literal
 
-class $ID(object):
+class A4(object):
     x:int = 1
     x2:int = 1
     x3:int = 1

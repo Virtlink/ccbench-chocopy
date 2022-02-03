@@ -37,14 +37,14 @@ class B3(A):
 
 class B4(A):
     def __init__(self: "B4"):
-        pass
+        $Statement
 
 class B5(A):
     def __init__(self: "B5"):
         pass
 
 class C(B):
-    $ClassBodyMember
+    z:bool = True
 
 class C2(B):
     z:bool = True

@@ -424,7 +424,7 @@ class Vector4(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
+            self.items[idx] = self.items[$Var + 1]
             idx = idx + 1
 
         self.size = self.size - 1
@@ -473,7 +473,7 @@ class Vector4(object):
         return self.size
 
 # A resizable list of integers
-class $ID(object):
+class Vector5(object):
     items: [int] = None
     items2: [int] = None
     items3: [int] = None

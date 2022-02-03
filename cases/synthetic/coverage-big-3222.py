@@ -398,7 +398,7 @@ class bar4(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        return "Nope"
+        $Statement
 
 
 class bar5(object):
@@ -438,7 +438,7 @@ class bar5(object):
 
     def baz2(self:"bar5", xx: [int], xx2: [int]) -> str:
         global count
-        $FuncBodyMember
+        x:int = 0
         x2:int = 0
         y:int = 1
         y2:int = 1

@@ -1,1 +1,1 @@
-Var("self")
+TypedVar("item2",Type("int"))

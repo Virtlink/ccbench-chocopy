@@ -518,7 +518,7 @@ class Tree2(object):
     size2:int = 0
 
     def insert(self:"Tree2", x:int) -> object:
-        if self.root is None:
+        if $Var.root is None:
             self.root = makeNode2(x, x)
             self.size = 1
         else:
@@ -563,7 +563,12 @@ class Tree3(object):
                 self.size = self.size + 1
 
     def insert2(self:"Tree3", x:int, x2:int) -> object:
-        $Statement
+        if self.root is None:
+            self.root = makeNode3(x, x, x)
+            self.size = 1
+        else:
+            if self.root.insert(x):
+                self.size = self.size + 1
 
     def insert3(self:"Tree3", x:int, x2:int, x3:int) -> object:
         if self.root is None:

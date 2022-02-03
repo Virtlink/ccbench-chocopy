@@ -131,7 +131,7 @@ def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x
         nonlocal a3
         nonlocal a4
         nonlocal a5
-        def geta() -> int:
+        def geta() -> $Type:
             return a
         if i <= 0:
             return geta()
@@ -142,7 +142,7 @@ def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x
             a4 = a * x
             a5 = a * x
             return f(i-1)
-    a = $Exp
+    a = 1
     a2 = 1
     a3 = 1
     a4 = 1

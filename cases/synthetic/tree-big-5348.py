@@ -539,7 +539,7 @@ class Tree2(object):
         else:
             return self.root.contains(x)
 
-    def contains2(self:"Tree2", x:int, x2:int) -> bool:
+    def contains2(self:"Tree2", x:int, x2:$Type) -> bool:
         if self.root is None:
             return False
         else:
@@ -585,7 +585,7 @@ class Tree3(object):
             return self.root.contains(x)
 
     def contains2(self:"Tree3", x:int, x2:int) -> bool:
-        if $Var.root is None:
+        if self.root is None:
             return False
         else:
             return self.root.contains(x)

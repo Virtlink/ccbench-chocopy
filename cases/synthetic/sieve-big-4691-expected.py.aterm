@@ -1,1 +1,1 @@
-Var("item")
+Type("int")

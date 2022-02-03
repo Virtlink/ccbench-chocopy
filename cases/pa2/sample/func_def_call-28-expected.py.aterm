@@ -1,1 +1,1 @@
-FuncBody([],[Return(Literal2Exp(Int("1")))])
+FuncDef("bar",[],Returns(Type("int")),FuncBody([],[Return(Literal2Exp(Int("1")))]))

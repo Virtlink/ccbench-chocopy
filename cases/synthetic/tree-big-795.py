@@ -84,7 +84,7 @@ class TreeNode2(object):
             else:
                 return self.right.contains(x)
         else:
-            return True
+            return $Literal
 
     def contains2(self:"TreeNode2", x:int, x2:int) -> bool:
         if x < self.value:
@@ -92,7 +92,7 @@ class TreeNode2(object):
                 return False
             else:
                 return self.left.contains(x)
-        elif x > $Var.value:
+        elif x > self.value:
             if self.right is None:
                 return False
             else:

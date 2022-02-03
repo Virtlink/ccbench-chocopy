@@ -3,8 +3,8 @@ def foo(x:int) -> bool:
     a:int = 0
     b:int = 1
     def bar(y: int) -> int:
-        a:int = 2 
-        return $ID
+        a:int = $Literal 
+        return y
     return bar(x) > a
 
 foo(1)

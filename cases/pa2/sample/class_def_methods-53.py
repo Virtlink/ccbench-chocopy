@@ -5,11 +5,14 @@ class A(object):
         return self.x
 
 class B(A):
-    def __init__(self: "B"):
+    def __init__(self: "B")$RetType:
         pass
 
 class C(B):
-    $ClassBody
+    z:bool = True
+
+    def set_A(self: "C", val: int) -> object:
+        self.x = val
 
 a:A = None
 b:B = None

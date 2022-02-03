@@ -1,5 +1,5 @@
 def outer() -> int:
-    def inner() -> $ID:
+    def $ID() -> int:
         nonlocal x
         x = 1
         return x

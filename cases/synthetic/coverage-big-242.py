@@ -24,12 +24,12 @@ class bar(object):
 
     def baz(self:"bar", xx: [int]) -> str:
         global count
-        x:int = 0
+        x:int = $Literal
         y:int = 1
 
         def qux(y: int) -> object:
             nonlocal x
-            if $Exp:
+            if x > y:
                 x = -1
 
         for x in xx:

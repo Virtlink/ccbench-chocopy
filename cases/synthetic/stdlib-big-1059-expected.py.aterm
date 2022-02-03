@@ -1,1 +1,1 @@
-Var("char")
+Return(Literal2Exp(Int("0")))

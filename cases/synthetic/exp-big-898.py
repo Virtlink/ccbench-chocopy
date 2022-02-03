@@ -103,7 +103,7 @@ def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -
         nonlocal a5
         def geta() -> int:
             return a
-        if i <= 0:
+        if $Var <= 0:
             return geta()
         else:
             a = a * x
@@ -111,7 +111,7 @@ def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -
             a3 = a * x
             a4 = a * x
             a5 = a * x
-            return f($Exp-1)
+            return f(i-1)
     a = 1
     a2 = 1
     a3 = 1

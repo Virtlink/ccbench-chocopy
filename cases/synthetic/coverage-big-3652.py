@@ -455,7 +455,7 @@ class bar5(object):
                 x = -1
 
         for x in xx:
-            self.p = x == 2
+            self.p = x == $Literal
 
         qux(0) # Yay! ChocoPy
 
@@ -498,7 +498,7 @@ class bar5(object):
             if x > y:
                 x = -1
 
-        for $ID in xx:
+        for x in xx:
             self.p = x == 2
 
         qux(0) # Yay! ChocoPy

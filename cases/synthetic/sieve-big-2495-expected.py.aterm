@@ -1,1 +1,1 @@
-Call(Member2Exp(Member(Var2Exp(Var("self")),"capacity")),Exps2Parameters([]))
+FuncDef2ClassBodyMember(FuncDef("length3",[TypedVar("self",TypeS(IdString("Vector3")))],Returns(Type("int")),FuncBody([],[Return(Member2Exp(Member(Var2Exp(Var("self")),"size")))])))

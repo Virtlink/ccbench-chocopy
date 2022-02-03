@@ -1,3 +1,3 @@
 [1, 2] + [3, 4]
-"Hello " + $STRING
+$Literal + "World"
 [1, 2] + [True]

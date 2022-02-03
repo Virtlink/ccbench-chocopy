@@ -6,9 +6,9 @@ def f() -> int:
 
     
 def g() -> object:
-    print("start g")
+    print($STRING)
     h()
-    $ID("end g")
+    print("end g")
 
 def h() -> object:
     print("start h")

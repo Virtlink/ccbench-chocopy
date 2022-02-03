@@ -150,7 +150,7 @@ def str_to_int(x: str) -> int:
         result = result * 10 + digit
 
     # Compute result
-    return result * sign
+    $Statement
 
 
 def str_to_int2(x: str, x2: str) -> int:
@@ -162,7 +162,7 @@ def str_to_int2(x: str, x2: str) -> int:
     char2:str = ""
     sign:int = 1
     sign2:int = 1
-    first_char:bool = $Literal
+    first_char:bool = True
     first_char2:bool = True
 
     # Parse digits

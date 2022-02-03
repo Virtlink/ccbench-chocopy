@@ -402,7 +402,7 @@ class bar4(object):
 
 
 class bar5(object):
-    p: bool = True
+    p: bool = $Literal
     p2: bool = True
     p3: bool = True
     p4: bool = True
@@ -440,7 +440,7 @@ class bar5(object):
         global count
         x:int = 0
         x2:int = 0
-        $FuncBodyMember
+        y:int = 1
         y2:int = 1
 
         def qux(y: int) -> object:

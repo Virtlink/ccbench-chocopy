@@ -1,1 +1,1 @@
-Var("bar")
+Var2Exp(Var("y"))

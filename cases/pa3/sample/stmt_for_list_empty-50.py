@@ -3,8 +3,8 @@ y:int = 0
 z:[int] = None
 e:[int] = None
 
-z = [1,2,3]
-$Target = []
+z = [1,2,$Literal]
+e = []
 
 for x in z:
     for y in e:

@@ -15,10 +15,10 @@ def int_to_str(x: int) -> str:
     if x >= 10:
         result = result + int_to_str(x // 10)
     result = result + digits[x % 10]
-    return result
+    return $ID
 
 def str_to_int(x: str) -> int:
-    $VarDef
+    result:int = 0
     digit:int = 0
     char:str = ""
     sign:int = 1

@@ -1,4 +1,4 @@
 x:[int] = None
-$TypedVar = None
+$VarDef
 
 print(len(x+y))

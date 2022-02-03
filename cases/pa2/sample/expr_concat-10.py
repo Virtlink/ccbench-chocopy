@@ -1,3 +1,3 @@
-[1, 2] + $Exp
+[1, $Exp] + [3, 4]
 "Hello " + "World"
 [1, 2] + [True]

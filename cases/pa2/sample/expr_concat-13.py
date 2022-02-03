@@ -1,3 +1,3 @@
-[1, 2] + [$INT, 4]
+[1, 2] + $Exp
 "Hello " + "World"
 [1, 2] + [True]

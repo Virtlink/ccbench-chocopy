@@ -1,1 +1,1 @@
-Int("1")
+VarDef(TypedVar("sign",Type("int")),Int("1"))

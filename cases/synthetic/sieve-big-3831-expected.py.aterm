@@ -1,1 +1,1 @@
-FuncDef("length4",[TypedVar("self",TypeS(IdString("Vector4")))],Returns(Type("int")),FuncBody([],[Return(Member2Exp(Member(Var2Exp(Var("self")),"size")))]))
+Index(Member2Exp(Member(Var2Exp(Var("self")),"items")),Var2Exp(Var("idx")))

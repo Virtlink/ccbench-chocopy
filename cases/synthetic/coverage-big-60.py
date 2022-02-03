@@ -5,7 +5,7 @@ count4:int = 0
 count5:int = 0
 
 def foo(s: str) -> int:
-    return len($ID)
+    return $ID(s)
 
 def foo2(s: str, s2: str) -> int:
     return len(s)

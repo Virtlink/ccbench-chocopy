@@ -1,4 +1,4 @@
-$VarDef
+$Definition
 
 x = 2
 

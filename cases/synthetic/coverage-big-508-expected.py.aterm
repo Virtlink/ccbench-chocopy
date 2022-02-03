@@ -1,1 +1,1 @@
-Var2Exp(Var("qux"))
+Type("object")

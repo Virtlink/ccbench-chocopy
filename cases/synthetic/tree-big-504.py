@@ -54,12 +54,12 @@ class TreeNode2(object):
                 self.right = makeNode2(x, x)
                 return True
             else:
-                return self.right.insert(x)
+                return $ID.right.insert(x)
         return False
 
     def insert2(self:"TreeNode2", x:int, x2:int) -> bool:
         if x < self.value:
-            if $Exp is None:
+            if self.left is None:
                 self.left = makeNode2(x, x)
                 return True
             else:

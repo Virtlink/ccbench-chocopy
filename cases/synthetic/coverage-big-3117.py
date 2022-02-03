@@ -388,7 +388,7 @@ class bar4(object):
 
         qux(0) # Yay! ChocoPy
 
-        count = count + 1
+        count = count + $Literal
 
         while x <= 0:
             if self.p:
@@ -427,7 +427,7 @@ class bar5(object):
 
         while x <= 0:
             if self.p:
-                $AssignTarget xx[1]
+                xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:

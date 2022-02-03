@@ -70,11 +70,11 @@ class C5(B):
 
 a:A = None
 a2:A = None
-a3:A = None
+$Definition
 a4:A = None
 a5:A = None
 b:B = None
-$ID:B = None
+b2:B = None
 b3:B = None
 b4:B = None
 b5:B = None

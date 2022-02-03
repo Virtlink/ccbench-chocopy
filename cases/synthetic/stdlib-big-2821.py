@@ -337,7 +337,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
     first_char2:bool = True
     first_char3:bool = True
     first_char4:bool = True
-    first_char5:bool = True
+    first_char5:$Type = True
 
     # Parse digits
     for char in x:
@@ -363,7 +363,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
             digit = 6
         elif char == "7":
             digit = 7
-        elif $Exp:
+        elif char == "8":
             digit = 8
         elif char == "9":
             digit = 9

@@ -95,7 +95,7 @@ def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -
     a3: int = 0
     a4: int = 0
     a5: int = 0
-    def f(i: int) -> int:
+    def f(i: int) -> $ID:
         nonlocal a
         nonlocal a2
         nonlocal a3
@@ -109,7 +109,7 @@ def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -
             a = a * x
             a2 = a * x
             a3 = a * x
-            $Statement
+            a4 = a * x
             a5 = a * x
             return f(i-1)
     a = 1

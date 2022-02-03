@@ -122,7 +122,7 @@ class Vector2(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
+            self.items[idx] = self.items[idx + $INT]
             idx = idx + 1
 
         self.size = self.size - 1
@@ -140,7 +140,8 @@ class Vector2(object):
         return self.size
 
     # Retrieves the current size of the vector
-    $ClassBodyMember
+    def length2(self:"Vector2") -> int:
+        return self.size
 
 # A resizable list of integers
 class Vector3(object):

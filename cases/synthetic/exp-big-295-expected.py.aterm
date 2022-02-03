@@ -1,1 +1,1 @@
-Type("int")
+TypedVar("a3",Type("int"))

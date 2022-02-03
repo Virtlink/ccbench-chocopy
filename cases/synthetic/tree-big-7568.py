@@ -733,11 +733,7 @@ class Tree5(object):
         else:
             return self.root.contains(x)
 
-    def contains4(self:"Tree5", x:int, x2:int, x3:int, x4:int) -> bool:
-        if self.root is None:
-            return False
-        else:
-            return self.root.contains(x)
+    $ClassBodyMember
 
     def contains5(self:"Tree5", x:int, x2:int, x3:int, x4:int, x5:int) -> bool:
         if self.root is None:
@@ -817,7 +813,7 @@ k5:int = 37813
 
 # Crunch
 t = Tree()
-while i < $ID:
+while i < n:
     t.insert(k)
     k = (k * 37813) % 37831
     if i % c != 0:

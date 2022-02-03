@@ -1,1 +1,1 @@
-Negative(Literal2Exp(Int("1")))
+Global("count")

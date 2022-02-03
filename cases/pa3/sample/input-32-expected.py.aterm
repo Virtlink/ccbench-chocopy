@@ -1,1 +1,1 @@
-Block([Exp(Call(Var2Exp(Var("print")),Exps2Parameters([Var2Exp(Var("s"))]))),Assign([Target(Var2Target(Var("s")))],Call(Var2Exp(Var("input")),Exps2Parameters([])))])
+Var("s")

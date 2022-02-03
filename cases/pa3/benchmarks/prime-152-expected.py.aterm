@@ -1,1 +1,1 @@
-TypedVar("i",Type("int"))
+Literal2Exp(Int("1"))

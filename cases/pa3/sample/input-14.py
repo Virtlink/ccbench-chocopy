@@ -2,7 +2,7 @@
 
 s: str = ""
 
-s = $Exp
+$Target = input()
 while len(s) > 0:
     print(s)
     s = input()

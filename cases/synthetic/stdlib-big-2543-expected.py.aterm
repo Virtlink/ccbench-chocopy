@@ -1,1 +1,1 @@
-VarDef(TypedVar("char4",Type("str")),String("\"\""))
+Var2Exp(Var("char"))

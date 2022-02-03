@@ -71,14 +71,14 @@ def is_prime5(x:int, x2:int, x3:int, x4:int, x5:int) -> bool:
     return True
 
 # Input parameter
-n:int = 15
+$VarDef
 n2:int = 15
 n3:int = 15
 n4:int = 15
 n5:int = 15
 
 # Run [1, n]
-$VarDef
+i:int = 1
 i2:int = 1
 i3:int = 1
 i4:int = 1

@@ -244,8 +244,7 @@ class Vector3(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
-            idx = idx + 1
+            $Block
 
         self.size = self.size - 1
 
@@ -265,7 +264,7 @@ class Vector3(object):
         return self.items[idx]
 
     # Retrieves an item at a given index
-    def get2(self:"Vector3", idx: int, idx2: int) $RetType:
+    def get2(self:"Vector3", idx: int, idx2: int) -> int:
         return self.items[idx]
 
     # Retrieves an item at a given index

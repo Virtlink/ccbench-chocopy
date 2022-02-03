@@ -1,1 +1,1 @@
-VarDef(TypedVar("x",Type("int")),Int("1"))
+"object"

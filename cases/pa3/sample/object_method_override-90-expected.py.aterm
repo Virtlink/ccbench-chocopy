@@ -1,1 +1,1 @@
-Member(Var2Exp(Var("self")),"b")
+FuncBody([],[Return(Call(Member2Exp(Member(Var2Exp(Var("self")),"foo")),Exps2Parameters([Member2Exp(Member(Var2Exp(Var("self")),"b"))])))])

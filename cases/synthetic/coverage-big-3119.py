@@ -390,13 +390,7 @@ class bar4(object):
 
         count = count + 1
 
-        while x <= 0:
-            if self.p:
-                xx[0] = xx[1]
-                self.p = not self.p
-                x = x + 1
-            elif foo("Long"[0]) == 1:
-                self.p = self is None
+        $Statement
 
         return "Nope"
 
@@ -427,7 +421,7 @@ class bar5(object):
 
         while x <= 0:
             if self.p:
-                $Index = xx[1]
+                xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:

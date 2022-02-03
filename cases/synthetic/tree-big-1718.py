@@ -180,8 +180,7 @@ class TreeNode3(object):
         elif x > self.value:
             if self.right is None:
                 return False
-            else:
-                return self.right.contains(x)
+            $ElifElse
         else:
             return True
 
@@ -202,7 +201,7 @@ class TreeNode3(object):
 
 class TreeNode4(object):
     value:int = 0
-    $VarDef
+    value2:int = 0
     value3:int = 0
     value4:int = 0
     left:"TreeNode4" = None

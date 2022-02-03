@@ -1,1 +1,0 @@
-ClassDef2Definition(ClassDef("C3","B",ClassBodyMembers2ClassBody([VarDef2ClassBodyMember(VarDef(TypedVar("z",Type("bool")),True())),VarDef2ClassBodyMember(VarDef(TypedVar("z2",Type("bool")),True())),VarDef2ClassBodyMember(VarDef(TypedVar("z3",Type("bool")),True()))])))

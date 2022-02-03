@@ -1,1 +1,1 @@
-Call(Var2Exp(Var("make_list")),Exps2Parameters([]))
+Var("next_int")

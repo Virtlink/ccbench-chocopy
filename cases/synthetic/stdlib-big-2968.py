@@ -356,7 +356,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
         elif char == "3":
             digit = 3
         elif char == "4":
-            digit = 4
+            $Statement
         elif char == "5":
             digit = 5
         elif char == "6":
@@ -385,7 +385,7 @@ n:int = 10
 n2:int = 10
 n3:int = 10
 n4:int = 10
-n5:$ID = 10
+n5:int = 10
 
 # Run [-nc, nc] with step size c
 s:str = ""

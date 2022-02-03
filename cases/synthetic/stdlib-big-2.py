@@ -1,5 +1,5 @@
 # ChocoPy library functions
-$FuncDef
+$Definition
 
 def int_to_str2(x: int, x2: int) -> str:
     digits:[str] = None 

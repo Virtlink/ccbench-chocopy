@@ -512,7 +512,7 @@ class Tree(object):
 
 
 class Tree2(object):
-    root:TreeNode2 = None
+    root:TreeNode2 = $Literal
     root2:TreeNode2 = None
     size:int = 0
     size2:int = 0
@@ -559,7 +559,7 @@ class Tree3(object):
             self.root = makeNode3(x, x, x)
             self.size = 1
         else:
-            if $Exp.root.insert(x):
+            if self.root.insert(x):
                 self.size = self.size + 1
 
     def insert2(self:"Tree3", x:int, x2:int) -> object:

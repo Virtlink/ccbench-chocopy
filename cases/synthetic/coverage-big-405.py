@@ -44,14 +44,14 @@ class bar(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo("Long"[0]) == 1:
+            elif $Exp("Long"[0]) == 1:
                 self.p = self is None
 
         return "Nope"
 
 
 class bar2(object):
-    $ClassBodyMember
+    p: bool = True
     p2: bool = True
 
     def baz(self:"bar2", xx: [int]) -> str:

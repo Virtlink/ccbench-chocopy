@@ -722,7 +722,7 @@ class Tree5(object):
             return self.root.contains(x)
 
     def contains2(self:"Tree5", x:int, x2:int) -> bool:
-        if self.root is None:
+        if self.root is $Literal:
             return False
         else:
             return self.root.contains(x)
@@ -805,7 +805,7 @@ t3:Tree = None
 t4:Tree = None
 t5:Tree = None
 i:int = 0
-$ID:int = 0
+i2:int = 0
 i3:int = 0
 i4:int = 0
 i5:int = 0

@@ -203,7 +203,7 @@ def str_to_int2(x: str, x2: str) -> int:
 
 def str_to_int3(x: str, x2: str, x3: str) -> int:
     result:int = 0
-    result2:int = 0
+    result2:int = $Literal
     result3:int = 0
     digit:int = 0
     digit2:int = 0
@@ -222,7 +222,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
     for char in x:
         if char == "-":
             if not first_char:
-                return $INT # Error
+                return 0 # Error
             sign = -1
         elif char == "0":
             digit = 0

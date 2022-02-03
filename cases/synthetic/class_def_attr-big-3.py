@@ -1,5 +1,4 @@
-class $ID(object):
-    x:int = 1
+$ClassDef
 
 class A2(object):
     x:int = 1

@@ -1,1 +1,1 @@
-Return(Member2Exp(Member(Var2Exp(Var("self")),"size")))
+Int("1")

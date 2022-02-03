@@ -32,10 +32,9 @@ class B2(A):
         pass
 
 class B3(A):
-    def __init__(self: "B3"):
-        pass
+    $ClassBody
 
-class $ID(A):
+class B4(A):
     def __init__(self: "B4"):
         pass
 

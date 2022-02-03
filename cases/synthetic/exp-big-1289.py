@@ -143,7 +143,7 @@ def exp5(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int, x
             a5 = a * x
             return f(i-1)
     a = 1
-    a2 = 1
+    $Target = 1
     a3 = 1
     a4 = 1
     a5 = 1
@@ -161,7 +161,7 @@ i:int = 0
 i2:int = 0
 i3:int = 0
 i4:int = 0
-i5:int = $Literal
+i5:int = 0
 
 # Crunch
 while i <= n:

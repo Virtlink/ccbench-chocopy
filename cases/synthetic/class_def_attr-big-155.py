@@ -23,8 +23,8 @@ class A5(object):
     x4:int = 1
     x5:int = 1
 
-class B(A):
-    def __init__($ID: "B"):
+class B($ID):
+    def __init__(self: "B"):
         pass
 
 class B2(A):

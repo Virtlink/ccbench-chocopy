@@ -249,8 +249,7 @@ class bar4(object):
             if x > y:
                 x = -1
 
-        for x in xx:
-            self.p = x == 2
+        $Statement
 
         qux(0) # Yay! ChocoPy
 
@@ -270,7 +269,7 @@ class bar4(object):
     def baz2(self:"bar4", xx: [int], xx2: [int]) -> str:
         global count
         x:int = 0
-        $FuncBodyMember
+        x2:int = 0
         y:int = 1
         y2:int = 1
 

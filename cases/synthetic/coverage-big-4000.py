@@ -499,7 +499,7 @@ class bar5(object):
                 x = -1
 
         for x in xx:
-            self.p = x == 2
+            $Target = x == 2
 
         qux(0) # Yay! ChocoPy
 
@@ -542,7 +542,7 @@ class bar5(object):
             nonlocal x2
             nonlocal x3
             if x > y:
-                x = -$INT
+                x = -1
 
         def qux4(y: int, y2: int, y3: int, y4: int) -> object:
             nonlocal x

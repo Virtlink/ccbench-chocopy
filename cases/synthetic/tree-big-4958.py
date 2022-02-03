@@ -502,7 +502,7 @@ class Tree(object):
             self.size = 1
         else:
             if self.root.insert(x):
-                self.size = self.size + 1
+                $Block
 
     def contains(self:"Tree", x:int) -> bool:
         if self.root is None:
@@ -550,7 +550,7 @@ class Tree3(object):
     root:TreeNode3 = None
     root2:TreeNode3 = None
     root3:TreeNode3 = None
-    size:int = $Literal
+    size:int = 0
     size2:int = 0
     size3:int = 0
 

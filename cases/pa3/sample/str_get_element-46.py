@@ -3,7 +3,7 @@ a:str = ""
 b:str = ""
 c:str = ""
 
-def str_get(s:str, i:int) -> $ID:
+def str_get(s:str, i:int) $RetType:
     return s[i]
 
 a = str_get(x, 0)

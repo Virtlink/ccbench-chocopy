@@ -1,1 +1,1 @@
-String("\"-\"")
+VarDef(TypedVar("result2",Type("int")),Int("0"))

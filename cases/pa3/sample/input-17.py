@@ -2,7 +2,7 @@
 
 s: str = ""
 
-s = $ID()
+s = $Exp
 while len(s) > 0:
     print(s)
     s = input()

@@ -1,1 +1,1 @@
-Var2Exp(Var("g"))
+Literal2Exp(String("\"start f\""))

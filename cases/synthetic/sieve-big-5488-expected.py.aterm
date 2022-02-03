@@ -1,1 +1,1 @@
-TypedVar("idx",Type("int"))
+ListType(Type("int"))

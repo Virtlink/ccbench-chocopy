@@ -46,11 +46,11 @@ class TreeNode2(object):
         if x < self.value:
             if self.left is None:
                 self.left = makeNode2(x, x)
-                return True
+                return $Literal
             else:
                 return self.left.insert(x)
         elif x > self.value:
-            if self.$ID is None:
+            if self.right is None:
                 self.right = makeNode2(x, x)
                 return True
             else:

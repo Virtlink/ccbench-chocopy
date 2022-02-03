@@ -1,1 +1,1 @@
-"a3"
+VarDef2ClassBodyMember(VarDef(TypedVar("z4",Type("bool")),True()))

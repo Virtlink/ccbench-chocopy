@@ -84,11 +84,11 @@ c3:C = None
 c4:C = None
 c5:C = None
 
-a = A()
+a = $Var()
 a2 = A()
 a3 = A()
 a4 = A()
-$Statement
+a5 = A()
 b = B()
 b2 = B()
 b3 = B()

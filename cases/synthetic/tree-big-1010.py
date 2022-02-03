@@ -112,7 +112,7 @@ class TreeNode3(object):
     right2:"TreeNode3" = None
     right3:"TreeNode3" = None
 
-    def insert(self:"TreeNode3", x:int) -> bool:
+    def insert(self:"TreeNode3", x:int) $RetType:
         if x < self.value:
             if self.left is None:
                 self.left = makeNode3(x, x, x)
@@ -120,7 +120,7 @@ class TreeNode3(object):
             else:
                 return self.left.insert(x)
         elif x > self.value:
-            if $Var.right is None:
+            if self.right is None:
                 self.right = makeNode3(x, x, x)
                 return True
             else:

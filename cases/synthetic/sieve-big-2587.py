@@ -295,8 +295,7 @@ class Vector4(object):
     size3: int = 0
     size4: int = 0
 
-    def __init__(self:"Vector4"):
-        self.items = [0]
+    $ClassBodyMember
 
     # Returns current capacity
     def capacity(self:"Vector4") -> int:
@@ -330,7 +329,7 @@ class Vector4(object):
         return self.capacity()
 
     # Increases capacity of vector by one element
-    def increase_capacity4($ID:"Vector4") -> int:
+    def increase_capacity4(self:"Vector4") -> int:
         self.items = self.items + [0]
         return self.capacity()
 

@@ -1,5 +1,5 @@
 class A(object):
-    a:$Type = 42
+    $TypedVar = 42
 
     def foo(self:"A", ignore:object) -> int:
         return self.a

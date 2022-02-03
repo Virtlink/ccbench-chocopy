@@ -1,1 +1,1 @@
-TypedVar("x2",Type("str"))
+Int("5")

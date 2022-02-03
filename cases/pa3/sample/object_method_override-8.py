@@ -1,5 +1,5 @@
 class A(object):
-    $TypedVar = 42
+    $ClassBodyMember
 
     def foo(self:"A", ignore:object) -> int:
         return self.a

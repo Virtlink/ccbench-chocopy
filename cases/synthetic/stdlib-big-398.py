@@ -43,10 +43,10 @@ def int_to_str3(x: int, x2: int, x3: int) -> str:
     digits3:[str] = None 
     result:str = ""
     result2:str = ""
-    result3:str = ""
+    $ID:str = ""
 
     # Set-up digit mapping
-    digits = ["0", "1", "2", "3", "4", $Literal, "6", "7", "8", "9"]
+    digits = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
 
     # Write sign if necessary
     if x < 0:

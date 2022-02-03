@@ -5,5 +5,5 @@ o:object = None
 
 x = 2
 y = False
-z = $Literal
+$AssignTarget "Hello"
 o = z

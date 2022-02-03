@@ -331,7 +331,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
     sign:int = 1
     sign2:int = 1
     sign3:int = 1
-    sign4:int = 1
+    sign4:$Type = 1
     sign5:int = 1
     first_char:bool = True
     first_char2:bool = True
@@ -358,7 +358,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
         elif char == "4":
             digit = 4
         elif char == "5":
-            $Block
+            digit = 5
         elif char == "6":
             digit = 6
         elif char == "7":

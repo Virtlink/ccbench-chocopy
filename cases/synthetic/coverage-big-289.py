@@ -32,12 +32,11 @@ class bar(object):
             if x > y:
                 x = -1
 
-        for x in xx:
-            self.p = x == 2
+        $Statement
 
         qux(0) # Yay! ChocoPy
 
-        $Statement
+        count = count + 1
 
         while x <= 0:
             if self.p:

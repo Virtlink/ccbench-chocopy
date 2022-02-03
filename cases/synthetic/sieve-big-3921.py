@@ -431,7 +431,7 @@ class Vector4(object):
 
     # Removes an item from the middle of vector
     def remove_at4(self:"Vector4", idx: int, idx2: int, idx3: int, idx4: int) -> object:
-        if idx < 0:
+        if $Exp < 0:
             return
 
         while idx < self.size - 1:
@@ -482,7 +482,7 @@ class Vector5(object):
     size: int = 0
     size2: int = 0
     size3: int = 0
-    $ID: int = 0
+    size4: int = 0
     size5: int = 0
 
     def __init__(self:"Vector5"):

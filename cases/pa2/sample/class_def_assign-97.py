@@ -14,5 +14,5 @@ c:C = None
 
 a = A()
 a = B()
-b = a = c = $Exp()
+$AssignTarget a = c = C()
 c = None

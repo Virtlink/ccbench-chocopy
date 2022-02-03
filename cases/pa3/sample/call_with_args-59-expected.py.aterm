@@ -1,1 +1,1 @@
-"y"
+Return(Var2Exp(Var("x")))

@@ -1,1 +1,1 @@
-Literal2Exp(Int("7"))
+VarDef2FuncBodyMember(VarDef(TypedVar("first_char5",Type("bool")),True()))

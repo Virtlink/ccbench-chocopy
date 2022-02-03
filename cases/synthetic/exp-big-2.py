@@ -1,5 +1,5 @@
 # Compute x**y
-$FuncDef
+$Definition
 
 def exp2(x: int, y: int, x2: int, y2: int) -> int:
     a: int = 0

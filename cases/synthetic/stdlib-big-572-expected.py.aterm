@@ -1,1 +1,1 @@
-VarDef2FuncBodyMember(VarDef(TypedVar("result4",Type("str")),String("\"\"")))
+VarDef(TypedVar("digits3",ListType(Type("str"))),NONE())

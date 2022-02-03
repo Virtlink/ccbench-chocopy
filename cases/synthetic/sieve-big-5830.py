@@ -640,9 +640,7 @@ class Vector5(object):
         if idx < 0:
             return
 
-        while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
-            idx = idx + 1
+        $Statement
 
         self.size = self.size - 1
 
@@ -698,7 +696,7 @@ class Vector5(object):
 
     # Retrieves the current size of the vector
     def length3(self:"Vector5") -> int:
-        return $Var.size
+        return self.size
 
     # Retrieves the current size of the vector
     def length4(self:"Vector5") -> int:

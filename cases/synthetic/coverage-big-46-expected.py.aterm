@@ -1,1 +1,1 @@
-Type("str")
+TypedVar("s",Type("str"))

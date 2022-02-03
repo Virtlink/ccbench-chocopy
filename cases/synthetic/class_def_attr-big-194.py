@@ -31,11 +31,13 @@ class B2(A):
     def __init__(self: "B2"):
         pass
 
-class B3(A):
+class $ID(A):
     def __init__(self: "B3"):
         pass
 
-$Definition
+class B4(A):
+    def __init__(self: "B4"):
+        pass
 
 class B5(A):
     def __init__(self: "B5"):

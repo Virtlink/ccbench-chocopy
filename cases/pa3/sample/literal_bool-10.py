@@ -1,2 +1,2 @@
-print(True)
-$Exp
+print($Exp)
+print(False)

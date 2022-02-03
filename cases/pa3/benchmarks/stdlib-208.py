@@ -22,11 +22,11 @@ def str_to_int(x: str) -> int:
     digit:int = 0
     char:str = ""
     sign:int = 1
-    first_char:bool = True
+    first_char:$ID = True
 
     # Parse digits
     for char in x:
-        if char == $STRING:
+        if char == "-":
             if not first_char:
                 return 0 # Error
             sign = -1

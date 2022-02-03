@@ -96,22 +96,7 @@ def exp4(x: int, y: int, x2: int, y2: int, x3: int, y3: int, x4: int, y4: int) -
     a4: int = 0
     a5: int = 0
     def f(i: int) -> int:
-        nonlocal a
-        nonlocal a2
-        nonlocal a3
-        nonlocal a4
-        nonlocal a5
-        def geta() -> int:
-            return a
-        if i <= 0:
-            return geta()
-        else:
-            a = a * x
-            a2 = a * x
-            a3 = a * x
-            $AssignTarget a * x
-            a5 = a * x
-            return f(i-1)
+        $FuncBody
     a = 1
     a2 = 1
     a3 = 1

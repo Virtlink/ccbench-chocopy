@@ -4,5 +4,5 @@ a:str = ""
 def str_get(s:str, i:int) -> str:
     return s[i]
 
-a = str_get($Var, 0)
+a = $Exp
 print(a)

@@ -16,12 +16,7 @@ class A4(object):
     x3:int = 1
     x4:int = 1
 
-class A5(object):
-    $ClassBodyMember
-    x2:int = 1
-    x3:int = 1
-    x4:int = 1
-    x5:int = 1
+$Definition
 
 class B(A):
     def __init__(self: "B"):

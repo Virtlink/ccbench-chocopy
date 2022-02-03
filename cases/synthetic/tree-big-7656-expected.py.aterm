@@ -1,1 +1,1 @@
-Literal2Exp(Int("15"))
+Type("int")

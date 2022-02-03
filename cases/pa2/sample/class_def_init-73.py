@@ -12,6 +12,6 @@ a:A = None
 b:B = None
 c:C = None
 
-a = A()
-$Statement
+$AssignTarget A()
+b = B()
 c = C()

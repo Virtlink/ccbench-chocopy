@@ -183,7 +183,7 @@ def str_to_int2(x: str, x2: str) -> int:
             digit = 3
         elif char == "4":
             digit = 4
-        elif char == "5":
+        elif $ID == "5":
             digit = 5
         elif char == "6":
             digit = 6
@@ -199,7 +199,7 @@ def str_to_int2(x: str, x2: str) -> int:
         result = result * 10 + digit
 
     # Compute result
-    return $Exp * sign
+    return result * sign
 
 def str_to_int3(x: str, x2: str, x3: str) -> int:
     result:int = 0

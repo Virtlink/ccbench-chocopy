@@ -227,7 +227,7 @@ class bar3(object):
                 self.p = not self.p
                 x = x + 1
             elif foo("Long"[0]) == 1:
-                self.p = self is None
+                self.p = $Var is None
 
         return "Nope"
 
@@ -257,7 +257,7 @@ class bar4(object):
         count = count + 1
 
         while x <= 0:
-            if self.$ID:
+            if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1

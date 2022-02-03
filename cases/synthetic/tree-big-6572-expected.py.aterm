@@ -1,1 +1,1 @@
-Var2Exp(Var("makeNode5"))
+Member(Member2Exp(Member(Var2Exp(Var("self")),"root")),"contains")

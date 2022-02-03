@@ -933,7 +933,7 @@ def vrange4(i:int, j:int, i2:int, j2:int, i3:int, j3:int, i4:int, j4:int) -> Vec
     
     while i < j:
         v.append(i)
-        i = i + 1
+        i = i + $Exp
 
     return v
 
@@ -1017,7 +1017,7 @@ def sieve4(v:Vector, v2:Vector, v3:Vector, v4:Vector) -> object:
     j4:int = 0
     k:int = 0
     k2:int = 0
-    $FuncBodyMember
+    k3:int = 0
     k4:int = 0
 
     while i < v.length():

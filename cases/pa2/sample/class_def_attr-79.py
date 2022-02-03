@@ -12,8 +12,8 @@ a:A = None
 b:B = None
 c:C = None
 
-a = A()
-b = $Exp()
+a = $Var()
+b = B()
 c = C()
 
 a.x = 1

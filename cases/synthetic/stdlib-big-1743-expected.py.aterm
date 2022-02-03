@@ -1,1 +1,1 @@
-Var2Target(Var("sign"))
+VarDef(TypedVar("result3",Type("int")),Int("0"))

@@ -578,7 +578,7 @@ class bar5(object):
         x5:int = 0
         y:int = 1
         y2:int = 1
-        y3:int = 1
+        y3:int = $INT
         y4:int = 1
         y5:int = 1
 
@@ -634,6 +634,6 @@ class bar5(object):
 
         return "Nope"
 
-print(bar().baz($Parameters))
+print(bar().baz([1,2]))
 
 

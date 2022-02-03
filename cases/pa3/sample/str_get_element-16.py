@@ -1,5 +1,5 @@
 x:str = "abc"
-a:str = $STRING
+a:str = $Literal
 b:str = ""
 c:str = ""
 

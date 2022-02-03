@@ -1,1 +1,1 @@
-Exps2Parameters([Literal2Exp(Int("0"))])
+Target(Member2Target(Member(Var2Exp(Var("self")),"p")))

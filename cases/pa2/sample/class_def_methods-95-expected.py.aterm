@@ -1,1 +1,1 @@
-VarDef2Definition(VarDef(TypedVar("b",Type("B")),NONE()))
+Var2Exp(Var("self"))

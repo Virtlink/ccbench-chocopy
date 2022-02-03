@@ -72,12 +72,12 @@ a:A = None
 a2:A = None
 a3:A = None
 a4:A = None
-a5:A = None
+a5:$ID = None
 b:B = None
 b2:B = None
 b3:B = None
 b4:B = None
-$VarDef
+b5:B = None
 c:C = None
 c2:C = None
 c3:C = None

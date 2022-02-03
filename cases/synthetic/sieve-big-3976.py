@@ -436,7 +436,7 @@ class Vector4(object):
 
         while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
-            idx = idx + 1
+            $Statement
 
         self.size = self.size - 1
 
@@ -490,7 +490,7 @@ class Vector5(object):
 
     # Returns current capacity
     def capacity(self:"Vector5") -> int:
-        return len($Exp.items)
+        return len(self.items)
 
     # Returns current capacity
     def capacity2(self:"Vector5") -> int:

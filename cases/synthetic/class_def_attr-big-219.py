@@ -36,11 +36,10 @@ class B3(A):
         pass
 
 class B4(A):
-    def __init__(self: "B4"):
-        pass
+    $FuncDef
 
 class B5(A):
-    def __init__($ID: "B5"):
+    def __init__(self: "B5"):
         pass
 
 class C(B):

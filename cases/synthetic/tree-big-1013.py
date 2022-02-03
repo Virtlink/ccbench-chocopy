@@ -113,19 +113,7 @@ class TreeNode3(object):
     right3:"TreeNode3" = None
 
     def insert(self:"TreeNode3", x:int) -> bool:
-        if x < self.value:
-            if self.left is None:
-                self.left = makeNode3(x, x, x)
-                return True
-            else:
-                return self.left.insert(x)
-        elif x > self.value:
-            if self.right is $Exp:
-                self.right = makeNode3(x, x, x)
-                return True
-            else:
-                return self.right.insert(x)
-        return False
+        $FuncBody
 
     def insert2(self:"TreeNode3", x:int, x2:int) -> bool:
         if x < self.value:

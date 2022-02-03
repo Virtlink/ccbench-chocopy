@@ -1,1 +1,1 @@
-Add(Var2Exp(Var("x")),Var2Exp(Var("y")))
+FuncBody([],[Return(Add(Var2Exp(Var("x")),Var2Exp(Var("y"))))])

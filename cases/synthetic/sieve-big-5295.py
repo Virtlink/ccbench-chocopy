@@ -583,7 +583,7 @@ class Vector5(object):
     def append_all2(self:"Vector5", new_items: [int], new_items2: [int]) -> object:
         item:int = 0
         item2:int = 0
-        for item in new_items:
+        for item in $ID:
             self.append(item)
 
     # Appends many items to end of vector
@@ -640,7 +640,7 @@ class Vector5(object):
         if idx < 0:
             return
 
-        while $Exp:
+        while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 

@@ -430,7 +430,7 @@ class bar5(object):
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1
-            elif foo("Long"[0]) == 1:
+            elif foo($Exp[0]) == 1:
                 self.p = self is None
 
         return "Nope"
@@ -471,7 +471,49 @@ class bar5(object):
 
         return "Nope"
 
-    $FuncDef
+    def baz3(self:"bar5", xx: [int], xx2: [int], xx3: [int]) -> str:
+        global count
+        x:int = 0
+        x2:int = 0
+        x3:int = 0
+        y:int = 1
+        y2:int = 1
+        y3:int = 1
+
+        def qux(y: int) -> object:
+            nonlocal x
+            if x > y:
+                x = -1
+
+        def qux2(y: int, y2: int) -> object:
+            nonlocal x
+            nonlocal x2
+            if x > y:
+                x = -1
+
+        def qux3(y: int, y2: int, y3: int) -> object:
+            nonlocal x
+            nonlocal x2
+            nonlocal x3
+            if x > y:
+                x = -1
+
+        for x in xx:
+            self.p = x == 2
+
+        qux(0) # Yay! ChocoPy
+
+        count = count + 1
+
+        while x <= 0:
+            if self.p:
+                xx[0] = xx[1]
+                self.p = not self.p
+                x = x + 1
+            elif foo("Long"[0]) == 1:
+                self.p = self is None
+
+        return "Nope"
 
     def baz4(self:"bar5", xx: [int], xx2: [int], xx3: [int], xx4: [int]) -> str:
         global count

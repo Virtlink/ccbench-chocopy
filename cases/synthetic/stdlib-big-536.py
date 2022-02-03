@@ -59,10 +59,10 @@ def int_to_str3(x: int, x2: int, x3: int) -> str:
     result = result + digits[x % 10]
     return result
     
-def int_to_str4(x: int, x2: int, x3: int, x4: int) -> str:
+def int_to_str4(x: $Type, x2: int, x3: int, x4: int) -> str:
     digits:[str] = None 
     digits2:[str] = None 
-    digits3:$Type = None 
+    digits3:[str] = None 
     digits4:[str] = None 
     result:str = ""
     result2:str = ""

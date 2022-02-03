@@ -1,1 +1,1 @@
-TypeS(IdString("Vector5"))
+FuncDef("length3",[TypedVar("self",TypeS(IdString("Vector4")))],Returns(Type("int")),FuncBody([],[Return(Member2Exp(Member(Var2Exp(Var("self")),"size")))]))

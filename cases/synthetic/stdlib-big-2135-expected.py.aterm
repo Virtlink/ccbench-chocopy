@@ -1,1 +1,1 @@
-"first_char2"
+TypedVar("x",Type("str"))

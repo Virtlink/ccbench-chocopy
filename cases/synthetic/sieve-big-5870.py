@@ -641,7 +641,7 @@ class Vector5(object):
             return
 
         while idx < self.size - 1:
-            self.items[idx] = self.items[idx + 1]
+            self.items[idx] = self.items[$Exp + 1]
             idx = idx + 1
 
         self.size = self.size - 1
@@ -706,7 +706,7 @@ class Vector5(object):
 
     # Retrieves the current size of the vector
     def length5(self:"Vector5") -> int:
-        return self.$ID
+        return self.size
 
 # A faster (but more memory-consuming) implementation of vector
 class DoublingVector(Vector):

@@ -24,7 +24,7 @@ def int_to_str2(x: int, x2: int) -> str:
     result2:str = ""
 
     # Set-up digit mapping
-    digits = ["0", "1", "2", "3", "4", "5", "6", $STRING, "8", "9"]
+    digits = ["0", $STRING, "2", "3", "4", "5", "6", "7", "8", "9"]
 
     # Write sign if necessary
     if x < 0:

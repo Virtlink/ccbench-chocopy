@@ -17,9 +17,9 @@ def int_to_str(x: int) -> str:
     result = result + digits[x % 10]
     return result
 
-def int_to_str2(x: int, x2: int) -> str:
+def int_to_str2(x: int, x2: int) -> $ID:
     digits:[str] = None 
-    digits2:$Type = None 
+    digits2:[str] = None 
     result:str = ""
     result2:str = ""
 

@@ -25,10 +25,10 @@ class A5(object):
 
 class B(A):
     def __init__(self: "B"):
-        pass
+        $Statement
 
 class B2(A):
-    def __init__($ID: "B2"):
+    def __init__(self: "B2"):
         pass
 
 class B3(A):

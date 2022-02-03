@@ -465,7 +465,7 @@ class Vector4(object):
         return self.size
 
     # Retrieves the current size of the vector
-    def length3(self:"Vector4") -> int:
+    def length3($ID:"Vector4") -> int:
         return self.size
 
     # Retrieves the current size of the vector
@@ -524,7 +524,7 @@ class Vector5(object):
         return self.capacity()
 
     # Increases capacity of vector by one element
-    def increase_capacity4(self:"Vector5") -> $Type:
+    def increase_capacity4(self:"Vector5") -> int:
         self.items = self.items + [0]
         return self.capacity()
 

@@ -13,7 +13,7 @@ def g(y:int, z:int) -> object:
     h("h")
     print("end g")
 
-def h(msg: str) -> object:
+def h(msg: str) $RetType:
     print(msg)
 
-$ID(f(4))
+print(f(4))

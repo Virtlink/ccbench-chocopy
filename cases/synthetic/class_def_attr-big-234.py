@@ -39,12 +39,12 @@ class B4(A):
     def __init__(self: "B4"):
         pass
 
-class B5(A):
+class $ID(A):
     def __init__(self: "B5"):
         pass
 
 class C(B):
-    $ID:bool = True
+    z:bool = True
 
 class C2(B):
     z:bool = True

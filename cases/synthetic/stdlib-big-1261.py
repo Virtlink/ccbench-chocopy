@@ -141,7 +141,7 @@ def str_to_int(x: str) -> int:
         elif char == "7":
             digit = 7
         elif char == "8":
-            digit = 8
+            digit = $Literal
         elif char == "9":
             digit = 9
         else:
@@ -156,7 +156,7 @@ def str_to_int(x: str) -> int:
 def str_to_int2(x: str, x2: str) -> int:
     result:int = 0
     result2:int = 0
-    $VarDef
+    digit:int = 0
     digit2:int = 0
     char:str = ""
     char2:str = ""

@@ -93,12 +93,12 @@ b = B()
 b2 = B()
 b3 = B()
 b4 = B()
-b5 = B()
+$Var = B()
 c = C()
 c2 = C()
 c3 = C()
 c4 = C()
-$ID = C()
+c5 = C()
 
 a.x = 1
 b.x = a.x

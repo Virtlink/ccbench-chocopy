@@ -314,7 +314,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
 
 def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
     result:int = 0
-    result2:int = 0
+    result2:int = $Literal
     result3:int = 0
     result4:int = 0
     result5:int = 0
@@ -341,7 +341,7 @@ def str_to_int5(x: str, x2: str, x3: str, x4: str, x5: str) -> int:
 
     # Parse digits
     for char in x:
-        if $ID == "-":
+        if char == "-":
             if not first_char:
                 return 0 # Error
             sign = -1

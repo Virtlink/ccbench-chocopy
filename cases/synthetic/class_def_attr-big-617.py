@@ -94,13 +94,13 @@ b2 = B()
 b3 = B()
 b4 = B()
 b5 = B()
-c = C()
+$Var = C()
 c2 = C()
 c3 = C()
 c4 = C()
 c5 = C()
 
-$ID.x = 1
+a.x = 1
 b.x = a.x
 c.z = a.x == b.x
 

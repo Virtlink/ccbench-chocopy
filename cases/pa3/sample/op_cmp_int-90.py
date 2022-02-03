@@ -6,7 +6,7 @@ print(x != y)
 print(x < y)
 print(x <= y)
 print(x > y)
-print($Var >= y)
+$Exp
 
 print(x == x)
 print(x != x)

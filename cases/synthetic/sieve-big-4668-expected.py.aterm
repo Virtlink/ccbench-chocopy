@@ -1,1 +1,1 @@
-Member(Var2Exp(Var("self")),"increase_capacity")
+Literal2Exp(Int("0"))

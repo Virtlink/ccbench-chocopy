@@ -335,7 +335,7 @@ class TreeNode5(object):
     value2:int = 0
     value3:int = 0
     value4:int = 0
-    value5:int = 0
+    value5:$ID = 0
     left:"TreeNode5" = None
     left2:"TreeNode5" = None
     left3:"TreeNode5" = None
@@ -364,7 +364,11 @@ class TreeNode5(object):
 
     def insert2(self:"TreeNode5", x:int, x2:int) -> bool:
         if x < self.value:
-            $Statement
+            if self.left is None:
+                self.left = makeNode5(x, x, x, x, x)
+                return True
+            else:
+                return self.left.insert(x)
         elif x > self.value:
             if self.right is None:
                 self.right = makeNode5(x, x, x, x, x)

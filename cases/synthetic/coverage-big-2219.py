@@ -276,7 +276,7 @@ class bar4(object):
 
         def qux(y: int) -> object:
             nonlocal x
-            if x > y:
+            if $Exp > y:
                 x = -1
 
         def qux2(y: int, y2: int) -> object:
@@ -300,7 +300,7 @@ class bar4(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        $Statement
+        return "Nope"
 
     def baz3(self:"bar4", xx: [int], xx2: [int], xx3: [int]) -> str:
         global count

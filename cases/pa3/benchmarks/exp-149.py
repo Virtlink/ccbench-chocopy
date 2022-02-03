@@ -21,5 +21,4 @@ i:int = 0
 
 # Crunch
 while i <= n:
-	print(exp(2, $ID % 31))
-	i = i + 1
+	$Block

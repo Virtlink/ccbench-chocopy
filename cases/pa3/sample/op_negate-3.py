@@ -1,2 +1,2 @@
-$TypedVar = 42
+$VarDef
 print(-x)

@@ -4,7 +4,7 @@ def outer() -> int:
         x = 1
         return x
     x:int = 0
-    inner()
-    return $Var
+    $Statement
+    return x
 
 print(outer())

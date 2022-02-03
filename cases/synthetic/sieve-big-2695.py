@@ -308,7 +308,7 @@ class Vector4(object):
 
     # Returns current capacity
     def capacity3(self:"Vector4") -> int:
-        return len(self.items)
+        return len($Var.items)
 
     # Returns current capacity
     def capacity4(self:"Vector4") -> int:
@@ -340,7 +340,7 @@ class Vector4(object):
             self.increase_capacity()
 
         self.items[self.size] = item
-        self.size = $Exp.size + 1
+        self.size = self.size + 1
 
     # Appends one item to end of vector
     def append2(self:"Vector4", item: int, item2: int) -> object:

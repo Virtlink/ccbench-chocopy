@@ -469,7 +469,7 @@ class TreeNode5(object):
             if self.left is None:
                 return False
             else:
-                return self.left.contains(x)
+                return self.left.contains($Exp)
         elif x > self.value:
             if self.right is None:
                 return False
@@ -519,7 +519,7 @@ class Tree2(object):
 
     def insert(self:"Tree2", x:int) -> object:
         if self.root is None:
-            $AssignTarget makeNode2(x, x)
+            self.root = makeNode2(x, x)
             self.size = 1
         else:
             if self.root.insert(x):

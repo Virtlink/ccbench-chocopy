@@ -351,7 +351,7 @@ class bar4(object):
         x:int = 0
         x2:int = 0
         x3:int = 0
-        x4:int = 0
+        $VarDef
         y:int = 1
         y2:int = 1
         y3:int = 1
@@ -390,7 +390,7 @@ class bar4(object):
 
         count = count + 1
 
-        while $Exp:
+        while x <= 0:
             if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p

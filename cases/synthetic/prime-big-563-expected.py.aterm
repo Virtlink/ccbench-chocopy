@@ -1,1 +1,1 @@
-Assign([Target(Var2Target(Var("div")))],Add(Var2Exp(Var("div")),Literal2Exp(Int("1"))))
+"int"

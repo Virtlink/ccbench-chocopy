@@ -7,11 +7,7 @@ def f(x:int) -> int:
 
     
 def g(y:int, z:int) -> object:
-    print($STRING)
-    print(y)
-    print(z)
-    h("h")
-    print("end g")
+    $FuncBody
 
 def h(msg: str) -> object:
     print(msg)

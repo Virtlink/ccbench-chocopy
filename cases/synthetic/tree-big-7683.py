@@ -742,8 +742,7 @@ class Tree5(object):
     def contains5(self:"Tree5", x:int, x2:int, x3:int, x4:int, x5:int) -> bool:
         if self.root is None:
             return False
-        else:
-            return self.root.contains(x)
+        $ElifElse
 
 def makeNode(x: int) -> TreeNode:
     b:TreeNode = None
@@ -828,4 +827,4 @@ print(t.size)
 
 for i in [4, 8, 15, 16, 23, 42]:
     if t.contains(i):
-        $Exp
+        print(i)

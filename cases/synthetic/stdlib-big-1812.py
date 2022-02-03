@@ -212,7 +212,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
     char2:str = ""
     char3:str = ""
     sign:int = 1
-    sign2:int = 1
+    sign2:int = $Literal
     sign3:int = 1
     first_char:bool = True
     first_char2:bool = True
@@ -231,7 +231,7 @@ def str_to_int3(x: str, x2: str, x3: str) -> int:
         elif char == "2":
             digit = 2
         elif char == "3":
-            $Target = 3
+            digit = 3
         elif char == "3":
             digit = 3
         elif char == "4":

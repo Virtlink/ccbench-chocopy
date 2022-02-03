@@ -5,9 +5,9 @@ class B(A):
     b:bool = True
 
     def __init__(self:"B"):
-        print("B")
+        $Var("B")
 
-$Definition
+a:A = None
 b:B = None
 
 def get_b() -> B:

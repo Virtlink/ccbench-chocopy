@@ -1,1 +1,1 @@
-TypedVar("size2",Type("int"))
+Target(Member2Target(Member(Var2Exp(Var("self")),"size")))

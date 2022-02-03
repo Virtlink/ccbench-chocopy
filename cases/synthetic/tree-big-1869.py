@@ -197,7 +197,7 @@ class TreeNode3(object):
             else:
                 return self.right.contains(x)
         else:
-            return True
+            return $Literal
 
 
 class TreeNode4(object):
@@ -218,7 +218,7 @@ class TreeNode4(object):
         if x < self.value:
             if self.left is None:
                 self.left = makeNode4(x, x, x, x)
-                $Statement
+                return True
             else:
                 return self.left.insert(x)
         elif x > self.value:

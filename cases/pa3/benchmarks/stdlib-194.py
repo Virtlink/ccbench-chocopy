@@ -20,9 +20,9 @@ def int_to_str(x: int) -> str:
 def str_to_int(x: str) -> int:
     result:int = 0
     digit:int = 0
-    char:str = ""
+    char:str = $STRING
     sign:int = 1
-    first_char:bool = $Literal
+    first_char:bool = True
 
     # Parse digits
     for char in x:

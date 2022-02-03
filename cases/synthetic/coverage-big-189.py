@@ -17,10 +17,10 @@ def foo4(s: str, s2: str, s3: str, s4: str) -> int:
     return len(s)
 
 def foo5(s: str, s2: str, s3: str, s4: str, s5: str) -> int:
-    return len(s)
+    $FuncBody
 
 class bar(object):
-    $ID: bool = True
+    p: bool = True
 
     def baz(self:"bar", xx: [int]) -> str:
         global count

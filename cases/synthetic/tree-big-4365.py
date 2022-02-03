@@ -437,7 +437,7 @@ class TreeNode5(object):
             return True
 
     def contains2(self:"TreeNode5", x:int, x2:int) -> bool:
-        if x < self.value:
+        if $Exp:
             if self.left is None:
                 return False
             else:
@@ -479,7 +479,7 @@ class TreeNode5(object):
             return True
 
     def contains5(self:"TreeNode5", x:int, x2:int, x3:int, x4:int, x5:int) -> bool:
-        if x < self.$ID:
+        if x < self.value:
             if self.left is None:
                 return False
             else:

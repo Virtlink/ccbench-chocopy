@@ -50,13 +50,13 @@ class bar(object):
         return "Nope"
 
 
-class bar2(object):
+class bar2($ID):
     p: bool = True
     p2: bool = True
 
     def baz(self:"bar2", xx: [int]) -> str:
         global count
-        x:int = $INT
+        x:int = 0
         y:int = 1
 
         def qux(y: int) -> object:

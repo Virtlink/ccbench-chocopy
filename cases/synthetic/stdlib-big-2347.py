@@ -281,7 +281,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
         if char == "-":
             if not first_char:
                 return 0 # Error
-            sign = -1
+            sign = $Exp
         elif char == "0":
             digit = 0
         elif char == "1":
@@ -300,7 +300,7 @@ def str_to_int4(x: str, x2: str, x3: str, x4: str) -> int:
             digit = 6
         elif char == "7":
             digit = 7
-        elif char == $STRING:
+        elif char == "8":
             digit = 8
         elif char == "9":
             digit = 9

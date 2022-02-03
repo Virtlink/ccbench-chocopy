@@ -1,5 +1,5 @@
 class A(object):
-    x:$ID = 1
+    $ID:int = 1
 
 class A2(object):
     x:int = 1

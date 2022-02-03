@@ -1,1 +1,1 @@
-TypedVar("y",Type("bool"))
+VarDef(TypedVar("y",Type("bool")),True())

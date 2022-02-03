@@ -1,5 +1,5 @@
-if True:
-    $Block
+if $Exp:
+    False
 else:
     True
 

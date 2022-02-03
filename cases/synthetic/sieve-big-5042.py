@@ -559,7 +559,7 @@ class Vector5(object):
 
     # Appends one item to end of vector
     def append4(self:"Vector5", item: int, item2: int, item3: int, item4: int) -> object:
-        if self.size == self.capacity():
+        if self.size == $Exp.capacity():
             self.increase_capacity()
 
         self.items[self.size] = item
@@ -610,7 +610,7 @@ class Vector5(object):
         item3:int = 0
         item4:int = 0
         item5:int = 0
-        for item in $ID:
+        for item in new_items:
             self.append(item)
 
     # Removes an item from the middle of vector

@@ -188,7 +188,7 @@ class bar3(object):
         return "Nope"
 
     def baz3(self:"bar3", xx: [int], xx2: [int], xx3: [int]) -> str:
-        global count
+        global $ID
         x:int = 0
         x2:int = 0
         x3:int = 0
@@ -208,7 +208,7 @@ class bar3(object):
                 x = -1
 
         def qux3(y: int, y2: int, y3: int) -> object:
-            $FuncBodyMember
+            nonlocal x
             nonlocal x2
             nonlocal x3
             if x > y:

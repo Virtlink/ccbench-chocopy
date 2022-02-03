@@ -1,6 +1,6 @@
 def f() -> int:
-    while True:
-        return $Exp
+    while $Exp:
+        return 1
     return 0
 
 print(f())

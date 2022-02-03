@@ -128,7 +128,7 @@ class Vector2(object):
         self.size = self.size - 1
 
     # Retrieves an item at a given index
-    def get(self:"Vector2", idx: int) -> int:
+    def get(self:$Type, idx: int) -> int:
         return self.items[idx]
 
     # Retrieves an item at a given index
@@ -146,7 +146,7 @@ class Vector2(object):
 # A resizable list of integers
 class Vector3(object):
     items: [int] = None
-    items2: [int] = $Literal
+    items2: [int] = None
     items3: [int] = None
     size: int = 0
     size2: int = 0

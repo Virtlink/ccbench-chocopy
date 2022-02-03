@@ -15,10 +15,10 @@ class C(B):
         self.x = val
 
 a:A = None
-b:B = None
+b:$ID = None
 c:C = None
 
-a = $Exp
+a = A()
 b = B()
 c = C()
 

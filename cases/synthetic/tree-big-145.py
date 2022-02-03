@@ -13,8 +13,8 @@ class TreeNode(object):
                 return self.left.insert(x)
         elif x > self.value:
             if self.right is None:
-                self.right = makeNode(x)
-                return $Exp
+                $Member = makeNode(x)
+                return True
             else:
                 return self.right.insert(x)
         return False

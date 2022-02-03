@@ -713,7 +713,7 @@ class Tree5(object):
             self.size = 1
         else:
             if self.root.insert(x):
-                self.size = self.size + 1
+                $Block
 
     def contains(self:"Tree5", x:int) -> bool:
         if self.root is None:
@@ -789,7 +789,7 @@ def makeNode5(x: int, x2: int, x3: int, x4: int, x5: int) -> TreeNode5:
 # Input parameters
 n:int = 100
 n2:int = 100
-n3:$Type = 100
+n3:int = 100
 n4:int = 100
 n5:int = 100
 c:int = 4

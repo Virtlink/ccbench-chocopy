@@ -107,7 +107,7 @@ def int_to_str5(x: int, x2: int, x3: int, x4: int, x5: int) -> str:
     if x >= 10:
         result = result + int_to_str(x // 10)
     result = result + digits[x % 10]
-    return result
+    $Statement
 
 def str_to_int(x: str) -> int:
     result:int = 0
@@ -118,7 +118,7 @@ def str_to_int(x: str) -> int:
 
     # Parse digits
     for char in x:
-        if $Exp:
+        if char == "-":
             if not first_char:
                 return 0 # Error
             sign = -1

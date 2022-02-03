@@ -1,4 +1,4 @@
-$VarDef
+$Definition
 
 def foo(s: str) -> int:
     return len(s)

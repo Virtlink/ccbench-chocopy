@@ -1,4 +1,4 @@
-x:$Type = 1
+$ID:int = 1
 o:object = None
 
 x = o = 42

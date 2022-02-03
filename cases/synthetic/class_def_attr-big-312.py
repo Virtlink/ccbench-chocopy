@@ -55,11 +55,7 @@ class C3(B):
     z2:bool = True
     z3:bool = True
 
-class C4(B):
-    z:bool = True
-    z2:bool = True
-    z3:bool = True
-    $ID:bool = True
+$Definition
 
 class C5(B):
     z:bool = True

@@ -576,7 +576,7 @@ class bar5(object):
         x3:int = 0
         x4:int = 0
         x5:int = 0
-        y:int = 1
+        y:$ID = 1
         y2:int = 1
         y3:int = 1
         y4:int = 1
@@ -632,7 +632,7 @@ class bar5(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        return $Exp
+        return "Nope"
 
 print(bar().baz([1,2]))
 

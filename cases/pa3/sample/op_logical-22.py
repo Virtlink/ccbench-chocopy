@@ -1,8 +1,8 @@
 def f() -> bool:
   print("f called")
-  return True
+  $Statement
 
-def $ID() -> bool:
+def g() -> bool:
   print("g called")
   return False
 

@@ -1,5 +1,5 @@
 class A(object):
-    a:int = $INT
+    a:$ID = 42
 
     def foo(self:"A", ignore:object) -> int:
         return self.a

@@ -1,1 +1,1 @@
-"digit"
+VarDef(TypedVar("first_char",Type("bool")),True())

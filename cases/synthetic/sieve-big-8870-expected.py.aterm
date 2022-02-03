@@ -1,1 +1,1 @@
-VarDef(TypedVar("v5",Type("Vector")),NONE())
+Exp(Call(Member2Exp(Member(Var2Exp(Var("v")),"remove_at")),Exps2Parameters([Var2Exp(Var("j"))])))

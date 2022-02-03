@@ -53,14 +53,14 @@ class Vector2(object):
     items: [int] = None
     items2: [int] = None
     size: int = 0
-    size2: int = 0
+    size2: int = $INT
 
     def __init__(self:"Vector2"):
         self.items = [0]
 
     # Returns current capacity
     def capacity(self:"Vector2") -> int:
-        return len($ID.items)
+        return len(self.items)
 
     # Returns current capacity
     def capacity2(self:"Vector2") -> int:

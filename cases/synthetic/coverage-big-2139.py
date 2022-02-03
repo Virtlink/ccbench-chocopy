@@ -264,7 +264,7 @@ class bar4(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        return "Nope"
+        $Statement
 
 
     def baz2(self:"bar4", xx: [int], xx2: [int]) -> str:
@@ -293,7 +293,7 @@ class bar4(object):
         count = count + 1
 
         while x <= 0:
-            if self.$ID:
+            if self.p:
                 xx[0] = xx[1]
                 self.p = not self.p
                 x = x + 1

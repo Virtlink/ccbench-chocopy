@@ -214,7 +214,7 @@ class bar3(object):
             if x > y:
                 x = -1
 
-        for x in xx:
+        for x in $Var:
             self.p = x == 2
 
         qux(0) # Yay! ChocoPy
@@ -235,7 +235,7 @@ class bar3(object):
 
 class bar4(object):
     p: bool = True
-    $TypedVar = True
+    p2: bool = True
     p3: bool = True
     p4: bool = True
 

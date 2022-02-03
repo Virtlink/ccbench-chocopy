@@ -27,14 +27,14 @@ class TreeNode(object):
                 return self.left.contains(x)
         elif x > self.value:
             if self.right is None:
-                return False
+                return $Literal
             else:
                 return self.right.contains(x)
         else:
             return True
 
 
-class TreeNode2($ID):
+class TreeNode2(object):
     value:int = 0
     value2:int = 0
     left:"TreeNode2" = None

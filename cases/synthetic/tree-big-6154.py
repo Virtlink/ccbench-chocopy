@@ -617,8 +617,7 @@ class Tree4(object):
 
     def insert2(self:"Tree4", x:int, x2:int) -> object:
         if self.root is None:
-            self.root = makeNode4(x, x, x, x)
-            self.size = 1
+            $Block
         else:
             if self.root.insert(x):
                 self.size = self.size + 1
@@ -667,7 +666,7 @@ class Tree5(object):
     root:TreeNode5 = None
     root2:TreeNode5 = None
     root3:TreeNode5 = None
-    $TypedVar = None
+    root4:TreeNode5 = None
     root5:TreeNode5 = None
     size:int = 0
     size2:int = 0

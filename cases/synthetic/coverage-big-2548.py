@@ -316,11 +316,7 @@ class bar4(object):
             if x > y:
                 x = -1
 
-        def qux2(y: int, y2: int) -> object:
-            nonlocal x
-            nonlocal x2
-            if x > y:
-                x = -1
+        $FuncBodyMember
 
         def qux3(y: int, y2: int, y3: int) -> object:
             nonlocal x
@@ -344,7 +340,7 @@ class bar4(object):
             elif foo("Long"[0]) == 1:
                 self.p = self is None
 
-        $Statement
+        return "Nope"
 
     def baz4(self:"bar4", xx: [int], xx2: [int], xx3: [int], xx4: [int]) -> str:
         global count

@@ -1,1 +1,1 @@
-"bool"
+VarDef2ClassBodyMember(VarDef(TypedVar("root",Type("TreeNode3")),NONE()))

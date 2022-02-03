@@ -50,12 +50,12 @@ def int_to_str3(x: int, x2: int, x3: int) -> str:
 
     # Write sign if necessary
     if x < 0:
-        result = "-"
+        $Var = "-"
         x = -x
 
     # Write digits using a recursive call
     if x >= 10:
-        result = result + $Exp
+        result = result + int_to_str(x // 10)
     result = result + digits[x % 10]
     return result
     

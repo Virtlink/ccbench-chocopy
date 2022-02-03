@@ -348,7 +348,7 @@ class Vector4(object):
             self.increase_capacity()
 
         self.items[self.size] = item
-        self.size = self.size + 1
+        $Exp.size = self.size + 1
 
     # Appends one item to end of vector
     def append3(self:"Vector4", item: int, item2: int, item3: int) -> object:
@@ -380,7 +380,7 @@ class Vector4(object):
             self.append(item)
 
     # Appends many items to end of vector
-    def append_all3(self:"Vector4", new_items: [$ID], new_items2: [int], new_items3: [int]) -> object:
+    def append_all3(self:"Vector4", new_items: [int], new_items2: [int], new_items3: [int]) -> object:
         item:int = 0
         item2:int = 0
         item3:int = 0

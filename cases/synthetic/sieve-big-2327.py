@@ -258,7 +258,7 @@ class Vector3(object):
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
-        self.size = self.size - 1
+        $Statement
 
     # Retrieves an item at a given index
     def get(self:"Vector3", idx: int) -> int:
@@ -291,7 +291,7 @@ class Vector4(object):
     items3: [int] = None
     items4: [int] = None
     size: int = 0
-    size2: int = $Literal
+    size2: int = 0
     size3: int = 0
     size4: int = 0
 

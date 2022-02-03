@@ -1,1 +1,1 @@
-Assign([Target(Member2Target(Member(Var2Exp(Var("self")),"right")))],Call(Var2Exp(Var("makeNode4")),Exps2Parameters([Var2Exp(Var("x")),Var2Exp(Var("x")),Var2Exp(Var("x")),Var2Exp(Var("x"))])))
+TypeS(IdString("TreeNode4"))

@@ -1,1 +1,1 @@
-"contains"
+TypedVar("x",Type("int"))

@@ -3,9 +3,10 @@ b:str = "World"
 c:str = "ChocoPy"
 
 def eq(a:str, b:str) -> bool:
-    return a == b
+    return a == $Exp
 
-$FuncDef
+def neq(a:str, b:str) -> bool:
+    return a != b
 
 print(eq(a,a))
 print(eq(a,b))

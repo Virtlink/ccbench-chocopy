@@ -1,1 +1,1 @@
-TypedVar("a",Type("A"))
+TypedVar("z",Type("bool"))

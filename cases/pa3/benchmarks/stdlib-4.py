@@ -1,5 +1,5 @@
 # ChocoPy library functions
-def int_to_str($TypedVar) -> str:
+def $ID(x: int) -> str:
     digits:[str] = None 
     result:str = ""
 

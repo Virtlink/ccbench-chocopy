@@ -1,5 +1,5 @@
 def f() -> int:
   x:int = 1
-  return x
+  return $Var
 
-$Exp(f())
+print(f())

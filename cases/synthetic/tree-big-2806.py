@@ -288,7 +288,7 @@ class TreeNode4(object):
         else:
             return True
 
-    def contains2(self:"TreeNode4", x:int, x2:int) -> bool:
+    def contains2(self:"TreeNode4", x:$Type, x2:int) -> bool:
         if x < self.value:
             if self.left is None:
                 return False
@@ -316,7 +316,7 @@ class TreeNode4(object):
         else:
             return True
 
-    def contains4(self:"TreeNode4", x:int, x2:int, x3:int, x4:int) $RetType:
+    def contains4(self:"TreeNode4", x:int, x2:int, x3:int, x4:int) -> bool:
         if x < self.value:
             if self.left is None:
                 return False

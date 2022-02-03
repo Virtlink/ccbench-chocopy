@@ -1,1 +1,1 @@
-print($INT*9*2)
+print($Exp*2)

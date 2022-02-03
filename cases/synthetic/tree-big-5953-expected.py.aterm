@@ -1,1 +1,1 @@
-Var("self")
+TypedVar("root",Type("TreeNode4"))

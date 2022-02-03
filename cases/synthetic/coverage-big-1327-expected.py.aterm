@@ -1,1 +1,1 @@
-Member2Target(Member(Var2Exp(Var("self")),"p"))
+FuncDef2FuncBodyMember(FuncDef("qux2",[TypedVar("y",Type("int")),TypedVar("y2",Type("int"))],Returns(Type("object")),FuncBody([Nonlocal("x"),Nonlocal("x2")],[If(Gt(Var2Exp(Var("x")),Var2Exp(Var("y"))),Block([Assign([Target(Var2Target(Var("x")))],Negative(Literal2Exp(Int("1"))))]))])))

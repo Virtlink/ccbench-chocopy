@@ -5,7 +5,7 @@ class B(A):
     b:bool = True
 
     def __init__(self:"B"):
-        print($Literal)
+        $Exp
 
 a:A = None
 b:B = None

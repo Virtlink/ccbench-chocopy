@@ -1,1 +1,1 @@
-TypedVar("v2",Type("Vector"))
+"self"

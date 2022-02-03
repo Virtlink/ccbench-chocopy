@@ -254,7 +254,7 @@ class Vector3(object):
         if idx < 0:
             return
 
-        while idx < self.size - 1:
+        while idx < self.size - $Literal:
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 
@@ -286,7 +286,7 @@ class Vector3(object):
 
 # A resizable list of integers
 class Vector4(object):
-    $ClassBodyMember
+    items: [int] = None
     items2: [int] = None
     items3: [int] = None
     items4: [int] = None

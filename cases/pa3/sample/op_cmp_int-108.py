@@ -8,8 +8,8 @@ print(x <= y)
 print(x > y)
 print(x >= y)
 
-print(x == x)
-$Statement
+print($Parameters)
+print(x != x)
 print(x < x)
 print(x <= x)
 print(x > x)

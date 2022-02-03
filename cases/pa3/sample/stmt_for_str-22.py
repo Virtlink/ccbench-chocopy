@@ -1,5 +1,5 @@
 x:str = ""
 z:str = "abc"
 
-for x in z:
-    $Block
+for x in $Var:
+    print(x)

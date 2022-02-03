@@ -1,5 +1,4 @@
-class $ID(object):
-    a:int = 42
+$ClassDef
 
 class B(A):
     b:bool = True

@@ -2,9 +2,9 @@ def concat(x:[int], y:[int]) -> [int]:
     return x + y
 
 z:[int] = None
-i:int = 0
+i:$ID = 0
 
-$AssignTarget concat([1,2,3], [4,5,6])
+z = concat([1,2,3], [4,5,6])
 
 while i < len(z):
     print(z[i])

@@ -896,7 +896,7 @@ def vrange(i:int, j:int) -> Vector:
     v = DoublingVector()
     
     while i < j:
-        v.append(i)
+        v.append($Exp)
         i = i + 1
 
     return v
@@ -982,7 +982,7 @@ def sieve2(v:Vector, v2:Vector) -> object:
             if v.get(j) % k == 0:
                 v.remove_at(j)
             else:
-                $Block
+                j = j + 1
         i = i + 1
 
 def sieve3(v:Vector, v2:Vector, v3:Vector) -> object:

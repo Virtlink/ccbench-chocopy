@@ -8,5 +8,5 @@ z = [False, True]
 
 y = x[0]
 x[0] = 1
-z[1] = z[$Literal]
+z[$Exp] = z[0]
 o = x[1]

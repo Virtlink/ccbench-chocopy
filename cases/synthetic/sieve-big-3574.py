@@ -398,7 +398,7 @@ class Vector4(object):
 
     # Removes an item from the middle of vector
     def remove_at(self:"Vector4", idx: int) -> object:
-        if idx < 0:
+        if $Var < 0:
             return
 
         while idx < self.size - 1:
@@ -434,7 +434,7 @@ class Vector4(object):
         if idx < 0:
             return
 
-        while idx < self.$ID - 1:
+        while idx < self.size - 1:
             self.items[idx] = self.items[idx + 1]
             idx = idx + 1
 

@@ -1,1 +1,1 @@
-Var2Target(Var("div"))
+Var2Exp(Var("div"))

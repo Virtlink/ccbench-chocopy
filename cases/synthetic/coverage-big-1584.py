@@ -192,7 +192,7 @@ class bar3(object):
         x:int = 0
         x2:int = 0
         x3:int = 0
-        y:int = 1
+        y:int = $Literal
         y2:int = 1
         y3:int = 1
 
@@ -215,7 +215,7 @@ class bar3(object):
                 x = -1
 
         for x in xx:
-            $AssignTarget x == 2
+            self.p = x == 2
 
         qux(0) # Yay! ChocoPy
 

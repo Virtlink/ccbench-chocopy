@@ -161,7 +161,7 @@ def str_to_int2(x: str, x2: str) -> int:
     char:str = ""
     char2:str = ""
     sign:int = 1
-    sign2:int = 1
+    $TypedVar = 1
     first_char:bool = True
     first_char2:bool = True
 
@@ -175,7 +175,7 @@ def str_to_int2(x: str, x2: str) -> int:
             digit = 0
         elif char == "1":
             digit = 1
-        elif char == $STRING:
+        elif char == "2":
             digit = 2
         elif char == "3":
             digit = 3

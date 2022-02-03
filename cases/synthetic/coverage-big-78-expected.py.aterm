@@ -1,1 +1,1 @@
-Var2Exp(Var("len"))
+Returns(Type("int"))

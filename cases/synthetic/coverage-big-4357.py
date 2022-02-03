@@ -542,7 +542,7 @@ class bar5(object):
             nonlocal x2
             nonlocal x3
             if x > y:
-                x = -1
+                $Block
 
         def qux4(y: int, y2: int, y3: int, y4: int) -> object:
             nonlocal x
@@ -588,7 +588,7 @@ class bar5(object):
                 x = -1
 
         def qux2(y: int, y2: int) -> object:
-            nonlocal $ID
+            nonlocal x
             nonlocal x2
             if x > y:
                 x = -1

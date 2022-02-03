@@ -19,9 +19,9 @@ def exp(x: int, y: int) -> int:
             a = a * x
             a2 = a * x
             a3 = a * x
-            a4 = a * x
+            a4 = a * $Var
             a5 = a * x
-            return $Exp(i-1)
+            return f(i-1)
     a = 1
     a2 = 1
     a3 = 1

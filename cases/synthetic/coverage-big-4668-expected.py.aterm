@@ -1,1 +1,1 @@
-Var2Exp(Var("print"))
+TypedVar("y2",Type("int"))

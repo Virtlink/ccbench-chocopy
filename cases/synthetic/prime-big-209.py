@@ -23,9 +23,9 @@ def is_prime(x:int) -> bool:
     return True
 
 def is_prime2(x:int, x2:int) -> bool:
-    div:int = 2
+    $TypedVar = 2
     div2:int = 2
-    div3:$Type = 2
+    div3:int = 2
     div4:int = 2
     div5:int = 2
     while div < x:

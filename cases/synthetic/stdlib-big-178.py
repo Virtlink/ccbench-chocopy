@@ -18,9 +18,9 @@ def int_to_str(x: int) -> str:
     return result
 
 def int_to_str2(x: int, x2: int) -> str:
-    digits:[str] = None 
+    $ID:[str] = None 
     digits2:[str] = None 
-    $TypedVar = ""
+    result:str = ""
     result2:str = ""
 
     # Set-up digit mapping

@@ -1,1 +1,1 @@
-"object"
+TypedVar("ignore",Type("object"))

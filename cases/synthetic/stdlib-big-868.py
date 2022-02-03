@@ -96,7 +96,7 @@ def int_to_str5(x: int, x2: int, x3: int, x4: int, x5: int) -> str:
     result5:str = ""
 
     # Set-up digit mapping
-    digits = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    digits = ["0", $Literal, "2", "3", "4", "5", "6", "7", "8", "9"]
 
     # Write sign if necessary
     if x < 0:
@@ -104,7 +104,7 @@ def int_to_str5(x: int, x2: int, x3: int, x4: int, x5: int) -> str:
         x = -x
 
     # Write digits using a recursive call
-    if $Exp >= 10:
+    if x >= 10:
         result = result + int_to_str(x // 10)
     result = result + digits[x % 10]
     return result

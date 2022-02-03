@@ -1,1 +1,1 @@
-Call(Member2Exp(Member(Var2Exp(Var("self")),"increase_capacity")),Exps2Parameters([]))
+List([Literal2Exp(Int("0"))])

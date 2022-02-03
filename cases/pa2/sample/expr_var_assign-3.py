@@ -1,4 +1,4 @@
-$TypedVar = 1
+$VarDef
 o:object = None
 
 x = o = 42

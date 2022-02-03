@@ -1,1 +1,1 @@
-VarDef2ClassBodyMember(VarDef(TypedVar("items2",ListType(Type("int"))),NONE()))
+Add(Var2Exp(Var("idx")),Literal2Exp(Int("1")))

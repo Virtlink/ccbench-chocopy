@@ -1,5 +1,5 @@
 class A(object):
-    $ClassBodyMember
+    $ClassBody
 
 class B(A):
     b:bool = True

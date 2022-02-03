@@ -86,10 +86,10 @@ c5:C = None
 
 a = A()
 a2 = A()
-a3 = A()
+$Target = A()
 a4 = A()
 a5 = A()
-b = B($Parameters)
+b = B()
 b2 = B()
 b3 = B()
 b4 = B()

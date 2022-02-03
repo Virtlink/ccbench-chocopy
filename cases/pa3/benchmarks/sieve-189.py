@@ -20,11 +20,11 @@ class Vector(object):
         if self.size == self.capacity():
             self.increase_capacity()
 
-        self.items[self.size] = item
+        self.items[self.$ID] = item
         self.size = self.size + 1
 
     # Appends many items to end of vector
-    def $ID(self:"Vector", new_items: [int]) -> object:
+    def append_all(self:"Vector", new_items: [int]) -> object:
         item:int = 0
         for item in new_items:
             self.append(item)

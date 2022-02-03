@@ -1,1 +1,1 @@
-String("\"Long\"")
+Negative(Literal2Exp(Int("1")))

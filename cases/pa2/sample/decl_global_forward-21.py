@@ -1,7 +1,7 @@
 def set_x() -> int:
     global x
-    x = 1
-    return $ID
+    x = $Literal
+    return x
 
 x:int = 0
 

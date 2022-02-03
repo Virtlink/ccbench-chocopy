@@ -1,1 +1,1 @@
-Var("self")
+Block([Return(Literal2Exp(False()))])

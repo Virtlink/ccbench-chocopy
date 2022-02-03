@@ -1,4 +1,4 @@
-def foo(x:str, $TypedVar) -> int:
+def foo(x:$Type, y:bool) -> int:
     return bar()
 
 def bar() -> int:

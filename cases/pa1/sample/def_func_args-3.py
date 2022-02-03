@@ -1,4 +1,3 @@
-def $ID(x:int, y:int) -> bool:
-    return x > y
+$FuncDef
 
 foo(1,2)
